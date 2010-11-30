@@ -195,4 +195,7 @@
   <data name="WebAddress.ButtonToolTip" xml:space="preserve">
     <value>WWW</value>
   </data>
+  <data name="QFButton.Caption" xml:space="preserve">
+    <value>Tester</value>
+  </data>
 </root>
