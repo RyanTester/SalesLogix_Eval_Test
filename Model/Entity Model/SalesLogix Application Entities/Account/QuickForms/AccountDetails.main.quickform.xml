@@ -197,6 +197,16 @@
     </QuickFormElement>
     <QuickFormElement>
       <Properties>
+        <Property name="EntityMappingType" type="System.String">None</Property>
+      </Properties>
+      <ControlDefinition>
+        <Properties>
+          <Property name="Control" type="Sage.Platform.QuickForms.QFControls.QFLabel, Sage.Platform.QuickForms.QFControls"><QFLabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Column>1</Column><Row>6</Row><IsReadOnly>false</IsReadOnly><HotKey>0</HotKey><TabIndex>0</TabIndex><ControlId>QFLabel</ControlId><DataBindings /><ControlLabelPlacement>left</ControlLabelPlacement><CaptionAlignment>left</CaptionAlignment><StyleScheme /><AssociatedControlID /></QFLabel></Property>
+        </Properties>
+      </ControlDefinition>
+    </QuickFormElement>
+    <QuickFormElement>
+      <Properties>
         <Property name="EntityMappingType" type="System.String">Property</Property>
         <Property name="EntityTypeName" type="System.String">IAccount</Property>
         <Property name="EntityNamespace" type="System.String"></Property>
