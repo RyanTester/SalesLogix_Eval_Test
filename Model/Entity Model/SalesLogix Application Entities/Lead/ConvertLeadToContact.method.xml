@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="a8b99935-8b73-4aa3-b50a-f9916f70ad6b" lastModifiedUtc="2007-08-28T16:26:17.9356214Z" name="ConvertLeadToContact" returnType="void" methodType="Rule" actionType="None" returnMode="None" isInstance="true">
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="fd89e593-9bb0-4a92-aed0-7679880090ea" paramName="contact" sequence="0" paramType="IContact" />
+    <OrmEntityMethodParam id="00466b84-5b9f-43eb-8089-d1ff66cb09cd" paramName="account" sequence="0" paramType="IAccount" />
+    <OrmEntityMethodParam id="2ed4a622-d07b-44c0-bdbc-9d5c1d76a678" paramName="rule" sequence="0" paramType="string" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="e1fafd37-ad58-4271-aca5-586c17c25664" lastModifiedUtc="0001-01-01T00:00:00" targetType="Sage.SalesLogix.Lead.Rules, Sage.SalesLogix.BusinessRules" targetMethod="ConvertLeadToContact" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

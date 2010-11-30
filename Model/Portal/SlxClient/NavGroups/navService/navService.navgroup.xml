@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<NavigationGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="204709c3-b8cc-422e-a25a-9890e2d0bc2b">
+  <ItemId>navService</ItemId>
+  <NavUrl />
+  <LargeImageUrl />
+  <SmallImageUrl />
+  <ContextMenuId />
+  <Target />
+</NavigationGroup>

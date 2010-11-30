@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="98d2fc25-fd36-4673-8fa4-70f3ac13b428" cardinality="M:1" parentEntityId="d0716606-fe05-446d-9478-124a4182f48d" childEntityId="6ab738f6-21b0-4fe2-8df5-6f192281423c">
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <column>
+    <OrmRelationshipColumn parentPropertyId="156de808-52a3-40d2-a5bf-97de188d6c54" childPropertyId="ff93a248-20ab-407a-899d-40b1435ca5c3" ordinal="0" />
+  </column>
+  <parentProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmRelationProperty" id="ac3bcad4-cd3d-404e-a9f8-4370093ea1f0" name="User" displayCategory="Intermediate" displayName="User" cultureName="en-US" isNullable="true" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty">
+        <extender guid="4fc827e6-aa9d-4b12-b836-d0871bc288b8">
+          <OrmPropertyExtension>
+            <GenerateGetBy>false</GenerateGetBy>
+          </OrmPropertyExtension>
+        </extender>
+      </extendee>
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="ee1eb00b-6fba-362c-bdbf-f6b422710f0a">
+      <SystemDataTypeBase />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmRelationProperty" id="0ded5881-b12b-4bd2-bb29-5294fd8d148d" name="Property1" displayCategory="Intermediate" displayName="Property1" cultureName="en-US" isNullable="true" include="false">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty">
+        <extender guid="4fc827e6-aa9d-4b12-b836-d0871bc288b8">
+          <OrmPropertyExtension>
+            <GenerateGetBy>false</GenerateGetBy>
+          </OrmPropertyExtension>
+        </extender>
+      </extendee>
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="ee1eb00b-6fba-362c-bdbf-f6b422710f0a">
+      <SystemDataTypeBase />
+    </SystemDataType>
+  </childProperty>
+</relationship>

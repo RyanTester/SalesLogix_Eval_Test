@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<PortalPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="77d3bd02-78cf-4927-bfde-d3b56d46cddd">
+  <PageAlias>GetReport</PageAlias>
+  <TemplateUrl>Masters\Dialog.master</TemplateUrl>
+  <InheritTemplate>false</InheritTemplate>
+  <InheritsFrom>Sage.Platform.WebPortal.WebPortalPage, Sage.Platform.WebPortal</InheritsFrom>
+  <Properties />
+  <TemplateProperties />
+  <IsDefaultPage>false</IsDefaultPage>
+</PortalPage>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="1fb4c3fb-bea0-482d-b8d3-f9cc9d421420" cardinality="M:1" parentEntityId="de3bf24b-ada4-42f8-a17f-ca3f4bbddc7a" childEntityId="0f7b1686-d913-4e61-9a9f-f19482c57d11">
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="b768bf5c-f19a-402a-8559-a5f84ff09470" name="MarketingServiceRecipient" audited="false" displayCategory="Intermediate" isNullable="true" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="c60e900f-7ace-48ca-bc4b-dfaec435b13a" name="Property1" audited="false" displayCategory="Intermediate" isNullable="true" include="false">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="cf37c302-c019-46e4-91c0-d221b34381eb" parentPropertyId="14fb4c6e-8e4e-4b31-b01a-8d705bd88109" childPropertyId="87126029-6321-4cec-a578-e6d2ec955abb" ordinal="0" />
+  </column>
+</relationship>

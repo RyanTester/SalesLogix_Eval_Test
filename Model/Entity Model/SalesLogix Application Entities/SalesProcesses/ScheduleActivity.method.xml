@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="d3a3738b-ecc9-4fe5-93c8-bdd3bdd17b98" name="ScheduleActivity" returnType="object" methodType="Rule" actionType="None" returnMode="Object" isInstance="true">
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="5a90b63a-df74-4880-ab9a-459616eee00c" paramName="stepId" sequence="0" paramType="string" />
+    <OrmEntityMethodParam id="9a0bd531-a477-4916-b598-17ff03828245" paramName="opportunity" sequence="0" paramType="IOpportunity" />
+    <OrmEntityMethodParam id="7dbe19a7-d85e-4793-8c4e-17bb06dbdf5d" paramName="leader" sequence="0" paramType="IUser" />
+    <OrmEntityMethodParam id="6382abbc-692b-4edd-8578-5608360e76f7" paramName="contact" sequence="0" paramType="IContact" />
+    <OrmEntityMethodParam id="26ab771b-0d30-4b3c-b709-7b64158b5a44" paramName="IsSilent" sequence="0" paramType="bool" />
+  </parameter>
+  <methodTargets>
+    <methodTarget id="cd90d38e-49b9-4a9e-8241-5d4404bd43dc" targetType="Sage.SalesLogix.SalesProcess.Rules, Sage.SalesLogix.BusinessRules" sequence="0" targetMethod="ScheduleActivity" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+</method>

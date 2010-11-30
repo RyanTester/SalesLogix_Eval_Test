@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="0e68aab1-4727-4365-b1bb-fdb117bf841d" lastModifiedUtc="2008-04-14T16:26:57.2130537Z" manageSchema="false" tableName="TICKETPROBLEMSOLUTIONTYPE" name="TicketProblemSolutionType" isExtension="false" audited="true" onBeforeInsertMethodId="c82ceee7-fffc-4f04-8be9-35c0c69e7cfe" onAfterInsertMethodId="3055c5de-09ea-406f-8696-08d8bcc7538c" onBeforeUpdateMethodId="6b928811-8a94-4978-9c24-b82541a91a8d" onAfterUpdateMethodId="b8813954-229d-46c8-89a1-90460f69c65c" onBeforeDeleteMethodId="c2291160-cd46-4e2b-9b80-b35be261e680" onAfterDeleteMethodId="fa6a6082-b0ed-4c16-84f5-2c002a72bbe6" onCreateId="a83ad250-3fc3-4c61-a031-e91cd6cefc1a">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntity">
+      <extender guid="1589723d-0536-4bf3-bdd7-3f6f7fe165d0">
+        <OrmEntityMetadataExtension>
+          <StringExpression>${TicketProblemType}</StringExpression>
+          <IsHistoryTable>false</IsHistoryTable>
+        </OrmEntityMetadataExtension>
+      </extender>
+    </extendee>
+  </ExtendedPropertiesCollection>
+  <keyProperties>
+    <keyReference id="e7b5ce24-83c0-4b47-b669-c7ccd8d7a856" ordinalPosition="0" />
+  </keyProperties>
+  <properties>
+    <property xsi:type="OrmFieldProperty" id="2e3966a5-b125-4437-abb8-97263682117e" lastModifiedUtc="0001-01-01T00:00:00" name="CreateDate" audited="false" columnName="CREATEDATE" maxLength="0" precision="0" scale="0" ordinal="4" isReadOnly="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty" />
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="1f08f2eb-87c8-443b-a7c2-a51f590923f5">
+        <DateTimeDataType />
+      </SystemDataType>
+    </property>
+    <property xsi:type="OrmFieldProperty" id="102785e7-e5ef-422f-81a5-4b6466bbb02f" lastModifiedUtc="0001-01-01T00:00:00" name="CreateUser" audited="false" columnName="CREATEUSER" maxLength="12" precision="0" scale="0" ordinal="3" isReadOnly="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty" />
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="30053f5a-8d40-4db1-b185-1e4128eb26cc">
+        <StandardIdDataType />
+      </SystemDataType>
+    </property>
+    <property xsi:type="OrmFieldProperty" id="8264a2c5-00a2-47d5-a0bb-c1badeca3d4d" lastModifiedUtc="0001-01-01T00:00:00" name="ModifyDate" audited="false" columnName="MODIFYDATE" maxLength="0" precision="0" scale="0" ordinal="6" isReadOnly="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty" />
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="1f08f2eb-87c8-443b-a7c2-a51f590923f5">
+        <DateTimeDataType />
+      </SystemDataType>
+    </property>
+    <property xsi:type="OrmFieldProperty" id="cff6be76-0e80-4bea-9060-82c6b26b91fe" lastModifiedUtc="0001-01-01T00:00:00" name="ModifyUser" audited="false" columnName="MODIFYUSER" maxLength="12" precision="0" scale="0" ordinal="5" isReadOnly="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty" />
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="30053f5a-8d40-4db1-b185-1e4128eb26cc">
+        <StandardIdDataType />
+      </SystemDataType>
+    </property>
+    <property xsi:type="OrmFieldProperty" id="e7b5ce24-83c0-4b47-b669-c7ccd8d7a856" lastModifiedUtc="2008-04-14T16:27:09.3495279Z" name="TicketProblemSolutionTypeId" audited="false" isNullable="false" include="false" columnName="TICKETPROBLEMSOLUTIONTYPEID" maxLength="12" precision="0" scale="0" ordinal="0" isReadOnly="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty" />
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="30053f5a-8d40-4db1-b185-1e4128eb26cc">
+        <StandardIdDataType />
+      </SystemDataType>
+    </property>
+    <property xsi:type="OrmFieldProperty" id="4c40cae0-de32-40ae-9c9a-d5aa2dcee34f" lastModifiedUtc="2008-04-14T16:27:11.8264391Z" name="TicketProblemTypeId" audited="false" include="false" columnName="TICKETPROBLEMTYPEID" maxLength="12" precision="0" scale="0" ordinal="1" isReadOnly="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty" />
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="30053f5a-8d40-4db1-b185-1e4128eb26cc">
+        <StandardIdDataType />
+      </SystemDataType>
+    </property>
+    <property xsi:type="OrmFieldProperty" id="548dd09f-5478-4686-9b69-99bae739d78f" lastModifiedUtc="2008-04-14T16:27:25.6604179Z" name="TicketSolutionTypeId" audited="false" include="false" columnName="TICKETSOLUTIONTYPEID" maxLength="12" precision="0" scale="0" ordinal="2" isReadOnly="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty" />
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="30053f5a-8d40-4db1-b185-1e4128eb26cc">
+        <StandardIdDataType />
+      </SystemDataType>
+    </property>
+  </properties>
+</entity>

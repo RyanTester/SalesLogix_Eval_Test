@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Product\ActualId.filter.xml" timeStamp="2009-11-19T20:10:54.4570" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Product\GetDefaultPrice.method.xml" timeStamp="2009-11-19T20:10:54.4270" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Product\Name.filter.xml" timeStamp="2009-11-19T20:10:54.5030" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Product\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:54.4270" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Product\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:54.4270" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Product\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:54.4270" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Product\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:54.4270" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Product\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:54.4400" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Product\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:54.4400" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Product\OnCreate.method.xml" timeStamp="2009-11-19T20:10:54.4400" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Product\Price.filter.xml" timeStamp="2009-11-19T20:10:54.5500" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Product\Product.PRODUCT.entity.xml" timeStamp="2009-11-19T20:10:54.5500" />
+</exportedFiles>

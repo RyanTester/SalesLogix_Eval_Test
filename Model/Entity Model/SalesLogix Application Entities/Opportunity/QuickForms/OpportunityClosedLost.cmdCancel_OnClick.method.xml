@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmOtherMethod" id="d69377d0-5787-4786-8b72-1c3d333cfbc2" lastModifiedUtc="2009-09-25T20:54:22.7500674Z" name="cmdCancel_OnClick" methodType="Other" actionType="None" returnMode="None" isInstance="false">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmOtherMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="4c9adaad-3317-4dc8-b2b7-fcbf0c555770" paramName="form" sequence="0" paramType="IOpportunityClosedLost" />
+    <OrmEntityMethodParam id="06b6866e-c373-42c9-aaa0-8b0f9de5895f" paramName="args" sequence="0" paramType="EventArgs" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget xsi:type="OrmMethodTargetSnippet" id="cef41447-5c8b-4a4c-805c-62afa1ba109a" lastModifiedUtc="2009-09-25T20:54:00.3988325Z" targetType="Sage.BusinessRules.CodeSnippets.OpportunityClosedLostEventHandlers, Sage.SnippetLibrary.CSharp" targetMethod="cmdCancel_OnClickStep1" active="true" codeSnippetId="50a29bf4-0a49-4cf6-9848-1b93209c6040">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

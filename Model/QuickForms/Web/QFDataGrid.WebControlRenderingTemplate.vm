@@ -1,0 +1,423 @@
+#macro(startTemplateField $col)
+ <asp:TemplateField #addCommon($col) #if($col.MultiCurrencyDependent)AccessibleHeaderText="MultiCurrencyDependent"#end>
+ #addStyle($col) 
+ <itemtemplate>
+#end
+#macro(endTemplateField)
+ </itemtemplate></asp:TemplateField>
+#end
+#macro(startVerticalRendering $col)
+<tr>
+	<td>#if($col.ColumnHeading != "")<asp:Label runat="server" Text="<%$ resources: ${qfcontrol.ControlId}.${col.ColumnId}.ColumnHeading %>"></asp:Label>#else &nbsp; #end</td>	
+	<td>
+#end
+#macro(endVerticalRendering)
+	</td>
+</tr>
+#end
+#macro(writeDataBindingMethod $col) ${qfcontrol.DataSource}.getPropertyValue(Container.DataItem, "$col.DataField") #end
+#macro(doLinkCol $col)
+ #if($qfcontrol.RenderVertical)#startVerticalRendering($col) #else #startTemplateField($col) #end
+  #if($col.EntityTypeName != "")
+   <SalesLogix:PageLink runat="server" NavigateUrl="${col.EntityTypeName}"
+   #if($col.EntityIdField != "")EntityId='<%# ${qfcontrol.DataSource}.getPropertyValue(Container.DataItem, "${col.EntityIdField}") %>' #end
+   #if($col.Text != "") Text="<%$ resources: ${qfcontrol.ControlId}.${col.ColumnId}.Text %>" 
+   #elseif($col.Image != "") ImageUrl="$generator.getImageResourceURL( ${col.Image} )"
+   #else Text='<%# $generator.generateStringFormatLine(${qfcontrol.DataSource}, $col.TextFormatString, "${qfcontrol.ControlId}.${col.ColumnId}.FormatString", $col.DataField) %>' 
+   #end
+   #if($col.Target != "") Target="${col.Target}"#end
+   LinkType="EntityAlias"></SalesLogix:PageLink>
+  #elseif($col.Destination != "" || $col.DestinationFormatString != "")
+   <asp:HyperLink runat="server" 
+   #if($col.Text != "") Text="<%$ resources: ${qfcontrol.ControlId}.${col.ColumnId}.Text %>" 
+   #elseif($col.Image != "") ImageUrl="$generator.getImageResourceURL( ${col.Image} )"
+   #else Text='<%# $generator.generateStringFormatLine($col.TextFormatString, "${qfcontrol.ControlId}.${col.ColumnId}.FormatString", $col.DataField) %>' 
+   #end
+   #if($col.Target != "") Target="${col.Target}"#end
+   #if($col.Destination != "") NavigateUrl="$col.Destination" #else NavigateUrl='<%# $generator.generateStringFormatLine($col.DestinationFormatString, "${qfcontrol.ControlId}.${col.ColumnId}.DestinationFormatString", $col.DestinationBindFields) %>' #end />
+  #end
+ #if($qfcontrol.RenderVertical)#endVerticalRendering() #else #endTemplateField() #end
+#end
+#macro(doBoundField $col)
+ #if($qfcontrol.RenderVertical)#startVerticalRendering($col)
+  <asp:Label runat="server" Text='<%# #writeDataBindingMethod($col) %>' CssClass="${col.StyleScheme}"></asp:Label>
+ #endVerticalRendering()
+ #else
+  <asp:BoundField DataField="$col.DataField" 
+  #if($col.TextFormatString != "")DataFormatString="<%$ resources: ${qfcontrol.ControlId}.${col.ColumnId}.FormatString %>" HtmlEncode="false"#end 
+  #addCommon($col) 
+  #if($col.MultiCurrencyDependent)AccessibleHeaderText="MultiCurrencyDependent"#end >
+  #addStyle($col)
+  </asp:BoundField>
+ #end
+#end
+#macro(doPhoneCol $col)
+ #if($qfcontrol.RenderVertical)#startVerticalRendering($col) #else #startTemplateField($col) #end
+  <SalesLogix:Phone runat="server" ID="${qfcontrol.ControlId}col${velocityCount}" DisplayAsLabel="True" Text='<%# #writeDataBindingMethod($col) %>' CssClass="${col.StyleScheme}"  />
+ #if($qfcontrol.RenderVertical)#endVerticalRendering() #else #endTemplateField() #end
+#end
+#macro(doEmailCol $col)
+ #if($qfcontrol.RenderVertical)#startVerticalRendering($col) #else #startTemplateField($col) #end
+  #if($col.Image == "")
+   <SalesLogix:Email runat="server" ID="${qfcontrol.ControlId}col${velocityCount}" DisplayMode="AsHyperlink" Text='<%# #writeDataBindingMethod($col) %>' CssClass="${col.StyleScheme}"  />
+  #else
+   <a href="mailto:<%# #writeDataBindingMethod($col) %>"><img src="$generator.getImageResourceURL( ${col.Image} )" /></a>
+  #end
+ #if($qfcontrol.RenderVertical)#endVerticalRendering() #else #endTemplateField() #end
+#end
+#macro(doEditCol $col)
+ #if(!$IsPrintView && !$qfcontrol.RenderVertical)<asp:ButtonField CommandName="Edit" 
+  #if($col.Text != "")Text="<%$ resources: ${qfcontrol.ControlId}.${col.ColumnId}.Text %>"#end 
+  #if($col.DataField != "")DataTextField="${col.DataField}"#end
+  #if($col.MultiCurrencyDependent)AccessibleHeaderText="MultiCurrencyDependent"#end
+  #addCommon($col) >
+  	#addStyle($col)
+  </asp:ButtonField>
+ #end
+#end
+#macro(doDeleteCol $col)
+  #if(!$IsPrintView && !$qfcontrol.RenderVertical)<asp:ButtonField CommandName="Delete" 
+  #if($col.Text != "")Text="<%$ resources: ${qfcontrol.ControlId}.${col.ColumnId}.Text %>" #end 
+  #if($col.DataField != "")DataTextField="${col.DataField}" #end 
+  #if($col.MultiCurrencyDependent)AccessibleHeaderText="MultiCurrencyDependent"#end
+  #addCommon($col) >
+  	#addStyle($col)
+  </asp:ButtonField>
+ #end
+#end
+#macro(doRowSelectCol $col)
+ #if(!$IsPrintView && !$qfcontrol.RenderVertical)<asp:CommandField ShowSelectButton="true"
+  #if($col.Text != "")SelectText="<%$ resources: ${qfcontrol.ControlId}.${col.ColumnId}.Text %>" ButtonType="link" 
+  #elseif($col.Image != "")SelectImageUrl="$generator.getImageResourceURL( ${col.Image} )" ButtonType="image"
+  #end
+  #addCommon($col) >
+  	#addStyle($col)
+  </asp:CommandField>
+ #end
+#end
+#macro(addCommon $col)
+  #if($col.ColumnHeading != "")HeaderText="<%$ resources: ${qfcontrol.ControlId}.${col.ColumnId}.ColumnHeading %>" #end
+  #if($col.HorizontalAlignment == "right")itemstyle-horizontalalign="Right" #elseif($col.HorizontalAlignment == "center") itemstyle-horizontalalign="Center"#end
+  #if($col.HeaderAlignment != "left")HeaderStyle-HorizontalAlign="${col.HeaderAlignment}" #end
+  #if($col.IsSortable && $qfcontrol.EnableSorting)SortExpression="${col.SortField}" #end
+#end
+#macro(addStyle $col)
+  #if($col.StyleScheme != "")<ItemStyle CssClass="${col.StyleScheme}" />#end
+#end
+#macro(doCheckBoxCol $col)
+ #if($qfcontrol.RenderVertical)#startVerticalRendering($col)
+  <asp:CheckBox runat="server" checked='<%# Eval("${col.DataField}" %>' /> 
+  #endVerticalRendering()
+ #else
+  <asp:CheckBoxField DataField="${col.DataField}" ReadOnly="True" 
+  #if($col.MultiCurrencyDependent) AccessibleHeaderText="MultiCurrencyDependent" #end
+  #addCommon($col) >
+  	#addStyle($col)
+  </asp:CheckBoxField>
+ #end
+#end
+#macro(doPickListCol $col)
+ #if($qfcontrol.RenderVertical)#startVerticalRendering($col) #else #startTemplateField($col) #end
+  <SalesLogix:PickListControl runat="server" ID="${qfcontrol.ControlId}col${velocityCount}" PickListId="${col.PickListId}" ValueStoredAsText="${col.ValueStoredAsText}" PickListName="${col.PickListName}" PickListValue='<%# #writeDataBindingMethod($col) %>' DisplayMode="AsText" CssClass="${col.StyleScheme}" />
+ #if($qfcontrol.RenderVertical)#endVerticalRendering() #else #endTemplateField() #end
+#end
+#macro(doSLXCurrencyCol $col)
+ #if($qfcontrol.RenderVertical)#startVerticalRendering($col) #else #startTemplateField($col) #end
+<SalesLogix:Currency runat="server" ID="${qfcontrol.ControlId}col${velocityCount}" DisplayMode="AsText" #if($col.ExchangeRate != "")ExchangeRate='<%# ${qfcontrol.DataSource}.getPropertyValue(Container.DataItem, "$col.ExchangeRate") %>' #end ExchangeRateType="${col.ExchangeRateType}" #if($col.CurrentCode != "")CurrentCode='<%# ${qfcontrol.DataSource}.getPropertyValue(Container.DataItem, "$col.CurrentCode") %>' #end #if(!$col.DisplayCurrencyCode)DisplayCurrencyCode="false" #end Text='<%# #writeDataBindingMethod($col) %>' CssClass="${col.StyleScheme}" />
+ #if($qfcontrol.RenderVertical)#endVerticalRendering() #else #endTemplateField() #end
+#end
+#macro(doDateTimePickerCol $col)
+ #if($qfcontrol.RenderVertical)#startVerticalRendering($col) #else #startTemplateField($col) #end
+  <SalesLogix:DateTimePicker runat="server" ID="${qfcontrol.ControlId}col${velocityCount}" #if($col.DateOnly)DisplayTime="false" #end DisplayMode="${col.DisplayMode}" DateTimeValue='<%# #writeDataBindingMethod($col) %>' #if($col.Timeless)Timeless="true" #end CssClass="${col.StyleScheme}"  />
+ #if($qfcontrol.RenderVertical)#endVerticalRendering() #else #endTemplateField() #end
+#end
+#macro(doUserCol $col)
+ #if($qfcontrol.RenderVertical)#startVerticalRendering($col) #else #startTemplateField($col) #end
+  <SalesLogix:SlxUserControl runat="server" ID="${qfcontrol.ControlId}col${velocityCount}" DisplayMode="AsText" LookupResultValue='<%# #writeDataBindingMethod($col) %>' CssClass="${col.StyleScheme}"  />
+ #if($qfcontrol.RenderVertical)#endVerticalRendering() #else #endTemplateField() #end
+#end
+#macro(doOwnerCol $col)
+ #if($qfcontrol.RenderVertical)#startVerticalRendering($col) #else #startTemplateField($col) #end
+  <SalesLogix:OwnerControl runat="server" ID="${qfcontrol.ControlId}col${velocityCount}" DisplayMode="AsText" LookupResultValue='<%# #writeDataBindingMethod($col) %>' CssClass="${col.StyleScheme}"  />
+ #if($qfcontrol.RenderVertical)#endVerticalRendering() #else #endTemplateField() #end
+#end
+#macro(doFormatCol $col)
+ #if($qfcontrol.RenderVertical)#startVerticalRendering($col) #else #startTemplateField($col) #end
+  #set($isfirst = "T")#set($fields = ${col.DataFields})
+  <%# ${col.FormattingMethodName}(#foreach($field in $fields)#if($isfirst == "F"), #end#set($isfirst = "F")Eval("${field}")#end ) %>
+ #if($qfcontrol.RenderVertical)#endVerticalRendering() #else #endTemplateField() #end
+#end
+#if((${qfcontrol.Caption} != "") && ($qfcontrol.Visible))
+<div class="mainContentHeader"><asp:Label ID="${qfcontrol.LabelId}" AssociatedControlID="${qfcontrol.ControlId}" runat="server" Text="<%$ resources: ${qfcontrol.ControlId}.Caption %>" #if(!$qfcontrol.Visible)Visible="false" #end></asp:Label></div>
+#end
+<SalesLogix:SlxGridView runat="server" ID="${qfcontrol.ControlId}" GridLines="None"
+AutoGenerateColumns="false" CellPadding="4" CssClass="datagrid" PagerStyle-CssClass="gridPager"
+AlternatingRowStyle-CssClass="rowdk" RowStyle-CssClass="rowlt" SelectedRowStyle-CssClass="rowSelected" ShowEmptyTable="true" EnableViewState="false"
+#if($qfcontrol.EnablePaging) AllowPaging="true" PageSize="${qfcontrol.PageSize}" OnPageIndexChanging="${qfcontrol.ControlId}page_changing" #end
+#if($qfcontrol.EmptyTableRowText != "")EmptyTableRowText="<%$ resources: ${qfcontrol.ControlId}.EmptyTableRowText %>" #end
+#if($qfcontrol.RenderVertical)ExpandableRows="false" ResizableColumns="false" #else ExpandableRows="${qfcontrol.ExpandableRows}" ResizableColumns="${qfcontrol.ResizableColumns}" #end
+#if($qfcontrol.TabIndex > 0)TabIndex="$qfcontrol.TabIndex" #end
+#if($qfcontrol.HasCommandColumn)
+ OnRowCommand="${qfcontrol.ControlId}_RowCommand" 
+ DataKeyNames="#if($qfcontrol.IsEntityBound)InstanceId,#end${qfcontrol.DataKeyNames}" 
+#end
+#if($qfcontrol.EnableSorting) AllowSorting="true" OnSorting="${qfcontrol.ControlId}_Sorting" #end
+#if($qfcontrol.HasEditColumn) OnRowEditing="${qfcontrol.ControlId}_RowEditing" #end
+#if($qfcontrol.HasDeleteColumn) OnRowDeleting="${qfcontrol.ControlId}_RowDeleting" OnRowDataBound="${qfcontrol.ControlId}_RowDataBound" #end
+#if(!$qfcontrol.Visible)Visible="false" #end
+#if(($qfcontrol.ShowSortIcon) && ($qfcontrol.EnableSorting)) ShowSortIcon="true" #end 
+>
+<Columns>
+#if($qfcontrol.RenderVertical)<asp:TemplateField><itemtemplate> #end
+#foreach($column in $qfcontrol.Columns)
+#if($column.ColumnType == "BoundField")#doBoundField($column)
+#elseif($column.ColumnType == "Link")#doLinkCol($column)
+#elseif($column.ColumnType == "Phone")#doPhoneCol($column)
+#elseif($column.ColumnType == "Email")#doEmailCol($column)
+#elseif($column.ColumnType == "CheckBox")#doCheckBoxCol($column)
+#elseif($column.ColumnType == "PickList")#doPickListCol($column)
+#elseif($column.ColumnType == "Currency")#doSLXCurrencyCol($column)
+#elseif($column.ColumnType == "DateTimePicker")#doDateTimePickerCol($column)
+#elseif($column.ColumnType == "User")#doUserCol($column)
+#elseif($column.ColumnType == "Owner")#doOwnerCol($column)
+#elseif($column.ColumnType == "Edit")#doEditCol($column)#set($editcolumn = $column)
+#elseif($column.ColumnType == "Delete")#doDeleteCol($column)#set($deletecolumn = $column)
+#elseif($column.ColumnType == "Custom Format")#doFormatCol($column)
+#elseif($column.ColumnType == "Select")#doRowSelectCol($column)
+#end
+#end
+#if($qfcontrol.RenderVertical)</itemtemplate></asp:TemplateField> #end
+</Columns>
+#if($qfcontrol.EnablePaging)
+    <PagerSettings Mode="NumericFirstLast" FirstPageImageUrl="ImageResource.axd?scope=global&type=Global_Images&key=Start_16x16" LastPageImageUrl="ImageResource.axd?scope=global&type=Global_Images&key=End_16x16" />
+#end
+</SalesLogix:SlxGridView>
+
+<script runat="server" type="text/C#">
+
+#if($qfcontrol.HasDeleteColumn) 
+ #foreach($column in $qfcontrol.Columns)
+  #if($column.ColumnType == "Delete")
+private int _${qfcontrol.ControlId}deleteColumnIndex = -2;
+protected int ${qfcontrol.ControlId}DeleteColumnIndex
+{
+	get
+	{
+		if (_${qfcontrol.ControlId}deleteColumnIndex == -2)
+		{
+			int bias = (${qfcontrol.ControlId}.ExpandableRows) ? 1 : 0;
+			_${qfcontrol.ControlId}deleteColumnIndex = -1;
+			int colcount = 0;
+			foreach (DataControlField col in ${qfcontrol.ControlId}.Columns)
+			{
+				ButtonField btn = col as ButtonField;
+				if (btn != null)
+				{
+					if (btn.CommandName == "Delete")
+					{
+						_${qfcontrol.ControlId}deleteColumnIndex = colcount + bias;
+						break;
+					}
+				}
+				colcount++;
+			}
+		}
+		return _${qfcontrol.ControlId}deleteColumnIndex;
+	}
+}
+
+protected void ${qfcontrol.ControlId}_RowDataBound(object sender, GridViewRowEventArgs e)
+{
+#if($column.ConfirmationMessage != "")
+	if (e.Row.RowType == DataControlRowType.DataRow)
+	{
+		if ((${qfcontrol.ControlId}DeleteColumnIndex >= 0) && (${qfcontrol.ControlId}DeleteColumnIndex < e.Row.Cells.Count))
+		{
+			TableCell cell = e.Row.Cells[${qfcontrol.ControlId}DeleteColumnIndex];
+			foreach (Control c in cell.Controls)
+			{
+				LinkButton btn = c as LinkButton;
+				if (btn != null)
+				{
+					btn.Attributes.Add("onclick", "javascript: return confirm('" + Sage.Platform.WebPortal.PortalUtil.JavaScriptEncode(GetLocalResourceObject("${qfcontrol.ControlId}.${column.ColumnId}.ConfirmationMessage").ToString()) + "');");
+					return;
+				}
+			}
+		}
+	}
+#end
+}
+  #end
+ #end
+#end
+
+#if($qfcontrol.EnablePaging)
+protected void ${qfcontrol.ControlId}page_changing(object sender, GridViewPageEventArgs e)
+{
+ ${qfcontrol.ControlId}.PageIndex = e.NewPageIndex;
+ ${qfcontrol.ControlId}.DataBind();
+}
+#end
+#if($qfcontrol.EnableSorting)
+protected void ${qfcontrol.ControlId}_Sorting(object sender, GridViewSortEventArgs e) { }
+#end
+#if($qfcontrol.HasCommandColumn)
+protected void ${qfcontrol.ControlId}_RowCommand(object sender, GridViewCommandEventArgs e)
+{
+    if (e.CommandName == "Page")
+        return;
+    int rowIndex;
+    if (Int32.TryParse(e.CommandArgument.ToString(), out rowIndex))
+    {
+        ${qfcontrol.DataSource}.SelectedIndex = rowIndex;
+		object currentEntity = ${qfcontrol.DataSource}.Current;
+        if ((currentEntity is Sage.Platform.ComponentModel.ComponentView) && !((Sage.Platform.ComponentModel.ComponentView)currentEntity).IsVirtualComponent)
+            currentEntity = ((Sage.Platform.ComponentModel.ComponentView)currentEntity).Component;
+		string id = String.Empty;
+        //Check if this is an unpersisted entity and use its InstanceId
+        if (Sage.Platform.WebPortal.PortalUtil.ObjectIsNewEntity(currentEntity))
+        {
+		    if (${qfcontrol.ControlId}.DataKeys[0].Values.Count > 1) {
+                foreach (DictionaryEntry val in ${qfcontrol.ControlId}.DataKeys[rowIndex].Values)
+                {
+                    if (val.Key.ToString() == "InstanceId")
+                    {
+                        Guid instanceId = (Guid)val.Value;
+                        ${qfcontrol.DataSource}.SetCurrentEntityByInstanceId(instanceId);
+                        id = instanceId.ToString();
+		                currentEntity = ${qfcontrol.DataSource}.Current;
+                        if ((currentEntity is Sage.Platform.ComponentModel.ComponentView) && !((Sage.Platform.ComponentModel.ComponentView)currentEntity).IsVirtualComponent)
+                            currentEntity = ((Sage.Platform.ComponentModel.ComponentView)currentEntity).Component;
+                    }
+                }                 
+            }
+        }
+        else
+        {
+#if($qfcontrol.DataKeyNames != "Id")
+            foreach (DictionaryEntry val in ${qfcontrol.ControlId}.DataKeys[rowIndex].Values)
+            {
+                if (val.Key.ToString() != "InstanceId")
+                    if (string.IsNullOrEmpty(id))
+                        id = val.Value.ToString();
+                    else
+                        id = string.Concat(id, ",", val.Value.ToString());
+            }
+#else
+            foreach (DictionaryEntry val in ${qfcontrol.ControlId}.DataKeys[rowIndex].Values)
+            {
+                if (val.Key.ToString() != "InstanceId")
+                {
+                    id = val.Value.ToString();
+                }
+            }
+#end
+        }		
+#if($qfcontrol.HasEditColumn)
+        if (e.CommandName.Equals("Edit"))
+        {
+#if($editcolumn.DialogSpecs.SmartPart != "")
+            if (DialogService != null)
+            {
+				// QFDataGrid
+			#if(${editcolumn.DialogSpecs.CenterDialog} == true) 
+				DialogService.SetSpecs(${editcolumn.DialogSpecs.Height}, ${editcolumn.DialogSpecs.Width}, "${editcolumn.DialogSpecs.SmartPart}",#if($editcolumn.DialogSpecs.TitleOverride != "") GetLocalResourceObject("${editcolumn.DialogSpecs.ResourceKey}.DialogTitleOverride").ToString() #else string.Empty #end);
+			#else
+				DialogService.SetSpecs(${editcolumn.DialogSpecs.Top}, ${editcolumn.DialogSpecs.Left}, ${editcolumn.DialogSpecs.Height}, ${editcolumn.DialogSpecs.Width}, "${editcolumn.DialogSpecs.SmartPart}",#if($editcolumn.DialogSpecs.TitleOverride != "") GetLocalResourceObject("${editcolumn.DialogSpecs.ResourceKey}.DialogTitleOverride").ToString() #else string.Empty #end, "false");
+			#end            
+                DialogService.EntityType = typeof(${editcolumn.DialogSpecs.GetQualifiedEntityType()} );
+#if($qfcontrol.DataKeyNames.indexOf(",") > 0)
+                DialogService.CompositeKeyNames = "${qfcontrol.DataKeyNames}"; 
+#end
+                DialogService.EntityID = id;
+                DialogService.ShowDialog();
+            }
+#end			
+        }
+#end
+#if($qfcontrol.HasDeleteColumn)
+		if (e.CommandName.Equals("Delete"))
+		{
+#if(($deletecolumn.BusinessRule == "")||($deletecolumn.BusinessRule == "Delete"))
+#if(${isEntityForm})
+            ${qfcontrol.QuickFormDefinition.DefaultNamespace}.${qfcontrol.QuickFormDefinition.EntityTypeName} mainentity = this.BindingSource.Current as ${qfcontrol.QuickFormDefinition.DefaultNamespace}.${qfcontrol.QuickFormDefinition.EntityTypeName};
+			if (mainentity != null)
+			{
+			    $qfcontrol.BoundEntityTypeName childEntity = null;
+			    if((currentEntity != null) && (currentEntity is ${qfcontrol.BoundEntityTypeName}))
+			    {
+			        childEntity = (${qfcontrol.BoundEntityTypeName})currentEntity;    
+			    }
+			    else if (id != null)
+			    {
+#if($qfcontrol.DataKeyNames != "Id")
+                    childEntity = (${qfcontrol.BoundEntityTypeName})Sage.Platform.EntityFactory.GetByCompositeId(typeof($qfcontrol.BoundEntityTypeName), "${qfcontrol.DataKeyNames}".Split(','), id.Split(','));
+#else
+                    childEntity = Sage.Platform.EntityFactory.GetById<${qfcontrol.BoundEntityTypeName}>(id);
+#end            }
+				if(childEntity != null)
+				{
+#if(${qfcontrol.BoundCollectionPropertyName} != "")
+			         mainentity.${qfcontrol.BoundCollectionPropertyName}.Remove(childEntity);
+#end
+					 if((childEntity.PersistentState & Sage.Platform.Orm.Interfaces.PersistentState.New) <= 0)
+					 {
+					     childEntity.Delete();
+					 }
+					 ${qfcontrol.DataSource}.SelectedIndex = -1;
+			    }
+		    }
+#end
+#else
+#if($qfcontrol.IsEntityBound)
+            $qfcontrol.BoundEntityTypeName childEntity = Sage.Platform.EntityFactory.GetById<$qfcontrol.BoundEntityTypeName>(id);
+#else
+            object childEntity = (currentEntity == null) ? id : currentEntity;
+#end
+#if($deletecolumn.BusinessRuleParameters.Count > 0)
+			object[] objarray = new object[] { this.BindingSource.Current#foreach($param in $deletecolumn.BusinessRuleParameters)#if($param.DataSourceID != "MainEntity"), _${param.DataSourceID}.Current#end#end, childEntity };
+#else
+			object[] objarray = new object[] { this.BindingSource.Current, childEntity};
+#end
+		    Sage.Platform.EntityFactory.Execute<Sage.SalesLogix.Entities.${deletecolumn.BusinessRuleObjectName}>("${deletecolumn.BusinessRuleObjectName}.${deletecolumn.BusinessRule}", objarray);
+#end
+		}
+#end
+	}
+    ${qfcontrol.ControlId}_refresh();
+}
+	
+	protected void ${qfcontrol.ControlId}_refresh()
+	{
+		if (PageWorkItem != null) {
+			Sage.Platform.WebPortal.Services.IPanelRefreshService refresher = PageWorkItem.Services.Get<Sage.Platform.WebPortal.Services.IPanelRefreshService>();
+			if (refresher != null)
+			{
+				refresher.RefreshAll();
+			}
+			else
+			{
+				Response.Redirect(Request.Url.ToString());
+			}
+		}
+	}
+	
+    #if($qfcontrol.HasEditColumn)
+	protected void ${qfcontrol.ControlId}_RowEditing(object sender, GridViewEditEventArgs e)
+	{
+		${qfcontrol.ControlId}.SelectedIndex = e.NewEditIndex;
+	}
+    #end
+    #if($qfcontrol.HasDeleteColumn)
+    protected void ${qfcontrol.ControlId}_RowDeleting(object sender, GridViewDeleteEventArgs e)
+	{
+		${qfcontrol.ControlId}.SelectedIndex = -1;
+	}
+	#end
+#end
+#foreach($column in $qfcontrol.Columns)
+#if($column.ColumnType == "Custom Format")
+${column.FormattingCode}
+#end
+#end
+</script>

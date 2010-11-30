@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DefectActivityItem\AddDefectActivityNotesTimeStamp.method.xml" timeStamp="2009-11-19T20:10:51.9930" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DefectActivityItem\DefectActivityItem.DEFECTACTIVITYITEM.entity.xml" timeStamp="2009-11-19T20:10:52.1000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DefectActivityItem\DoDefectActivityCalculations.method.xml" timeStamp="2009-11-19T20:10:52.0070" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DefectActivityItem\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:52.0070" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DefectActivityItem\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:52.0230" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DefectActivityItem\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:52.0400" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DefectActivityItem\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:52.0400" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DefectActivityItem\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:52.0530" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DefectActivityItem\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:52.0530" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DefectActivityItem\OnCreate.method.xml" timeStamp="2009-11-19T20:10:52.0870" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DefectActivityItem\QuickForms\" />
+</exportedFiles>

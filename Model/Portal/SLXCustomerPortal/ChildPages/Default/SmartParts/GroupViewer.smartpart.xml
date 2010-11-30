@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="b4a4da7a-547b-497e-aad3-12c53aca945f">
+  <SmartPartId>GroupViewer</SmartPartId>
+  <SmartPart>SmartParts\GroupBuilder\GroupViewer.ascx</SmartPart>
+  <TargetWorkspace>MainContent</TargetWorkspace>
+  <ShowInMode>List</ShowInMode>
+  <Properties />
+</SmartPartMapping>

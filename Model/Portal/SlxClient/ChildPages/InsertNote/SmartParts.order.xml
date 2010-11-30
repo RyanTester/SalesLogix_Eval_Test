@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="3ffddb88-07c3-41af-8e81-e55928430bc2">GroupViewer.smartpart.xml</Item>
+  <Item Id="c14fecbe-12ae-4983-8e17-975804f9d5d9">AddContactOrLeadNote.smartpart.xml</Item>
+  <Item Id="05ea1f7e-fb70-40da-84ef-fc1e54d6a070">AttachmentList.smartpart.xml</Item>
+</ModelItems>

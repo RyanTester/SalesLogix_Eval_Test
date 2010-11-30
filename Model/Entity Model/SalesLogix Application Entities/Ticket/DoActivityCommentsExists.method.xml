@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="a020494a-79d8-435b-b9f3-990cb2685b83" name="DoActivityCommentsExists" returnType="Boolean" methodType="Rule" actionType="None" returnMode="Object" isInstance="true">
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam paramName="ticket" sequence="0" paramType="ITicket" />
+    <OrmEntityMethodParam paramName="ticketactivity" sequence="0" paramType="ITicketActivity" />
+  </parameter>
+  <methodTargets>
+    <methodTarget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="e0a66f7b-5e04-459a-83b1-0d0d0833511f" targetType="Sage.SalesLogix.TicketActivity.Rules, Sage.SalesLogix.BusinessRules" sequence="0" targetMethod="DoActivityCommentsExists" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+</method>

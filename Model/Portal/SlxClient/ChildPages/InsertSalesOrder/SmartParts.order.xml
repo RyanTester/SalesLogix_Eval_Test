@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="9b353b3e-82ba-4330-a2cb-42c62876d86a">InsertSalesOrder.smartpart.xml</Item>
+  <Item Id="6551f512-9742-4b17-8fda-2f6703758184">BillToShipTo.smartpart.xml</Item>
+  <Item Id="2ca94b27-7aa8-4399-bda3-ef8285bae58f">SalesOrderItems.smartpart.xml</Item>
+  <Item Id="fe06166a-51c5-48ec-87bb-fbee8d42f6df">EditSalesOrderItem.smartpart.xml</Item>
+  <Item Id="6327f1b8-0782-4f75-8d4d-fcb4a075d8d3">AddSalesOrderProduct.smartpart.xml</Item>
+</ModelItems>

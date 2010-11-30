@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\Account.filter.xml" timeStamp="2009-11-19T20:10:54.6900" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\AssignedTo.filter.xml" timeStamp="2009-11-19T20:10:54.6600" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\GetReturnDefects.method.xml" timeStamp="2009-11-19T20:10:54.6300" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:54.6300" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:54.6300" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:54.6300" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\OnAssociateTicket.method.xml" timeStamp="2009-11-19T20:10:54.6430" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:54.6430" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:54.6600" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:54.6600" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\OnCreate.method.xml" timeStamp="2009-11-19T20:10:54.6600" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\OnSetAssignedTo.method.xml" timeStamp="2009-11-19T20:10:54.6770" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\OnSetCommentsDateTimeStamp.method.xml" timeStamp="2009-11-19T20:10:54.6770" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\OnSetReturnNotesDateTimeStamp.method.xml" timeStamp="2009-11-19T20:10:54.6770" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\OnSetShipContact.method.xml" timeStamp="2009-11-19T20:10:54.6770" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\OnSetShipNotesDateTimeStamp.method.xml" timeStamp="2009-11-19T20:10:54.6770" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\OnSetStatus.method.xml" timeStamp="2009-11-19T20:10:54.6900" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\Priority.filter.xml" timeStamp="2009-11-19T20:10:54.6900" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\Return.RMA.entity.xml" timeStamp="2009-11-19T20:10:54.7230" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\ReturnedBy.filter.xml" timeStamp="2009-11-19T20:10:54.6900" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\ReturnNumber.filter.xml" timeStamp="2009-11-19T20:10:54.6900" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\ReturnType.filter.xml" timeStamp="2009-11-19T20:10:54.7070" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\ShipTo.filter.xml" timeStamp="2009-11-19T20:10:54.7370" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Return\QuickForms\" />
+</exportedFiles>

@@ -1,0 +1,16 @@
+#if((${qfcontrol.Caption} != "") && ($qfcontrol.ControlLabelPlacement == "top"))
+ <div class="lbltop#if(${qfcontrol.CaptionAlignment} == "right") alignright#elseif(${qfcontrol.CaptionAlignment} == "center") aligncenter#else alignleft#end">
+   <asp:Label ID="${qfcontrol.LabelId}" AssociatedControlID="${qfcontrol.ControlId}" runat="server" Text="<%$ resources: ${qfcontrol.ControlId}.Caption %>" #if(!${qfcontrol.Visible})Visible="false" #end></asp:Label>
+ </div>
+#end
+<div class="slxlabel #if(${qfcontrol.CaptionAlignment} == "right") alignright#elseif(${qfcontrol.CaptionAlignment} == "center") aligncenter#else alignleft#end checkbox">
+  <SalesLogix:SLXCheckBox runat="server" ID="${qfcontrol.ControlId}" CssClass="checkbox #if($qfcontrol.StyleScheme != "") ${qfcontrol.StyleScheme}#end"
+#if(($qfcontrol.Caption != "") && ($qfcontrol.ControlLabelPlacement != "top")) Text="<%$ resources: ${qfcontrol.ControlId}.Caption %>" #end
+#if($qfcontrol.ControlLabelPlacement == "left")TextAlign="left" #end
+#if(($qfcontrol.IsReadOnly) || (!$qfcontrol.Enabled))Enabled="false" #end
+#if($qfcontrol.ToolTip != "") ToolTip="<%$ resources: ${qfcontrol.ControlId}.ToolTip %>" #end
+#if($qfcontrol.TabIndex > 0)TabIndex="$qfcontrol.TabIndex" #end
+#if($qfcontrol.HotKey != "")AccessKey="$qfcontrol.HotKey" #end
+#if(!$qfcontrol.Visible)Visible="false" #end
+#if($qfcontrol.HasActionCode)AutoPostBack="true" #end />
+</div>

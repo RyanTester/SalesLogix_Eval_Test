@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="c6cc14e4-e81c-41f8-8e54-a437317ee071" name="OnBeforeReceivedByChanged" returnType="void" methodType="PropertyEvent" actionType="None" returnMode="None" isInstance="true">
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter />
+  <methodTargets>
+    <methodTarget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="4b03139d-c119-4c3e-822f-1941ca0bb67d" targetType="Sage.SalesLogix.Ticket.Rules, Sage.SalesLogix.BusinessRules" sequence="10" targetMethod="OnBeforeReceivedByChanged" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+</method>

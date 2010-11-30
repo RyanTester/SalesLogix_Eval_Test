@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="beeaf553-7b92-4279-9abd-b80a048ceea2" lastModifiedUtc="2007-12-21T21:06:12.9214736Z" cardinality="1:M" parentEntityId="ebfd715e-2b2f-4e5e-8c6d-cfc0d9b4ae52" childEntityId="e7a70408-03cb-4667-890b-39de33fb739b" cascadeOption="SaveUpdateDelete">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="c28b6797-4373-4ac4-b475-bdca85f76683" lastModifiedUtc="0001-01-01T00:00:00" name="Tickets" audited="false" displayCategory="Intermediate" isNullable="true" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="6733c1f7-ac42-48ce-be72-8c0b4e5c1283" lastModifiedUtc="2007-12-21T21:06:12.9214736Z" name="Account" audited="false" displayCategory="Intermediate" isNullable="false" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="aaef6cf0-d742-4dfa-8acf-16059cc75b46" parentPropertyId="b24f58be-dd73-441a-a479-00e5f517b9e7" childPropertyId="0ea05761-d74b-441f-987c-187ce3d57a86" ordinal="0" />
+  </column>
+</relationship>

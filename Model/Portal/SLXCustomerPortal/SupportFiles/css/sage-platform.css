@@ -1,0 +1,637 @@
+﻿/*  Taskpane workspace styles ................................ */
+.clear-both
+{
+	clear: both;
+}
+
+.task-pane
+{
+}
+
+.task-pane-header
+{
+	border-bottom: solid 1px #99BBE8;
+	position: relative;
+}
+
+.task-pane-header-tools
+{
+	position: absolute;
+	top: 3px;
+	right: 2px;
+}
+
+.task-pane-item
+{
+	border-top: solid 1px #DDDDDD;	
+	border-bottom: none 0px #DDDDDD;
+	background: #ffffff;
+}
+
+.task-pane-item-first
+{
+	border-top: none 0px #DDDDDD;
+}
+
+.task-pane-item-last
+{
+	border-bottom: solid 1px #DDDDDD;
+}
+
+.task-pane-item-collapsed
+{
+}
+
+.task-pane-item-handle
+{
+	cursor: move;
+}
+
+.task-pane-item-tools a,
+.task-pane-item-tools img,
+.task-pane-item-tools input,
+.task-pane-item-toggler
+{
+	cursor: pointer;
+}
+
+.task-pane-item-header
+{	
+	color: #000000;
+	font-weight: bold;
+}
+
+.task-pane-item-header table
+{
+	border: none 0px #000000;
+	border-collapse: collapse;	
+	width: auto;
+}
+
+.task-pane-item-title,
+.task-pane-item-tools
+{
+	padding: 2px;
+}
+
+.task-pane-item-header col.task-pane-item-title
+{
+	width: 99%;
+}
+
+.task-pane-item-header col.task-pane-item-tools
+{
+	text-align: left;
+}
+
+.task-pane-item-header td.task-pane-item-tools
+{
+	white-space: nowrap;
+}
+
+.task-pane-item-toggler
+{
+	width: 16px;
+	height: 16px;
+}
+
+.task-pane-item-collapsed .task-pane-item-toggler
+{
+	
+}
+
+.task-pane-item-bwrap
+{	
+	padding: 4px;
+}
+
+.task-pane-item-body
+{	
+	
+}
+
+.task-pane-item-last .task-pane-item-body
+{
+}
+
+.task-pane-item-collapsed .task-pane-item-body
+{
+	display: none;
+}
+
+.task-pane-item-common-selectioncount
+{
+	position:relative;
+	padding-left:10px;
+	color:Gray;
+	
+}
+
+.task-pane-item-common-tasklist
+{
+	padding-left:10px;
+}
+
+div.task-pane-item-header,
+div.task-pane-item-container
+{
+	_zoom: 1;
+}
+
+.task-pane-drag-helper
+{
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.task-pane-drag-target
+{
+	background: #edf4fb;
+}
+
+/*  TabWorkspace styles ...................................................... */
+.tws .tws-state-proxy
+{
+	display: none;
+}
+
+.tws .tws-main-tab-buttons-separator
+{
+	clear: both;
+}
+
+.tws .tws-main-tab-buttons
+{
+	zoom:1;
+	position: relative;
+}
+
+.tws .tws-main-tab-buttons li
+{
+	float: left;
+}
+
+.tws .tws-main-tab-buttons li a,
+.tws .tws-main-tab-buttons li span,
+.tws .tws-main-tab-buttons li em
+{
+	display: block !important;
+	display: inline-block;		
+}
+
+.tws .tws-main-tab-buttons li a
+{
+	text-decoration:none !important;
+	-moz-outline: none;
+	outline: none;
+	color: #000000;
+	margin-left: 2px;
+}
+
+.tws .tws-main-tab-buttons li span.tws-tab-button-middle
+{
+	zoom:1;
+	cursor: pointer;
+}
+
+.tws .tws-main-tab-buttons li span.tws-tab-button-middle span
+{		
+	line-height: 22px;
+	height: 22px;
+	white-space: nowrap;
+}
+
+.tws .tws-main-tab-buttons li .tws-tab-button-left
+{
+	background: url("../images/blue/TabLeft.gif") no-repeat;
+	padding-left: 7px;	
+}
+
+.tws .tws-main-tab-buttons li .tws-tab-button-middle
+{
+	background: url("../images/blue/TabCenter.gif") repeat-x;
+}
+
+.tws .tws-main-tab-buttons li .tws-tab-button-right
+{
+	background: url("../images/blue/TabRight.gif") no-repeat right 0;
+	padding-right: 7px;
+}
+
+.tws .tws-main-tab-buttons li.tws-active-tab-button .tws-tab-button-left 
+{ 
+    background: url("../images/blue/TabCurrentLeft.gif") no-repeat;
+} 
+.tws .tws-main-tab-buttons li.tws-active-tab-button .tws-tab-button-middle 
+{ 
+    background: url("../images/blue/TabCurrentCenter.gif") repeat-x;
+}
+.tws .tws-main-tab-buttons li.tws-active-tab-button .tws-tab-button-right  
+{
+    background: url("../images/blue/TabCurrentRight.gif") no-repeat right 0;
+}
+
+.tws .tws-main-tab-buttons li.tws-tab-button-tail
+{
+	width: 0px;
+}
+
+.tws .tws-main-tab-buttons .tws-insert-button-marker
+{
+	position: absolute;
+	top: -24px;
+	left: 0;	
+	height: 48px;
+	width: 24px;
+	background: url("../images/blue/insert-arrow-down.gif") no-repeat; 
+}
+
+.tws .tws-tab-button 
+{
+	cursor: move;
+}
+
+.tws .tws-tab-button-tail
+{
+	cursor: auto;
+}
+
+.tws .tws-main-tab-content
+{
+	background: #FFFFFF;
+	border: solid 1px #B5CBE0;
+}
+
+.tws .tws-main-tab-content .tws-tab-element
+{
+}
+
+.tws .tws-tab-element 
+{
+	background: #FFFFFF;
+}
+
+.tws .tws-tab-element .tws-tab-view-body
+{
+	padding: 4px;
+}
+
+.tws .tws-tab-element .tws-tab-view-header
+{
+	background: url("../images/blue/paneheader.gif") repeat-x; 
+	height: 26px;
+	line-height: 26px;
+	cursor: move;
+}
+
+.tws .tws-tab-element .tws-tab-view-header > *
+{
+	line-height: 26px;
+}
+
+.tws .tws-tab-element .tws-tab-view-header table
+{
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	border: none 0px black;
+}
+
+.tws .tws-tab-element .tws-tab-view-header table tr
+{
+	height: 26px;
+}
+
+.tws .tws-tab-element .tws-tab-view-header table td
+{
+	vertical-align: middle;
+	padding: 0;
+	margin: 0;
+	white-space: nowrap;
+}
+
+.tws .tws-tab-element .tws-tab-view-header col.tws-tab-view-tools-middle
+{
+	width: 99%;	
+}
+
+.tws .tws-tab-element .tws-tab-view-header td.tws-tab-view-tools-middle
+{
+	text-align: center;	
+}
+
+.tws .tws-tab-element .tws-tab-view-header td.tws-tab-view-tools-left,
+.tws .tws-tab-element .tws-tab-view-header td.tws-tab-view-tools-middle,
+.tws .tws-tab-element .tws-tab-view-header td.tws-tab-view-tools-right
+{
+	padding: 0 4px 0 4px;
+}
+
+.tws .tws-tab-element .tws-tab-view-header td.tws-tab-view-tools-left *,
+.tws .tws-tab-element .tws-tab-view-header td.tws-tab-view-tools-middle *,
+.tws .tws-tab-element .tws-tab-view-header td.tws-tab-view-tools-right *
+{
+	cursor: auto;
+}
+
+.tws .tws-middle-section .tws-tab-element .tws-tab-view-header td.tws-tab-view-tools-middle
+{
+	
+}
+
+.tws .tws-tab-element .tws-tab-view-title span
+{
+	padding: 0 0 0 4px;
+	cursor: auto;
+}
+
+.tws .tws-tab-element .tws-tab-view-icon span
+{
+	padding: 0 4px 0 4px;
+}
+
+.tws .tws-tab-view .tws-tab-view-loading
+{
+	text-align: center;
+	font-size: 1.2em;
+	padding: 48px 0 48px 0;
+}
+
+.tws .tws-middle-section .tws-tab-element
+{
+	border: solid 1px #B5CBE0;
+}
+
+.tws .tws-main-section .tws-tab-element .tws-tab-view-header .tws-tab-view-title span
+{
+	display: none;
+}
+
+.tws .tws-middle-section .tws-tab-element .tws-tab-view-header .tws-tab-view-title span
+{
+	display: block; 
+}
+
+.tws .tws-main-section .tws-more-tab-element  .tws-tab-view-header .tws-tab-view-title span
+{
+	display: block;
+}
+
+.tws .tws-drop-target
+{   
+	color: #DDDDDD;    
+	text-align: center;
+	height: 4px;
+	line-height: 4px;
+	font-size: .1em;
+	letter-spacing: 2px;
+	display: none; 	
+}
+
+.tws .tws-drop-target span
+{
+	line-height: .1em;
+}
+
+.tws .tws-middle-section .tws-drop-target 
+{
+	display: block;
+}
+
+.tws .tws-middle-section .tws-drop-target span
+{
+	display: none;
+}
+
+.tws .tws-middle-section .tws-drop-target-active span
+{
+	display: none;
+	color: #999999;
+}
+
+.tws .tws-middle-section .tws-drop-target-hover
+{	
+	background: #3C77C4;	
+}
+
+.tws .tws-middle-section .tws-drop-target-hover span
+{
+	color: #FFFFFF;
+	display: none;
+}
+
+.tws .tws-middle-section .tws-middle-drop-target
+{
+}
+
+.tws .tws-middle-section .tws-middle-drop-target
+{
+}
+
+.tws .tws-middle-section-empty .tws-middle-drop-target
+{
+	height: 1.75em;
+	line-height: 1.75em;
+	font-size: 1em;
+}
+
+.tws .tws-middle-section-empty .tws-middle-drop-target span
+{
+	display: block;
+	color: #999999;
+	line-height: 1.75em;
+}
+
+.tws .tws-middle-section-empty .tws-drop-target-hover span
+{
+	color: #FFFFFF;
+}
+
+.tws-tab-drag-helper 
+{	
+	position: absolute;
+	width: 150px;
+	height: 20px;
+	line-height: 20px;
+	border: solid 3px #B5CBE0;
+	background: #EEEEEE;
+}
+
+.tws-tab-drag-helper .tws-drag-helper-icon
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	background: red url("../images/blue/no.gif");
+}
+
+.tws-drag-helper-valid .tws-drag-helper-icon
+{
+    background: green url("../images/blue/ok.gif");
+}
+
+.tws-tab-drag-helper .tws-drag-helper-text
+{
+	position: absolute;
+	top: 0;
+	left: 20px;
+	width: 130px;
+	height: 20px;
+	line-height: 20px;	
+	text-align: center;
+	overflow: hidden;
+	font-size: .8em;
+}
+
+.tws .tws-more-tab-element .tws-more-tab-layout
+{
+	border-collapse: separate;
+	border-spacing: 8px;
+	padding: 0;
+	margin: 0;
+	border: none 0px black;
+	width: 100%;
+}
+
+.tws .tws-more-tab-element .tws-more-tab-buttons
+{	
+	padding: 0;
+	margin: 0;
+	width: 200px;	
+	vertical-align: top;
+	border: solid 1px #B5CBE0;
+	background: #FFFFFF;
+}
+
+.tws .tws-more-tab-element .tws-more-tab-buttons-title
+{
+	position: relative;
+	height: 26px;
+	line-height: 26px;
+	background: #DFDFDF;
+	font-weight: bold;
+	padding: 0 2px 0 2px;
+	text-align: left;
+	border-bottom: solid 1px #B5CBE0;
+}
+
+.tws .tws-more-tab-element .tws-more-tab-buttons-tools
+{
+	position: absolute;
+	top: 3px;
+	right: 2px;
+}
+
+.tws .tws-more-tab-element .tws-more-tab-buttons-container
+{
+	position: relative;
+	width: 200px;
+}
+
+.tws .tws-more-tab-element .tws-more-tab-content
+{
+	padding: 0;
+	margin: 0;
+	border: solid 1px #B5CBE0;
+	vertical-align: top;
+}
+
+.tws .tws-more-tab-element .tws-more-tab-content .tws-tab-element
+{
+	width: 100%;
+}
+
+.tws .tws-more-tab-element .tws-more-tab-buttons ul
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;	
+}
+
+.tws .tws-more-tab-element .tws-more-tab-buttons li.tws-more-tab-button
+{
+	padding: 0 2px 0 2px;
+	margin: 0;
+	list-style: none;	
+	line-height: 1.3em;
+	text-align: left;
+	cursor: move;
+}
+
+.tws .tws-more-tab-element .tws-more-tab-buttons li.tws-active-more-tab-button
+{
+	color: #FFFFFF;
+	background: #45658C;
+}
+
+.tws .tws-more-tab-element .tws-more-tab-buttons li.tws-more-tab-button span
+{
+	cursor: pointer;
+}
+
+.tws .tws-more-tab-element .tws-more-tab-buttons li.tws-more-tab-button-tail
+{
+	height: 48px;
+	cursor: auto;
+}
+
+.tws .tws-more-tab-element .tws-more-tab-content-fixer
+{
+	width: 100%;
+	height: 0px;
+}
+
+.tws .tws-more-tab-element .tws-more-tab-message
+{
+	width: 100%;
+	margin: 6em 0 6em 0;
+	text-align: center;
+}
+
+.tws .tws-more-tab-buttons .tws-insert-button-marker
+{
+	position: absolute;
+	top: 0;
+	left: 0;	
+	height: 24px;
+	width: 224px;
+    background: url("../images/blue/insert-arrow-left.gif") no-repeat top right;
+	z-index: 102;
+}
+
+div.tws-tab-view-body
+{
+	/* need to give this layout in IE */
+	min-height: 0px;
+	_height: 1%;
+}
+
+div.tws-more-tab-element
+{
+	/* need to give this layout in IE */
+	min-height: 0px;
+	_height: 1%;
+}
+
+.tws-more-tab-element .tws-more-tab-header span
+{
+	cursor:auto;
+	padding:0 0 0 4px;
+}
+
+.tws-main-tab-content .tws-more-tab-element .tws-more-tab-header
+{
+	display: none;
+}
+
+.tws-middle-section .tws-more-tab-element .tws-more-tab-content .tws-drop-target
+{
+	display: none;
+}
+
+.tws .tws-middle-section .tws-more-tab-element .tws-tab-element
+{
+	border: none 0px black;
+}

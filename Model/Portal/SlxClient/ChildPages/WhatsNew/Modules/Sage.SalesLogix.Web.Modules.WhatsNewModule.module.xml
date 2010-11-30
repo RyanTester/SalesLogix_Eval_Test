@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<WebModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="2f155523-aaf0-4822-b538-92de06ee9d21">
+  <InstanceId>57898f826c734b8f94981102d45dcd4d</InstanceId>
+  <ModuleTypeName>Sage.SalesLogix.Web.Modules.WhatsNewModule, Sage.SalesLogix.Web.Modules</ModuleTypeName>
+  <RunInMode />
+  <AllowRoles />
+</WebModule>

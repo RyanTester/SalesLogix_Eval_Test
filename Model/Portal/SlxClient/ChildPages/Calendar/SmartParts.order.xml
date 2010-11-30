@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="5bfb92ae-a969-47f4-8446-df2ba95b113c">ActivityCalendar.smartpart.xml</Item>
+  <Item Id="2e72cedd-4938-4a4b-b06c-58ff9ad10b79">DeleteRecurrence.smartpart.xml</Item>
+  <Item Id="0ede7ca7-5a56-4c1f-afd6-87b135e2cf35">CompleteRecurrence.smartpart.xml</Item>
+  <Item Id="96c1522c-14e9-431b-b521-fd97253cd32b">EditRecurrence.smartpart.xml</Item>
+</ModelItems>

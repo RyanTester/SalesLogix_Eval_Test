@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="6b7f1e22-6eb2-4a7f-9964-b3bcfe9fcc7c">
+  <SmartPartId>SpeedSearch</SmartPartId>
+  <SmartPart>SmartParts\SpeedSearch\SpeedSearch.ascx</SmartPart>
+  <TargetWorkspace>DialogWorkspace</TargetWorkspace>
+  <ShowInMode>Insert</ShowInMode>
+  <Properties />
+  <AllowRoles />
+</SmartPartMapping>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="75d1105c-be99-4b1b-8cf6-74ea980bc4bb" lastModifiedUtc="2008-05-13T23:20:33.2494306Z" name="InsertLeadFromImport" methodType="Rule" actionType="None" returnMode="None">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="e99ecba6-1187-4ad2-9371-3823c0e0120a" paramName="importedLead" sequence="0" paramType="ILead" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="cee33842-c7ab-4aec-aca6-c1d38388e492" lastModifiedUtc="2008-05-13T23:20:10.1022892Z" targetType="Sage.SalesLogix.Lead.Rules, Sage.SalesLogix.BusinessRules" targetMethod="InsertLeadFromImport" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

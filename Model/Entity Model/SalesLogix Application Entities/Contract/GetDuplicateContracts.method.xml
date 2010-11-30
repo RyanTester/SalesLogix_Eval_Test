@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="e6029d8e-1ac4-43cc-b7e3-5de8f055e329" lastModifiedUtc="2008-01-22T00:23:02.1231109Z" name="GetDuplicateContracts" returnType="IList&lt;IContract&gt;" methodType="Rule" actionType="None" returnMode="Object" isInstance="true">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter />
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="5f8684f9-0d2d-442f-909b-8ff30f7a1663" lastModifiedUtc="2008-01-22T00:22:04.3422307Z" targetType="Sage.SalesLogix.Contract.Rules, Sage.SalesLogix.BusinessRules" targetMethod="GetDuplicateContracts" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

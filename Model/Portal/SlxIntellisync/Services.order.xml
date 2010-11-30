@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="bc402b35-3290-4bce-8b11-edb6c986f3d1">Sage.Platform.Data.IDataService.service.xml</Item>
+  <Item Id="45b2fad2-6dc4-43b2-aa76-c166381749ab">Sage.Platform.Security.IUserService.service.xml</Item>
+  <Item Id="df277190-25b5-43c0-8159-9975735220fe">Sage.Platform.Application.Services.ITransactionManagerService.service.xml</Item>
+  <Item Id="cbc90542-ea28-4db4-8af2-fa31c897120f">Sage.Platform.Application.Services.IUserOptionsService.service.xml</Item>
+  <Item Id="da22c1bf-9ff8-4ab4-b8e1-4accbf167cdb">Sage.Platform.WebPortal.Services.IEntityStateService.service.xml</Item>
+  <Item Id="628bbb07-cdfa-4601-a91b-c7adadd1dfa8">Sage.SalesLogix.SalesLogixEntityKeyGenerator.service.xml</Item>
+  <Item Id="523de0f7-8a76-4274-beb9-72753611130e">Sage.Platform.Data.IHibernateConfigurationService.service.xml</Item>
+</ModelItems>

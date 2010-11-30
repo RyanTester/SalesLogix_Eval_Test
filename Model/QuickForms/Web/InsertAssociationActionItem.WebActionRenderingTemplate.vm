@@ -1,0 +1,66 @@
+#if($action.PassResultsToNextAction)
+    object passThroughObject = null;
+#end
+    if (${qfcontrol.controlId}.LookupResultValue != null)
+    {
+        ${generator.entitytypename} parentEntity = BindingSource.Current as ${generator.entitytypename};
+        ${action.GetChildEntityTypeName( $qfcontrol )} relatedEntity = ${qfcontrol.controlId}.LookupResultValue as ${action.GetChildEntityTypeName( $qfcontrol )};
+        Sage.Platform.WebPortal.EntityPage page = (Sage.Platform.WebPortal.EntityPage)Page;
+        if ((parentEntity != null) && (relatedEntity != null))
+        {
+            ${action.GetQualifiedRelationshipEntityType} relationshipEntity = Sage.Platform.EntityFactory.Create<${action.GetQualifiedRelationshipEntityType}>();
+            relationshipEntity.${action.ParentRelationshipPropertyName} = parentEntity;
+            relationshipEntity.${action.ChildRelationshipPropertyName} = relatedEntity;
+            parentEntity.${action.ParentsCollectionPropertyName}.Add(relationshipEntity);
+            ${action.DataSource}.SelectedMember = relationshipEntity;
+            if (page.ModeId.ToUpper() != "INSERT")
+            {
+				parentEntity.Save();
+            }
+#if (${action.SmartPart} != "")
+            if (DialogService != null)
+            {
+				// InsertAssociationActionItem
+			#if(${action.CenterDialog} == true) 
+				DialogService.SetSpecs(${action.Height}, ${action.Width}, "${action.SmartPart}",#if($action.TitleOverride != "") GetLocalResourceObject("${action.ResourceKey}.DialogTitleOverride").ToString() #else string.Empty #end);
+			#else
+				DialogService.SetSpecs(${action.Top}, ${action.Left}, ${action.Height}, ${action.Width}, "${action.SmartPart}",#if($action.TitleOverride != "") GetLocalResourceObject("${action.ResourceKey}.DialogTitleOverride").ToString() #else string.Empty #end, "false");
+            #end
+                DialogService.EntityType = typeof(${action.GetQualifiedEntityType}); 
+                string id = string.Empty;
+	
+#if(${generator.IsCompositeKeyEntity($action.EntityTypeName)})
+                DialogService.CompositeKeyNames = "${generator.WriteCompositeKeyNames($action.EntityTypeName)}";
+                id = ${generator.WriteCompositeKeyValuesString($action.EntityTypeName , "relationshipEntity")}
+		if (Sage.Platform.WebPortal.PortalUtil.ObjectIsNewEntity(relationshipEntity))
+		{
+		    id = relationshipEntity.InstanceId.ToString();
+                    Sage.Platform.ChangeManagement.ChangeManagementEntityFactory.RegisterInstance(relationshipEntity, relationshipEntity.InstanceId);			
+                }
+#else
+		if (Sage.Platform.WebPortal.PortalUtil.ObjectIsNewEntity(relationshipEntity))
+		{
+			id = relationshipEntity.InstanceId.ToString();
+                        Sage.Platform.ChangeManagement.ChangeManagementEntityFactory.RegisterInstance(relationshipEntity, relationshipEntity.InstanceId);			
+		}
+		else
+                	id = relationshipEntity.Id.ToString();
+#end
+                DialogService.EntityID = id;
+                DialogService.ShowDialog();
+            }
+#end
+#if($action.PassResultsToNextAction)
+            passThroughObject = relationshipEntity;
+#end
+        }
+    }
+#if($action.OnCompleteActionItem)
+#if($action.OnCompleteActionItem.InnerActionName != "NoActionAction")
+#if($action.PassResultsToNextAction)
+    e = new Sage.Platform.WebPortal.SmartParts.WebActionEventArgs(passThroughObject);
+#end
+    ${action.OnCompleteActionItem.MethodName}(sender, e);
+    ${pagegenerator.QueueSubAction($action.OnCompleteActionItem)}
+#end
+#end

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\QuickForms\ContractComments.main.quickform.xml" timeStamp="2009-11-19T20:10:51.6800" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\QuickForms\ContractComments.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:51.6800" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\QuickForms\ContractCoveredAssets.main.quickform.xml" timeStamp="2009-11-19T20:10:51.6800" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\QuickForms\ContractCoveredAssets.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:51.6800" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\QuickForms\ContractDetail.main.quickform.xml" timeStamp="2009-11-19T20:10:51.6970" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\QuickForms\ContractDetail.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:51.6970" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\QuickForms\ContractReferenceDuplicate.main.quickform.xml" timeStamp="2009-11-19T20:10:51.7100" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\QuickForms\ContractReferenceDuplicate.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:51.7100" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\QuickForms\ContractSummary.main.quickform.xml" timeStamp="2009-11-19T20:10:51.7730" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\QuickForms\ContractSummary.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:51.7900" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\QuickForms\ContractTickets.main.quickform.xml" timeStamp="2009-11-19T20:10:51.7900" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\QuickForms\ContractTickets.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:51.8070" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\QuickForms\InsertContract.main.quickform.xml" timeStamp="2009-11-19T20:10:51.8070" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contract\QuickForms\InsertContract.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:51.7730" />
+</exportedFiles>

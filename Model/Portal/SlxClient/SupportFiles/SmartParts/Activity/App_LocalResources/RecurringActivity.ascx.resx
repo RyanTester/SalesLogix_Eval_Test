@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ddlYearlyMonthOfYear.Items.Apr" xml:space="preserve">
+    <value>April</value>
+  </data>
+  <data name="ddlYearlyMonthOfYear.Items.Aug" xml:space="preserve">
+    <value>August</value>
+  </data>
+  <data name="ddlYearlyMonthOfYear.Items.Dec" xml:space="preserve">
+    <value>December</value>
+  </data>
+  <data name="ddlYearlyMonthOfYear.Items.Feb" xml:space="preserve">
+    <value>February</value>
+  </data>
+  <data name="ddlYearlyMonthOfYear.Items.Jan" xml:space="preserve">
+    <value>January</value>
+  </data>
+  <data name="ddlYearlyMonthOfYear.Items.Jul" xml:space="preserve">
+    <value>July</value>
+  </data>
+  <data name="ddlYearlyMonthOfYear.Items.Jun" xml:space="preserve">
+    <value>June</value>
+  </data>
+  <data name="ddlYearlyMonthOfYear.Items.Mar" xml:space="preserve">
+    <value>March</value>
+  </data>
+  <data name="ddlYearlyMonthOfYear.Items.May" xml:space="preserve">
+    <value>May</value>
+  </data>
+  <data name="ddlYearlyMonthOfYear.Items.Nov" xml:space="preserve">
+    <value>November</value>
+  </data>
+  <data name="ddlYearlyMonthOfYear.Items.Oct" xml:space="preserve">
+    <value>October</value>
+  </data>
+  <data name="ddlYearlyMonthOfYear.Items.Sep" xml:space="preserve">
+    <value>September</value>
+  </data>
+  <data name="ddlYearlyWeekDay.Items.Friday" xml:space="preserve">
+    <value>Friday</value>
+  </data>
+  <data name="ddlYearlyWeekDay.Items.Monday" xml:space="preserve">
+    <value>Monday</value>
+  </data>
+  <data name="ddlYearlyWeekDay.Items.Saturday" xml:space="preserve">
+    <value>Saturday</value>
+  </data>
+  <data name="ddlYearlyWeekDay.Items.Sunday" xml:space="preserve">
+    <value>Sunday</value>
+  </data>
+  <data name="ddlYearlyWeekDay.Items.Thursday" xml:space="preserve">
+    <value>Thursday</value>
+  </data>
+  <data name="ddlYearlyWeekDay.Items.Tuesday" xml:space="preserve">
+    <value>Tuesday</value>
+  </data>
+  <data name="ddlYearlyWeekDay.Items.Wednesday" xml:space="preserve">
+    <value>Wednesday</value>
+  </data>
+  <data name="ddlYearlyWeekOfMonth.Items.First" xml:space="preserve">
+    <value>1st</value>
+  </data>
+  <data name="ddlYearlyWeekOfMonth.Items.Fourth" xml:space="preserve">
+    <value>4th</value>
+  </data>
+  <data name="ddlYearlyWeekOfMonth.Items.Last" xml:space="preserve">
+    <value>Last</value>
+  </data>
+  <data name="ddlYearlyWeekOfMonth.Items.Second" xml:space="preserve">
+    <value>2nd</value>
+  </data>
+  <data name="ddlYearlyWeekOfMonth.Items.Third" xml:space="preserve">
+    <value>3rd</value>
+  </data>
+  <data name="labelRecurring.Items.Daily" xml:space="preserve">
+    <value>Daily</value>
+  </data>
+  <data name="labelRecurring.Items.Monthly" xml:space="preserve">
+    <value>Monthly</value>
+  </data>
+  <data name="labelRecurring.Items.Once" xml:space="preserve">
+    <value>Once</value>
+  </data>
+  <data name="labelRecurring.Items.Weekly" xml:space="preserve">
+    <value>Weekly</value>
+  </data>
+  <data name="labelRecurring.Items.Yearly" xml:space="preserve">
+    <value>Yearly</value>
+  </data>
+  <data name="labelRecurring.Text" xml:space="preserve">
+    <value>This activity occurs...</value>
+  </data>
+  <data name="localizeActivityOccursOnce.Text" xml:space="preserve">
+    <value>This activity occurs only once</value>
+  </data>
+  <data name="localizeDaysAfterCompletion.Text" xml:space="preserve">
+    <value>Day(s) after completion</value>
+  </data>
+  <data name="localizeEndRecurring.Text" xml:space="preserve">
+    <value>End Recurring:</value>
+  </data>
+  <data name="localizeEveryDays.Text" xml:space="preserve">
+    <value>Day(s)</value>
+  </data>
+  <data name="localizeMonthsAfterCompletion.Text" xml:space="preserve">
+    <value>Month(s) after completion:</value>
+  </data>
+  <data name="localizeMonthsOnDay.Text" xml:space="preserve">
+    <value>Month(s) on day</value>
+  </data>
+  <data name="localizeMonthsOnThe.Text" xml:space="preserve">
+    <value>Month(s) on the</value>
+  </data>
+  <data name="localizeOccurrences.Text" xml:space="preserve">
+    <value>occurrences.</value>
+  </data>
+  <data name="localizeRecurring.Text" xml:space="preserve">
+    <value>Start Recurring:</value>
+  </data>
+  <data name="localizeRecurringActivity.Text" xml:space="preserve">
+    <value>Recurring Activity - Daily</value>
+  </data>
+  <data name="localizeRecurringActivityWeekly.Text" xml:space="preserve">
+    <value>Recurring Activity - Weekly</value>
+  </data>
+  <data name="localizeRecurringMonthly.Text" xml:space="preserve">
+    <value>Recurring Activity - Monthly</value>
+  </data>
+  <data name="localizeRecurringOnce.Text" xml:space="preserve">
+    <value>Recurring Activity - Once</value>
+  </data>
+  <data name="localizeRecurringYearly.Text" xml:space="preserve">
+    <value>Recurring Activity - Yearly</value>
+  </data>
+  <data name="localizeWeeksAfterCompletion.Text" xml:space="preserve">
+    <value>Week(s) after completion:</value>
+  </data>
+  <data name="localizeWeeksOn.Text" xml:space="preserve">
+    <value>Week(s) on:</value>
+  </data>
+  <data name="localizeYearsAfterCompletion.Text" xml:space="preserve">
+    <value>Year(s) after completion:</value>
+  </data>
+  <data name="localizeYearsOn.Text" xml:space="preserve">
+    <value>Year(s) on</value>
+  </data>
+  <data name="rbDayOfTheYear.Text" xml:space="preserve">
+    <value>The</value>
+  </data>
+  <data name="rbEndAfter.Text" xml:space="preserve">
+    <value>End After</value>
+  </data>
+  <data name="rbEveryDay.Text" xml:space="preserve">
+    <value>Every</value>
+  </data>
+  <data name="rbEveryDayAfterCompletion.Text" xml:space="preserve">
+    <value>Every</value>
+  </data>
+  <data name="rbEveryMonthOnDay.Text" xml:space="preserve">
+    <value>Every</value>
+  </data>
+  <data name="rbEveryMonthOnTheDayOfWeek.Text" xml:space="preserve">
+    <value>Every</value>
+  </data>
+  <data name="rbEveryWeekly.Text" xml:space="preserve">
+    <value>Every</value>
+  </data>
+  <data name="rbEveryWeeklyAfterCompletion.Text" xml:space="preserve">
+    <value>Every</value>
+  </data>
+  <data name="rbMonthsAfterCompletion.Text" xml:space="preserve">
+    <value>Every</value>
+  </data>
+  <data name="rbYearlyAfterCompletion.Text" xml:space="preserve">
+    <value>Every</value>
+  </data>
+  <data name="rbYearlyEveryOnDayOfTheMonth.Text" xml:space="preserve">
+    <value>Every</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="RecurringActivity_ClientScript" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>RecurringActivity_ClientScript.js;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="ddlWeekOfMonth.Items.First" xml:space="preserve">
+    <value>1st</value>
+  </data>
+  <data name="ddlWeekOfMonth.Items.Fourth" xml:space="preserve">
+    <value>4th</value>
+  </data>
+  <data name="ddlWeekOfMonth.Items.Last" xml:space="preserve">
+    <value>Last</value>
+  </data>
+  <data name="ddlWeekOfMonth.Items.Second" xml:space="preserve">
+    <value>2nd</value>
+  </data>
+  <data name="ddlWeekOfMonth.Items.Third" xml:space="preserve">
+    <value>3rd</value>
+  </data>
+</root>

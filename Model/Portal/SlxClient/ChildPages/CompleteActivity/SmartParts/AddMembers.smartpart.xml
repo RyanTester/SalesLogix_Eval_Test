@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="ab60224e-7b15-4aba-bf17-4b2bc9bb355c">
+  <SmartPartId>AddMembers</SmartPartId>
+  <SmartPart>SmartParts\Activity\AddMembers.ascx</SmartPart>
+  <TargetWorkspace>TabControl</TargetWorkspace>
+  <ShowInMode />
+  <Properties />
+  <AllowRoles />
+</SmartPartMapping>

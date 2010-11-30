@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<PortalPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="5cbfedac-60c5-4729-8cca-105ef6d0255a">
+  <PageAlias>QueryBuilderMain</PageAlias>
+  <TemplateUrl>Masters\Dialog.master</TemplateUrl>
+  <InheritTemplate>false</InheritTemplate>
+  <InheritsFrom>Sage.Platform.WebPortal.WebPortalPage, Sage.Platform.WebPortal</InheritsFrom>
+  <Properties />
+  <TemplateProperties />
+</PortalPage>

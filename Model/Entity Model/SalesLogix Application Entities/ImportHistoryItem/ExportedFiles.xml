@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ImportHistoryItem\ImportHistoryItem.IMPORTHISTORYITEM.entity.xml" timeStamp="2009-11-19T20:10:52.6000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ImportHistoryItem\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:52.5230" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ImportHistoryItem\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:52.5230" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ImportHistoryItem\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:52.5230" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ImportHistoryItem\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:52.5370" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ImportHistoryItem\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:52.5370" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ImportHistoryItem\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:52.5530" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ImportHistoryItem\OnCreate.method.xml" timeStamp="2009-11-19T20:10:52.5700" />
+</exportedFiles>

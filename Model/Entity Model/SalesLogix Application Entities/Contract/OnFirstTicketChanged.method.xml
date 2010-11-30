@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="e4cc051e-cbeb-42f5-b0ee-97dea79f6686" lastModifiedUtc="2008-01-16T22:58:16.9332508Z" name="OnFirstTicketChanged" returnType="void" methodType="Rule" actionType="None" returnMode="None" isInstance="true">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter />
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="d7727da6-dccf-463d-adaa-c99f704c2713" lastModifiedUtc="2008-01-16T22:58:15.183262Z" targetType="Sage.SalesLogix.Contract.Rules, Sage.SalesLogix.BusinessRules" targetMethod="OnFirstTicketChanged" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

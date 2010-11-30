@@ -1,0 +1,23 @@
+private Sage.Platform.Mashups.Web.WebMashupBindingSource _${qfcontrol.ControlId};
+public Sage.Platform.Mashups.Web.WebMashupBindingSource ${qfcontrol.ControlId}
+{ 
+    get 
+    {
+	    if (_${qfcontrol.ControlId} == null)
+		{
+			_${qfcontrol.ControlId} = new Sage.Platform.Mashups.Web.WebMashupBindingSource(${qfcontrol.MashupName.to_quote}, ${qfcontrol.ResultName.to_quote});
+		}
+		return _${qfcontrol.ControlId};
+    }
+}
+
+void ${qfcontrol.ControlId}_OnCurrentEntitySet(object sender, EventArgs e) 
+{
+    if (Visible)
+    {
+        ${qfcontrol.ControlId}.Current = BindingSource.Current;
+        RegisterBindingsWithClient(${qfcontrol.ControlId});
+    }
+}
+
+$generator.addFormLoadCode("${qfcontrol.ControlId}.Bind();")

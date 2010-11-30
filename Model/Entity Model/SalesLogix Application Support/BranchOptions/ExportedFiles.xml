@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Support\BranchOptions\BranchOptions.BRANCHOPTIONS.entity.xml" timeStamp="2009-11-19T20:10:56.8270" />
+  <exportedFile url="\Entity Model\SalesLogix Application Support\BranchOptions\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:56.8270" />
+  <exportedFile url="\Entity Model\SalesLogix Application Support\BranchOptions\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:56.8430" />
+  <exportedFile url="\Entity Model\SalesLogix Application Support\BranchOptions\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:56.8270" />
+  <exportedFile url="\Entity Model\SalesLogix Application Support\BranchOptions\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:56.8270" />
+  <exportedFile url="\Entity Model\SalesLogix Application Support\BranchOptions\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:56.8430" />
+  <exportedFile url="\Entity Model\SalesLogix Application Support\BranchOptions\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:56.8430" />
+  <exportedFile url="\Entity Model\SalesLogix Application Support\BranchOptions\OnCreate.method.xml" timeStamp="2009-11-19T20:10:56.8430" />
+</exportedFiles>

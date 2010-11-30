@@ -1,0 +1,3 @@
+#foreach($setting in $action.PropertySettings)
+${setting.TargetControlID}.${generator.GetControlPropertyName( $setting.TargetControlID, $setting.PropertyName )} = ${generator.GetCorrectBoolValueFor(  $setting.TargetControlID, $setting.PropertyName, $setting.Value )};
+#end

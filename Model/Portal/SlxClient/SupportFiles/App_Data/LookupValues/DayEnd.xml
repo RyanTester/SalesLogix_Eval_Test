@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Lookup name="DayEnd">
+  <LookupValue id="00:00:00" text="12:00am" default="false"></LookupValue>
+  <LookupValue id="01:00:00" text="1:00am" default="false"></LookupValue>
+  <LookupValue id="02:00:00" text="2:00am" default="false"></LookupValue>
+  <LookupValue id="03:00:00" text="3:00am" default="false"></LookupValue>
+  <LookupValue id="04:00:00" text="4:00am" default="false"></LookupValue>
+  <LookupValue id="05:00:00" text="5:00am" default="false"></LookupValue>
+  <LookupValue id="06:00:00" text="6:00am" default="false"></LookupValue>
+  <LookupValue id="07:00:00" text="7:00am" default="false"></LookupValue>
+  <LookupValue id="08:00:00" text="8:00am" default="false"></LookupValue>
+  <LookupValue id="09:00:00" text="9:00am" default="false"></LookupValue>
+  <LookupValue id="10:00:00" text="10:00am" default="false"></LookupValue>
+  <LookupValue id="11:00:00" text="11:00am" default="false"></LookupValue>
+  <LookupValue id="12:00:00" text="12:00pm" default="false"></LookupValue>
+  <LookupValue id="13:00:00" text="1:00pm" default="false"></LookupValue>
+  <LookupValue id="14:00:00" text="2:00pm" default="false"></LookupValue>
+  <LookupValue id="15:00:00" text="3:00pm" default="false"></LookupValue>
+  <LookupValue id="16:00:00" text="4:00pm" default="false"></LookupValue>
+  <LookupValue id="17:00:00" text="5:00pm" default="true"></LookupValue>
+  <LookupValue id="18:00:00" text="6:00pm" default="false"></LookupValue>
+  <LookupValue id="19:00:00" text="7:00pm" default="false"></LookupValue>
+  <LookupValue id="20:00:00" text="8:00pm" default="false"></LookupValue>
+  <LookupValue id="21:00:00" text="9:00pm" default="false"></LookupValue>
+  <LookupValue id="22:00:00" text="10:00pm" default="false"></LookupValue>
+  <LookupValue id="23:00:00" text="11:00pm" default="false"></LookupValue>
+</Lookup>
+

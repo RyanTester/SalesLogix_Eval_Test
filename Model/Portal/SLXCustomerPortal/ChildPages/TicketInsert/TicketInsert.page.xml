@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<PortalPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="5257f0d7-e6b5-4fc5-be70-fec9bf3fdae2">
+  <PageAlias>TicketInsert</PageAlias>
+  <TemplateUrl>masters\base.master</TemplateUrl>
+  <InheritTemplate>true</InheritTemplate>
+  <InheritsFrom>Sage.Platform.WebPortal.EntityPage, Sage.Platform.WebPortal</InheritsFrom>
+  <Properties>
+    <Property Name="EntityTypeName" TypeConverter="">Sage.Entity.Interfaces.ITicket, Sage.Entity.Interfaces</Property>
+  </Properties>
+  <TemplateProperties />
+</PortalPage>

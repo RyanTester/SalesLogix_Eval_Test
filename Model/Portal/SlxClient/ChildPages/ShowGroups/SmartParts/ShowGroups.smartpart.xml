@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="0b68d67e-8957-4c82-8553-a2430e582d9d">
+  <SmartPartId>ShowGroups</SmartPartId>
+  <SmartPart>SmartParts\GroupBuilder\ShowGroups.ascx</SmartPart>
+  <TargetWorkspace>MainContent</TargetWorkspace>
+  <ShowInMode />
+  <Properties />
+  <AllowRoles />
+</SmartPartMapping>

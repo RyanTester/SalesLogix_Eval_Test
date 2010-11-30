@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<PortalService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="35a3eb1b-bc2c-4be7-a4e5-3e29d245f63d">
+  <InstanceId>ae8608a19a2b4ed8a99e944aa6ace61f</InstanceId>
+  <ServiceType>Sage.SalesLogix.Client.GroupBuilder.GroupContextService, Sage.SalesLogix.Client.GroupBuilder</ServiceType>
+  <RegisterAs>Sage.SalesLogix.Client.GroupBuilder.IGroupContextService, Sage.SalesLogix.Client.GroupBuilder</RegisterAs>
+  <AddOnDemand>false</AddOnDemand>
+</PortalService>

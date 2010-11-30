@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="b24c8e73-fb48-465b-a767-5a4c8d7cbad7" lastModifiedUtc="2007-12-31T18:04:26.6902506Z" cardinality="1:M" parentEntityId="3521b9b3-7701-4714-b257-197697f94f85" childEntityId="d0827b30-4d85-4547-b531-84ce0da302f6" cascadeOption="SaveUpdateDelete">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="dd2b313d-db2d-4662-8a55-220382adf700" lastModifiedUtc="2007-12-31T18:04:18.659052Z" name="Items" audited="false" displayCategory="Intermediate" isNullable="true" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="d205718e-7bea-4ee4-960b-9085874c08d8" lastModifiedUtc="2007-12-31T18:04:23.3777718Z" name="Contract" audited="false" displayCategory="Intermediate" isNullable="true" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="7be7e817-b5bb-4f52-bec0-394809c710c1" parentPropertyId="f4eec6b3-71fb-4a4f-a8e1-301cd708403d" childPropertyId="3697021f-9d9b-4bb2-9584-d32fece284ba" ordinal="0" />
+  </column>
+</relationship>

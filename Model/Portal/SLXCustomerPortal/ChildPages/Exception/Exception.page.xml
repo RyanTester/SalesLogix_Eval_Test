@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<PortalPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="165a53bd-1781-41d6-bd5c-9c2d4c5eee02">
+  <PageAlias>Exception</PageAlias>
+  <TemplateUrl>masters\base.master</TemplateUrl>
+  <InheritTemplate>true</InheritTemplate>
+  <InheritsFrom>Sage.Platform.WebPortal.WebPortalPage, Sage.Platform.WebPortal</InheritsFrom>
+  <Properties />
+  <TemplateProperties />
+  <IsDefaultPage>false</IsDefaultPage>
+  <ExcludedGlobalModules />
+</PortalPage>

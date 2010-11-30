@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="cd6c3a5e-1f01-43a0-9cb7-5388460751d6">
+  <ItemId>menuItemCreateNewGroup</ItemId>
+  <NavUrl>javascript:groupManager.CreateGroup('CAMPAIGN');</NavUrl>
+  <LargeImageUrl />
+  <SmallImageUrl />
+  <ContextMenuId />
+  <Target />
+</MenuDropDownItem>

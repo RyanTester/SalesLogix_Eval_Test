@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="Gainey;decompilation;Admin;N;AccountID;USERINFO;AccountManagerID;UserID;USERPROFILE;t;OPPORTUNITYID" MadCap:comment="12/30/02 KC Conv. buttons to links (Multiple Comments)" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:check_list="First Draft" MadCap:status="In Progress" MadCap:lastBlockDepth="5" MadCap:lastHeight="592" MadCap:lastWidth="476" MadCap:conditions="Output.WebClient" MadCap:tocPath="" MadCap:PathToHelpSystem="../../" MadCap:SearchType="Stem">
+    <!-- saved from url=(0014)about:internet -->
+    <head><title>Join Example</title>
+        <link rel="StyleSheet" href="../SALESLOGIX.CSS" />
+        <script src="../SkinSupport/MadCapUtilities.js">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor431"></a>Join Example</h1>
+        <p>The example for Inner, Left, and Right joins use the OPPORTUNITY and ACTIVITY  tables to demonstrate each type of join. The OPPORTUNITY and ACTIVITY tables  each contain the OPPORTUNITYID field. Opportunities can exist without associated  activities. Activities can exist that are not related to an opportunity. Each  join example uses the same opportunity and activity records to demonstrate that  different types of joins result in different records being selected. The join  results records are shown in a separate column in each of the three types of  joins.</p>
+        <p>In the join type examples, the OPPORTUNITY and ACTIVITY tables contain the  following records:</p>
+        <p class="Infinitive">&#160;</p>
+        <table style="caption-side: top;width: 100%;border-spacing: 2px 0px;border-collapse: collapse;margin-left: 0;margin-right: auto;">
+            <col />
+            <col />
+            <col />
+            <thead>
+                <tr>
+                    <th class="Tabletop">OPPORTUNITY Table</th>
+                    <th class="Tabletop" colspan="2">ACTIVITY Table</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="Table">Opportunity1</td>
+                    <td class="Table">Activity 1</td>
+                    <td class="Table">&#160;</td>
+                </tr>
+                <tr>
+                    <td class="Table">opportunity2</td>
+                    <td class="Table">Activity 2</td>
+                    <td class="Table">&#160;</td>
+                </tr>
+                <tr>
+                    <td class="Table">Opportunity3</td>
+                    <td class="Table">Activity 3</td>
+                    <td class="Table">(Opportunity1)</td>
+                </tr>
+                <tr>
+                    <td class="Table">Opportunity4</td>
+                    <td class="Table">Activity 4</td>
+                    <td class="Table">(Opportunity4)</td>
+                </tr>
+                <tr>
+                    <td class="Table">Opportunity5</td>
+                    <td class="Table">Activity 5</td>
+                    <td class="Table">&#160;</td>
+                </tr>
+                <tr>
+                    <td class="Table">&#160;</td>
+                    <td class="Table">Activity 6</td>
+                    <td class="Table">(Opportunity5)</td>
+                </tr>
+                <tr>
+                    <td class="Table">&#160;</td>
+                    <td class="Table">Activity 7</td>
+                    <td class="Table">(Opportunity1)</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="Infinitive">Note the following: </p>
+        <ul>
+            <li class="kadov-p-CTopic-Text-Bulleted" value="1">
+                <p class="Bullets">The 
+ OPPORTUNITY table has 5 records.</p>
+            </li>
+            <li class="kadov-p-CTopic-Text-Bulleted" value="2">
+                <p class="Bullets">Only 
+ opportunity records 1, 4, and 5 have activities.</p>
+            </li>
+            <li class="kadov-p-CTopic-Text-Bulleted" value="3">
+                <p class="Bullets">The 
+ ACTIVITY table has 7 records.</p>
+            </li>
+            <li class="kadov-p-CTopic-Text-Bulleted" value="4">
+                <p class="Bullets">Only 
+ activities 3, 4, 6, and 7 are associated with an opportunity. The specific 
+ opportunity associated is indicated in parentheses to the right of the 
+ activity.</p>
+            </li>
+        </ul>
+        <p>For each of the three types of joins, see the example:</p>
+        <ul>
+            <li class="kadov-p-CTopic-Text-Bulleted" value="1">
+                <p class="Topic-Text-Bulleted"><a href="queryleftjoin.htm">Inner Join</a>
+                </p>
+            </li>
+            <li class="kadov-p-CTopic-Text-Bulleted" value="2">
+                <p class="Topic-Text-Bulleted"><a href="queryleftjoin.htm">Left Join</a>
+                </p>
+            </li>
+            <li class="kadov-p-CTopic-Text-Bulleted" value="3">
+                <p class="Topic-Text-Bulleted" style="margin-bottom: 0;"><a href="queryrightjoin.htm">Right Join</a>
+                </p>
+            </li>
+        </ul>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="queryjointables.htm">Joining Tables</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>
+            </p>
+            <p style="border-top-style: Groove;border-top-color: #c0c0c0;border-top-width: 1px;">&#160;</p>
+            <p><![CDATA[ ]]><a href="../General/feedback.htm" target="_blank">Tell us how we can make the Help better.</a></p>
+        </div>
+        <p>&#160;</p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

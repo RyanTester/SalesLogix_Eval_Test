@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="e3612257-1641-4df4-8213-589962e3aa09" cardinality="1:M" parentEntityId="2e10fb78-456e-4488-af6a-4a4a3072cc6f" childEntityId="97f4cf7c-7074-4f7d-94ae-f1fdc06b5b38">
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <column>
+    <OrmRelationshipColumn parentPropertyId="e1fa0a1d-4534-4a6c-ad0f-cf9ad0d6608b" childPropertyId="c7947a97-3ce3-4691-9498-a8c899c546cd" ordinal="0" />
+  </column>
+  <parentProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmRelationProperty" id="63f60cdf-8bae-45c9-bc98-38f5fd58ead9" name="Documents" displayCategory="Intermediate" displayName="Documents" cultureName="en-US" isNullable="true" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty">
+        <extender guid="4fc827e6-aa9d-4b12-b836-d0871bc288b8">
+          <OrmPropertyExtension>
+            <GenerateGetBy>false</GenerateGetBy>
+          </OrmPropertyExtension>
+        </extender>
+      </extendee>
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="ee1eb00b-6fba-362c-bdbf-f6b422710f0a">
+      <SystemDataTypeBase />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmRelationProperty" id="f1046d1c-e629-48d3-b720-a2e22d0dd2a9" name="Property1" displayCategory="Intermediate" displayName="Property1" cultureName="en-US" isNullable="true" include="false">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty">
+        <extender guid="4fc827e6-aa9d-4b12-b836-d0871bc288b8">
+          <OrmPropertyExtension>
+            <GenerateGetBy>false</GenerateGetBy>
+          </OrmPropertyExtension>
+        </extender>
+      </extendee>
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="ee1eb00b-6fba-362c-bdbf-f6b422710f0a">
+      <SystemDataTypeBase />
+    </SystemDataType>
+  </childProperty>
+</relationship>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="61000f16-d91a-40c0-bab6-420a7aec74f8" name="ScheduleContactProcess" returnType="String" methodType="Rule" actionType="None" returnMode="Object" isInstance="true">
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="f1276da7-8559-436e-940e-c192cb73ac19" paramName="stepId" sequence="0" paramType="string" />
+    <OrmEntityMethodParam id="4ed13705-2a97-4fb0-b255-06a04461b7d5" paramName="contact" sequence="0" paramType="IContact" />
+  </parameter>
+  <methodTargets>
+    <methodTarget id="9f1887cc-a94a-40a0-8e32-30ca8433c7b6" targetType="Sage.SalesLogix.SalesProcess.Rules, Sage.SalesLogix.BusinessRules" sequence="0" targetMethod="ScheduleContactProcess" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+</method>

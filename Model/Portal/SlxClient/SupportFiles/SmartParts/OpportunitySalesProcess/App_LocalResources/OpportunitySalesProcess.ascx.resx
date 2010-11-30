@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActvityNotePadNotSupported" xml:space="preserve">
+    <value>Activity Note Pad not in availble in Web.</value>
+  </data>
+  <data name="cmdSelectContactNext.Text" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="cmdSelectUserNext.Text" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Error_AuthorNotFound" xml:space="preserve">
+    <value>Author not found.</value>
+  </data>
+  <data name="Error_ContactNotFound" xml:space="preserve">
+    <value>Contact not found.</value>
+  </data>
+  <data name="Error_ContactProcessNotAssigned" xml:space="preserve">
+    <value>Contact process not assigned.</value>
+  </data>
+  <data name="Error_LeaderNotFound" xml:space="preserve">
+    <value>Leader not found.</value>
+  </data>
+  <data name="Error_LitRequestNotScheduled" xml:space="preserve">
+    <value>Lit Request not scheduled.</value>
+  </data>
+  <data name="CanceledOrContactNotFound" xml:space="preserve">
+    <value>You have cancled or a contact was not found selected for this action.</value>
+  </data>
+  <data name="ChangeSalesProcess" xml:space="preserve">
+    <value>Steps in the '{0}'  Sales Process have all ready been completed. Do you still want to change to the '{1}' Sales Process?</value>
+  </data>
+  <data name="GettingAcctMgr" xml:space="preserve">
+    <value>Getting Account Manager ...</value>
+  </data>
+  <data name="GettingCurrentUser" xml:space="preserve">
+    <value>Getting current user ...</value>
+  </data>
+  <data name="GettingOppContact" xml:space="preserve">
+    <value>Getting opportunity contact ...</value>
+  </data>
+  <data name="InitAction" xml:space="preserve">
+    <value>Initalizing action.</value>
+  </data>
+  <data name="InitActivity" xml:space="preserve">
+    <value>Initializing Activity wait ...</value>
+  </data>
+  <data name="InitContactProc" xml:space="preserve">
+    <value>Initialzing contact process please wait ...</value>
+  </data>
+  <data name="InitLitRequest" xml:space="preserve">
+    <value>Initialzing Literature Request please wait ...</value>
+  </data>
+  <data name="InitMailMerge" xml:space="preserve">
+    <value>Initializing mail merge please wait ...</value>
+  </data>
+  <data name="InvalidPath" xml:space="preserve">
+    <value>Invalid path.</value>
+  </data>
+  <data name="LabelTemplateNotFound" xml:space="preserve">
+    <value>The label template {0} : {1} was not found.</value>
+  </data>
+  <data name="MailMergeCompleted" xml:space="preserve">
+    <value>Mail merge has completed processing ...</value>
+  </data>
+  <data name="MailMergeFailed" xml:space="preserve">
+    <value>The mail merge was canceled or completed un successfully.</value>
+  </data>
+  <data name="MailMergeSuccess" xml:space="preserve">
+    <value>The mail merge has completed successfully.</value>
+  </data>
+  <data name="Meeting" xml:space="preserve">
+    <value>Meeting</value>
+  </data>
+  <data name="MergeWith" xml:space="preserve">
+    <value>Merge with ...</value>
+  </data>
+  <data name="MustBeAtLeastOne" xml:space="preserve">
+    <value>There must be at least one name in the TO box.</value>
+  </data>
+  <data name="NoContactAssociated" xml:space="preserve">
+    <value>There are no contacts associated to the opportunity.</value>
+  </data>
+  <data name="PerformingActivity" xml:space="preserve">
+    <value>Performing action activity {1}.</value>
+  </data>
+  <data name="PerformingContactProc" xml:space="preserve">
+    <value>Performing action contact process.</value>
+  </data>
+  <data name="PerformingLitReq" xml:space="preserve">
+    <value>Performing action Literature Request.</value>
+  </data>
+  <data name="PerformingMailMerge" xml:space="preserve">
+    <value>Performing action mail merge.</value>
+  </data>
+  <data name="PhoneCall" xml:space="preserve">
+    <value>Phone Call</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Please wait ...</value>
+  </data>
+  <data name="ProcessingAction" xml:space="preserve">
+    <value>Processing action please wait ...</value>
+  </data>
+  <data name="ProcessingMailMerge" xml:space="preserve">
+    <value>Processing mail merge please wait ...</value>
+  </data>
+  <data name="RequestFor" xml:space="preserve">
+    <value>Request for ...</value>
+  </data>
+  <data name="RequiresActiveMail" xml:space="preserve">
+    <value>This step requires Active Mail to be enabled when you login.  Cannot perform this action.</value>
+  </data>
+  <data name="ScheduleForUser" xml:space="preserve">
+    <value>Schedule for user:</value>
+  </data>
+  <data name="ScheduleWithContact" xml:space="preserve">
+    <value>Schedule with contact:</value>
+  </data>
+  <data name="SelectActLeader" xml:space="preserve">
+    <value>Activity leader ...</value>
+  </data>
+  <data name="SelectAuthor" xml:space="preserve">
+    <value>Author for ...</value>
+  </data>
+  <data name="SelectEMailAddr" xml:space="preserve">
+    <value>Selecting email addresses ...</value>
+  </data>
+  <data name="SelectFolder" xml:space="preserve">
+    <value>Select Folder To Use For Merge</value>
+  </data>
+  <data name="HF_SelectFolderMSG.Value" xml:space="preserve">
+    <value>You must select a folder to use for this merge.</value>
+  </data>
+  <data name="SelectFolderTitle" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="ToDo" xml:space="preserve">
+    <value>To Do</value>
+  </data>
+  <data name="WordTemplateNotFound" xml:space="preserve">
+    <value>The word template {0} : {1} was not found.</value>
+  </data>
+  <data name="MustSelectContact" xml:space="preserve">
+    <value>You must select a contact before you can continue.</value>
+  </data>
+  <data name="MustSelectUser" xml:space="preserve">
+    <value>You must select a user before you can continue.</value>
+  </data>
+  <data name="lblCurrentStage.Text" xml:space="preserve">
+    <value>Current Stage</value>
+  </data>
+  <data name="lblDaysInStage.Text" xml:space="preserve">
+    <value>Days In Stage</value>
+  </data>
+  <data name="lblEstClose.Text" xml:space="preserve">
+    <value>Est. Close</value>
+  </data>
+  <data name="lblEstDays.Text" xml:space="preserve">
+    <value>Est. Days</value>
+  </data>
+  <data name="lblProbability.Text" xml:space="preserve">
+    <value>Probability</value>
+  </data>
+  <data name="lblSalesProcess.Text" xml:space="preserve">
+    <value>Sales Process:</value>
+  </data>
+  <data name="lblSalesProcessSnapShot.Text" xml:space="preserve">
+    <value>Sales Process Snapshot</value>
+  </data>
+  <data name="lblSelectContact.Text" xml:space="preserve">
+    <value>Select Opportunity Contact:</value>
+  </data>
+  <data name="lblSelectUser.Text" xml:space="preserve">
+    <value>Select User:</value>
+  </data>
+  <data name="linkManageStages.Text" xml:space="preserve">
+    <value>Stages:</value>
+  </data>
+  <data name="linkManageStages.ToolTip" xml:space="preserve">
+    <value>Manage Stages</value>
+  </data>
+  <data name="MSG_ActivityScheduled" xml:space="preserve">
+    <value>Activity scheduled for contact {0} {1}.</value>
+  </data>
+  <data name="MSG_ContactProcessScheduled" xml:space="preserve">
+    <value>Contact process has been assigned for {0} {1}.</value>
+  </data>
+  <data name="MSG_MailMergeCompleted" xml:space="preserve">
+    <value>Mail merge completed.</value>
+  </data>
+  <data name="MSG_ProcessActionResult" xml:space="preserve">
+    <value>For step &lt;b&gt;{0}&lt;/b&gt; : &lt;br&gt; {1}</value>
+  </data>
+  <data name="MSG_WebActionNotSupported" xml:space="preserve">
+    <value>Web Actions are no longer supported.</value>
+  </data>
+  <data name="MSG_WebFromsNotSupported" xml:space="preserve">
+    <value>Web Forms are no longer supported.</value>
+  </data>
+  <data name="Plugin_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="SalesProcessGrid_Completed.HeaderText" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="SalesProcessGrid_CompletedOn.HeaderText" xml:space="preserve">
+    <value>Completed On</value>
+  </data>
+  <data name="SalesProcessGrid_Description.HeaderText" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="SalesProcessGrid_StartedOn.HeaderText" xml:space="preserve">
+    <value>Started On</value>
+  </data>
+  <data name="SalesProcessGrid_Step.HeaderText" xml:space="preserve">
+    <value>Step</value>
+  </data>
+  <data name="Stage" xml:space="preserve">
+    <value>Stage</value>
+  </data>
+  <data name="SalesProcess_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+</root>

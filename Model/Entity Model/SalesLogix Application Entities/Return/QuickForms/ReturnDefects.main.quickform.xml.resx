@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="grdDefectReturns.d97f1267-aa32-49bb-943b-6f8f6da497e6.ColumnHeading" xml:space="preserve">
+    <value>Defect Id</value>
+  </data>
+  <data name="grdDefectReturns.EmptyTableRowText" xml:space="preserve">
+    <value>No defects associated.</value>
+  </data>
+  <data name="grdDefectReturns.4293012d-f7cd-411d-81de-c2c4456174e6.ColumnHeading" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="grdDefectReturns.ef4e3f33-efb9-407b-8e61-449bf64555ee.ColumnHeading" xml:space="preserve">
+    <value>Severity</value>
+  </data>
+  <data name="grdDefectReturns.296044ae-5f09-4518-9890-656183619548.ColumnHeading" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="grdDefectReturns.6fda7a19-4d96-45c3-be13-d5f9fbb902be.ColumnHeading" xml:space="preserve">
+    <value>Recorded By</value>
+  </data>
+  <data name="grdDefectReturns.75ee57b5-b2e0-4e47-89da-32691e900c0f.ColumnHeading" xml:space="preserve">
+    <value>Recorded Date</value>
+  </data>
+  <data name="grdDefectReturns.05485aec-e5ab-4e52-9c3c-75c45f784034.ColumnHeading" xml:space="preserve">
+    <value>Assigned To</value>
+  </data>
+  <data name="grdDefectReturns.5f79816b-677f-4a45-90df-6a1fa6817e39.ColumnHeading" xml:space="preserve">
+    <value>AssignedDate</value>
+  </data>
+  <data name="grdDefectReturns.c41aad8a-1925-4c24-929c-6c7a8ce301c0.ColumnHeading" xml:space="preserve">
+    <value>Closed By</value>
+  </data>
+  <data name="grdDefectReturns.9b47625a-e4cb-473b-b301-2115756881a8.ColumnHeading" xml:space="preserve">
+    <value>Closed Date</value>
+  </data>
+  <data name="grdDefectReturns.c101551f-dbf5-4b44-9fcf-4ea192678f9b.ColumnHeading" xml:space="preserve">
+    <value>Resolution</value>
+  </data>
+  <data name="grdDefectReturns.32f8f79a-2bfb-4d18-b87c-28898a0ff4a2.Text" xml:space="preserve">
+    <value>Disassociate</value>
+  </data>
+  <data name="lueAssociateDefect.ToolTip" xml:space="preserve">
+    <value>Associate Defect</value>
+  </data>
+  <data name="lueAssociateDefect.LookupProperties.DefectNumber.PropertyHeader" xml:space="preserve">
+    <value>Defect Number</value>
+  </data>
+  <data name="lueAssociateDefect.LookupProperties.Subject.PropertyHeader" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="lueAssociateDefect.LookupProperties.DefectProblem.Notes.PropertyHeader" xml:space="preserve">
+    <value>Problem</value>
+  </data>
+  <data name="lueAssociateDefect.LookupProperties.DefectSolution.Notes.PropertyHeader" xml:space="preserve">
+    <value>Solution</value>
+  </data>
+  <data name="lueAssociateDefect.LookupProperties.AssignedTo.OwnerDescription.PropertyHeader" xml:space="preserve">
+    <value>Assigned To</value>
+  </data>
+  <data name="lueAssociateDefect.LookupProperties.Owner.OwnerDescription.PropertyHeader" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="grdDefectReturns.261cfaba-d6d2-4cd9-a275-9b863a7353e3.ColumnHeading" xml:space="preserve">
+    <value>Fixed In Build</value>
+  </data>
+</root>

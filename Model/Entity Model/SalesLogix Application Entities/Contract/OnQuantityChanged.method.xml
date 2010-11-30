@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="fd60cc3f-750d-4ac4-bcfc-0d1547846027" lastModifiedUtc="2008-01-16T22:49:06.3742744Z" name="OnQuantityChanged" returnType="void" methodType="Rule" actionType="None" returnMode="None" isInstance="true">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter />
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="dce773e5-1414-4ad7-8741-c95fcff59c7a" lastModifiedUtc="2008-01-16T22:49:03.0305458Z" targetType="Sage.SalesLogix.Contract.Rules, Sage.SalesLogix.BusinessRules" targetMethod="OnQuantityChanged" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

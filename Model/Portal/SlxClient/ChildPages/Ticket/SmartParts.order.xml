@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="8fb596dd-01cf-4670-b126-b7a88caeac85">TicketDetails.smartpart.xml</Item>
+  <Item Id="c54177cb-4763-41e9-a139-cf9d835a079b">TicketExtendedDetails.smartpart.xml</Item>
+  <Item Id="0f5a4fd1-ea62-4520-bfc6-42c98101ca53">TicketComments.smartpart.xml</Item>
+  <Item Id="4a02ffd3-5580-4b73-b211-6aca828d7008">ActivityList.smartpart.xml</Item>
+  <Item Id="0a46bd73-5c71-4b5f-8941-13a941885c4d">TicketActivities.smartpart.xml</Item>
+  <Item Id="bb1fc14a-0b85-4ecb-93f7-c4d87103ad85">AttachmentList.smartpart.xml</Item>
+  <Item Id="9d0d2541-b2bc-41e7-a9bc-ada3cee81298">TicketHistory.smartpart.xml</Item>
+  <Item Id="38730091-5010-4f7a-9f53-68dd407b0db3">TicketDefects.smartpart.xml</Item>
+  <Item Id="a34ad1a0-ce52-4b91-83bf-a814dcb741f5">TicketReturns.smartpart.xml</Item>
+  <Item Id="2d2f22a4-c8bd-4ac1-bcf8-8766676e9671">AccountServiceInfo.smartpart.xml</Item>
+  <Item Id="c6d3cef3-9f8b-4c7f-a0b5-f9b95f2cb4c9">SendTicketEmail.smartpart.xml</Item>
+  <Item Id="7e4bcde8-0fe5-4cfb-a592-97d5cf43f2f0">SpeedSearch.smartpart.xml</Item>
+  <Item Id="1a8ef98a-3e2b-497e-bc26-45efac397580">EditRecurrence.smartpart.xml</Item>
+  <Item Id="3105c95b-99b1-4330-a2ff-7d178bf8b9f7">CompleteRecurrence.smartpart.xml</Item>
+  <Item Id="5b69cc11-c94f-4cee-93f0-2d86409eb5ac">TicketAssets.smartpart.xml</Item>
+  <Item Id="6a53e9de-f96a-45b5-925e-c1a90ad8bce6">TicketActivityParts.smartpart.xml</Item>
+  <Item Id="f9d49d6e-2770-4ebd-9779-823ba1819d31">AddEditTicketActivityItem.smartpart.xml</Item>
+  <Item Id="86c63be2-aa3b-4b6a-b309-90ca16548459">LiveGroupViewer.smartpart.xml</Item>
+  <Item Id="6f3e7772-5773-42b4-a656-d86cc8a72cca">TicketTimeline.smartpart.xml</Item>
+</ModelItems>

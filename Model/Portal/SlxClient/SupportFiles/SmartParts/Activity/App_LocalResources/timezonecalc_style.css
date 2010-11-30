@@ -1,0 +1,20 @@
+﻿/* timezonecalc_style.css */
+.pad {
+	padding : 5px;
+}
+LEGEND {
+	color : black;
+}
+.W1 { width : 50px; }
+#lblLocalTimeZone { width : 320px; }
+.dispnone { display : none; }
+
+/* ExtJS IE6 width fix */
+.x-grid3-header-offset{padding-left:1px;width:auto;} /* original-> width:10000px */
+#rightside 
+{ 
+	display:none;
+	vertical-align:top;
+	width:100%;
+	padding:5px;
+}

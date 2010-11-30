@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="b85dcdda-aad2-40c2-a057-957b9ce7bbb0">
+  <ItemId>mnuHelp</ItemId>
+  <NavUrl />
+  <LargeImageUrl />
+  <SmallImageUrl>[Localization.Global_Images:Help_16x16]</SmallImageUrl>
+  <Target />
+</MenuDropDownItem>

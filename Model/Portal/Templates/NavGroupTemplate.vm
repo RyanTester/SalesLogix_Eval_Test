@@ -1,0 +1,9 @@
+<%@ Control language="C#" %>
+<%@ Register tagprefix="sp" namespace="Sage.Platform.WebPortal.SmartParts" assembly="Sage.Platform.WebPortal" %>
+<sp:NavItemCollection runat="server" id="$group.ItemId" NavURL="$group.NavUrl" Target="$group.Target" TextImageRelation="$group.TextImageRelation">
+#foreach( $item in $group.NavItems)
+	<sp:NavItem ID="$item.ItemId" ContextMenu="$item.ContextMenuUrl" meta:resourcekey="$item.ItemId" NavURL="$tools.ToAppRelative($item.NavUrl)" IsSpacer="$item.IsSpacer" 
+	    LargeImageURL="$tools.ResolveImageUrl($item.LargeImageUrl)" SmallImageURL="$tools.ResolveImageUrl($item.SmallImageUrl)"
+	    Target="$item.Target" />
+#end
+</sp:NavItemCollection>

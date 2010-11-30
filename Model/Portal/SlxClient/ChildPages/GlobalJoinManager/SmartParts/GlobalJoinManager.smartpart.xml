@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="c2109dc3-64e5-40f6-90b3-311fdd03d963">
+  <SmartPartId>GlobalJoinManager</SmartPartId>
+  <SmartPart>SmartParts\GroupBuilder\GlobalJoinManager.ascx</SmartPart>
+  <TargetWorkspace>MainContent</TargetWorkspace>
+  <ShowInMode />
+  <Properties />
+</SmartPartMapping>

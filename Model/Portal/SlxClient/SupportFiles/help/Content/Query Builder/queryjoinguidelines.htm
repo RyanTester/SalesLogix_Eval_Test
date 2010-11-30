@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:priority="1" MadCap:comment="12/30/02 KC Conv. buttons to links (Multiple Comments)" MadCap:timeEstimate="0" MadCap:check_list="First Draft" MadCap:status="In Progress" MadCap:conditions="Output.WebClient" MadCap:lastBlockDepth="5" MadCap:lastHeight="374" MadCap:lastWidth="476" MadCap:tocPath="Using Query Builder|Using Joins" MadCap:PathToHelpSystem="../../" MadCap:SearchType="Stem">
+    <!-- saved from url=(0014)about:internet -->
+    <head><title>Guidelines for Using Joins</title>
+        <meta name="copyright" />
+        <link rel="StyleSheet" href="../SALESLOGIX.CSS" />
+        <script src="../SkinSupport/MadCapUtilities.js">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js">
+        </script>
+    </head>
+    <body>
+        <h1 value="SalesLogix Query Builder Help (10/16/2002) for v6.0 © 2002 Interact Commerce Corporation"><a name="kanchor147"></a>Guidelines 
+ for Using Joins</h1>
+        <p>Use the following guidelines when creating table joins in Sage SalesLogix:</p>
+        <ul>
+            <li value="1">On a view that shows fields from multiple tables, use Left joins. If you use  Inner joins and there is no data in one of the tables, NO DATA will appear in  ANY field in the view.  </li>
+            <li value="2">In a group, use Inner joins for the tables used in Conditions. This way, you  will only get records that meet your criteria. However, you may want Left joins  for the tables used in the Layout so all records that meet your Conditions are  included, even if there is no data in one of the tables</li>
+        </ul>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0">
+            <col />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/caution.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;border-style: none;width: 39px;height: 38px;float: none;border-style: none;" width="39" height="38" border="0" />
+                    </p>
+                </td>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p class="Tip-Note-Text" style="margin-bottom: 0;">By default, the ADDRESS table is joined to 
+ the ACCOUNT table via an Inner join. Do <span style="font-style: italic;">not</span> 
+ change the properties of this join.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="RelatedTopics">Related Topics  <![CDATA[ ]]></p>
+        <p><a href="queryaddglobaljoin.htm">Adding a Global Join</a>
+        </p>
+        <p><a href="queryaddlocaljoin.htm">Adding a Local Join</a>
+        </p>
+        <p><a href="queryjointables.htm">Joining Tables</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>
+            </p>
+            <p style="border-top-style: Groove;border-top-color: #c0c0c0;border-top-width: 1px;">&#160;</p>
+            <p><![CDATA[ ]]><a href="../General/feedback.htm" target="_blank">Tell us how we can make the Help better.</a></p>
+        </div>
+        <p>&#160;</p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<WebModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="39bed2ed-3054-4137-8172-c807a6e4f1bc">
+  <InstanceId>a7aedb959a694aad84ef70fc5f6fd598</InstanceId>
+  <ModuleTypeName>Sage.SalesLogix.Client.Opportunity.Modules.OpportunityModule, Sage.SalesLogix.Client.Opportunity.Modules</ModuleTypeName>
+  <RunInMode>List</RunInMode>
+  <AllowRoles />
+</WebModule>

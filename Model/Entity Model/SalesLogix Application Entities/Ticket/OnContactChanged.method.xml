@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="08a38023-c17e-4e9e-8319-c3f37294d315" lastModifiedUtc="2008-01-28T23:39:35.8714383Z" name="OnContactChanged" returnType="void" methodType="Rule" actionType="None" returnMode="None" isInstance="true">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter />
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="1ed40664-9d81-4528-a9c7-3c2624394ce5" lastModifiedUtc="2008-01-28T23:39:34.2933335Z" targetType="Sage.SalesLogix.Ticket.Rules, Sage.SalesLogix.BusinessRules" targetMethod="OnContactChanged" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

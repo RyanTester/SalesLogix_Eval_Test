@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<PortalService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="31dc03b6-e3cf-4baa-95d8-6d484b8b12cf">
+  <InstanceId>fc2b39086f384278af2fd5693d1355b2</InstanceId>
+  <ServiceType>Sage.SalesLogix.Web.SLXWebDataService, Sage.SalesLogix.Web</ServiceType>
+  <RegisterAs>Sage.Platform.Data.IDataService, Sage.Platform</RegisterAs>
+  <AddOnDemand>false</AddOnDemand>
+</PortalService>

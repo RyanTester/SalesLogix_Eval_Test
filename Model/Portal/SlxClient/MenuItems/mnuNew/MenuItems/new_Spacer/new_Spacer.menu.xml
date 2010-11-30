@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="87483e6d-239b-421a-95ea-49e23ac6ae04">
+  <ItemId>new_Spacer</ItemId>
+  <NavUrl />
+  <LargeImageUrl />
+  <SmallImageUrl />
+  <IsSpacer>true</IsSpacer>
+  <ContextMenuId />
+  <Target />
+</MenuDropDownItem>

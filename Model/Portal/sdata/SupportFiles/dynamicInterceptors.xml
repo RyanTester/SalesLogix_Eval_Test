@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dynamicInterceptorConfiguration>
+  <interceptorTypeNames>
+	  <interceptor>Sage.SalesLogix.Orm.PersistentEventsInterceptor, Sage.SalesLogix</interceptor>
+	  <interceptor>Sage.SalesLogix.Web.CreateUpdateInterceptor, Sage.SalesLogix.Web</interceptor>
+    <interceptor>Sage.SalesLogix.Web.ChangeTrackingInterceptor, Sage.SalesLogix.Web</interceptor>
+    <interceptor>Sage.SalesLogix.Web.ReadOnlyInterceptor, Sage.SalesLogix.Web</interceptor>
+  </interceptorTypeNames>
+</dynamicInterceptorConfiguration>

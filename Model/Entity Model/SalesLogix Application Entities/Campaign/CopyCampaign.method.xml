@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="d0de682d-0fb0-4a02-903c-e287067e09bc" lastModifiedUtc="2007-11-01T21:54:09.9515642Z" name="CopyCampaign" returnType="void" methodType="Rule" actionType="None" returnMode="None" isInstance="true">
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="73720753-23d4-4c3d-903c-08e3a7722495" paramName="newCampaign" sequence="0" paramType="ICampaign" />
+    <OrmEntityMethodParam id="7d45545d-d88e-4ca8-b1ce-be7eb7c3a153" paramName="requestID" sequence="0" paramType="String" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="1efd8ca1-fe2b-4ecf-bf6c-aeeaa8dd9b05" lastModifiedUtc="2007-11-05T22:50:06.5274155Z" targetType="Sage.SalesLogix.Campaign.Rules, Sage.SalesLogix.BusinessRules" targetMethod="CopyCampaign" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

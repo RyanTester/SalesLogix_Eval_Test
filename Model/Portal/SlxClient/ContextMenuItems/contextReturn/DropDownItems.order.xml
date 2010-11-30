@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="d4d22c20-d1a0-43e0-934a-48fa2466813b">menuItemLookupReturn.contextmenu.xml</Item>
+  <Item Id="319e5f4e-fd36-43b6-b5f6-10646eb36620">menuItemNewReturn.contextmenu.xml</Item>
+  <Item Id="67ea071b-91a0-4550-a8ee-d0193abd46bd">menuItemCreateNewReturnGroup.contextmenu.xml</Item>
+</ModelItems>

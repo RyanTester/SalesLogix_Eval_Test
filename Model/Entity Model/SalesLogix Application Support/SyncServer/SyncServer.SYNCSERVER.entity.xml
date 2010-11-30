@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="bfc9de28-0aa1-4b55-8204-919c5165b27a" lastModifiedUtc="2008-04-23T11:50:08.7359995Z" manageSchema="false" tableName="SYNCSERVER" name="SyncServer" isExtension="false" audited="false" onBeforeInsertMethodId="6c4def3a-dc51-456d-a1d6-f6ab59ef2269" onAfterInsertMethodId="93e98bf8-ed13-44af-ba9d-838c13b624bf" onBeforeUpdateMethodId="4dc4cae4-0e15-409f-9bbc-15c76f21a177" onAfterUpdateMethodId="dbd880fc-3719-4a5b-b24d-6e2106c91277" onBeforeDeleteMethodId="e6318f6f-211c-4940-a8a4-021ac202dbc3" onAfterDeleteMethodId="415c4f30-0bae-4732-8f3b-c459833b1f68" onCreateId="7579a7db-77aa-409d-bb3c-181d14671e66">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntity">
+      <extender guid="1589723d-0536-4bf3-bdd7-3f6f7fe165d0">
+        <OrmEntityMetadataExtension>
+          <StringExpression>${SiteCode}</StringExpression>
+          <IsHistoryTable>false</IsHistoryTable>
+        </OrmEntityMetadataExtension>
+      </extender>
+    </extendee>
+  </ExtendedPropertiesCollection>
+  <keyProperties>
+    <keyReference id="24c61604-589c-4d90-a5d0-417ffb6fb3c2" ordinalPosition="1" />
+  </keyProperties>
+  <properties>
+    <property xsi:type="OrmFieldProperty" id="f7e553ba-57d2-4544-b083-54fb9ef12ed0" lastModifiedUtc="2008-04-23T11:47:23.9078745Z" name="CreateDate" audited="false" columnName="CREATEDATE" maxLength="0" precision="23" scale="3" ordinal="6" isReadOnly="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty" />
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="1f08f2eb-87c8-443b-a7c2-a51f590923f5">
+        <DateTimeDataType />
+      </SystemDataType>
+    </property>
+    <property xsi:type="OrmFieldProperty" id="8c34b731-677d-4f34-8f33-d29d9e0952ff" lastModifiedUtc="2008-04-23T11:47:23.9234995Z" name="CreateUser" audited="false" columnName="CREATEUSER" maxLength="12" precision="0" scale="0" ordinal="7" isReadOnly="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty" />
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="30053f5a-8d40-4db1-b185-1e4128eb26cc">
+        <StandardIdDataType />
+      </SystemDataType>
+    </property>
+    <property xsi:type="OrmFieldProperty" id="d10b6df2-6502-4ddb-9f69-c00e630d1c0d" lastModifiedUtc="2008-04-23T11:47:23.9391245Z" name="Data" audited="false" columnName="DATA" maxLength="2147483647" precision="0" scale="0" ordinal="3" isReadOnly="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty" />
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="07370ef3-ad24-409f-86a8-ff2db5ee6d69">
+        <BinaryDataType>
+          <Length>8000</Length>
+        </BinaryDataType>
+      </SystemDataType>
+    </property>
+    <property xsi:type="OrmFieldProperty" id="bb8e967c-f99e-4a54-b2db-07398568a578" lastModifiedUtc="2008-04-23T11:49:03.7047495Z" name="MainServer" audited="false" columnName="MAINSERVER" maxLength="12" precision="0" scale="0" ordinal="2" isReadOnly="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty" />
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="30053f5a-8d40-4db1-b185-1e4128eb26cc">
+        <StandardIdDataType />
+      </SystemDataType>
+    </property>
+    <property xsi:type="OrmFieldProperty" id="4c66aebc-2829-4573-9d50-7c7492b87fab" lastModifiedUtc="2008-04-23T11:47:23.9703745Z" name="ModifyDate" audited="false" columnName="MODIFYDATE" maxLength="0" precision="23" scale="3" ordinal="4" isReadOnly="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty" />
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="1f08f2eb-87c8-443b-a7c2-a51f590923f5">
+        <DateTimeDataType />
+      </SystemDataType>
+    </property>
+    <property xsi:type="OrmFieldProperty" id="41e88472-1469-44cd-ac41-73d962c20f1f" lastModifiedUtc="2008-04-23T11:47:23.9859995Z" name="ModifyUser" audited="false" columnName="MODIFYUSER" maxLength="12" precision="0" scale="0" ordinal="5" isReadOnly="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty" />
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="30053f5a-8d40-4db1-b185-1e4128eb26cc">
+        <StandardIdDataType />
+      </SystemDataType>
+    </property>
+    <property xsi:type="OrmFieldProperty" id="eb0e6de7-8d04-43fc-b9fe-a42913f1b742" lastModifiedUtc="2008-04-23T11:49:23.7359995Z" name="ServerPath" audited="false" columnName="SERVERPATH" maxLength="255" precision="0" scale="0" ordinal="1" isReadOnly="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty" />
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="ccc0f01d-7ba5-408e-8526-a3f942354b3a">
+        <TextDataType>
+          <Length>255</Length>
+        </TextDataType>
+      </SystemDataType>
+    </property>
+    <property xsi:type="OrmFieldProperty" id="24c61604-589c-4d90-a5d0-417ffb6fb3c2" lastModifiedUtc="2008-04-23T11:49:44.3297495Z" name="SiteCode" audited="false" isNullable="false" columnName="SITECODE" maxLength="12" precision="0" scale="0" ordinal="0" isReadOnly="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty" />
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="30053f5a-8d40-4db1-b185-1e4128eb26cc">
+        <StandardIdDataType />
+      </SystemDataType>
+    </property>
+  </properties>
+</entity>

@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="jsAddDataToLayoutGridMessage" xml:space="preserve">
+    <value>It appears that this field currently exists in this layout.  Do you want to continue?</value>
+  </data>
+  <data name="jsAscending" xml:space="preserve">
+    <value>Ascending</value>
+  </data>
+  <data name="jsConditionDlgHeight" xml:space="preserve">
+    <value>"250px"</value>
+  </data>
+  <data name="jsConditionDlgWidth" xml:space="preserve">
+    <value>"495px"</value>
+  </data>
+  <data name="jsConfirmDeleteMessage" xml:space="preserve">
+    <value>Are you sure you want to delete the current group?</value>
+  </data>
+  <data name="jsCreateLocalJoinMessage" xml:space="preserve">
+    <value>You must first select a table and field.</value>
+  </data>
+  <data name="jsDescending" xml:space="preserve">
+    <value>Descending</value>
+  </data>
+  <data name="jsInvalidConditionStringMessage" xml:space="preserve">
+    <value>Error: Invalid condition string -</value>
+  </data>
+  <data name="jsInvalidLayoutConditionStringMessage" xml:space="preserve">
+    <value>Error: Invalid layout string -</value>
+  </data>
+  <data name="jsInvalidSortStringMessage" xml:space="preserve">
+    <value>Error: Invalid sort string -</value>
+  </data>
+  <data name="jsLayoutDlgHeight" xml:space="preserve">
+    <value>"225px"</value>
+  </data>
+  <data name="jsLayoutDlgWidth" xml:space="preserve">
+    <value>"360px"</value>
+  </data>
+  <data name="jsNewQuery" xml:space="preserve">
+    <value>New Query</value>
+  </data>
+  <data name="localizeAndOr.Text" xml:space="preserve">
+    <value>And/or</value>
+  </data>
+  <data name="localizeAssignCondition.Text" xml:space="preserve">
+    <value>Assign Condition</value>
+  </data>
+  <data name="localizeAssignQueryLayout.Text" xml:space="preserve">
+    <value>Assign Query Layout</value>
+  </data>
+  <data name="localizeCalc.Text" xml:space="preserve">
+    <value>Calculations...</value>
+  </data>
+  <data name="localizeCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="localizeCaseSens.Text" xml:space="preserve">
+    <value>Case Sens</value>
+  </data>
+  <data name="localizeConditionInstructions.Text" xml:space="preserve">
+    <value>Double-click a field from the list above and it will 
+														appear in the grid below to be used as a condition to select records. 
+														Conditions are applied in the order they appear in the grid. Use the Move Up 
+														and Move Down buttons to change the order.</value>
+  </data>
+  <data name="localizeConditions.Text" xml:space="preserve">
+    <value>Conditions</value>
+  </data>
+  <data name="localizeCreateLocalJoin.Text" xml:space="preserve">
+    <value>Create Local Join</value>
+  </data>
+  <data name="localizeDefaults.Text" xml:space="preserve">
+    <value>Defaults</value>
+  </data>
+  <data name="localizeDelete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="localizeDescription.Text" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="localizeDisplayName.Text" xml:space="preserve">
+    <value>Display Name:</value>
+  </data>
+  <data name="localizeEdit.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="localizeField.Text" xml:space="preserve">
+    <value>Field</value>
+  </data>
+  <data name="localizeGlobalJoins.Text" xml:space="preserve">
+    <value>Global Joins...</value>
+  </data>
+  <data name="localizeGrdSortsDirection.Text" xml:space="preserve">
+    <value>Direction</value>
+  </data>
+  <data name="localizeGrdSortsOrder.Text" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="localizeGrdSortsSortBy.Text" xml:space="preserve">
+    <value>Sort By</value>
+  </data>
+  <data name="localizeHelp.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="localizeHideHiddenFields.Text" xml:space="preserve">
+    <value>Hide Hidden Fields</value>
+  </data>
+  <data name="localizeLayout.Text" xml:space="preserve">
+    <value>Layout</value>
+  </data>
+  <data name="localizeLayoutInstructions.Text" xml:space="preserve">
+    <value>Double click a field from the view above to place it in 
+														the grid below. Use the Move Left and Move Right buttons to change the order of 
+														the fields in the grid.</value>
+  </data>
+  <data name="localizeMoveDown.Text" xml:space="preserve">
+    <value>Move Down</value>
+  </data>
+  <data name="localizeMoveUp.Text" xml:space="preserve">
+    <value>Move Up</value>
+  </data>
+  <data name="localizeName.Text" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="localizeNot.Text" xml:space="preserve">
+    <value>Not</value>
+  </data>
+  <data name="localizeOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="localizeOperator.Text" xml:space="preserve">
+    <value>Operator</value>
+  </data>
+  <data name="localizeProperties.Text" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="localizeReturnDistinct.Text" xml:space="preserve">
+    <value>Return Distinct Rows Only</value>
+  </data>
+  <data name="localizeSorting.Text" xml:space="preserve">
+    <value>Sorting</value>
+  </data>
+  <data name="localizeSortInstructions.Text" xml:space="preserve">
+    <value>Double click a field from the view above to place it in 
+														the grid below to use the field to sort the returned data. The data is sorted 
+														in the order of the fields in the grid. Use the Move Up and Move Down buttons 
+														to change the order.</value>
+  </data>
+  <data name="localizeValue.Text" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="localizeViewSQL.Text" xml:space="preserve">
+    <value>View SQL...</value>
+  </data>
+  <data name="MoveDown" xml:space="preserve">
+    <value>Move Down</value>
+  </data>
+  <data name="MoveLeft" xml:space="preserve">
+    <value>Move Left</value>
+  </data>
+  <data name="MoveRight" xml:space="preserve">
+    <value>Move Right</value>
+  </data>
+  <data name="MoveUp" xml:space="preserve">
+    <value>Move Up</value>
+  </data>
+</root>

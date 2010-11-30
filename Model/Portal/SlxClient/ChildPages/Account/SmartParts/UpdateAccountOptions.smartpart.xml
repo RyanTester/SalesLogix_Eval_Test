@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="8cc8c4fc-7742-4226-aa29-f2c3512dd843">
+  <SmartPartId>UpdateAccountOptions</SmartPartId>
+  <SmartPart>SmartParts\Account\UpdateAccountOptions.ascx</SmartPart>
+  <TargetWorkspace>DialogWorkspace</TargetWorkspace>
+  <ShowInMode>Detail</ShowInMode>
+  <Properties />
+</SmartPartMapping>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<PageTemplate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="ebbbc447-c0ed-457b-a914-9bdccbb3b68e">
+  <TemplateName>PortalPage</TemplateName>
+  <BasePageType TypeName="Sage.Platform.WebPortal.WebPortalPage, Sage.Platform.WebPortal">
+    <Properties />
+  </BasePageType>
+  <Modules />
+  <Mappings />
+</PageTemplate>

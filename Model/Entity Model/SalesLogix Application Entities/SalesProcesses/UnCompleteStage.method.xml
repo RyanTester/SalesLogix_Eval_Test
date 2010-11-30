@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="05f52bcd-fe87-47dc-aae4-ca667c4586ca" name="UnCompleteStage" returnType="void" methodType="Rule" actionType="None" returnMode="None" isInstance="true">
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="8984573e-9e82-4232-a914-13671ffa6e24" paramName="stageId" sequence="0" paramType="string" />
+  </parameter>
+  <methodTargets>
+    <methodTarget id="a6d17f93-7307-48d5-ae82-b1db35fa86f6" targetType="Sage.SalesLogix.SalesProcess.Rules, Sage.SalesLogix.BusinessRules" sequence="0" targetMethod="UnCompleteStage" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+</method>

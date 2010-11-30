@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="70212689-8c69-4713-bc79-c4a734eb68ef" lastModifiedUtc="2007-10-25T16:46:53.6622781Z" name="AddAttachmentsContactID" methodType="Rule" actionType="None" returnMode="None">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="88a17898-d991-447a-9b7b-4bbc6a9dbdfa" paramName="contact" sequence="0" paramType="IContact" />
+    <OrmEntityMethodParam id="78a752d2-02be-4cd0-8b51-1b02bb835673" paramName="account" sequence="0" paramType="IAccount" />
+    <OrmEntityMethodParam id="fb527ddd-0436-4c47-bd35-8934dde0ba52" paramName="opportunity" sequence="0" paramType="IOpportunity" />
+    <OrmEntityMethodParam id="eb84478f-22ac-4374-b4dc-376fb4983b50" paramName="attachment" sequence="0" paramType="IAttachment" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="c2f74da4-d046-4006-a44a-0329abd7692a" lastModifiedUtc="2008-06-07T22:57:53.6480354Z" targetType="Sage.SalesLogix.Lead.Rules, Sage.SalesLogix.BusinessRules" targetMethod="AddAttachmentsContactID" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="7ba0894d-4973-4220-b711-4021bb8c7ded" cardinality="M:1" parentEntityId="26c9bbe4-349e-4170-a059-e5159bac1087" childEntityId="6497ba9d-a736-4102-aefc-410a5b60abce">
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="9c6edfcd-9c27-4aea-8a7e-cda7b045c371" name="RateTypeDescription" audited="false" displayCategory="Intermediate" displayName="RateTypeDescription" cultureName="en-US" isNullable="true" include="true">
+    <IsDeleting>false</IsDeleting>
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="324aaf7f-efff-372c-8026-286b3fa8e03a">
+      <SystemDataTypeBase />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="07f25f07-db6b-4ab0-bfd4-799937b43987" name="Property1" audited="false" displayCategory="Intermediate" displayName="Property1" cultureName="en-US" isNullable="true" include="false">
+    <IsDeleting>false</IsDeleting>
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="324aaf7f-efff-372c-8026-286b3fa8e03a">
+      <SystemDataTypeBase />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="3903111c-6070-44b0-b5f0-8365035c7329" parentPropertyId="a0ee8609-7fb2-4f97-b569-6b16f7760361" childPropertyId="daac3609-6ab0-4742-ba03-6e1684efd490" ordinal="0">
+      <IsDeleting>false</IsDeleting>
+    </OrmRelationshipColumn>
+  </column>
+</relationship>

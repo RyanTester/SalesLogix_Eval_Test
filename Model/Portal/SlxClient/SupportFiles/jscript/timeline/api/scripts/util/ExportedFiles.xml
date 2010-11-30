@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\timeline\api\scripts\util\data-structure.js" timeStamp="2009-11-19T20:11:58.5970" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\timeline\api\scripts\util\date-time.js" timeStamp="2009-11-19T20:11:58.6130" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\timeline\api\scripts\util\debug.js" timeStamp="2009-11-19T20:11:58.5030" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\timeline\api\scripts\util\dom.js" timeStamp="2009-11-19T20:11:58.5830" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\timeline\api\scripts\util\graphics.js" timeStamp="2009-11-19T20:11:58.5830" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\timeline\api\scripts\util\html.js" timeStamp="2009-11-19T20:11:58.6300" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\timeline\api\scripts\util\platform.js" timeStamp="2009-11-19T20:11:58.6130" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\timeline\api\scripts\util\xmlhttp.js" timeStamp="2009-11-19T20:11:58.6130" />
+</exportedFiles>

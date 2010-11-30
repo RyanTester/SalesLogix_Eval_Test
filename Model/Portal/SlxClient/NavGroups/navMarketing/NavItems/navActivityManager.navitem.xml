@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<NavigationItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="f8d2e39d-eba5-4c66-855b-61f3f1479734">
+  <ItemId>navActivityManager</ItemId>
+  <NavUrl>ActivityManager.aspx</NavUrl>
+  <LargeImageUrl>[Localization.Global_Images:Task_List_3D_32x32]</LargeImageUrl>
+  <SmallImageUrl>[Localization!Global_Images:Task_List_3D_24x24]</SmallImageUrl>
+  <ContextMenuId>contextActivity</ContextMenuId>
+  <Target />
+</NavigationItem>

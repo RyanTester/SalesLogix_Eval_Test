@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Lookup name="ShowOnActivities">
+    <LookupValue id="0" text="Contact" default="false"></LookupValue>
+    <LookupValue id="1" text="Account" default="false"></LookupValue>
+    <LookupValue id="2" text="ContactAccount" default="true"></LookupValue>
+    <LookupValue id="3" text="AccountContact" default="false"></LookupValue>
+</Lookup>
+

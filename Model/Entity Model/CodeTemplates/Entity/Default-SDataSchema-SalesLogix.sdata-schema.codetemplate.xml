@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<codeTemplate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="4B652A4D-E92E-4a36-9025-39F624170D67" name="Default-SDataSchema-SalesLogix" templateType="sdata-schema" templateEngineType="T4">
+  <template><![CDATA[<#@ template language="C#v3.5" #>
+<#@ assembly name="Microsoft.Unity.dll" #>
+<#@ assembly name="Sage.Platform.dll" #>
+<#@ assembly name="Sage.Platform.Orm.CodeGen.dll" #>
+<#@ assembly name="Sage.Platform.Projects.dll" #>
+<#@ import namespace="System.Collections" #>
+<#@ import namespace="Microsoft.Practices.Unity" #>
+<#@ import namespace="Sage.Platform.Orm.CodeGen" #>
+<#@ import namespace="Sage.Platform.Orm.Entities" #>
+<#
+var entity = (OrmEntity) Context["entity"];
+var generator = (SDataSchemaGenerator) Context["generator"];
+#>
+<?xml version="1.0" encoding="utf-8" ?>
+<SPESchema category="<#= entity.Name #> Details" >
+  <actions>
+    <title label="<#= entity.Name #> Details - {Title}" />
+<# foreach (var prop in generator.GetIncludedProperties(entity)) { #>
+<#  var fieldProp = prop as OrmFieldProperty; #>
+<#  if (fieldProp == null || (!fieldProp.IsKeyProperty && !fieldProp.IsReadOnly)) { #>
+    <label value="{<#= generator.NameToInternalPropertyName(prop) #>}" canSort="true" />
+<#  } #>
+<# } #>
+  </actions>
+</SPESchema>
+<#+
+[Dependency]
+public IDictionary Context { get; set; }
+#>]]></template>
+  <description>Default SalesLogix SData template</description>
+</codeTemplate>

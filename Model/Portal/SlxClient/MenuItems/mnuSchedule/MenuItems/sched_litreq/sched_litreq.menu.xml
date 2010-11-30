@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="e073af1f-60f7-412f-ac1d-7807ce5e233a">
+  <ItemId>sched_litreq</ItemId>
+  <NavUrl>Literature.aspx?modeid=Insert</NavUrl>
+  <LargeImageUrl>[Localization!Global_Images:Schedule_Literature_Request_24x24]</LargeImageUrl>
+  <SmallImageUrl>[Localization!Global_Images:Schedule_Literature_Request_16x16]</SmallImageUrl>
+  <ContextMenuId />
+  <Target />
+</MenuDropDownItem>

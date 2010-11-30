@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\SalesLogix Activity Support.T.package.xml" timeStamp="2009-11-19T20:10:49.5900" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\Activity\" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\Event\" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\History\" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\ResourceList\" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\ResourceSchedule\" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserActivity\" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserCalendar\" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserNotification\" />
+</exportedFiles>

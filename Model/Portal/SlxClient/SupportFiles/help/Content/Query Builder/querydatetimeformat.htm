@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="Gainey;decompilation;Admin;N;AccountID;USERINFO;AccountManagerID;UserID;USERPROFILE;t;OPPORTUNITYID;USER_ACTIVITY;CreateUser;CreateDate;ModifyUser;ModifyDate;Opportunity.Salespotential;Opportunity.Closeprobability;Opportunity.Status;Opportunity.Account.;Contact.Lastname;Contact.Firstname.;d.ddd...E+ddd;E;f;ddd.ddd...;g;n;d;ddd;acc_acc;con_con;opp_opp;conlname;Truevalue;FormatType;ftBoolean;FormatString;T;c;ShortDateFormat;LongTimeFormat;DateTime;ShortDayNames;dddd;LongDayNames;ddddd;dddddd;LongDateFormat;m;hh;mmm;Jan-Dec;ShortMonthNames;mmmm;LongMonthNames;yy;yyyy;nn;ss;ShortTimeFormat;tt;pm;ampm;TimeAMString;TimePMString" MadCap:comment="061002 JM: Fixed table style.4/11/02 KC: Merged versions from all Help files into one. Verified w/Dev that &quot;w&quot; option is not valid (Web Mgr. Help)." MadCap:timeEstimate="0" MadCap:priority="0" MadCap:check_list="First Draft" MadCap:status="In Progress" MadCap:lastBlockDepth="5" MadCap:lastHeight="893" MadCap:lastWidth="795" MadCap:conditions="Output.WebClient" MadCap:tocPath="" MadCap:PathToHelpSystem="../../" MadCap:SearchType="Stem">
+    <!-- saved from url=(0014)about:internet -->
+    <head><title>Date/Time Field Format Strings</title>
+        <link rel="StyleSheet" href="../SALESLOGIX.CSS" />
+        <script src="../SkinSupport/MadCapUtilities.js">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor419"></a>Date/Time Field Format Strings</h1>
+        <p>The table below lists the format string options for date/time fields, 
+ but not <a href="querydatetimeseparators.htm">date/time separators</a>.</p>
+        <table wrapperparagraphselector="P" style="margin-left: 0.35pt;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;left: 0px;top: 125px;width: 444px;" width="444" cellspacing="0">
+            <col style="width: 45px;" />
+            <col style="width: 750px;" />
+            <tr style="height: 21px;">
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="45" class="Tabletop">
+                    <p class="Tabletop" style="margin-bottom: 0;">Option</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="750" class="Tabletop">
+                    <p class="Tabletop" style="margin-bottom: 0;">Description</p>
+                </td>
+            </tr>
+            <tr style="height: 54px;">
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="45" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">c</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="750" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">Displays the date using the format given by the ShortDateFormat global variable,  followed by the time using the format given by the LongTimeFormat global  variable. The time is not displayed if the fractional part of the DateTime value  is zero.</p>
+                </td>
+            </tr>
+            <tr style="height: 18px;">
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="45" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">d</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="750" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">Displays the day as a 
+ number without a leading zero (1-31).</p>
+                </td>
+            </tr>
+            <tr style="height: 18px;">
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="45" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">dd</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="750" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">Displays the day as a 
+ number with a leading zero (01-31).</p>
+                </td>
+            </tr>
+            <tr style="height: 30px;">
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="45" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">ddd</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="750" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">Displays the day as an 
+ abbreviation (Sun-Sat) using the strings given by the ShortDayNames global 
+ variable.</p>
+                </td>
+            </tr>
+            <tr style="height: 30px;">
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="45" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">dddd</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="750" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">Displays the day as a 
+ full name (Sunday-Saturday) using the strings given by the LongDayNames 
+ global variable.</p>
+                </td>
+            </tr>
+            <tr style="height: 30px;">
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="45" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">ddddd</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="750" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">Displays the date using 
+ the format given by the ShortDateFormat global variable.</p>
+                </td>
+            </tr>
+            <tr style="height: 42px;">
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="45" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">m</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="750" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">Displays the month as 
+ a number without a leading zero (1-12). If the m specifier immediately 
+ follows an h or hh specifier, the minute rather than the month is displayed.</p>
+                </td>
+            </tr>
+            <tr style="height: 42px;">
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="45" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">mm</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="750" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">Displays the month as 
+ a number with a leading zero (01-12). If the mm specifier immediately 
+ follows an h or hh specifier, the minute rather than the month is displayed.</p>
+                </td>
+            </tr>
+            <tr style="height: 30px;">
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="45" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">mmm</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="750" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">Displays the month as 
+ an abbreviation (Jan-Dec) using the strings given by the ShortMonthNames 
+ global variable.</p>
+                </td>
+            </tr>
+            <tr style="height: 30px;">
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="45" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">mmmm</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="750" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">Displays the month as 
+ a full name (January-December) using the strings given by the LongMonthNames 
+ global variable.</p>
+                </td>
+            </tr>
+            <tr style="height: 18px;">
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="45" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">yy</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="750" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">Displays the year as a 
+ two-digit number (00-99).</p>
+                </td>
+            </tr>
+            <tr style="height: 18px;">
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="45" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">yyyy</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="750" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">Displays the year as a 
+ four-digit number (0000-9999).</p>
+                </td>
+            </tr>
+            <tr style="height: 18px;">
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="45" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">h</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="750" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">Displays the hour without 
+ a leading zero (0-23).</p>
+                </td>
+            </tr>
+            <tr style="height: 18px;">
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="45" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">hh</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="750" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">Displays the hour with 
+ a leading zero (00-23).</p>
+                </td>
+            </tr>
+            <tr style="height: 18px;">
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="45" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">n</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="750" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">Displays the minute without 
+ a leading zero (0-59).</p>
+                </td>
+            </tr>
+            <tr style="height: 18px;">
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="45" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">nn</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="750" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">Displays the minute with 
+ a leading zero (00-59).</p>
+                </td>
+            </tr>
+            <tr style="height: 18px;">
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="45" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">s</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="750" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">Displays the second without 
+ a leading zero (0-59).</p>
+                </td>
+            </tr>
+            <tr style="height: 18px;">
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="45" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">ss</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="750" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">Displays the second with 
+ a leading zero (00-59).</p>
+                </td>
+            </tr>
+            <tr style="height: 30px;">
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="45" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">t</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="750" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">Displays the time using 
+ the format given by the ShortTimeFormat global variable.</p>
+                </td>
+            </tr>
+            <tr style="height: 30px;">
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="45" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">tt</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="750" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">Displays the time using 
+ the format given by the LongTimeFormat global variable.</p>
+                </td>
+            </tr>
+            <tr style="height: 54px;">
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="45" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">am/pm</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="750" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">Uses the 12-hour clock 
+ for the preceding h or hh specifier, and displays 'am' for any hour before 
+ noon, and 'pm' for any hour after noon. The am/pm specifier can use lower, 
+ upper, or mixed case, and the result is displayed accordingly.</p>
+                </td>
+            </tr>
+            <tr style="height: 54px;">
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="45" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">a/p</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="750" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">Uses the 12-hour clock 
+ for the preceding h or hh specifier, and displays 'a' for any hour before 
+ noon, and 'p' for any hour after noon. The a/p specifier can use lower, 
+ upper, or mixed case, and the result is displayed accordingly.</p>
+                </td>
+            </tr>
+            <tr style="height: 54px;">
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="45" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">ampm</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="750" class="Table">
+                    <p class="Table" style="margin-top: 1.8pt;margin-bottom: 0;">Uses the 12-hour clock 
+ for the preceding h or hh specifier, and displays the contents of the 
+ TimeAMString global variable for any hour before noon, and the contents 
+ of the TimePMString global variable for any hour after noon.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="queryassignlayout.htm" target="_self">Assigning a Query Layout</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>
+            </p>
+            <p style="border-top-style: Groove;border-top-color: #c0c0c0;border-top-width: 1px;">&#160;</p>
+            <p><![CDATA[ ]]><a href="../General/feedback.htm" target="_blank">Tell us how we can make the Help better.</a></p>
+        </div>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

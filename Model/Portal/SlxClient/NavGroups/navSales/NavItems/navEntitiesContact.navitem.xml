@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<NavigationItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="bdfdef26-d2fb-495c-91e6-7be2d0958ee0">
+  <ItemId>navEntitiesContact</ItemId>
+  <NavUrl>Contact.aspx</NavUrl>
+  <LargeImageUrl>[Localization.Global_Images:Contacts_32x32]</LargeImageUrl>
+  <SmallImageUrl>[Localization.Global_Images:Contacts_24x24]</SmallImageUrl>
+  <ContextMenuId>contextContact</ContextMenuId>
+  <Target />
+</NavigationItem>

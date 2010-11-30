@@ -1,0 +1,349 @@
+/* the class for areas that contain input type=checkbox  */
+.checkbox
+{
+	clear : both;
+	padding-top : 2px;
+}
+
+.checkbox INPUT
+{
+	margin-right : 3px;
+}
+
+.checkbox LABEL 
+{
+	padding-right : 2px;
+}
+
+/* the class for areas that conain input type=radio  */
+.radio
+{
+	clear : both;
+}
+.radio INPUT
+{
+	margin : 2px;
+}
+
+/* areas that contain "text" controls - including composite controls that include a text control  */
+.textcontrol
+{
+	float : left;
+	width : 50%;
+	white-space : nowrap;
+}
+
+.twocoltextcontrol
+{
+	float : left;
+	white-space : nowrap;
+	width : 78%;
+}
+
+.textcontrol INPUT, .textcontrol TEXTAREA {	
+	color: #000000;
+	font-size: 90%;
+	width : 95%;
+	background-color: #FFFFFF;
+	border: 1px solid #A8A9BE;
+	font-style: normal;
+	margin : .1em 0em;
+	vertical-align : middle;
+	padding-left : 5px;
+}
+
+.textcontrol SELECT 
+{
+	color: #000000;
+	font-size: 90%;
+	width : 98%;
+	background-color: #FFFFFF;
+	border: 1px solid #A8A9BE;
+	font-style: normal;
+	margin : .08em 0em;
+	vertical-align : middle;
+	padding-left : 5px;
+}
+
+
+INPUT[disabled]
+{
+	filter : Gray  Alpha(Opacity=80);
+	cursor : default;
+	opacity : 0.8;
+}
+
+.textcontrol INPUT[disabled], .textcontrol TEXTAREA[disabled],
+.dependency INPUT[disabled], .dependency TEXTAREA[disabled]
+{
+	background-color : #f6f6f6;
+	color : Black;
+	border: 1px solid #C8C9DE;
+	filter : Gray  Alpha(Opacity=100);
+	cursor : default;
+	opacity : 1;
+}
+
+.textcontrol INPUT[readonly], .textcontrol TEXTAREA[readonly],
+.dependency INPUT[readonly], .dependency TEXTAREA[readonly]
+{
+	background-color : #f8f8f8;
+}
+
+.textcontrol IMG 
+{
+	padding-left : 3px;
+}
+
+IMG 
+{
+	vertical-align : middle;
+}
+INPUT 
+{
+	vertical-align : middle;
+}
+SELECT 
+{
+	vertical-align : middle;
+}
+
+.twocoltextcontrol INPUT, .twocoltextcontrol TEXTAREA, .twocoltextcontrol SELECT {	
+	color: #000000;
+	font-size: 90%;
+	width : 95%;
+	background-color: #FFFFFF;
+	border: 1px solid #A8A9BE;
+	font-style: normal;
+	margin : .1em 0em;
+}
+
+.slxcontrol
+{
+	color: #000000;
+	font-size: 90%;
+	width : 55%;
+	background-color: #FFFFFF;
+	border: 1px solid #A8A9BE;
+	font-style: normal;
+	margin : .1em 0em;
+}
+
+.slxlinkcontrol 
+{
+	font-size : 90%;
+	width : 48%;
+	font-style: normal;
+	margin : .2em 0em 0em .1em;
+}
+.slxtwocollinkcontrol 
+{
+	width : 75%;
+}
+
+.slxtext
+{
+	font-size: 90%;
+	font-style: normal;
+	border: 1px solid #A8A9BE;
+}
+
+.slxbutton 
+{
+	font-weight: normal;
+	font-size : 85%;
+	color: #000000;
+	border : solid 1px #7E9CB8;
+	background-color: #E1E1DC;
+	cursor : pointer;
+    text-align: center;
+    display: inline-block;
+    white-space: nowrap;
+    padding-left: 6px;
+    padding-right: 6px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	margin: 3px;
+}
+
+.slxcontrolbutton 
+{
+	vertical-align :  middle;
+}
+
+.formtable 
+{
+	margin : 15px 0px;
+	width : 100%;
+}
+
+.formtable TD 
+{
+	vertical-align : top;
+	padding-left : 5px;
+}
+
+
+/* labels................  */
+.twocollbl 
+{
+	width : 20%;
+	float : left;
+	text-align:left;
+	font-size : 85%;
+	font-weight : bold;
+	padding-top : .3em;
+}
+
+.slxlabel
+{
+	font-size : 85%;
+	font-weight : bold;
+}
+.lbl 
+{
+
+	float : left;
+	text-align:left;
+	font-size : 85%;
+	font-weight : bold;
+	padding-top : .3em;
+    width: 40%;
+}
+
+.colspan3
+{
+	width : 11.5%;
+}
+
+.formtable .lblright 
+{
+	font-size : 85%;
+	font-weight : bold;
+	padding-top : .3em;
+}
+
+.formtable .lbltop 
+{
+	width : 75%;
+	display : block;
+	font-size : 85%;
+	font-weight : bold;
+	padding-top : .3em;
+}
+
+/* Label alignment */
+.alignleft 
+{
+	text-align : left;
+	clear : both;
+}
+
+.alignright 
+{
+	text-align : right;
+}
+
+.aligncenter 
+{
+	text-align : center;
+}
+
+.controlslist .alignleft 
+{
+    clear : both;
+}
+.controlslist .lbl 
+{
+    padding : 0px;
+}
+
+HR 
+{
+	height : 1px;
+	color : #b5cbe0;
+	clear : both;
+}
+.timezone SELECT 
+{
+	width : 40%;
+	float : left;
+}
+.timezone INPUT
+{
+	width : auto;
+	float : left;
+	margin-left : 3px;
+	margin-right : 3px;
+}
+.timezone .TimeZoneLabel
+{
+	font-size : 90%;
+	background-color: #FFFFFF;
+	border: 1px solid #A8A9BE;
+	font-style: normal;
+	margin : .2em 0em 0em .1em;
+	float : left;
+	width : 20%;
+	height : 18px;
+}
+
+.timezone .TimeZoneLabel TD
+{
+	vertical-align : middle;
+}
+
+
+/* dependency lookup control styles  */
+
+.dependency
+{
+	/*border : solid 1px black;*/
+}
+
+.dependency INPUT 
+{
+	color: #000000;
+	font-size: 90%;
+	width : 47%;
+	background-color: #FFFFFF;
+	border: 1px solid #A8A9BE;
+	font-style: normal;
+	margin : .1em 0em;
+	padding-left : 5px;
+}
+
+.dependency IMG
+{
+	padding-left : 3px;
+}
+.formtable .qfActionContainer
+{
+	text-align: right;
+	width: 90%; /* to match general field widths */
+	padding: 10px;
+}
+
+.slx-tab-panel
+{
+    width: 100%;
+}
+
+.Warning INPUT,.Warning TEXTAREA, .Warning SELECT
+{	
+	color: red;	
+}
+
+.Bevel
+{
+    border-style:solid;
+    border-width:1px;
+    border-color: #99BBE8;
+    padding:2px;
+    width:80%;
+}
+
+input[type="radio"], input[type="checkbox"]
+{
+    margin-right:4px;
+}

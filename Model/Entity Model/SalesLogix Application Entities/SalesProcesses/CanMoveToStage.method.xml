@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="f731d590-36ce-423b-9948-5975f347edbf" name="CanMoveToStage" returnType="String" methodType="Rule" actionType="None" returnMode="Object" isInstance="true">
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="33c683fc-2ea7-4a19-b2b8-1586336175e4" paramName="stageId" sequence="0" paramType="string" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="ffaa25e5-ee04-403a-885f-b1e8196c2f3c" targetType="Sage.SalesLogix.SalesProcess.Rules, Sage.SalesLogix.BusinessRules" targetMethod="CanMoveToStage" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="2c851136-59b3-4a90-9de3-2e1122a8eaf6">
+  <SmartPartId>AddEditAccountAssociation</SmartPartId>
+  <SmartPart>SmartParts\Association\AddEditAccountAssociation.ascx</SmartPart>
+  <TargetWorkspace>DialogWorkspace</TargetWorkspace>
+  <ShowInMode>Detail</ShowInMode>
+  <Properties />
+</SmartPartMapping>

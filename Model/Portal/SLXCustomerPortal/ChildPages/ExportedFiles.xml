@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SLXCustomerPortal\ChildPages\Default\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\ChildPages\EntityGroupViewer\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\ChildPages\Exception\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\ChildPages\Help\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\ChildPages\PortalTicketDetailsPrintView\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\ChildPages\SpeedSearch\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\ChildPages\Ticket\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\ChildPages\TicketInsert\" />
+</exportedFiles>

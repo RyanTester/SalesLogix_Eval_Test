@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<entityFilter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmRangeEntityFilter" id="491af62f-88b5-44e5-8e4b-b12b13792467" lastModifiedUtc="2008-11-21T23:05:37.05388Z" filterName="EstimatedClose" propertyName="EstimatedClose" characters="1">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRangeEntityFilter" />
+  </ExtendedPropertiesCollection>
+  <ranges id="49e20f25-4728-4580-8cf0-fd501fd60ef4" rangeName="SlxMonthly" />
+</entityFilter>

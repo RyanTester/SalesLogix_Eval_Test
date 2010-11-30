@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="9918c8fb-6a3d-4bde-891c-3fb53ca381b3">
+  <ItemId>menuItemCalSchedulePersonalActivity</ItemId>
+  <NavUrl>javascript:Link.schedulePersonalActivity();</NavUrl>
+  <LargeImageUrl />
+  <SmallImageUrl />
+  <ContextMenuId />
+  <Target />
+</MenuDropDownItem>

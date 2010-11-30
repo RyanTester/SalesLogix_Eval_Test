@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="b8151dfe-a735-4c28-ac5c-3007c335b71c" name="SaveContactLeadSource" returnType="void" methodType="Rule" actionType="None" returnMode="None" isInstance="true">
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="f1868cd9-f6a0-4612-9ad0-a0707b337549" paramName="ContactLeadSource" sequence="0" paramType="object">
+      <IsDeleting>false</IsDeleting>
+    </OrmEntityMethodParam>
+  </parameter>
+  <methodTargets>
+    <methodTarget id="9044ad63-88b9-4964-8e82-93558b5c63de" targetType="Sage.SalesLogix.Contact.Rules, Sage.SalesLogix.BusinessRules" sequence="0" targetMethod="SaveContactLeadSource" active="true">
+      <IsDeleting>false</IsDeleting>
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+</method>

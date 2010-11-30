@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityProduct\CalcPriceFromProgramPrice.method.xml" timeStamp="2009-11-19T20:10:54.2230" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityProduct\CalculateCalcPrice.method.xml" timeStamp="2009-11-19T20:10:54.2230" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityProduct\CalculateDiscount.method.xml" timeStamp="2009-11-19T20:10:54.2230" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityProduct\CalculateExtendedPrice.method.xml" timeStamp="2009-11-19T20:10:54.2230" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityProduct\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:54.2400" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityProduct\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:54.3000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityProduct\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:54.2400" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityProduct\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:54.2400" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityProduct\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:54.2530" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityProduct\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:54.2530" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityProduct\OnCreate.method.xml" timeStamp="2009-11-19T20:10:54.2530" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityProduct\OpportunityProduct.OPPORTUNITY_PRODUCT.entity.xml" timeStamp="2009-11-19T20:10:54.3000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityProduct\QuickForms\" />
+</exportedFiles>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TicketActivityItem\CopyPart.method.xml" timeStamp="2009-11-19T20:10:56.2670" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TicketActivityItem\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:56.2670" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TicketActivityItem\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:56.2670" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TicketActivityItem\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:56.2670" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TicketActivityItem\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:56.2830" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TicketActivityItem\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:56.2830" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TicketActivityItem\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:56.2830" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TicketActivityItem\OnCreate.method.xml" timeStamp="2009-11-19T20:10:56.2970" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TicketActivityItem\TicketActivityItem.TICKETACTIVITYITEM.entity.xml" timeStamp="2009-11-19T20:10:56.3300" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TicketActivityItem\QuickForms\" />
+</exportedFiles>

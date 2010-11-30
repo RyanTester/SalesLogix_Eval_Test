@@ -1,0 +1,22 @@
+﻿<?xml version="1.0"?>
+<entityFilter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmRangeEntityFilter" id="8d8979e7-8c84-477d-9dc8-1f8cf79b630c" lastModifiedUtc="2008-12-03T18:02:53.5298581Z" filterName="TimeFrame" propertyName="StartDate" characters="0">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRangeEntityFilter" />
+  </ExtendedPropertiesCollection>
+  <ranges id="e2e2fa83-9928-4115-a90a-e86938414c01" rangeName="Yesterday" lower=":yesterday" upper=":yesterday" />
+  <ranges id="e2e2fa83-9928-4115-a90a-e86938414c02" rangeName="Today" lower=":today" upper=":today" />
+  <ranges id="7af515cd-ee7a-4f39-974d-ee63fc7e3013" rangeName="Tomorrow" lower=":tomorrow" upper=":tomorrow" />
+  <ranges id="2c754779-7382-48a7-a692-720f5d1cacb4" rangeName="ThisWeek" lower=":thisweekstart" upper=":thisweekend" />
+  <ranges id="ed55138a-2822-4b87-8121-4db8508069a5" rangeName="ThisMonth" lower=":thismonthstart" upper=":thismonthend" />
+  <ranges id="f3dc893f-27a8-43bb-8847-393458972db6" rangeName="ThisYear" lower=":thisyearstart" upper=":thisyearend" />
+  <ranges id="f3dc893f-27a8-43bb-8847-393458972db7" rangeName="ThisQuarter" lower=":thisquarterstart" upper=":thisquarterend" />
+  <ranges id="2c754779-7382-48a7-a692-720f5d1cacb8" rangeName="NextWeek" lower=":nextweekstart" upper=":nextweekend" />
+  <ranges id="ed55138a-2822-4b87-8121-4db8508069a9" rangeName="NextMonth" lower=":nextmonthstart" upper=":nextmonthend" />
+  <ranges id="f3dc893f-27a8-43bb-8847-393458972db0" rangeName="NextYear" lower=":nextyearstart" upper=":nextyearend" />
+  <ranges id="f3dc893f-27a8-43bb-8847-393458972db1" rangeName="NextQuarter" lower=":nextquarterstart" upper=":nextquarterend" />
+  <ranges id="2c754779-7382-48a7-a692-720f5d1cacb2" rangeName="LastWeek" lower=":lastweekstart" upper=":lastweekend" />
+  <ranges id="ed55138a-2822-4b87-8121-4db8508069a3" rangeName="LastMonth" lower=":lastmonthstart" upper=":lastmonthend" />
+  <ranges id="f3dc893f-27a8-43bb-8847-393458972db4" rangeName="LastYear" lower=":lastyearstart" upper=":lastyearend" />
+  <ranges id="f3dc893f-27a8-43bb-8847-393458972db5" rangeName="LastQuarter" lower=":lastquarterstart" upper=":lastquarterend" />
+</entityFilter>

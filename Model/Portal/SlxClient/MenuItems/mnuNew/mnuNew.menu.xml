@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="20192b8b-5b49-4cde-919d-8e7c96ceb7d1">
+  <ItemId>mnuNew</ItemId>
+  <NavUrl />
+  <LargeImageUrl />
+  <SmallImageUrl>[Localization.Global_Images:New_Contact_16x16]</SmallImageUrl>
+  <ContextMenuId />
+  <Target />
+</MenuDropDownItem>

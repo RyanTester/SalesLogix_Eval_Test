@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DefectProblem\DefectProblem.Defect.DEFECTPROBLEM.entity.xml" timeStamp="2009-11-19T20:10:52.1970" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DefectProblem\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:52.1970" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DefectProblem\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:52.2100" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DefectProblem\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:52.1970" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DefectProblem\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:52.2100" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DefectProblem\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:52.1970" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DefectProblem\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:52.1970" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\DefectProblem\OnCreate.method.xml" timeStamp="2009-11-19T20:10:52.2270" />
+</exportedFiles>

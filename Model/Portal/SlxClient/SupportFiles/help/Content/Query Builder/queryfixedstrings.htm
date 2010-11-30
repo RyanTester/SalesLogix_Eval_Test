@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="Gainey;decompilation;Admin;N;AccountID;USERINFO;AccountManagerID;UserID;USERPROFILE;t;OPPORTUNITYID;USER_ACTIVITY;CreateUser;CreateDate;ModifyUser;ModifyDate;Opportunity.Salespotential;Opportunity.Closeprobability;Opportunity.Status;Opportunity.Account.;Contact.Lastname;Contact.Firstname.;d.ddd...E+ddd;E;f;ddd.ddd...;g;n;d;ddd" MadCap:comment="061002 JM: Fixed table style.KC 4/11/02: Merged versions of this topic from all Help files. Added links in 2nd sentence.&#xD;&#xA;5.2 06/22/01 JM: Added sentence to click Close after viewing." MadCap:timeEstimate="0" MadCap:priority="0" MadCap:check_list="First Draft" MadCap:status="In Progress" MadCap:lastBlockDepth="5" MadCap:lastHeight="525" MadCap:lastWidth="607" MadCap:conditions="Output.WebClient" MadCap:tocPath="" MadCap:PathToHelpSystem="../../" MadCap:SearchType="Stem">
+    <!-- saved from url=(0014)about:internet -->
+    <head><title>Fixed Field Format Strings</title>
+        <link rel="StyleSheet" href="../SALESLOGIX.CSS" />
+        <script src="../SkinSupport/MadCapUtilities.js">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor424"></a>Fixed Field Format Strings</h1>
+        <p>The table below lists the format string options for fixed fields. Valid 
+ <a href="queryformatstring.htm">string formats</a> depend on the <a href="queryformattype.htm">format 
+ type</a> you select.</p>
+        <table wrapperparagraphselector="P" style="width: 426px;margin-left: 0.35pt;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="426">
+            <tr>
+                <td style="width: 73px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;text-align: left;" valign="top" width="73px" class="Tabletop">
+                    <p class="Tabletop" style="margin-bottom: 0;">Option</p>
+                </td>
+                <td style="width: 353px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;text-align: left;" valign="top" width="353px" class="Tabletop">
+                    <p class="Tabletop" style="margin-bottom: 0;">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 73px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="73px" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">e</p>
+                </td>
+                <td style="width: 353px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="353px" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">Scientific. The format of the field will be a floating-point value. The value is  converted to a string of the form "-d.ddd...E+ddd". The resulting string starts  with a minus sign if the number is negative. One digit always precedes the  decimal point. The total number of digits in the resulting string (including the  one before the decimal point) is given by the precision specifier in the format  string; a default precision of 15 is assumed if no precision specifier is  present. The "E" exponent character in the resulting string is always followed  by a plus or minus sign and at least three digits.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 73px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="73px" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">f</p>
+                </td>
+                <td style="width: 353px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="353px" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">Fixed. The value is displayed as a fixed field. The format of the field must be  a floating-point value. The value is converted to a string of the form  "-ddd.ddd...". The resulting string starts with a minus sign if the number is  negative. The number of digits after the decimal point is given by the precision  specifier in the format string; a default of 2 decimal digits is assumed if no  precision specifier is present.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 73px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="73px" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">g</p>
+                </td>
+                <td style="width: 353px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="353px" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">General. The format of the field must be a floating-point value. The value is  converted to the shortest possible decimal string using fixed or scientific  format. The number of significant digits in the resulting string is given by the  precision specifier in the format string; a default precision of 15 is assumed  if no precision specifier is present. Trailing zeros are removed from the  resulting string, and a decimal point appears only if necessary. The resulting  string uses fixed point format if the number of digits to the left of the  decimal point in the value is less than or equal to the specified precision, and  if the value is greater than or equal to 0.00001. Otherwise the resulting string  uses scientific format.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 73px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="73px" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">n</p>
+                </td>
+                <td style="width: 353px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="353px" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">Number. The format of the field must be a floating-point value. The value is  converted to a string of the form "-d,ddd,ddd.ddd...". The "n" format  corresponds to the "f" format, except the resulting string contains thousand  separators.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="querybuilderoverview.htm" target="_self">Query Builder Overview</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>
+            </p>
+            <p style="border-top-style: Groove;border-top-color: #c0c0c0;border-top-width: 1px;">&#160;</p>
+            <p><![CDATA[ ]]><a href="../General/feedback.htm" target="_blank">Tell us how we can make the Help better.</a></p>
+        </div>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

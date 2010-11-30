@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Lookup name="TimeFrame">
+    <LookupValue id="0" text="All" default="false"></LookupValue>
+    <LookupValue id="1" text="Today" default="true"></LookupValue>
+    <LookupValue id="2" text="Yesterday" default="false"></LookupValue>
+    <LookupValue id="3" text="Tomorrow" default="false"></LookupValue>
+    <LookupValue id="4" text="CurrentWeek" default="false"></LookupValue>
+  <LookupValue id="5" text="CurrentMonth" default="false"></LookupValue>
+  <LookupValue id="6" text="CurrentQuarter" default="false"></LookupValue>
+  <LookupValue id="7" text="CurrentYear" default="false"></LookupValue>
+  <LookupValue id="8" text="LastWeek" default="false"></LookupValue>
+  <LookupValue id="9" text="LastMonth" default="false"></LookupValue>
+  <LookupValue id="10" text="LastQuarter" default="false"></LookupValue>
+  <LookupValue id="11" text="LastYear" default="false"></LookupValue>
+  <LookupValue id="12" text="WeektoDate" default="false"></LookupValue>
+  <LookupValue id="13" text="MonthtoDate" default="false"></LookupValue>
+  <LookupValue id="14" text="QuartertoDate" default="false"></LookupValue>
+  <LookupValue id="15" text="YeartoDate" default="false"></LookupValue>
+  <LookupValue id="16" text="NextWeek" default="false"></LookupValue>
+  <LookupValue id="17" text="NextMonth" default="false"></LookupValue>
+  <LookupValue id="18" text="NextQuarter" default="false"></LookupValue>
+  <LookupValue id="19" text="NextYear" default="false"></LookupValue>
+</Lookup>
+

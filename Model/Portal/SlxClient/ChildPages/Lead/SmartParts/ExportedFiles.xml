@@ -1,0 +1,29 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\ChildPages\Lead\SmartParts\ActivityList.smartpart.xml" timeStamp="2009-11-19T20:11:01.1630" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Lead\SmartParts\ActivityList.smartpart.xml.resx" timeStamp="2009-11-19T20:11:01.1630" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Lead\SmartParts\AddEditTargetResponse.smartpart.xml" timeStamp="2009-11-19T20:11:01.1630" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Lead\SmartParts\AddEditTargetResponse.smartpart.xml.resx" timeStamp="2009-11-19T20:11:01.1630" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Lead\SmartParts\AttachmentList.smartpart.xml" timeStamp="2009-11-19T20:11:01.1630" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Lead\SmartParts\AttachmentList.smartpart.xml.resx" timeStamp="2009-11-19T20:11:01.1630" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Lead\SmartParts\CompleteRecurrence.smartpart.xml" timeStamp="2009-11-19T20:11:01.1800" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Lead\SmartParts\CompleteRecurrence.smartpart.xml.resx" timeStamp="2009-11-19T20:11:01.1800" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Lead\SmartParts\EditRecurrence.smartpart.xml" timeStamp="2009-11-19T20:11:01.1800" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Lead\SmartParts\EditRecurrence.smartpart.xml.resx" timeStamp="2009-11-19T20:11:01.1970" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Lead\SmartParts\HistoryList.smartpart.xml" timeStamp="2009-11-19T20:11:01.1970" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Lead\SmartParts\HistoryList.smartpart.xml.resx" timeStamp="2009-11-19T20:11:01.1970" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Lead\SmartParts\LeadDetails.smartpart.xml" timeStamp="2009-11-19T20:11:01.2100" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Lead\SmartParts\LeadDetails.smartpart.xml.resx" timeStamp="2009-11-19T20:11:01.2430" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Lead\SmartParts\LeadExtendedDetails.smartpart.xml" timeStamp="2009-11-19T20:11:01.2570" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Lead\SmartParts\LeadExtendedDetails.smartpart.xml.resx" timeStamp="2009-11-19T20:11:01.2430" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Lead\SmartParts\LeadMarketing.smartpart.xml" timeStamp="2009-11-19T20:11:01.2430" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Lead\SmartParts\LeadMarketing.smartpart.xml.resx" timeStamp="2009-11-19T20:11:01.2570" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Lead\SmartParts\LeadResponses.smartpart.xml" timeStamp="2009-11-19T20:11:01.2270" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Lead\SmartParts\LeadResponses.smartpart.xml.resx" timeStamp="2009-11-19T20:11:01.2570" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Lead\SmartParts\LeadSearchAndConvert.smartpart.xml" timeStamp="2009-11-19T20:11:01.2430" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Lead\SmartParts\LeadSearchAndConvert.smartpart.xml.resx" timeStamp="2009-11-19T20:11:01.2430" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Lead\SmartParts\LiveGroupViewer.smartpart.xml" timeStamp="2009-11-19T20:11:01.2730" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Lead\SmartParts\LiveGroupViewer.smartpart.xml.resx" timeStamp="2009-11-19T20:11:01.2730" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Lead\SmartParts\NotesList.smartpart.xml" timeStamp="2009-11-19T20:11:01.2730" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Lead\SmartParts\NotesList.smartpart.xml.resx" timeStamp="2009-11-19T20:11:01.2900" />
+</exportedFiles>

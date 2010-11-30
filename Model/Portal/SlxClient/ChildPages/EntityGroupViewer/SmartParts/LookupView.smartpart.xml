@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="4ba9a53c-443d-4e31-a129-633e886f9e7a">
+  <SmartPartId>LookupView</SmartPartId>
+  <SmartPart>SmartParts\Lookup\LookupView.ascx</SmartPart>
+  <TargetWorkspace>MainContent</TargetWorkspace>
+  <ShowInMode />
+  <Properties />
+</SmartPartMapping>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\Saleslogix Speedsearch Support\IndexSchedule\IndexSchedule.INDEXSCHEDULE.entity.xml" timeStamp="2009-11-19T20:10:57.2800" />
+  <exportedFile url="\Entity Model\Saleslogix Speedsearch Support\IndexSchedule\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:57.3100" />
+  <exportedFile url="\Entity Model\Saleslogix Speedsearch Support\IndexSchedule\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:57.2970" />
+  <exportedFile url="\Entity Model\Saleslogix Speedsearch Support\IndexSchedule\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:57.2970" />
+  <exportedFile url="\Entity Model\Saleslogix Speedsearch Support\IndexSchedule\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:57.3100" />
+  <exportedFile url="\Entity Model\Saleslogix Speedsearch Support\IndexSchedule\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:57.3270" />
+  <exportedFile url="\Entity Model\Saleslogix Speedsearch Support\IndexSchedule\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:57.3100" />
+  <exportedFile url="\Entity Model\Saleslogix Speedsearch Support\IndexSchedule\OnCreate.method.xml" timeStamp="2009-11-19T20:10:57.3100" />
+</exportedFiles>

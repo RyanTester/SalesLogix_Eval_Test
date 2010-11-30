@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="75180ba7-68cf-405e-b80a-36ab1155d57d" name="OnAfterUpdate" returnType="void" methodType="CrudEvent" actionType="None" returnMode="None" isInstance="false">
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter />
+  <methodTargets>
+  </methodTargets>
+</method>

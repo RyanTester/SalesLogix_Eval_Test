@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="6c4c2fd2-7d0d-4bb3-986b-2997fb1582a9">
+  <ItemId>sched_actman</ItemId>
+  <NavUrl>ActivityReminders.aspx</NavUrl>
+  <LargeImageUrl>[Localization!Global_Images:Schedule_Ticket_Activity_24x24]</LargeImageUrl>
+  <SmallImageUrl>[Localization!Global_Images:Schedule_Ticket_Activity_16x16]</SmallImageUrl>
+  <ContextMenuId />
+  <Target />
+</MenuDropDownItem>

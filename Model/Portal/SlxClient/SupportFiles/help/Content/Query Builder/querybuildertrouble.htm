@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:priority="1" MadCap:id="Troubleshooting: Query Builder is Slow to Respond" MadCap:comment="1/10/03 KC: Added new topic (info from Admin. Guide)." MadCap:timeEstimate="0" MadCap:status="In Progress" MadCap:conditions="Output.WebClient" MadCap:lastBlockDepth="5" MadCap:lastHeight="537" MadCap:lastWidth="607" class="" MadCap:tocPath="" MadCap:PathToHelpSystem="../../" MadCap:SearchType="Stem">
+    <!-- saved from url=(0014)about:internet -->
+    <head><title>Troubleshooting: Query Builder is Slow to Respond</title>
+        <meta name="copyright" />
+        <link rel="StyleSheet" href="../SALESLOGIX.CSS" />
+        <script src="../SkinSupport/MadCapUtilities.js">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js">
+        </script>
+    </head>
+    <body>
+        <h1 value="Architect Help (09-19-01) for v5.2 © 2001 Interact Commerce Corporation"><a name="kanchor412"></a>Troubleshooting: 
+ Query Builder is Slow to Respond</h1>
+        <table wrapperparagraphselector="P" style="width: 246px;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="246">
+            <tr>
+                <td style="width: 43px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="43px">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/adminonly.gif" alt="image\adminonly.gif" style="width: 27px;height: 39px;margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;float: none;border-style: none;border-style: none;" width="27" height="39" border="0" />
+                    </p>
+                </td>
+                <td style="width: 215px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="middle" width="215px">
+                    <p style="margin-top: 0.0;margin-bottom: 0;">&#160;<span style="font-weight: bold;">System 
+ Administrator Only</span></p>
+                </td>
+            </tr>
+        </table>
+        <p>&#160;</p>
+        <p>If the Query Builder is taking a long time to respond, there may be 
+ recursive joins which can be removed. An example of a recursive join is:</p>
+        <p>Join 1: Account -&gt;Account_Ext</p>
+        <p>Join 2: Account_Ext -&gt;Account</p>
+        <p class="Infinitive">To detect recursive joins</p>
+        <ul>
+            <li value="1">Run the following statement:  <blockquote><p>SELECT j1.fromtable fromtable1, j1.fromfield fromfield1, j1.totable totable1,  j1.tofield tofield1</p><p>FROM sysdba.JOINDATA j1, sysdba.joindata j2 where j1.fromtable = j2.totable  </p><p>AND j1.totable = j2.fromtable </p><p>AND j1.fromfield = j2.tofield </p><p>AND j1.tofield = j2.fromfield</p></blockquote></li>
+        </ul>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0">
+            <col />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/caution.gif" style="width: 39px;height: 38px;margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;float: none;border-style: none;border-style: none;" width="39" height="38" border="0" />
+                    </p>
+                </td>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="margin-bottom: 0;">Do not remove the following system joins:</p>
+                    <ul>
+                        <li value="1">Opportunity_Salesstep.Salesstepid -&gt; Salesstep.Salesstepid<br /></li>
+                        <li value="2">Salesstep.Salesstepid -&gt; Opportunity_Salesstep.Salesstepid</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <p>For more information about executing SQL statements, see the Administrator 
+ Help.</p>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="querybuilderoverview.htm" target="_self">Query Builder Overview</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>
+            </p>
+            <p style="border-top-style: Groove;border-top-color: #c0c0c0;border-top-width: 1px;">&#160;</p>
+            <p><![CDATA[ ]]><a href="../General/feedback.htm" target="_blank">Tell us how we can make the Help better.</a></p>
+        </div>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

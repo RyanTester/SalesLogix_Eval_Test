@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmOtherMethod" id="ce98ff14-3509-46a3-9870-f3be9ce3fb10" lastModifiedUtc="2009-11-12T22:33:23.434105Z" name="curMCCalcPrice_OnChange" methodType="Other" actionType="None" returnMode="None" isInstance="false" containerName="EditSalesOrderItem">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmOtherMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="9c428bc3-3596-4786-b8a8-24c7601a9d31" paramName="form" sequence="0" paramType="IEditSalesOrderItem" />
+    <OrmEntityMethodParam id="9a1ac065-b2b8-47fb-90bd-3c06d7200a70" paramName="args" sequence="0" paramType="EventArgs" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget xsi:type="OrmMethodTargetSnippet" id="da1b4789-eb7b-4931-919f-ca9e149d1e5a" lastModifiedUtc="2009-11-12T22:33:19.943756Z" targetType="Sage.BusinessRules.CodeSnippets.EditSalesOrderItemEventHandlers, Sage.SnippetLibrary.CSharp" targetMethod="curMCCalcPrice_OnChangeStep" active="true" codeSnippetId="1790ecad-5029-4111-a0b7-44fbb9e9ae05">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

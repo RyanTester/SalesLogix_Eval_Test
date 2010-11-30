@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\ChildPages\ImportHistory\SmartParts\ImportHistoryDetail.smartpart.xml" timeStamp="2009-11-19T20:11:00.4470" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\ImportHistory\SmartParts\ImportHistoryDetail.smartpart.xml.resx" timeStamp="2009-11-19T20:11:00.4630" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\ImportHistory\SmartParts\ImportHistoryDuplicates.smartpart.xml" timeStamp="2009-11-19T20:11:00.4630" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\ImportHistory\SmartParts\ImportHistoryDuplicates.smartpart.xml.resx" timeStamp="2009-11-19T20:11:00.5100" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\ImportHistory\SmartParts\ImportHistoryLog.smartpart.xml" timeStamp="2009-11-19T20:11:00.4630" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\ImportHistory\SmartParts\ImportHistoryLog.smartpart.xml.resx" timeStamp="2009-11-19T20:11:00.5100" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\ImportHistory\SmartParts\LeadSearchAndConvert.smartpart.xml" timeStamp="2009-11-19T20:11:00.4630" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\ImportHistory\SmartParts\LeadSearchAndConvert.smartpart.xml.resx" timeStamp="2009-11-19T20:11:00.5230" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\ImportHistory\SmartParts\LiveGroupViewer.smartpart.xml" timeStamp="2009-11-19T20:11:00.4630" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\ImportHistory\SmartParts\LiveGroupViewer.smartpart.xml.resx" timeStamp="2009-11-19T20:11:00.5100" />
+</exportedFiles>

@@ -1,0 +1,968 @@
+<?xml version="1.0"?>
+<WebQuickFormRenderingConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="b3c163f6-eb64-4812-9da9-cb4ca2c63b7e">
+  <FormProviders>
+    <WebQuickFormRenderingProvider>
+      <TemplateName>QuickForm2Web.vm</TemplateName>
+    </WebQuickFormRenderingProvider>
+  </FormProviders>
+  <ControlProviders>
+    <WebControlRenderingProvider>
+      <TemplateName>QFDataGrid.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps>
+        <PropertyMappingInfo>
+          <QFControlProperty>Visible</QFControlProperty>
+          <RenderedProperty>Visible</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+      </PropertyMaps>
+      <QuickFormControlType TypeName="Sage.SalesLogix.QuickForms.QFControls.QFDataGrid, Sage.SalesLogix.QuickForms.QFControls, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="Sage.SalesLogix.Web.Controls.SlxGridView, Sage.SalesLogix.Web.Controls">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFButton.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps>
+        <PropertyMappingInfo>
+          <QFControlProperty>IsReadOnly</QFControlProperty>
+          <RenderedProperty>Enabled</RenderedProperty>
+          <ReverseBooleanValues>true</ReverseBooleanValues>
+          <PropertyIsShared>false</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>StyleScheme</QFControlProperty>
+          <RenderedProperty>CssClass</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>false</PropertyIsShared>
+        </PropertyMappingInfo>
+      </PropertyMaps>
+      <QuickFormControlType TypeName="Sage.Platform.QuickForms.Controls.QFButton, Sage.Platform.QuickForms, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="System.Web.UI.WebControls.Button, System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFDataSource.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps />
+      <QuickFormControlType TypeName="Sage.Platform.QuickForms.QFControls.QFDataSource, Sage.Platform.QuickForms.QFControls, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="Sage.Platform.WebPortal.Binding.WebEntityBindingSource, Sage.Platform.WebPortal">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFMashupDataSource.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps />
+      <QuickFormControlType TypeName="Sage.Platform.QuickForms.QFControls.QFMashupDataSource, Sage.Platform.QuickForms.QFControls, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="Sage.Platform.Mashups.Web.WebMashupBindingSource, Sage.Platform.Mashups.Web">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFTextBox.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps>
+        <PropertyMappingInfo>
+          <QFControlProperty>IsReadOnly</QFControlProperty>
+          <RenderedProperty>ReadOnly</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>false</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>StyleScheme</QFControlProperty>
+          <RenderedProperty>CssClass</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>Visible</QFControlProperty>
+          <RenderedProperty>Visible</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+      </PropertyMaps>
+      <QuickFormControlType TypeName="Sage.Platform.QuickForms.Controls.QFTextBox, Sage.Platform.QuickForms, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="System.Web.UI.WebControls.TextBox, System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFSLXPhone.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps>
+        <PropertyMappingInfo>
+          <QFControlProperty>IsReadOnly</QFControlProperty>
+          <RenderedProperty>ReadOnly</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>false</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>StyleScheme</QFControlProperty>
+          <RenderedProperty>CssClass</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>Visible</QFControlProperty>
+          <RenderedProperty>Visible</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+      </PropertyMaps>
+      <QuickFormControlType TypeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXPhone, Sage.SalesLogix.QuickForms.QFControls, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="Sage.SalesLogix.Web.Controls.Phone, Sage.SalesLogix.Web.Controls">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFSLXPickList.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps>
+        <PropertyMappingInfo>
+          <QFControlProperty>IsReadOnly</QFControlProperty>
+          <RenderedProperty>ReadOnly</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>false</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>StyleScheme</QFControlProperty>
+          <RenderedProperty>CssClass</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>Visible</QFControlProperty>
+          <RenderedProperty>Visible</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+      </PropertyMaps>
+      <QuickFormControlType TypeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXPickList, Sage.SalesLogix.QuickForms.QFControls, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="Sage.SalesLogix.Web.Controls.PickList.PickListControl, Sage.SalesLogix.Web.Controls">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFSLXAddress.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps>
+        <PropertyMappingInfo>
+          <QFControlProperty>IsReadOnly</QFControlProperty>
+          <RenderedProperty>ReadOnly</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>false</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>StyleScheme</QFControlProperty>
+          <RenderedProperty>CssClass</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>Visible</QFControlProperty>
+          <RenderedProperty>Visible</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+      </PropertyMaps>
+      <QuickFormControlType TypeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXAddress, Sage.SalesLogix.QuickForms.QFControls, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="Sage.SalesLogix.Web.Controls.AddressControl, Sage.SalesLogix.Web.Controls">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFSLXUrl.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps>
+        <PropertyMappingInfo>
+          <QFControlProperty>IsReadOnly</QFControlProperty>
+          <RenderedProperty>ReadOnly</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>false</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>StyleScheme</QFControlProperty>
+          <RenderedProperty>CssClass</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>Visible</QFControlProperty>
+          <RenderedProperty>Visible</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+      </PropertyMaps>
+      <QuickFormControlType TypeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXUrl, Sage.SalesLogix.QuickForms.QFControls, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="Sage.SalesLogix.Web.Controls.URL, Sage.SalesLogix.Web.Controls">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFSLXOwner.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps>
+        <PropertyMappingInfo>
+          <QFControlProperty>IsReadOnly</QFControlProperty>
+          <RenderedProperty>ReadOnly</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>false</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>StyleScheme</QFControlProperty>
+          <RenderedProperty>CssClass</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>Visible</QFControlProperty>
+          <RenderedProperty>Visible</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+      </PropertyMaps>
+      <QuickFormControlType TypeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXOwner, Sage.SalesLogix.QuickForms.QFControls, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="Sage.SalesLogix.Web.Controls.OwnerControl, Sage.SalesLogix.Web.Controls">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFSLXUser.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps>
+        <PropertyMappingInfo>
+          <QFControlProperty>IsReadOnly</QFControlProperty>
+          <RenderedProperty>ReadOnly</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>false</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>StyleScheme</QFControlProperty>
+          <RenderedProperty>CssClass</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>Visible</QFControlProperty>
+          <RenderedProperty>Visible</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+      </PropertyMaps>
+      <QuickFormControlType TypeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXUser, Sage.SalesLogix.QuickForms.QFControls, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="Sage.SalesLogix.Web.Controls.SlxUserControl, Sage.SalesLogix.Web.Controls">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFSLXGroupNavigator.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps />
+      <QuickFormControlType TypeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXGroupNavigator, Sage.SalesLogix.QuickForms.QFControls, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="Sage.SalesLogix.Client.GroupBuilder.GroupNavigator, Sage.SalesLogix.Client.GroupBuilder">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFSLXCopy.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps>
+        <PropertyMappingInfo>
+          <QFControlProperty>IsReadOnly</QFControlProperty>
+          <RenderedProperty>Enabled</RenderedProperty>
+          <ReverseBooleanValues>true</ReverseBooleanValues>
+          <PropertyIsShared>false</PropertyIsShared>
+        </PropertyMappingInfo>
+      </PropertyMaps>
+      <QuickFormControlType TypeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXCopy, Sage.SalesLogix.QuickForms.QFControls, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="Sage.SalesLogix.Web.Controls.Copy, Sage.SalesLogix.Web.Controls">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFDateTimePicker.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps>
+        <PropertyMappingInfo>
+          <QFControlProperty>IsReadOnly</QFControlProperty>
+          <RenderedProperty>ReadOnly</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>false</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>StyleScheme</QFControlProperty>
+          <RenderedProperty>CssClass</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>Visible</QFControlProperty>
+          <RenderedProperty>Visible</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+      </PropertyMaps>
+      <QuickFormControlType TypeName="Sage.SalesLogix.QuickForms.QFControls.QFDateTimePicker, Sage.SalesLogix.QuickForms.QFControls, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="Sage.SalesLogix.Web.Controls.DateTimePicker, Sage.SalesLogix.Web.Controls">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFSLXCurrency.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps>
+        <PropertyMappingInfo>
+          <QFControlProperty>IsReadOnly</QFControlProperty>
+          <RenderedProperty>ReadOnly</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>false</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>StyleScheme</QFControlProperty>
+          <RenderedProperty>CssClass</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>Visible</QFControlProperty>
+          <RenderedProperty>Visible</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+      </PropertyMaps>
+      <QuickFormControlType TypeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXCurrency, Sage.SalesLogix.QuickForms.QFControls, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="Sage.SalesLogix.Web.Controls.Currency, Sage.SalesLogix.Web.Controls">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFSLXLookup.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps>
+        <PropertyMappingInfo>
+          <QFControlProperty>IsReadOnly</QFControlProperty>
+          <RenderedProperty>ReadOnly</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>false</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>StyleScheme</QFControlProperty>
+          <RenderedProperty>CssClass</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>Visible</QFControlProperty>
+          <RenderedProperty>Visible</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+      </PropertyMaps>
+      <QuickFormControlType TypeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXLookup, Sage.SalesLogix.QuickForms.QFControls, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="Sage.SalesLogix.Web.Controls.Lookup.LookupControl, Sage.SalesLogix.Web.Controls">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFHorizontalSeparator.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps />
+      <QuickFormControlType TypeName="Sage.Platform.QuickForms.QFControls.QFHorizontalSeparator, Sage.Platform.QuickForms.QFControls, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="System.Web.UI.LiteralControl, System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFSLXTimeZone.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps>
+        <PropertyMappingInfo>
+          <QFControlProperty>IsReadOnly</QFControlProperty>
+          <RenderedProperty>Enabled</RenderedProperty>
+          <ReverseBooleanValues>true</ReverseBooleanValues>
+          <PropertyIsShared>false</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>StyleScheme</QFControlProperty>
+          <RenderedProperty>CssClass</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>Visible</QFControlProperty>
+          <RenderedProperty>Visible</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+      </PropertyMaps>
+      <QuickFormControlType TypeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXTimeZone, Sage.SalesLogix.QuickForms.QFControls, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="Sage.SalesLogix.Web.Controls.TimeZoneControl, Sage.SalesLogix.Web.Controls">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFLabel.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps />
+      <QuickFormControlType TypeName="Sage.Platform.QuickForms.QFControls.QFLabel, Sage.Platform.QuickForms.QFControls, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="System.Web.UI.WebControls.Label, System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFLink.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps>
+        <PropertyMappingInfo>
+          <QFControlProperty>StyleScheme</QFControlProperty>
+          <RenderedProperty>CssClass</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>Visible</QFControlProperty>
+          <RenderedProperty>Visible</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+      </PropertyMaps>
+      <QuickFormControlType TypeName="Sage.Platform.QuickForms.QFControls.QFLink, Sage.Platform.QuickForms.QFControls, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="System.Web.UI.WebControls.HyperLink, System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFListBox.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps>
+        <PropertyMappingInfo>
+          <QFControlProperty>IsReadOnly</QFControlProperty>
+          <RenderedProperty>Enabled</RenderedProperty>
+          <ReverseBooleanValues>true</ReverseBooleanValues>
+          <PropertyIsShared>false</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>TextField</QFControlProperty>
+          <RenderedProperty>DataTextField</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>false</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>ValueField</QFControlProperty>
+          <RenderedProperty>DataValueField</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>false</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>StyleScheme</QFControlProperty>
+          <RenderedProperty>CssClass</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>Visible</QFControlProperty>
+          <RenderedProperty>Visible</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+      </PropertyMaps>
+      <QuickFormControlType TypeName="Sage.Platform.QuickForms.QFControls.QFListBox, Sage.Platform.QuickForms.QFControls, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="System.Web.UI.WebControls.ListBox, System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFHidden.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps />
+      <QuickFormControlType TypeName="Sage.Platform.QuickForms.QFControls.QFHidden, Sage.Platform.QuickForms.QFControls, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="System.Web.UI.WebControls.HiddenField, System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFCheckBox.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps>
+        <PropertyMappingInfo>
+          <QFControlProperty>IsReadOnly</QFControlProperty>
+          <RenderedProperty>Enabled</RenderedProperty>
+          <ReverseBooleanValues>true</ReverseBooleanValues>
+          <PropertyIsShared>false</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>StyleScheme</QFControlProperty>
+          <RenderedProperty>CssClass</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>Visible</QFControlProperty>
+          <RenderedProperty>Visible</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+      </PropertyMaps>
+      <QuickFormControlType TypeName="Sage.Platform.QuickForms.QFControls.QFCheckBox, Sage.Platform.QuickForms.QFControls, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="System.Web.UI.WebControls.CheckBox, System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFSLXDurationPicker.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps>
+        <PropertyMappingInfo>
+          <QFControlProperty>IsReadOnly</QFControlProperty>
+          <RenderedProperty>Enabled</RenderedProperty>
+          <ReverseBooleanValues>true</ReverseBooleanValues>
+          <PropertyIsShared>false</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>StyleScheme</QFControlProperty>
+          <RenderedProperty>CssClass</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>Visible</QFControlProperty>
+          <RenderedProperty>Visible</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+      </PropertyMaps>
+      <QuickFormControlType TypeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXDurationPicker, Sage.SalesLogix.QuickForms.QFControls, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="Sage.SalesLogix.Web.Controls.DurationPicker, Sage.SalesLogix.Web.Controls">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFSLXDependencyLookup.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps>
+        <PropertyMappingInfo>
+          <QFControlProperty>IsReadOnly</QFControlProperty>
+          <RenderedProperty>ReadOnly</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>false</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>StyleScheme</QFControlProperty>
+          <RenderedProperty>CssClass</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>Visible</QFControlProperty>
+          <RenderedProperty>Visible</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+      </PropertyMaps>
+      <QuickFormControlType TypeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXDependencyLookup, Sage.SalesLogix.QuickForms.QFControls, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="Sage.SalesLogix.Web.Controls.DependencyLookup.DependencyLookupControl, Sage.SalesLogix.Web.Controls">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFSLXPersonName.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps>
+        <PropertyMappingInfo>
+          <QFControlProperty>IsReadOnly</QFControlProperty>
+          <RenderedProperty>ReadOnly</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>false</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>StyleScheme</QFControlProperty>
+          <RenderedProperty>CssClass</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>Visible</QFControlProperty>
+          <RenderedProperty>Visible</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+      </PropertyMaps>
+      <QuickFormControlType TypeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXPersonName, Sage.SalesLogix.QuickForms.QFControls, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="Sage.SalesLogix.Web.Controls.FullName, Sage.SalesLogix.Web.Controls">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFSLXEmail.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps>
+        <PropertyMappingInfo>
+          <QFControlProperty>IsReadOnly</QFControlProperty>
+          <RenderedProperty>ReadOnly</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>false</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>StyleScheme</QFControlProperty>
+          <RenderedProperty>CssClass</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>Visible</QFControlProperty>
+          <RenderedProperty>Visible</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+      </PropertyMaps>
+      <QuickFormControlType TypeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXEmail, Sage.SalesLogix.QuickForms.QFControls, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="Sage.SalesLogix.Web.Controls.Email, Sage.SalesLogix.Web.Controls">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFBrowserControl.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps>
+        <PropertyMappingInfo>
+          <QFControlProperty>IsReadOnly</QFControlProperty>
+          <RenderedProperty>Enabled</RenderedProperty>
+          <ReverseBooleanValues>true</ReverseBooleanValues>
+          <PropertyIsShared>false</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>StyleScheme</QFControlProperty>
+          <RenderedProperty>CssClass</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>Visible</QFControlProperty>
+          <RenderedProperty>Visible</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+      </PropertyMaps>
+      <QuickFormControlType TypeName="Sage.SalesLogix.QuickForms.QFControls.QFBrowserControl, Sage.SalesLogix.QuickForms.QFControls, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="System.Web.UI.LiteralControl, System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFRadioGroup.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps>
+        <PropertyMappingInfo>
+          <QFControlProperty>IsReadOnly</QFControlProperty>
+          <RenderedProperty>Enabled</RenderedProperty>
+          <ReverseBooleanValues>true</ReverseBooleanValues>
+          <PropertyIsShared>false</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>TextField</QFControlProperty>
+          <RenderedProperty>DataTextField</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>false</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>ValueField</QFControlProperty>
+          <RenderedProperty>DataValueField</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>false</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>StyleScheme</QFControlProperty>
+          <RenderedProperty>CssClass</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>false</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>Visible</QFControlProperty>
+          <RenderedProperty>Visible</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>false</PropertyIsShared>
+        </PropertyMappingInfo>
+      </PropertyMaps>
+      <QuickFormControlType TypeName="Sage.Platform.QuickForms.QFControls.QFRadioGroup, Sage.Platform.QuickForms.QFControls, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="System.Web.UI.WebControls.RadioButtonList, System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFImage.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps>
+        <PropertyMappingInfo>
+          <QFControlProperty>StyleScheme</QFControlProperty>
+          <RenderedProperty>CssClass</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>false</PropertyIsShared>
+        </PropertyMappingInfo>
+      </PropertyMaps>
+      <QuickFormControlType TypeName="Sage.Platform.QuickForms.QFControls.QFImage, Sage.Platform.QuickForms.QFControls, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="System.Web.UI.WebControls.Image, System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFControlsList.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps>
+        <PropertyMappingInfo>
+          <QFControlProperty>IsReadOnly</QFControlProperty>
+          <RenderedProperty>Enabled</RenderedProperty>
+          <ReverseBooleanValues>true</ReverseBooleanValues>
+          <PropertyIsShared>false</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>StyleScheme</QFControlProperty>
+          <RenderedProperty>CssClass</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>false</PropertyIsShared>
+        </PropertyMappingInfo>
+      </PropertyMaps>
+      <QuickFormControlType TypeName="Sage.Platform.QuickForms.QFControls.QFControlsList, Sage.Platform.QuickForms.QFControls, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="System.Web.UI.WebControls.Panel, System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFSLXDynamicContent.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps>
+        <PropertyMappingInfo>
+          <QFControlProperty>Visible</QFControlProperty>
+          <RenderedProperty>Visible</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>StyleScheme</QFControlProperty>
+          <RenderedProperty>CssClass</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+      </PropertyMaps>
+      <QuickFormControlType TypeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXDynamicContent, Sage.SalesLogix.QuickForms.QFControls, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="Sage.SalesLogix.Web.Controls.DynamicContentControl, Sage.SalesLogix.Web.Controls">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFSLXNumeric.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps>
+        <PropertyMappingInfo>
+          <QFControlProperty>IsReadOnly</QFControlProperty>
+          <RenderedProperty>ReadOnly</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>false</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>StyleScheme</QFControlProperty>
+          <RenderedProperty>CssClass</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>Visible</QFControlProperty>
+          <RenderedProperty>Visible</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+      </PropertyMaps>
+      <QuickFormControlType TypeName="Sage.SalesLogix.QuickForms.QFControls.QFSLXNumeric, Sage.SalesLogix.QuickForms.QFControls, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="Sage.SalesLogix.Web.Controls.NumericControl, Sage.SalesLogix.Web.Controls">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFAggregateControl.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps>
+        <PropertyMappingInfo>
+          <QFControlProperty>StyleScheme</QFControlProperty>
+          <RenderedProperty>CssClass</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+        <PropertyMappingInfo>
+          <QFControlProperty>Visible</QFControlProperty>
+          <RenderedProperty>Visible</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>true</PropertyIsShared>
+        </PropertyMappingInfo>
+      </PropertyMaps>
+      <QuickFormControlType TypeName="Sage.SalesLogix.QuickForms.QFControls.QFAggregateControl, Sage.SalesLogix.QuickForms.QFControls, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="Sage.SalesLogix.Web.Controls.SlxGridView, Sage.SalesLogix.Web.Controls">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFTimeline.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps />
+      <QuickFormControlType TypeName="Sage.Platform.QuickForms.QFControls.QFTimeline, Sage.Platform.QuickForms.QFControls">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="Sage.SalesLogix.Web.Controls.Timeline.TimelineControl, Sage.SalesLogix.Web.Controls">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFPanel.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps>
+        <PropertyMappingInfo>
+          <QFControlProperty>StyleScheme</QFControlProperty>
+          <RenderedProperty>CssClass</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>false</PropertyIsShared>
+        </PropertyMappingInfo>
+      </PropertyMaps>
+      <QuickFormControlType TypeName="Sage.Platform.QuickForms.QFControls.QFPanel, Sage.Platform.QuickForms.QFControls">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="System.Web.UI.WebControls.Panel, System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFMultiTab.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps>
+        <PropertyMappingInfo>
+          <QFControlProperty>StyleScheme</QFControlProperty>
+          <RenderedProperty>CssClass</RenderedProperty>
+          <ReverseBooleanValues>false</ReverseBooleanValues>
+          <PropertyIsShared>false</PropertyIsShared>
+        </PropertyMappingInfo>
+      </PropertyMaps>
+      <QuickFormControlType TypeName="Sage.Platform.QuickForms.QFControls.QFMultiTab, Sage.Platform.QuickForms.QFControls">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="Sage.SalesLogix.Web.Controls.TabControl, Sage.SalesLogix.Web.Controls">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+    <WebControlRenderingProvider>
+      <TemplateName>QFSparkLine.WebControlRenderingTemplate.vm</TemplateName>
+      <PropertyMaps />
+      <QuickFormControlType TypeName="Sage.SalesLogix.QuickForms.QFControls.QFSparkLine, Sage.SalesLogix.QuickForms.QFControls">
+        <Properties />
+      </QuickFormControlType>
+      <RenderedControlType TypeName="System.Web.UI.LiteralControl, System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+        <Properties />
+      </RenderedControlType>
+    </WebControlRenderingProvider>
+  </ControlProviders>
+  <ActionProviders>
+    <WebActionRenderingProvider>
+      <TemplateName>BusinessRuleActionItem.WebActionRenderingTemplate.vm</TemplateName>
+      <QuickFormActionType TypeName="Sage.Platform.QuickForms.ActionItems.BusinessRuleActionItem, Sage.Platform.QuickForms, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormActionType>
+    </WebActionRenderingProvider>
+    <WebActionRenderingProvider>
+      <TemplateName>CSharpSnippetActionItem.WebActionRenderingTemplate.vm</TemplateName>
+      <QuickFormActionType TypeName="Sage.Platform.QuickForms.ActionItems.CSharpSnippetActionItem, Sage.Platform.QuickForms, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormActionType>
+    </WebActionRenderingProvider>
+    <WebActionRenderingProvider>
+      <TemplateName>DialogActionItem.WebActionRenderingTemplate.vm</TemplateName>
+      <QuickFormActionType TypeName="Sage.Platform.QuickForms.ActionItems.DialogActionItem, Sage.Platform.QuickForms, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormActionType>
+    </WebActionRenderingProvider>
+    <WebActionRenderingProvider>
+      <TemplateName>InsertChildDialogActionItem.WebActionRenderingTemplate.vm</TemplateName>
+      <QuickFormActionType TypeName="Sage.Platform.QuickForms.ActionItems.InsertChildDialogActionItem, Sage.Platform.QuickForms, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormActionType>
+    </WebActionRenderingProvider>
+    <WebActionRenderingProvider>
+      <TemplateName>MessageActionItem.WebActionRenderingTemplate.vm</TemplateName>
+      <QuickFormActionType TypeName="Sage.Platform.QuickForms.ActionItems.MessageActionItem, Sage.Platform.QuickForms, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormActionType>
+    </WebActionRenderingProvider>
+    <WebActionRenderingProvider>
+      <TemplateName>RedirectActionItem.WebActionRenderingTemplate.vm</TemplateName>
+      <QuickFormActionType TypeName="Sage.Platform.QuickForms.ActionItems.RedirectActionItem, Sage.Platform.QuickForms, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormActionType>
+    </WebActionRenderingProvider>
+    <WebActionRenderingProvider>
+      <TemplateName>RefreshDataAction.WebActionRenderingTemplate.vm</TemplateName>
+      <QuickFormActionType TypeName="Sage.Platform.QuickForms.ActionItems.RefreshDataAction, Sage.Platform.QuickForms, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormActionType>
+    </WebActionRenderingProvider>
+    <WebActionRenderingProvider>
+      <TemplateName>UIActionItem.WebActionRenderingTemplate.vm</TemplateName>
+      <QuickFormActionType TypeName="Sage.Platform.QuickForms.ActionItems.UIActionItem, Sage.Platform.QuickForms, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormActionType>
+    </WebActionRenderingProvider>
+    <WebActionRenderingProvider>
+      <TemplateName>ValidationActionItem.WebActionRenderingTemplate.vm</TemplateName>
+      <QuickFormActionType TypeName="Sage.Platform.QuickForms.ActionItems.ValidationActionItem, Sage.Platform.QuickForms, Version=7.2.0.1638, Culture=neutral, PublicKeyToken=null">
+        <Properties />
+      </QuickFormActionType>
+    </WebActionRenderingProvider>
+    <WebActionRenderingProvider>
+      <TemplateName>CodeSnippetActionItem.WebActionRenderingTemplate.vm</TemplateName>
+      <QuickFormActionType TypeName="Sage.Platform.QuickForms.ActionItems.CodeSnippetActionItem, Sage.Platform.QuickForms">
+        <Properties />
+      </QuickFormActionType>
+    </WebActionRenderingProvider>
+    <WebActionRenderingProvider>
+      <TemplateName>ResetEntityActionItem.WebActionRenderingTemplate.vm</TemplateName>
+      <QuickFormActionType TypeName="Sage.Platform.QuickForms.ActionItems.ResetEntityActionItem, Sage.Platform.QuickForms">
+        <Properties />
+      </QuickFormActionType>
+    </WebActionRenderingProvider>
+    <WebActionRenderingProvider>
+      <TemplateName>InsertAssociationActionItem.WebActionRenderingTemplate.vm</TemplateName>
+      <QuickFormActionType TypeName="Sage.Platform.QuickForms.ActionItems.InsertAssociationAction, Sage.Platform.QuickForms">
+        <Properties />
+      </QuickFormActionType>
+    </WebActionRenderingProvider>
+  </ActionProviders>
+</WebQuickFormRenderingConfig>

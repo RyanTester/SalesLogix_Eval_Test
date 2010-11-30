@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="998c4307-2071-436b-bf5f-a17a81221920">DefectDetails.smartpart.xml</Item>
+  <Item Id="d3ec7abc-b204-4828-987d-88b795962795">InsertDefect.smartpart.xml</Item>
+  <Item Id="e9137c54-4209-49d9-a7fc-5ed47fde66c9">DefectExtendedDetails.smartpart.xml</Item>
+  <Item Id="bf22d161-cfff-47a1-aad1-8e6b7a4cbb05">AttachmentList.smartpart.xml</Item>
+  <Item Id="a0beb1a4-e120-478e-906e-74892296b5a0">DefectComments.smartpart.xml</Item>
+  <Item Id="15de317e-dd63-4784-af01-2059c2425c48">DefectHistory.smartpart.xml</Item>
+  <Item Id="72885589-f78a-4993-ab97-971ea30085a0">DefectTasks.smartpart.xml</Item>
+  <Item Id="f497d3a7-15e8-44fa-b716-6792928e51ec">DefectProducts.smartpart.xml</Item>
+  <Item Id="af8062ad-18a0-4bbe-b41f-ad8641be12d4">DefectReturns.smartpart.xml</Item>
+  <Item Id="2abfc029-9903-4264-8ce1-187f3422f73c">DefectTickets.smartpart.xml</Item>
+  <Item Id="ec9ea5cb-1b19-4d2a-9268-53f24d1b4d81">AddEditDefectTask.smartpart.xml</Item>
+  <Item Id="9bd48c97-1439-4403-8ce4-8172b9a4527a">LiveGroupViewer.smartpart.xml</Item>
+</ModelItems>

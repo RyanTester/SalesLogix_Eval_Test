@@ -1,0 +1,34 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contact\Account.filter.xml" timeStamp="2009-11-19T20:10:51.2430" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contact\AccountManager.filter.xml" timeStamp="2009-11-19T20:10:51.2270" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contact\City.filter.xml" timeStamp="2009-11-19T20:10:51.2430" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contact\Contact.CONTACT.entity.xml" timeStamp="2009-11-19T20:10:51.2730" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contact\GetMatchingAccounts.method.xml" timeStamp="2009-11-19T20:10:51.2600" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contact\GetMatchingContacts.method.xml" timeStamp="2009-11-19T20:10:51.2270" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contact\HasAddressChanges.method.xml" timeStamp="2009-11-19T20:10:51.2730" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contact\HasFaxChanges.method.xml" timeStamp="2009-11-19T20:10:51.2270" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contact\HasPropagationChanges.method.xml" timeStamp="2009-11-19T20:10:51.2600" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contact\HasWebAddressChanges.method.xml" timeStamp="2009-11-19T20:10:51.2430" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contact\HasWorkPhoneChanges.method.xml" timeStamp="2009-11-19T20:10:51.2430" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contact\MoveContact.method.xml" timeStamp="2009-11-19T20:10:51.2600" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contact\Name.filter.xml" timeStamp="2009-11-19T20:10:51.3070" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contact\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:51.2600" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contact\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:51.2600" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contact\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:51.2730" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contact\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:51.2900" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contact\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:51.3070" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contact\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:51.2730" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contact\OnCreate.method.xml" timeStamp="2009-11-19T20:10:51.2900" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contact\Owner.filter.xml" timeStamp="2009-11-19T20:10:51.2900" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contact\SaveContactAccount.method.xml" timeStamp="2009-11-19T20:10:51.3200" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contact\SaveContactLeadSource.method.xml" timeStamp="2009-11-19T20:10:51.2900" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contact\SaveWebAccess.method.xml" timeStamp="2009-11-19T20:10:51.3070" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contact\ScheduleProcess.method.xml" timeStamp="2009-11-19T20:10:51.3070" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contact\State.filter.xml" timeStamp="2009-11-19T20:10:51.3200" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contact\UpdateAddressChanges.method.xml" timeStamp="2009-11-19T20:10:51.3070" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contact\UpdateFaxChanges.method.xml" timeStamp="2009-11-19T20:10:51.3070" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contact\UpdateWebAddressChanges.method.xml" timeStamp="2009-11-19T20:10:51.3200" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contact\UpdateWorkPhoneChanges.method.xml" timeStamp="2009-11-19T20:10:51.3200" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Contact\QuickForms\" />
+</exportedFiles>

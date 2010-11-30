@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:priority="1" MadCap:comment="12/30/02 KC Conv. buttons to links. Merged topics into drop-downs" MadCap:timeEstimate="0" MadCap:check_list="First Draft" MadCap:status="In Progress" MadCap:lastBlockDepth="6" MadCap:lastHeight="867" MadCap:lastWidth="594" MadCap:conditions="Output.WebClient" MadCap:tocPath="Using Query Builder|Query Builder Tabs" MadCap:PathToHelpSystem="../../" MadCap:SearchType="Stem">
+    <!-- saved from url=(0014)about:internet -->
+    <head><title>Query Builder Conditions</title>
+        <link rel="StyleSheet" href="../SALESLOGIX.CSS" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" type="text/css" />
+        <script src="../SkinSupport/MadCapUtilities.js">
+        </script>
+        <script src="../SkinSupport/MadCapEffects.js">
+        </script>
+        <script src="../SkinSupport/MadCapEffectsMenu.js">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor142"></a>Query Builder Conditions</h1>
+        <p>Use the Query Builder Conditions tab to add, edit, or delete conditional  statements that are applied against the database to select data. Conditions are  applied in the order they appear in the grid; however, you can use the Move Up  and Move Down buttons to change the order. You can also group the conditional  statements.</p>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;left: 0px;top: 156px;border-spacing: 0px;border-spacing: 0px;" cellspacing="0">
+            <col />
+            <col />
+            <tr valign="middle">
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;border-left-style: none;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;width: 20px;height: 31px;float: none;border-style: none;border-style: none;" width="20" height="31" border="0" />
+                    </p>
+                </td>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p class="Tip-Note-Text">All groups you create should contain at least one condition. Groups that include  all records may slow system performance, and a warning may appear when users  attempt to view the groups.</p>
+                </td>
+            </tr>
+        </table>
+        <div class="MCDropDown">
+            <div class="MCDropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot" id="MCDropDownHotSpot_761379959_0" onclick="FMCDropDown( this ); return false;">To add a conditional statement</a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_761379959_0" style="display: none;">
+                <ol>
+                    <li class="kadov-p-CTopic-Text-Numbered" value="1">
+                        <p class="Topic-Text-Numbered">Open 
+ <a href="openquerybuilder.htm">Query Builder</a>.</p>
+                    </li>
+                    <li class="kadov-p-CTopic-Text-Numbered" value="2">
+                        <p class="Topic-Text-Numbered">In 
+ the <span class="SLXBold">Query Builder</span>, click the <span class="SLXBold">Conditions</span> 
+ tab.</p>
+                    </li>
+                    <li class="kadov-p-CTopic-Text-Numbered" value="3">
+                        <p class="Topic-Text-Numbered">Select 
+ a table from the upper left side of the Query Builder. If necessary, click 
+ the plus sign to expand the list of tables.</p>
+                    </li>
+                    <li class="kadov-p-CTopic-Text-Numbered" value="4">
+                        <p class="Topic-Text-Numbered">Select 
+ a field from the upper right side of the Query Builder. This box displays 
+ all fields that belong to the selected table. Double-click the field to add it to the grid at the bottom of the dialog box.</p>
+                    </li>
+                </ol>
+                <p class="Topic-Text-Indent">The Assign Condition dialog box opens automatically. 
+ You can open this dialog box at any time by double-clicking a statement 
+ in the grid.</p>
+                <ol start="5">
+                    <li class="kadov-p-CTopic-Text-Numbered" value="5">
+                        <p class="Topic-Text-Numbered">Select 
+ an <a href="querystatementoperators.htm">operator</a>.</p>
+                    </li>
+                    <li class="kadov-p-CTopic-Text-Numbered" value="6">
+                        <p class="Topic-Text-Numbered">In 
+ the <span class="SLXBold">Value is</span> box, enter a value or click <span class="SLXBold">Browse</span> to select a value from all existing entries 
+ for that field.</p>
+                    </li>
+                </ol>
+                <p class="Topic-Text-Indent">If you selected "In" as an operator, 
+ the values must have quotation marks around each entry.</p>
+                <ol start="7">
+                    <li class="kadov-p-CTopic-Text-Numbered" value="7">
+                        <p class="Topic-Text-Numbered">Select 
+ <span class="SLXBold">Case Sensitive Compare</span> if you want the capitalization 
+ of the value used as part of the condition. By default this option is 
+ selected.</p>
+                    </li>
+                </ol>
+                <p class="Topic-Text-Indent">If you are using MS SQL Server, the Case Sensitive 
+ Compare option is not applicable. All queries are case insensitive.</p>
+                <ol start="8">
+                    <li class="kadov-p-CTopic-Text-Numbered" value="8">
+                        <p class="Topic-Text-Numbered">If 
+ necessary, select <a href="queryliteralvalue.htm">Use 
+ Value as a Literal</a>.</p>
+                    </li>
+                    <li class="kadov-p-CTopic-Text-Numbered" value="9">
+                        <p class="Topic-Text-Numbered">Click 
+ <span class="SLXBold">OK</span>.</p>
+                    </li>
+                    <li class="kadov-p-CTopic-Text-Numbered" value="10">
+                        <p class="Topic-Text-Numbered">To 
+ add another condition statement, repeat steps 1–9, and then select the appropriate 
+ <a href="queryconnectors.htm">connector</a>.</p>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <div class="MCDropDown">
+            <div class="MCDropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot" id="MCDropDownHotSpot_761379959_1" onclick="FMCDropDown( this ); return false;">To edit a conditional statement</a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_761379959_1" style="display: none;">
+                <ol>
+                    <li class="kadov-p-CTopic-Text-Numbered" value="1">
+                        <p class="Topic-Text-Numbered">Open 
+ <a href="openquerybuilder.htm">Query Builder</a>.</p>
+                    </li>
+                    <li class="kadov-p-CTopic-Text-Numbered" value="2">
+                        <p class="Topic-Text-Numbered">Click 
+ the <span class="SLXBold">Conditions</span> tab.</p>
+                    </li>
+                    <li class="kadov-p-CTopic-Text-Numbered" value="3">
+                        <p class="Topic-Text-Numbered">Select 
+ a statement in the grid (bottom of the Query Builder dialog box).</p>
+                    </li>
+                    <li class="kadov-p-CTopic-Text-Numbered" value="4">
+                        <p class="Topic-Text-Numbered">Click 
+ <span class="SLXBold">Edit</span>.</p>
+                    </li>
+                    <li class="kadov-p-CTopic-Text-Numbered" value="5">
+                        <p class="Topic-Text-Numbered">In 
+ the <a href="queryassigncondition.htm">Assign Condition</a> dialog box, make 
+ your changes.</p>
+                    </li>
+                    <li class="kadov-p-CTopic-Text-Numbered" value="6">
+                        <p class="Topic-Text-Numbered">Click 
+ <span class="SLXBold">OK</span>.</p>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <div class="MCDropDown">
+            <div class="MCDropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot" id="MCDropDownHotSpot_761379959_2" onclick="FMCDropDown( this ); return false;">To delete a conditional statement</a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_761379959_2" style="display: none;">
+                <ol>
+                    <li class="kadov-p-CTopic-Text-Numbered" value="1">
+                        <p class="Topic-Text-Numbered">Open 
+ <a href="openquerybuilder.htm">Query Builder</a>.</p>
+                    </li>
+                    <li class="kadov-p-CTopic-Text-Numbered" value="2">
+                        <p class="Topic-Text-Numbered">Click 
+ the <span class="SLXBold">Conditions</span> tab.</p>
+                    </li>
+                    <li class="kadov-p-CTopic-Text-Numbered" value="3">
+                        <p class="Topic-Text-Numbered">Select 
+ a statement in the grid.</p>
+                    </li>
+                    <li class="kadov-p-CTopic-Text-Numbered" value="4">
+                        <p class="Topic-Text-Numbered">Click 
+ <span class="SLXBold">Delete</span>.</p>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="querygroupconditional.htm">Grouping Conditional Statements</a>
+        </p>
+        <p><a href="queryreordercondition.htm">Reordering a
+ Conditional Statement</a>
+        </p>
+        <p><a href="querynotcondition.htm">Using "Not" 
+ in a Conditional Statement</a><a href="queryassigncondition.htm">&#160;</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>
+            </p>
+            <p style="border-top-style: Groove;border-top-color: #c0c0c0;border-top-width: 1px;">&#160;</p>
+            <p><![CDATA[ ]]><a href="../General/feedback.htm" target="_blank">Tell us how we can make the Help better.</a></p>
+        </div>
+        <p>&#160;</p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

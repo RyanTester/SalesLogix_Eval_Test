@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<entityFilter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmRangeEntityFilter" id="b0c4a4e0-1aaf-4b59-8fd1-51a59e0ae020" lastModifiedUtc="2008-11-21T23:05:57.2308975Z" filterName="Probability" propertyName="CloseProbability" characters="1">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRangeEntityFilter" />
+  </ExtendedPropertiesCollection>
+  <ranges id="968d1497-2259-4bef-8529-3ab9047f5572" rangeName="0 - 25%" upper="25" />
+  <ranges id="ad84c602-56c7-4ae9-9486-806d2a545c87" rangeName="25 - 50%" lower="25" upper="50" />
+  <ranges id="67a2e7e6-7dcf-4db2-8dbc-e93ee94eee6b" rangeName="50 - 75%" lower="50" upper="75" />
+  <ranges id="40722eaf-83ef-4350-8c47-8c4948b50549" rangeName="75 - 100%" lower="75" />
+  <ranges id="53b36e68-fcef-4c91-953f-e7666e1ef393" rangeName="empty" />
+</entityFilter>

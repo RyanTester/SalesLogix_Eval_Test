@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\ProcessHost\ContextMenuItems.order.xml" timeStamp="2009-11-19T20:10:57.7800" />
+  <exportedFile url="\Portal\ProcessHost\MenuItems.order.xml" timeStamp="2009-11-19T20:10:57.7800" />
+  <exportedFile url="\Portal\ProcessHost\Modules.order.xml" timeStamp="2009-11-19T20:10:57.7800" />
+  <exportedFile url="\Portal\ProcessHost\NavigationGroups.order.xml" timeStamp="2009-11-19T20:10:57.7800" />
+  <exportedFile url="\Portal\ProcessHost\ProcessHost.portal.xml" timeStamp="2009-11-19T20:10:57.7800" />
+  <exportedFile url="\Portal\ProcessHost\ProcessHost.portal.xml.resx" timeStamp="2009-11-19T20:10:57.7800" />
+  <exportedFile url="\Portal\ProcessHost\Services.order.xml" timeStamp="2009-11-19T20:10:57.7800" />
+  <exportedFile url="\Portal\ProcessHost\SupportFiles.def.xml" timeStamp="2010-01-19T23:08:58.6830" />
+  <exportedFile url="\Portal\ProcessHost\Deployment\" />
+  <exportedFile url="\Portal\ProcessHost\Services\" />
+  <exportedFile url="\Portal\ProcessHost\SupportFiles\" />
+</exportedFiles>

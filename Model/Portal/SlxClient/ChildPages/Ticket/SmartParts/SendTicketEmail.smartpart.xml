@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="c6d3cef3-9f8b-4c7f-a0b5-f9b95f2cb4c9">
+  <SmartPartId>SendTicketEmail</SmartPartId>
+  <SmartPart>SmartParts\Ticket\SendTicketEmail.ascx</SmartPart>
+  <TargetWorkspace>DialogWorkspace</TargetWorkspace>
+  <ShowInMode>Detail</ShowInMode>
+  <Properties />
+</SmartPartMapping>

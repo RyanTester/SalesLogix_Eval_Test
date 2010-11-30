@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="622aa4ce-edfa-48af-be43-e375c5e495b3">
+  <SmartPartId>AccountAssociations</SmartPartId>
+  <SmartPart>SmartParts\Association\AccountAssociations.ascx</SmartPart>
+  <TargetWorkspace>TabControl</TargetWorkspace>
+  <ShowInMode>Detail</ShowInMode>
+  <Properties />
+</SmartPartMapping>

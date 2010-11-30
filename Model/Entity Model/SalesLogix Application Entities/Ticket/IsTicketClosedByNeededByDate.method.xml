@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="8f8fa37e-438b-44cf-822f-b40a15f3447c" name="IsTicketClosedByNeededByDate" returnType="Boolean" methodType="Rule" actionType="None" returnMode="Object" isInstance="true">
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam paramName="param1" sequence="0" paramType="object" />
+  </parameter>
+  <methodTargets>
+    <methodTarget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="47ebf27c-05ce-4c2f-883e-ecd8d5239669" targetType="Sage.SalesLogix.Ticket.Rules, Sage.SalesLogix.BusinessRules" sequence="0" targetMethod="IsTicketClosedByNeededByDate" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+</method>

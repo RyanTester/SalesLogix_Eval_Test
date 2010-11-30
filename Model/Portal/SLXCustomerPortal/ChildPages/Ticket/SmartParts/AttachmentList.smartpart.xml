@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="75307F76-B9B8-4834-B119-F0BF3308DBD6">
+  <SmartPartId>AttachmentList</SmartPartId>
+  <SmartPart>SmartParts\Attachment\AttachmentList.ascx</SmartPart>
+  <TargetWorkspace>TabControl</TargetWorkspace>
+  <ShowInMode>Detail</ShowInMode>
+  <Properties />
+</SmartPartMapping>

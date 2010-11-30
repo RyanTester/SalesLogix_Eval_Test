@@ -1,0 +1,39 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\help.ascx" timeStamp="2009-11-19T20:13:15.2330" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\help.ascx.cs" timeStamp="2009-11-19T20:13:15.2330" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\ProcessTestBed.ascx" timeStamp="2009-11-19T20:12:02.9030" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\ProcessTestBed.ascx.cs" timeStamp="2009-11-19T20:12:02.9030" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Account\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Address\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\App_LocalResources\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Association\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Attachment\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Calendar\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Campaign\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\ClientLinkHandler\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Contact\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Dashboard\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\General\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\GroupBuilder\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\History\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\ImportHistory\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\ImportTemplate\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\LegacySupport\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Library\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\LitRequest\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Opportunity\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\OpportunitySalesProcess\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Options\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Processes\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Reports\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\SalesOrder\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\SpeedSearch\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\TargetResponse\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\TaskPane\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Ticket\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\WhatsNew\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\WorkSurvey\" />
+</exportedFiles>

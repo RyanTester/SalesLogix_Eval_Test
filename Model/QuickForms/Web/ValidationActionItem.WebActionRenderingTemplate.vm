@@ -1,0 +1,17 @@
+${entitytypename} entity = (${entitytypename}) this.BindingSource.Current;
+if (entity.${action.ValidationMethod}()) {
+  #if($action.OnSuccess)
+    #if($action.OnSuccess.InnerActionName != "NoActionAction")
+      ${action.OnSuccess.MethodName}(sender, e);
+      ${pagegenerator.QueueSubAction($action.OnSuccess)}
+    #end
+  #end
+}
+else {
+  #if($action.OnFail)
+    #if($action.OnFail.InnerActionName != "NoActionAction")
+      ${action.OnFail.MethodName}(sender, e);
+      ${pagegenerator.QueueSubAction($action.OnFail)}
+    #end
+  #end
+}

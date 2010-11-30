@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxIntellisync\ContextMenuItems.order.xml" timeStamp="2009-11-19T20:11:22.0030" />
+  <exportedFile url="\Portal\SlxIntellisync\MenuItems.order.xml" timeStamp="2009-11-19T20:11:22.1300" />
+  <exportedFile url="\Portal\SlxIntellisync\Modules.order.xml" timeStamp="2009-11-19T20:11:21.9870" />
+  <exportedFile url="\Portal\SlxIntellisync\NavigationGroups.order.xml" timeStamp="2009-11-19T20:11:22.1300" />
+  <exportedFile url="\Portal\SlxIntellisync\Services.order.xml" timeStamp="2009-11-19T20:11:22.0030" />
+  <exportedFile url="\Portal\SlxIntellisync\SlxIntellisync.portal.xml" timeStamp="2009-11-19T20:11:22.1600" />
+  <exportedFile url="\Portal\SlxIntellisync\SlxIntellisync.portal.xml.resx" timeStamp="2009-11-19T20:11:22.2530" />
+  <exportedFile url="\Portal\SlxIntellisync\SupportFiles.def.xml" timeStamp="2010-01-19T23:08:54.3400" />
+  <exportedFile url="\Portal\SlxIntellisync\Deployment\" />
+  <exportedFile url="\Portal\SlxIntellisync\Services\" />
+  <exportedFile url="\Portal\SlxIntellisync\SupportFiles\" />
+</exportedFiles>

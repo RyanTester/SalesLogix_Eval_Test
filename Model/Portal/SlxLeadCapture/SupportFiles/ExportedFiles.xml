@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxLeadCapture\SupportFiles\Default.aspx" timeStamp="2009-11-19T20:11:22.9870" />
+  <exportedFile url="\Portal\SlxLeadCapture\SupportFiles\Default.aspx.cs" timeStamp="2009-11-19T20:11:23.0800" />
+  <exportedFile url="\Portal\SlxLeadCapture\SupportFiles\UIStateService.asmx" timeStamp="2009-11-19T20:11:57.1170" />
+  <exportedFile url="\Portal\SlxLeadCapture\SupportFiles\web.config" timeStamp="2009-11-19T20:11:23.0800" />
+  <exportedFile url="\Portal\SlxLeadCapture\SupportFiles\App_LocalResources\" />
+  <exportedFile url="\Portal\SlxLeadCapture\SupportFiles\bin\" />
+  <exportedFile url="\Portal\SlxLeadCapture\SupportFiles\css\" />
+  <exportedFile url="\Portal\SlxLeadCapture\SupportFiles\images\" />
+  <exportedFile url="\Portal\SlxLeadCapture\SupportFiles\jscript\" />
+  <exportedFile url="\Portal\SlxLeadCapture\SupportFiles\Libraries\" />
+  <exportedFile url="\Portal\SlxLeadCapture\SupportFiles\Masters\" />
+  <exportedFile url="\Portal\SlxLeadCapture\SupportFiles\SmartParts\" />
+</exportedFiles>

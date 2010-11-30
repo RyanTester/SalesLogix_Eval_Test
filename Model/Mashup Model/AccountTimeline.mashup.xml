@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<mashup id="6b164cf9-f361-4e9b-950c-d856b32b8063" name="AccountTimeline">
+  <processors>
+    <processor type="Sage.Platform.Mashups.Processors.SnippetProcessor, Sage.Platform.Mashups">
+      <snippetProcessor name="ActivitiesSnippet" location="40, 40" expanded="True" width="240" continueOnError="False" methodName="Activity.GetActivitiesForMashup">
+        <parameters>
+          <parameter id="55cdff16-191f-4437-a9af-23c537acf1c8" name="EntityId" expression="EntityId" />
+        </parameters>
+      </snippetProcessor>
+    </processor>
+    <processor type="Sage.Platform.Mashups.Processors.SelectProcessor, Sage.Platform.Mashups">
+      <selectProcessor name="ActivityPreSelect" location="40, 240" expanded="True" width="240" continueOnError="False" type="Append">
+        <properties>
+          <property id="424838df-1629-4c53-98b3-f5c63d2c9590" expression="IIF(Timeless, TimelessStart(StartDate), StartDate)" alias="Start" />
+          <property id="c170031f-3620-404a-89e3-e3d739cb208f" expression="IIF(Timeless, TimelessEnd(StartDate), EndDate)" alias="End" />
+        </properties>
+      </selectProcessor>
+    </processor>
+    <processor type="Sage.Platform.Mashups.Processors.TimelineSelectProcessor, Sage.Platform.Mashups">
+      <selectProcessor name="ActivitySelect" location="40, 400" expanded="True" width="240" continueOnError="False" type="Replace">
+        <properties>
+          <property id="5791f7f7-268e-400b-88f4-30ecf4339c86" expression="ToString" alias="Title" />
+          <property id="84edd72d-2e88-45ed-a2e1-bbc40a1f2a10" expression="Start" alias="Start" />
+          <property id="162d9efd-ff93-485a-943a-f57a0bc162fb" expression="End" alias="End" />
+          <property id="1702c746-c631-4705-8cca-642114bf1ba6" expression="SubString(Notes, 0, 255)" alias="Description" />
+          <property id="27383e6e-110a-429c-8902-2c152b8ab7fb" expression="IIF(IsNullOrEmpty(OpportunityId), IIF(IsNullOrEmpty(TicketId),'#000099', '#990000'), '#005500')" alias="Color" />
+          <property id="27383e6e-110a-429c-8902-2c152b8aeeee" expression="IIF(Type = 262146, 'images/phone.gif', IIF(Type = 262145, 'images/meeting.gif', IIF(Type = 262147, 'images/todo.gif', IIF(Type = 262162, 'images/icons/Personal_16x16.gif', ''))))" alias="Icon" />
+          <property id="72915b13-8125-42d8-86e5-ee191116beff" expression="IIF(Recurring, Concat('javascript:Link.editActivityOccurrence(''', Coalesce(Id, ActivityId), ''', ''', ToInvariantCulture(StartDate), ''')'), Concat('javascript:Link.editActivity(''', Coalesce(Id, ActivityId), ''')'))" alias="Link" />
+          <property id="4591e9ad-c0dc-42a6-a887-5cd492d23084" expression="End - Start &gt;= 1" alias="IsDuration" />
+          <property id="13f6ee65-32fb-43f4-b20f-c260e1871fce" expression="'Notes'" alias="Thumbnail" />
+        </properties>
+      </selectProcessor>
+    </processor>
+    <processor type="Sage.Platform.Mashups.Processors.QueryProcessor, Sage.Platform.Mashups">
+      <queryProcessor name="HistoryQuery" location="320, 40" expanded="True" width="240" continueOnError="False" query="from History h&#xD;&#xA;where h.AccountId = :AccountId&#xD;&#xA;and h.Type &lt;&gt; 262156&#xD;&#xA;order by h.CompletedDate Desc" maximumResults="800">
+        <parameters>
+          <parameter id="82b5ca7b-7b55-4a61-8ef3-e907445fbeb2" name="AccountId" expression="EntityId" />
+        </parameters>
+      </queryProcessor>
+    </processor>
+    <processor type="Sage.Platform.Mashups.Processors.SelectProcessor, Sage.Platform.Mashups">
+      <selectProcessor name="HistoryPreSelect" location="320, 240" expanded="True" width="240" continueOnError="False" type="Append">
+        <properties>
+          <property id="7fcabbfb-b8d4-4ca8-a03b-f4cefe24b2f1" expression="IIF(Timeless, TimelessStart(CompletedDate), AddMinutes(CompletedDate, -1*Duration))" alias="Start" />
+          <property id="662f7312-406c-47a2-be38-397ac1149255" expression="IIF(Timeless, TimelessEnd(CompletedDate), CompletedDate)" alias="End" />
+        </properties>
+      </selectProcessor>
+    </processor>
+    <processor type="Sage.Platform.Mashups.Processors.TimelineSelectProcessor, Sage.Platform.Mashups">
+      <selectProcessor name="HistorySelect" location="320, 400" expanded="True" width="240" continueOnError="False" type="Replace">
+        <properties>
+          <property id="c80c4f74-c3a9-4ce9-a255-7294cffea0f3" expression="ToString" alias="Title" />
+          <property id="6e3a310e-fbd8-4e14-afb9-a9d3ec16b6ad" expression="Start" alias="Start" />
+          <property id="bdcea4c8-e183-47f5-832e-b75d16d2c30f" expression="End" alias="End" />
+          <property id="c16c5436-5297-45db-8010-ea6b1a2a0592" expression="SubString(Notes, 0, 255)" alias="Description" />
+          <property id="36ee2e3b-fa9a-4577-9ee5-86b746026718" expression="IIF(IsNullOrEmpty(TicketId), IIF(IsNullOrEmpty(OpportunityId), IIF(Type = 262148, '#660066', '#666699'), '#558855'), '#996666')" alias="Color" />
+          <property id="27383e6e-110a-429c-8902-2c152b8affff" expression="IIF(Type = 262146, 'images/phone.gif', IIF(Type = 262145, 'images/meeting.gif', IIF(Type = 262147, 'images/todo.gif', IIF(Type = 262154, 'images/email.gif', IIF(Type = 262154, 'images/mail_16.gif', IIF(Type = 262155, 'images/fax_16.gif', IIF(Type = 262162, 'images/icons/Personal_16x16.gif', 'images/note_16.gif')))))))" alias="Icon" />
+          <property id="167e966c-3de8-4409-9d4e-68323a132dee" expression="Concat('javascript:Link.editHistory(''', Id, ''')')" alias="Link" />
+          <property id="48c779ca-d8a3-46b9-bb5d-bb4f7f7b8c63" expression="End - Start &gt;= 1" alias="IsDuration" />
+          <property id="cd754b29-346f-4735-b8c7-19ed47610db7" expression="'Notes'" alias="Thumbnail" />
+        </properties>
+      </selectProcessor>
+    </processor>
+    <processor type="Sage.Platform.Mashups.Processors.QueryProcessor, Sage.Platform.Mashups">
+      <queryProcessor name="OpportunityQuery" location="600, 40" expanded="True" width="240" continueOnError="False" query="select DateOpened, CreateDate, ActualClose, EstimatedClose, Description, Notes, Closed, Id&#xD;&#xA;from Opportunity o&#xD;&#xA;where o.Account.Id = :AccountId&#xD;&#xA;order by o.CreateDate Desc" maximumResults="800">
+        <parameters>
+          <parameter id="510bc4ef-a874-4bc5-b812-695eb17335c4" name="AccountId" expression="EntityId" />
+        </parameters>
+      </queryProcessor>
+    </processor>
+    <processor type="Sage.Platform.Mashups.Processors.SelectProcessor, Sage.Platform.Mashups">
+      <selectProcessor name="OpportunityPreSelect" location="600, 240" expanded="True" width="240" continueOnError="False" type="Append">
+        <properties>
+          <property id="7fcabbfb-b8d4-4ca8-a03b-f4cefe24b2f1" expression="Coalesce(DateOpened, CreateDate)" alias="Start" />
+          <property id="662f7312-406c-47a2-be38-397ac1149255" expression="Coalesce(ActualClose, EstimatedClose)" alias="End" />
+        </properties>
+      </selectProcessor>
+    </processor>
+    <processor type="Sage.Platform.Mashups.Processors.TimelineSelectProcessor, Sage.Platform.Mashups">
+      <selectProcessor name="OpportunitySelect" location="600, 400" expanded="True" width="240" continueOnError="False" type="Replace">
+        <properties>
+          <property id="4d81b3bb-68ca-4001-a497-fff2ebb6ebe7" expression="Description" alias="Title" />
+          <property id="e0e078c9-e982-4ee4-b2e0-34d80266d1fb" expression="Start" alias="Start" />
+          <property id="0313c14b-4aef-467b-9f08-acffbef1967d" expression="End" alias="End" />
+          <property id="69a40396-2409-4d32-a2e4-531e231922c7" expression="SubString(Notes, 0, 255)" alias="Description" />
+          <property id="69a40396-2409-4d32-a2e4-531e2319dddd" expression="'images/opportunity.gif'" alias="Icon" />
+          <property id="5965b354-f90d-4066-8687-19bd73dff38b" expression="IIF(Closed, '#558855', '#005500')" alias="Color" />
+          <property id="c982212b-24b6-48d1-8bb2-b86a761539a1" expression="Concat('Opportunity.aspx?entityid=', Id)" alias="Link" />
+          <property id="83f4aaa5-14e1-4713-a491-6149766cc4c3" expression="End - Start &gt;= 1" alias="IsDuration" />
+          <property id="6945f75d-8873-49ee-981a-8fc79b195b5f" expression="'Notes'" alias="Thumbnail" />
+        </properties>
+      </selectProcessor>
+    </processor>
+    <processor type="Sage.Platform.Mashups.Processors.QueryProcessor, Sage.Platform.Mashups">
+      <queryProcessor name="TicketQuery" location="880, 40" expanded="True" width="240" continueOnError="False" query="select ReceivedDate, CompletedDate, NeededByDate, AlternateKeyPrefix, AlternateKeySuffix, Subject, Notes, StatusCode, Id&#xD;&#xA;from Ticket t&#xD;&#xA;where t.Account.Id = :AccountId&#xD;&#xA;order by t.CreateDate Desc" maximumResults="800">
+        <parameters>
+          <parameter id="2c47002a-6942-4fe8-9264-7f5573d9cf56" name="AccountId" expression="EntityId" />
+        </parameters>
+      </queryProcessor>
+    </processor>
+    <processor type="Sage.Platform.Mashups.Processors.SelectProcessor, Sage.Platform.Mashups">
+      <selectProcessor name="TicketPreSelect" location="880, 240" expanded="True" width="240" continueOnError="False" type="Append">
+        <properties>
+          <property id="7fcabbfb-b8d4-4ca8-a03b-f4cefe24b2f1" expression="ReceivedDate" alias="Start" />
+          <property id="662f7312-406c-47a2-be38-397ac1149255" expression="Coalesce(CompletedDate, NeededByDate)" alias="End" />
+        </properties>
+      </selectProcessor>
+    </processor>
+    <processor type="Sage.Platform.Mashups.Processors.TimelineSelectProcessor, Sage.Platform.Mashups">
+      <selectProcessor name="TicketSelect" location="880, 400" expanded="True" width="240" continueOnError="False" type="Replace">
+        <properties>
+          <property id="9463829b-23ab-4fd0-b4fe-1e0c9500ec12" expression="Concat(AlternateKeyPrefix, '-', AlternateKeySuffix, ' ', Subject)" alias="Title" />
+          <property id="da27c421-ce22-41ad-b02b-b83316b653cd" expression="Start" alias="Start" />
+          <property id="ba6bccfa-d58a-4ada-a145-ae264f5624fd" expression="End" alias="End" />
+          <property id="590c2404-81fc-4d7e-b165-4b0f6677d231" expression="SubString(Notes, 0, 255)" alias="Description" />
+          <property id="69a40396-2409-4d32-a2e4-531e2319cccc" expression="'images/ticket.gif'" alias="Icon" />
+          <property id="30c4bf7f-ba4a-46e6-b2c0-827e112d1ad9" expression="IIF(StatusCode = 'k6UJ9A000037', '#996666', '#990000')" alias="Color" />
+          <property id="a933a146-4839-495b-b859-19dea4ce0148" expression="Concat('Ticket.aspx?entityid=', Id)" alias="Link" />
+          <property id="a6dd8be9-0ac4-405a-be31-5ece1bc9799c" expression="End - Start &gt;= 1" alias="IsDuration" />
+          <property id="720ead98-328e-4ba8-a8a9-f6c2aa36a64a" expression="'Notes'" alias="Thumbnail" />
+        </properties>
+      </selectProcessor>
+    </processor>
+    <processor type="Sage.Platform.Mashups.Processors.SelectProcessor, Sage.Platform.Mashups">
+      <selectProcessor name="AllResults" location="460, 640" expanded="True" width="240" continueOnError="False" type="Append">
+        <properties />
+      </selectProcessor>
+    </processor>
+  </processors>
+  <parameters>
+    <parameter id="3e32f181-ed9c-49f8-9f0a-b459881a3f68" name="EntityId" expression="'AGHEA0002669'" />
+  </parameters>
+  <links>
+    <link source="ActivitiesSnippet" target="ActivityPreSelect" />
+    <link source="ActivityPreSelect" target="ActivitySelect" />
+    <link source="HistoryQuery" target="HistoryPreSelect" />
+    <link source="HistoryPreSelect" target="HistorySelect" />
+    <link source="OpportunityQuery" target="OpportunityPreSelect" />
+    <link source="OpportunityPreSelect" target="OpportunitySelect" />
+    <link source="TicketQuery" target="TicketPreSelect" />
+    <link source="TicketPreSelect" target="TicketSelect" />
+    <link source="ActivitySelect" target="AllResults" />
+    <link source="HistorySelect" target="AllResults" />
+    <link source="OpportunitySelect" target="AllResults" />
+    <link source="TicketSelect" target="AllResults" />
+  </links>
+</mashup>

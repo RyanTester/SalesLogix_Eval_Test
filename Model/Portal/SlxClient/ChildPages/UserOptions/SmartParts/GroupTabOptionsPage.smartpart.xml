@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="c387b813-5439-419a-9b67-dc168b4d056a">
+  <SmartPartId>GroupTabOptionsPage</SmartPartId>
+  <SmartPart>SmartParts\Options\GroupTabOptionsPage.ascx</SmartPart>
+  <TargetWorkspace>TabControl</TargetWorkspace>
+  <ShowInMode />
+  <Properties />
+</SmartPartMapping>

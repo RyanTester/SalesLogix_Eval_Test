@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="668" MadCap:lastWidth="552" MadCap:conditions="Output.WebClient" class="" MadCap:tocPath="" MadCap:PathToHelpSystem="../../" MadCap:SearchType="Stem">
+    <!-- saved from url=(0014)about:internet -->
+    <head><title>Managing Duplicate Records</title>
+        <link href="../SALESLOGIX.CSS" rel="stylesheet" type="text/css" />
+        <script src="../SkinSupport/MadCapUtilities.js">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor357"></a>Managing Duplicate Records</h1>
+        <p>When importing leads, you can look for other leads or contacts that exist in the database. If a record exists in the database with the same information, you can avoid having duplicate records.</p>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;width: 98%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="98%">
+            <col style="width: 7.75%;" />
+            <col style="width: 92.25%;" />
+            <tr>
+                <td style="width: 7.75%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="7.75%">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note1.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;border-style: none;width: 20px;height: 31px;float: none;" width="20" height="31" border="0" />
+                    </p>
+                </td>
+                <td style="width: 92.25%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="92.25%">
+                    <p class="Tip-Note-Text" style="margin-bottom: 0;">Sage SalesLogix can only search for duplicate records that you have permission to view. A duplicate record that you are not able to access may still exist.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="Infinitive">To search for matching records</p>
+        <ol style="list-style-type: decimal;">
+            <li class="Topic-Text-Numbered" value="1">When <a href="leadimport.htm" target="_self">importing leads</a>, after <a href="leadimportmapfields.htm" target="_self">mapping fields</a>, click <span class="SLXBold">Next</span>.</li>
+            <li class="Topic-Text-Numbered" value="2">Select <span class="SLXBold">Check for duplicate leads</span>.</li>
+            <li class="Topic-Text-Numbered" value="3">Next to <span class="SLXBold">Type</span>, select which types of records to search.</li>
+            <li class="Topic-Text-Numbered" value="4">Under <span class="SLXBold">Match Filters</span>, select the filter check boxes that you want to apply.</li>
+            <p class="Topic-Text-Indent">The available options depend on the values you selected when <a href="leadimportmapfields.htm" target="_self">mapping fields</a>.</p>
+            <p>To perform an <a href="leadimportadvancedmatch.htm">Advanced Search</a> click <span class="SLXBold">Advanced Options</span>.</p>
+            <li class="Topic-Text-Numbered" value="5">To automatically merge duplicate records during the import, select <span class="SLXBold">Auto-merge duplicate records</span>.</li>
+            <li class="Topic-Text-Numbered" value="6">In the <span class="SLXBold">Conflict</span> box, select one of the following:</li>
+            <ul style="list-style-type: disc;">
+                <li class="Topic-Text-Bulleted-2" value="1"><span class="SLXBold">Existing record wins</span> - When records are merged, the existing record information is used.</li>
+                <li class="Topic-Text-Bulleted-2" value="2"><span class="SLXBold">Imported record wins</span> - When records are merged, the imported record information replaces the existing record information.</li>
+            </ul>
+            <table wrapperparagraphselector="P" style="margin-top: 14pt;width: 98%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="98%">
+                <col style="width: 7.75%;" />
+                <col style="width: 92.25%;" />
+                <tr>
+                    <td style="width: 7.75%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="7.75%">
+                        <p style="text-align: center;margin-bottom: 0;" align="center">
+                            <img src="../image/note1.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;border-style: none;width: 20px;height: 31px;float: none;" width="20" height="31" border="0" />
+                        </p>
+                    </td>
+                    <td style="width: 92.25%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="92.25%">
+                        <p class="Tip-Note-Text" style="margin-bottom: 0;">See the <a href="leadmergerules.htm">Rules for Automatically Merging Records During Import</a> topic for more information.</p>
+                    </td>
+                </tr>
+            </table>
+            <li class="Topic-Text-Numbered" value="7">Click <span class="SLXBold">Run the Test</span> to run the <a href="leaddupetest.htm">Find Duplicates Test</a> on the first 100 records in the import.</li>
+            <li class="Topic-Text-Numbered" value="8">If you want  to check for duplicate records within the import source file, select the <span class="SLXBold">Check for duplicates contained within the import source file</span> option. </li>
+            <table wrapperparagraphselector="P" style="margin-top: 14pt;width: 98%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="98%">
+                <col style="width: 7.75%;" />
+                <col style="width: 92.25%;" />
+                <tr>
+                    <td style="width: 7.75%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="7.75%">
+                        <p style="text-align: center;margin-bottom: 0;" align="center">
+                            <img src="../image/note1.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;border-style: none;width: 20px;height: 31px;float: none;" width="20" height="31" border="0" />
+                        </p>
+                    </td>
+                    <td style="width: 92.25%;padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top" width="92.25%">
+                        <p class="Tip-Note-Text" style="margin-bottom: 0;">Selecting this option may increase the time it takes to complete the import.</p>
+                    </td>
+                </tr>
+            </table>
+            <li class="Topic-Text-Numbered" value="9">Click <span class="SLXBold">Next</span> to go to the <a href="leadimportgroupaction.htm" target="_self">next step</a>.</li>
+        </ol>
+        <p class="Topic-Text-Indent">Duplicate records found and not merged display on the <a href="leadimporthistorydetailview.htm" target="_self">Lead Import History Detail</a> view <a href="leadimporthistorydupetab.htm" target="_self">Duplicates</a> tab after the import is complete. From there you can <a href="leadfinddupes.htm" target="_self">manage the duplicate records</a>.</p>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="leadoverview.htm">Leads Overview</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>
+            </p>
+            <p style="border-top-style: Groove;border-top-color: #c0c0c0;border-top-width: 1px;">&#160;</p>
+            <p><![CDATA[ ]]><a href="../General/feedback.htm" target="_blank">Tell us how we can make the Help better.</a></p>
+        </div>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

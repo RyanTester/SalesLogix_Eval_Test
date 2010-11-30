@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<WebModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="bafa046f-b3a7-498c-bccc-5a0f729219b3">
+  <InstanceId>da355f4f4a564ce8bb7b8c3ce1deccfd</InstanceId>
+  <ModuleTypeName>Sage.SalesLogix.Client.ImportHistory.Modules.ImportHistoryModule, Sage.SalesLogix.Client.ImportHistory.Modules</ModuleTypeName>
+  <RunInMode />
+  <AllowRoles />
+</WebModule>

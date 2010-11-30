@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<PortalService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="B950A13A-F345-4b3f-87CE-2B997DCD759A">
+  <InstanceId>338f42033883431598b9aeda35fd6bd2</InstanceId>
+  <ServiceType>Sage.Platform.WebPortal.Services.TransactionManagerService, Sage.Platform.WebPortal</ServiceType>
+  <RegisterAs>Sage.Platform.Application.Services.ITransactionManagerService, Sage.Platform.Application</RegisterAs>
+  <AddOnDemand>false</AddOnDemand>
+</PortalService>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="2f69f427-9cdc-4ee9-be2c-0f2d9580a3e3" lastModifiedUtc="2008-03-05T23:12:06.4325733Z" cardinality="M:1" parentEntityId="9b47425f-3b70-4f38-a4cf-574c64d46086" childEntityId="750a7f26-3604-467b-94fe-249370231df4">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="f7522921-5a98-4b77-9098-2763710dc341" lastModifiedUtc="2008-03-05T23:11:47.2939083Z" name="BillingContact" audited="false" displayCategory="Intermediate" isNullable="true" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="0ae88fde-53b2-491d-aa75-485350a62fb2" lastModifiedUtc="2008-03-05T23:11:52.7308515Z" name="Property2" audited="false" displayCategory="Intermediate" isNullable="true" include="false">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="be6906bd-9d73-4054-828e-c208588fba00" parentPropertyId="69057730-a965-4852-a47c-dddbce2a91e9" childPropertyId="67fe9234-a814-4d79-a813-01046c1ae19d" ordinal="0" />
+  </column>
+</relationship>

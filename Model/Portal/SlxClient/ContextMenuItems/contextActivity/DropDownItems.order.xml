@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="5a982853-8c7f-43af-8647-05db3c24893b">menuItemSchedulePhoneCall.contextmenu.xml</Item>
+  <Item Id="bef29053-73e6-4771-9fa0-3cbb00c4f6fc">menuItemScheduleMeeting.contextmenu.xml</Item>
+  <Item Id="d0ffcf47-fb19-4392-8886-bfaf4b3a8e0b">menuItemtScheduleToDo.contextmenu.xml</Item>
+  <Item Id="771c40fa-ceb5-4fb8-b8bd-8617d2066b2f">menuItemSchedulePersonalActivity.contextmenu.xml</Item>
+  <Item Id="00167c36-a253-45c5-abf4-391308a39882">menuItemScheduleEvent.contextmenu.xml</Item>
+  <Item Id="9150a48b-ae41-4565-a608-8781ae836aa3">aafbdfbbbfa.contextmenu.xml</Item>
+  <Item Id="421c546f-aa17-4b4b-9904-b6de2b1fae03">menuItemActivityReminders.contextmenu.xml</Item>
+</ModelItems>

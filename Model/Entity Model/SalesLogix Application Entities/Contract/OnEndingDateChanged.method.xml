@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="f7efc545-d8d4-41d1-a2ee-ee0b198e9c07" lastModifiedUtc="2008-01-16T22:50:11.1551098Z" name="OnEndingDateChanged" returnType="void" methodType="Rule" actionType="None" returnMode="None" isInstance="true">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter />
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="c8f9a64e-c817-4f8c-8ef3-dbe346c25492" lastModifiedUtc="2008-01-16T22:50:08.8113748Z" targetType="Sage.SalesLogix.Contract.Rules, Sage.SalesLogix.BusinessRules" targetMethod="OnEndingDateChanged" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

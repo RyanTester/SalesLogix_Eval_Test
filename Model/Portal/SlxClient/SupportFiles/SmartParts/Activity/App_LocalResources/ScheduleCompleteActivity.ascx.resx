@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActivityType.ListItemMeeting.Text" xml:space="preserve">
+    <value>Meeting</value>
+  </data>
+  <data name="ActivityType.ListItemPersonal.Text" xml:space="preserve">
+    <value>Personal</value>
+  </data>
+  <data name="ActivityType.ListItemPhoneCall.Text" xml:space="preserve">
+    <value>Phone Call</value>
+  </data>
+  <data name="ActivityType.ListItemToDo.Text" xml:space="preserve">
+    <value>To-Do</value>
+  </data>
+  <data name="btnContinue.Text" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="CompleteScheduledActivity.Text" xml:space="preserve">
+    <value>Complete a Scheduled Activity</value>
+  </data>
+  <data name="labelAccount.Text" xml:space="preserve">
+    <value>Account:</value>
+  </data>
+  <data name="labelContact.Text" xml:space="preserve">
+    <value>Contact:</value>
+  </data>
+  <data name="LabelOpportunity.Text" xml:space="preserve">
+    <value>Opportunity:</value>
+  </data>
+  <data name="LabelTicket.Text" xml:space="preserve">
+    <value>Ticket:</value>
+  </data>
+  <data name="NewUnscheduledActivity.Text" xml:space="preserve">
+    <value>Create a New Unscheduled Activity to Complete</value>
+  </data>
+  <data name="TemplateFieldComplete.HeaderText" xml:space="preserve">
+    <value>Complete</value>
+  </data>
+  <data name="TemplateFieldDateTime.HeaderText" xml:space="preserve">
+    <value>Date/Time</value>
+  </data>
+  <data name="TemplateFieldNotes.HeaderText" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="TemplateFieldType.HeaderText" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Account.AccountManager.PropertyHeader" xml:space="preserve">
+    <value>Acct Manager</value>
+  </data>
+  <data name="Account.AccountName.PropertyHeader" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="Account.Address.City.PropertyHeader" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="Account.Address.Country.PropertyHeader" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="Account.Address.PostalCode.PropertyHeader" xml:space="preserve">
+    <value>Postal</value>
+  </data>
+  <data name="Account.Address.State.PropertyHeader" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="Account.Industry.PropertyHeader" xml:space="preserve">
+    <value>Industry</value>
+  </data>
+  <data name="Account.MainPhone.PropertyHeader" xml:space="preserve">
+    <value>Main Phone</value>
+  </data>
+  <data name="Account.Owner.OwnerDescription.PropertyHeader" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="Account.Region.PropertyHeader" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="Account.Status.PropertyHeader" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Account.Type.PropertyHeader" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Contact.AccountName.PropertyHeader" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="Contact.Address.City.PropertyHeader" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="Contact.Address.PostalCode.PropertyHeader" xml:space="preserve">
+    <value>Postal</value>
+  </data>
+  <data name="Contact.Address.State.PropertyHeader" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="Contact.FirstName.PropertyHeader" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Contact.LastName.PropertyHeader" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Contact.Owner.OwnerDescription.PropertyHeader" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="Contact.Status.PropertyHeader" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Contact.Type.PropertyHeader" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Contact.WorkPhone.PropertyHeader" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="Opportunity.Account.AccountName.PropertyHeader" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="Opportunity.AccountManager.PropertyHeader" xml:space="preserve">
+    <value>Acct Manager</value>
+  </data>
+  <data name="Opportunity.Description.PropertyHeader" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Opportunity.Status.PropertyHeader" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Ticket.Account.AccountName.PropertyHeader" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="Ticket.Area.PropertyHeader" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="Ticket.Contact.FirstName.PropertyHeader" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Ticket.Contact.LastName.PropertyHeader" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Ticket.StatusCode.PropertyHeader" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Ticket.TicketNumber.PropertyHeader" xml:space="preserve">
+    <value>Ticket ID</value>
+  </data>
+  <data name="Company_lz.Text" xml:space="preserve">
+    <value>Company:</value>
+  </data>
+  <data name="Name_lz.Text" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="rbContact.Text" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="rbLead.Text" xml:space="preserve">
+    <value>Lead</value>
+  </data>
+  <data name="Account.SubType.PropertyHeader" xml:space="preserve">
+    <value>Sub-Type</value>
+  </data>
+  <data name="Contact.Email.PropertyHeader" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="Contact.NameLF.PropertyHeader" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Opportunity.Owner.OwnerDescription.PropertyHeader" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="Opportunity.Stage.PropertyHeader" xml:space="preserve">
+    <value>Stage</value>
+  </data>
+  <data name="Ticket.Contact.NameLF.PropertyHeader" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="Ticket.Contact.WorkPhone.PropertyHeader" xml:space="preserve">
+    <value>Work Phone</value>
+  </data>
+  <data name="Ticket.Urgency.Description.PropertyHeader" xml:space="preserve">
+    <value>Urgency</value>
+  </data>
+  <data name="Lead.Address.City.PropertyHeader" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="Lead.Address.PostalCode.PropertyHeader" xml:space="preserve">
+    <value>Postal Code</value>
+  </data>
+  <data name="Lead.Address.State.PropertyHeader" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="Lead.Company.PropertyHeader" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="Lead.FirstName.PropertyHeader" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Lead.LastName.PropertyHeader" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Lead.Owner.OwnerDescription.PropertyHeader" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="Lead.Status.PropertyHeader" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="TitleBarLabel.Text" xml:space="preserve">
+    <value>Complete an Activity</value>
+  </data>
+  <data name="CancelText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+</root>

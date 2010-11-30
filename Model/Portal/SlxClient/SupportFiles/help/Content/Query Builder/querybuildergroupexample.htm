@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="Gainey;decompilation;Admin;N;AccountID;USERINFO;AccountManagerID;UserID;USERPROFILE;t;OPPORTUNITYID;USER_ACTIVITY;CreateUser;CreateDate;ModifyUser;ModifyDate;Opportunity.Salespotential;Opportunity.Closeprobability;Opportunity.Status;Opportunity.Account.;Contact.Lastname;Contact.Firstname.;d.ddd...E+ddd;E;f;ddd.ddd...;g;n;d;ddd;acc_acc;con_con;opp_opp;conlname;Truevalue;FormatType;ftBoolean;FormatString;T;c;ShortDateFormat;LongTimeFormat;DateTime;ShortDayNames;dddd;LongDayNames;ddddd;dddddd;LongDateFormat;m;hh;mmm;Jan-Dec;ShortMonthNames;mmmm;LongMonthNames;yy;yyyy;nn;ss;ShortTimeFormat;tt;pm;ampm;TimeAMString;TimePMString;ftCurrency;USERID;SECCODE;F;PickList;ASC;Z;DESC;field(s;WebTicket;DataGrid;Bldr;Account.Address.Postalcode;Accountmangerid;Account.Accountmanagerid;Userid;Sens;Contact.Status;Contact.Account.Revenue;xxx;Capt;BindID;Contact.Address.City;Contact.Address.State;Table.Industry;Seccodeid;Createdate;Account.Createdate" MadCap:priority="1" MadCap:comment="8/26/03 KC 6.2 Made menu change per Sales Client Misc FSD, Sec 9 12/30/02 KC Conv. buttons to links (Multiple Comments)" MadCap:timeEstimate="0" MadCap:check_list="First Draft" MadCap:status="In Progress" MadCap:lastBlockDepth="6" MadCap:lastHeight="805" MadCap:lastWidth="594" MadCap:conditions="Output.WebClient" class="" MadCap:tocPath="" MadCap:PathToHelpSystem="../../" MadCap:SearchType="Stem">
+    <!-- saved from url=(0014)about:internet -->
+    <head><title>Example: Using Query Builder to Create a Group</title>
+        <link rel="StyleSheet" href="../SALESLOGIX.CSS" />
+        <script src="../SkinSupport/MadCapUtilities.js">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor411"></a>Example: Using the Query Builder to Create a Group</h1>
+        <p>The following example explains how to create a group of all primary contacts  who work in the Sales department of their companies.</p>
+        <ol>
+            <li class="Topic-Text-Numbered" value="1">Log on to Sage SalesLogix Web Client.  </li>
+            <li class="Topic-Text-Numbered" value="2">On the Navigation Bar, click <span class="SLXBold">Contacts</span>.  </li>
+            <li class="Topic-Text-Numbered" value="3">On the <span class="SLXBold">Groups</span> menu, click <span class="SLXBold">Add  Group</span>.  </li>
+            <li class="Topic-Text-Numbered" value="4">In Query Builder, complete the following on the <span class="SLXBold">Properties</span> tab:  </li>
+            <li class="Topic-Text-Lettered" value="1">In the <span class="SLXBold">Name</span> box, type <span class="SLXBold">Primary  Sales Contacts</span>.</li>
+            <li class="Topic-Text-Lettered" value="2">In the <span class="SLXBold">Description</span> box, type <span class="SLXBold">Primary contacts who work in Sales</span>. </li>
+            <li value="5" class="Topic-Text-Numbered">On the <span class="SLXBold">Conditions</span> tab, complete the following: </li>
+        </ol>
+        <ol style="list-style-type: lower-alpha;">
+            <li class="Topic-Text-Lettered" value="1">In the upper left side of the Query Builder, select <span class="SLXBold">CONTACT</span>.</li>
+            <li class="Topic-Text-Lettered" value="2">In the upper right side of the Query Builder, double-click <span class="SLXBold">Isprimary</span>.</li>
+        </ol>
+        <p class="Topic-Text-Indent2">The Assign Condition dialog box appears, with Isprimary  in the Field Name box, and String as the Field Type.</p>
+        <ol style="list-style-type: lower-alpha;" MadCap:continue="true">
+            <li class="Topic-Text-Lettered" value="3">In the Operator box, select <b>(=) equal to</b>.</li>
+            <li class="Topic-Text-Lettered" value="4">Next to the <b>Value is</b> box, click <b>Browse</b>, select <b>T</b> (for True), and then click <b>OK</b>.</li>
+        </ol>
+        <p class="Topic-Text-Indent2"> 
+Leave Case Sensitive Compare selected and do not select Use Value as a Literal.
+
+</p>
+        <ol style="list-style-type: lower-alpha;" MadCap:continue="true">
+            <li class="Topic-Text-Lettered" value="5">Click <b>OK</b>. </li>
+            <li class="Topic-Text-Lettered" value="6">In the upper right side of the Query Builder, double-click <b>Department</b>. 
+</li>
+        </ol>
+        <p class="Topic-Text-Indent2">The Assign Condition dialog box appears, with Department in the Field Name box, and String as the Field Type.</p>
+        <ol style="list-style-type: lower-alpha;" MadCap:continue="true">
+            <li class="Topic-Text-Lettered" value="7">In the <b>Operator</b> box, select <b>contains</b>. 
+</li>
+            <li class="Topic-Text-Lettered" value="8">Next to the <b>Value is</b> box, click <b>Browse</b>, select <b>Sales</b>, and click <b>OK</b>. 
+</li>
+            <li class="Topic-Text-Lettered" value="9">Clear the <b>Case Sensitive Compare</b> check box, and do not select <b>Use Value as a Literal</b>. </li>
+            <li class="Topic-Text-Lettered" value="10">Click <b>OK</b>. 
+</li>
+        </ol>
+        <ol>
+            <li value="6">Click the <span class="SLXBold">Layout</span> tab. The Layout tab shows which  fields will appear when the query is saved as a group. Complete the following:  </li>
+            <li class="Topic-Text-Lettered" value="1">On the right side of the Query Builder, select the <span class="SLXBold">Department</span> field and double-click to add it to the grid  below. </li>
+        </ol>
+        <ol style="list-style-type: lower-alpha;">
+            <li class="Topic-Text-Lettered" value="2">Use the scroll bar to scroll to the far right, and click <b>Department</b>.</li>
+            <li class="Topic-Text-Lettered" style="font-weight: normal;" value="3"><span style="font-weight: normal;">Click the </span><span class="SLXBold">Move Left</span><span style="font-weight: normal;"> button</span> <![CDATA[ ]]><span style="font-weight: normal;">repeatedly until <b>Department</b> appears between <b>Account</b> and <b>City</b>.<b></b></span></li>
+        </ol>
+        <ol>
+            <li value="7" class="Topic-Text-Numbered">Click the <span class="SLXBold">Sorting</span> tab. By default, the contacts  are sorted by last name in ascending (A-Z) order. If necessary, you can add  additional sorting criteria or change the order.  </li>
+            <li class="Topic-Text-Numbered" value="8">On the <span class="SLXBold">Defaults</span> tab, leave the options set as is.   </li>
+            <li class="Topic-Text-Numbered" value="9">Click <span class="SLXBold">OK</span>. </li>
+        </ol>
+        <p>The new Primary Sales Contacts group appears in the Contact Group list and  you can select it to display all contacts that meet the criteria you  defined.</p>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="querybuilderoverview.htm">Query Builder Overview</a>
+        </p>
+        <p><a href="openquerybuilder.htm">Opening the Query Builder</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>
+            </p>
+            <p style="border-top-style: Groove;border-top-color: #c0c0c0;border-top-width: 1px;">&#160;</p>
+            <p><![CDATA[ ]]><a href="../General/feedback.htm" target="_blank">Tell us how we can make the Help better.</a></p>
+        </div>
+        <p>&#160;</p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

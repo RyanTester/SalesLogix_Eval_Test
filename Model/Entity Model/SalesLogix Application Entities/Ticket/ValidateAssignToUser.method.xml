@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="893bff0a-c591-48c2-acf4-8e34a4eb8a36" lastModifiedUtc="2007-12-11T20:16:01.8213841Z" name="ValidateAssignToUser" returnType="String" methodType="Rule" actionType="None" returnMode="Object" isInstance="true">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter />
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="23b0a4d8-8fbe-4245-bdb9-d2eb5fc385ee" lastModifiedUtc="2007-12-11T20:15:59.4307897Z" targetType="Sage.SalesLogix.Ticket.Rules, Sage.SalesLogix.BusinessRules" targetMethod="ValidateAssignToUser" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

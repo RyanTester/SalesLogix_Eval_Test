@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="7e63dcfb-d8ac-48f4-8567-47b1471575b7">
+  <SmartPartId>SpeedSearch</SmartPartId>
+  <SmartPart>SmartParts\SpeedSearch\SpeedSearch.ascx</SmartPart>
+  <TargetWorkspace>MainContent</TargetWorkspace>
+  <ShowInMode />
+  <Properties />
+</SmartPartMapping>

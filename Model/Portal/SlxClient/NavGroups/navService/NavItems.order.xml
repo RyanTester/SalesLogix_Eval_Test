@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="5931c15c-fe42-4bcd-8302-6f54dbb0b355">navWelcome.navitem.xml</Item>
+  <Item Id="639123cb-738d-406a-940e-62d7ee0da12d">navEntitiesContact.navitem.xml</Item>
+  <Item Id="247b72c8-6409-4503-9be1-ac22473c412e">navEntitiesTicket.navitem.xml</Item>
+  <Item Id="3308c294-197e-420d-a542-be5f4dd92984">navEntitiesContract.navitem.xml</Item>
+  <Item Id="34cf742c-fdda-4d79-b96b-d600477cb0d8">navEntitiesReturn.navitem.xml</Item>
+  <Item Id="44396c26-7425-4be8-add7-9ec3b67eda89">navActivityManager.navitem.xml</Item>
+  <Item Id="035938c8-1c16-44ba-8e1b-f154cba8cf67">navCalendar.navitem.xml</Item>
+  <Item Id="e84a3733-ff30-49ca-a68f-f86833d380f1">navEntitiesWhatsNew.navitem.xml</Item>
+  <Item Id="30ffeb3e-3954-4211-acad-c44f8e3bee7a">navReports.navitem.xml</Item>
+</ModelItems>

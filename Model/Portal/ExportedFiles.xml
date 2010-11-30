@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\PageTemplates\" />
+  <exportedFile url="\Portal\PortalTemplates\" />
+  <exportedFile url="\Portal\ProcessHost\" />
+  <exportedFile url="\Portal\sdata\" />
+  <exportedFile url="\Portal\SlxClient\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\" />
+  <exportedFile url="\Portal\SlxIntellisync\" />
+  <exportedFile url="\Portal\SlxLeadCapture\" />
+  <exportedFile url="\Portal\slxwebrpt\" />
+  <exportedFile url="\Portal\Templates\" />
+</exportedFiles>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmOtherMethod" id="dcbf8cfc-9db3-457b-9836-446d23c6b21e" lastModifiedUtc="2008-07-07T17:00:31.6562512Z" name="LoadAction1" methodType="Other" actionType="None" returnMode="None" isInstance="false">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmOtherMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="3c25f707-4f30-42c8-b5c0-b697aeec37a8" paramName="form" sequence="0" paramType="IOpportunityCompetitors" />
+    <OrmEntityMethodParam id="2c3b9c3f-ef6d-470e-9251-3c475d675129" paramName="args" sequence="0" paramType="EventArgs" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget xsi:type="OrmMethodTargetSnippet" id="e6aeb541-545b-4b7b-9e2f-4e43eae449d1" lastModifiedUtc="2009-08-24T21:22:03.3901823Z" targetType="Sage.BusinessRules.CodeSnippets.OpportunityCompetitorsEventHandlers, Sage.SnippetLibrary.CSharp" targetMethod="LoadAction1Step1" active="true" codeSnippetId="b1d5a2cb-3338-4d6a-a5e9-861db9fe7b9d">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

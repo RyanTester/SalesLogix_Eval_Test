@@ -1,0 +1,33 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\ChildPages\Campaign\SmartParts\AddCampaignLeadSources.smartpart.xml" timeStamp="2009-11-19T20:10:58.7170" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Campaign\SmartParts\AddCampaignLeadSources.smartpart.xml.resx" timeStamp="2009-11-19T20:10:58.7170" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Campaign\SmartParts\AddEditStage.smartpart.xml" timeStamp="2009-11-19T20:10:58.7170" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Campaign\SmartParts\AddEditStage.smartpart.xml.resx" timeStamp="2009-11-19T20:10:58.7300" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Campaign\SmartParts\AddEditTargetResponse.smartpart.xml" timeStamp="2009-11-19T20:10:58.7000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Campaign\SmartParts\AddEditTargetResponse.smartpart.xml.resx" timeStamp="2009-11-19T20:10:58.7170" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Campaign\SmartParts\AddEditTask.smartpart.xml" timeStamp="2009-11-19T20:10:58.7470" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Campaign\SmartParts\AddEditTask.smartpart.xml.resx" timeStamp="2009-11-19T20:10:58.7630" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Campaign\SmartParts\CampaignBudgetResults.smartpart.xml" timeStamp="2009-11-19T20:10:58.7470" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Campaign\SmartParts\CampaignBudgetResults.smartpart.xml.resx" timeStamp="2009-11-19T20:10:58.7630" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Campaign\SmartParts\CampaignDetails.smartpart.xml" timeStamp="2009-11-19T20:10:58.7300" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Campaign\SmartParts\CampaignDetails.smartpart.xml.resx" timeStamp="2009-11-19T20:10:58.7630" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Campaign\SmartParts\CampaignOpportunities.smartpart.xml" timeStamp="2009-11-19T20:10:58.7300" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Campaign\SmartParts\CampaignOpportunities.smartpart.xml.resx" timeStamp="2009-11-19T20:10:58.7630" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Campaign\SmartParts\CampaignProducts.smartpart.xml" timeStamp="2009-11-19T20:10:58.7470" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Campaign\SmartParts\CampaignProducts.smartpart.xml.resx" timeStamp="2009-11-19T20:10:58.7930" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Campaign\SmartParts\CampaignTargetCreateGroup.smartpart.xml" timeStamp="2009-11-19T20:10:58.7770" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Campaign\SmartParts\CampaignTargetCreateGroup.smartpart.xml.resx" timeStamp="2009-11-19T20:10:58.7930" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Campaign\SmartParts\CampaignTargets.smartpart.xml" timeStamp="2009-11-19T20:10:58.7770" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Campaign\SmartParts\CampaignTargets.smartpart.xml.resx" timeStamp="2009-11-19T20:10:58.7930" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Campaign\SmartParts\LiveGroupViewer.smartpart.xml" timeStamp="2009-11-19T20:10:58.7770" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Campaign\SmartParts\LiveGroupViewer.smartpart.xml.resx" timeStamp="2009-11-19T20:10:58.7930" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Campaign\SmartParts\ManageTargets.smartpart.xml" timeStamp="2009-11-19T20:10:58.7770" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Campaign\SmartParts\ManageTargets.smartpart.xml.resx" timeStamp="2009-11-19T20:10:58.8100" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Campaign\SmartParts\StagesAndTasks.smartpart.xml" timeStamp="2009-11-19T20:10:58.7930" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Campaign\SmartParts\StagesAndTasks.smartpart.xml.resx" timeStamp="2009-11-19T20:10:58.8230" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Campaign\SmartParts\TargetResponses.smartpart.xml" timeStamp="2009-11-19T20:10:58.7930" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Campaign\SmartParts\TargetResponses.smartpart.xml.resx" timeStamp="2009-11-19T20:10:58.8400" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Campaign\SmartParts\UpdateTargets.smartpart.xml" timeStamp="2009-11-19T20:10:58.8100" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Campaign\SmartParts\UpdateTargets.smartpart.xml.resx" timeStamp="2009-11-19T20:10:58.8400" />
+</exportedFiles>

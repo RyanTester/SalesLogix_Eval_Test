@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<PortalService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="ecf787b2-1ea0-4de4-9f9a-09128dc4de46">
+  <InstanceId>f8a21ee8621e43bea48480204a2ee58e</InstanceId>
+  <ServiceType>Sage.Platform.Process.ProcessEnumeratorService, Sage.Platform.Process</ServiceType>
+  <RegisterAs>Sage.Platform.Process.Interfaces.IProcessEnumeratorService, Sage.Platform.Process</RegisterAs>
+  <Properties />
+</PortalService>

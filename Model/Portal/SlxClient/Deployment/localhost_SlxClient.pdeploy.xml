@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<DeploymentTarget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="b80f3a8a-cf17-468d-8b31-358d515d1cc4">
+  <VirtualDirectoryName>SlxClient</VirtualDirectoryName>
+  <ServerName>localhost</ServerName>
+  <DeploymentPath>c:\inetpub\wwwroot\SlxClient</DeploymentPath>
+  <Precompile>true</Precompile>
+  <PrecompileFlags>OverwriteTarget Clean</PrecompileFlags>
+  <UseInPlaceCompile>false</UseInPlaceCompile>
+  <StrongNameIsFile>false</StrongNameIsFile>
+  <IsActive>true</IsActive>
+</DeploymentTarget>

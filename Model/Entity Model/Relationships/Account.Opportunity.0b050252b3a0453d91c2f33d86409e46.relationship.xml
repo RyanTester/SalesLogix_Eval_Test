@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="0b050252-b3a0-453d-91c2-f33d86409e46" lastModifiedUtc="2007-12-21T21:03:01.9275856Z" cardinality="1:M" parentEntityId="ebfd715e-2b2f-4e5e-8c6d-cfc0d9b4ae52" childEntityId="3172551b-f476-45ea-98de-2bb04ddba687" cascadeOption="SaveUpdateDelete">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="73b8986b-585c-4cc4-8f5c-1559903f2742" lastModifiedUtc="0001-01-01T00:00:00" name="Opportunities" audited="false" displayCategory="Intermediate" isNullable="true" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="90d10f2c-1178-40ae-834f-2db5c634f89c" lastModifiedUtc="2007-12-21T21:03:01.9275856Z" name="Account" audited="false" displayCategory="Intermediate" isNullable="false" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="93c39940-fbf6-4757-8867-3a7024820bf8" parentPropertyId="b24f58be-dd73-441a-a479-00e5f517b9e7" childPropertyId="e54284fb-4e7c-4e3f-89cf-97f65a96ae4a" ordinal="0" />
+  </column>
+</relationship>

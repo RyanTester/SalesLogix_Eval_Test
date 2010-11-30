@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<NavigationItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="c2c133d8-4a75-4607-95ff-40787142c855">
+  <ItemId>navEntitiesSalesOrders</ItemId>
+  <NavUrl>SalesOrder.aspx</NavUrl>
+  <LargeImageUrl>[Localization!Global_Images:Sales_Order_32x32]</LargeImageUrl>
+  <SmallImageUrl>[Localization!Global_Images:Sales_Order_24x24]</SmallImageUrl>
+  <ContextMenuId>contextSalesOrder</ContextMenuId>
+  <Target />
+</NavigationItem>

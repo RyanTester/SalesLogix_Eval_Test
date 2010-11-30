@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="bb214e7e-299f-4a3c-a0cc-573f7ff6ceca" lastModifiedUtc="2007-10-25T16:49:17.6935281Z" name="AddHistoryAndQualificationRecords" methodType="Rule" actionType="None" returnMode="None">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="bd64adfd-4336-40f1-8aa6-0a8a37251240" paramName="contact" sequence="0" paramType="IContact" />
+    <OrmEntityMethodParam id="6a6bc486-4150-4a3b-9c9b-32a6450b6a93" paramName="account" sequence="0" paramType="IAccount" />
+    <OrmEntityMethodParam id="3caa2bf4-7898-4de8-af8d-8e287c84bf98" paramName="opportunity" sequence="0" paramType="IOpportunity" />
+    <OrmEntityMethodParam id="fb297fa9-0588-4511-93bb-1a4fee388aae" paramName="isMerge" sequence="0" paramType="Boolean" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="5774ece0-bbdb-442c-b56a-415cb98e7a7a" lastModifiedUtc="2008-06-07T22:59:57.1324104Z" targetType="Sage.SalesLogix.Lead.Rules, Sage.SalesLogix.BusinessRules" targetMethod="AddHistoryAndQualificationRecords" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

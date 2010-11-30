@@ -1,0 +1,7 @@
+#if(${qfcontrol.Image} != "") 
+<asp:Image runat="server" ID="${qfcontrol.ControlId}" 
+#if($qfcontrol.ToolTip != "") AlternateText="<%$ resources: ${qfcontrol.ControlId}.ToolTip %>" #else AlternateText="" #end
+#if(!$qfcontrol.Visible)Visible="false" #end
+#if($qfcontrol.StyleScheme != "") CssClass="${qfcontrol.StyleScheme}" #end
+ImageUrl="$generator.getImageResourceURL( ${qfcontrol.Image} )" />
+#end

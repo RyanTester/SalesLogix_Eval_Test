@@ -1,0 +1,9 @@
+﻿<?xml version="1.0"?>
+<entityFilter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmRangeEntityFilter" id="E6C3594B-3F35-4dbc-A9C3-195E040EA7D1" lastModifiedUtc="2009-01-07T22:58:21.4655965Z" filterName="Type" propertyName="LeadId" characters="0">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRangeEntityFilter" />
+  </ExtendedPropertiesCollection>
+  <ranges id="690f45cd-b678-4ca4-ba97-d3886915e91b" rangeName="Contact" lower="Contact" upper="Contact" />
+  <ranges id="bd885209-e399-4e6a-b9d9-059f05c29928" rangeName="Lead" lower="Lead" upper="Lead" />
+</entityFilter>

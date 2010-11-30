@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="3686f2be-448e-4aa7-be9a-1617c1a51963">
+  <ItemId>menuItemNewOpportunity</ItemId>
+  <NavUrl>InsertOpportunity.aspx?modeid=Insert</NavUrl>
+  <LargeImageUrl />
+  <SmallImageUrl />
+  <ContextMenuId />
+  <Target />
+</MenuDropDownItem>

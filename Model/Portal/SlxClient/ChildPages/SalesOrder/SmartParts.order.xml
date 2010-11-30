@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="dd07b656-ebf0-46d0-8318-494b8610a055">SalesOrderDetails.smartpart.xml</Item>
+  <Item Id="7dcdad23-61a8-430a-aba2-71b12b4cd916">LiveGroupViewer.smartpart.xml</Item>
+  <Item Id="66968674-3fca-4795-acf9-9d3e5168d479">EditSalesOrderItem.smartpart.xml</Item>
+  <Item Id="6bfec862-2e82-4958-b0c8-075756ee2fca">SalesOrderItems.smartpart.xml</Item>
+  <Item Id="0e8b6b4c-0faa-4363-ac96-4503aade506e">BillToShipTo.smartpart.xml</Item>
+  <Item Id="29496ca7-8482-4eef-a2d0-e7615f2203a6">AddSalesOrderProduct.smartpart.xml</Item>
+  <Item Id="e8aeca93-cb18-45ed-968d-3415dec88d87">AttachmentList.smartpart.xml</Item>
+  <Item Id="9215bde9-2ae0-4c29-bef6-082b79dc58ff">EditSalesOrderDetail.smartpart.xml</Item>
+</ModelItems>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="8c430206-0509-442a-bcc5-efe655353ffe" lastModifiedUtc="2009-08-24T21:13:09.5788065Z" name="SetOppCompetitorDefaults" methodType="Rule" actionType="None" returnMode="None">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="add28160-0c57-4fba-b0c8-42749282c49c" paramName="competitor" sequence="0" paramType="ICompetitor">
+      <description>The competitor used to default the opportunity competitor data.</description>
+    </OrmEntityMethodParam>
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="e01f1c02-a8e7-43ee-a1da-53a95e730cbf" lastModifiedUtc="2009-08-24T21:12:55.1083596Z" targetType="Sage.SalesLogix.OpportunityCompetitor.Rules, Sage.SalesLogix.BusinessRules" targetMethod="SetOppCompetitorDefaults" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<entityFilter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmRangeEntityFilter" id="f12bd64b-db23-49e7-8ecd-abc1e40f7951" lastModifiedUtc="2008-11-06T00:56:57.2808421Z" filterName="EndDate" propertyName="EndDate" characters="1">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRangeEntityFilter" />
+  </ExtendedPropertiesCollection>
+  <ranges id="f8b4318a-3df3-4548-93ac-b9587acfe1a2" rangeName="SlxMonthly" />
+</entityFilter>

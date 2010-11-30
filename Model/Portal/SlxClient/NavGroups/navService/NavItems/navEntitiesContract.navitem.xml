@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<NavigationItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="3308c294-197e-420d-a542-be5f4dd92984">
+  <ItemId>navEntitiesContract</ItemId>
+  <NavUrl>Contract.aspx</NavUrl>
+  <LargeImageUrl>[Localization!Global_Images:contract_navbar_32x32]</LargeImageUrl>
+  <SmallImageUrl>[Localization!Global_Images:contract_detail_24x24]</SmallImageUrl>
+  <ContextMenuId>contextContract</ContextMenuId>
+  <Target />
+</NavigationItem>

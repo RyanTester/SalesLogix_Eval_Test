@@ -1,0 +1,79 @@
+<%@ Master Language="C#" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<script runat="server">
+public void Page_Load(object sender, EventArgs e)
+{
+    //headerDate.Text = String.Format("{0}, {1}", DateTime.Now.DayOfWeek.ToString(), DateTime.Now.ToShortDateString());
+    if (!Page.IsPostBack)
+    {
+        Page.ClientScript.RegisterClientScriptInclude("general", "jscript/general.js");
+        Page.ClientScript.RegisterClientScriptInclude("YAHOO_yahoo", "jscript/YUI/yahoo.js");
+        Page.ClientScript.RegisterClientScriptInclude("YAHOO_event", "jscript/YUI/event.js");
+        Page.ClientScript.RegisterClientScriptInclude("timezone", "jscript/timezone.js");
+    } 
+    else
+    {
+        if (Request.Params["tz_info"] != null)
+        {
+            Sage.Platform.TimeZones tzs = new Sage.Platform.TimeZones();
+            string[] tzinfo = Request.Params["tz_info"].Split(',');
+            if (tzinfo.Length == 11)
+            {
+                Sage.Platform.TimeZone tz = tzs.FindTimeZone(tzinfo[0], tzinfo[1], tzinfo[2], tzinfo[3], tzinfo[4], tzinfo[5], tzinfo[6], tzinfo[7], tzinfo[8], tzinfo[9], tzinfo[10]);
+                Sage.Platform.Application.IContextService context = Sage.Platform.Application.ApplicationContext.Current.Services.Get<Sage.Platform.Application.IContextService>(true);
+                context.SetContext("TimeZone", tz);
+            }            
+        }
+    }
+	Page.Title = GetLocalResourceObject("LoginPageTitle").ToString();
+}
+
+</script>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head2" runat="server">
+	<title>Sage SalesLogix</title>
+    
+	<link type="text/css" href="../css/SlxBase.css" rel="stylesheet" />
+	<style type="text/css">
+        .LoginArea 
+		{ 
+			/* width : 100%; */
+			padding-top: 6.0em;
+			padding-left: 10em; 
+		}
+        
+        body {
+			background-color : white;
+        }
+
+        DIV#CenterHead 
+        {
+			padding-left : 25em;
+			background : url(images/Lozenge.gif) no-repeat top left;
+			height : 48px;
+		}
+		
+		DIV.footerText 
+		{
+			padding-top : 5em;
+			padding-left : 8em;
+			color : #333333;
+		}
+ 
+    </style>
+
+</head>
+<body>
+	<form id="Form1" runat="server" method="post" action="javascript:void(0);" >
+		<div class="infobar"> &nbsp;
+		</div> 
+		<div class="topnav">
+		</div>
+		<div class="LoginArea">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolderArea" runat="server"></asp:ContentPlaceHolder>
+        </div>
+	</form>
+</body>
+</html>

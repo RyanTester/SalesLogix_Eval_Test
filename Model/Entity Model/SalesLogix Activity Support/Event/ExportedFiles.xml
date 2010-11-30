@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\Event\EndDate.filter.xml" timeStamp="2009-11-19T20:10:49.7770" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\Event\Event.EVENT.entity.xml" timeStamp="2009-11-19T20:10:49.8100" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\Event\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:49.7470" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\Event\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:49.8100" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\Event\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:49.8230" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\Event\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:49.7770" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\Event\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:49.7930" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\Event\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:49.7930" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\Event\OnCreate.method.xml" timeStamp="2009-11-19T20:10:49.7930" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\Event\StartDate.filter.xml" timeStamp="2009-11-19T20:10:49.8570" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\Event\TimeFrame.filter.xml" timeStamp="2009-11-19T20:10:49.8870" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\Event\Type.filter.xml" timeStamp="2009-11-19T20:10:49.8570" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\Event\User.filter.xml" timeStamp="2009-11-19T20:10:49.8100" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\Event\QuickForms\" />
+</exportedFiles>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\AccountSummary\AccountSummary.Account.ACCOUNTSUMMARY.entity.xml" timeStamp="2009-11-19T20:10:50.6500" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\AccountSummary\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:50.6370" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\AccountSummary\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:50.6370" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\AccountSummary\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:50.7130" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\AccountSummary\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:50.6370" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\AccountSummary\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:50.6500" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\AccountSummary\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:50.6500" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\AccountSummary\OnCreate.method.xml" timeStamp="2009-11-19T20:10:50.6670" />
+</exportedFiles>

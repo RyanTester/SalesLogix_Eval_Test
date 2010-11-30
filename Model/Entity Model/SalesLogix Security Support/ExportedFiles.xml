@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Security Support\SalesLogix Security Support.T.package.xml" timeStamp="2009-11-19T20:10:56.9530" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\Owner\" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\OwnerRights\" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\OwnerSecurityProfile\" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\Role\" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\User\" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\UserInfo\" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\UserProfile\" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\UserRole\" />
+</exportedFiles>

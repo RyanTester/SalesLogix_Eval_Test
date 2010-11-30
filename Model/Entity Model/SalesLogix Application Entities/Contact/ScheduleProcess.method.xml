@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="279e9088-ce9c-4e7b-97d5-e70ed6dfdad6" name="ScheduleProcess" returnType="void" methodType="Rule" actionType="None" returnMode="Object" isInstance="true">
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam paramName="pluginId" sequence="0" paramType="string" />
+    <OrmEntityMethodParam paramName="family" sequence="0" paramType="string" />
+    <OrmEntityMethodParam paramName="name" sequence="0" paramType="string" />
+    <OrmEntityMethodParam paramName="owner" sequence="0" paramType="IUser" />
+  </parameter>
+  <methodTargets>
+    <methodTarget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="ccec45a3-b4dd-4f11-ae9c-b98d9e70406c" targetType="Sage.SalesLogix.Contact.Rules, Sage.SalesLogix.BusinessRules" sequence="0" targetMethod="ScheduleProcess" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+</method>

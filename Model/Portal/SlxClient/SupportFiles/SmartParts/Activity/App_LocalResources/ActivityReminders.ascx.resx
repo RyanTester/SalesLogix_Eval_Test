@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Reminders_Button_Complete.Text" xml:space="preserve">
+    <value>Complete</value>
+  </data>
+  <data name="Reminders_Button_Dismiss.Text" xml:space="preserve">
+    <value>Dismiss</value>
+  </data>
+  <data name="Reminders_Button_Reschedule.Text" xml:space="preserve">
+    <value>Reschedule...</value>
+  </data>
+  <data name="btnSnooze.Text" xml:space="preserve">
+    <value>Snooze</value>
+  </data>
+  <data name="btnSnoozeAll.Text" xml:space="preserve">
+    <value>Snooze All</value>
+  </data>
+  <data name="Reminders_Ckbox_PastDue.Text" xml:space="preserve">
+    <value>Display All Past Due</value>
+  </data>
+  <data name="Reminders_Grid_Header_Account.HeaderText" xml:space="preserve">
+    <value>Account/Company</value>
+  </data>
+  <data name="Reminders_Grid_Header_ActivityType.HeaderText" xml:space="preserve">
+    <value>Activity Type</value>
+  </data>
+  <data name="Reminders_Grid_Header_Name.HeaderText" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Reminders_Grid_Header_Select.HeaderText" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="Reminders_Grid_Header_Start.HeaderText" xml:space="preserve">
+    <value>Start Time</value>
+  </data>
+  <data name="Reminders_Grid_Header_Type.HeaderText" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Reminders_HLink_Regarding.Text" xml:space="preserve">
+    <value>Regarding</value>
+  </data>
+  <data name="Reminders_Href_ShowCal.Text" xml:space="preserve">
+    <value>Show Calendar</value>
+  </data>
+  <data name="Reminders_Href_ShowConf.Text" xml:space="preserve">
+    <value>Show Confirmations</value>
+  </data>
+  <data name="Reminders_Href_UnConfirmed" xml:space="preserve">
+    <value>Unconfirmed</value>
+  </data>
+  <data name="lblAccount.Text" xml:space="preserve">
+    <value>Account:</value>
+  </data>
+  <data name="lblContact.Text" xml:space="preserve">
+    <value>Contact:</value>
+  </data>
+  <data name="Reminders_Label_Notes.Text" xml:space="preserve">
+    <value>Notes:</value>
+  </data>
+  <data name="Reminders_Label_SnoozeBy.Text" xml:space="preserve">
+    <value>Snooze by:</value>
+  </data>
+  <data name="Reminders_Label_StartDate.Text" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="Reminders_ListItem_120.Text" xml:space="preserve">
+    <value>2 hours</value>
+  </data>
+  <data name="Reminders_ListItem_1440.Text" xml:space="preserve">
+    <value>1 day</value>
+  </data>
+  <data name="Reminders_ListItem_15.Text" xml:space="preserve">
+    <value>15 min</value>
+  </data>
+  <data name="Reminders_ListItem_2880.Text" xml:space="preserve">
+    <value>2 days</value>
+  </data>
+  <data name="Reminders_ListItem_30.Text" xml:space="preserve">
+    <value>30 min</value>
+  </data>
+  <data name="Reminders_ListItem_5.Text" xml:space="preserve">
+    <value>5 min</value>
+  </data>
+  <data name="Reminders_ListItem_60.Text" xml:space="preserve">
+    <value>1 hour</value>
+  </data>
+  <data name="grdActivityReminders.EmptyTableRowText" xml:space="preserve">
+    <value>No records match the selection criteria.</value>
+  </data>
+  <data name="lblTimeless.Text" xml:space="preserve">
+    <value>(Timeless)</value>
+  </data>
+  <data name="Reminders_Button_Complete.ToolTip" xml:space="preserve">
+    <value>Complete</value>
+  </data>
+  <data name="Reminders_Button_Reschedule.ToolTip" xml:space="preserve">
+    <value>Reschedule...</value>
+  </data>
+  <data name="chkbxSelectAll.Text" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="DeleteActivity_ConfirmationMessage" xml:space="preserve">
+    <value>Are you sure you want to delete the selected activities?</value>
+  </data>
+  <data name="cmdDelete_Button.ToolTip" xml:space="preserve">
+    <value>Delete Selected Activities</value>
+  </data>
+  <data name="cmdCompleteActivity.ToolTip" xml:space="preserve">
+    <value>Complete Selected Activities</value>
+  </data>
+  <data name="cmdRescheduleActivity.ToolTip" xml:space="preserve">
+    <value>Reschedule Selected Activities</value>
+  </data>
+  <data name="btnHideDetail.Caption" xml:space="preserve">
+    <value>Hide Detail</value>
+  </data>
+  <data name="btnShowDetail.Caption" xml:space="preserve">
+    <value>Show Detail</value>
+  </data>
+  <data name="lblCompany.Text" xml:space="preserve">
+    <value>Company:</value>
+  </data>
+  <data name="lblDuration.Text" xml:space="preserve">
+    <value>Duration:</value>
+  </data>
+  <data name="lblLead.Text" xml:space="preserve">
+    <value>Lead:</value>
+  </data>
+  <data name="lblLeader.Text" xml:space="preserve">
+    <value>Leader:</value>
+  </data>
+  <data name="lblMeeting.Text" xml:space="preserve">
+    <value>Date/Time:</value>
+  </data>
+  <data name="lblNoActivity.Text" xml:space="preserve">
+    <value>No Activity</value>
+  </data>
+  <data name="lblOpportunity.Text" xml:space="preserve">
+    <value>Opportunity:</value>
+  </data>
+  <data name="lblPriority.Text" xml:space="preserve">
+    <value>Priority:</value>
+  </data>
+  <data name="lblTicket.Text" xml:space="preserve">
+    <value>Ticket:</value>
+  </data>
+  <data name="lnkAccept.Text" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="lnkAccept.ToolTip" xml:space="preserve">
+    <value>Accept Activity</value>
+  </data>
+  <data name="lnkDecline.Text" xml:space="preserve">
+    <value>Decline</value>
+  </data>
+  <data name="lnkDecline.ToolTip" xml:space="preserve">
+    <value>Decline Activity</value>
+  </data>
+  <data name="lnkDeleteConfirmation.Text" xml:space="preserve">
+    <value>Delete Confirmation</value>
+  </data>
+  <data name="lnkDeleteConfirmation.ToolTip" xml:space="preserve">
+    <value>Delete Activity Confirmation</value>
+  </data>
+  <data name="ReminderType_Alarm" xml:space="preserve">
+    <value>Alarm</value>
+  </data>
+  <data name="ReminderType_Confirm" xml:space="preserve">
+    <value>Unconfirmed</value>
+  </data>
+  <data name="Reminders_Grid_Header_ActivityReminder.HeaderText" xml:space="preserve">
+    <value>Reminder Type</value>
+  </data>
+  <data name="lblDuration_Hours.Text" xml:space="preserve">
+    <value>{0} hours</value>
+  </data>
+  <data name="lblDuration_Minutes.Text" xml:space="preserve">
+    <value>{0} minutes</value>
+  </data>
+  <data name="Reminders_Grid_Header_Regarding.HeaderText" xml:space="preserve">
+    <value>Regarding</value>
+  </data>
+  <data name="lblDuration_Hour.Text" xml:space="preserve">
+    <value>{0} hour</value>
+  </data>
+  <data name="btnSnooze.ToolTip" xml:space="preserve">
+    <value>Snooze Selected Activities</value>
+  </data>
+  <data name="btnSnoozeAll.ToolTip" xml:space="preserve">
+    <value>Snooze All Activities</value>
+  </data>
+  <data name="ReminderType_PastDue" xml:space="preserve">
+    <value>Past Due</value>
+  </data>
+  <data name="Error_QuickComplete" xml:space="preserve">
+    <value>The remaining selected activities were not completed due to calendar access permissions.</value>
+  </data>
+  <data name="ApplyToSelected" xml:space="preserve">
+    <value>Note (apply to all selected activities)</value>
+  </data>
+  <data name="AsScheduled" xml:space="preserve">
+    <value>As Scheduled</value>
+  </data>
+  <data name="CompleteAllSelected" xml:space="preserve">
+    <value>Complete all selected:</value>
+  </data>
+  <data name="ConfirmedActivitiesOnly" xml:space="preserve">
+    <value>This action can only be performed on confirmed activities.&lt;br/&gt;Unconfirmed activities will be ignored.</value>
+  </data>
+  <data name="Individually" xml:space="preserve">
+    <value>Individually</value>
+  </data>
+  <data name="Now" xml:space="preserve">
+    <value>Now</value>
+  </data>
+  <data name="QuickComplete" xml:space="preserve">
+    <value>Quick Complete</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="Result" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="AlarmOnlyAction" xml:space="preserve">
+    <value>This action can only be performed on Alarm reminders.&lt;br/&gt;Past Due and Unconfirmed reminders will be ignored.</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="OptOutMessage" xml:space="preserve">
+    <value>Please, don't show this message again.</value>
+  </data>
+</root>

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<WebModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="6d642543-9756-4472-ae28-05bd7f979320">
+  <InstanceId>9ceb1b95b11d4f5eb7667251bccb89d7</InstanceId>
+  <ModuleTypeName>Sage.SalesLogix.Web.UI.Activity.ActivityModule, Sage.SalesLogix.Web.UI.Activity</ModuleTypeName>
+  <RunInMode />
+</WebModule>

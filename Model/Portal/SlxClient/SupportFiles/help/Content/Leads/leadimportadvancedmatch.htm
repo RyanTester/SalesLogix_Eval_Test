@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Output.WebClient" MadCap:lastBlockDepth="6" MadCap:lastHeight="771" MadCap:lastWidth="521" class="" MadCap:tocPath="" MadCap:PathToHelpSystem="../../" MadCap:SearchType="Stem">
+    <!-- saved from url=(0014)about:internet -->
+    <head><title>Using Advanced Match Options</title>
+        <link href="../SALESLOGIX.CSS" rel="stylesheet" type="text/css" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" type="text/css" />
+        <script src="../SkinSupport/MadCapUtilities.js">
+        </script>
+        <script src="../SkinSupport/MadCapEffects.js">
+        </script>
+        <script src="../SkinSupport/MadCapEffectsMenu.js">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor356"></a>Using Advanced Match Options</h1>
+        <p>Use advanced match options to define how potential matches are found.</p>
+        <p class="Infinitive">To set advanced options</p>
+        <ol style="list-style-type: decimal;">
+            <li class="Topic-Text-Numbered" value="1">Use the <span class="SLXBold">Duplicates Definition by Score</span> boxes to determine the type of match. This option is only available from the Manage Duplicates step when importing leads.</li>
+        </ol>
+        <ol style="list-style-type: lower-alpha;">
+            <li class="Topic-Text-Lettered" value="1">In the <span class="SLXBold">Duplicate</span> box, enter the minimum percentage that will determine if a word is a duplicate.</li>
+            <li class="Topic-Text-Lettered" value="2">In the <span class="SLXBold">Possible Duplicate</span> box, enter the minimum percentage that determines that a word is a possible duplicate.</li>
+        </ol>
+        <ol style="list-style-type: decimal;">
+            <li value="2" class="Topic-Text-Numbered">Select <span class="SLXBold">Use Stemming</span> to include alternate forms of a word.</li>
+            <li class="Topic-Text-Numbered" value="3">Select <span class="SLXBold">Use Phonic</span> search to include similar sounding words.</li>
+            <li class="Topic-Text-Numbered" value="4">Select <span class="SLXBold">Use Synonym</span> search to include words with similar meanings.</li>
+            <li class="Topic-Text-Numbered" value="5">Select <span class="SLXBold">Fuzzy search</span> to include similar or misspelled words. Then select from the <span class="SLXBold">Fuzziness Level</span> list to determine how different the spelling can be for a word to be considered a match. Each number represents the number of letters that can be different. </li>
+            <p class="Topic-Text-Numbered">To be a fuzzy match:</p>
+            <ul>
+                <li value="1">Each match must start with the first letter of the match criteria.</li>
+                <li value="2">After the first letter, each match must have no more character differences than the fuzzy level will allow. For example, a fuzziness level of 3 will find any name with 3 or fewer character differences.</li>
+            </ul>
+            <div class="MCDropDown">
+                <div class="MCDropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot" id="MCDropDownHotSpot_1569296011_0" onclick="FMCDropDown( this ); return false;">Example </a>
+                </div>
+                <div class="MCDropDownBody" id="MCDropDownBody_1569296011_0" style="display: none;">
+                    <p class="Topic-Text-Numbered">If you use "Jon" as your search criteria, a Fuzziness Level of 1 finds that Jon and John are a fuzzy match, but Jon and Johnny are not. For Johnny to be a match, you need to increase the fuzziness level to 3, but then you will also get names such as Jack and Jeff. </p>
+                    <p class="Topic-Text-Numbered">Use the following table as an example of other matches that would be found depending on the fuzziness level.</p>
+                    <table style="border-spacing: 0px;margin-left: 0;margin-right: auto;caption-side: top;" cellspacing="0">
+                        <col style="width: 33%;" />
+                        <col style="width: 33%;" />
+                        <col style="width: 33%;" />
+                        <tr style="height: 17px;" valign="top">
+                            <td colspan="1" rowspan="1" style="padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;border-left-style: None;border-top-style: None;" class="Tabletop">
+                                <p colspan="1" rowspan="1">Fuzzy Level 1</p>
+                                <p colspan="1" rowspan="1">(allows 1 Different Character)</p>
+                            </td>
+                            <td colspan="1" rowspan="1" style="padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;border-top-style: None;" class="Tabletop">
+                                <p colspan="1" rowspan="1">Fuzzy Level 2 </p>
+                                <p colspan="1" rowspan="1">(allows 2 Different Characters)</p>
+                            </td>
+                            <td colspan="1" rowspan="1" style="width: 33.333%;padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;border-top-style: None;" width="33.333%" class="Tabletop">
+                                <p colspan="1" rowspan="1" width="33.333%">Fuzzy Level 3</p>
+                                <p colspan="1" rowspan="1" width="33.333%">(allows 3 Different Characters)</p>
+                            </td>
+                        </tr>
+                        <tr style="height: 22px;" valign="top">
+                            <td colspan="1" rowspan="1" style="padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;border-left-style: None;" class="Table">Jon</td>
+                            <td colspan="1" rowspan="1" style="padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;" class="Table">Will also find:</td>
+                            <td colspan="1" rowspan="1" style="width: 33.333%;padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;" width="33.333%" class="Table">Will also find:</td>
+                        </tr>
+                        <tr style="height: 22px;" valign="top">
+                            <td style="padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;border-left-style: None;" class="Table">Jo<u>h</u>n</td>
+                            <td style="padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;" class="Table"><u></u>J<u>i<u>m</u></u></td>
+                            <td style="width: 33.333%;padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;" width="33.333%" class="Table">J<u>eff</u></td>
+                        </tr>
+                        <tr style="height: 22px;" valign="top">
+                            <td style="padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;border-left-style: None;" class="Table">Jo<u>e</u></td>
+                            <td style="padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;" class="Table">J<u>ay</u></td>
+                            <td style="width: 33.333%;padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;" width="33.333%" class="Table">J<u>ac</u>o<u>b</u></td>
+                        </tr>
+                        <tr style="height: 22px;" valign="top">
+                            <td style="padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;border-left-style: None;" class="Table">Jo<u>a</u>n</td>
+                            <td style="padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;" class="Table">Jo<u>sh</u></td>
+                            <td style="width: 33.333%;padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;" width="33.333%" class="Table">Jo<u>yce</u></td>
+                        </tr>
+                        <tr style="height: 22px;" valign="top">
+                            <td style="padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;border-left-style: None;" class="Table">&#160;</td>
+                            <td style="padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;" class="Table">J<u>as</u>on</td>
+                            <td style="width: 33.333%;padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;" width="33.333%" class="Table">J<u>ack</u></td>
+                        </tr>
+                        <tr style="height: 22px;" valign="top">
+                            <td style="padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;border-left-style: None;" class="Table">&#160;</td>
+                            <td style="padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;" class="Table">J<u>ua</u>n</td>
+                            <td style="width: 33.333%;padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;" width="33.333%" class="Table">Jo<u>h</u>n<u>ny</u></td>
+                        </tr>
+                        <tr style="height: 22px;" valign="top">
+                            <td style="padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;border-left-style: None;" class="Table">&#160;</td>
+                            <td style="padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;" class="Table">Jo<u>e</u><u>l</u></td>
+                            <td style="width: 33.333%;padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;" width="33.333%" class="Table">&#160;</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <li class="Topic-Text-Numbered" value="6">Click <span class="SLXBold">OK</span>.</li>
+        </ol>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="leadfinddupes.htm" target="_self">Finding Duplicate Records</a>
+        </p>
+        <p><a href="leadmergerecords.htm" target="_self">Merging Duplicate Records</a>
+        </p>
+        <p><a href="leadimport.htm" target="_self">Importing Leads from a List.htm</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>
+            </p>
+            <p style="border-top-style: Groove;border-top-color: #c0c0c0;border-top-width: 1px;">&#160;</p>
+            <p><![CDATA[ ]]><a href="../General/feedback.htm" target="_blank">Tell us how we can make the Help better.</a></p>
+        </div>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

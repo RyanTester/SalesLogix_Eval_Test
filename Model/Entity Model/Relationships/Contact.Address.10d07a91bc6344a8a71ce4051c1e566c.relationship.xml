@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="10d07a91-bc63-44a8-a71c-e4051c1e566c" lastModifiedUtc="2008-10-24T20:52:00.4404366Z" cardinality="M:1" parentEntityId="750a7f26-3604-467b-94fe-249370231df4" childEntityId="9e78204b-7eab-4274-9137-34e5cd2c3433">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="28f3385d-82f5-4aad-a55c-071555feee10" lastModifiedUtc="2008-10-24T20:52:00.4404366Z" name="Address" audited="false">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="e118e6fd-0700-4547-9f03-60ac499ad7ae" lastModifiedUtc="0001-01-01T00:00:00" audited="false" include="false">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="b175ab99-57a4-4f6f-bdba-b657cfb1119c" parentPropertyId="cb407625-3cc7-4091-85bf-826d8e84d082" childPropertyId="0faf2053-895d-41b7-b4c9-f8b48c16e142" ordinal="0" />
+  </column>
+</relationship>

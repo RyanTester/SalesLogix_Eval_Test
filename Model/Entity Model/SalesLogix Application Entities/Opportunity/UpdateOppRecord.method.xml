@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="29ce6c17-d7be-4d61-9067-b2417816c7d0" name="UpdateOppRecord" returnType="void" methodType="Rule" actionType="None" returnMode="Object" isInstance="true">
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="b656a963-358f-42ea-b9b5-9648eb9f1c4e" paramName="opportunity" sequence="0" paramType="IOpportunity" />
+    <OrmEntityMethodParam id="0a67c455-4d00-4a51-88fa-2aa19c2b8846" paramName="opportunityProduct" sequence="0" paramType="IOpportunityProduct" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="a410c585-bea4-4ef2-b85f-472369e174a2" targetType="Sage.SalesLogix.Opportunity.Rules, Sage.SalesLogix.BusinessRules" targetMethod="UpdateOppRecord" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

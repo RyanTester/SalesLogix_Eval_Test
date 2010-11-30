@@ -1,0 +1,1360 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RadUpload.Net2</name>
+    </assembly>
+    <members>
+        <member name="T:Telerik.WebControls.Ide.Common.RadUpload.ProjectManagement">
+            <summary>
+            Utility class for Design - Time VisualStudio.NET project management.
+            </summary>
+        </member>
+        <member name="T:Telerik.RadUploadUtils.PropertyCategory">
+            <summary>
+            Defines the common property categories' names
+            </summary>
+        </member>
+        <member name="P:Telerik.RadUploadUtils.RadControl.Version">
+            <summary>Gets the component's current version.</summary>
+        </member>
+        <member name="P:Telerik.RadUploadUtils.RadControl.UseEmbeddedScripts">
+            <summary>
+            Gets or sets a value indicating whether to use the embedded JavaScript files or not.
+            </summary>
+            <value>
+            	<strong>True</strong> if embedded JavaScript files are to be used; otherwise
+            <strong>false</strong>. The default value is <strong>true</strong>.
+            </value>
+            <remarks>
+            Use this property for debugging purposes or to apply any modifications to the
+            JavaScript files.
+            </remarks>
+        </member>
+        <member name="P:Telerik.RadUploadUtils.RadLocalizableControl.Localization">
+            <summary>
+            Provides access to the localization strings of the control.
+            </summary>
+            <example>
+            This example demonstrates how to change the localization strings of RadProgressArea 
+            object with code.
+            	<code lang="CS" title="[New Example]">
+            RadProgressArea1.Localization["CancelButton"] = "Cancel";
+            RadProgressArea1.Localization["TimeElapsed"] = "Elapsed time: ";
+            RadProgressArea1.Localization["TimeEstimated"] = "Estimated time: ";
+            RadProgressArea1.Localization["TransferSpeed"] = "Speed: ";
+            RadProgressArea1.Localization["CurrentFileName"] = "Uploading file: ";
+            RadProgressArea1.Localization["Uploaded"] = "Uploaded ";
+            RadProgressArea1.Localization["UploadedFiles"] = "Uploaded files: ";
+            RadProgressArea1.Localization["Total"] = "Total ";
+            RadProgressArea1.Localization["TotalFiles"] = "Total files: ";
+                </code>
+            	<code lang="VB" title="[New Example]">
+            RadProgressArea1.Localization("CancelButton") = "Cancel"
+            RadProgressArea1.Localization("TimeElapsed") = "Elapsed time: "
+            RadProgressArea1.Localization("TimeEstimated") = "Estimated time: "
+            RadProgressArea1.Localization("TransferSpeed") = "Speed: "
+            RadProgressArea1.Localization("CurrentFileName") = "Uploading file: "
+            RadProgressArea1.Localization("Uploaded") = "Uploaded "
+            RadProgressArea1.Localization("UploadedFiles") = "Uploaded files: "
+            RadProgressArea1.Localization("Total") = "Total "
+            RadProgressArea1.Localization("TotalFiles") = "Total files: "
+                </code>
+            </example>
+            <value>
+            Localization name/value collection.
+            </value>
+            <remarks>
+            This property is intended to be used when there is a need to access the localization
+            strings of the control from the code behind.
+            </remarks>
+        </member>
+        <member name="T:Telerik.WebControls.UploadedFileEventHandler">
+            <summary>
+                Represents the method that will handle the event that has an
+                <see cref="T:Telerik.WebControls.UploadedFileEventArgs">UploadedFileEventArgs</see> event data.
+            </summary>
+            <param name="sender">The <see cref="T:Telerik.WebControls.RadUpload">RadUpload</see> instance which fired the event.</param>
+            <param name="e">An <see cref="T:Telerik.WebControls.UploadedFileEventArgs">UploadedFileEventArgs</see> that contain the event data.</param>
+        </member>
+        <member name="T:Telerik.WebControls.UploadedFileEventArgs">
+            <summary>
+            	UploadedFileEventArgs is the base class for the <see cref="T:Telerik.WebControls.RadUpload">RadUpload</see> event data.
+            </summary>
+        </member>
+        <member name="P:Telerik.WebControls.UploadedFileEventArgs.UploadedFile">
+            <summary>Gets the currently processed <see cref="P:Telerik.WebControls.UploadedFileEventArgs.UploadedFile">UploadedFile</see>.</summary>
+            <value>
+            	<see cref="P:Telerik.WebControls.UploadedFileEventArgs.UploadedFile">UploadedFile</see> object that contains information about
+                the currently processed file.
+            </value>
+            <example>
+                The following example demonstrates how to use the
+                <see cref="P:Telerik.WebControls.UploadedFileEventArgs.UploadedFile">UploadedFile</see> property to save a file in the
+                FileExists event.
+                <code lang="VB">
+            Private Sub RadUpload1_FileExists(ByVal sender As Object, ByVal e As WebControls.UploadedFileEventArgs) Handles RadUpload1.FileExists
+                Dim TheFile As Telerik.WebControls.UploadedFile = e.UploadedFile
+             
+                e.UploadedFile.SaveAs(Path.Combine(RadUpload1.TargetFolder, TheFile.GetName + "1" + TheFile.GetExtension))
+            End Sub
+                </code>
+            	<code lang="CS">
+            private void RadUpload1_FileExists(object sender, Telerik.WebControls.UploadedFileEventArgs e)
+            {
+                Telerik.WebControls.UploadedFile TheFile = e.UploadedFile;
+             
+                TheFile.SaveAs(Path.Combine(RadUpload1.TargetFolder, TheFile.GetName() + "1" + TheFile.GetExtension()));
+            }
+                </code>
+            </example>
+        </member>
+        <member name="T:Telerik.WebControls.ValidateFileEventHandler">
+            <summary>
+            	<para>Represents the method that will handle the custom validation event.</para>
+            </summary>
+            <param name="sender">The RadUpload instance which fired the event.</param>
+            <param name="e">
+                A <see cref="T:Telerik.WebControls.ValidateFileEventArgs">ValidateFileEventArgs</see> that contain the
+                event data.
+            </param>
+        </member>
+        <member name="T:Telerik.WebControls.ValidateFileEventArgs">
+            <summary>
+                Provides data for the <see cref="E:Telerik.WebControls.RadUpload.ValidatingFile">ValidatingFile
+                event</see> of the <see cref="T:Telerik.WebControls.RadUpload">RadUpload</see> control.
+            </summary>
+            <remarks>
+            	<para>
+                    A ValidatingFileEventArgs is passed to the
+                    <see cref="E:Telerik.WebControls.RadUpload.ValidatingFile">ValidatingFile event</see> handler to
+                    provide event data to the handler. The
+                    <see cref="E:Telerik.WebControls.RadUpload.ValidatingFile">ValidatingFile event</see> event is raised
+                    when validation is performed on the server. This allows you to perform a custom
+                    server-side validation routine on a file of a
+                    <see cref="T:Telerik.WebControls.RadUpload">RadUpload</see> control.
+                </para>
+            </remarks>
+        </member>
+        <member name="P:Telerik.WebControls.ValidateFileEventArgs.IsValid">
+            <summary>
+                Gets or sets whether the value specified by
+                <see cref="P:Telerik.WebControls.UploadedFileEventArgs.UploadedFile">UploadedFile property</see> passed
+                validation.
+            </summary>
+            <value>
+            	<strong>true</strong> to indicate that the value specified by the
+                <see cref="P:Telerik.WebControls.UploadedFileEventArgs.UploadedFile">UploadedFile property</see> passed
+                validation; otherwise, <b>false</b>
+            </value>
+            <remarks>
+            	<para>
+                    Once your validation routine finishes, use the <strong>IsValid</strong>
+                    property to indicate whether the value specified by the
+                    <see cref="P:Telerik.WebControls.UploadedFileEventArgs.UploadedFile">UploadedFile property</see>
+                    passed validation. This value determines whether the file from the
+                    <see cref="T:Telerik.WebControls.RadUpload">RadUpload</see> control passed validation.
+                </para>
+            </remarks>
+            <example>
+                This example demonstrates how to implement validation for filenames. 
+                <code lang="VB">
+            Private Sub RadUpload1_ValidatingFile(ByVal sender As Object, ByVal e As WebControls.ValidateFileEventArgs) Handles RadUpload1.ValidatingFile
+                If e.UploadedFile.GetExtension.ToLower() = ".zip" Then
+                    'The zip files are not allowed for upload
+                    e.IsValid = False
+                End If
+            End Sub
+                </code>
+            	<code lang="CS">
+            private void RadUpload1_ValidatingFile(object sender, ValidateFileEventArgs e)
+            {
+                if (e.UploadedFile.GetExtension().ToLower() == ".zip")
+                {
+                    //The zip files are not allowed for upload
+                    e.IsValid = false;
+                }
+            }
+                </code>
+            </example>
+        </member>
+        <member name="P:Telerik.WebControls.ValidateFileEventArgs.SkipInternalValidation">
+            <summary>
+            Gets or sets whether the internal validation should continue validating the file
+            specified by the <see cref="T:Telerik.WebControls.UploadedFile">UploadedFile</see> property.
+            </summary>
+            <value>
+            	<strong>false</strong> to indicate that the internal validation should validate
+            the file specified by the <see cref="T:Telerik.WebControls.UploadedFile">UploadedFile</see> property; otherwise,
+            <b>true</b>
+            </value>
+            <remarks>
+            Once your validation routine finishes, use the <b>SkipInternalValidation</b>
+            property to skip the internal validation provided by the <see cref="T:Telerik.WebControls.RadUpload">RadUpload</see>
+            control.
+            </remarks>
+            <example>
+                This example demostrates how to implement custom validation for specific file type.
+                
+                <code lang="VB">
+            Private Sub RadUpload1_ValidatingFile(ByVal sender As Object, ByVal e As WebControls.ValidateFileEventArgs) Handles RadUpload1.ValidatingFile
+                If e.UploadedFile.GetExtension.ToLower = ".zip" Then
+                    Dim maxZipFileSize As Integer = 10000000 '~10MB
+                    If e.UploadedFile.ContentLength &gt; maxZipFileSize Then
+                        e.IsValid = False
+                    End If
+                    'The zip files are not validated for file size, extension and mime type
+                    e.SkipInternalValidation = True
+                End If
+            End Sub
+                </code>
+            	<code lang="CS">
+            private void RadUpload1_ValidatingFile(object sender, ValidateFileEventArgs e)
+            {
+                if (e.UploadedFile.GetExtension().ToLower() == ".zip")
+                {
+                    int maxZipFileSize = 10000000; //~10MB
+                    if (e.UploadedFile.ContentLength &gt; maxZipFileSize)
+                    {
+                        e.IsValid = false;
+                    }
+                    //The zip files are not validated for file size, extension and content type
+                    e.SkipInternalValidation = true;
+                }
+            }
+                </code>
+            </example>
+            <seealso cref="P:Telerik.WebControls.RadUpload.MaxFileSize">MaxFileSize Property (Telerik.WebControls.RadUpload)</seealso>
+            <seealso cref="P:Telerik.WebControls.RadUpload.AllowedMimeTypes">AllowedMimeTypes Property (Telerik.WebControls.RadUpload)</seealso>
+            <seealso cref="P:Telerik.WebControls.RadUpload.AllowedFileExtensions">AllowedFileExtensions Property (Telerik.WebControls.RadUpload)</seealso>
+        </member>
+        <member name="T:Telerik.WebControls.UploadedFile">
+            <summary>
+            	<para>Provides a way to access individual files that have been uploaded by a client
+                via a <strong>RadUpload</strong> control.</para>
+            </summary>
+            <remarks>
+            	<para>The <strong>UploadedFileCollection</strong> class provides access to all
+                files uploaded from a client via single RadUpload instance as a file collection.
+                <b>UploadedFile</b> provides properties and methods to get information on an
+                individual file and to read and save the file. Files are uploaded in MIME
+                multipart/form-data format and are <strong>NOT</strong> buffered in the server
+                memory if the <strong>RadUploadModule</strong> is used.</para>
+            	<para>The <strong>RadUpload</strong> control must be used to select and upload
+                files from a client.</para>
+            	<para>You can specify the maximum allowable upload file size in a machine.config or
+                Web.config configuration file in the <b>maxRequestLength</b> attribute of the
+                &lt;httpRuntime&gt; Element element.</para>
+            </remarks>
+            <example>
+                Set the maximum allowable upload file size to 1000kB
+                <code lang="VB">
+            &lt;httpRuntime maxRequestLength="1000" /&gt;
+                </code>
+            	<code lang="CS">
+            &lt;httpRuntime maxRequestLength="1000" /&gt;
+                </code>
+            </example>
+        </member>
+        <member name="M:Telerik.WebControls.UploadedFile.GetName">
+            <summary>
+            Returns the name and extension of the file on the client's computer.
+            </summary>
+            <value>
+            A string consisting of the characters after the last directory character in file name on the client's computer.
+            </value>
+            <remarks>
+            The separator characters used to determine the start of the 
+            file name are DirectorySeparatorChar and AltDirectorySeparatorChar.
+            </remarks>
+        </member>
+        <member name="M:Telerik.WebControls.UploadedFile.GetNameWithoutExtension">
+            <summary>
+            Returns the name of the file on the client's computer without the extension.
+            </summary>
+            <value>
+            A string containing the name of the file on the client's computer without the extension.
+            </value>
+            <remarks>
+            A string containing the string returned by GetFileName, minus the last period (.) and all characters following it.
+            </remarks>
+        </member>
+        <member name="M:Telerik.WebControls.UploadedFile.GetExtension">
+            <summary>
+            Returns the extension of the file on the client's computer.
+            </summary>
+            <value>
+            A string containing the extension of the file including the ".". If the file name does not have 
+            extension information, GetExtension returns string.Empty.
+            </value>
+            <remarks>
+            The extension of the file name is obtained by searching it for a period (.), starting with the last character 
+            and continuing toward the start. If a period is found before a DirectorySeparatorChar or AltDirectorySeparatorChar 
+            character, the returned string contains the period and the characters after it; otherwise, string.Empty is returned.
+            </remarks>
+        </member>
+        <member name="M:Telerik.WebControls.UploadedFile.GetFieldValue(System.String)">
+            <summary>
+            Returns the value of a custom field.
+            </summary>
+            <value>
+            A string containing the value of the custom field with name <strong>fieldName</strong>
+            </value>
+            <param name="fieldName">The name of the field wich value will be retrieved</param>
+            <returns>Check the general help for more information and an example.</returns>
+        </member>
+        <member name="M:Telerik.WebControls.UploadedFile.GetIsFieldChecked(System.String)">
+            <summary>
+            Returns the checked state of a custom field.
+            </summary>
+            <value>
+            A string containing the checked state of the custom field with name <strong>fieldName</strong>
+            </value>
+            <param name="fieldName">The name of the field wich checked state will be retrieved</param>
+            <returns>Check the general help for more information and an example.</returns>
+        </member>
+        <member name="M:Telerik.WebControls.UploadedFile.SaveAs(System.String)">
+            <summary>Saves the contents of an uploaded file.</summary>
+            <remarks>
+            	<para>The maximum allowed uploaded file size is 4MB by default. Maximum file size
+                can be specified in the machine.config or Web.config configuration files in the
+                maxRequestLength attribute of the &lt;httpRuntime&gt; element.</para>
+            	<para>The ASP.NET process must have proper rights for writing on the folder where
+                the files are saved.</para>
+            </remarks>
+            <example>
+                The following example saves all the files uploaded by the client to a folder named
+                "C:\TempFiles" on the Web server's local disk. 
+                <code lang="VB">
+            Dim Loop1 As Integer
+            Dim TempFileName As String
+            Dim MyFileCollection As UploadedFileCollection = RadUpload1.UploadedFiles
+             
+            For Loop1 = 0 To MyFileCollection.Count - 1
+                ' Create a new file name.
+                TempFileName = "C:\TempFiles\File_" &amp; CStr(Loop1)
+                ' Save the file.
+                MyFileCollection(Loop1).SaveAs(TempFileName)
+            Next Loop1
+                </code>
+            	<code lang="CS">
+            String TempFileName;
+            UploadedFileCollection MyFileCollection = RadUpload1.UploadedFiles;
+             
+            for (int Loop1 = 0; Loop1 &lt; MyFileCollection.Count; Loop1++)
+            {
+                // Create a new file name.
+                TempFileName = "C:\\TempFiles\\File_" + Loop1.ToString();
+                // Save the file.
+                MyFileCollection[Loop1].SaveAs(TempFileName);
+            }
+                </code>
+            </example>
+        </member>
+        <member name="M:Telerik.WebControls.UploadedFile.SaveAs(System.String,System.Boolean)">
+            <summary>Saves the contents of an uploaded file.</summary>
+            <remarks>
+            	<para>The maximum allowed uploaded file size is 4MB by default. Maximum file size
+                can be specified in the machine.config or Web.config configuration files in the
+                maxRequestLength attribute of the &lt;httpRuntime&gt; element.</para>
+            	<para>The ASP.NET process must have proper rights for writing on the folder where
+                the files are saved.</para>
+            </remarks>
+            <example>
+                The following example saves all the files uploaded by the client to a folder named
+                "C:\TempFiles" on the Web server's local disk. The existing files are overwritten.
+                <code lang="VB">
+            Dim Loop1 As Integer
+            Dim TempFileName As String
+            Dim ShouldOverwrite As Boolean = True
+            Dim MyFileCollection As UploadedFileCollection = RadUpload1.UploadedFiles
+             
+            For Loop1 = 0 To MyFileCollection.Count - 1
+                ' Create a new file name.
+                TempFileName = "C:\TempFiles\File_" &amp; CStr(Loop1)
+                ' Save the file.
+                MyFileCollection(Loop1).SaveAs(TempFileName, ShouldOverwrite)
+            Next Loop1
+                </code>
+            	<code lang="CS">
+            String TempFileName;
+            bool ShouldOverwrite = true;
+            UploadedFileCollection MyFileCollection = RadUpload1.UploadedFiles;
+             
+            for (int Loop1 = 0; Loop1 &lt; MyFileCollection.Count; Loop1++)
+            {
+                // Create a new file name.
+                TempFileName = "C:\\TempFiles\\File_" + Loop1.ToString();
+                // Save the file.
+                MyFileCollection[Loop1].SaveAs(TempFileName, ShouldOverwrite);
+            }
+                </code>
+            </example>
+            <param name="fileName">The name of the saved file.</param>
+            <param name="overwrite">
+            	<strong>true</strong> to allow an existing file to be overwritten; otherwise, <strong>false</strong>.
+            </param>
+        </member>
+        <member name="M:Telerik.WebControls.UploadedFile.MoveTo(System.String)">
+            <summary>Saves the contents of an uploaded file. You will not be able to save the 
+            contents again after calling this method. This method should be generally faster
+            than the SaveAs() method.</summary>
+            <remarks>
+            	<para>The maximum allowed uploaded file size is 4MB by default. Maximum file size
+                can be specified in the machine.config or Web.config configuration files in the
+                maxRequestLength attribute of the &lt;httpRuntime&gt; element.</para>
+            	<para>The ASP.NET process must have proper rights for writing on the folder where
+                the files are saved.</para>
+            	<para>When RadMemoryOptimization is enabled the uploaded files are stored on the
+            	server hard drive. The SaveAs() methods copy the temporary files into the specified
+            	location. This method will move the temporary file to the specified location, which 
+            	is generally a faster operation. After calling this method the temporary file will
+            	be deleted and you will not be able to call SaveAs() or MoveTo() again.</para>
+            </remarks>
+        </member>
+        <member name="P:Telerik.WebControls.UploadedFile.ContentLength">
+            <summary>Gets the size in bytes of an uploaded file.</summary>
+            <value>The length of the file.</value>
+            <example>
+                This example validates the file size of an uploaded file. 
+                <code lang="CS">
+            bool isValid = true;
+            if (file.ContentLength > MaxFileSize)
+            {
+                isValid = false;
+            }
+                </code>
+            	<code lang="VB">
+            Dim isValid As Boolean = True;
+            If file.ContentLength &gt; MaxFileSize Then
+                isValid = False;
+            End If
+                </code>
+            </example>
+        </member>
+        <member name="P:Telerik.WebControls.UploadedFile.ContentType">
+            <summary>Gets the MIME content type of a file sent by a client.</summary>
+            <value>The MIME content type of the uploaded file.</value>
+            <example>
+                The following example loops through all the files in the uploaded files collection
+                and takes action when the MIME type of a file is <b>US-ASCII</b> . 
+                <code lang="VB" title="1">
+            Dim Loop1 As Integer
+             Dim MyFileCollection As UploadedFileCollection = RadUpload1.UploadedFiles
+             
+             For Loop1 = 0 To MyFileCollection.Count - 1
+                If MyFileCollection(Loop1).ContentType = "video/mpeg" Then
+                   '...
+                End If
+             Next Loop1
+                </code>
+            	<code lang="CS" title="2">
+            UploadedFileCollection MyFileCollection = RadUpload1.UploadedFiles;
+             
+             for (int Loop1 = 0; Loop1 &lt; MyFileCollection.Count; Loop1++)
+             {
+                if (MyFileCollection[Loop1].ContentType == "video/mpeg")
+                {
+                   //...
+                }
+             }
+                </code>
+            </example>
+        </member>
+        <member name="P:Telerik.WebControls.UploadedFile.FileName">
+            <summary>
+            Gets the fully-qualified name of the file on the client's computer (for example
+            "C:\MyFiles\Test.txt").
+            </summary>
+            <value>A string containing the fully-qualified name of the file on the client's computer.</value>
+            <example>
+                The following example assigns the name of an uploaded file (the first file in the
+                file collection) to a string variable. 
+                <code lang="CS">
+            UploadedFile MyUploadedFile = RadUpload1.UploadedFiles[0];
+            string MyFileName = MyUploadedFile.FileName;
+                </code>
+            	<code lang="VB">
+            Dim MyUploadedFile As UploadedFile = RadUpload1.UploadedFiles(0)
+            Dim MyFileName As String = MyUploadedFile.FileName
+                </code>
+            </example>
+        </member>
+        <member name="P:Telerik.WebControls.UploadedFile.InputStream">
+            <summary>
+            Gets a Stream object which points to the uploaded file to prepare for reading the contents of the file.
+            </summary>
+            <value>
+            A Stream pointing to the file.
+            </value>
+        </member>
+        <member name="P:Telerik.WebControls.RadProgressArea.Language">
+            <summary>
+            Specifies the localization of the RadProgressArea (the language which will be used).
+            </summary>
+            <value>The default value is <strong>en-US</strong>.</value>
+            <example>
+            	<code lang="CS" title="[New Example]">
+            &lt;radU:RadUpload Language="es-Es" ... /&gt;
+                </code>
+            	<code lang="VB" title="[New Example]">
+            &lt;radU:RadUpload Language="es-Es" ... /&gt;
+                </code>
+            </example>
+        </member>
+        <member name="P:Telerik.WebControls.RadProgressArea.OnClientProgressUpdating">
+            <summary>
+            Specifies the client-side function to be executed when the Progress Area status is about to be updated.
+            </summary>
+            <value>The default value is <strong>string.Empty</strong>.</value>
+            <example>
+                This example demonstrates how to set a javascript function to execute when the
+                client side progress area is about to be updated.
+                <code lang="CS">
+            &lt;radU:RadProgressArea OnClientProgressUpdating="myOnClientProgressUpdating" ... /&gt;
+            ...
+            &lt;script&gt;
+            function myOnClientProgressUpdating()
+            {
+                alert("The progress will be updated");
+            }
+            &lt;/script&gt;
+                </code>
+            	<code lang="VB">
+            &lt;radU:RadProgressArea OnClientProgressUpdating="myOnClientProgressUpdating" ... /&gt;
+            ...
+            &lt;script&gt;
+            function myOnClientProgressUpdating()
+            {
+                alert("The progress will be updated");
+            }
+            &lt;/script&gt;
+                </code>
+            </example>
+            <requirements>Microsoft .NET Framework</requirements>
+        </member>
+        <member name="P:Telerik.WebControls.RadProgressArea.OnClientProgressBarUpdating">
+            <summary>
+            Specifies the client-side function to be executed when a progress bar is about to be updated.
+            </summary>
+            <value>The default value is <strong>string.Empty</strong>.</value>
+            <requirements>Microsoft .NET Framework</requirements>
+        </member>
+        <member name="P:Telerik.WebControls.RadProgressArea.Skin">
+            <summary>
+            Gets or sets the name of the skin used.
+            </summary>
+            <remarks>
+            	<para>The <strong>RadProgressArea</strong> control contains a number of
+                predefined skins, which can be used to specify the look of the control.</para>
+            </remarks>
+            <requirements>Microsoft .NET Framework</requirements>
+        </member>
+        <member name="P:Telerik.WebControls.RadProgressArea.SkinsPath">
+            <summary>
+            Gets or sets the relative path of the folder containing the skins.
+            </summary>
+            <example>
+            If the skin folder is located in the project root and is named "Skins" the
+            SkinsPath property should be set to: "~/Skins". Then you can create subfolders for
+            individual skins e.g. Skins/Gold, Skins/Default etc.
+            </example>
+            <value>
+            A string specifying the relative path to the folder which contains
+            RadUpload skins. The default value is
+            "~/RadControls/Upload/Skins".
+            </value>
+            <remarks>
+            RadUpload ships with a set of predefined skins which are ready
+            to use. They are located in RadControls/Upload/Skins.
+            </remarks>
+        </member>
+        <member name="P:Telerik.WebControls.RadProgressArea.Localization2">
+            <summary>
+            Provides access to the localization strings of the control.
+            </summary>
+            <example>
+            This example demonstrates how to change the localization strings of RadProgressArea 
+            object with code.
+            	<code lang="CS" title="[New Example]">
+            RadProgressArea1.Localization["CancelButton"] = "Cancel";
+            RadProgressArea1.Localization["TimeElapsed"] = "Elapsed time: ";
+            RadProgressArea1.Localization["TimeEstimated"] = "Estimated time: ";
+            RadProgressArea1.Localization["TransferSpeed"] = "Speed: ";
+            RadProgressArea1.Localization["CurrentFileName"] = "Uploading file: ";
+            RadProgressArea1.Localization["Uploaded"] = "Uploaded ";
+            RadProgressArea1.Localization["UploadedFiles"] = "Uploaded files: ";
+            RadProgressArea1.Localization["Total"] = "Total ";
+            RadProgressArea1.Localization["TotalFiles"] = "Total files: ";
+                </code>
+            	<code lang="VB" title="[New Example]">
+            RadProgressArea1.Localization("CancelButton") = "Cancel"
+            RadProgressArea1.Localization("TimeElapsed") = "Elapsed time: "
+            RadProgressArea1.Localization("TimeEstimated") = "Estimated time: "
+            RadProgressArea1.Localization("TransferSpeed") = "Speed: "
+            RadProgressArea1.Localization("CurrentFileName") = "Uploading file: "
+            RadProgressArea1.Localization("Uploaded") = "Uploaded "
+            RadProgressArea1.Localization("UploadedFiles") = "Uploaded files: "
+            RadProgressArea1.Localization("Total") = "Total "
+            RadProgressArea1.Localization("TotalFiles") = "Total files: "
+                </code>
+            </example>
+            <value>
+            Localization name/value collection.
+            </value>
+            <remarks>
+            This property is intended to be used when there is a need to access the localization
+            strings of the control from the code behind.
+            </remarks>
+        </member>
+        <member name="M:Telerik.WebControls.RadProgressManager.ApplyUniquePageIdentifier(System.String)">
+            <summary>
+            Adds RadUrid=[GUID] parameter to the supplied URL.
+            </summary>
+            <remarks>
+            	<para>Use this method to generate proper URL for cross page postbacks 
+            	which will enable RadMemoryOptimization and RadProgressArea.</para>
+            </remarks>
+            <example>
+                This example demonstrates how to set the PostBackUrl property of a button
+            	in order to enable RadMemoryOptimization and RadProgressArea. This example
+            	will postback to the current page, but you could use URL of your choice.
+                <code lang="VB">
+            Button1.PostBackUrl = RadProgressManager1.ApplyUniquePageIdentifier(Request.Url.PathAndQuery)
+            </code>
+            	<code lang="CS">
+            Button1.PostBackUrl = RadProgressManager1.ApplyUniquePageIdentifier(Request.Url.PathAndQuery);
+                </code>
+            </example>
+        </member>
+        <member name="P:Telerik.WebControls.RadProgressManager.EnableMemoryOptimization">
+            <summary>
+            Gets or sets a value indicating wether the Memory Optimization will be enabled.
+            </summary>
+        </member>
+        <member name="P:Telerik.WebControls.RadProgressManager.SuppressMissingHttpModuleError">
+            <summary>
+            Gets or sets a value indicating wether an error message will be displayed when the RadUploadHttpModule is not registered.
+            </summary>
+        </member>
+        <member name="P:Telerik.WebControls.RadProgressManager.RefreshPeriod">
+            <summary>
+            Gets or sets the period (in milliseconds) of the progress data refresh.
+            </summary>
+            <value>
+            The period of the progress data refresh in milliseconds. The default value is
+            <strong>500</strong>.
+            </value>
+            <remarks>
+            	<para>The refresh period might not be exactly the same as the value specified if
+                the AJAX request has not been completed before the upload. The minimum value is 50
+                ms.</para>
+            	<para><strong>Note:</strong> If the value is very low (50ms) both the client CPU
+                and server CPU load would increase because of the increased number of AJAX requests
+                performed.</para>
+            </remarks>
+        </member>
+        <member name="P:Telerik.WebControls.RadProgressManager.IsRegisteredOnPage">
+            <exclude/>
+            <excludetoc/>
+        </member>
+        <member name="P:Telerik.WebControls.RadProgressManager.UniquePageIdentifier">
+            <exclude/>
+            <excludetoc/>
+        </member>
+        <member name="T:Telerik.WebControls.ControlObjectsVisibility">
+            <summary>Specifies which control objects will be visible on a RadUpload control.</summary>
+        </member>
+        <member name="F:Telerik.WebControls.ControlObjectsVisibility.None">
+            <summary>Only the file inputs will be visible.</summary>
+        </member>
+        <member name="F:Telerik.WebControls.ControlObjectsVisibility.CheckBoxes">
+            <summary>Display checkboxes for selecting a file input.</summary>
+        </member>
+        <member name="F:Telerik.WebControls.ControlObjectsVisibility.RemoveButtons">
+            <summary>Display buttons for removing a file input.</summary>
+        </member>
+        <member name="F:Telerik.WebControls.ControlObjectsVisibility.ClearButtons">
+            <summary>Display buttons for clearing a file input.</summary>
+        </member>
+        <member name="F:Telerik.WebControls.ControlObjectsVisibility.AddButton">
+            <summary>Display button for adding a file input.</summary>
+        </member>
+        <member name="F:Telerik.WebControls.ControlObjectsVisibility.DeleteSelectedButton">
+            <summary>Display button for removing the file inputs with checked checkboxes.</summary>
+        </member>
+        <member name="F:Telerik.WebControls.ControlObjectsVisibility.Default">
+            <summary>CheckBoxes | RemoveButtons | AddButton | DeleteSelectedButton</summary>
+        </member>
+        <member name="F:Telerik.WebControls.ControlObjectsVisibility.All">
+            <summary>
+            CheckBoxes | RemoveButtons | ClearButtons | AddButton |
+            DeleteSelectedButton
+            </summary>
+        </member>
+        <member name="T:Telerik.WebControls.RadUpload">
+            <summary>
+            A composite control, allowing you to upload a single or multiple files. The
+            	/// <strong>RadUpload</strong> control allows you to define the number of files to be
+            uploaded, progress display, skin, etc.
+            </summary>
+            <remarks>
+            	<para>Use the <strong>RadUpload</strong> control to allow the upload of a single or
+                multiple files.</para>
+            </remarks>
+        </member>
+        <member name="M:Telerik.WebControls.RadUpload.OnValidatingFile(Telerik.WebControls.ValidateFileEventArgs)">
+            <summary>
+            Fires the ValidatingFile event.
+            </summary>
+        </member>
+        <member name="M:Telerik.WebControls.RadUpload.OnFileExists(Telerik.WebControls.UploadedFileEventArgs)">
+            <summary>
+            Fires the FileExists event.
+            </summary>
+        </member>
+        <member name="E:Telerik.WebControls.RadUpload.ValidatingFile">
+            <summary>
+                Occurs before the internal validation of every file in the <see cref="P:Telerik.WebControls.RadUpload.UploadedFiles">UploadedFiles</see> collection.
+            </summary>
+            <remarks>
+            	<para>To skip the internal validation of the file, set e.<strong>SkipInternalValidation</strong> = <strong>true</strong>.</para>
+            </remarks>
+            <example>
+                This example demostrates how to implement custom validation for specific file type.
+                
+                <code lang="VB">
+            Private Sub RadUpload1_ValidatingFile(ByVal sender As Object, ByVal e As WebControls.ValidateFileEventArgs) Handles RadUpload1.ValidatingFile
+                If e.UploadedFile.GetExtension.ToLower = ".zip" Then
+                    Dim maxZipFileSize As Integer = 10000000 '~10MB
+                    If e.UploadedFile.ContentLength &gt; maxZipFileSize Then
+                        e.IsValid = False
+                    End If
+                    'The zip files are not validated for file size, extension and mime type
+                    e.SkipInternalValidation = True
+                End If
+            End Sub
+                </code>
+            	<code lang="CS">
+            private void RadUpload1_ValidatingFile(object sender, ValidateFileEventArgs e)
+            {
+                if (e.UploadedFile.GetExtension().ToLower() == ".zip")
+                {
+                    int maxZipFileSize = 10000000; //~10MB
+                    if (e.UploadedFile.ContentLength &gt; maxZipFileSize)
+                    {
+                        e.IsValid = false;
+                    }
+                    //The zip files are not validated for file size, extension and content type
+                    e.SkipInternalValidation = true;
+                }
+            }
+                </code>
+            </example>
+            <seealso cref="P:Telerik.WebControls.RadUpload.MaxFileSize">MaxFileSize Property</seealso>
+            <seealso cref="P:Telerik.WebControls.RadUpload.MaxFileSize">AllowedMimeTypes Property</seealso>
+            <seealso cref="P:Telerik.WebControls.RadUpload.MaxFileSize">AllowedFileExtensions Property</seealso>
+        </member>
+        <member name="E:Telerik.WebControls.RadUpload.FileExists">
+            <summary>
+            Occurs after an unsuccessful attempt for automatic saving of a file in the 
+            <see cref="P:Telerik.WebControls.RadUpload.UploadedFiles">UploadedFiles</see> collection.
+            </summary>
+            <remarks>
+            	<para>
+                    This event should be consumed only when the automatic file saving is enabled by
+                    setting the <see cref="P:Telerik.WebControls.RadUpload.TargetFolder">TargetFolder</see> property. In this mode
+                    the files are saved in the selected folder with the same name as on the client
+                    computer. If a file with such name already exists in the
+                    <see cref="P:Telerik.WebControls.RadUpload.TargetFolder">TargetFolder</see> it is either overwritten or skipped
+                    depending the value of the
+                    <see cref="P:Telerik.WebControls.RadUpload.OverwriteExistingFiles">OverwriteExistingFiles</see> property. This
+                    event is fired if
+                    <see cref="P:Telerik.WebControls.RadUpload.OverwriteExistingFiles">OverwriteExistingFiles</see> is set to
+                    <strong>false</strong> and a file with the same name already exists in the
+                    <see cref="P:Telerik.WebControls.RadUpload.TargetFolder">TargetFolder</see>.
+                </para>
+            </remarks>
+            <example>
+                This example demostrates how to create custom logic for renaming and saving the
+                existing uploaded files. 
+                <code lang="VB">
+            Private Sub RadUpload1_FileExists(ByVal sender As Object, ByVal e As WebControls.UploadedFileEventArgs) Handles RadUpload1.FileExists
+                Dim TheFile As Telerik.WebControls.UploadedFile = e.UploadedFile
+                
+                TheFile.SaveAs(Path.Combine(RadUpload1.TargetFolder, TheFile.GetNameWithoutExtension() + "1" + TheFile.GetExtension()), true)
+            End Sub
+                </code>
+            	<code lang="CS">
+            private void RadUpload1_FileExists(object sender, Telerik.WebControls.UploadedFileEventArgs e)
+            {
+                Telerik.WebControls.UploadedFile TheFile = e.UploadedFile;
+             
+                TheFile.SaveAs(Path.Combine(RadUpload1.TargetFolder, TheFile.GetNameWithoutExtension() + "1" + TheFile.GetExtension()), true);
+            }
+                </code>
+            </example>
+            <seealso cref="P:Telerik.WebControls.RadUpload.OverwriteExistingFiles">OverwriteExistingFiles Property</seealso>
+            <seealso cref="P:Telerik.WebControls.RadUpload.TargetFolder">TargetFolder Property</seealso>
+            <seealso cref="P:Telerik.WebControls.RadUpload.TargetPhysicalFolder">TargetPhysicalFolder Property</seealso>
+        </member>
+        <member name="P:Telerik.WebControls.RadUpload.AllowedFileExtensions">
+            <summary>
+            Gets or sets the allowed file extensions for uploading.
+            </summary>
+            <remarks>
+            	<para>Set this property to empty array of strings in order to prevent the file
+                extension checking.</para>
+            	<para>Note that the file extensions must include the dot before the actual
+                extension. See the example below.</para>
+            </remarks>
+            <value>
+            The default value is empty string array. In order to check for multiple file
+            extensions you should set an array of strings containing the allowed file extensions
+            for uploading.
+            </value>
+            <example>
+                This example demonstrates how to set multiple allowed file extensions in a
+                RadUpload control. 
+                <code lang="VB">
+            Dim allowedFileExtensions As String() = New String(2) {".zip", ".doc", ".config"}
+            RadUpload1.AllowedFileExtensions = allowedFileExtensions
+            </code>
+            	<code lang="CS">
+            string[] allowedFileExtensions = new string[3] {".zip", ".doc", ".config"};
+            RadUpload1.AllowedFileExtensions = allowedFileExtensions;
+                </code>
+            </example>
+            <seealso cref="P:Telerik.WebControls.RadUpload.MaxFileSize">MaxFileSize Property</seealso>
+            <seealso cref="P:Telerik.WebControls.RadUpload.AllowedMimeTypes">AllowedMimeTypes Property</seealso>
+            <seealso cref="E:Telerik.WebControls.RadUpload.ValidatingFile">ValidatingFile Event</seealso>
+        </member>
+        <member name="P:Telerik.WebControls.RadUpload.AllowedMimeTypes">
+            <summary>
+            Gets or sets the allowed MIME types for uploading.
+            </summary>
+            <remarks>
+            	<para>Set this property to string.Empty in order to prevent the
+                mime type checking.</para>
+            </remarks>
+            <value>
+            The default value is empty string array. In order to check for multiple mime
+            types you should set an array of strings containing the allowed MIME types 
+            for uploading.
+            </value>
+            <example>
+                This example demostrates how to set multiple allowed MIME types to a RadUpload
+                control. 
+                <code lang="VB">
+            ' For example you can Get these from your web.config file
+            Dim commaSeparatedMimeTypes As String = "application/octet-stream,application/msword,video/mpeg"
+             
+            Dim allowedMimeTypes As String() = commaSeparatedMimeTypes.Split(",")
+            RadUpload1.AllowedMimeTypes = allowedMimeTypes
+            </code>
+            	<code lang="CS">
+            // For example you can get these from your web.config file
+            string commaSeparatedMimeTypes = "application/octet-stream,application/msword,video/mpeg";
+             
+            string[] allowedMimeTypes = commaSeparatedMimeTypes.Split(',');
+            RadUpload1.AllowedMimeTypes = allowedMimeTypes;
+                </code>
+            </example>
+            <seealso cref="P:Telerik.WebControls.RadUpload.MaxFileSize">MaxFileSize Property</seealso>
+            <seealso cref="P:Telerik.WebControls.RadUpload.AllowedFileExtensions">AllowedFileExtensions Property</seealso>
+            <seealso cref="E:Telerik.WebControls.RadUpload.ValidatingFile">ValidatingFile Event</seealso>
+        </member>
+        <member name="P:Telerik.WebControls.RadUpload.ControlObjectsVisibility">
+            <summary>
+            Gets or sets the value indicating which control objects will be displayed.
+            </summary>
+            <value>
+            The default value is <strong>ControlObjectsVisibility.Default</strong>. You can
+            set any combination of the enum values.
+            </value>
+            <remarks>
+                ControlObjectVisibility enum members 
+                <list type="table">
+            		<listheader>
+            			<term>Member</term>
+            			<description>Description</description>
+            		</listheader>
+            		<item>
+            			<term><strong>None</strong></term>
+            			<description>Only the file inputs will be visible.</description>
+            		</item>
+            		<item>
+            			<term><strong>CheckBoxes</strong></term>
+            			<description>Display checkboxes for selecting a file input.</description>
+            		</item>
+            		<item>
+            			<term><strong>RemoveButtons</strong></term>
+            			<description>Display buttons for removing a file input.</description>
+            		</item>
+            		<item>
+            			<term><strong>ClearButtons</strong></term>
+            			<description>Display buttons for clearing a file input.</description>
+            		</item>
+            		<item>
+            			<term><strong>AddButton</strong></term>
+            			<description>Display button for adding a file input.</description>
+            		</item>
+            		<item>
+            			<term><strong>DeleteSelectedButton</strong></term>
+            			<description>Display button for removing the file inputs with checked
+                        checkboxes.</description>
+            		</item>
+            		<item>
+            			<term><strong>Default</strong></term>
+            			<description>CheckBoxes | RemoveButtons | AddButton |
+                        DeleteSelectedButton</description>
+            		</item>
+            		<item>
+            			<term><strong>All</strong></term>
+            			<description>CheckBoxes | RemoveButtons | ClearButtons | AddButton |
+                        DeleteSelectedButton</description>
+            		</item>
+            	</list>
+            </remarks>
+            <example>
+                This example demostrates how to display only the Add and Remove buttons on a
+                RadUpload control. 
+                <code lang="VB">
+            RadUpload1.ControlObjectsVisibility = Telerik.WebControls.ControlObjectsVisibility.AddButton Or _
+                                                  Telerik.WebControls.ControlObjectsVisibility.RemoveButtons
+                </code>
+            	<code lang="CS">
+            RadUpload1.ControlObjectsVisibility = Telerik.WebControls.ControlObjectsVisibility.AddButton | 
+                                                  Telerik.WebControls.ControlObjectsVisibility.RemoveButtons;
+                </code>
+            </example>
+            <seealso cref="P:Telerik.WebControls.RadUpload.MaxFileInputsCount">MaxFileInputsCount Property</seealso>
+            <seealso cref="P:Telerik.WebControls.RadUpload.InitialFileInputsCount">InitialFileInputsCount Property</seealso>
+            <seealso cref="P:Telerik.WebControls.RadUpload.ControlObjectsVisibility">ControlObjectsVisibility Enumeration</seealso>
+        </member>
+        <member name="P:Telerik.WebControls.RadUpload.EnableFileInputSkinning">
+            <summary>
+            Gets or sets the value indicating whether the file input fields skinning will be enabled.
+            </summary>
+            <value>
+            	<strong>true</strong> when the file input skinning is enabled; otherwise <strong>false</strong>.
+            </value>
+            <remarks>
+            The &lt;input type=file&gt; DHTML elements are not skinnable by default. If the
+            EnableFileInputSkinning is true some browsers can have strange behaviour.
+            </remarks>
+        </member>
+        <member name="P:Telerik.WebControls.RadUpload.InitialFileInputsCount">
+            <summary>
+            Gets or sets the initial count of file input fields, which will appear in RadUpload.
+            </summary>
+            <value>
+            The file inputs count which will be available at startup. The default value is
+            <strong>1.</strong>
+            </value>
+            <seealso cref="P:Telerik.WebControls.RadUpload.MaxFileInputsCount">MaxFileInputsCount Property</seealso>
+            <seealso cref="P:Telerik.WebControls.RadUpload.ControlObjectsVisibility">ControlObjectsVisibility Property</seealso>
+        </member>
+        <member name="P:Telerik.WebControls.RadUpload.InvalidFiles">
+            <summary>
+            Provides access to the invalid files uploaded by the <strong>RadUpload</strong>
+            instance. This is populated only if a validation was set.
+            </summary>
+            <value>
+            If the internal validation is enabled this collection contains the invalid
+            uploaded files for the particular instance of <strong>RadUpload</strong>
+            control.
+            </value>
+        </member>
+        <member name="P:Telerik.WebControls.RadUpload.Language">
+            <summary>
+            Gets or sets the localization language of the RadUpload user interface.
+            </summary>
+            <value>
+            A string containing the localization language of the RadUpload user inteface. The
+            default value is <strong>en-US</strong>.
+            </value>
+        </member>
+        <member name="P:Telerik.WebControls.RadUpload.MaxFileInputsCount">
+            <summary>
+            Gets or sets the maximum file input fields that can be added to the control.
+            </summary>
+            <value>The default value is <strong>0</strong> (unlimited).</value>
+            <remarks>
+            Using this property you can limit the maximum number of file inputs which can be
+            added to a RadUpload instance.
+            </remarks>
+            <seealso cref="P:Telerik.WebControls.RadUpload.InitialFileInputsCount">InitialFileInputsCount Property</seealso>
+            <seealso cref="P:Telerik.WebControls.RadUpload.ControlObjectsVisibility">ControlObjectsVisibility Property</seealso>
+        </member>
+        <member name="P:Telerik.WebControls.RadUpload.MaxFileSize">
+            <summary>Gets or sets the maximum file size allowed for uploading in bytes.</summary>
+            <value>The default value is <strong>0</strong> (unlimited).</value>
+            <remarks>Set this property to 0 in order to prevent the file size checking.</remarks>
+            <seealso cref="P:Telerik.WebControls.RadUpload.AllowedMimeTypes">AllowedMimeTypes Property</seealso>
+            <seealso cref="P:Telerik.WebControls.RadUpload.AllowedFileExtensions">AllowedFileExtensions Property</seealso>
+            <seealso cref="E:Telerik.WebControls.RadUpload.ValidatingFile">ValidatingFile Event</seealso>
+        </member>
+        <member name="P:Telerik.WebControls.RadUpload.OnClientAdding">
+            <summary>
+            Gets or sets the name of the client-side function which will be executed before 
+            a new fileinput is added to a RadUpload instance.
+            </summary>
+            <value>The default value is <strong>string.Empty</strong>.</value>
+            <example>
+                This example demonstrates how to create a javascript function which is called every
+                time when the used adds a new file input to the RadUpload instance. 
+                <code lang="CS" title="[New Example]">
+            &lt;radU:RadUpload OnClientAdding="myOnClientAdding" ... /&gt;
+            ...
+            &lt;script&gt;
+            function myOnClientAdding()
+            {
+                alert("You just added a new file input.");
+            }
+            &lt;/script&gt;
+                </code>
+            	<code lang="VB" title="[New Example]">
+            &lt;radU:RadUpload OnClientAdding="myOnClientAdding" ... /&gt;
+            ...
+            &lt;script&gt;
+            function myOnClientAdding()
+            {
+                alert("You just added a new file input.");
+            }
+            &lt;/script&gt;
+                </code>
+            </example>
+        </member>
+        <member name="P:Telerik.WebControls.RadUpload.OnClientAdded">
+            <summary>
+            Gets or sets the name of the client-side function which will be executed after 
+            a new fileinput is added to a RadUpload instance.
+            </summary>
+            <value>The default value is <strong>string.Empty</strong>.</value>
+            <example>
+                This example demonstrates how to create a javascript function which is called every
+                time when the used adds a new file input to the RadUpload instance. 
+                <code lang="CS" title="[New Example]">
+            &lt;radU:RadUpload OnClientAdded="myOnClientAdded" ... /&gt;
+            ...
+            &lt;script&gt;
+            function myOnClientAdded()
+            {
+                alert("You just added a new file input.");
+            }
+            &lt;/script&gt;
+                </code>
+            	<code lang="VB" title="[New Example]">
+            &lt;radU:RadUpload OnClientAdded="myOnClientAdded" ... /&gt;
+            ...
+            &lt;script&gt;
+            function myOnClientAdded()
+            {
+                alert("You just added a new file input.");
+            }
+            &lt;/script&gt;
+                </code>
+            </example>
+        </member>
+        <member name="P:Telerik.WebControls.RadUpload.OnClientDeleting">
+            <summary>
+            Gets or sets the name of the client-side function which will be executed before a file input is deleted
+            from a RadUpload instance.
+            </summary>
+            <value>The default value is <strong>string.Empty</strong>.</value>
+            <example>
+                This example demonstrates how to implement a confirmation dialog when removing a
+                file input item. 
+                <code lang="CS">
+            &lt;radU:RadUpload OnClientDeleting="myOnClientDeleting" ... /&gt;
+            &lt;script language="javascript"&gt;
+            function myOnClientDeleting()
+            {
+                return prompt("Are you sure?");
+            }
+            &lt;/script&gt;
+                </code>
+            	<code lang="VB">
+            &lt;radU:RadUpload OnClientDeleting="myOnClientDeleting" ... /&gt;
+            &lt;script language="javascript"&gt;
+            function myOnClientDeleting()
+            {
+                Return prompt("Are you sure?");
+            }
+            &lt;/script&gt;
+                </code>
+            </example>
+            <remarks>
+            If you want to cancel the deleting of the file input return
+            <strong>false</strong> in the javascript handler.
+            </remarks>
+        </member>
+        <member name="P:Telerik.WebControls.RadUpload.OnClientClearing">
+            <summary>
+            Gets or sets the name of the client-side function which will be executed before a fileinput field is
+            cleared in a RadUpload instance using the Clear button.
+            </summary>
+            <value>The default value is <strong>string.Empty</strong>.</value>
+            <example>
+                This example demonstrates how to create a client side confirmation dialog when
+                clearing a file input item of a RadUpload instance. 
+                <code lang="CS">
+            &lt;radU:RadUpload OnClientClearing="myOnClientClearing" ... /&gt;
+            ...
+            &lt;script&gt;
+            function myOnClientClearing()
+            {
+                return confirm("Are you sure you want to clear this input?");
+            }
+            &lt;/script&gt;
+                </code>
+            	<code lang="VB">
+            &lt;radU:RadUpload OnClientClearing="myOnClientClearing" ... /&gt;
+            ...
+            &lt;script&gt;
+            function myOnClientClearing()
+            {
+                Return confirm("Are you sure you want to clear this input?");
+            }
+            &lt;/script&gt;
+                </code>
+            </example>
+        </member>
+        <member name="P:Telerik.WebControls.RadUpload.OnClientFileSelected">
+            <summary>
+            Gets or sets the name of the client-side function which will be executed when a file input value changed.
+            </summary>
+            <value>The default value is <strong>string.Empty</strong>.</value>
+        </member>
+        <member name="P:Telerik.WebControls.RadUpload.OnClientDeletingSelected">
+            <summary>
+            Gets or sets the name of the client-side function which will be executed before the selected file inputs are removed.
+            </summary>
+            <value>The default value is <strong>string.Empty</strong>.</value>
+            <example>
+                This example demonstrates how to create a client side confirmation dialog when
+                removing the selected file input items from a RadUpload control. 
+                <code lang="VB">
+            &lt;radU:RadUpload OnClientDeletingSelected="myOnClientDeletingSelected" ... /&gt;
+             
+            &lt;script&gt;
+            function myOnClientDeletingSelected()
+            {
+                var mustCancel = confirm("Are you sure?");
+                return mustCancel;
+            }
+            &lt;/script&gt;
+                </code>
+            	<code lang="CS">
+            &lt;radU:RadUpload OnClientDeletingSelected="myOnClientDeletingSelected" ... /&gt;
+             
+            &lt;script&gt;
+            function myOnClientDeletingSelected()
+            {
+                var mustCancel = confirm("Are you sure?");
+                return mustCancel;
+            }
+            &lt;/script&gt;
+                </code>
+            </example>
+            <remarks>
+            You can cancel the removing of the file input items by returning
+            <strong>false</strong> in the javascript function.
+            </remarks>
+        </member>
+        <member name="P:Telerik.WebControls.RadUpload.OverwriteExistingFiles">
+            <summary>
+            Gets or sets the value indicating whether RadUpload should overwrite existing files having same name in the <see cref="P:Telerik.WebControls.RadUpload.TargetFolder">TargetFolder</see>.
+            </summary>
+            <value>
+            	<strong>true</strong> when the existing files should be overwritten; otherwise
+            <strong>false</strong>. The default value is <strong>false</strong>.
+            </value>
+            <remarks>
+            When set to <strong>true</strong>, the existing files are overwritten, else no
+            action is taken.
+            </remarks>
+            <seealso cref="E:Telerik.WebControls.RadUpload.FileExists">FileExists Event</seealso>
+            <seealso cref="P:Telerik.WebControls.RadUpload.TargetFolder">TargetFolder Property</seealso>
+            <seealso cref="P:Telerik.WebControls.RadUpload.TargetPhysicalFolder">TargetPhysicalFolder Property</seealso>
+        </member>
+        <member name="P:Telerik.WebControls.RadUpload.ReadOnlyFileInputs">
+            <summary>
+            Gets or sets a value indicating if the file input fields should be read-only
+            (e.g. no typing allowed).
+            </summary>
+            <value>
+            	<strong>true</strong> when the file input fields should be read-only; otherwise
+            <strong>false</strong>.
+            </value>
+            <remarks>
+            When users type into the box and the filename is not valid, the form submission
+            in Internet Explorer could not proceed or even display a javascript error. This
+            behavior can be avoided by setting the ReadOnlyFileInputs property to true.
+            </remarks>
+        </member>
+        <member name="P:Telerik.WebControls.RadUpload.Skin">
+            <summary>Gets or sets the skin name for the RadUpload user interface.</summary>
+            <value>A string containing the skin name for the RadUpload user interface. The default is "Classic".</value>
+            <remarks>
+            	<para>The <strong>RadUpload</strong> control contains a number of predefined skins,
+                which can be used to specify the look of the control.</para>
+            </remarks>
+            <example>
+            	<font color="black">This example demostrates how to change the skin of a RadUpload
+                object from the SelectedIndexChanged of a DropDownList object.</font>
+            	<code lang="VB">
+            Private Sub DropdownSkins_SelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles DropdownSkins.SelectedIndexChanged
+                RadUpload1.Skin = ddlSkins.SelectedValue
+            End Sub
+                </code>
+            	<code lang="CS">
+            private void DropdownSkins_SelectedIndexChanged(object sender, EventArgs e)
+            {
+                RadUpload1.Skin = DropdownSkins.SelectedValue;
+            }
+                </code>
+            </example>
+        </member>
+        <member name="P:Telerik.WebControls.RadUpload.TargetFolder">
+            <summary>
+            Gets or sets the virtual path of the folder, where RadUpload will automatically save the valid files after the upload completes.
+            </summary>
+            <value>
+            A string containing the virtual path of the folder where RadUpload will automatically save the valid files
+            after the upload completes. The default value is <strong>string.Empty</strong>.
+            </value>
+            <remarks>
+            	<para>When set to <strong>string.Empty</strong>, the files must be saved manually to the desired location.</para>
+            	<para>If both <see cref="P:Telerik.WebControls.RadUpload.TargetPhysicalFolder">TargetPhysicalFolder</see> property and this property are set, the 
+            	TargetPhysicalFolder will override the virtual path provided by TargetFolder.</para>
+            </remarks>
+            <seealso cref="P:Telerik.WebControls.RadUpload.OverwriteExistingFiles">OverwriteExistingFiles Property</seealso>
+            <seealso cref="E:Telerik.WebControls.RadUpload.FileExists">FileExists Event</seealso>
+            <seealso cref="P:Telerik.WebControls.RadUpload.TargetPhysicalFolder">TargetPhysicalFolder Property</seealso>
+        </member>
+        <member name="P:Telerik.WebControls.RadUpload.TargetPhysicalFolder">
+            <summary>
+            Gets or sets the physical path of the folder, where RadUpload will automatically save the valid files after the upload completes.
+            </summary>
+            <value>
+            A string containing the physical path of the folder where RadUpload will automatically save the valid files
+            after the upload completes. The default value is <strong>string.Empty</strong>.
+            </value>
+            <remarks>
+            	<para>When set to <strong>string.Empty</strong>, the files must be saved manually to the desired location.</para>
+            	<para>If both <see cref="P:Telerik.WebControls.RadUpload.TargetFolder">TargetFolder</see> property and this property are set, the 
+            	TargetPhysicalFolder will override the virtual path provided by <see cref="P:Telerik.WebControls.RadUpload.TargetFolder">TargetFolder</see>.</para>
+            </remarks>
+            <seealso cref="P:Telerik.WebControls.RadUpload.TargetFolder">TargetFolder Property</seealso>
+            <seealso cref="P:Telerik.WebControls.RadUpload.OverwriteExistingFiles">OverwriteExistingFiles Property</seealso>
+            <seealso cref="E:Telerik.WebControls.RadUpload.FileExists">FileExists Event</seealso>
+        </member>
+        <member name="P:Telerik.WebControls.RadUpload.UploadedFiles">
+            <summary>
+            Provides access to the valid files uploaded by the <strong>RadUpload</strong>
+            instance.
+            </summary>
+            <value>
+            	<strong>UploadedFileCollection</strong> containing all valid files uploaded using
+            a <strong>RadUpload</strong> control.
+            </value>
+            <remarks>
+            The collection contains only the files uploaded with the particular instance of
+            the RadUpload control. If the RadUploadHttpModule is used, the
+            uploaded files are removed from the <strong>Request.Files</strong> collection in order
+            to conserve the server's memory. Else the Request.Files contains all uploaded files as
+            a HttpPostedFile collection and each <strong>RadUpload</strong> instance has its own
+            uploaded files as <strong>UploadedFileCollection</strong>.
+            </remarks>
+            <example>
+                This example demonstrates how to save the valid uploaded files with a
+                RadUpload control. 
+                <code lang="VB">
+            For Each file As Telerik.WebControls.UploadedFile In RadUpload1.UploadedFiles
+                file.SaveAs(Path.Combine("c:\my files\", file.GetName()), True)
+            Next
+                </code>
+            	<code lang="CS">
+            foreach (Telerik.WebControls.UploadedFile file in RadUpload1.UploadedFiles)
+            {
+                file.SaveAs(Path.Combine(@"c:\my files\", file.GetName()), true);
+            }
+                </code>
+            </example>
+        </member>
+        <member name="P:Telerik.WebControls.RadUpload.FocusOnLoad">
+            <summary>Gets or sets the value indicating whether the first file input field of RadUpload should get
+            the focus on itself on load.</summary>
+            <value>
+            	<strong>true</strong> when the first file input field of RadUpload should get
+            the focus; otherwise <strong>false</strong>. The default value is <strong>false</strong>.
+            </value>
+        </member>
+        <member name="P:Telerik.WebControls.RadUpload.BorderColor">
+            <exclude/>
+            <excludetoc/>
+        </member>
+        <member name="P:Telerik.WebControls.RadUpload.BorderStyle">
+            <exclude/>
+            <excludetoc/>
+        </member>
+        <member name="P:Telerik.WebControls.RadUpload.BorderWidth">
+            <exclude/>
+            <excludetoc/>
+        </member>
+        <member name="P:Telerik.WebControls.RadUpload.CssClass">
+            <exclude/>
+            <excludetoc/>
+        </member>
+        <member name="P:Telerik.WebControls.RadUpload.Font">
+            <exclude/>
+            <excludetoc/>
+        </member>
+        <member name="P:Telerik.WebControls.RadUpload.BackColor">
+            <exclude/>
+            <excludetoc/>
+        </member>
+        <member name="P:Telerik.WebControls.RadUpload.ForeColor">
+            <exclude/>
+            <excludetoc/>
+        </member>
+        <member name="T:Telerik.WebControls.RadUploadUtils.UploadedFileCollection">
+            <summary>Provides access to and organizes files uploaded by a client.</summary>
+            <remarks>
+            Clients encode files and transmit them in the content body using multipart MIME
+            format with an HTTP <b>Content-Type</b> header of <b>multipart/form-data</b>. RadUpload
+            extracts the encoded file(s) from the content body into individual members of an
+            <b>UploadedFileCollection</b>. Methods and properties of the
+            <strong>UploadedFile</strong> class provide access to the contents and properties of
+            each file.
+            </remarks>
+        </member>
+        <member name="P:Telerik.WebControls.RadUploadUtils.UploadedFileCollection.Item(System.Int32)">
+            <summary>
+            	<para>Gets an individual <strong>UploadedFile</strong> object from the file
+                collection.</para>
+            	<para>In C#, this property is the indexer for the
+                <strong>UploadedFileCollection</strong> class.</para>
+            </summary>
+            <value>The <strong>UploadedFile</strong> specified by <i>index.</i></value>
+            <example>
+                The following example retrieves the first file object (index = 0) from the
+                collection sent by the client and retrieves the name of the actual file represented
+                by the object. 
+                <code lang="VB">
+            Dim MyUploadedFile As UploadedFile = RadUpload1.UploadedFiles(0)
+            Dim MyFileName As String = UploadedFile.FileName
+                </code>
+            	<code lang="CS">
+            HttpPostedFile MyUploadedFile = RadUpload1.UploadedFiles[0];
+            String MyFileName = MyUploadedFile.FileName;
+                </code>
+            </example>
+            <seealso cref="T:Telerik.WebControls.UploadedFile">UploadedFile Class</seealso>
+            <seealso cref="P:Telerik.WebControls.RadUpload.UploadedFiles">UploadedFiles Property (Telerik.WebControls.RadUpload)</seealso>
+            <seealso cref="P:Telerik.WebControls.RadUpload.InvalidFiles">InvalidFiles Property (Telerik.WebControls.RadUpload)</seealso>
+            <param name="index">The index of the item to get from the file collection.</param>
+        </member>
+    </members>
+</doc>

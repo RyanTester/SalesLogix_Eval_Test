@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityCompetitor\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:54.1600" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityCompetitor\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:54.1300" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityCompetitor\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:54.1300" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityCompetitor\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:54.1300" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityCompetitor\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:54.1430" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityCompetitor\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:54.1430" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityCompetitor\OnCreate.method.xml" timeStamp="2009-11-19T20:10:54.1430" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityCompetitor\OpportunityCompetitor.OPPORTUNITY_COMPETITOR.entity.xml" timeStamp="2009-11-19T20:10:54.1770" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityCompetitor\SetOppCompetitorDefaults.method.xml" timeStamp="2009-11-19T20:10:54.2400" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityCompetitor\QuickForms\" />
+</exportedFiles>

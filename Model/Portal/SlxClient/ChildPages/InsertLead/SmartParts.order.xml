@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="9ee780b4-a320-4771-89d0-417a36c63f31">InsertLead.smartpart.xml</Item>
+  <Item Id="ee2f9345-0d14-4b55-b385-2d00742f46e4">MatchingLeadRecords.smartpart.xml</Item>
+  <Item Id="03f1a17b-5ff5-470b-afa0-fa4a5d1974ff">LeadSearchForDuplicates.smartpart.xml</Item>
+</ModelItems>

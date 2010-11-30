@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="3aa99157-101b-4497-9577-f6568775a1b8" lastModifiedUtc="2008-06-07T23:09:49.9292854Z" name="ManualMergeLeadWithContact" methodType="Rule" actionType="None" returnMode="None">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="31fd8f64-a271-40ef-ac02-1ddaa6a3e2c8" paramName="targetContact" sequence="0" paramType="IContact" />
+    <OrmEntityMethodParam id="c1adcbbb-1ee5-4558-be9e-c0a68784512d" paramName="mergeRule" sequence="0" paramType="String" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="860fa5ef-e426-45eb-b72e-7a19f2185b1a" lastModifiedUtc="2008-06-08T04:49:16.5727057Z" targetType="Sage.SalesLogix.Lead.Rules, Sage.SalesLogix.BusinessRules" targetMethod="ManualMergeLeadWithContact" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="ee79ce27-25ac-4cc6-b822-a3b15e7e4050" lastModifiedUtc="2008-02-04T21:23:52.8938295Z" name="AssignSerialNumbers" returnType="void" methodType="Rule" actionType="None" returnMode="None" isInstance="true">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="6e3d3ff7-2d40-48ab-adc1-bdc07b3dc10d" paramName="prefix" sequence="0" paramType="String">
+      <description>The prefix to be used for each Serial Number.</description>
+    </OrmEntityMethodParam>
+    <OrmEntityMethodParam id="0c2b5112-beea-44e1-a354-f29014e804e3" paramName="start" sequence="0" paramType="Int32">
+      <description>The start position of the first Serial Number.</description>
+    </OrmEntityMethodParam>
+    <OrmEntityMethodParam id="52287ffc-5c02-4515-984a-853c21589739" paramName="increment" sequence="0" paramType="Int32">
+      <description>The number each Serial Number will be incremented by.</description>
+    </OrmEntityMethodParam>
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="324ebd7a-e7ca-477d-8c0e-07b8f0aabdf5" lastModifiedUtc="2008-02-04T21:23:50.4251111Z" targetType="Sage.SalesLogix.Assets.Rules, Sage.SalesLogix.BusinessRules" targetMethod="AssignSerialNumbers" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

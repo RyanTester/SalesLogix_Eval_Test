@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="7003c921-2ad1-4a40-aa0b-4139d4e2dd80">AddTicket.menu.xml</Item>
+  <Item Id="8b6dbcdb-fad6-4acd-85f0-862d256472a0">mnuSpeedSearch.menu.xml</Item>
+  <Item Id="b85dcdda-aad2-40c2-a057-957b9ce7bbb0">mnuHelp.menu.xml</Item>
+</ModelItems>

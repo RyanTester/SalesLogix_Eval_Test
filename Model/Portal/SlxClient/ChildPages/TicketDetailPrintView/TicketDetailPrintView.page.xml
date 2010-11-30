@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<PortalPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="f228ab6e-2389-47a4-95d1-e0a419c6989b">
+  <PageAlias>TicketDetailPrintView</PageAlias>
+  <TemplateUrl>Masters\base.master</TemplateUrl>
+  <InheritTemplate>true</InheritTemplate>
+  <InheritsFrom>Sage.Platform.WebPortal.EntityPage, Sage.Platform.WebPortal</InheritsFrom>
+  <Properties>
+    <Property Name="EntityTypeName" TypeConverter="">Sage.Entity.Interfaces.ITicket, Sage.Entity.Interfaces</Property>
+  </Properties>
+  <TemplateProperties />
+</PortalPage>

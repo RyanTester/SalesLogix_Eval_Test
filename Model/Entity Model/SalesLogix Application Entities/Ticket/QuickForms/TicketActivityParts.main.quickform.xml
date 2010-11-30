@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QuickFormDefinition Id="372fb4e2-226d-46ec-9e48-26086dd5af48" name="TicketActivityParts">
+  <Properties>
+    <Property name="EntityTypeName" type="System.String">ITicket</Property>
+    <Property name="DefaultNamespace" type="System.String">Sage.Entity.Interfaces</Property>
+    <Property name="AssemblyName" type="System.String">Sage.Entity.Interfaces</Property>
+    <Property name="UseEntityNameAsTitle" type="System.Boolean">True</Property>
+    <Property name="ImagePath" type="System.String"></Property>
+    <Property name="DefinitionType" type="System.String">Sage.Platform.QuickForms.QuickFormMainDetailViewDefinition, Sage.Platform.QuickForms</Property>
+    <Property name="Columns" type="System.ComponentModel.BindingList`1[[System.Windows.Forms.ColumnStyle, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><ArrayOfColumnStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><ColumnStyle><SizeType>Percent</SizeType><Width>100</Width></ColumnStyle></ArrayOfColumnStyle></Property>
+    <Property name="Rows" type="System.ComponentModel.BindingList`1[[System.Windows.Forms.RowStyle, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><ArrayOfRowStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><RowStyle><SizeType>Absolute</SizeType><Height>35</Height></RowStyle><RowStyle><SizeType>Absolute</SizeType><Height>35</Height></RowStyle></ArrayOfRowStyle></Property>
+    <Property name="GeneratePrintView" type="System.Boolean">False</Property>
+    <Property name="Description" type="System.String"></Property>
+    <Property name="ActiveControl" type="System.String"></Property>
+  </Properties>
+  <LoadActions />
+  <QuickFormElements>
+    <QuickFormElement>
+      <Properties>
+        <Property name="EntityMappingType" type="System.String">None</Property>
+      </Properties>
+      <ControlDefinition>
+        <Properties>
+          <Property name="Control" type="Sage.SalesLogix.QuickForms.QFControls.QFDataGrid, Sage.SalesLogix.QuickForms.QFControls"><QFDataGrid xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Column>0</Column><Row>0</Row><IsReadOnly>false</IsReadOnly><HotKey>0</HotKey><TabIndex>0</TabIndex><ControlId>grdParts</ControlId><DataBindings /><ControlLabelPlacement>none</ControlLabelPlacement><CaptionAlignment>left</CaptionAlignment><StyleScheme /><DataSource>dtsParts</DataSource><DataKeyNames>parts.Id</DataKeyNames><EnablePaging>false</EnablePaging><EnableSorting>false</EnableSorting><Columns><QFDataGridCol><StyleScheme /><DataField>ActivityTypeCode</DataField><ColumnId>27b04249-eef1-460a-9c28-f8f709bed180</ColumnId><HorizontalAlignment>left</HorizontalAlignment><HeaderAlignment>left</HeaderAlignment><IsSortable>false</IsSortable><MultiCurrencyDependent>false</MultiCurrencyDependent></QFDataGridCol><QFDataGridCol><StyleScheme /><DataField>ProductName</DataField><ColumnId>e0d6a44d-46f3-4cfe-8318-12839ca9bdc5</ColumnId><HorizontalAlignment>left</HorizontalAlignment><HeaderAlignment>left</HeaderAlignment><IsSortable>true</IsSortable><SortField>AccountProduct.ProductName</SortField><MultiCurrencyDependent>false</MultiCurrencyDependent></QFDataGridCol><QFDataGridCol><StyleScheme /><DataField>SerialNumber</DataField><ColumnId>728906df-a6ec-4b4d-97fc-117d59496b63</ColumnId><HorizontalAlignment>left</HorizontalAlignment><HeaderAlignment>left</HeaderAlignment><IsSortable>true</IsSortable><SortField>AccountProduct.SerialNumber</SortField><MultiCurrencyDependent>false</MultiCurrencyDependent></QFDataGridCol><QFDataGridCol><StyleScheme /><DataField>ActualId</DataField><ColumnId>82d77b9c-045a-4c8b-ae68-d961a4fc765c</ColumnId><HorizontalAlignment>left</HorizontalAlignment><HeaderAlignment>left</HeaderAlignment><IsSortable>true</IsSortable><SortField>AccountProduct.ActualId</SortField><MultiCurrencyDependent>false</MultiCurrencyDependent></QFDataGridCol><QFSLXCurrencyCol><StyleScheme /><DataField>ItemAmount</DataField><ColumnId>e08e5cd5-d618-4806-90c3-7515d2d84ab0</ColumnId><HorizontalAlignment>left</HorizontalAlignment><HeaderAlignment>left</HeaderAlignment><IsSortable>false</IsSortable><SortField>ItemAmount</SortField><MultiCurrencyDependent>false</MultiCurrencyDependent><ExchangeRateType>BaseRate</ExchangeRateType></QFSLXCurrencyCol><QFDataGridCol><StyleScheme /><DataField>ItemDescription</DataField><ColumnId>670cf36f-b6fc-4ba2-a2d9-5857c041f42a</ColumnId><HorizontalAlignment>left</HorizontalAlignment><HeaderAlignment>left</HeaderAlignment><IsSortable>true</IsSortable><SortField>ItemDescription</SortField><MultiCurrencyDependent>false</MultiCurrencyDependent></QFDataGridCol><QFLinkCol><StyleScheme /><DataField /><ColumnId>ec9ec0e8-044f-4029-8ff4-b186ab229c19</ColumnId><HorizontalAlignment>left</HorizontalAlignment><HeaderAlignment>left</HeaderAlignment><IsSortable>false</IsSortable><MultiCurrencyDependent>false</MultiCurrencyDependent><Destination /><Image /><EntityIdField>Id</EntityIdField><EntityTypeName>TicketActivity</EntityTypeName><Target /></QFLinkCol><QFEditCol><StyleScheme /><DataField /><ColumnId>0e3503c4-00e0-44bc-b661-846d29665abc</ColumnId><HorizontalAlignment>left</HorizontalAlignment><HeaderAlignment>left</HeaderAlignment><IsSortable>false</IsSortable><MultiCurrencyDependent>false</MultiCurrencyDependent><DialogSpecs><SmartPart>AddEditTicketActivityItem</SmartPart><Height>400</Height><Width>400</Width><Top>0</Top><Left>0</Left><EntityType>TicketActivityItem</EntityType><ResourceKey>a16e3f07-7006-4217-b9f6-a0939ae99994</ResourceKey><CenterDialog>True</CenterDialog></DialogSpecs></QFEditCol><QFRowSelectionCol><StyleScheme /><DataField /><ColumnId>f59f8905-b3b3-4266-8262-faf2a24bfb9b</ColumnId><HorizontalAlignment>left</HorizontalAlignment><HeaderAlignment>left</HeaderAlignment><IsSortable>false</IsSortable><MultiCurrencyDependent>false</MultiCurrencyDependent><Image /></QFRowSelectionCol><QFDeleteCol><StyleScheme /><DataField /><ColumnId>bf2affa6-c683-4230-8092-45be1d7874e5</ColumnId><HorizontalAlignment>left</HorizontalAlignment><HeaderAlignment>left</HeaderAlignment><IsSortable>false</IsSortable><MultiCurrencyDependent>false</MultiCurrencyDependent><BusinessRule>DeleteTicketActivityPart</BusinessRule><BusinessRuleObjectName>Ticket</BusinessRuleObjectName><BusinessRuleParameters><BusinessRuleParameter><DataSourceID>dtsParts</DataSourceID></BusinessRuleParameter></BusinessRuleParameters></QFDeleteCol></Columns><RenderVertical>false</RenderVertical><OnRowSelectedAction><ResourceKey>grdParts</ResourceKey><RootActionName>CSharpSnippetAction</RootActionName><Action><CSharpCodeSnippet><![CDATA[if (dtsParts != null && dtsParts.SelectedMember != null)
+{
+    Sage.Platform.ComponentModel.ComponentView componentView = (Sage.Platform.ComponentModel.ComponentView)dtsParts.SelectedMember;
+    if (componentView != null)
+    {
+        System.ComponentModel.PropertyDescriptorCollection propDescriptors = componentView.GetProperties();
+        if (propDescriptors != null)
+        {
+            System.ComponentModel.PropertyDescriptor propDescriptor = propDescriptors.Find("parts.Id", true);
+            if (propDescriptor != null)
+            {
+                object partId = propDescriptor.GetValue(componentView);
+                Sage.Entity.Interfaces.ITicketActivityItem part = Sage.Platform.EntityFactory.GetById<Sage.Entity.Interfaces.ITicketActivityItem>(partId.ToString());
+                if (part != null)
+                {
+                    part.CopyPart(part.TicketActivity);
+					part.TicketActivity.Save();
+                    Sage.Platform.WebPortal.Services.IPanelRefreshService refresher = PageWorkItem.Services.Get<Sage.Platform.WebPortal.Services.IPanelRefreshService>();
+                    if (refresher != null)
+                    {
+                        refresher.RefreshAll();
+                    }
+                }
+            }
+        }
+    }
+}]]></CSharpCodeSnippet></Action><IsDialogCloseAction>False</IsDialogCloseAction><RunOnEveryRePaint>False</RunOnEveryRePaint><DialogActionResult>NoResult</DialogActionResult></OnRowSelectedAction></QFDataGrid></Property>
+        </Properties>
+      </ControlDefinition>
+    </QuickFormElement>
+    <QuickFormElement>
+      <Properties>
+        <Property name="EntityMappingType" type="System.String">None</Property>
+      </Properties>
+      <ControlDefinition>
+        <Properties>
+          <Property name="Control" type="Sage.Platform.QuickForms.QFControls.QFDataSource, Sage.Platform.QuickForms.QFControls"><QFDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Column>0</Column><Row>1</Row><IsReadOnly>false</IsReadOnly><Visible>false</Visible><HotKey>48</HotKey><TabIndex>0</TabIndex><ControlId>dtsParts</ControlId><DataBindings /><ControlLabelPlacement>none</ControlLabelPlacement><CaptionAlignment>left</CaptionAlignment><StyleScheme /><EntityTypeName>Sage.Platform.ComponentModel.ComponentView</EntityTypeName><GetByMethod>GetTicketActivityParts</GetByMethod><GetByProperty /><UseSmartSelection>true</UseSmartSelection></QFDataSource></Property>
+        </Properties>
+      </ControlDefinition>
+    </QuickFormElement>
+  </QuickFormElements>
+  <QuickFormToolElements />
+</QuickFormDefinition>

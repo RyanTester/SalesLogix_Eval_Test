@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="c7c1733b-2bc5-442a-9237-4828e8d00b38" lastModifiedUtc="2008-03-06T17:47:16.4387218Z" name="DeleteTicketActivityPart" returnType="void" methodType="Rule" actionType="None" returnMode="None" isInstance="true">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="62dc9f44-70e8-4b8f-b7fc-9f1f1e5727c2" paramName="componentView" sequence="0" paramType="ComponentView" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="fdd3779b-ccd3-4bd0-9b89-43d643d63335" lastModifiedUtc="2008-03-06T17:47:14.7101398Z" targetType="Sage.SalesLogix.Ticket.Rules, Sage.SalesLogix.BusinessRules" targetMethod="DeleteTicketActivityPart" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

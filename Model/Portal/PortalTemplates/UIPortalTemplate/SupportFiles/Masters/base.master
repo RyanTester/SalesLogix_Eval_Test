@@ -1,0 +1,359 @@
+<%@ Import namespace="Sage.SalesLogix"%>
+<%@ Import namespace="Sage.Platform.Application"%>
+<%@ Import namespace="Sage.Platform.Security"%>
+<%@ Master Language="C#" %>
+<%@ Register Assembly="Sage.SalesLogix.Client.GroupBuilder" Namespace="Sage.SalesLogix.Client.GroupBuilder.Controls" TagPrefix="SalesLogix" %>
+<%@ Register Assembly="Sage.Platform.WebPortal" Namespace="Sage.Platform.WebPortal.SmartParts" TagPrefix="smartParts" %>
+<%@ Register Assembly="Sage.Platform.WebPortal" Namespace="Sage.Platform.WebPortal.Workspaces" TagPrefix="workSpace" %>
+<%@ Register Assembly="Sage.Platform.WebPortal" Namespace="Sage.Platform.WebPortal.Services" TagPrefix="Services" %>
+<%@ Register Assembly="Sage.SalesLogix.Web.Controls" Namespace="Sage.SalesLogix.Web.Controls.PickList" TagPrefix="SalesLogix" %>
+<%@ Register Assembly="Sage.SalesLogix.Web.Controls" Namespace="Sage.SalesLogix.Web.Controls" TagPrefix="SalesLogix" %>
+<%@ Register Assembly="Sage.SalesLogix.Web.Controls" Namespace="Sage.SalesLogix.Web.Controls.Lookup" TagPrefix="SalesLogix" %>
+<%@ Register Assembly="Sage.SalesLogix.Web.Controls" Namespace="Sage.SalesLogix.Web.Controls.Timeline" TagPrefix="SalesLogix" %>
+<%@ Register Assembly="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Namespace="System.Web.UI" TagPrefix="asp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<script runat="server">
+
+    public bool IncludeMiddlePane
+    {
+        get { return TabControl.IncludeMiddlePane; }
+        set { TabControl.IncludeMiddlePane = value; }
+    }
+
+    public bool IncludeMoreTabsTab
+    {
+        get { return TabControl.IncludeMoreTabsTab; }
+        set { TabControl.IncludeMoreTabsTab = value; }
+    }
+
+    public int DefaultVisibleTabCount
+    {
+        get { return TabControl.DefaultVisibleTabCount; }
+        set { TabControl.DefaultVisibleTabCount = value; }
+    }
+
+    [System.ComponentModel.Editor("Sage.Platform.WebPortal.Design.UITypeEditors.SmartPartTypeEditor, Sage.Platform.WebPortal.Design", typeof(System.Drawing.Design.UITypeEditor))]
+    public string OverrideActiveTab
+    {
+        get { return TabControl.OverrideActiveTab; }
+        set { TabControl.OverrideActiveTab = value; }
+    }
+
+    private bool _includeCollapseBtn = true;
+    public bool MainContentWorkspace_IncludeCollapseButton
+    {
+        get { return _includeCollapseBtn; }
+        set { _includeCollapseBtn = value; }
+    }
+
+    [System.ComponentModel.Browsable(false)]
+    public override string ID
+    {
+        get { return base.ID; }
+        set { base.ID = value; }
+    }
+
+    [System.ComponentModel.Browsable(false)]
+    public override bool Visible
+    {
+        get { return base.Visible; }
+        set { base.Visible = value; }
+    }
+
+    [System.ComponentModel.Browsable(false)]
+    public new string MasterPageFile
+    {
+        get { return base.MasterPageFile; }
+        set { base.MasterPageFile = value; }
+    }
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (UseActiveMail())
+        {
+            String ObjectScript = @"<object id='SEN' codebase='SLXActiveMail.cab#version=-1,-1,-1,-1' height='0' width='0' classid='clsid:A2CBD67A-F77D-45DF-9621-5F563DAE18FF'></object>
+            <object id='slmn' classid='clsid:185AE03D-FC11-4C08-B491-9AB2A3092682' width='0' height='0'></object>
+            <object id='EventHook' classid='CLSID:8329EDA5-8C70-489C-A61D-95C49CA5D458' width='0' height='0'></object>
+            <object id='MailMergeGUI' classid='clsid:C7719EB7-B4E1-47EF-8DA8-FAFBFF0613B7' height='0' width='0'></object>
+            <object id='AddressLabels' classid='clsid:7BD5B880-F863-40BA-AB7D-9AE101F94C17' height='0' width='0'></object>
+            <object id='MailMerge' classid='clsid:E1416546-DF90-420E-A259-44E0B2FE6B77' height='0' width='0'></object>
+            <object id='TemplateEditor' classid='clsid:5FD7FB2C-B9C4-463F-ACE8-D1CA8EB6BDB8' height='0' width='0'></object>
+            <object id='ProgressDlg' classid='clsid:4849E2F3-176C-4692-964B-14DB18D7F75F' height='0' width='0'></object>";
+            String VbScript = "<script type='text/vbscript' src='jscript/MailMerge.vbs'><" + "/script>";
+            String JsScript = "<script type='text/javascript' src='jscript/MailMerge.js'><" + "/script>";
+            String XmlSupport = "<script type='text/javascript' src='jscript/XmlSupport.js'><" + "/script>";
+            Page.Header.Controls.Add(new Sage.SalesLogix.Client.MailMerge.MailMergeInitControl());
+            Page.Header.Controls.Add(new LiteralControl(ObjectScript));
+            Page.Header.Controls.Add(new LiteralControl(VbScript));
+            Page.Header.Controls.Add(new LiteralControl(XmlSupport));
+            Page.Form.Controls.Add(new LiteralControl(JsScript));
+            //Page.ClientScript.RegisterStartupScript(this.GetType(), "initEmailNotification", "<script type=\"text/javascript\">initEmailNotification();<" + "/script>");
+            //Page.ClientScript.RegisterStartupScript(this.GetType(), "initEmailNotification", "<script type='text/javascript' src='jscript/MailMerge.js'><" + "/script>");
+        }
+    }
+
+    protected void LoginName_Load(object sender, EventArgs e)
+    {
+        if ((ScriptManager.GetCurrent(Page) == null) || (!ScriptManager.GetCurrent(Page).IsInAsyncPostBack))
+        {
+            Sage.SalesLogix.Security.SLXUserService userService = Sage.Platform.Application.ApplicationContext.Current.Services.Get<IUserService>() as Sage.SalesLogix.Security.SLXUserService;
+            if (userService != null)
+            {
+                Sage.SalesLogix.Security.User user = userService.GetUser();
+                LoginName.Text = String.Format(GetLocalResourceObject("UserWelcomeText").ToString(), user.UserInfo.FirstName, user.UserInfo.LastName);
+            }
+
+            Page.Title = GetLocalResourceObject("PageTitle").ToString();
+        }
+    }
+
+    public bool ShowUnsavedDataWarning
+    {
+        get
+        {
+			IUserOptionsService _userOptions = ApplicationContext.Current.Services.Get<IUserOptionsService>();
+            if (_userOptions != null)
+            {
+                return _userOptions.GetCommonOption("ShowUnsavedDataWarning", "web", false, "True", "Show Unsaved Data Warning") == "True";
+            }
+            return false;
+        }
+    }
+
+    private bool UseActiveMail()
+    {
+        Sage.Platform.Application.IContextService context = Sage.Platform.Application.ApplicationContext.Current.Services.Get<Sage.Platform.Application.IContextService>(true);
+
+        if (context != null)
+        {
+            if (context.GetContext("ActiveMail") != null)
+            {
+                return (bool) context.GetContext("ActiveMail");
+            }
+            else if (Request.Cookies["SlxActiveMail"] != null)
+            {
+                bool useActiveMail = (Request.Cookies["SlxActiveMail"].Value == "T");
+                context.SetContext("ActiveMail", useActiveMail);
+                return useActiveMail;
+            }
+            else
+            {
+                Sage.SalesLogix.WebUserOptions.GeneralSearchOptions options = Sage.SalesLogix.WebUserOptions.GeneralSearchOptions.Load(Server.MapPath(@"App_Data\LookupValues"));
+                context.SetContext("ActiveMail", options.UseActiveMail);
+                return options.UseActiveMail;
+            }
+        }
+        return false;
+    }
+
+    protected void Search1_Click(object sender, ImageClickEventArgs e)
+    {
+        if (SearchText.Text != GetLocalResourceObject("SpeedSearch").ToString())
+        {
+            Sage.Platform.Application.IContextService context =
+                Sage.Platform.Application.ApplicationContext.Current.Services.Get
+                    <Sage.Platform.Application.IContextService>(true);
+            context.SetContext("SearchRequestText", SearchText.Text);
+        }
+        Response.Redirect("SpeedSearch.aspx");
+    }
+
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+	<title>Sage SalesLogix</title>
+    <link rel="stylesheet" type="text/css" href="~/css/YUI/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/YUI/reset.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/SlxBase.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/quickform.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/menus.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/YUI/container.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/YUI/calendar.css" />
+
+    <script type="text/javascript" src="jscript/general.js"></script>
+    <script type="text/javascript" src="jscript/cookiesobj.js"></script>
+    
+</head>
+<body>
+    <form id="mainform" runat="server" action="javascript:void(0);">
+        <div class="MainHeader">
+             <div class="MainHeaderRight">
+                <a href="UserOptions.aspx" id="lnk_UserOptions"><asp:Localize runat="server" ID="lclzOptions" Text="<%$ resources: Options  %>" >Options</asp:Localize></a>
+                |
+                <a href="Shutdown.axd" id="lnk_LogOff"><asp:Localize runat="server" ID="lclzlgoff" Text="<%$ resources: LogOff %>">Log Off</asp:Localize></a>
+            </div>
+           <div class="MainHeaderLeft">
+                <asp:Image runat="server" ID="imgLogo" ImageAlign="Middle" ImageUrl="~/images/saleslogix.gif" AlternateText="" />
+            </div>
+            <div class="MainHeaderLeft">
+              <div class="MainHeaderText">
+                <asp:Label ID="LoginName" runat="server" OnLoad="LoginName_Load" />
+                &nbsp;&nbsp;
+				<asp:Label ID="TodayIs" runat="server" Text="<%$ resources: TodayIs %>"></asp:Label>&nbsp;
+                <smartParts:CurrentDate ID="CurrentDate" runat="server" />
+             </div>
+            </div>
+            <div class="MainHeaderToolBar">
+                <div id="ssDrowdown" class="ssdropdown" onmouseover="this.className='ssdropdownhighlite'" onmouseout="javascript:MenuBtnLeave(this)" onclick="javascript:ShowMenuItem()">
+						<asp:ImageButton ID="ImageButton1"  runat="server" Width="5" Height="3" ImageUrl="~/images/blue/menuDropDown.gif" ImageAlign="Middle" AlternateText="<%$ resources: Search %>"  />
+                    </div>
+                <div id="SSButtons" class="ssbutton" onmouseover="this.className='ssbuttonhighlite'" onmouseout="this.className='ssbutton'">
+						<asp:ImageButton ID="Search1"  runat="server" Width="12" Height="12" ImageUrl="~/images/icons/Speed_Search_16x16.gif" ImageAlign="Middle" OnClick="Search1_Click" AlternateText="<%$ resources: Search %>"  />
+                    </div>
+                <div id="ssTextDiv" style="float:right;">
+                    <asp:TextBox ID="SearchText" runat="server" style="width:150px;height:16px;padding-left:3px;" Text="<%$ resources: SpeedSearch %>" CssClass="tboxinfo" onfocus="checkSSText(this)" onkeydown="javascript:HandleEnterKeyMaster(event, this.id)"></asp:TextBox></div>
+                <div id="ssMenuItemDiv" class="ssbutton" style="display:none;position:absolute; width:182px; height:20px; margin-left:2px" onmouseout="ssTimerId=window.setTimeout('HideSSDropDown()',1000)" onmouseover="clearTimeout(ssTimerId)">
+                    <a href="SpeedSearch.aspx" onmouseover="clearTimeout(ssTimerId)" >
+                        <asp:Literal ID="Literal1" runat="server" Text="<%$ resources: ssMenuItem_Advanced%>" /></a></div>
+                <workSpace:ToolbarWorkspace runat="server" ID="ToolBar"></workSpace:ToolbarWorkspace>
+            </div>
+            <script type="text/javascript">
+            var ssTimerId;
+            function ShowMenuItem()
+            {
+                var txtdiv = $get('ssTextDiv');
+                var menudiv = $get('ssMenuItemDiv');
+                var bounds = Sys.UI.DomElement.getBounds(txtdiv);
+                menudiv.style.left = bounds.x;
+                menudiv.style.top = "56px";
+                menudiv.style.display = "block";
+            }
+            function checkSSText(tbox) {
+              if (tbox.value == tbox.defaultValue) {
+                if (Sys.UI.DomElement.containsCssClass(tbox, "tboxinfo")) {
+                  Sys.UI.DomElement.removeCssClass(tbox, "tboxinfo");
+                  tbox.value = "";
+                }
+              }
+            }
+            function HideSSDropDown()
+            {
+                var menudiv = $get('ssMenuItemDiv');
+                menudiv.style.display = "none";
+            }
+            function MenuBtnLeave(obj)
+            {
+                obj.className="ssdropdown";
+                ssTimerId=window.setTimeout('HideSSDropDown()',1000);
+            }
+            function HandleEnterKeyMaster(e, id)
+            {
+                if (!e) var e = window.event;
+                if (e.keyCode == 13) //Enter
+                {
+                    e.returnValue = false;
+                    e.cancelBubble = true;
+                    var strs = id.split('_');
+                    var btnId = strs[0] + "_Search1";
+                    var btn = $get(btnId);
+                    if (document.createEvent)
+                    {
+                        var evt = document.createEvent("MouseEvents");
+                        evt.initMouseEvent("click", true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
+                        btn.dispatchEvent(evt);
+                    }
+                    else
+                    {
+                        btn.click();
+                    }
+                }
+            }
+            </script>
+            <div class="Clear">
+            </div>
+            <div class="MainHeaderRecent">
+            </div>
+            <div class="MainHeaderDivLine">
+            </div>
+        </div>
+		<div id="asyncpostbackindicator" style="visibility:hidden;position:absolute;top:0.4em;right:10em;"><asp:Image ID="Image1" ImageUrl="~/images/loading_animation_liferay.gif" AlternateText="<%$ resources: Loading %>" runat="server" /></div>
+        <div class="Clear"></div>
+     <table border="0" cellpadding="0" cellspacing="0" width="100%">
+	  <col id="NavBarSpace" />
+	  <col />
+	  <tr>
+	   <td valign="top">
+        <div class="NavBar">
+            <SalesLogix:ActivityReminder runat="server" ID="ActivityReminders" />
+            <workSpace:NavWorkspace ID="NavBar" runat="server" ImagePosition="left">
+            </workSpace:NavWorkspace>
+        </div>
+	   </td>
+       <td valign="top">
+        <div id="MainWorkArea">
+        <asp:Panel ID="content" runat="server">
+        <asp:UpdatePanel runat="server" ID="mainformUpdatePanel" ChildrenAsTriggers="true" UpdateMode="conditional">
+                <ContentTemplate>
+            <workSpace:MainContentWorkspace ID="MainContent" runat="server" SmartPartInfoStyle-CssClass="mainContentHeader" SmartPartContainerStyle-CssClass="mainContentContent" />
+            </ContentTemplate>
+        </asp:UpdatePanel>
+            <workSpace:TabWorkspace ID="TabControl" runat="server" IncludeMiddlePane="true" UseEmbeddedStyles="true" ></workSpace:TabWorkspace>
+		</asp:Panel>
+       </div>	   
+	   </td>
+	  </tr>
+     </table>
+            
+            <asp:UpdatePanel runat="server" ID="DialogUpdatePanel" ChildrenAsTriggers="true" UpdateMode="conditional">
+                <ContentTemplate>
+                    <workSpace:DialogWorkspace runat="server" ID="DialogWorkspace"></workSpace:DialogWorkspace>
+                </ContentTemplate>
+            </asp:UpdatePanel>
+            <asp:UpdateProgress ID="mainformUpdateProgress" runat="server" AssociatedUpdatePanelID="mainformUpdatePanel">
+                <ProgressTemplate>
+                    <div class="updateProgress">
+						<asp:Image ID="Image2" ImageUrl="~/images/loading_animation_liferay.gif" AlternateText="<%$ resources: Updating %>" runat="server" /><br />
+                        <asp:Localize runat="server" ID="lclzPleaseWait" Text="<%$ resources: PleaseWait %>">Please Wait...</asp:Localize>
+                    </div>
+                </ProgressTemplate>
+            </asp:UpdateProgress>
+            <smartParts:UpdateProgressOverlayExtender ID="mainformUpdateProgressExtender" runat="server" ControlToOverlayID="content"
+              TargetControlID="mainformUpdateProgress" OverlayType="control" CssClass="updateProgress" />
+       <Services:WebClientMessageService ID="SageSLXMessage" runat="server" />
+	<div id="defaultErrorMessage" style="display:none; visibility:hidden"><asp:Localize ID="lclzUnspecifiedError" runat="server" Text="<%$ resources: UnspecifiedError %>"></asp:Localize></div>
+   </form>
+<script type="text/javascript">
+Sys.WebForms.PageRequestManager.getInstance().add_initializeRequest(showRequestIndicator);
+Sys.WebForms.PageRequestManager.getInstance().add_endRequest(hideRequestIndicator);
+function showRequestIndicator() {
+	var elem = document.getElementById("asyncpostbackindicator");
+	if (elem) { elem.style.visibility = "visible"; }
+}
+function hideRequestIndicator(sender, args) {
+	var elem = document.getElementById("asyncpostbackindicator");
+	if (elem) { elem.style.visibility = "hidden"; }
+   if (args.get_error() != undefined)
+   {
+       var errorMessage;
+       if (args.get_response().get_statusCode() == '200')
+       {
+           errorMessage = args.get_error().message;
+       }
+       else
+       {
+           // Error occurred somewhere other than the server page.
+           //errorMessage = 'An unspecified error occurred. ';
+    		var e = $get("defaultErrorMessage");
+			if (e) {
+				if (e.innerText) {
+					errorMessage = e.innerText;
+				} else {
+					for (var i = 0; i < e.childNodes.length; i++) {
+						if (e.childNodes[i].nodeType == 3) {
+							errorMessage = e.childNodes[i].nodeValue;
+							break;
+						}
+					}
+				}
+			}       
+		}
+       args.set_errorHandled(true);
+       var msgService = Sage.Services.getService("WebClientMessageService");
+       if (msgService) { msgService.showClientMessage(errorMessage); }
+   }
+}
+</script>
+</body>
+</html>

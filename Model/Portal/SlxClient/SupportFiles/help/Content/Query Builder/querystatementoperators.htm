@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="Gainey;decompilation;Admin;N;AccountID;USERINFO;AccountManagerID;UserID;USERPROFILE;t;OPPORTUNITYID;USER_ACTIVITY;CreateUser;CreateDate;ModifyUser;ModifyDate;Opportunity.Salespotential;Opportunity.Closeprobability;Opportunity.Status;Opportunity.Account.;Contact.Lastname;Contact.Firstname.;d.ddd...E+ddd;E;f;ddd.ddd...;g;n;d;ddd;acc_acc;con_con;opp_opp;conlname;Truevalue;FormatType;ftBoolean;FormatString;T;c;ShortDateFormat;LongTimeFormat;DateTime;ShortDayNames;dddd;LongDayNames;ddddd;dddddd;LongDateFormat;m;hh;mmm;Jan-Dec;ShortMonthNames;mmmm;LongMonthNames;yy;yyyy;nn;ss;ShortTimeFormat;tt;pm;ampm;TimeAMString;TimePMString;ftCurrency;USERID;SECCODE;F;PickList;ASC;Z;DESC;field(s;WebTicket;DataGrid;Bldr;Account.Address.Postalcode;Accountmangerid;Account.Accountmanagerid;Userid;Sens;Contact.Status;Contact.Account.Revenue;xxx" MadCap:comment="061002 JM: table style.KC 4/17/02: Merged versions from all Help systems." MadCap:timeEstimate="0" MadCap:priority="0" MadCap:check_list="First Draft" MadCap:status="In Progress" MadCap:lastBlockDepth="5" MadCap:lastHeight="648" MadCap:lastWidth="476" MadCap:conditions="Output.WebClient" MadCap:tocPath="" MadCap:PathToHelpSystem="../../" MadCap:SearchType="Stem">
+    <!-- saved from url=(0014)about:internet -->
+    <head><title>Query Builder Statement Operators</title>
+        <link rel="StyleSheet" href="../SALESLOGIX.CSS" />
+        <script src="../SkinSupport/MadCapUtilities.js">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js">
+        </script>
+    </head>
+    <body>
+        <h1>Query Builder Statement Operators<a name="kanchor441"></a></h1>
+        <p>When you add a conditional statement, you must select an operator. The operator  is used to determine whether or not a record meets the criteria defined in a  conditional statement. When you add a conditional statement, the default  operator and other available operators depend on the       <![CDATA[ ]]><a href="queryfieldconventions.htm">field 
+ type</a>.</p>
+        <p>The following table describes all of the possible operators.</p>
+        <table wrapperparagraphselector="P" style="width: 432px;margin-left: 0.35pt;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="432">
+            <col style="width: 75px;" />
+            <col />
+            <tr>
+                <td style="padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" class="Tabletop">
+                    <p class="Tabletop" style="text-decoration: none;"><span style="font-weight: normal;">&#160;&#160;</span>Operator</p>
+                </td>
+                <td style="width: 441px;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" width="441px" class="Tabletop">
+                    <p class="Tabletop" style="text-indent: -5.75pt;margin-bottom: 0;text-decoration: none;">&#160;&#160;Selects 
+ a record if the applicable field contains a value that:</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">Starting With</p>
+                </td>
+                <td style="width: 441px;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" width="441px" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">Starts with the value defined in the Value 
+ is box.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">Contains</p>
+                </td>
+                <td style="width: 441px;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" width="441px" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">Contains the string defined in the Value 
+ is box.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">(=) equal to</p>
+                </td>
+                <td style="width: 441px;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" width="441px" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">Equals the value defined in the Value is 
+ box.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">(&lt;&gt;) not equal to</p>
+                </td>
+                <td style="width: 441px;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" width="441px" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">Is not equal to the value defined in the 
+ Value is box.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">(&lt;) less than</p>
+                </td>
+                <td style="width: 441px;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" width="441px" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">Is less than the value defined in the Value 
+ is box.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">(&lt;=) less than or equal to</p>
+                </td>
+                <td style="width: 441px;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" width="441px" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">Is less than or equal to the value defined 
+ in the Value is box.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">(&gt;) greater than</p>
+                </td>
+                <td style="width: 441px;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" width="441px" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">Is greater than the value defined in the 
+ Value is box.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">(&gt;=) greater than or equal to</p>
+                </td>
+                <td style="width: 441px;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" width="441px" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">Is greater than or equal to the value defined 
+ in the Value is box.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">In</p>
+                </td>
+                <td style="width: 441px;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" width="441px" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">Contains one of the strings defined in the 
+ Value is box, such as an embedded literal OR statement. You must use quotation 
+ marks around any values to indicate what it should search for.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">does not contain data</p>
+                </td>
+                <td style="width: 441px;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" width="441px" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">Is null (contains no value).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">does contain data</p>
+                </td>
+                <td style="width: 441px;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" width="441px" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">Is not null (contains any value).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">within last xxx days</p>
+                </td>
+                <td style="width: 441px;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" width="441px" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">Is a date within the last "xxx" 
+ days (past). Enter either an integer or two integers separated by a comma 
+ for a date range.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">within next xxx days</p>
+                </td>
+                <td style="width: 441px;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" width="441px" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">Is a date within the next "xxx" 
+ days (future). Enter either an integer or two integers separated by a 
+ comma for a date range.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="querybuilderoverview.htm" target="_self">Query Builder Overview</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>
+            </p>
+            <p style="border-top-style: Groove;border-top-color: #c0c0c0;border-top-width: 1px;">&#160;</p>
+            <p><![CDATA[ ]]><a href="../General/feedback.htm" target="_blank">Tell us how we can make the Help better.</a></p>
+        </div>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

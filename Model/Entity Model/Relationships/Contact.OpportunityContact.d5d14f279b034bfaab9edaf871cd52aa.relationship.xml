@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="d5d14f27-9b03-4bfa-ab9e-daf871cd52aa" lastModifiedUtc="2008-10-24T19:55:09.5313553Z" parentEntityId="750a7f26-3604-467b-94fe-249370231df4" childEntityId="482a6173-5ea2-4bae-8779-b3009c0d2cff" cascadeOption="SaveUpdateDelete">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="e20c8584-a4ac-4251-9035-215ac14c4e23" lastModifiedUtc="0001-01-01T00:00:00" name="Opportunities" audited="false">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="032b8f58-71d3-46e4-a669-8bfcc4239046" lastModifiedUtc="2008-10-24T19:55:09.5313553Z" name="Contact" audited="false">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="73723285-44e6-4952-b74e-0a7d9d6d134e" parentPropertyId="67fe9234-a814-4d79-a813-01046c1ae19d" childPropertyId="dadf0bb0-e5ba-41a2-b11e-65fbec0593ab" ordinal="0" />
+  </column>
+</relationship>

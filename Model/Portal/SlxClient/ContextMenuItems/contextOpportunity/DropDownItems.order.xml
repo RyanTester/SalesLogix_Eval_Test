@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="27833f09-5273-4313-a0a2-b5c27f354680">menuItemLookupOpportunity.contextmenu.xml</Item>
+  <Item Id="3686f2be-448e-4aa7-be9a-1617c1a51963">menuItemNewOpportunity.contextmenu.xml</Item>
+  <Item Id="d8adddc4-c716-4d55-937b-4985f66af99e">menuItemCreateNewGroup.contextmenu.xml</Item>
+</ModelItems>

@@ -1,0 +1,22 @@
+#if($qfcontrol.DisplayMode != "AsControl")<div class="Clear">#end
+<SalesLogix:Copy ID="${qfcontrol.ControlId}" runat="server" CopyToDestination="${qfcontrol.CopyToDestination}"
+ ContentConfig="~/SummaryConfigData/${qfcontrol.LayoutFormName}.xml" 
+#if(($qfcontrol.IsReadOnly) || (!$qfcontrol.Enabled))Enabled="false" #end
+#if($qfcontrol.ToolTip != "") ToolTip="<%$ resources: ${qfcontrol.ControlId}.ToolTip %>" #end
+#if($qfcontrol.TabIndex > 0)TabIndex="$qfcontrol.TabIndex" #end
+#if(!$qfcontrol.Visible)Visible="false" #end
+#if($qfcontrol.DisplayMode == "AsControl")
+ #if($qfcontrol.ButtonImage != "")ButtonImageUrl="$generator.getImageResourceURL( ${qfcontrol.ButtonImage} )" #end
+ DisplayMode="AsControl" 
+#else
+ Text="<%$ resources: ${qfcontrol.ControlId}.Caption %>" DisplayMode="AsHyperlink"
+#end
+#if($qfcontrol.CopyToDestination == "Email")
+ #if($qfcontrol.BCCEmailAddress != "") BCCEmailAddress="${qfcontrol.BCCEmailAddress}" #end
+ #if($qfcontrol.EmailSubject != "") EmailSubject="${qfcontrol.EmailSubject}" #end
+ #if($qfcontrol.RecipientEmailAddress != "") RecipientEmailAddress="${qfcontrol.RecipientEmailAddress}" #end
+ #if($qfcontrol.CCEmailAddress != "") CCEmailAddress="${qfcontrol.CCEmailAddress}" #end
+#end
+>
+</SalesLogix:Copy>
+#if($qfcontrol.DisplayMode != "AsControl")</div>#end

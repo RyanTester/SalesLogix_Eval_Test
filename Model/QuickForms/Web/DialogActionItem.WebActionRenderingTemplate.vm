@@ -1,0 +1,12 @@
+if (DialogService != null) {
+	// DialogActionItem
+#if(${action.CenterDialog} == true) 
+	DialogService.SetSpecs(${action.Height}, ${action.Width}, "${action.SmartPart}",#if($action.TitleOverride != "") GetLocalResourceObject("${action.ResourceKey}.DialogTitleOverride").ToString() #else string.Empty #end);
+#else
+	DialogService.SetSpecs(${action.Top}, ${action.Left}, ${action.Height}, ${action.Width}, "${action.SmartPart}",#if($action.TitleOverride != "") GetLocalResourceObject("${action.ResourceKey}.DialogTitleOverride").ToString() #else string.Empty #end, "false");
+#end
+  #if($action.EntityType != "")
+  DialogService.EntityType = typeof(${action.GetQualifiedEntityType}); 
+  #end
+  DialogService.ShowDialog();
+}

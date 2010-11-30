@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="31dc03b6-e3cf-4baa-95d8-6d484b8b12cf">Sage.Platform.Data.IDataService.service.xml</Item>
+  <Item Id="e6e77ab1-1707-44f2-a172-51f9fe8bbfda">Sage.SalesLogix.Client.GroupBuilder.IGroupContextService.service.xml</Item>
+  <Item Id="d1e166cb-0eaf-499c-8055-d829350e2f02">Sage.Platform.Security.IUserService.service.xml</Item>
+  <Item Id="1a00b887-e443-411a-8acb-667fea01eed2">Sage.Platform.Application.Services.IUserOptionsService.service.xml</Item>
+  <Item Id="8bfa495a-279c-4f36-9ac8-65ea30eabcb8">Sage.Platform.Application.Services.ITransactionManagerService.service.xml</Item>
+  <Item Id="d663be32-af44-4a3d-b197-cbe2aa79ea73">Sage.Platform.NamedQueries.INamedQueryCacheService.service.xml</Item>
+  <Item Id="84020ec7-3d1b-4a69-9a75-4da690685937">Sage.Platform.NamedQueries.INamedQueryLookupService.service.xml</Item>
+  <Item Id="bc92695a-c3f2-47a6-998c-fb95155a2261">Sage.Platform.Mashups.IMashupDiscoveryService.service.xml</Item>
+  <Item Id="142709a2-b6f2-46ff-a652-6293cf0134ea">Sage.Platform.Security.IFieldLevelSecurityService.service.xml</Item>
+  <Item Id="523de0f7-8a76-4274-beb9-72753611130e">Sage.Platform.Data.IHibernateConfigurationService.service.xml</Item>
+  <Item Id="e6e77ab1-1707-44f2-a172-51f9fe8bbfda">Sage.SalesLogix.SelectionService.ISelectionService.service.xml</Item>
+</ModelItems>

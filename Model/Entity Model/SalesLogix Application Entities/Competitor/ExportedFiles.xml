@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Competitor\Competitor.COMPETITOR.entity.xml" timeStamp="2009-11-19T20:10:51.1800" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Competitor\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:51.1970" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Competitor\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:51.1800" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Competitor\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:51.2130" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Competitor\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:51.2130" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Competitor\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:51.2130" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Competitor\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:51.2130" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Competitor\OnCreate.method.xml" timeStamp="2009-11-19T20:10:51.2430" />
+</exportedFiles>

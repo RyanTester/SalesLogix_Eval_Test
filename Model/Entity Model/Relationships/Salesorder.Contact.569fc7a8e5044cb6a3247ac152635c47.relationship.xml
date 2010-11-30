@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="569fc7a8-e504-4cb6-a324-7ac152635c47" lastModifiedUtc="2008-03-05T23:12:37.6481265Z" cardinality="M:1" parentEntityId="9b47425f-3b70-4f38-a4cf-574c64d46086" childEntityId="750a7f26-3604-467b-94fe-249370231df4">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="383e7a5f-9f46-4a4d-aca9-d7307ba1b128" lastModifiedUtc="2008-03-05T23:12:35.0546421Z" name="ShippingContact" audited="false" displayCategory="Intermediate" isNullable="true" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="97b7ab73-e47d-44a7-80a6-3b138836ecd3" lastModifiedUtc="2008-03-05T23:12:24.6963279Z" name="Property3" audited="false" displayCategory="Intermediate" isNullable="true" include="false">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="75fa1f3e-7266-4a1a-b478-b783a2ec789e" parentPropertyId="b55e6b98-7dd1-4d50-a817-bb12de9ff0ed" childPropertyId="67fe9234-a814-4d79-a813-01046c1ae19d" ordinal="0" />
+  </column>
+</relationship>

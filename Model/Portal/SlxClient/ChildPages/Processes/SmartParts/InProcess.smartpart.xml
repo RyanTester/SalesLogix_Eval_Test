@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="f486d9d2-a620-403d-a659-70cfc3dd68e8">
+  <SmartPartId>InProcess</SmartPartId>
+  <SmartPart>SmartParts\Processes\Processes.ascx</SmartPart>
+  <TargetWorkspace>TabControl</TargetWorkspace>
+  <ShowInMode />
+  <Properties />
+</SmartPartMapping>

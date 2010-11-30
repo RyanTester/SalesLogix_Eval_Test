@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\ChildPages\InsertSalesOrder\SmartParts\AddSalesOrderProduct.smartpart.xml" timeStamp="2009-11-19T20:11:00.9930" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\InsertSalesOrder\SmartParts\AddSalesOrderProduct.smartpart.xml.resx" timeStamp="2009-11-19T20:11:00.9930" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\InsertSalesOrder\SmartParts\BillToShipTo.smartpart.xml" timeStamp="2009-11-19T20:11:00.9930" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\InsertSalesOrder\SmartParts\BillToShipTo.smartpart.xml.resx" timeStamp="2009-11-19T20:11:00.9930" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\InsertSalesOrder\SmartParts\EditSalesOrderItem.smartpart.xml" timeStamp="2009-11-19T20:11:00.9930" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\InsertSalesOrder\SmartParts\InsertSalesOrder.smartpart.xml" timeStamp="2009-11-19T20:11:01.0070" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\InsertSalesOrder\SmartParts\InsertSalesOrder.smartpart.xml.resx" timeStamp="2009-11-19T20:11:01.0700" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\InsertSalesOrder\SmartParts\SalesOrderItems.smartpart.xml" timeStamp="2009-11-19T20:11:01.0230" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\InsertSalesOrder\SmartParts\SalesOrderItems.smartpart.xml.resx" timeStamp="2009-11-19T20:11:01.0700" />
+</exportedFiles>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<NavigationItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="30ffeb3e-3954-4211-acad-c44f8e3bee7a">
+  <ItemId>navReports</ItemId>
+  <NavUrl>ReportManager.aspx</NavUrl>
+  <LargeImageUrl>[Localization.Global_Images:Reports_32x32]</LargeImageUrl>
+  <SmallImageUrl>[Localization.Global_Images:Reports_24x24]</SmallImageUrl>
+  <ContextMenuId />
+  <Target />
+</NavigationItem>

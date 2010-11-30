@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="a65eb479-d7ad-4a69-88a3-4e539c54b8ec" lastModifiedUtc="2007-12-14T18:06:23.765932Z" cardinality="1:M" parentEntityId="3521b9b3-7701-4714-b257-197697f94f85" childEntityId="a8593567-8463-4c3a-b434-e5e0bfee8d91">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="869a84fe-8352-47f1-a10b-bcedd5d900f3" lastModifiedUtc="0001-01-01T00:00:00" name="Incidents" audited="false" displayCategory="Intermediate" isNullable="true" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="94948e5b-7a75-4c03-b969-726bb031284a" lastModifiedUtc="2007-12-14T18:06:23.7502719Z" name="Contract" audited="false" displayCategory="Intermediate" isNullable="false" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="b33112bd-57c3-42e0-beb2-39a339d8b7cc" parentPropertyId="f4eec6b3-71fb-4a4f-a8e1-301cd708403d" childPropertyId="fab6df18-2cb3-4341-85ff-c7f5137ab9f6" ordinal="0" />
+  </column>
+</relationship>

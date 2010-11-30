@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="ddd263ae-aac7-4511-b26b-2cada79147fa" lastModifiedUtc="2008-10-24T19:55:40.3587673Z" parentEntityId="750a7f26-3604-467b-94fe-249370231df4" childEntityId="dc325abd-e993-433c-9f19-b94bc8b0bde3" cascadeOption="SaveUpdateDelete">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="aa23d1ee-872d-4159-bb59-f9ee78f25d25" lastModifiedUtc="0001-01-01T00:00:00" name="LitRequests" audited="false">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="3f8585ba-7c7f-4267-ba51-f3cf9fe12efd" lastModifiedUtc="2008-10-24T19:55:40.3587673Z" name="Contact" audited="false">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="b10c14ba-8c78-41f4-81c7-3a2d2f121fa9" parentPropertyId="67fe9234-a814-4d79-a813-01046c1ae19d" childPropertyId="7b30185c-fdf8-4bd7-8591-73100bbda443" ordinal="0" />
+  </column>
+</relationship>

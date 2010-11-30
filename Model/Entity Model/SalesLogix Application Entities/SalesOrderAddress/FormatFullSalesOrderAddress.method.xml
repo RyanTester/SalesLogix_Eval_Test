@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="084e1cc1-7f39-441e-9daa-2e412f331f8f" lastModifiedUtc="2008-03-11T15:50:28.0352492Z" name="FormatFullSalesOrderAddress" returnType="String" methodType="Rule" actionType="None" returnMode="Object" isInstance="true">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter />
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="023310df-64b1-4672-8951-bf9d3df570b3" lastModifiedUtc="2008-03-10T23:17:44.0344188Z" targetType="Sage.SalesLogix.SalesOrderAddress.SalesOrderAddress, Sage.SalesLogix.BusinessRules" targetMethod="FormatFullSalesOrderAddress" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

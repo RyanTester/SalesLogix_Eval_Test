@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\Ext\ext-all-debug.js" timeStamp="2009-11-19T20:11:59.2530" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\Ext\ext-all.js" timeStamp="2009-11-19T20:11:59.2230" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\Ext\ext-overrides.js" timeStamp="2009-11-19T20:11:59.2070" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\Ext\ext-paging-tree-loader.js" timeStamp="2009-11-19T20:11:59.2070" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\Ext\ext-tablegrid.js" timeStamp="2009-11-19T20:11:59.2230" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\Ext\adapter\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\Ext\locale\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\Ext\resources\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\Ext\ux\" />
+</exportedFiles>

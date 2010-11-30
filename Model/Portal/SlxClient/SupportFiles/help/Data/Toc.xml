@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc Version="1">
+    <!-- saved from url=(0014)about:internet -->
+    <TocEntry Title="Introducing SalesLogix" Link="/Content/Common/slxoverview.htm" ComputedResetPageLayout="true" ComputedFirstTopic="true">
+        <TocEntry Title="Introducing Sage SalesLogix" Link="/Content/Common/slxoverview.htm" ComputedResetPageLayout="true" ComputedFirstTopic="true" />
+        <TocEntry Title="Third Party Software, Trademarks and Registered Trademarks" Link="/Content/Common/slxthirdparty.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Contacting Sage Software" Link="/Content/Common/slxcontactsage.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="What's New In This Release" Link="/Content/Common/newfeatures.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Using the Help" Link="/Content/Common/slxusehelp.htm" ComputedFirstTopic="false">
+            <TocEntry Title="Using the Help System" Link="/Content/Common/slxusehelp.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Assumptions and Conventions" Link="/Content/Common/slxconventions.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="New User Tips" Link="/Content/Common/slxusertips.htm" ComputedFirstTopic="false" />
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="Getting Started" Link="/Content/Getting Started/slxgetstarted.htm" ComputedFirstTopic="false">
+        <TocEntry Title="Logging in" Link="/Content/Getting Started/slxlogin.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Getting Started with the Sage SalesLogix Web Client" Link="/Content/Getting Started/slxgetstarted.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Editing User Options" Link="/Content/Getting Started/prefsedit.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Related Documentation" Link="/Content/Common/relateddocs.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Sage SalesLogix Web Workspace " Link="/Content/Getting Started/webbuttons.htm" ComputedFirstTopic="false" />
+    </TocEntry>
+    <TocEntry Title="Contacts" Link="/Content/Contacts/contactoverview.htm" ComputedFirstTopic="false">
+        <TocEntry Title="What Are Contacts?" Link="/Content/Contacts/contactoverview.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Using the Contact List View" Link="/Content/Contacts/contactstandardlookup.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Using the Contact Detail View" Link="/Content/Contacts/contactdetailsview.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Adding a Contact" Link="/Content/Contacts/contactadd1.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Editing a Contact" Link="/Content/Contacts/contactedit.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Deleting a Contact" Link="/Content/Contacts/contactdelete.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Moving a Contact" Link="/Content/Contacts/contactmove.htm" ComputedFirstTopic="false" />
+    </TocEntry>
+    <TocEntry Title="Accounts" Link="/Content/Accounts/accountoverview.htm" ComputedFirstTopic="false">
+        <TocEntry Title="What Are Accounts?" Link="/Content/Accounts/accountoverview.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Using the Account List View" Link="/Content/Accounts/accountstandardlookup.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Using the Account Detail View" Link="/Content/Accounts/accountdetailview.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Adding an Account" Link="/Content/Accounts/addaccount.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Editing an Account" Link="/Content/Accounts/accountedit.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Deleting an Account" Link="/Content/Accounts/accountdelete.htm" ComputedFirstTopic="false" />
+    </TocEntry>
+    <TocEntry Title="Opportunities" Link="/Content/Opportunities/oppoverview.htm" ComputedFirstTopic="false">
+        <TocEntry Title="What Are Opportunities?" Link="/Content/Opportunities/oppoverview.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Using the Opportunity List View" Link="/Content/Opportunities/oppstandardlookup.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Using the Opportunity Detail View" Link="/Content/Opportunities/oppdetailview.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Adding an Opportunity" Link="/Content/Opportunities/opportunityadd.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Editing an Opportunity" Link="/Content/Opportunities/oppedit.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Closing an Opportunity" Link="/Content/Opportunities/oppclose.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Deleting an Opportunity" Link="/Content/Opportunities/oppdelete.htm" ComputedFirstTopic="false" />
+    </TocEntry>
+    <TocEntry Title="Sales Orders" Link="/Content/Sales Orders/salesorderoverview.htm" ComputedFirstTopic="false">
+        <TocEntry Title="What Are Sales Orders?" Link="/Content/Sales Orders/salesorderoverview.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Using the Sales Order List View" Link="/Content/Sales Orders/salesorderlistview.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Using the Sales Order Detail View" Link="/Content/Sales Orders/salesorderdetailview.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Adding a Sales Order" Link="/Content/Sales Orders/salesorderadd.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Editing a Sales Order" Link="/Content/Sales Orders/salesorderedit.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Copying a Sales Order" Link="/Content/Sales Orders/salesordercopy.htm" ComputedFirstTopic="false" />
+    </TocEntry>
+    <TocEntry Title="Customer Service" Link="/Content/Customer Service/csrserviceoverview.htm" ComputedFirstTopic="false">
+        <TocEntry Title="Customer Service Overview" Link="/Content/Customer Service/csrserviceoverview.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Tickets" Link="/Content/Tickets/csrticketoverview.htm" ComputedFirstTopic="false">
+            <TocEntry Title="What are Tickets?" Link="/Content/Tickets/csrticketoverview.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Using the Ticket List View" Link="/Content/Tickets/csrticketlistview.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Adding a Ticket" Link="/Content/Tickets/csrticket.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Using the Ticket Detail View" Link="/Content/Tickets/csrticketinfo.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Editing or Closing a Ticket" Link="/Content/Tickets/csrticketedit.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Deleting a Ticket" Link="/Content/Tickets/csrdeleteticket.htm" ComputedFirstTopic="false" />
+        </TocEntry>
+        <TocEntry Title="Contracts" Link="/Content/Contracts/contractoverview.htm" ComputedFirstTopic="false">
+            <TocEntry Title="What are Contracts?" Link="/Content/Contracts/contractoverview.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Using the Contract List View" Link="/Content/Contracts/contractlistview.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Using the Contract Detail View" Link="/Content/Contracts/contractdetailview.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Adding a Contract" Link="/Content/Contracts/contractadd.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Making a Contract Inactive" Link="/Content/Contracts/contractinactive.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Contract Types" Link="/Content/Contracts/contracttypes.htm" ComputedFirstTopic="false" />
+        </TocEntry>
+        <TocEntry Title="Defects" Link="/Content/Defects/defectoverview.htm" ComputedFirstTopic="false">
+            <TocEntry Title="What are Defects?" Link="/Content/Defects/defectoverview.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Using the Defect List View" Link="/Content/Defects/defectlistview.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Using the Defect Detail View" Link="/Content/Defects/defectdetailview.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Adding a Defect" Link="/Content/Defects/defectadd.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Closing a Defect" Link="/Content/Defects/defectclose.htm" ComputedFirstTopic="false" />
+        </TocEntry>
+        <TocEntry Title="Returns" Link="/Content/Returns/returnoverview.htm" ComputedFirstTopic="false">
+            <TocEntry Title="What are Returns?" Link="/Content/Returns/returnoverview.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Using the Return List View" Link="/Content/Returns/returnlistview.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Using the Return Detail View" Link="/Content/Returns/returndetailview.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Adding a Return Record" Link="/Content/Returns/returnadd.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Closing a Return" Link="/Content/Returns/returnclose.htm" ComputedFirstTopic="false" />
+        </TocEntry>
+        <TocEntry Title="Assets" Link="/Content/Assets/assetoverview.htm" ComputedFirstTopic="false">
+            <TocEntry Title="What Are Assets?" Link="/Content/Assets/assetoverview.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Adding an Account Asset" Link="/Content/Assets/assetadd.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Editing an Account Asset" Link="/Content/Assets/assetedit.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Moving Products to Assets" Link="/Content/Assets/assetmoveproduct.htm" ComputedFirstTopic="false" />
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="Activities, Events and Calendar" Link="/Content/Activities/activityoverview.htm" ComputedFirstTopic="false">
+        <TocEntry Title="What Are Activities and Events?" Link="/Content/Activities/activityoverview.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Working with Activities" ComputedFirstTopic="false">
+            <TocEntry Title="Schedule or Edit an Activity" Link="/Content/Activities/activitydetailview.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Reschedule an Activity" Link="/Content/Activities/rescheduleactivity.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Complete an Activity" Link="/Content/Activities/completeactivity.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Complete an Unscheduled Activity" Link="/Content/Activities/completeunschedactivity.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Complete Multiple Activities" Link="/Content/Activities/completemultiactivities.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Delete an Activity" Link="/Content/Activities/deleteactivity.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Working with Activity Reminders" Link="/Content/Activities/alarmlist.htm" ComputedFirstTopic="false" />
+        </TocEntry>
+        <TocEntry Title="Working with Events" ComputedFirstTopic="false">
+            <TocEntry Title="Scheduling or Editing an Event" Link="/Content/Activities/addevent.htm" ComputedFirstTopic="false" />
+        </TocEntry>
+        <TocEntry Title="Using the Sage SalesLogix Calendar" ComputedFirstTopic="false">
+            <TocEntry Title="Setting Calendar Options" Link="/Content/Calendar/prefscalendar.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Using the Sage SalesLogix Calendar" Link="/Content/Calendar/caldailyforact.htm" ComputedFirstTopic="false" />
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="Contact Processes" Link="/Content/Contact Processes/processoverview.htm" ComputedFirstTopic="false">
+        <TocEntry Title="What Is a Contact Process?" Link="/Content/Contact Processes/processoverview.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Using the Process Manager" Link="/Content/Contact Processes/processmanager.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Scheduling a Contact Process" Link="/Content/Contact Processes/processschedule.htm" ComputedFirstTopic="false" />
+    </TocEntry>
+    <TocEntry Title="Sales Processes" Link="/Content/Sales Processes/salesprocessoverview.htm" ComputedFirstTopic="false">
+        <TocEntry Title="What are Sales Processes?" Link="/Content/Sales Processes/salesprocessoverview.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Updating Sales Process Stages" Link="/Content/Sales Processes/salesprocessmanagestages.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Finding Sales Processes" Link="/Content/Sales Processes/findsalesprocess.htm" ComputedFirstTopic="false" />
+    </TocEntry>
+    <TocEntry Title="Marketing" ComputedFirstTopic="false">
+        <TocEntry Title="Leads" Link="/Content/Leads/leadoverview.htm" ComputedFirstTopic="false">
+            <TocEntry Title="What are Leads?" Link="/Content/Leads/leadoverview.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Using the Lead List View" Link="/Content/Leads/leadlistview.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Using the Lead Detail View" Link="/Content/Leads/leaddetailview.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Adding a Lead" Link="/Content/Leads/leadadd.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Importing Leads from a List" Link="/Content/Leads/leadimport.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Qualifying Leads" Link="/Content/Leads/leadqualify.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Deleting a Lead" Link="/Content/Leads/leaddelete.htm" ComputedFirstTopic="false" />
+        </TocEntry>
+        <TocEntry Title="Campaigns" Link="/Content/Campaigns/campaignaddnew.htm" ComputedFirstTopic="false">
+            <TocEntry Title="Adding a Campaign" Link="/Content/Campaigns/campaignaddnew.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Deleting a Campaign" Link="/Content/Campaigns/campaigndelete.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Copying a Campaign" Link="/Content/Campaigns/campaigncopy.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Launching Campaigns" Link="/Content/Campaigns/campaignlaunch.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Using the Campaign Detail View" Link="/Content/Campaigns/campaigndetailview.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Using the Campaign List View" Link="/Content/Campaigns/campaignlistview.htm" ComputedFirstTopic="false" />
+        </TocEntry>
+        <TocEntry Title="Managing Targets" Link="/Content/Campaigns/campaigntargetoverview.htm" ComputedFirstTopic="false">
+            <TocEntry Title="What are Targets?" Link="/Content/Campaigns/campaigntargetoverview.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Managing Campaign Targets" Link="/Content/Campaigns/campaignmanagetargets.htm" ComputedFirstTopic="false" />
+        </TocEntry>
+        <TocEntry Title="Stages and Tasks" Link="/Content/Campaigns/campaignstagestaskstab.htm" ComputedFirstTopic="false">
+            <TocEntry Title="Campaign Stages and Tasks Tab" Link="/Content/Campaigns/campaignstagestaskstab.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Adding/Editing/Completing Campaign Stages" Link="/Content/Campaigns/campaignaddeditcompstages.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Adding/Editing/Completing Campaign Tasks" Link="/Content/Campaigns/campaignaddeditcomptasks.htm" ComputedFirstTopic="false" />
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="Mail Merge" Link="/Content/Mail Merge/usemailmerge.htm" ComputedFirstTopic="false">
+        <TocEntry Title="Using Mail Merge" Link="/Content/Mail Merge/usemailmerge.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Templates Overview" Link="/Content/Mail Merge/templatesoverview.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="About the Write Menu" Link="/Content/Mail Merge/mergeinfo.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Writing and Sending an E-mail Message" Link="/Content/Mail Merge/writeemail.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Writing and Sending a Fax Message" Link="/Content/Mail Merge/writefax.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Writing and Sending a Letter" Link="/Content/Mail Merge/writeletter.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Printing Address Labels or Envelopes" Link="/Content/Mail Merge/printlabels.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Viewing Invalid or Failed Merge Information" Link="/Content/Mail Merge/failedmerge.htm" ComputedFirstTopic="false" />
+    </TocEntry>
+    <TocEntry Title="Reports" Link="/Content/Reporting/reportoverview.htm" ComputedFirstTopic="false">
+        <TocEntry Title="What are Reports?" Link="/Content/Reporting/reportoverview.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Previewing a Report" Link="/Content/Reporting/repmain.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Running Reports" Link="/Content/Reporting/reportrun.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Troubleshooting Sage SalesLogix Reports" Link="/Content/Reporting/reporttroubleshooting.htm" ComputedFirstTopic="false" />
+    </TocEntry>
+    <TocEntry Title="SpeedSearch" Link="/Content/SpeedSearch/speedsearchoverview.htm" ComputedFirstTopic="false">
+        <TocEntry Title="Speedsearch Overview" Link="/Content/SpeedSearch/speedsearchoverview.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="SpeedSearch from the Menu" Link="/Content/SpeedSearch/speedsearchmenubar.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Searching for Information" Link="/Content/SpeedSearch/speedsearch.htm" ComputedFirstTopic="false" />
+    </TocEntry>
+    <TocEntry Title="Using Groups" Link="/Content/Groups/querygroupsoverview.htm" ComputedFirstTopic="false">
+        <TocEntry Title="What Are Groups?" Link="/Content/Groups/querygroupsoverview.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Saving a Lookup as a Group" Link="/Content/Groups/lookupgroup.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Adding an Ad Hoc Group" Link="/Content/Groups/adhocgroup.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Modifying Groups" Link="/Content/Groups/modifygroup.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Sharing Groups with Other Users" Link="/Content/Groups/sharegroup.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Exporting a Group to a File" Link="/Content/Groups/exportgroup.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Adding a Group Using Query Builder" Link="/Content/Groups/advancedquery.htm" ComputedFirstTopic="false" />
+    </TocEntry>
+    <TocEntry Title="Using Query Builder" Link="/Content/Query Builder/querybuilderoverview.htm" ComputedFirstTopic="false">
+        <TocEntry Title="Using Query Builder" Link="/Content/Query Builder/querybuilderoverview.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Opening Query Builder" Link="/Content/Query Builder/openquerybuilder.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Viewing the SQL Version of a Query" Link="/Content/Query Builder/viewquerysql.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Query Builder Tabs" ComputedFirstTopic="false">
+            <TocEntry Title="Query Builder Properties" Link="/Content/Query Builder/querybuilderproperties.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Query Builder Conditions" Link="/Content/Query Builder/querybuilderconditions.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Query Builder Layout" Link="/Content/Query Builder/querybuilderlayout.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Query Builder Sorting" Link="/Content/Query Builder/querybuildersorting.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Query Builder Defaults" Link="/Content/Query Builder/querybuilderdefaults.htm" ComputedFirstTopic="false" />
+        </TocEntry>
+        <TocEntry Title="Using Joins" Link="/Content/Query Builder/queryjointables.htm" ComputedFirstTopic="false">
+            <TocEntry Title="Joining Tables" Link="/Content/Query Builder/queryjointables.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Guidelines for Using Joins" Link="/Content/Query Builder/queryjoinguidelines.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Global Join Manager" Link="/Content/Query Builder/queryglobaljoinmanager.htm" ComputedFirstTopic="false" />
+        </TocEntry>
+        <TocEntry Title="Using Calculated Fields" Link="/Content/Query Builder/querycalcfields.htm" ComputedFirstTopic="false">
+            <TocEntry Title="Using Calculated Fields" Link="/Content/Query Builder/querycalcfields.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Add/Edit a Calculated Field" Link="/Content/Query Builder/queryaddeditcalcfields.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Delete a Calculated Field" Link="/Content/Query Builder/querydeletecalcfields.htm" ComputedFirstTopic="false" />
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="Intellisync" Link="/Content/Intellisync/slxintellisync.htm" ComputedFirstTopic="false">
+        <TocEntry Title="Intellisync for SalesLogix" Link="/Content/Intellisync/slxintellisync.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Configuring Intellisync for SalesLogix" Link="/Content/Intellisync/slxintellisyncconfigure.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Using Intellisync" Link="/Content/Intellisync/slxintellisyncuse.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Administering Intellisync for SalesLogix" Link="/Content/Intellisync/slxintellisyncadmin.htm" ComputedFirstTopic="false" />
+    </TocEntry>
+    <TocEntry Title="Troubleshooting" Link="/Content/Common/slxtroubleshooting.htm" ComputedFirstTopic="false" />
+    <TocEntry Title="Glossary of Terms" Link="/Content/Getting Started/slxglossary.htm" ComputedFirstTopic="false" />
+</CatapultToc>

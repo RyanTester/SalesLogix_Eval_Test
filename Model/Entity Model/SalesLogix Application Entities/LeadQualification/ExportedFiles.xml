@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LeadQualification\LeadQualification.LEAD_QUALIFICATION.entity.xml" timeStamp="2009-11-19T20:10:53.0700" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LeadQualification\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:53.0530" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LeadQualification\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:53.0530" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LeadQualification\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:53.1300" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LeadQualification\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:53.1470" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LeadQualification\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:53.1300" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LeadQualification\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:53.1170" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LeadQualification\OnCreate.method.xml" timeStamp="2009-11-19T20:10:53.1470" />
+</exportedFiles>

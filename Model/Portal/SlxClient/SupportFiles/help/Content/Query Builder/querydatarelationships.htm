@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="Gainey;decompilation;Admin;N;AccountID;USERINFO;AccountManagerID;UserID;USERPROFILE;t;OPPORTUNITYID;USER_ACTIVITY;CreateUser;CreateDate;ModifyUser;ModifyDate" MadCap:comment="5/2/02 KC: Version from Admin Help is better written than version from other Help sys, so imported it. Made minor edits." MadCap:timeEstimate="0" MadCap:priority="0" MadCap:check_list="First Draft" MadCap:status="In Progress" MadCap:lastBlockDepth="5" MadCap:lastHeight="465" MadCap:lastWidth="607" MadCap:conditions="Output.WebClient" MadCap:tocPath="" MadCap:PathToHelpSystem="../../" MadCap:SearchType="Stem">
+    <!-- saved from url=(0014)about:internet -->
+    <head><title>Data Relationships</title>
+        <link rel="StyleSheet" href="../SALESLOGIX.CSS" />
+        <script src="../SkinSupport/MadCapUtilities.js">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor418"></a>Data Relationships</h1>
+        <p>A relational database contains multiple tables. The structure of the database  is defined by how these tables relate to one another. Since data is acquired  based on table relationships, it is important to understand the relationship  between tables before adding custom tables and fields to the database. It is  also helpful when creating queries for lookups, groups, subscription rules or  templates, and so on.</p>
+        <p>When you create a custom (user-defined) table, the following fields are  automatically added:</p>
+        <ul>
+            <li class="kadov-p-CBullets" value="1">
+                <p class="Bullets">CreateUser</p>
+            </li>
+            <li class="kadov-p-CBullets" value="2">
+                <p class="Bullets">CreateDate</p>
+            </li>
+            <li class="kadov-p-CBullets" value="3">
+                <p class="Bullets">ModifyUser</p>
+            </li>
+            <li class="kadov-p-CBullets" value="4">
+                <p class="Bullets">ModifyDate</p>
+            </li>
+        </ul>
+        <p>Because each table must also have at least one primary key, Sage SalesLogix adds  the primary key field of the custom table (if the table has a One to Zero, One,  or More relationship to any other table), and the primary key field of any  associated table. User-defined fields can be added as necessary.</p>
+        <p class="Infinitive">Table Relationships</p>
+        <p>The relationship of one table to another is based on both tables containing at  least one identical field. In most cases, the name of the field is identical as  well, but this is not always the case. For example, the ACCOUNT and CONTACT  tables are related because they each have a field named AccountID with the same  value. However, the ACCOUNT table is also related to the USERINFO table through  the AccountManagerID field in the ACCOUNT table, and the UserID field in the  USERINFO table. Although these tables have different field names, their values  are the same.</p>
+        <p>The connection between two tables is called a <a href="queryjointables.htm">join</a> 
+ and is established using a field that exists in both tables. When two 
+ tables are related, each table can have a different <a href="querytablerelationships.htm">relationship</a>. 
+ Table relationships are important when creating queries. A query using 
+ two tables can return different results depending on which is the source 
+ table in the relationship.</p>
+        <p class="Infinitive" style="margin-bottom: 0;">Related Topics</p>
+        <p class="Topic-Text-Numbered"><a href="querybuilderoverview.htm" target="_self">Query Builder Overview</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>
+            </p>
+            <p style="border-top-style: Groove;border-top-color: #c0c0c0;border-top-width: 1px;">&#160;</p>
+            <p><![CDATA[ ]]><a href="../General/feedback.htm" target="_blank">Tell us how we can make the Help better.</a></p>
+        </div>
+        <p class="Topic-Text-Numbered">&#160;</p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

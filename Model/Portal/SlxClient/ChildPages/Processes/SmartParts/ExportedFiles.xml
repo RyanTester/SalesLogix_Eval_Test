@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\ChildPages\Processes\SmartParts\Aborted.smartpart.xml" timeStamp="2009-11-19T20:11:01.9430" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Processes\SmartParts\Aborted.smartpart.xml.resx" timeStamp="2009-11-19T20:11:01.9430" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Processes\SmartParts\AllProcesses.smartpart.xml" timeStamp="2009-11-19T20:11:01.9430" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Processes\SmartParts\AllProcesses.smartpart.xml.resx" timeStamp="2009-11-19T20:11:01.9600" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Processes\SmartParts\Completed.smartpart.xml" timeStamp="2009-11-19T20:11:01.9430" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Processes\SmartParts\Completed.smartpart.xml.resx" timeStamp="2009-11-19T20:11:01.9600" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Processes\SmartParts\InProcess.smartpart.xml" timeStamp="2009-11-19T20:11:01.9430" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Processes\SmartParts\InProcess.smartpart.xml.resx" timeStamp="2009-11-19T20:11:01.9770" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Processes\SmartParts\ProcessesTitle.smartpart.xml" timeStamp="2009-11-19T20:11:01.9600" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Processes\SmartParts\ProcessesTitle.smartpart.xml.resx" timeStamp="2009-11-19T20:11:01.9770" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Processes\SmartParts\ScheduleProcess.smartpart.xml" timeStamp="2009-11-19T20:11:01.9600" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Processes\SmartParts\ScheduleProcess.smartpart.xml.resx" timeStamp="2009-11-19T20:11:02.0230" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Processes\SmartParts\Starting.smartpart.xml" timeStamp="2009-11-19T20:11:01.9770" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Processes\SmartParts\Starting.smartpart.xml.resx" timeStamp="2009-11-19T20:11:02.0230" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Processes\SmartParts\Suspended.smartpart.xml" timeStamp="2009-11-19T20:11:01.9900" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Processes\SmartParts\Suspended.smartpart.xml.resx" timeStamp="2009-11-19T20:11:02.0230" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Processes\SmartParts\Waiting.smartpart.xml" timeStamp="2009-11-19T20:11:01.9900" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Processes\SmartParts\Waiting.smartpart.xml.resx" timeStamp="2009-11-19T20:11:02.0230" />
+</exportedFiles>

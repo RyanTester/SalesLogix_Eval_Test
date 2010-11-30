@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<PortalPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="f48bf38b-2ae9-464a-8a26-aadb0805323e">
+  <PageAlias>History</PageAlias>
+  <TemplateUrl>Masters\ActivityDialog.master</TemplateUrl>
+  <InheritTemplate>false</InheritTemplate>
+  <InheritsFrom>Sage.Platform.WebPortal.EntityPage, Sage.Platform.WebPortal</InheritsFrom>
+  <Properties>
+    <Property Name="EntityTypeName" TypeConverter="">Sage.Entity.Interfaces.IHistory, Sage.Entity.Interfaces</Property>
+  </Properties>
+  <TemplateProperties>
+    <Property Name="MainContentWorkspace_HideTitleBar" TypeConverter="">True</Property>
+    <Property Name="IncludeMiddlePane" TypeConverter="">False</Property>
+    <Property Name="IncludeMoreTabsTab" TypeConverter="">False</Property>
+  </TemplateProperties>
+  <IsDefaultPage>false</IsDefaultPage>
+  <ExcludedGlobalModules />
+</PortalPage>

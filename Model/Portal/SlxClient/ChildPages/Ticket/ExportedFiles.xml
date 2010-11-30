@@ -1,0 +1,9 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\Modules.order.xml" timeStamp="2009-11-19T20:11:02.7700" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts.order.xml" timeStamp="2009-11-19T20:11:02.7870" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\Ticket.page.xml" timeStamp="2009-11-19T20:11:02.7570" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\Ticket.page.xml.resx" timeStamp="2009-11-19T20:11:02.8030" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\Modules\" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\" />
+</exportedFiles>

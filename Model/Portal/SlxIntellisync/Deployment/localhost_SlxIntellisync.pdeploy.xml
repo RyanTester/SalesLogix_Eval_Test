@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<DeploymentTarget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="9b51f208-88e0-424a-968f-3900b3c81de6">
+  <VirtualDirectoryName>SlxIntellisync</VirtualDirectoryName>
+  <ServerName>localhost</ServerName>
+  <DeploymentPath>c:\inetpub\wwwroot\SlxIntellisync</DeploymentPath>
+  <Precompile>false</Precompile>
+  <PrecompileFlags>OverwriteTarget Clean</PrecompileFlags>
+  <UseInPlaceCompile>false</UseInPlaceCompile>
+  <StrongNameIsFile>false</StrongNameIsFile>
+  <IsActive>true</IsActive>
+</DeploymentTarget>

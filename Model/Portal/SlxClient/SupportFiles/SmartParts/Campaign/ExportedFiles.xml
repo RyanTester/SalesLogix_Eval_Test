@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Campaign\AddCampaignLeadSources.ascx" timeStamp="2009-11-19T20:11:09.6500" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Campaign\AddCampaignLeadSources.ascx.cs" timeStamp="2009-11-19T20:11:09.6500" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Campaign\AddEditStage.ascx" timeStamp="2009-11-19T20:11:09.7600" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Campaign\AddEditStage.ascx.cs" timeStamp="2009-11-19T20:11:09.6200" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Campaign\AddEditTask.ascx" timeStamp="2009-11-19T20:11:09.7430" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Campaign\AddEditTask.ascx.cs" timeStamp="2009-11-19T20:11:09.8200" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Campaign\CampaignTargetCreateGroup.ascx" timeStamp="2009-11-19T20:11:09.8370" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Campaign\CampaignTargetCreateGroup.ascx.cs" timeStamp="2009-11-19T20:11:09.8530" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Campaign\CampaignTargets.ascx" timeStamp="2009-11-19T20:11:09.8830" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Campaign\CampaignTargets.ascx.cs" timeStamp="2009-11-19T20:11:09.8070" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Campaign\InsertTargetProgress.ascx" timeStamp="2009-11-19T20:11:09.8070" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Campaign\InsertTargetProgress.ascx.cs" timeStamp="2009-11-19T20:11:09.8670" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Campaign\ManageTargets.ascx" timeStamp="2009-11-19T20:11:09.9770" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Campaign\ManageTargets.ascx.cs" timeStamp="2009-11-19T20:11:09.9130" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Campaign\StagesAndTasks.ascx" timeStamp="2009-11-19T20:11:09.9930" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Campaign\StagesAndTasks.ascx.cs" timeStamp="2009-11-19T20:11:09.9130" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Campaign\TargetResponses.ascx" timeStamp="2009-11-19T20:11:10.0230" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Campaign\TargetResponses.ascx.cs" timeStamp="2009-11-19T20:11:09.9630" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Campaign\UpdateTargets.ascx" timeStamp="2009-11-19T20:11:10.0570" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Campaign\UpdateTargets.ascx.cs" timeStamp="2009-11-19T20:11:10.0700" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Campaign\UpdateTargets_ClientScript.js" timeStamp="2009-11-19T20:11:10.0570" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Campaign\App_LocalResources\" />
+</exportedFiles>

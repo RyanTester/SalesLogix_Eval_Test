@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="ce37c274-b088-4218-8a88-28bc62f3332a">Sage.SalesLogix.Web.Modules.CustomerPortalSecurityModule.module.xml</Item>
+  <Item Id="0f401023-8dd0-4d96-94b9-57de37e76a55">Sage.SalesLogix.Client.GroupBuilder.Modules.GroupViewerModule.module.xml</Item>
+</ModelItems>

@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="Gainey;decompilation;Admin;N;AccountID;USERINFO;AccountManagerID;UserID;USERPROFILE;t;OPPORTUNITYID;USER_ACTIVITY;CreateUser;CreateDate;ModifyUser;ModifyDate;Opportunity.Salespotential;Opportunity.Closeprobability;Opportunity.Status;Opportunity.Account.;Contact.Lastname;Contact.Firstname.;d.ddd...E+ddd;E;f;ddd.ddd...;g;n;d;ddd;acc_acc;con_con;opp_opp;conlname;Truevalue;FormatType;ftBoolean;FormatString;T;c;ShortDateFormat;LongTimeFormat;DateTime;ShortDayNames;dddd;LongDayNames;ddddd;dddddd;LongDateFormat;m;hh;mmm;Jan-Dec;ShortMonthNames;mmmm;LongMonthNames;yy;yyyy;nn;ss;ShortTimeFormat;tt;pm;ampm;TimeAMString;TimePMString;ftCurrency;USERID;SECCODE;F;PickList;ASC;Z;DESC;field(s;WebTicket;DataGrid;Bldr;Account.Address.Postalcode;Accountmangerid;Account.Accountmanagerid;Userid;Sens;Contact.Status;Contact.Account.Revenue;xxx;Capt;BindID;Contact.Address.City;Contact.Address.State" MadCap:priority="1" MadCap:comment="12/30/02 KC Conv. buttons to links 061002 JM: table style change.KC 4/17/02: Merged versions from all Help systems. Reformatted example .bmp in a table.&#xD;&#xA;JM 11/06/00: Revised text." MadCap:timeEstimate="0" MadCap:check_list="First Draft" MadCap:status="In Progress" MadCap:lastBlockDepth="5" MadCap:lastHeight="532" MadCap:lastWidth="476" MadCap:conditions="Output.WebClient" MadCap:tocPath="" MadCap:PathToHelpSystem="../../" MadCap:SearchType="Stem">
+    <!-- saved from url=(0014)about:internet -->
+    <head><title>Use "Not" in a Conditional Statement</title>
+        <link rel="StyleSheet" href="../SALESLOGIX.CSS" />
+        <script src="../SkinSupport/MadCapUtilities.js">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor435"></a>Using "Not" in a Conditional Statement</h1>
+        <p>You can insert NOT in front of a conditional statement or a group of 
+ conditional statements. If NOT is inserted in front of a group of conditional 
+ statements, it applies to all conditional statements within that group.</p>
+        <p class="Infinitive" style="margin-top: 0.0;margin-bottom: 0.0;">&#160;</p>
+        <p class="Infinitive" style="margin-top: 0.0;margin-bottom: 0.0;">To insert NOT in front 
+ of a conditional statement or group</p>
+        <ol>
+            <li class="kadov-p-CTopic-Text-Numbered" value="1">
+                <p class="Topic-Text-Numbered"><a href="openquerybuilder.htm" target="_self">Open the
+ <a href="openquerybuilder.htm">Query Builder</a></a>.</p>
+            </li>
+            <li class="kadov-p-CTopic-Text-Numbered" value="2">
+                <p class="Topic-Text-Numbered">Click 
+ the <span class="SLXBold">Conditions</span> tab and add all conditional 
+ statements.</p>
+            </li>
+            <li class="kadov-p-CTopic-Text-Numbered" value="3">
+                <p class="Topic-Text-Numbered">If 
+ necessary, <a href="querygroupconditional.htm">group the conditional 
+ statements</a>.</p>
+            </li>
+            <li class="kadov-p-CTopic-Text-Numbered" value="4">
+                <p class="Topic-Text-Numbered">Select the <b>Not</b> check box of a conditional statement, or the first statement in a group.</p>
+            </li>
+            <li class="kadov-p-CTopic-Text-Numbered" value="5">
+                <p class="Topic-Text-Numbered">Click 
+ <span class="SLXBold">OK</span> to run the query.</p>
+            </li>
+        </ol>
+        <p class="Infinitive">Example</p>
+        <p>Query Builder would select contacts who live anywhere in California 
+ other than Los Angeles or San Francisco.</p>
+        <p>This is how the grid on the Conditions tab will appear for this example:</p>
+        <table style="border-spacing: 0px 0px;border-collapse: collapse;caption-side: top;margin-left: 0;margin-right: auto;width: 100%;">
+            <col />
+            <col />
+            <col />
+            <col />
+            <col />
+            <col />
+            <col />
+            <col />
+            <thead>
+                <tr>
+                    <th class="Tabletop" style="text-align: left;">Not</th>
+                    <th class="Tabletop" style="text-align: left;">(</th>
+                    <th class="Tabletop" style="text-align: left;">Field</th>
+                    <th class="Tabletop">Operator</th>
+                    <th class="Tabletop" style="text-align: left;">Value</th>
+                    <th class="Tabletop" style="text-align: left;">Case Sens</th>
+                    <th class="Tabletop" style="text-align: left;">)</th>
+                    <th class="Tabletop" style="text-align: left;">And/Or</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="Table">NOT</td>
+                    <td class="Table">(</td>
+                    <td class="Table">Contact.Address.City</td>
+                    <td class="Table">equal to</td>
+                    <td class="Table">Los Angeles</td>
+                    <td class="Table">True</td>
+                    <td class="Table">&#160;</td>
+                    <td class="Table">OR</td>
+                </tr>
+                <tr>
+                    <td class="Table">&#160;</td>
+                    <td class="Table">&#160;</td>
+                    <td class="Table">Contact.Address.City</td>
+                    <td class="Table">equal to</td>
+                    <td class="Table">San Francisco</td>
+                    <td class="Table">True</td>
+                    <td class="Table">)</td>
+                    <td class="Table">AND</td>
+                </tr>
+                <tr>
+                    <td class="Table">&#160;</td>
+                    <td class="Table">&#160;</td>
+                    <td class="Table">Contact.Address.State</td>
+                    <td class="Table">equal to</td>
+                    <td class="Table">CA</td>
+                    <td class="Table">True</td>
+                    <td class="Table">&#160;</td>
+                    <td class="Table">END</td>
+                </tr>
+            </tbody>
+        </table>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0">
+            <col />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;width: 20px;height: 31px;float: none;border-style: none;border-style: none;" width="20" height="31" border="0" />
+                    </p>
+                </td>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="margin-bottom: 0;">A query may contain subgroups within a group. 
+ If NOT is used in front of a group, it applies to all subgroups contained 
+ within the group.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="querybuilderconditions.htm">Query Builder Conditions</a>
+        </p>
+        <p><a href="querybuilderoverview.htm">Query Builder Overview</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>
+            </p>
+            <p style="border-top-style: Groove;border-top-color: #c0c0c0;border-top-width: 1px;">&#160;</p>
+            <p><![CDATA[ ]]><a href="../General/feedback.htm" target="_blank">Tell us how we can make the Help better.</a></p>
+        </div>
+        <p>&#160;</p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

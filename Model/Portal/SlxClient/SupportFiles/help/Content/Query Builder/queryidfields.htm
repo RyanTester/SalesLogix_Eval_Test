@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="Gainey;decompilation;Admin;N;AccountID;USERINFO;AccountManagerID;UserID;USERPROFILE;t" MadCap:priority="1" MadCap:comment="12/30/02 KC Conv. buttons to links (Multiple Comments)" MadCap:timeEstimate="0" MadCap:check_list="First Draft" MadCap:status="In Progress" MadCap:conditions="Output.WebClient" MadCap:lastBlockDepth="5" MadCap:lastHeight="425" MadCap:lastWidth="476" MadCap:tocPath="" MadCap:PathToHelpSystem="../../" MadCap:SearchType="Stem">
+    <!-- saved from url=(0014)about:internet -->
+    <head><title>ID fields in tables</title>
+        <link rel="StyleSheet" href="../SALESLOGIX.CSS" />
+        <script src="../SkinSupport/MadCapUtilities.js">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor428"></a>ID Fields in Tables</h1>
+        <p>Every table has at least one ID field that is used to ensure that each record in  the table is unique. When a record is added to the ACCOUNT table, a value is  automatically entered in the AccountID field. Each time a record is added, a  value is generated based on information in the key file.</p>
+        <p>Which fields are the important ID fields of a table depend on the <a href="querytablerelationships.htm">type of relationship</a> that the table has with other tables. Any table that is created  that is not linked to any other table will have an ID field unique to itself. If  a new table is created as a child table with a One to One relationship with  another table, its ID field will be the ID field of the parent table. If the  child table has a One to Many relationship with another table, it will need more  than one field to ensure uniqueness. Thus, it will automatically generate two  IDs when the table is created: one unique to the table, and one that is the ID  field of the table it is based on. If a table is a link table meant to resolve a  Many to Many relationship, it will need three ID fields. Sage SalesLogix will  only auto-generate two IDs, one unique to the link table and one for the primary  table. You must add the ID field of the child table when creating the table or  it will not link the parent and child tables.</p>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0">
+            <col />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note.gif" style="width: 20px;height: 31px;margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;border-style: none;float: none;border-style: none;" width="20" height="31" border="0" />
+                    </p>
+                </td>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p class="Tip-Note-Text" style="margin-bottom: 0;">While some link tables that exist in Sage 
+ SalesLogix only contain two ID fields, you should have all three ID fields 
+ in all link tables you create.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="queryjointables.htm">Joining Tables</a>
+        </p>
+        <p><a href="queryjoinexample.htm">Join Example</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>
+            </p>
+            <p style="border-top-style: Groove;border-top-color: #c0c0c0;border-top-width: 1px;">&#160;</p>
+            <p><![CDATA[ ]]><a href="../General/feedback.htm" target="_blank">Tell us how we can make the Help better.</a></p>
+        </div>
+        <p>&#160;</p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

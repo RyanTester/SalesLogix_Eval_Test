@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="e42d65e8-3908-465c-be16-e43ad88c3151">ActivityDetails.smartpart.xml</Item>
+  <Item Id="095176d7-a6a9-4028-a6b0-37ee29d555d4">AddMembers.smartpart.xml</Item>
+  <Item Id="e22dcc7e-569d-4e86-ac30-d1f32042fa7f">AddResources.smartpart.xml</Item>
+  <Item Id="161c0822-5e39-4968-ba23-2a8977584015">RecurringActivity.smartpart.xml</Item>
+  <Item Id="9dd3b465-d20c-4ce5-8047-d7dd7ea83ba4">timezonecalc.smartpart.xml</Item>
+  <Item Id="22eb8f7b-f3d0-4dba-aa1c-67b3f105ca7c">AttachmentList.smartpart.xml</Item>
+  <Item Id="6b5bf2d4-acf4-461e-8ce8-94084fc336f8">ActivityCommandController.smartpart.xml</Item>
+</ModelItems>

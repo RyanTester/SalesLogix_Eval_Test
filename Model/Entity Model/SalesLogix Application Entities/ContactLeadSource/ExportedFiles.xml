@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ContactLeadSource\ContactLeadSource.CONTACT_LEADSOURCE.entity.xml" timeStamp="2009-11-19T20:10:51.5100" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ContactLeadSource\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:51.4770" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ContactLeadSource\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:51.4630" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ContactLeadSource\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:51.4770" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ContactLeadSource\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:51.4930" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ContactLeadSource\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:51.4930" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ContactLeadSource\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:51.4930" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ContactLeadSource\OnCreate.method.xml" timeStamp="2009-11-19T20:10:51.4930" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ContactLeadSource\QuickForms\" />
+</exportedFiles>

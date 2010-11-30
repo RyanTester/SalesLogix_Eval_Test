@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityCampaign\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:54.0830" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityCampaign\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:54.0970" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityCampaign\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:54.1300" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityCampaign\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:54.0970" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityCampaign\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:54.1430" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityCampaign\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:54.1130" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityCampaign\OnCreate.method.xml" timeStamp="2009-11-19T20:10:54.0970" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\OpportunityCampaign\OpportunityCampaign.OPPORTUNITY_CAMPAIGN.entity.xml" timeStamp="2009-11-19T20:10:54.1430" />
+</exportedFiles>

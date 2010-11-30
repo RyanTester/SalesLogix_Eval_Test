@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\Tasklets\ActivityFilters.tasklet.xml" timeStamp="2009-11-19T20:11:19.0100" />
+  <exportedFile url="\Portal\SlxClient\Tasklets\ActivityFilters.tasklet.xml.resx" timeStamp="2009-11-19T20:11:19.2430" />
+  <exportedFile url="\Portal\SlxClient\Tasklets\CommonTasksTasklet.tasklet.xml" timeStamp="2009-11-19T20:11:19.0230" />
+  <exportedFile url="\Portal\SlxClient\Tasklets\CommonTasksTasklet.tasklet.xml.resx" timeStamp="2009-11-19T20:11:19.2430" />
+  <exportedFile url="\Portal\SlxClient\Tasklets\FiltersTasklet.tasklet.xml" timeStamp="2009-11-19T20:11:19.0570" />
+  <exportedFile url="\Portal\SlxClient\Tasklets\FiltersTasklet.tasklet.xml.resx" timeStamp="2009-11-19T20:11:19.2430" />
+  <exportedFile url="\Portal\SlxClient\Tasklets\GroupListTasklet.tasklet.xml" timeStamp="2009-11-19T20:11:19.1030" />
+  <exportedFile url="\Portal\SlxClient\Tasklets\GroupListTasklet.tasklet.xml.resx" timeStamp="2009-11-19T20:11:19.2900" />
+</exportedFiles>

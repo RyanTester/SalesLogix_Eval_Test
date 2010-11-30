@@ -1,0 +1,682 @@
+﻿/* 
+ * Base ig css (extracted from WebResource.axd links)
+ */
+
+.igcv_CalendarViewFrame
+{
+    cursor: default;
+    font-family: Tahoma,Verdana;
+    color: Black;
+    background-color: white;
+    border: solid 1px #103090;
+}
+
+.igcv_CaptionHeader
+{
+    background-color: #A0C0FF;
+    font-size: 8pt;
+    text-align: center;
+    width: 100%;
+    white-space: nowrap;
+    padding: 3px;
+}
+
+.igcv_DayHeader
+{
+    font-size: 8pt;
+    background-color: #EEEEDE;
+    border-bottom: 1px solid #909090;
+    text-align: center;
+    white-space: nowrap;
+    width: 14.3%;
+}
+
+.igcv_Day
+{
+    font-family: Tahoma,Verdana;
+    font-size: 8pt;
+    text-align: center;
+    width: 14.3%;
+    cursor: pointer;
+}
+
+.igcv_WeekendDay
+{
+    background-color: #FAFAFA;
+}
+
+.igcv_OtherMonthDay
+{
+    color: #909090;
+}
+
+.igcv_TodayDay
+{
+    border: 1px solid #B04040;
+}
+
+.igcv_ActivityDay
+{
+    font-weight: bold;
+}
+
+.igcv_ActiveDay
+{
+    background-color: #FBE490;
+}
+
+.igcv_Footer
+{
+    cursor: pointer;
+    background-color: #EEEEDE;
+    font-size: 8pt;
+    text-align: left;
+    white-space: nowrap;
+    padding: 3px;
+}
+
+.igcv_DropDown
+{
+    font-size: 8pt;
+}
+
+.igcv_NavigationButton
+{
+    cursor: pointer;
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: #A0C0FF;
+}
+
+.igdv_DayViewFrame
+{
+    background-color: #FAF5B9;
+    cursor: default;
+}
+
+.igdv_Control
+{
+    background-color: #FAF5B9;
+    cursor: default;
+}
+
+.igdv_CaptionHeader
+{
+    border-left: 1px solid #4A4F87;
+    border-right: 1px solid #4A4F87;
+    background-repeat: repeat-x;
+    background-color: #8084AA;
+    background-image: url(../images/calendar/captionheader.png);
+    font-family: Arial,Verdana,Tahoma,Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 12pt;
+    color: #FFFFFF;
+    height: 24px;
+    padding-top: 1px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.igdv_DayHeader
+{
+    background-color: #E8E7D1;
+    border: 1px solid #F4F4F4;
+    border-right-color: #999;
+    font-family: Tahoma,Verdana;
+    font-size: 8pt;
+    padding-left: 2px;
+    height: 20px;
+    color: Black;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.igdv_TodayHeader
+{
+    border: 0px;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-color: #FFEE90;
+    background-image: url(../images/calendar/todayheader.png);
+}
+
+.igdv_TimeSlotLabel
+{
+    font-family: Tahoma,Verdana;
+    font-size: 16pt;
+    text-align: center;
+    vertical-align: top;
+    background-color: #EDECDD;
+    width: 60px;
+    border-bottom: 1px solid #A8A8A8;
+    border-right: 1px solid #A8A8A8;
+}
+
+.igdv_TimeSlotLabelMinutes
+{
+    vertical-align: 9px;
+    font-size: 8pt;
+}
+
+.igdv_AllDayEventArea
+{
+    background-color: #A7A897;
+}
+
+.igdv_AllDayEvent
+{
+    height: 25px;
+    border: solid 1px black;
+    text-align: center;
+    background-color: whitesmoke;
+    font-family: Tahoma,Verdana;
+    font-size: 8pt;
+    padding-left: 3px;
+    white-space: nowrap;
+}
+
+.igdv_AllDayEventSelected
+{
+    background-color: #D0D0D0;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+}
+
+.igdv_AllDayEventAreaSelected
+{
+    background-color: white;
+}
+
+.igdv_NonWorkingTimeSlot
+{
+    background-color: #FAF5B9;
+    border-bottom: solid 1px #E5CC88;
+    border-right: solid 1px #444;
+}
+
+.igdv_WorkingTimeSlot
+{
+    background-color: #F7FED4;
+    border-bottom: solid 1px #F6DBA5;
+    border-right: solid 1px #444;
+}
+
+.igdv_Appointment
+{
+    border: solid 1px #111111;
+    background-color: White;
+    font-family: Tahoma,Verdana;
+    font-size: 8pt;
+}
+
+.igdv_ActivityHover
+{
+    z-index: 10000;
+}
+
+.igdv_SelectedAppointment
+{
+    z-index: 9999;
+}
+
+.igdv_ActivityEdge
+{
+    font-size: 1px;
+    height: 4px;
+    cursor: n-resize;
+}
+
+.igdv_ActivityEdgeLeft
+{
+    font-size: 2px;
+    width: 6px;
+    cursor: move;
+}
+
+.igdv_ActivityEdgeBusy
+{
+    background-color: #0010E6;
+}
+
+.igdv_ActivityEdgeTentative
+{
+    background-color: #90C0FF;
+}
+
+.igdv_ActivityEdgeOutofOffice
+{
+    background-color: #900090;
+}
+
+.igdv_ActivityEdgeFree
+{
+    background-color: #F0F0F0;
+}
+
+.igdv_NavigationButton
+{
+    border: 0px;
+    width: 17px;
+    background-color: transparent;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.igwv_WeekViewFrame
+{
+    background-color: #FFFFD5;
+}
+
+.igwv_CaptionHeader
+{
+    background-repeat: repeat-x;
+    background-color: #8084AA;
+    background-image: url(../images/calendar/captionheader.png);
+    border-right: 1px solid #4A4F87;
+    border-left: 1px solid #4A4F87;
+    border-bottom: 1px solid #4A4F87;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: x-small;
+    text-align: center;
+    color: #FFFFFF;
+    height: 25px;
+}
+
+.igwv_NavigationButton
+{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0px;
+    height: 24px;
+    border: 0px;
+    background-position: top left;
+    background-color: transparent;
+}
+
+.igwv_DayHeader
+{
+    background: #ECE9D8;
+    text-align: right;
+    white-space: nowrap;
+    height: 18px;
+    padding: 0px 2px 0px 0px;
+    border-bottom: 1px solid #ACA899;
+    cursor: default;
+    font-size: 8pt;
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+.igwv_TodayHeader
+{
+    background-color: #FFEE90;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-image: url(../images/calendar/todayheader.png);
+}
+
+.igwv_ActiveDayHeader
+{
+    background: #316AC5;
+    color: #FFFFFF;
+}
+
+.igwv_Day
+{
+    font-family: Microsoft Sans Serif;
+    font-size: 8pt;
+    overflow-x: hidden;
+}
+
+.igwv_DayArea
+{
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    border-color: #000000;
+    background-color: #FFFFD5;
+}
+
+.igwv_ActiveDay
+{
+}
+
+.igwv_Appointment
+{
+    line-height: 150%;
+    white-space: nowrap;
+    cursor: pointer;
+    padding: 2px;
+    margin: 1px 1px 0px 1px;
+}
+
+.igwv_SelectedAppointment
+{
+    background-color: #316AC5;
+    color: #FFFFFF;
+    white-space: nowrap;
+    cursor: pointer;
+    padding: 2px;
+    margin: 1px 1px 0px 1px;
+}
+
+.igwv_AllDayEvent
+{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: lightyellow;
+}
+
+.igmv_Month
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    overflow: auto;
+    margin: 0px;
+    padding: 1px;
+    position: relative;
+}
+
+.igmv_Month table
+{
+    border-collapse: collapse;
+    border: 1px solid #000000;
+}
+
+tr.igmv_CaptionHeader td.igmv_WeekNumber
+{
+    border: 0px;
+    background-color: transparent;
+    line-height: 19px;
+    height: 1%;
+}
+
+.igmv_WeekNumber
+{
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    text-align: center;
+    background-color: #ECE9D8;
+    border-top: 1px solid #CEC79B;
+    padding-right: 1px;
+    width: 20px;
+}
+.igmv_MonthDayOfWeekHeader
+{
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+    text-align: center;
+    background-color: #ECE9D8;
+    border-top: 1px solid #CEC79B;
+    border-bottom: 1px solid #ACA899;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 1px;
+    cursor: default;
+    height: 1%;
+    line-height: 14px;
+}
+
+.igmv_CaptionHeader
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: x-small;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #8084AA;
+    background-repeat: repeat-x;
+    background-image: url(../images/calendar/captionheader.png);
+    border: 0px;
+    height: 1%;
+    line-height: 20px;
+}
+
+.igmv_Day
+{
+    color: #000000;
+    background-color: #FFFFD5;
+    border-left: 1px solid #000000;
+    height: 12%;
+    vertical-align: top;
+}
+
+.igmv_CompressedDay
+{
+    color: #000000;
+    background-color: #FFFFD5;
+    border-left: 1px solid #000000;
+    height: 4%;
+    vertical-align: top;
+}
+.igmv_OtherMonthDay
+{
+    color: #000000;
+    background-color: #FFF4BC;
+    border-left: 1px solid #000000;
+    height: 12%;
+    vertical-align: top;
+}
+
+.igmv_OtherCompressedDay
+{
+    color: #000000;
+    background-color: #FFF4BC;
+    border-left: 1px solid #000000;
+    height: 4%;
+    vertical-align: top;
+}
+
+.igmv_Today
+{
+}
+
+.igmv_ActiveDay
+{
+}
+
+.igmv_DayHeader
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: xx-small;
+    color: #000000;
+    text-align: right;
+    background-color: #FFFFD5;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    padding-right: 2px;
+    padding-top: 0px;
+    height: 3%;
+    line-height: 15px;
+    vertical-align: top;
+}
+
+.igmv_OtherMonthDayHeader
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: xx-small;
+    color: #000000;
+    text-align: right;
+    background-color: #FFF4BC;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    padding-right: 2px;
+    padding-top: 0px;
+    height: 3%;
+    line-height: 15px;
+}
+
+.igmv_TodayHeader
+{
+    background-repeat: repeat-x;
+    background-position: top;
+    background-color: #FFFFD5;
+    background-image: url(../images/calendar/todayheader.png);
+}
+
+.igmv_ActiveDayHeader
+{
+    color: #FFFFFF;
+    background-image: none;
+    background-color: #316AC5;
+}
+.igmv_Appointment
+{
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: xx-small;
+    text-align: left;
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding-left: 1px;
+    cursor: hand;
+    line-height: 15px;
+}
+
+.igmv_AllDayEvent
+{
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size: xx-small;
+    text-align: left;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 1px;
+    cursor: hand;
+    line-height: 15px;
+}
+
+.igmv_SelectedAppointment
+{
+    color: #FFFFFF;
+    background-color: #316AC5;
+}
+
+.igmv_NavigationButton
+{
+    background-color: Transparent;
+    cursor: hand;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    position: absolute;
+    top: 4px;
+    width: 12px;
+}
+
+.igmv_NavigationButtonPrev
+{
+    left: 6px;
+}
+
+.igmv_NavigationButtonNext
+{
+    right: 6px;
+}
+
+/* 
+ * Additional added css and overrides to base ig css 
+ */
+
+div.cellcontents
+{
+    width: 57px;
+}
+
+#MainWorkArea
+{
+    width: 100%;
+    height: 100%;
+    zoom: 1;
+    min-height: 0;
+    overflow: hidden;
+}
+
+tr.igmv_CaptionHeader
+{
+    height: 24px;
+    min-height: 24px;
+}
+
+div.igwv_WeekViewFrame
+{
+    position: absolute;
+    padding-left: 1px;
+    padding-left: 0px !ie;
+}
+
+div.igmv_Month
+{
+    padding: 0px;
+    overflow: hidden;
+    min-height: 500px;
+    _height: 500px;
+    padding-left: 1px;
+    padding-left: 0px !ie;
+}
+
+div.igmv_Month table
+{
+    border-top: none 0px black;
+}
+
+td.igdv_AllDayEventArea
+{
+    min-height: 0;
+    zoom: 1;
+}
+
+div.igdv_AllDayEventScroll
+{
+    overflow: auto;
+    max-height: 120px;
+    _height: expression((this.childNodes.length > 0 && this.childNodes[0].offsetHeight > 120) ? "120px" : "auto");
+    min-height: 0;
+    zoom: 1;
+}
+
+.datagrid
+{
+    border: 2px solid #CCE3E8;
+    border: 1px solid #99BBE8 !ie;
+}
+
+.nowrapgrid .x-grid3-cell-inner
+{
+    overflow: visible;
+    white-space: normal;
+}
+
+/*  Infragistics calendar override to keep selected activity below dialog workspace */
+table.igdv_SelectedAppointment
+{
+    z-index: 1000;
+}
+
+#calendar_center
+{
+    position: absolute;
+    top: 27;
+    left: 175px;
+    overflow: hidden;
+    min-height: 0;
+    zoom: 1;
+}
+
+#calendar_left
+{
+    width: 175px;
+    position: absolute;
+    top: 27;
+    left: 0;
+    overflow: auto;
+    min-height: 0;
+    zoom: 1;
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-left: 0px !ie;
+    padding-top: 0px !ie;
+}

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\HistoryMarketingServiceOpen\HistoryMarketingServiceOpen.HIST_MKTGSVC_OPEN.entity.xml" timeStamp="2009-11-19T20:10:52.3970" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\HistoryMarketingServiceOpen\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:52.3830" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\HistoryMarketingServiceOpen\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:52.3830" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\HistoryMarketingServiceOpen\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:52.3970" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\HistoryMarketingServiceOpen\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:52.3830" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\HistoryMarketingServiceOpen\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:52.3970" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\HistoryMarketingServiceOpen\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:52.4300" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\HistoryMarketingServiceOpen\OnCreate.method.xml" timeStamp="2009-11-19T20:10:52.4300" />
+</exportedFiles>

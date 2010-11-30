@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="2798da8e-ddec-45ee-8bc8-ea94e6ba5100">GeneralSearchOptionsPage.smartpart.xml</Item>
+  <Item Id="c387b813-5439-419a-9b67-dc168b4d056a">GroupTabOptionsPage.smartpart.xml</Item>
+  <Item Id="bb7fdcb5-d3b2-456a-99ab-60f1fa7b2dab">ActivityAlarmOptionsPage.smartpart.xml</Item>
+  <Item Id="9a241869-849c-480e-acb5-003bd654fbf6">CalendarOptionsPage.smartpart.xml</Item>
+  <Item Id="9cfcedb4-d7d6-4fb6-8b79-a6cd28ee13c0">ChangePasswordOptionsPage.smartpart.xml</Item>
+  <Item Id="098f769e-742e-4090-8448-70d3bc7bc39c">OpportunitiesOptionsPage.smartpart.xml</Item>
+  <Item Id="e1bcfa9b-b20d-477b-a629-dcfe88ffc445">DefaultOpportunityProduct.smartpart.xml</Item>
+</ModelItems>

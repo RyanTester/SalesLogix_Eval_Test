@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\ChildPages\Contract\SmartParts\AttachmentList.smartpart.xml" timeStamp="2009-11-19T20:10:59.9800" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Contract\SmartParts\AttachmentList.smartpart.xml.resx" timeStamp="2009-11-19T20:10:59.9800" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Contract\SmartParts\ContractComments.smartpart.xml" timeStamp="2009-11-19T20:10:59.9930" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Contract\SmartParts\ContractComments.smartpart.xml.resx" timeStamp="2009-11-19T20:11:00.0270" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Contract\SmartParts\ContractCoveredAssets.smartpart.xml" timeStamp="2009-11-19T20:10:59.9930" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Contract\SmartParts\ContractCoveredAssets.smartpart.xml.resx" timeStamp="2009-11-19T20:11:00.0270" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Contract\SmartParts\ContractDetail.smartpart.xml" timeStamp="2009-11-19T20:11:00.0270" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Contract\SmartParts\ContractDetail.smartpart.xml.resx" timeStamp="2009-11-19T20:11:00.0270" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Contract\SmartParts\ContractReferenceDuplicate.smartpart.xml" timeStamp="2009-11-19T20:11:00.0270" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Contract\SmartParts\ContractReferenceDuplicate.smartpart.xml.resx" timeStamp="2009-11-19T20:11:00.0270" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Contract\SmartParts\ContractTickets.smartpart.xml" timeStamp="2009-11-19T20:11:00.0270" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Contract\SmartParts\ContractTickets.smartpart.xml.resx" timeStamp="2009-11-19T20:11:00.0270" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Contract\SmartParts\InsertContract.smartpart.xml" timeStamp="2009-11-19T20:11:00.0570" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Contract\SmartParts\InsertContract.smartpart.xml.resx" timeStamp="2009-11-19T20:11:00.0570" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Contract\SmartParts\LiveGroupViewer.smartpart.xml" timeStamp="2009-11-19T20:11:00.0870" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Contract\SmartParts\LiveGroupViewer.smartpart.xml.resx" timeStamp="2009-11-19T20:11:00.1030" />
+</exportedFiles>

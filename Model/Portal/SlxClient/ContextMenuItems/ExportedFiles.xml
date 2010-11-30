@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\contextAccount\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\contextActivity\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\contextCalendar\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\contextCampaign\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\contextContact\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\ContextContract\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\contextDefect\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\contextLead\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\contextOpportunity\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\contextReturn\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\contextSalesOrder\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\contextTicket\" />
+</exportedFiles>

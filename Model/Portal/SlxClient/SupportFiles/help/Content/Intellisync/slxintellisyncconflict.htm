@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="GroupWise;SyncSalesLogix" MadCap:check_list="First Draft,Ran Smart Index" MadCap:status="Ready for Review" MadCap:conditions="Output.WebClient" MadCap:lastBlockDepth="5" MadCap:lastHeight="714" MadCap:lastWidth="511" MadCap:tocPath="" MadCap:PathToHelpSystem="../../" MadCap:SearchType="Stem">
+    <!-- saved from url=(0014)about:internet -->
+    <head><title>Resolving Conflicts</title>
+        <meta name="copyright" value="Copyright © 2001 Puma Technology, Inc. (dba, PUMATECH, inc.)" />
+        <link rel="StyleSheet" href="../SALESLOGIX.CSS" />
+        <script language="JavaScript" title="BSSC Special Effects" src="..\ehlpdhtm.js">
+        </script>
+        <script src="../SkinSupport/MadCapUtilities.js">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor341"></a>Resolving Conflicts</h1>
+        <p>Conflicts are resolved at the record level. &#160;The 
+ following table lists the core fields used to determine conflict resolution: 
+ </p>
+        <p style="margin-top: 0;margin-bottom: 0;">&#160;</p>
+        <table style="width: 94%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="94%">
+            <col style="width: 33.333%;" />
+            <col style="width: 33.333%;" />
+            <col style="width: 33.333%;" />
+            <tr valign="top">
+                <td style="width: 33.333%;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="33.333%" class="Tabletop">
+                    <p class="Tabletop"><span style="font-weight: bold;">Address Book/Contacts</span>
+                    </p>
+                </td>
+                <td style="width: 33.333%;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="33.333%" class="Tabletop">
+                    <p class="Tabletop"><span style="font-weight: bold;">To-Do’s</span>
+                    </p>
+                </td>
+                <td style="width: 33.333%;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="33.333%" class="Tabletop">
+                    <p class="Tabletop"><span style="font-weight: bold;">Appointment/Schedule</span>
+                    </p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 33.333%;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="33.333%" class="Table">
+                    <p class="Table">First Name</p>
+                </td>
+                <td style="width: 33.333%;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="33.333%" class="Table">
+                    <p class="Table">Description/Subject</p>
+                </td>
+                <td style="width: 33.333%;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="33.333%" class="Table">
+                    <p class="Table">Date/Start Date</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 33.333%;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="33.333%" class="Table">
+                    <p class="Table">Last Name</p>
+                </td>
+                <td style="width: 33.333%;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="33.333%" class="Table">
+                    <p class="Table">Contact Name</p>
+                </td>
+                <td style="width: 33.333%;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="33.333%" class="Table">
+                    <p class="Table">Description/Subject</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 33.333%;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="33.333%" class="Table">
+                    <p class="Table">Middle Name</p>
+                </td>
+                <td style="width: 33.333%;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="33.333%" class="Table">
+                    <p class="Table">Contact Company</p>
+                </td>
+                <td style="width: 33.333%;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="33.333%" class="Table">
+                    <p class="Table">&#160;</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 33.333%;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="33.333%" class="Table">
+                    <p class="Table">Company</p>
+                </td>
+                <td style="width: 33.333%;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="33.333%" class="Table">
+                    <p class="Table">Contact Phone</p>
+                </td>
+                <td style="width: 33.333%;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="33.333%" class="Table">
+                    <p class="Table">&#160;</p>
+                </td>
+            </tr>
+        </table>
+        <p style="margin-top: 0;margin-bottom: 0;">&#160;</p>
+        <p>Key fields are case-sensitive, so if you have a record for Lee Hogan in SalesLogix and one for lee hogan in Microsoft Outlook or Lotus Notes, the records are not equal. Both records are added to each system during synchronization.</p>
+        <p>Conflict resolution options are set in the Intellisync for SalesLogix <a href="slxintellisyncadvanced.htm" target="_self">Advanced Setup wizard</a>.  These settings enable you to control conflicts between SalesLogix and Microsoft Outlook or Lotus Notes. You can mark a particular application as the source for automatic conflict resolution, or you can choose to be notified when a conflict occurs. Notification allows you to compare the fields in question, and then make your own decision regarding the data. For example, if a contact has a different account phone number in SalesLogix than in Microsoft Outlook or Lotus Notes, you are asked to resolve the conflict by selecting the phone number you want to use. You can also configure Intellisync for SalesLogix to add or ignore all conflicting items, although this method is not recommended.</p>
+        <p>If you choose to be prompted when a conflict occurs, you can see a summary of proposed changes before the data transfer occurs. You can establish these options when you configure Intellisync for SalesLogix. After reviewing the information, you can confirm that you want to proceed.</p>
+        <p>Conflict Resolution Notes</p>
+        <p>The following notes are helpful tips for conflict resolution:</p>
+        <ul style="list-style-type: disc;">
+            <li class="Bullets" value="1">In addition to key fields, Intellisync for SalesLogix sometimes uses unique identifiers to determine how changes are applied to records during synchronization. These identifiers cannot be viewed, but allow the program to detect changes made to key fields.</li>
+            <li class="Bullets" value="2">The conflict resolution setting is not normally needed to resolve conflicts between records. In most cases, the program automatically edits records to achieve synchronization.</li>
+            <li class="Bullets" value="3">Overlapping appointments are not treated as data conflicts.</li>
+            <li class="Bullets" value="4">Last Name fields in address records cannot be left blank. Since Last Name fields are key fields, a blank field can generate false data conflicts.</li>
+            <li class="Bullets" value="5">If there is no name to enter in an address record — for example, if you have an address for a company, but you do not have a contact name — place another value in the Last Name field, such as the company name. If you have only a contact’s first name, enter the first name in both the Last Name and the First Name fields.</li>
+            <li class="Bullets" value="6">The “Notify me when conflicts occur” (default setting) is the only conflict resolution setting that allows you to view each data conflict and decide how the conflict should be resolved. All other conflict resolution settings work without user action.</li>
+        </ul>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="slxintellisyncconfigure.htm">Configuring Intellisync 
+ for SalesLogix</a>
+        </p>
+        <p><a href="slxintellisyncadvanced.htm" target="_self">Find Help for Application Setup</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>
+            </p>
+            <p style="border-top-style: Groove;border-top-color: #c0c0c0;border-top-width: 1px;">&#160;</p>
+            <p><![CDATA[ ]]><a href="../General/feedback.htm" target="_blank">Tell us how we can make the Help better.</a></p>
+        </div>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

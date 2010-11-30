@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="9d7adc23-181f-4fa9-a5ef-d891f2187a6c" lastModifiedUtc="2009-04-06T21:49:35.7298048Z" manageSchema="true" tableName="PROCESSTYPEINFO" name="ProcessTypeInformation" displayPropertyId="6e8b1ca0-7a4b-4fd7-970f-9650d613a2c6" isExtension="false" audited="true" onBeforeInsertMethodId="237ea24c-8c85-405d-b1d8-c11438502591" onAfterInsertMethodId="dcaddbf6-b4df-4a90-ac84-e5b6db8b7981" onBeforeUpdateMethodId="523f893a-25c1-4dc0-918c-8252ce92f719" onAfterUpdateMethodId="287e0b93-060c-4242-a57f-d1863c089f30" onBeforeDeleteMethodId="d664e478-e76c-4aa3-9694-8294d6ee2a77" onAfterDeleteMethodId="87583f2e-18c9-42b7-a1ad-9724faf4c9c5" onCreateId="d8aa6dc5-acab-4f12-bb5b-d5beb2d9336c">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntity">
+      <extender guid="1589723d-0536-4bf3-bdd7-3f6f7fe165d0">
+        <OrmEntityMetadataExtension>
+          <StringExpression>${ProcessPath}</StringExpression>
+          <IsHistoryTable>false</IsHistoryTable>
+        </OrmEntityMetadataExtension>
+      </extender>
+    </extendee>
+  </ExtendedPropertiesCollection>
+  <keyProperties>
+    <keyReference id="2b568446-3ed7-4f00-bd7d-c873025cf18c" ordinalPosition="0" />
+  </keyProperties>
+  <properties>
+    <property xsi:type="OrmFieldProperty" id="2b568446-3ed7-4f00-bd7d-c873025cf18c" lastModifiedUtc="2008-07-08T17:57:42.3602Z" name="ProcessTypeInformationId" audited="false" isNullable="false" include="false" columnName="PROCESSTYPEINFOID" maxLength="12" precision="0" scale="0" ordinal="0" isReadOnly="false" isDynamic="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty" />
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="30053f5a-8d40-4db1-b185-1e4128eb26cc">
+        <StandardIdDataType />
+      </SystemDataType>
+    </property>
+    <property xsi:type="OrmFieldProperty" id="1a4061da-fad2-4fc1-b7b5-c3b853bdd86b" lastModifiedUtc="2008-07-07T20:24:37.6370007Z" name="CreateUser" audited="false" columnName="CREATEUSER" maxLength="12" precision="0" scale="0" ordinal="1" isReadOnly="false" isDynamic="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty" />
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="30053f5a-8d40-4db1-b185-1e4128eb26cc">
+        <StandardIdDataType />
+      </SystemDataType>
+    </property>
+    <property xsi:type="OrmFieldProperty" id="f669b3d0-56ec-41c8-b75b-9721db7f607c" lastModifiedUtc="2008-07-07T20:24:37.6420012Z" name="CreateDate" audited="false" columnName="CREATEDATE" maxLength="0" precision="0" scale="0" ordinal="2" isReadOnly="false" isDynamic="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty" />
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="1f08f2eb-87c8-443b-a7c2-a51f590923f5">
+        <DateTimeDataType />
+      </SystemDataType>
+    </property>
+    <property xsi:type="OrmFieldProperty" id="8fcce2cc-19fa-4735-873e-709fb8bf873f" lastModifiedUtc="2008-07-07T20:24:37.6440014Z" name="ModifyUser" audited="false" columnName="MODIFYUSER" maxLength="12" precision="0" scale="0" ordinal="3" isReadOnly="false" isDynamic="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty" />
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="30053f5a-8d40-4db1-b185-1e4128eb26cc">
+        <StandardIdDataType />
+      </SystemDataType>
+    </property>
+    <property xsi:type="OrmFieldProperty" id="0b4ec094-7a1d-4e34-97ba-63079fd88165" lastModifiedUtc="2008-07-07T20:24:37.6460016Z" name="ModifyDate" audited="false" columnName="MODIFYDATE" maxLength="0" precision="0" scale="0" ordinal="4" isReadOnly="false" isDynamic="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty" />
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="1f08f2eb-87c8-443b-a7c2-a51f590923f5">
+        <DateTimeDataType />
+      </SystemDataType>
+    </property>
+    <property xsi:type="OrmFieldProperty" id="a25786e8-8c3f-4f3a-9f1b-4d6147f09f21" lastModifiedUtc="2009-07-13T21:36:30.0055383Z" name="EntityType" audited="false" columnName="ENTITYTYPE" maxLength="255" precision="0" scale="0" ordinal="6" isReadOnly="false" isDynamic="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty" />
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="ccc0f01d-7ba5-408e-8526-a3f942354b3a">
+        <TextDataType>
+          <Length>255</Length>
+        </TextDataType>
+      </SystemDataType>
+    </property>
+    <property xsi:type="OrmFieldProperty" id="0b09f3b6-ca4a-42f8-8d0f-5b6601790a21" lastModifiedUtc="2009-07-13T21:39:47.7785383Z" name="ProcessPath" audited="false" columnName="PROCESSPATH" maxLength="500" precision="0" scale="0" ordinal="5" isReadOnly="false" isDynamic="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty" />
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="ccc0f01d-7ba5-408e-8526-a3f942354b3a">
+        <TextDataType>
+          <Length>255</Length>
+        </TextDataType>
+      </SystemDataType>
+    </property>
+    <property xsi:type="OrmFieldProperty" id="213dd6ac-9309-49d1-8d43-2d5e1060c64c" lastModifiedUtc="2009-07-13T21:39:52.0805383Z" name="Description" audited="false" columnName="DESCRIPTION" maxLength="500" precision="0" scale="0" ordinal="7" isReadOnly="false" isDynamic="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty" />
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="ccc0f01d-7ba5-408e-8526-a3f942354b3a">
+        <TextDataType>
+          <Length>255</Length>
+        </TextDataType>
+      </SystemDataType>
+    </property>
+  </properties>
+</entity>

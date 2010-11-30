@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="1ea41f0a-9a92-4a78-973a-6fc8bb1d3f44">Sage.SalesLogix.Client.GroupBuilder.Modules.GroupViewerModule.module.xml</Item>
+  <Item Id="47cb0251-9e82-4007-9516-e084e7a5d454">Sage.SalesLogix.Web.Modules.ActivityHistoryModule.module.xml</Item>
+</ModelItems>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="797c397a-2773-4540-95e9-793a5f2cb33f">
+  <ItemId>new_Contract</ItemId>
+  <NavUrl>InsertContract.aspx?modeid=Insert</NavUrl>
+  <LargeImageUrl>[Localization!Global_Images:contract_new_24x24]</LargeImageUrl>
+  <SmallImageUrl>[Localization!Global_Images:contract_new_16x16]</SmallImageUrl>
+  <ContextMenuId />
+  <Target />
+</MenuDropDownItem>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="d7994434-543f-40c1-8021-84c8667bcd43">EditRecurrence.smartpart.xml</Item>
+  <Item Id="53aa5095-7ab6-4957-b5d9-2cc95e2ee487">DoYouKnow.smartpart.xml</Item>
+  <Item Id="f4e71e84-41b5-4a60-b02b-638da7bb5b26">IntroText.smartpart.xml</Item>
+  <Item Id="170ca0de-cb18-4d92-b99d-8d6126f68a8c">Links.smartpart.xml</Item>
+  <Item Id="6acdc74c-c869-49eb-806d-82af36288c46">QuickActions.smartpart.xml</Item>
+  <Item Id="e3bbee6a-356e-4dee-bd63-a2f0eb8b5805">RecentlyViewed.smartpart.xml</Item>
+  <Item Id="8d9aa17e-aa83-45f9-b081-f077c3813e2d">TodaysActivities.smartpart.xml</Item>
+  <Item Id="862159d1-c2cc-4790-849c-d72512a9b0ea">RecentNotes.smartpart.xml</Item>
+  <Item Id="4e236ced-03b9-4e9b-9499-3760b04f0fac">ClosingOpportunities.smartpart.xml</Item>
+  <Item Id="a04f82b0-3578-4fa6-94e8-14f117d1d11e">CampaignResponses.smartpart.xml</Item>
+</ModelItems>

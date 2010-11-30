@@ -1,0 +1,35 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\QuickForms\AccountServiceInfo.main.quickform.xml" timeStamp="2009-11-19T20:10:55.8300" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\QuickForms\AccountServiceInfo.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:55.8770" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\QuickForms\AddPortalTicket.main.quickform.xml" timeStamp="2009-11-19T20:10:55.8470" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\QuickForms\AddPortalTicket.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:55.8600" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\QuickForms\CustomerPortalTicketActivities.main.quickform.xml" timeStamp="2009-11-19T20:10:55.8770" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\QuickForms\CustomerPortalTicketActivities.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:55.9070" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\QuickForms\InsertTicket.main.quickform.xml" timeStamp="2009-11-19T20:10:55.8600" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\QuickForms\InsertTicket.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:55.9230" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\QuickForms\PortalTicket.main.quickform.xml" timeStamp="2009-11-19T20:10:55.9400" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\QuickForms\PortalTicket.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:55.9400" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\QuickForms\TicketActivities.main.quickform.xml" timeStamp="2009-11-19T20:10:55.9070" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\QuickForms\TicketActivities.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:55.9230" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\QuickForms\TicketActivityParts.main.quickform.xml" timeStamp="2009-11-19T20:10:55.9700" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\QuickForms\TicketActivityParts.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:55.9400" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\QuickForms\TicketAssets.main.quickform.xml" timeStamp="2009-11-19T20:10:56.0000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\QuickForms\TicketAssets.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:55.9700" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\QuickForms\TicketComments.main.quickform.xml" timeStamp="2009-11-19T20:10:55.9870" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\QuickForms\TicketComments.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:55.9700" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\QuickForms\TicketDefects.main.quickform.xml" timeStamp="2009-11-19T20:10:55.9700" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\QuickForms\TicketDefects.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:55.9870" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\QuickForms\TicketDetails.main.quickform.xml" timeStamp="2010-01-27T20:15:03.8400" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\QuickForms\TicketDetails.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:56.0170" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\QuickForms\TicketExtendedDetails.main.quickform.xml" timeStamp="2009-11-19T20:10:56.0800" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\QuickForms\TicketExtendedDetails.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:56.0170" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\QuickForms\TicketHistory.main.quickform.xml" timeStamp="2009-11-19T20:10:56.0800" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\QuickForms\TicketHistory.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:56.0330" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\QuickForms\TicketReturns.main.quickform.xml" timeStamp="2009-11-19T20:10:56.0330" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\QuickForms\TicketReturns.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:56.0800" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\QuickForms\TicketSummary.main.quickform.xml" timeStamp="2009-11-19T20:10:56.0930" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\QuickForms\TicketSummary.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:56.0630" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\QuickForms\TicketTimeline.main.quickform.xml" timeStamp="2009-11-19T20:10:56.0930" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Ticket\QuickForms\TicketTimeline.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:56.0930" />
+</exportedFiles>

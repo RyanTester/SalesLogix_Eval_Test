@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="67ae7b7c-7296-4f18-a9bc-47dd18553672">
+  <ItemId>menuItemCreateGroup</ItemId>
+  <NavUrl>javascript:groupManager.CreateGroup('TICKET');</NavUrl>
+  <LargeImageUrl />
+  <SmallImageUrl />
+  <ContextMenuId />
+  <Target />
+</MenuDropDownItem>

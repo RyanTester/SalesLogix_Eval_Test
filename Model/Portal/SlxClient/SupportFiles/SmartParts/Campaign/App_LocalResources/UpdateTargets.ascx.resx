@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lblAssignTo.Text" xml:space="preserve">
+    <value>Assign To:</value>
+  </data>
+  <data name="lblCompletedDate.Text" xml:space="preserve">
+    <value>CompletedDate:</value>
+  </data>
+  <data name="lblDescription.Text" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="lblStatus.Text" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="lblPriority.Text" xml:space="preserve">
+    <value>Priority:</value>
+  </data>
+  <data name="btnSave.ToolTip" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="lblPercentComplete.Text" xml:space="preserve">
+    <value>% Complete:</value>
+  </data>
+  <data name="lblNeededDate.Text" xml:space="preserve">
+    <value>Needed Date:</value>
+  </data>
+  <data name="lblComment.Text" xml:space="preserve">
+    <value>Comments:</value>
+  </data>
+  <data name="lblEstimated.Text" xml:space="preserve">
+    <value>Estimated:</value>
+  </data>
+  <data name="lblActual.Text" xml:space="preserve">
+    <value>Actual:</value>
+  </data>
+  <data name="lblBudget.Text" xml:space="preserve">
+    <value>Budget</value>
+  </data>
+  <data name="DialogTitle" xml:space="preserve">
+    <value>Update Targets</value>
+  </data>
+  <data name="rdlUserTeam.Text" xml:space="preserve">
+    <value>Existing User/Team</value>
+  </data>
+  <data name="lblAssignment.Text" xml:space="preserve">
+    <value>Assignment</value>
+  </data>
+  <data name="lblTaskCosts.Text" xml:space="preserve">
+    <value>Task Cost:</value>
+  </data>
+  <data name="lblTaskHours.Text" xml:space="preserve">
+    <value>Task Hours:</value>
+  </data>
+  <data name="rdlContact.Text" xml:space="preserve">
+    <value>Existing Contact</value>
+  </data>
+  <data name="rdlDepartment.Text" xml:space="preserve">
+    <value>Existing Department</value>
+  </data>
+  <data name="rdlNone.Text" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="rdlOther.Text" xml:space="preserve">
+    <value>Other Individual</value>
+  </data>
+  <data name="cmdCancel.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="cmdUpdate.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="lblTo.Text" xml:space="preserve">
+    <value>To:</value>
+  </data>
+  <data name="lblUpdateTargets.Text" xml:space="preserve">
+    <value>Update selected target(s):</value>
+  </data>
+  <data name="rdlInitTargets.Yes.Item" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="rdlInitTargets.No.Item" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="grdTargets.Company.Header" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="grdTargets.Init.Header" xml:space="preserve">
+    <value>Init</value>
+  </data>
+  <data name="grdTargets.LastUpdated.Header" xml:space="preserve">
+    <value>Last Updated</value>
+  </data>
+  <data name="grdTargets.Name.Header" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="grdTargets.EmptyTableRowText" xml:space="preserve">
+    <value>No records match the selection criteria.</value>
+  </data>
+  <data name="grdTargets.ResponseDate.Header" xml:space="preserve">
+    <value>Resp. Date</value>
+  </data>
+  <data name="grdTargets.Stage.Header" xml:space="preserve">
+    <value>Stage</value>
+  </data>
+  <data name="grdTargets.Status.Header" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="grdTargets.Type.Header" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="LeadSourceAbbrev.PropertyHeader" xml:space="preserve">
+    <value>Abbrev</value>
+  </data>
+  <data name="LeadSourceDescription.PropertyHeader" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="LeadSourceSourceDate.PropertyHeader" xml:space="preserve">
+    <value>Source Date</value>
+  </data>
+  <data name="LeadSourceType.PropertyHeader" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Option_AddResponse" xml:space="preserve">
+    <value>Add Response</value>
+  </data>
+  <data name="Option_Initial" xml:space="preserve">
+    <value>Initial Target</value>
+  </data>
+  <data name="Option_Stage" xml:space="preserve">
+    <value>Stage</value>
+  </data>
+  <data name="Option_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="lblLeadSource.Text" xml:space="preserve">
+    <value>Lead Source:</value>
+  </data>
+  <data name="lblResponseDate.Text" xml:space="preserve">
+    <value>Response Date:</value>
+  </data>
+  <data name="lblResponseMethods.Text" xml:space="preserve">
+    <value>Response Methods:</value>
+  </data>
+  <data name="lblStage.Text" xml:space="preserve">
+    <value>Stage:</value>
+  </data>
+  <data name="lblResponseMetod.Text" xml:space="preserve">
+    <value>Respone Method:</value>
+  </data>
+  <data name="lblInterest.Text" xml:space="preserve">
+    <value>Interest</value>
+  </data>
+  <data name="lblInterestLevel.Text" xml:space="preserve">
+    <value>Interest Level</value>
+  </data>
+</root>

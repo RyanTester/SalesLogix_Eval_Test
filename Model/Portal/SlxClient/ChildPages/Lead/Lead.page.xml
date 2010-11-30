@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<PortalPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="8d703ad2-26da-44cb-bc25-f3098e9fc2b4">
+  <PageAlias>Lead</PageAlias>
+  <SmallImage>[Localization!Global_Images:lead_16x16]</SmallImage>
+  <LargeImage>[Localization!Global_Images:Leads_24x24]</LargeImage>
+  <TemplateUrl>Masters\base.master</TemplateUrl>
+  <InheritTemplate>false</InheritTemplate>
+  <InheritsFrom>Sage.Platform.WebPortal.EntityPage, Sage.Platform.WebPortal</InheritsFrom>
+  <Properties>
+    <Property Name="EntityTypeName" TypeConverter="">Sage.Entity.Interfaces.ILead, Sage.Entity.Interfaces</Property>
+  </Properties>
+  <TemplateProperties>
+    <Property Name="Visible" TypeConverter="">True</Property>
+    <Property Name="IncludeMoreTabsTab" TypeConverter="">False</Property>
+    <Property Name="DefaultVisibleTabCount" TypeConverter="">8</Property>
+    <Property Name="IncludeMiddlePane" TypeConverter="">True</Property>
+  </TemplateProperties>
+  <IsDefaultPage>false</IsDefaultPage>
+  <ExcludedGlobalModules />
+</PortalPage>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="e13da60b-2453-4ee6-a24c-c41d45f1871b">
+  <ItemId>new_campaign</ItemId>
+  <NavUrl>InsertCampaign.aspx?modeid=Insert</NavUrl>
+  <LargeImageUrl>[Localization!Global_Images:campaigns_new_detail_24x24]</LargeImageUrl>
+  <SmallImageUrl>[Localization!Global_Images:campaigns_new_16x16]</SmallImageUrl>
+  <ContextMenuId />
+  <Target />
+</MenuDropDownItem>

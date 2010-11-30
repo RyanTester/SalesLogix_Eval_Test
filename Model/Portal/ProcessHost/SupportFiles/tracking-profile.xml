@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TrackingProfile xmlns="http://schemas.microsoft.com/winfx/2006/workflow/trackingprofile" version="7.5.0">
+	<!--  
+		******************* Important information about this tracking profile ********************
+		
+		It is okay to modify this file; however, the version attribute of the <TrackingProfile> element should NEVER be changed from 7.5.0 
+		unless you are sure there are no running workflows, either serialized to the database or in memory.  
+		Any existing workflows will be dependent of the version number they were originally started with.
+		If the version number is changed and a running workflow queries for the old version, a failure of 'Profile cache insert failure.' is likely
+		to be logged and the workflow will not run.
+	-->
+    <TrackPoints>
+        <WorkflowTrackPoint>
+            <MatchingLocation>
+                <WorkflowTrackingLocation>
+                    <TrackingWorkflowEvents>
+                        <TrackingWorkflowEvent>Aborted</TrackingWorkflowEvent>
+                        <TrackingWorkflowEvent>Completed</TrackingWorkflowEvent>
+                        <TrackingWorkflowEvent>Started</TrackingWorkflowEvent>
+                        <TrackingWorkflowEvent>Exception</TrackingWorkflowEvent>
+                        <TrackingWorkflowEvent>Terminated</TrackingWorkflowEvent>
+                    </TrackingWorkflowEvents>
+                </WorkflowTrackingLocation>
+            </MatchingLocation>
+        </WorkflowTrackPoint>
+        <ActivityTrackPoint>
+            <MatchingLocations>
+                <ActivityTrackingLocation>
+                    <Activity>
+                        <Type>System.Workflow.ComponentModel.Activity, System.Workflow.ComponentModel, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35</Type>
+                        <MatchDerivedTypes>true</MatchDerivedTypes>
+                    </Activity>
+                    <ExecutionStatusEvents>
+                        <ExecutionStatus>Closed</ExecutionStatus>
+                    </ExecutionStatusEvents>
+                </ActivityTrackingLocation>
+            </MatchingLocations>
+            <Extracts>
+                <ActivityDataTrackingExtract>
+                    <Member>Description</Member>
+                </ActivityDataTrackingExtract>
+            </Extracts>
+        </ActivityTrackPoint>
+        <ActivityTrackPoint>
+            <MatchingLocations>
+                <ActivityTrackingLocation>
+                    <Activity>
+                        <Type>Sage.Platform.Process.Activities.SequentialEntityWorkflow, Sage.Platform.Process, Version=7.5.0.1414, Culture=neutral, PublicKeyToken=null</Type>
+                        <MatchDerivedTypes>true</MatchDerivedTypes>
+                    </Activity>
+                    <ExecutionStatusEvents>
+                        <ExecutionStatus>Executing</ExecutionStatus>
+                    </ExecutionStatusEvents>
+                </ActivityTrackingLocation>
+            </MatchingLocations>
+            <Extracts>
+                <WorkflowDataTrackingExtract>
+                    <Member>EntityType</Member>
+                </WorkflowDataTrackingExtract>
+                <WorkflowDataTrackingExtract>
+                    <Member>EntityId</Member>
+                </WorkflowDataTrackingExtract>
+                <WorkflowDataTrackingExtract>
+                    <Member>DisplayName</Member>
+                </WorkflowDataTrackingExtract>
+            </Extracts>
+        </ActivityTrackPoint>
+        <ActivityTrackPoint>
+            <MatchingLocations>
+                <ActivityTrackingLocation>
+                    <Activity>
+                        <Type>Sage.Platform.Process.Activities.SimpleQueueMessageActivity, Sage.Platform.Process, Version=7.5.0.1414, Culture=neutral, PublicKeyToken=null</Type>
+                        <MatchDerivedTypes>true</MatchDerivedTypes>
+                    </Activity>
+                    <ExecutionStatusEvents>
+                        <ExecutionStatus>Executing</ExecutionStatus>
+                    </ExecutionStatusEvents>
+                </ActivityTrackingLocation>
+            </MatchingLocations>
+            <Extracts>
+                <ActivityDataTrackingExtract>
+                    <Member>QueueName</Member>
+                </ActivityDataTrackingExtract>
+                <ActivityDataTrackingExtract>
+                    <Member>AssignedTo</Member>
+                </ActivityDataTrackingExtract>
+                <ActivityDataTrackingExtract>
+                    <Member>Description</Member>
+                </ActivityDataTrackingExtract>
+                <ActivityDataTrackingExtract>
+                    <Member>MessageUri</Member>
+                </ActivityDataTrackingExtract>
+            </Extracts>
+        </ActivityTrackPoint>
+        <ActivityTrackPoint>
+            <MatchingLocations>
+                <ActivityTrackingLocation>
+                    <Activity>
+                        <Type>Sage.Platform.Process.Activities.GoalActivity, Sage.Platform.Process, Version=7.5.0.1414, Culture=neutral, PublicKeyToken=null</Type>
+                        <MatchDerivedTypes>true</MatchDerivedTypes>
+                    </Activity>
+                    <ExecutionStatusEvents>
+                        <ExecutionStatus>Executing</ExecutionStatus>
+                        <ExecutionStatus>Closed</ExecutionStatus>
+                    </ExecutionStatusEvents>
+                </ActivityTrackingLocation>
+            </MatchingLocations>
+            <Extracts>
+                <ActivityDataTrackingExtract>
+                    <Member>Status</Member>
+                </ActivityDataTrackingExtract>
+            </Extracts>
+        </ActivityTrackPoint>
+        <UserTrackPoint>
+            <MatchingLocations>
+                <UserTrackingLocation>
+                    <Activity>
+                        <Type>System.Workflow.ComponentModel.Activity, System.Workflow.ComponentModel, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35</Type>
+                        <MatchDerivedTypes>true</MatchDerivedTypes>
+                    </Activity>
+                    <Argument>
+                        <Type>System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</Type>
+                        <MatchDerivedTypes>true</MatchDerivedTypes>
+                    </Argument>
+                </UserTrackingLocation>
+            </MatchingLocations>
+        </UserTrackPoint>
+    </TrackPoints>
+</TrackingProfile>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Lookup name="DefaultAccountSearch">
+    <LookupValue id="0" text="StandardLookup" default="true"></LookupValue>
+    <LookupValue id="1" text="AdvancedLookup" default="false"></LookupValue>
+</Lookup>
+

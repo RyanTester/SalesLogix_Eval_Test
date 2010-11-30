@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="b69a0c3e-31cd-4cc9-9b6e-1bca14f57dd0" lastModifiedUtc="2007-12-21T21:00:05.2457396Z" cardinality="1:M" parentEntityId="e7a70408-03cb-4667-890b-39de33fb739b" childEntityId="a8593567-8463-4c3a-b434-e5e0bfee8d91" cascadeOption="SaveUpdateDelete">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="d602dd2c-1d3d-4dfa-95c6-301de398713f" lastModifiedUtc="0001-01-01T00:00:00" name="ContractIncidents" audited="false" displayCategory="Intermediate" isNullable="true" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="3ebbe5e3-8ace-48d6-8f2a-d686a1e5c284" lastModifiedUtc="2007-12-21T21:00:05.2457396Z" name="Ticket" audited="false" displayCategory="Intermediate" isNullable="false" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="efa9390e-1acb-49e9-9846-91732cd045b8" parentPropertyId="8c393d4a-767b-4d56-aa25-09b7e8b26978" childPropertyId="4ced7ba2-a5b0-4c8e-822a-f184b213b4cb" ordinal="0" />
+  </column>
+</relationship>

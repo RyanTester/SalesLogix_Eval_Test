@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<PortalApplication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="826ae928-70e1-4df3-b337-c8c0702d7248">
+  <PortalAlias>SLXCustomerPortal</PortalAlias>
+  <PortalReferences />
+  <DeploymentActions>
+    <ActionType TypeName="Sage.SalesLogix.Web.AdminModule.SLXWebAccessConnectionStringDeploymentAction, Sage.SalesLogix.Web.AdminModule">
+      <Properties />
+    </ActionType>
+    <ActionType TypeName="Sage.Platform.WebPortal.Design.EntityDeploymentAction, Sage.Platform.WebPortal.Design">
+      <Properties />
+    </ActionType>
+  </DeploymentActions>
+  <TemplateUrl>masters\base.master</TemplateUrl>
+  <AuthenticationProvider>Sage.SalesLogix.Web.SLXCustomerAuthenticationProvider, Sage.SalesLogix.Web</AuthenticationProvider>
+</PortalApplication>

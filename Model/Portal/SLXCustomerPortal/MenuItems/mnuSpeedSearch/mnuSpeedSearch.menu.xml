@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="8b6dbcdb-fad6-4acd-85f0-862d256472a0">
+  <ItemId>mnuSpeedSearch</ItemId>
+  <NavUrl>SpeedSearch.aspx</NavUrl>
+  <LargeImageUrl />
+  <SmallImageUrl>[Localization.Global_Images:Speed_Search_16x16]</SmallImageUrl>
+  <Target />
+</MenuDropDownItem>

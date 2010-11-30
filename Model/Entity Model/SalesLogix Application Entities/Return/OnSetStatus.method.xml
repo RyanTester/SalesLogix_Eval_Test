@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="4e3febd3-4d3b-42d9-bd30-7459b2a63afe" lastModifiedUtc="2008-01-25T17:59:54.9106657Z" name="OnSetStatus" returnType="void" methodType="Rule" actionType="None" returnMode="None" isInstance="true">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter />
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="9da04bf1-cce2-4c2c-8dbb-71c196bedbec" lastModifiedUtc="2008-01-25T17:59:31.1635537Z" targetType="Sage.SalesLogix.Return.Rules, Sage.SalesLogix.BusinessRules" targetMethod="OnSetStatus" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

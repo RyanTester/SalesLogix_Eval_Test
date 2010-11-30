@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="5b7f205b-4979-4780-9bdb-158bc5bad914">contextAccount.contextmenu.xml</Item>
+  <Item Id="b892f898-61c8-4654-be91-f95d184229bb">contextActivity.contextmenu.xml</Item>
+  <Item Id="6e73f78c-44bc-48db-a58a-e30c07665e93">contextCalendar.contextmenu.xml</Item>
+  <Item Id="80d8b835-f1ac-46c2-bbcd-624e733ae895">contextContact.contextmenu.xml</Item>
+  <Item Id="237d1d16-88bb-42b2-ba64-0e3c339c1f4e">contextOpportunity.contextmenu.xml</Item>
+  <Item Id="ff78a4b0-37a5-4577-8256-78e95443bb33">contextTicket.contextmenu.xml</Item>
+  <Item Id="07726926-6467-4421-ac6b-b81f304e6a5f">contextLead.contextmenu.xml</Item>
+  <Item Id="a5ab66a4-f7f3-4db5-9096-a6a4118a0d05">contextCampaign.contextmenu.xml</Item>
+  <Item Id="03ea0806-00be-4ab9-ba0e-01f405d5e186">contextReturn.contextmenu.xml</Item>
+  <Item Id="03685366-ccfd-412d-9ea0-3cc0e7861df3">contextContract.contextmenu.xml</Item>
+  <Item Id="20710425-07a4-4a8e-bb07-42815ac269bf">contextDefect.contextmenu.xml</Item>
+</ModelItems>

@@ -1,0 +1,75 @@
+#if($action.BusinessRule == 'Save')
+  ${entitytypename} _entity = BindingSource.Current as ${entitytypename};
+  if (_entity != null) 
+  {
+    object _parent = GetParentEntity(); 
+    if (DialogService.ChildInsertInfo != null) 
+    {
+      if (_parent != null) 
+      {
+        if (DialogService.ChildInsertInfo.ParentReferenceProperty != null) 
+        {
+          DialogService.ChildInsertInfo.ParentReferenceProperty.SetValue(_entity, _parent, null);
+        }        
+      }
+    }
+    bool shouldSave = true;
+    Sage.Platform.WebPortal.EntityPage page = Page as Sage.Platform.WebPortal.EntityPage;
+	if (page != null)
+	{
+       if(IsInDialog() && page.ModeId.ToUpper() == "INSERT")
+       {
+         shouldSave = false;
+       }
+	}
+
+    if(shouldSave)
+    {
+       _entity.Save();
+    }
+    
+    if (_parent != null)
+    {
+        if (DialogService.ChildInsertInfo != null)
+        {
+           if (DialogService.ChildInsertInfo.ParentsCollectionProperty != null) 
+           {
+              System.Reflection.MethodInfo _add = DialogService.ChildInsertInfo.ParentsCollectionProperty.PropertyType.GetMethod("Add");
+              _add.Invoke(DialogService.ChildInsertInfo.ParentsCollectionProperty.GetValue(_parent, null), new object[] { _entity });
+           }
+        }
+     }        
+  }
+#elseif($action.BusinessRule == 'Delete')
+  Sage.Platform.Orm.Interfaces.IPersistentEntity persistentEntity = this.BindingSource.Current as Sage.Platform.Orm.Interfaces.IPersistentEntity;
+  if (persistentEntity != null) {
+    persistentEntity.Delete();
+  }
+#else
+  #if($action.Parameters.Count > 0)
+    ##object[] objarray = new object[] { this.BindingSource.Current#foreach($param in $action.Parameters)#if($param.DataSourceID != "MainEntity"), ${param.DataSourceID}.Current#end#end };
+    #set($hasMainDataSource = false)
+    #foreach($param in $action.Parameters)
+      #if($param.DataSourceID == "MainEntity")#set($hasMainDataSource = true)#end
+    #end
+    #if($hasMainDataSource)
+      object[] objarray = new object[] { #foreach($param in $action.Parameters)#if($velocityCount>1),#end #if($param.DataSourceID == "MainEntity")this.BindingSource.Current#else ${param.DataSourceID}.Current#end#end };
+    #else
+      object[] objarray = new object[] { this.BindingSource.Current#foreach($param in $action.Parameters)#if($param.DataSourceID != "MainEntity"), ${param.DataSourceID}.Current#end#end };
+    #end
+  #else
+    object[] objarray = new object[] { this.BindingSource.Current };
+  #end
+  #if($action.PassResultsToNextAction) object passthru = #end Sage.Platform.EntityFactory.Execute<Sage.SalesLogix.Entities.${action.ObjectName}>("${action.ObjectName}.${action.BusinessRule}", objarray);
+#end
+#if($action.OnCompleteActionItem)
+  #if($action.OnCompleteActionItem.InnerActionName != "NoActionAction")
+    #if($action.PassResultsToNextAction)
+      if (passthru != null) {
+        e = new Sage.Platform.WebPortal.SmartParts.WebActionEventArgs(passthru);
+      }
+    #end
+    ${action.OnCompleteActionItem.MethodName}(sender, e);
+    ${pagegenerator.QueueSubAction($action.OnCompleteActionItem)}
+  #end
+#end

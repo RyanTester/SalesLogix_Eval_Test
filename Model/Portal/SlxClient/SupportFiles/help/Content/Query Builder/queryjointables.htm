@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="Gainey;decompilation;Admin;N;AccountID;USERINFO;AccountManagerID;UserID" MadCap:priority="1" MadCap:comment="12/30/02 KC Conv. buttons to links (Multiple Comments)" MadCap:timeEstimate="0" MadCap:check_list="First Draft" MadCap:status="In Progress" MadCap:lastBlockDepth="5" MadCap:lastHeight="909" MadCap:lastWidth="476" MadCap:conditions="Output.WebClient" MadCap:tocPath="Using Query Builder|Using Joins" MadCap:PathToHelpSystem="../../" MadCap:SearchType="Stem">
+    <!-- saved from url=(0014)about:internet -->
+    <head><title>Joining Tables</title>
+        <link rel="StyleSheet" href="../SALESLOGIX.CSS" />
+        <script src="../SkinSupport/MadCapUtilities.js">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor146"></a>Joining Tables</h1>
+        <p>The connection between two tables is called a join and is established 
+ using a field that exists in both tables. This field may have a different 
+ name in each table but contains the same information. There are two kinds 
+ of joins - Local and Global.
+ </p>
+        <h5>Local Joins</h5>
+        <p>A local join is temporary. It only exists while the object or query that uses  the join is active or running. Local joins are not visible from any data tree  view in Query Builder. </p>
+        <h5>To open the Local Join dialog box</h5>
+        <ul>
+            <li value="1">Click a field in the Query Builder, and then click <span class="SLXBold">Create Local Join</span>.</li>
+        </ul>
+        <h5>Global Joins</h5>
+        <p>A global join is permanent and exists from session to session in the  SalesLogix Query Builder data tree structure. Sage SalesLogix contains  predefined global joins (system joins) that cannot be deleted. Anyone may use  the predefined global joins, but only the system administrator or administrative  user can create global joins using the <a href="queryglobaljoinmanager.htm" target="_self">Global Join Manager</a>. </p>
+        <h5>To open the Global Join Manager</h5>
+        <ul>
+            <li value="1">Click the <span class="SLXBold">Joins</span> button in Query Builder (while  logged on as the administrator).</li>
+        </ul>
+        <h5>Working with Joins</h5>
+        <p>When creating a join you must identify a parent table and a child table. 
+ The type of join determines what information is returned from the query. 
+ There are three types of joins- <a href="queryinnerjoins.htm">Inner</a>, <a href="queryleftjoin.htm">Left</a>, and <a href="queryrightjoin.htm">Right</a>.</p>
+        <p>For example, the CONTACT and ACCOUNT tables both contain the AccountID field.  As a result, you can use the AccountID to join the ACCOUNT and CONTACT tables.</p>
+        <p>You can also join tables with fields that have a different name, but the same  value. For example, ACCOUNT table is joined to the USERINFO table through the  AccountManagerID field in the ACCOUNT table, and the UserID field in the  USERINFO table. Although the name of the fields in each table is different, the  value in the fields is the same.</p>
+        <p>Generally, joins are used to build queries that run against a database. 
+ After a join is created, any field in either table may be used in a query. 
+ These queries are built using the <a href="querybuilderoverview.htm">Query 
+ Builder</a>.</p>
+        <p>In the Query Builder data tree view, a join looks like this:</p>
+        <p style="margin-top: 2.0pt;margin-bottom: 3.0pt;">
+            <img src="../image/JOINDISSECT.GIF" alt="image\joindissect.gif" style="width: 392px;height: 172px;margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;border-style: none;float: none;border-style: none;" width="392" height="172" border="0" />
+        </p>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0">
+            <col />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/caution.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;border-style: none;width: 39px;height: 38px;float: none;border-style: none;" width="39" height="38" border="0" />
+                    </p>
+                </td>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="margin-bottom: 0;">By default, the ADDRESS table is joined to 
+ the ACCOUNT table via an Inner join. Do <span style="font-style: normal;">not</span> 
+ change the properties of this join.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="queryjoinguidelines.htm" target="_self">Guidelines for Joining Tables</a>
+        </p>
+        <p><a href="queryaddglobaljoin.htm" target="_self">Adding a Global Join</a>
+        </p>
+        <p><a href="queryaddlocaljoin.htm" target="_self">Adding a Local Join</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>
+            </p>
+            <p style="border-top-style: Groove;border-top-color: #c0c0c0;border-top-width: 1px;">&#160;</p>
+            <p><![CDATA[ ]]><a href="../General/feedback.htm" target="_blank">Tell us how we can make the Help better.</a></p>
+        </div>
+        <p>&#160;</p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\application-thread.xml" timeStamp="2009-11-19T20:13:11.4270" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\ContextualListConfiguration.xml" timeStamp="2009-11-19T20:11:21.1470" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\dynamicInterceptors.xml" timeStamp="2009-11-19T20:13:11.4270" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\Global.asax" timeStamp="2009-11-19T20:11:21.2570" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\Login.aspx" timeStamp="2009-11-19T20:11:21.4730" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\Logoff.aspx" timeStamp="2009-11-19T20:11:21.1470" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\SpeedSearchService.asmx" timeStamp="2009-11-19T20:13:11.4430" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\UIStateService.asmx" timeStamp="2009-11-19T20:11:57.1170" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\web.config" timeStamp="2009-11-19T20:11:21.5030" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\App_Code\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\App_GlobalResources\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\App_LocalResources\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\bin\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\css\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\GroupBuilder\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\help\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\images\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\jscript\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\LegacySupport\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\Libraries\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\Masters\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\SmartParts\" />
+</exportedFiles>

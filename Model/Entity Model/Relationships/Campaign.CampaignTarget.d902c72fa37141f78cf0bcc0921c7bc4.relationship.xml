@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="d902c72f-a371-41f7-8cf0-bcc0921c7bc4" lastModifiedUtc="2007-12-14T18:04:29.3532414Z" cardinality="1:M" parentEntityId="5d0faaba-cdd4-42a5-8562-fb8bffae0913" childEntityId="e7b217c7-5f8e-4b7b-a9b2-334fdf7c268a" cascadeOption="SaveUpdateDelete">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="f6da3375-b642-4207-b395-31f28f52702f" lastModifiedUtc="0001-01-01T00:00:00" name="CampaignTargets" audited="false" displayCategory="Intermediate" isNullable="true" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="58e9c71b-2c84-4909-953f-e93425086b96" lastModifiedUtc="2007-12-14T18:04:29.3375813Z" name="Campaign" audited="false" displayCategory="Intermediate" isNullable="false" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="122137f2-30a1-4d97-b953-b9f743329ab2" parentPropertyId="5ab2ad6d-6752-49b9-98ad-065311654bdc" childPropertyId="2bc2b275-1bda-4ff6-8c18-11db48409657" ordinal="0" />
+  </column>
+</relationship>

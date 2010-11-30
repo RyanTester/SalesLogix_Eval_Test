@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Address\Address.ADDRESS.entity.xml" timeStamp="2009-11-19T20:10:50.6970" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Address\FormatFullAddress.method.xml" timeStamp="2009-11-19T20:10:50.6830" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Address\GetFullAddress.method.xml" timeStamp="2009-11-19T20:10:50.7300" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Address\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:50.6830" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Address\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:50.6830" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Address\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:50.6830" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Address\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:50.6970" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Address\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:50.6970" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Address\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:50.6970" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Address\OnCreate.method.xml" timeStamp="2009-11-19T20:10:50.7430" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Address\Sage.SnippetLibrary.CSharp.@.71ab7dd2-b5f2-463e-88cf-3f7f7b9a3915.codesnippet.cs" timeStamp="2009-11-19T20:10:50.7600" />
+</exportedFiles>

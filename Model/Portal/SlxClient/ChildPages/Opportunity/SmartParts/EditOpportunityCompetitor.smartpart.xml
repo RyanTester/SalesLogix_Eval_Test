@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="fcc1014a-e4fc-4822-802a-384f7acd3f45">
+  <SmartPartId>EditOpportunityCompetitor</SmartPartId>
+  <SmartPart>\Entity Model\SalesLogix Application Entities\OpportunityCompetitor\QuickForms\EditOpportunityCompetitor.main.quickform.xml</SmartPart>
+  <TargetWorkspace>DialogWorkspace</TargetWorkspace>
+  <ShowInMode>Detail</ShowInMode>
+  <Properties />
+  <ReferencedModelId>b2741b79-02a2-4f4c-81cd-c204f82cf41c</ReferencedModelId>
+</SmartPartMapping>

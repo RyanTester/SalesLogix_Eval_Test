@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<NavigationItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="7eb1d73d-7a27-4c3c-96cf-210c871199a4">
+  <ItemId>navEntitiesLibrary</ItemId>
+  <NavUrl>Library.aspx</NavUrl>
+  <LargeImageUrl>[Localization.Global_Images:Library_3D_32x32]</LargeImageUrl>
+  <SmallImageUrl>[Localization!Global_Images:Library_3D_24x24]</SmallImageUrl>
+  <ContextMenuId />
+  <Target />
+</NavigationItem>

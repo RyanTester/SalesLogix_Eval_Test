@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="64194830-01cc-4023-8a93-15260fe2f4c5">
+  <ItemId>sched_compact</ItemId>
+  <NavUrl>javascript:Link.scheduleCompleteActivity();</NavUrl>
+  <LargeImageUrl>[Localization!Global_Images:complete_activity_24x24]</LargeImageUrl>
+  <SmallImageUrl>[Localization.Global_Images:Clear_Activity_16x16]</SmallImageUrl>
+  <ContextMenuId />
+  <Target />
+</MenuDropDownItem>

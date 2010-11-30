@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmOtherMethod" id="597b7ed0-3c55-4245-bbfe-60db076e0269" lastModifiedUtc="2009-08-26T22:17:32.7037664Z" name="cmdOK_OnClick" methodType="Other" actionType="None" returnMode="None" isInstance="false">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmOtherMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="5b911856-303a-4838-a9c2-581475a005d2" paramName="form" sequence="0" paramType="IEditOpportunityContact" />
+    <OrmEntityMethodParam id="9234b783-f2f7-4202-9e0e-84d84589039a" paramName="args" sequence="0" paramType="EventArgs" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget xsi:type="OrmMethodTargetSnippet" id="18e14df1-0f67-4615-824c-489fc0ce1412" lastModifiedUtc="2009-08-26T22:17:23.6227664Z" targetType="Sage.BusinessRules.CodeSnippets.EditOpportunityContactEventHandlers, Sage.SnippetLibrary.CSharp" targetMethod="cmdOK_OnClick" active="true" codeSnippetId="2a58efe6-70aa-48dd-9751-fa42b0f7b9b0">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

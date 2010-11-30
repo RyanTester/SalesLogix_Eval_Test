@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnSaveAccDetail.Caption" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btnSaveAccDetail.ToolTip" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Ticker.Caption" xml:space="preserve">
+    <value>Ticker Symbol:</value>
+  </data>
+  <data name="CreditRating.Caption" xml:space="preserve">
+    <value>Credit Rating:</value>
+  </data>
+  <data name="SicCode.Caption" xml:space="preserve">
+    <value>SIC Code:</value>
+  </data>
+  <data name="Employees.Caption" xml:space="preserve">
+    <value>Employees:</value>
+  </data>
+  <data name="EntityId.Caption" xml:space="preserve">
+    <value>AccountID:</value>
+  </data>
+  <data name="ImportSource.Caption" xml:space="preserve">
+    <value>Import Source:</value>
+  </data>
+  <data name="LastTouchedInDays.Caption" xml:space="preserve">
+    <value>Days since last touched:</value>
+  </data>
+  <data name="CreateDate.Caption" xml:space="preserve">
+    <value>Create Date:</value>
+  </data>
+  <data name="ModifyDate.Caption" xml:space="preserve">
+    <value>Modify Date:</value>
+  </data>
+  <data name="LastHistoryDate.Caption" xml:space="preserve">
+    <value>Last History On:</value>
+  </data>
+  <data name="Revenue.Caption" xml:space="preserve">
+    <value>Yearly Revenue:</value>
+  </data>
+  <data name="LeadSource.Caption" xml:space="preserve">
+    <value>Lead Source:</value>
+  </data>
+  <data name="LeadSource.LookupProperties.Type.PropertyHeader" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="LeadSource.LookupProperties.Description.PropertyHeader" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="LeadSource.LookupProperties.AbbrevDescription.PropertyHeader" xml:space="preserve">
+    <value>Source Code</value>
+  </data>
+  <data name="LeadSource.LookupProperties.SourceDate.PropertyHeader" xml:space="preserve">
+    <value>Source Date</value>
+  </data>
+  <data name="AlternatePhone.Caption" xml:space="preserve">
+    <value>Misc. Phone:</value>
+  </data>
+  <data name="Region.Caption" xml:space="preserve">
+    <value>Region:</value>
+  </data>
+  <data name="TimeZone.Caption" xml:space="preserve">
+    <value>Time Zone:</value>
+  </data>
+  <data name="CreateUser.Caption" xml:space="preserve">
+    <value>Create User:</value>
+  </data>
+  <data name="ModifyUser.Caption" xml:space="preserve">
+    <value>Modify User:</value>
+  </data>
+  <data name="LastHistoryBy.Caption" xml:space="preserve">
+    <value>Last History By:</value>
+  </data>
+  <data name="LeadSource.LUPF.Status" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="LeadSource.ButtonToolTip" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="CreateUser.ButtonToolTip" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="CreateDate.ButtonToolTip" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="ModifyUser.ButtonToolTip" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="ModifyDate.ButtonToolTip" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="LastHistoryBy.ButtonToolTip" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="LastHistoryDate.ButtonToolTip" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="03a5a3df-322d-4c19-8876-aefa1e0d788b.Message" xml:space="preserve">
+    <value>Employee count must be greater than or equal to 0.</value>
+  </data>
+  <data name="03a5a3df-322d-4c19-8876-aefa1e0d788b.Title" xml:space="preserve">
+    <value>Invalid Employee Count Value</value>
+  </data>
+</root>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="b70428ed-0074-4202-ade2-fd7de4b046cc" lastModifiedUtc="2008-02-28T00:22:18.127552Z" cardinality="1:M" parentEntityId="b75c6d1d-1b4b-40d5-b8e9-571fe72c0654" childEntityId="bcccbedd-01ce-4d8e-8d4a-36b737ddc63c" cascadeOption="SaveUpdateDelete">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="ded79dc3-1a2a-48f3-a4bc-d0cfa792d20c" lastModifiedUtc="2008-02-28T00:22:18.127552Z" name="Extracts" audited="false" displayCategory="Intermediate" isNullable="true" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="f3b05a9f-e83a-42ea-bd5c-3ad8e8734261" lastModifiedUtc="2008-02-27T23:28:24.2384502Z" name="ActivityTrackingEvent" audited="false" displayCategory="Intermediate" isNullable="true" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="c6c3c378-2ff1-4316-95cf-211794d2ed71" parentPropertyId="743e4da2-c208-43c8-846e-3959e05880e9" childPropertyId="bd2ac66e-ad59-4631-beeb-f22726c2391c" ordinal="0" />
+  </column>
+</relationship>

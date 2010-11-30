@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="785cae3c-3c8c-4eaf-9e51-954329731379">
+  <SmartPartId>AccountResellerOpportunities</SmartPartId>
+  <SmartPart>SmartParts\Account\AccountReseller.ascx</SmartPart>
+  <TargetWorkspace>TabControl</TargetWorkspace>
+  <ShowInMode>Detail</ShowInMode>
+  <Properties />
+  <AllowRoles />
+</SmartPartMapping>

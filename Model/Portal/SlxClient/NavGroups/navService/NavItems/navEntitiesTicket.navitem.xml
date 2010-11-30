@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<NavigationItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="247b72c8-6409-4503-9be1-ac22473c412e">
+  <ItemId>navEntitiesTicket</ItemId>
+  <NavUrl>Ticket.aspx</NavUrl>
+  <LargeImageUrl>[Localization.Global_Images:Ticket_List_3D_32x32]</LargeImageUrl>
+  <SmallImageUrl>[Localization!Global_Images:ticket_24x24]</SmallImageUrl>
+  <ContextMenuId>contextTicket</ContextMenuId>
+  <Target />
+</NavigationItem>

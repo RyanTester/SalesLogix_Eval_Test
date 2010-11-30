@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<NavigationItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="ca5fc6d8-4298-4662-878a-2802a86d98eb">
+  <ItemId>navEntitiesDefect</ItemId>
+  <NavUrl>Defect.aspx</NavUrl>
+  <LargeImageUrl>[Localization!Global_Images:defect_navbar_32x32]</LargeImageUrl>
+  <SmallImageUrl>[Localization!Global_Images:defect_detail_24x24]</SmallImageUrl>
+  <ContextMenuId>contextDefect</ContextMenuId>
+  <Target />
+</NavigationItem>

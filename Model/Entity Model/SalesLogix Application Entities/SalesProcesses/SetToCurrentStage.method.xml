@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="258ac953-ee9f-451f-8e1e-f7fe52595ae8" name="SetToCurrentStage" returnType="void" methodType="Rule" actionType="None" returnMode="None" isInstance="true">
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="86d6bb2f-17f2-423f-b46a-7dd1b5d75552" paramName="stageId" sequence="0" paramType="string" />
+  </parameter>
+  <methodTargets>
+    <methodTarget id="774a5262-5a04-442d-98e8-dfc35314acc2" targetType="Sage.SalesLogix.SalesProcess.Rules, Sage.SalesLogix.BusinessRules" sequence="0" targetMethod="SetToCurrentStage" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+</method>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="441e728f-8b9d-485e-b9d7-4f6134ce43e1" lastModifiedUtc="2007-12-14T18:15:26.388397Z" cardinality="1:M" parentEntityId="869e93a3-1bb8-4c68-bdf8-b439e6e64a36" childEntityId="747376db-b6b7-4d74-9f52-a22b6212585e">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="84909bf7-f25a-470e-ba59-c198ac38ec34" lastModifiedUtc="0001-01-01T00:00:00" name="SalesProcessAudits" audited="false" displayCategory="Intermediate" isNullable="true" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="15d17271-786d-4139-872b-9a6119bb4ff0" lastModifiedUtc="2007-12-14T18:15:26.3727369Z" name="SalesProcess" audited="false" displayCategory="Intermediate" isNullable="false" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="3aca528c-53fd-4dd7-a831-de6a5f794817" parentPropertyId="6870e821-3ef3-4b3c-98fa-d636275e2445" childPropertyId="cb6312cb-716b-488b-82e1-0a60fbd344f6" ordinal="0" />
+  </column>
+</relationship>

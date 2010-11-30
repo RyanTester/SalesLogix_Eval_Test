@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="0f7b1686-d913-4e61-9a9f-f19482c57d11" lastModifiedUtc="2008-04-11T22:32:41.1618586Z" manageSchema="false" tableName="MKTGSVC_RECIPIENT" name="MarketingServiceRecipient" isExtension="false" audited="true" onBeforeInsertMethodId="6b3fd294-2fe5-4eb0-a870-852c178fc129" onAfterInsertMethodId="5cff8a94-143d-4c77-a0b9-4baf7c1eb867" onBeforeUpdateMethodId="3801e338-edf2-4267-bc4a-08ef2711a0f4" onAfterUpdateMethodId="7c9eb908-0a35-4354-811b-ca3378ec9b0e" onBeforeDeleteMethodId="65785559-bdf9-4be1-8652-b346dbf2eb38" onAfterDeleteMethodId="c62078c8-0f10-40c3-aad0-53eb624423ca" onCreateId="2941ee0e-8d2b-4fdd-89a9-df700d59775d">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntity">
+      <extender guid="1589723d-0536-4bf3-bdd7-3f6f7fe165d0">
+        <OrmEntityMetadataExtension>
+          <IsHistoryTable>false</IsHistoryTable>
+        </OrmEntityMetadataExtension>
+      </extender>
+    </extendee>
+  </ExtendedPropertiesCollection>
+  <keyProperties>
+    <keyReference id="12de50f7-d554-4876-a635-75d29d3d1a8d" ordinalPosition="1" />
+  </keyProperties>
+  <properties>
+    <property xsi:type="OrmFieldProperty" id="cc18286e-2a3d-4980-a95b-a71720e50a04" lastModifiedUtc="0001-01-01T00:00:00" name="CampaignTargetId" audited="false" include="false" columnName="CAMPAIGNTARGETID" maxLength="12" precision="0" scale="0" ordinal="6" isReadOnly="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty" />
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="30053f5a-8d40-4db1-b185-1e4128eb26cc">
+        <StandardIdDataType />
+      </SystemDataType>
+    </property>
+    <property xsi:type="OrmFieldProperty" id="5c1cb6cb-dbdc-4b0d-9f1c-896d185af104" lastModifiedUtc="0001-01-01T00:00:00" name="CreateDate" audited="false" columnName="CREATEDATE" maxLength="0" precision="0" scale="0" ordinal="3" isReadOnly="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty" />
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="1f08f2eb-87c8-443b-a7c2-a51f590923f5">
+        <DateTimeDataType />
+      </SystemDataType>
+    </property>
+    <property xsi:type="OrmFieldProperty" id="72e8c98c-9298-441c-aa54-83b23d9e37a2" lastModifiedUtc="0001-01-01T00:00:00" name="CreateUser" audited="false" columnName="CREATEUSER" maxLength="12" precision="0" scale="0" ordinal="2" isReadOnly="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty" />
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="30053f5a-8d40-4db1-b185-1e4128eb26cc">
+        <StandardIdDataType />
+      </SystemDataType>
+    </property>
+    <property xsi:type="OrmFieldProperty" id="4c008563-6538-41fb-9ca0-e65c715cdce5" lastModifiedUtc="0001-01-01T00:00:00" name="MarketingServiceCampaignId" audited="false" isNullable="false" include="false" columnName="MKTGSVC_CAMPAIGNID" maxLength="12" precision="0" scale="0" ordinal="1" isReadOnly="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty" />
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="30053f5a-8d40-4db1-b185-1e4128eb26cc">
+        <StandardIdDataType />
+      </SystemDataType>
+    </property>
+    <property xsi:type="OrmFieldProperty" id="12de50f7-d554-4876-a635-75d29d3d1a8d" lastModifiedUtc="0001-01-01T00:00:00" name="MarketingServiceRecipientId" audited="false" isNullable="false" include="false" columnName="MKTGSVC_RECIPIENTID" maxLength="12" precision="0" scale="0" ordinal="0" isReadOnly="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty" />
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="30053f5a-8d40-4db1-b185-1e4128eb26cc">
+        <StandardIdDataType />
+      </SystemDataType>
+    </property>
+    <property xsi:type="OrmFieldProperty" id="f444b648-de4f-420f-b03d-fdafe0a814a2" lastModifiedUtc="0001-01-01T00:00:00" name="ModifyDate" audited="false" columnName="MODIFYDATE" maxLength="0" precision="0" scale="0" ordinal="5" isReadOnly="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty" />
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="1f08f2eb-87c8-443b-a7c2-a51f590923f5">
+        <DateTimeDataType />
+      </SystemDataType>
+    </property>
+    <property xsi:type="OrmFieldProperty" id="6dd2d0e1-dfac-4fb1-ba55-fb690946a8ee" lastModifiedUtc="0001-01-01T00:00:00" name="ModifyUser" audited="false" columnName="MODIFYUSER" maxLength="12" precision="0" scale="0" ordinal="4" isReadOnly="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty" />
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="30053f5a-8d40-4db1-b185-1e4128eb26cc">
+        <StandardIdDataType />
+      </SystemDataType>
+    </property>
+    <property xsi:type="OrmFieldProperty" id="a36d9acc-7488-4d07-a4f9-782711c26280" lastModifiedUtc="0001-01-01T00:00:00" name="Skipped" audited="false" columnName="SKIPPED" maxLength="1" precision="0" scale="0" ordinal="7" isReadOnly="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty" />
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="92432b4d-8206-4a96-ba7b-e4cbd374f148">
+        <TrueFalseDataType />
+      </SystemDataType>
+    </property>
+    <property xsi:type="OrmFieldProperty" id="87126029-6321-4cec-a578-e6d2ec955abb" lastModifiedUtc="0001-01-01T00:00:00" name="TargetResponseId" audited="false" columnName="TARGETRESPONSEID" maxLength="12" precision="0" scale="0" ordinal="8" isReadOnly="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty" />
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="30053f5a-8d40-4db1-b185-1e4128eb26cc">
+        <StandardIdDataType />
+      </SystemDataType>
+    </property>
+  </properties>
+  <interfaceTemplateId>5e8b7df7-0ec3-46b3-b8f4-f7bde7d5a6a3</interfaceTemplateId>
+  <classTemplateId>4040a9aa-f9bf-4204-83d8-d5eb4da3e475</classTemplateId>
+  <mappingTemplateId>b9ab7051-97ec-4b2d-9932-77ac29099ac7</mappingTemplateId>
+</entity>

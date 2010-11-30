@@ -1,0 +1,3 @@
+Sage.Platform.DynamicMethod.DynamicMethodLibrary lib = Sage.Platform.Orm.DynamicMethodLibraryHelper.Instance;
+Object[] methodArgs = new Object[] { FormAdapter, e };
+lib.Execute("$action.Method.ToString()", methodArgs);

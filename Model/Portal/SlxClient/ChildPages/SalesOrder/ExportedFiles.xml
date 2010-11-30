@@ -1,0 +1,9 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\Modules.order.xml" timeStamp="2009-11-19T20:11:02.3030" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SalesOrder.page.xml" timeStamp="2009-11-19T20:11:02.3330" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SalesOrder.page.xml.resx" timeStamp="2009-11-19T20:11:02.4600" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SmartParts.order.xml" timeStamp="2009-11-19T20:11:02.3970" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\Modules\" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\SalesOrder\SmartParts\" />
+</exportedFiles>

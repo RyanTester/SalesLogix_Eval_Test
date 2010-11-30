@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<NavigationItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="2ec11a77-23c7-4f1a-9e58-24a3be92761a">
+  <ItemId>navEntitiesLeads</ItemId>
+  <NavUrl>Lead.aspx</NavUrl>
+  <LargeImageUrl>[Localization!Global_Images:Leads_32x32]</LargeImageUrl>
+  <SmallImageUrl>[Localization!Global_Images:Leads_24x24]</SmallImageUrl>
+  <ContextMenuId>contextLead</ContextMenuId>
+  <Target />
+</NavigationItem>

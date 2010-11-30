@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<DeploymentTarget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="e2d00551-73f8-4b77-97c5-fe6d12b842c5">
+  <VirtualDirectoryName>sdata</VirtualDirectoryName>
+  <ServerName>localhost</ServerName>
+  <DeploymentPath>C:\inetpub\wwwroot\SageIntegrationPortal</DeploymentPath>
+  <Precompile>false</Precompile>
+  <PrecompileFlags>OverwriteTarget Clean</PrecompileFlags>
+  <UseInPlaceCompile>true</UseInPlaceCompile>
+  <StrongNameIsFile>false</StrongNameIsFile>
+  <IsActive>true</IsActive>
+</DeploymentTarget>

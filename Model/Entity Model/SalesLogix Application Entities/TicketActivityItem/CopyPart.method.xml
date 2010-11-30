@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="fb60794f-4537-4891-9f47-2f98c8789423" lastModifiedUtc="2008-02-14T15:46:07.5018456Z" name="CopyPart" returnType="void" methodType="Rule" actionType="None" returnMode="None" isInstance="true">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="e9297960-c5f1-4edd-bdc7-342c379b0b0c" paramName="ticketActivity" sequence="0" paramType="ITicketActivity" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="ebd692ac-ec5c-4a35-9a43-7c0d08bc1114" lastModifiedUtc="2008-02-14T15:46:05.3143596Z" targetType="Sage.SalesLogix.TicketActivityItem.Rules, Sage.SalesLogix.BusinessRules" targetMethod="CopyPart" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Lookup name="DefaultInterval">
+    <LookupValue id="15" text="15" default="false"></LookupValue>
+    <LookupValue id="30" text="30" default="true"></LookupValue>
+    <LookupValue id="60" text="60" default="false"></LookupValue>
+</Lookup>
+

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\ActivityCommandController.ascx" timeStamp="2009-11-19T20:11:08.3400" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\ActivityCommandController.ascx.cs" timeStamp="2009-11-19T20:11:08.4030" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\ActivityDetails.ascx" timeStamp="2009-11-19T20:11:08.4800" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\ActivityDetails.ascx.cs" timeStamp="2010-01-19T23:08:58.2930" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\ActivityDialogController.ascx" timeStamp="2009-11-19T20:11:08.3700" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\ActivityDialogController.ascx.cs" timeStamp="2009-11-19T20:11:08.4970" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\ActivityList.ascx" timeStamp="2009-11-19T20:11:08.4030" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\ActivityList.ascx.cs" timeStamp="2009-11-19T20:11:08.3870" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\ActivityManager.ascx" timeStamp="2009-11-19T20:11:08.4500" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\ActivityManager.ascx.cs" timeStamp="2009-11-19T20:11:08.5570" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\ActivityQueue.ascx" timeStamp="2009-11-19T20:11:08.4970" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\ActivityQueue.ascx.cs" timeStamp="2009-11-19T20:11:08.4970" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\ActivityReminders.ascx" timeStamp="2009-11-19T20:11:08.6030" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\ActivityReminders.ascx.cs" timeStamp="2009-11-19T20:11:08.5570" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\ActivityViewer.ascx" timeStamp="2009-11-19T20:11:08.6370" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\AddMembers.ascx" timeStamp="2009-11-19T20:11:08.5730" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\AddMembers.ascx.cs" timeStamp="2009-11-19T20:11:08.6670" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\AddResources.ascx" timeStamp="2009-11-19T20:11:08.5430" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\AddResources.ascx.cs" timeStamp="2009-11-19T20:11:08.5730" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\CompleteActivity.ascx" timeStamp="2009-11-19T20:11:08.7300" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\CompleteActivity.ascx.cs" timeStamp="2010-01-19T23:08:58.2930" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\CompleteActivityCommandController.ascx" timeStamp="2009-11-19T20:11:08.6670" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\CompleteActivityCommandController.ascx.cs" timeStamp="2009-11-19T20:11:08.6830" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\CompleteRecurrence.ascx" timeStamp="2009-11-19T20:11:08.5900" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\CompleteRecurrence.ascx.cs" timeStamp="2009-11-19T20:11:08.7130" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\ConfirmActivity.ascx" timeStamp="2009-11-19T20:11:08.7770" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\ConfirmActivity.ascx.cs" timeStamp="2009-11-19T20:11:08.8070" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\DeleteConfirmation.ascx" timeStamp="2009-11-19T20:11:08.8230" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\DeleteConfirmation.ascx.cs" timeStamp="2009-11-19T20:11:08.7600" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\DeleteRecurrence.ascx" timeStamp="2009-11-19T20:11:08.6670" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\DeleteRecurrence.ascx.cs" timeStamp="2009-11-19T20:11:08.7300" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\EditRecurrence.ascx" timeStamp="2009-11-19T20:11:08.7470" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\EditRecurrence.ascx.cs" timeStamp="2009-11-19T20:11:08.7600" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\RecurringActivity.ascx" timeStamp="2009-11-19T20:11:08.8700" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\RecurringActivity.ascx.cs" timeStamp="2009-11-19T20:11:08.9630" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\RemoveDeletedConfirmation.ascx" timeStamp="2009-11-19T20:11:08.8400" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\RemoveDeletedConfirmation.ascx.cs" timeStamp="2009-11-19T20:11:08.9330" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\ScheduleCompleteActivity.ascx" timeStamp="2009-11-19T20:11:08.8700" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\ScheduleCompleteActivity.ascx.cs" timeStamp="2009-11-19T20:11:08.9470" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\timezonecalc.ascx" timeStamp="2009-11-19T20:11:08.8870" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\timezonecalc.ascx.cs" timeStamp="2009-11-19T20:11:08.9000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\App_LocalResources\" />
+</exportedFiles>

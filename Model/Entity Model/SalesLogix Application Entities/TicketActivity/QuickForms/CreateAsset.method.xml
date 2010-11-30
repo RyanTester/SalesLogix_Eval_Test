@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmOtherMethod" id="e013f9e4-5cbf-4f5c-89f2-614378fc3672" lastModifiedUtc="2008-08-14T15:05:39.667248Z" name="CreateAsset" methodType="Other" actionType="None" returnMode="None" isInstance="false">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmOtherMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="5964cd5e-48b4-4787-b66c-d6cd83253e16" paramName="form" sequence="0" paramType="ITicketActivityItems" />
+    <OrmEntityMethodParam id="3f1cc1e0-d92c-4e18-9457-e57b7ab147b2" paramName="args" sequence="0" paramType="EventArgs" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget xsi:type="OrmMethodTargetSnippet" id="2a03710b-8a8a-4652-8f46-eda356918aef" lastModifiedUtc="2008-08-14T15:05:25.1674336Z" targetType="Sage.BusinessRules.CodeSnippets.TicketActivityItemsEventHandlers, Sage.SnippetLibrary.CSharp" targetMethod="CreateAsset" active="true" codeSnippetId="472b0760-e2b9-4714-b658-781cefefe53f">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets>
+    <methodTarget xsi:type="OrmMethodTargetSnippet" id="128e7b0f-919b-4927-a8da-7789fb69b01f" lastModifiedUtc="2008-12-31T16:10:19.4134887Z" targetType="Sage.BusinessRules.CodeSnippets.Classbd7189f1dad74bfabbf988c29c3375b4, Sage.SnippetLibrary.CSharp" targetMethod="ResetAddPartLookup" active="true" codeSnippetId="825a1a0b-fd53-41de-9720-740bbb927955">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </postExecuteTargets>
+  <postFlushTargets />
+</method>

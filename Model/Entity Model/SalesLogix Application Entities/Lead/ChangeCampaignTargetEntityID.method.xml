@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="fc4d1c51-d274-4af6-8062-1000136f37f1" lastModifiedUtc="2007-10-25T16:50:29.6779031Z" name="ChangeCampaignTargetEntityID" returnType="void" methodType="Rule" actionType="None" returnMode="None" isInstance="true">
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="feea98e3-f0f0-42d1-85a8-ef03ae925610" paramName="contact" sequence="0" paramType="IContact" />
+    <OrmEntityMethodParam id="3378dbd4-d8b4-4fa3-9045-17caaea1b009" paramName="campaignTarget" sequence="0" paramType="ICampaignTarget" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="9b3230d8-b3b8-485f-ae1e-1f4f0bcbb056" lastModifiedUtc="2007-10-25T16:50:25.6154031Z" targetType="Sage.SalesLogix.Lead.Rules, Sage.SalesLogix.BusinessRules" targetMethod="ChangeCampaignTargetEntityID" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

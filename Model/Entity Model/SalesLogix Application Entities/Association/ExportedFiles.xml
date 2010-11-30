@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Association\Association.ASSOCIATION.entity.xml" timeStamp="2009-11-19T20:10:50.7900" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Association\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:50.7900" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Association\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:50.7900" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Association\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:50.7900" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Association\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:50.7900" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Association\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:50.7900" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Association\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:50.7900" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Association\OnCreate.method.xml" timeStamp="2009-11-19T20:10:50.8070" />
+</exportedFiles>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="223a6317-f44c-4a9b-95ad-06b23b181d6f">
+  <ItemId>new_Defect</ItemId>
+  <NavUrl>InsertDefect.aspx?modeid=Insert</NavUrl>
+  <LargeImageUrl>[Localization!Global_Images:defect_new_24x24]</LargeImageUrl>
+  <SmallImageUrl>[Localization!Global_Images:defect_new_16x16]</SmallImageUrl>
+  <ContextMenuId />
+  <Target />
+</MenuDropDownItem>

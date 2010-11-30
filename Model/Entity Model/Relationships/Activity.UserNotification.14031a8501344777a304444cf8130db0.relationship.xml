@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="14031a85-0134-4777-a304-444cf8130db0" lastModifiedUtc="2008-11-19T01:40:28.9125613Z" parentEntityId="53edfc8b-8699-4608-89e0-3a3d5a4980ac" childEntityId="5565af3c-8a3f-42ee-9c2b-dd882f1e48e2">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="9d996c82-eaeb-4701-bc08-f696cbf679b3" lastModifiedUtc="0001-01-01T00:00:00" name="UserNotifications" audited="false">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="cf809ce0-a2bd-4a10-93e0-78e26f9d694c" lastModifiedUtc="0001-01-01T00:00:00" name="Activity" audited="false">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="8af27978-ce30-4939-9f57-9658b37d77b4" parentPropertyId="ea1782d4-0f09-4281-a28f-f9420f0e8c44" childPropertyId="e5f2793e-f7a0-44dd-8710-9f07cecd1296" ordinal="0" />
+  </column>
+</relationship>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0"?>
+<entityFilter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmRangeEntityFilter" id="6d2d508c-4d48-4b24-b6a9-5eac6a94dc79" lastModifiedUtc="2009-01-01T00:27:44.5681413Z" filterName="Recurring" propertyName="Recurring" characters="0">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRangeEntityFilter" />
+  </ExtendedPropertiesCollection>
+  <ranges id="0c5b9abe-6eaf-4225-bde1-9c2090a499a2" rangeName="True" lower="True" upper="True" />
+  <ranges id="a79ff179-74e0-4bd5-bfc0-dca378caa597" rangeName="False" lower="False" upper="False" />
+</entityFilter>

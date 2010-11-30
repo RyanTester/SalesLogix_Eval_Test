@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\MarketingServiceUndeliverable\MarketingServiceUndeliverable.MKTGSVC_UNDELIVERABLE.entity.xml" timeStamp="2009-11-19T20:10:53.3630" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\MarketingServiceUndeliverable\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:53.3630" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\MarketingServiceUndeliverable\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:53.3800" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\MarketingServiceUndeliverable\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:53.3800" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\MarketingServiceUndeliverable\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:53.3800" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\MarketingServiceUndeliverable\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:53.3800" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\MarketingServiceUndeliverable\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:53.3970" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\MarketingServiceUndeliverable\OnCreate.method.xml" timeStamp="2009-11-19T20:10:53.4130" />
+</exportedFiles>

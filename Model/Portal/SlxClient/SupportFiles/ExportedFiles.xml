@@ -1,0 +1,44 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\ActivexInfo.aspx" timeStamp="2009-11-19T20:11:06.9670" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\application-thread.xml" timeStamp="2009-11-19T20:13:11.4270" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\ContactDetailsEx.aspx" timeStamp="2009-11-19T20:11:07.0770" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\ContactDetailsEx.aspx.cs" timeStamp="2009-11-19T20:11:07.0430" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\ContextualListConfiguration.xml" timeStamp="2009-11-19T20:11:07.0900" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\dynamicInterceptors.xml" timeStamp="2009-11-19T20:13:11.4270" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\EmailPromptForHistory.aspx" timeStamp="2009-11-19T20:11:07.1070" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\EmailPromptForHistory.aspx.cs" timeStamp="2009-11-19T20:11:07.1070" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Global.asax" timeStamp="2009-11-19T20:11:07.0900" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\licenses.licx" timeStamp="2009-11-19T20:11:07.0430" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\log4net.config" timeStamp="2009-11-19T20:11:07.1400" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Login.aspx" timeStamp="2009-11-19T20:11:07.1230" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Logoff.aspx" timeStamp="2009-11-19T20:11:07.1530" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SelectContactId.aspx" timeStamp="2009-11-19T20:11:07.2170" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SelectContactId.aspx.cs" timeStamp="2009-11-19T20:11:07.2330" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SelectLeadId.aspx" timeStamp="2009-11-19T20:11:07.1870" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SelectLeadId.aspx.cs" timeStamp="2009-11-19T20:11:07.1070" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SlxActiveMail.cab" timeStamp="2009-11-19T13:52:00.0000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SpeedSearchService.asmx" timeStamp="2009-11-19T20:13:11.4430" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\survey.xml" timeStamp="2009-11-19T20:11:07.2330" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\UIStateService.asmx" timeStamp="2009-11-19T20:11:57.1170" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\web.config" timeStamp="2009-11-19T20:11:07.2000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\WinAuthLoad.aspx" timeStamp="2009-11-19T20:11:07.2330" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\WinAuthLoad.aspx.cs" timeStamp="2009-11-19T20:11:07.1870" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Windows.aspx" timeStamp="2009-11-19T20:11:07.1870" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Windows.aspx.cs" timeStamp="2009-11-19T20:11:07.2000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_Code\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_Data\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_GlobalResources\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_LocalResources\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Bin\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\ContextMenuItems\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\css\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\GroupBuilder\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\help\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\jscript\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\LegacySupport\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Libraries\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\Masters\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\" />
+</exportedFiles>

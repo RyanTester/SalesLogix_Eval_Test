@@ -1,0 +1,21 @@
+#if($qfcontrol.Caption != "")<div class="lbltop#if(${qfcontrol.CaptionAlignment} == "right") alignright#elseif(${qfcontrol.CaptionAlignment} == "center") aligncenter#else alignleft#end">
+   <asp:Label ID="${qfcontrol.LabelId}" runat="server" Text="<%$ resources: ${qfcontrol.ControlId}.Caption %>" #if(!$qfcontrol.Visible)Visible="false" #end></asp:Label>
+ </div>#end
+<%@ Register tagPrefix="SalesLogix" tagName="${qfcontrol.ControlId}" src="${qfcontrol.ContentLocation}" %>
+<SalesLogix:${qfcontrol.ControlId} id="${qfcontrol.ControlId}" runat="server" OnInit="set${qfcontrol.ControlId}Context" #if(!$qfcontrol.Visible)Visible="false" #end></SalesLogix:${qfcontrol.ControlId}>
+<script runat="server" type="text/C#">
+	protected void set${qfcontrol.ControlId}Context(object sender, EventArgs e)
+	{
+		Sage.Platform.WebPortal.SmartParts.SmartPart sp = ${qfcontrol.ControlId} as Sage.Platform.WebPortal.SmartParts.SmartPart;
+		if (sp != null)
+		{
+			sp.InitSmartPart(ParentWorkItem, PageWorkItem.Services.Get<Sage.Platform.Application.UI.Web.IPageWorkItemLocator>());
+			sp.DialogService = DialogService;
+			Sage.Platform.WebPortal.SmartParts.EntityBoundSmartPart esp = sp as Sage.Platform.WebPortal.SmartParts.EntityBoundSmartPart;
+			if (esp != null)
+			{
+                esp.InitEntityBoundSmartPart(PageWorkItem.Services.Get<Sage.Platform.Application.IEntityContextService>());
+			}
+		}
+	}
+</script>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Deleted Items\CampaignTarget.CampaignTargetId.TargetResponses.OneToMany.TargetResponse.CampaignTargetId.relationship.xml" timeStamp="2009-11-19T20:10:47.7030" />
+  <exportedFile url="\Deleted Items\Contract.ContactId.Items.OneToMany.ContractItem.ContractId.relationship.xml" timeStamp="2009-11-19T20:10:47.7500" />
+  <exportedFile url="\Deleted Items\ContractItem.ContractId.Contract.ManyToOne.Contract.ContractId.relationship.xml" timeStamp="2009-11-19T20:10:47.7800" />
+  <exportedFile url="\Deleted Items\DefectTicket.DefectId.Defect.ManyToOne.Defect.DefectId.relationship.xml" timeStamp="2009-11-19T20:10:47.8730" />
+  <exportedFile url="\Deleted Items\TargetResponse.CampaignId.Campaign.ManyToOne.Campaign.CampaignId.relationship.xml" timeStamp="2009-11-19T20:10:48.0000" />
+  <exportedFile url="\Deleted Items\TargetResponse.CampaignTargetId.CampaignTarget.ManyToOne.CampaignTarget.CampaignTargetId.relationship.xml" timeStamp="2009-11-19T20:10:47.9830" />
+  <exportedFile url="\Deleted Items\TargetResponse.TargetResponseId.MarketingServiceRecipient.ManyToOne.MarketingServiceRecipient.TargetResponseId.relationship.xml" timeStamp="2009-11-19T20:10:48.0000" />
+  <exportedFile url="\Deleted Items\Ticket.AccountproductId.AccountProduct.ManyToOne.AccountProduct.AccountProductId.relationship.xml" timeStamp="2009-11-19T20:10:48.0130" />
+  <exportedFile url="\Deleted Items\TicketAccountProduct.TicketId.Ticket.ManyToOne.Ticket.TicketId.relationship.xml" timeStamp="2009-11-19T20:10:48.0300" />
+</exportedFiles>

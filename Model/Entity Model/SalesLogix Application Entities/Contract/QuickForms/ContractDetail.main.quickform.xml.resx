@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lueAccount.Caption" xml:space="preserve">
+    <value>Account:</value>
+  </data>
+  <data name="lueContact.Caption" xml:space="preserve">
+    <value>Contact:</value>
+  </data>
+  <data name="pklService.Caption" xml:space="preserve">
+    <value>Service:</value>
+  </data>
+  <data name="pklContractType.Caption" xml:space="preserve">
+    <value>Contract Type:</value>
+  </data>
+  <data name="dtpStartDate.Caption" xml:space="preserve">
+    <value>Start Date:</value>
+  </data>
+  <data name="chkContractAfterTicket.Caption" xml:space="preserve">
+    <value>Begin with first Ticket</value>
+  </data>
+  <data name="dtpEndDate.Caption" xml:space="preserve">
+    <value>Expiration:</value>
+  </data>
+  <data name="txtGracePeriod.Caption" xml:space="preserve">
+    <value>Grace Days:</value>
+  </data>
+  <data name="txtQuantity.Caption" xml:space="preserve">
+    <value>Quantity:</value>
+  </data>
+  <data name="numRemaining.Caption" xml:space="preserve">
+    <value>Remaining:</value>
+  </data>
+  <data name="txtPONumber.Caption" xml:space="preserve">
+    <value>PO Number:</value>
+  </data>
+  <data name="dtpPurchaseDate.Caption" xml:space="preserve">
+    <value>Purchase Date:</value>
+  </data>
+  <data name="curListPrice.Caption" xml:space="preserve">
+    <value>List Price:</value>
+  </data>
+  <data name="curDiscount.Caption" xml:space="preserve">
+    <value>Discount:</value>
+  </data>
+  <data name="curContractAmount.Caption" xml:space="preserve">
+    <value>Contract Amount:</value>
+  </data>
+  <data name="usrLastUpdatedBy.Caption" xml:space="preserve">
+    <value>Updated By:</value>
+  </data>
+  <data name="cmdCopy.Caption" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="cmdCopy.ToolTip" xml:space="preserve">
+    <value>Copy Contract...</value>
+  </data>
+  <data name="lueAccount.LookupProperties.AccountName.PropertyHeader" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="lueAccount.LookupProperties.Type.PropertyHeader" xml:space="preserve">
+    <value>Account Type</value>
+  </data>
+  <data name="lueAccount.LookupProperties.Division.PropertyHeader" xml:space="preserve">
+    <value>Division</value>
+  </data>
+  <data name="lueAccount.LookupProperties.Address.City.PropertyHeader" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="lueAccount.LookupProperties.Address.State.PropertyHeader" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="lueAccount.LookupProperties.Address.PostalCode.PropertyHeader" xml:space="preserve">
+    <value>Postal Code</value>
+  </data>
+  <data name="lueAccount.LookupProperties.SeccodeId.PropertyHeader" xml:space="preserve">
+    <value>Account Owner</value>
+  </data>
+  <data name="lueAccount.LookupProperties.AccountManagerId.PropertyHeader" xml:space="preserve">
+    <value>Account Manager</value>
+  </data>
+  <data name="lueAccount.LookupProperties.Address.Address1.PropertyHeader" xml:space="preserve">
+    <value>Street Address</value>
+  </data>
+  <data name="lueAccount.LookupProperties.Address.Address2.PropertyHeader" xml:space="preserve">
+    <value>Additional Address</value>
+  </data>
+  <data name="lueAccount.LookupProperties.Address.Country.PropertyHeader" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="lueContact.LookupProperties.NameLF.PropertyHeader" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="lueContact.LookupProperties.AccountName.PropertyHeader" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="lueContact.LookupProperties.WorkPhone.PropertyHeader" xml:space="preserve">
+    <value>Work Phone</value>
+  </data>
+  <data name="lueContact.LookupProperties.IsServiceAuthorized.PropertyHeader" xml:space="preserve">
+    <value>Authorized</value>
+  </data>
+  <data name="dteUpdatedDate.Caption" xml:space="preserve">
+    <value>Updated Date:</value>
+  </data>
+  <data name="lueAccount.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lueContact.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="usrLastUpdatedBy.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpStartDate.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpEndDate.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dtpPurchaseDate.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtReference.Caption" xml:space="preserve">
+    <value>Reference #:</value>
+  </data>
+  <data name="chkActive.Caption" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="txtComments.Caption" xml:space="preserve">
+    <value>Comments:</value>
+  </data>
+  <data name="cmdDateStamp.ToolTip" xml:space="preserve">
+    <value>User Date Stamp</value>
+  </data>
+  <data name="curQuantity.Caption" xml:space="preserve">
+    <value>Quantity:</value>
+  </data>
+  <data name="numQuantity.Caption" xml:space="preserve">
+    <value>Quantity:</value>
+  </data>
+  <data name="cmdReset.Caption" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="cmdReset.ToolTip" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="cmdDelete.Caption" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="cmdSave.Caption" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="cmdDelete.ActionConfirmationMessage" xml:space="preserve">
+    <value>You are about to permanently delete this record.</value>
+  </data>
+  <data name="lueAccount.LookupProperties.MainPhone.PropertyHeader" xml:space="preserve">
+    <value>Main Phone</value>
+  </data>
+  <data name="lueAccount.LookupProperties.SubType.PropertyHeader" xml:space="preserve">
+    <value>Sub-Type</value>
+  </data>
+  <data name="lueAccount.LookupProperties.Status.PropertyHeader" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="lueAccount.LookupProperties.AccountManager.UserInfo.UserName.PropertyHeader" xml:space="preserve">
+    <value>AcctManager</value>
+  </data>
+  <data name="lueAccount.LookupProperties.Owner.OwnerDescription.PropertyHeader" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="lueContact.LookupProperties.Address.City.PropertyHeader" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="lueContact.LookupProperties.Address.State.PropertyHeader" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="lueContact.LookupProperties.Email.PropertyHeader" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="lueAccount.ButtonToolTip" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="lueContact.ButtonToolTip" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="dtpStartDate.ButtonToolTip" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="dtpEndDate.ButtonToolTip" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="dtpPurchaseDate.ButtonToolTip" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="usrLastUpdatedBy.ButtonToolTip" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="dteUpdatedDate.ButtonToolTip" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="ContractType_Days" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="ContractType_Dollars" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="ContractType_Hours" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="txtRemaining.Caption" xml:space="preserve">
+    <value>Remaining:</value>
+  </data>
+  <data name="curRemaining.Caption" xml:space="preserve">
+    <value>Remaining:</value>
+  </data>
+</root>

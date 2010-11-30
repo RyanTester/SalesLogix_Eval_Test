@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_Code\ActivityFormHelper.cs" timeStamp="2009-11-19T20:11:07.2800" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_Code\AddOpportunityProductHelper.cs" timeStamp="2009-11-19T20:11:07.2800" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_Code\AddOpportunityProductRequest.cs" timeStamp="2009-11-19T20:11:07.2800" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_Code\AddSalesOrderProductHelper.cs" timeStamp="2009-11-19T20:11:07.4970" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_Code\CombineScripts.cs" timeStamp="2009-11-19T20:11:07.2800" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_Code\FormHelper.cs" timeStamp="2009-11-19T20:11:07.2630" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_Code\Global.cs" timeStamp="2009-11-19T20:11:07.2800" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_Code\LinkHandler.cs" timeStamp="2009-11-19T20:13:11.4100" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_Code\RootAdapter.cs" timeStamp="2009-11-19T20:11:07.2470" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_Code\ScriptDeferFilter.cs" timeStamp="2009-11-19T20:11:07.3570" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_Code\WebControlExtensions.cs" timeStamp="2009-11-19T20:11:07.3100" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_Code\Facade\" />
+</exportedFiles>

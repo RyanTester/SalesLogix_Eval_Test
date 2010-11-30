@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="04834569-b36f-4b73-9aa6-30eabefa2914" lastModifiedUtc="2008-07-07T20:26:28.8095914Z" parentEntityId="9d7adc23-181f-4fa9-a5ef-d891f2187a6c" childEntityId="2ad06efa-febf-4a6d-a63d-096c6d86dd28">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="4b7eca69-36b8-40cf-a850-27886032a4c3" lastModifiedUtc="2008-07-07T20:26:28.7275914Z" name="ProcessTypeCategories" audited="false">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="d4e8c559-b06d-42d5-bd35-98aa73b1140e" lastModifiedUtc="2008-07-07T20:26:28.7315914Z" name="ProcessTypeInformation" audited="false">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="85a0f89f-8fe4-4920-9ebc-61f5655e254f" parentPropertyId="2b568446-3ed7-4f00-bd7d-c873025cf18c" childPropertyId="91c6367c-171c-4995-ae6e-0743db2736a1" ordinal="0" />
+  </column>
+</relationship>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Lead\QuickForms\InsertLead.main.quickform.xml" timeStamp="2009-11-19T20:10:52.7870" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Lead\QuickForms\InsertLead.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:52.8030" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Lead\QuickForms\LeadDetails.main.quickform.xml" timeStamp="2009-11-19T20:10:52.8330" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Lead\QuickForms\LeadDetails.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:52.8030" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Lead\QuickForms\LeadExtendedDetails.main.quickform.xml" timeStamp="2009-11-19T20:10:52.8200" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Lead\QuickForms\LeadExtendedDetails.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:52.8200" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Lead\QuickForms\LeadSummary.main.quickform.xml" timeStamp="2009-11-19T20:10:52.8200" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Lead\QuickForms\LeadSummary.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:52.8200" />
+</exportedFiles>

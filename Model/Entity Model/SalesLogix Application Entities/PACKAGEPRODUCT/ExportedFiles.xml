@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\PACKAGEPRODUCT\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:54.3470" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\PACKAGEPRODUCT\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:54.3470" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\PACKAGEPRODUCT\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:54.3470" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\PACKAGEPRODUCT\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:54.4100" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\PACKAGEPRODUCT\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:54.3630" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\PACKAGEPRODUCT\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:54.3930" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\PACKAGEPRODUCT\OnCreate.method.xml" timeStamp="2009-11-19T20:10:54.3630" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\PACKAGEPRODUCT\PackageProduct.PACKAGEPRODUCT.entity.xml" timeStamp="2009-11-19T20:10:54.4100" />
+</exportedFiles>

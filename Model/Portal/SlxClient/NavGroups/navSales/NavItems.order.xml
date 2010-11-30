@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="6854cfee-f6b8-453e-a177-b5544f504642">navWelcome.navitem.xml</Item>
+  <Item Id="d83735df-a7ff-4ab4-b698-3b23bd23ac2f">navEntitiesAccount.navitem.xml</Item>
+  <Item Id="bdfdef26-d2fb-495c-91e6-7be2d0958ee0">navEntitiesContact.navitem.xml</Item>
+  <Item Id="2ec11a77-23c7-4f1a-9e58-24a3be92761a">navEntitiesLeads.navitem.xml</Item>
+  <Item Id="04ff6a2a-ba61-48f9-ac18-7b496ed7949b">navEntitiesOpportunity.navitem.xml</Item>
+  <Item Id="c2c133d8-4a75-4607-95ff-40787142c855">navEntitiesSalesOrders.navitem.xml</Item>
+  <Item Id="83c07939-7598-4125-903b-dde311f8f20a">navActivityManager.navitem.xml</Item>
+  <Item Id="f37f7d5d-c75b-49fa-8f8f-d3faa9f43e3a">navCalendar.navitem.xml</Item>
+  <Item Id="b2eb3ca8-d7e5-4ba3-8d61-9f344bf960aa">navEntitiesWhatsNew.navitem.xml</Item>
+  <Item Id="6176d9ba-d02f-4cd3-b798-a1f5ebf50509">navEntitiesLibrary.navitem.xml</Item>
+  <Item Id="6e1b66ab-a883-4d7f-8ef6-0b4c5c059090">navReports.navitem.xml</Item>
+  <Item Id="8945017e-d31f-49c5-8b2c-e05d1e1434c5">navEntitiesProcesses.navitem.xml</Item>
+</ModelItems>

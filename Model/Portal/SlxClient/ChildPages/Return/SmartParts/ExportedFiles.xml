@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\ChildPages\Return\SmartParts\AddEditReturnShippedProduct.smartpart.xml" timeStamp="2009-11-19T20:11:02.2400" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Return\SmartParts\AddEditReturnShippedProduct.smartpart.xml.resx" timeStamp="2009-11-19T20:11:02.2570" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Return\SmartParts\AttachmentList.smartpart.xml" timeStamp="2009-11-19T20:11:02.2400" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Return\SmartParts\AttachmentList.smartpart.xml.resx" timeStamp="2009-11-19T20:11:02.2870" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Return\SmartParts\LiveGroupViewer.smartpart.xml" timeStamp="2009-11-19T20:11:02.2400" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Return\SmartParts\LiveGroupViewer.smartpart.xml.resx" timeStamp="2009-11-19T20:11:02.2570" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Return\SmartParts\ReturnComments.smartpart.xml" timeStamp="2009-11-19T20:11:02.2570" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Return\SmartParts\ReturnComments.smartpart.xml.resx" timeStamp="2009-11-19T20:11:02.2700" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Return\SmartParts\ReturnDefects.smartpart.xml" timeStamp="2009-11-19T20:11:02.2870" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Return\SmartParts\ReturnDefects.smartpart.xml.resx" timeStamp="2009-11-19T20:11:02.2700" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Return\SmartParts\ReturnDetails.smartpart.xml" timeStamp="2009-11-19T20:11:02.2700" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Return\SmartParts\ReturnDetails.smartpart.xml.resx" timeStamp="2009-11-19T20:11:02.2870" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Return\SmartParts\ReturnExtendedDetails.smartpart.xml" timeStamp="2009-11-19T20:11:02.2700" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Return\SmartParts\ReturnExtendedDetails.smartpart.xml.resx" timeStamp="2009-11-19T20:11:02.2870" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Return\SmartParts\ReturnShipToDetail.smartpart.xml" timeStamp="2009-11-19T20:11:02.2870" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Return\SmartParts\ReturnShipToDetail.smartpart.xml.resx" timeStamp="2009-11-19T20:11:02.3030" />
+</exportedFiles>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <!-- saved from url=(0014)about:internet -->
+    <head>
+        <title>Glossary</title>
+        <script type="text/javascript" src="../Content/SkinSupport/MadCapUtilities.js">
+        </script>
+        <script type="text/javascript" src="../Content/SkinSupport/MadCapEffects.js">
+        </script>
+        <script type="text/javascript" src="../Content/SkinSupport/MadCapEffectsMenu.js">
+        </script>
+        <script type="text/javascript" src="../Content/SkinSupport/MadCapGlossary.js">
+        </script>
+        <style type="text/css">
+a:active
+{
+  color: #0055ff;
+  text-decoration: none;
+}
+a:link
+{
+  color: #0055ff;
+  text-decoration: none;
+}
+a:visited
+{
+  color: #0055ff;
+  text-decoration: none;
+}
+a:hover
+{
+  color: #ff0000;
+  text-decoration: none;
+}
+body
+{
+  background-color: #fafafa;
+  font-family: Arial, Sans-Serif;
+  font-size: 12px;
+  margin: 0px;
+  padding: 3px;
+}
+</style>
+    </head>
+    <body>
+        <div id="GlossaryBody">
+        </div>
+        <script type="text/javascript" src="../Content/SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

@@ -1,0 +1,2 @@
+<%@ Page AutoEventWireup="true" Language="c#" MasterPageFile="$tools.ToAppRelative($page.TemplateUrl)" CodeFile="${page.PageAlias}.aspx.cs" Inherits="${page.Portal.PortalAlias}.${page.PageAlias}Page" Culture="auto" UICulture="auto" %>
+<%@ Assembly Name="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31BF3856AD364E35" %>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="180610d0-7b47-4eda-998f-4aa401be5f44" name="MoveContact" returnType="string" methodType="Rule" actionType="Create" returnMode="Object" isInstance="true">
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam paramName="toAccount" sequence="0" paramType="IAccount" />
+    <OrmEntityMethodParam paramName="copyContact" sequence="0" paramType="Boolean" />
+    <OrmEntityMethodParam paramName="useNewAccountInfo" sequence="0" paramType="Boolean" />
+    <OrmEntityMethodParam paramName="copyHistory" sequence="0" paramType="Boolean" />
+    <OrmEntityMethodParam paramName="copyActivities" sequence="0" paramType="Boolean" />
+    <OrmEntityMethodParam paramName="openItemsContact" sequence="0" paramType="IContact" />
+    <OrmEntityMethodParam paramName="completedItemsContact" sequence="0" paramType="IContact" />
+  </parameter>
+  <methodTargets>
+    <methodTarget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="7a8c593c-4348-4011-990b-055719c0ea10" targetType="Sage.SalesLogix.Contact.Rules, Sage.SalesLogix.BusinessRules" sequence="0" targetMethod="MoveContact" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+</method>

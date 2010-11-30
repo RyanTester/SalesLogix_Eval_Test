@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Security Support\Role\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:57.0770" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\Role\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:57.0300" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\Role\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:57.0300" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\Role\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:57.0470" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\Role\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:57.0770" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\Role\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:57.0930" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\Role\OnCreate.method.xml" timeStamp="2009-11-19T20:10:57.0930" />
+  <exportedFile url="\Entity Model\SalesLogix Security Support\Role\Role.ROLE.entity.xml" timeStamp="2009-11-19T20:10:57.1570" />
+</exportedFiles>

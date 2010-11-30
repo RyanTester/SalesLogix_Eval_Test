@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="5e54df83-7f33-4633-9984-7c1c1d464d00">
+  <SmartPartId>AccountExtendedDetails</SmartPartId>
+  <SmartPart>\Entity Model\SalesLogix Application Entities\Account\QuickForms\AccountExtendedDetails.main.quickform.xml</SmartPart>
+  <TargetWorkspace>TabControl</TargetWorkspace>
+  <ShowInMode>Detail</ShowInMode>
+  <Properties />
+  <ReferencedModelId>b2741b79-02a2-4f4c-81cd-c204f82cf41c</ReferencedModelId>
+</SmartPartMapping>

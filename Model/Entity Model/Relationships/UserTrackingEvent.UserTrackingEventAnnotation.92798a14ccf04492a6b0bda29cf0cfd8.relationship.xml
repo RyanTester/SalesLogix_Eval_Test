@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="92798a14-ccf0-4492-a6b0-bda29cf0cfd8" lastModifiedUtc="2009-06-05T16:24:26.4430475Z" parentEntityId="e62b726e-2a37-4e31-b939-7f2f45abc6ee" childEntityId="59c6cb61-1bc8-4386-916e-aa0aab0c76ab" cascadeOption="SaveUpdateDelete">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="37bfa681-c877-4538-883f-ec4505426bc0" lastModifiedUtc="2008-03-03T18:05:21.9536221Z" name="Annotations" audited="false">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="695f7807-3d32-451a-897f-e905b957aa3b" lastModifiedUtc="2009-06-05T16:24:26.4430475Z" name="UserTrackingEvent" audited="false">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="a668fafb-4fe5-4bff-9235-28115df605ee" parentPropertyId="0e24c6ea-e1d8-4c8a-a296-f681d989ad2d" childPropertyId="6ca971ed-f7ff-4255-acd3-09af0d42603c" ordinal="0" />
+  </column>
+</relationship>

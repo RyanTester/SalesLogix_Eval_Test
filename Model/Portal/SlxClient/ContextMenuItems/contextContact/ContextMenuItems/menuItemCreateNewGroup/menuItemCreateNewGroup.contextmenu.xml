@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="2b70f29f-83ce-47c5-8d77-66d7d03cadac">
+  <ItemId>menuItemCreateNewGroup</ItemId>
+  <NavUrl>javascript:groupManager.CreateGroup('CONTACT');</NavUrl>
+  <LargeImageUrl />
+  <SmallImageUrl />
+  <ContextMenuId />
+  <Target />
+</MenuDropDownItem>

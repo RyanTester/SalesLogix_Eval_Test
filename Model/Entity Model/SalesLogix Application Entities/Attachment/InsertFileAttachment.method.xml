@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="f9110749-9b68-4f59-8fea-1b11443a7321" name="InsertFileAttachment" returnType="void" methodType="Rule" actionType="None" returnMode="Object" isInstance="true">
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam paramName="filename" sequence="0" paramType="string" />
+  </parameter>
+  <methodTargets>
+    <methodTarget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="12c6b878-8235-495a-bb8f-ec84ccb49e03" targetType="Sage.SalesLogix.Attachment.Rules, Sage.SalesLogix.BusinessRules" sequence="10" targetMethod="InsertFileAttachment" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+</method>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="24900472-0e6c-4057-b666-b30b3b53d749">
+  <ItemId>menuItemLookupContract</ItemId>
+  <NavUrl>Contract.aspx?modeid=list&amp;showlookuponload=true</NavUrl>
+  <LargeImageUrl />
+  <SmallImageUrl />
+  <ContextMenuId />
+  <Target />
+</MenuDropDownItem>

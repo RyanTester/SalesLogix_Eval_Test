@@ -1,0 +1,17 @@
+﻿/*==================================================
+ *  Localization of labellers.js
+ *==================================================
+ */
+
+Timeline.GregorianDateLabeller.monthNames["en"] = [
+    "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+];
+/*==================================================
+ *  Common localization strings
+ *==================================================
+ */
+
+Timeline.strings["en"] = {
+    wikiLinkLabel:  "Discuss"
+};
+

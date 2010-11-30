@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<DeploymentTarget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="343a8d0f-ddab-48d9-b021-83b75dc1df18">
+  <VirtualDirectoryName>SLXCustomerPortal</VirtualDirectoryName>
+  <ServerName>localhost</ServerName>
+  <DeploymentPath>C:\Inetpub\wwwroot\SLXCustomerPortal</DeploymentPath>
+  <IsActive>true</IsActive>
+</DeploymentTarget>

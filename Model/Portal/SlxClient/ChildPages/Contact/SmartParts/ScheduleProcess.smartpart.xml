@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="9ec2d81b-1a5d-47f5-b14a-08543bdebcf6">
+  <SmartPartId>ScheduleProcess</SmartPartId>
+  <SmartPart>SmartParts\Contact\ScheduleProcess.ascx</SmartPart>
+  <TargetWorkspace>DialogWorkspace</TargetWorkspace>
+  <ShowInMode>Detail</ShowInMode>
+  <Properties />
+</SmartPartMapping>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="cdc66995-59c9-42db-a0f0-474809881bcd" name="ScheduleLitRequest" returnType="String" methodType="Rule" actionType="None" returnMode="Object" isInstance="true">
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="22b45536-2e0b-4d7c-aac0-77121f52fce7" paramName="stepId" sequence="0" paramType="string" />
+    <OrmEntityMethodParam id="04be3e8b-cdb4-49d7-8902-27100430b76c" paramName="opportunity" sequence="0" paramType="IOpportunity" />
+    <OrmEntityMethodParam id="8f4e0d23-e752-4bb5-8d71-c7b670fbbd4d" paramName="author" sequence="0" paramType="IUser" />
+    <OrmEntityMethodParam id="11e263f8-6a98-47b9-902a-60fd0c54bff9" paramName="contact" sequence="0" paramType="IContact" />
+  </parameter>
+  <methodTargets>
+    <methodTarget id="2f034218-ca7b-4de7-b1cf-38d25b035773" targetType="Sage.SalesLogix.SalesProcess.Rules, Sage.SalesLogix.BusinessRules" sequence="0" targetMethod="ScheduleLitRequest" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+</method>

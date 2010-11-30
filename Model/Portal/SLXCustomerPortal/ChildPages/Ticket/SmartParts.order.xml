@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="a7cedb38-fceb-4b03-b5a4-6c28ca5e6ed5">TicketActivities.smartpart.xml</Item>
+  <Item Id="95fb48d2-0e5a-48e7-b0d9-ceb4d4c287a7">PortalUser.smartpart.xml</Item>
+  <Item Id="75307f76-b9b8-4834-b119-f0bf3308dbd6">AttachmentList.smartpart.xml</Item>
+  <Item Id="866077de-e909-4020-ba28-9eef560fc7d9">PortalTicket.smartpart.xml</Item>
+  <Item Id="0de1ee9d-a8a3-4e98-b7e1-c4d29ea16b3f">LiveGroupViewer.smartpart.xml</Item>
+</ModelItems>

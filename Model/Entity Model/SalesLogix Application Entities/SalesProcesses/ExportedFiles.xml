@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesProcesses\CanCompleteStage.method.xml" timeStamp="2009-11-19T20:10:55.3930" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesProcesses\CanCompleteStep.method.xml" timeStamp="2009-11-19T20:10:55.4070" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesProcesses\CanMoveToStage.method.xml" timeStamp="2009-11-19T20:10:55.4230" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesProcesses\CompleteStage.method.xml" timeStamp="2009-11-19T20:10:55.4230" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesProcesses\CompleteStep.method.xml" timeStamp="2009-11-19T20:10:55.4230" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesProcesses\DaysInStage.method.xml" timeStamp="2009-11-19T20:10:55.4400" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesProcesses\EstimatedCloseDate.method.xml" timeStamp="2009-11-19T20:10:55.4230" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesProcesses\EstimatedDaysToClose.method.xml" timeStamp="2009-11-19T20:10:55.4400" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesProcesses\GetSalesProcessAudits.method.xml" timeStamp="2009-11-19T20:10:55.4570" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesProcesses\InitSalesProcess.method.xml" timeStamp="2009-11-19T20:10:55.4570" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesProcesses\NumberOfStepsCompleted.method.xml" timeStamp="2009-11-19T20:10:55.4700" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesProcesses\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:55.4700" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesProcesses\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:55.4700" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesProcesses\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:55.4700" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesProcesses\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:55.4700" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesProcesses\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:55.4700" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesProcesses\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:55.4700" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesProcesses\OnCreate.method.xml" timeStamp="2009-11-19T20:10:55.4700" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesProcesses\SalesProcesses.SALESPROCESSES.entity.xml" timeStamp="2009-11-19T20:10:55.4870" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesProcesses\ScheduleActivity.method.xml" timeStamp="2009-11-19T20:10:55.5030" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesProcesses\ScheduleContactProcess.method.xml" timeStamp="2009-11-19T20:10:55.5030" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesProcesses\ScheduleLitRequest.method.xml" timeStamp="2009-11-19T20:10:55.5170" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesProcesses\SetToCurrentStage.method.xml" timeStamp="2009-11-19T20:10:55.5030" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesProcesses\StartStage.method.xml" timeStamp="2009-11-19T20:10:55.5030" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesProcesses\StartStep.method.xml" timeStamp="2009-11-19T20:10:55.5170" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesProcesses\UnCompleteStage.method.xml" timeStamp="2009-11-19T20:10:55.5030" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesProcesses\UnCompleteStep.method.xml" timeStamp="2009-11-19T20:10:55.5030" />
+</exportedFiles>

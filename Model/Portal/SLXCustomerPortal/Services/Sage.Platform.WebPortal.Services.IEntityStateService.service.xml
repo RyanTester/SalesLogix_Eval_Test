@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<PortalService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="7AFAE795-21FB-4100-A233-7AC07021D425">
+  <InstanceId>60b8c60d1f4a4ad78c5062ea340d3046</InstanceId>
+  <ServiceType>Sage.SalesLogix.Web.EntityStateService, Sage.SalesLogix.Web</ServiceType>
+  <RegisterAs>Sage.Platform.WebPortal.Services.IEntityStateService, Sage.Platform.WebPortal</RegisterAs>
+  <AddOnDemand>false</AddOnDemand>
+</PortalService>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="Gainey;decompilation;Admin;N;AccountID;USERINFO;AccountManagerID;UserID;USERPROFILE;t;OPPORTUNITYID;USER_ACTIVITY;CreateUser;CreateDate;ModifyUser;ModifyDate;Opportunity.Salespotential;Opportunity.Closeprobability;Opportunity.Status;Opportunity.Account.;Contact.Lastname;Contact.Firstname.;d.ddd...E+ddd;E;f;ddd.ddd...;g;n;d;ddd;acc_acc;con_con;opp_opp;conlname;Truevalue;FormatType;ftBoolean;FormatString;T;c;ShortDateFormat;LongTimeFormat;DateTime;ShortDayNames;dddd;LongDayNames;ddddd;dddddd;LongDateFormat;m;hh;mmm;Jan-Dec;ShortMonthNames;mmmm;LongMonthNames;yy;yyyy;nn;ss;ShortTimeFormat;tt;pm;ampm;TimeAMString;TimePMString;ftCurrency" MadCap:comment="KC 4/17/02: Merged versions from all Help files. CHANGE TITLE TO USING FORMAT STRINGS IN A QUERY??&#xD;&#xA;5.2 06/22/01 JM: Added sentence to click Close after viewing." MadCap:timeEstimate="0" MadCap:priority="0" MadCap:check_list="First Draft" MadCap:status="In Progress" MadCap:lastBlockDepth="5" MadCap:lastHeight="532" MadCap:lastWidth="607" MadCap:conditions="Output.WebClient" MadCap:tocPath="" MadCap:PathToHelpSystem="../../" MadCap:SearchType="Stem">
+    <!-- saved from url=(0014)about:internet -->
+    <head><title>Format String</title>
+        <link rel="StyleSheet" href="../SALESLOGIX.CSS" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" type="text/css" />
+        <script src="../SkinSupport/MadCapUtilities.js">
+        </script>
+        <script src="../SkinSupport/MadCapEffects.js">
+        </script>
+        <script src="../SkinSupport/MadCapEffectsMenu.js">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor425"></a>Format String</h1>
+        <p>Use a format string to format the data displayed in the query. First, 
+ select the <a href="queryformattype.htm">format type</a>. Then, type a format 
+ string to modify the format type you selected. The valid options depend 
+ on the format type you select. A format string must begin with a % sign 
+ and end with a format type character:</p>
+        <p>[%] [type]</p>
+        <p>If necessary, you can also include:</p>
+        <ul>
+            <li value="1"> <![CDATA[ ]]><span class="MCPopup"><a href="javascript:void(0);" class="MCPopupSpot" MadCap:src="queryargumentindex.htm" onclick="FMCPopup( event, this ); return false;">an argument index specifier</a></span></li>
+            <li value="2"><span class="MCPopup"><a href="javascript:void(0);" class="MCPopupSpot" MadCap:src="queryleftjustification.htm" onclick="FMCPopup( event, this ); return false;">a left justification indicator</a></span>
+            </li>
+            <li value="3"><span class="MCPopup"><a href="javascript:void(0);" class="MCPopupSpot" MadCap:src="querywidthspecifier.htm" onclick="FMCPopup( event, this ); return false;">a width specifier</a></span>
+            </li>
+            <li value="4"><span class="MCPopup"><a href="javascript:void(0);" class="MCPopupSpot" MadCap:src="queryprecisionspecifier.htm" onclick="FMCPopup( event, this ); return false;">a precision specifier</a></span>
+            </li>
+        </ul>
+        <p>[%] [index:] [-] [width] [.precision] [type]</p>
+        <p>To specify how many decimals to use in a format string, set the format string to  the normal format you would use. Then, add the precision specifier - a decimal  point and the number of digits to follow it - before the format string character  but after the initial %. For example:</p>
+        <ul>
+            <li value="1">Field Type: Float</li>
+            <li value="2">Format Type: ftCurrency.</li>
+            <li value="3">Format String: %.4f</li>
+            <li value="4">Data (Unformatted): 3.1415926&amp;ldots;</li>
+            <li value="5">Result: 3.1416</li>
+        </ul>
+        <p>You can use any of the following types of format strings:</p>
+        <ul>
+            <li class="kadov-p-CTopic-Text-Bulleted" value="1">
+                <p class="Topic-Text-Bulleted"><a href="queryboolean.htm">Boolean Field Format Strings</a>
+                </p>
+            </li>
+            <li class="kadov-p-CTopic-Text-Bulleted" value="2">
+                <p class="Topic-Text-Bulleted"><a href="querycurrencyphone.htm">Currency and Phone Field Format 
+ Strings</a>
+                </p>
+            </li>
+            <li class="kadov-p-CTopic-Text-Bulleted" value="3">
+                <p class="Topic-Text-Bulleted"><a href="querydatetimeformat.htm">Date/Time Field Format Strings</a>
+                </p>
+            </li>
+            <li class="kadov-p-CTopic-Text-Bulleted" value="4">
+                <p class="Topic-Text-Bulleted"><a href="queryfixedstrings.htm">Fixed Field Format Strings</a>
+                </p>
+            </li>
+            <li class="kadov-p-CTopic-Text-Bulleted" value="5">
+                <p class="Topic-Text-Bulleted" style="margin-bottom: 0;"><a href="queryinteger.htm">Integer Field Format Strings</a>
+                </p>
+            </li>
+        </ul>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="querybuilderoverview.htm" target="_self">Query Builder Overview</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>
+            </p>
+            <p style="border-top-style: Groove;border-top-color: #c0c0c0;border-top-width: 1px;">&#160;</p>
+            <p><![CDATA[ ]]><a href="../General/feedback.htm" target="_blank">Tell us how we can make the Help better.</a></p>
+        </div>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

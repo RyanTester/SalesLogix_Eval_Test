@@ -1,0 +1,57 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>LegacySetup Page</title>
+<script type="text/javascript" src="/slxweb/jscript/cookiesobj.js"></script>
+
+<script type="text/javascript">
+<!--
+
+function init() {
+
+	cookie.setCookie(top.document.all.containerdiv.innerText);
+
+	top.helper = '<#SYS name=swcpath>/help?name=';
+	top.helpSearch = "<#SYS name=helpsearch>";
+	top.helpPath = "<#SYS name=helppath>";
+	top.scriptsPath = "<#SYS name=swcpath>";
+	top.timeFmt = "<#SYS name=svrdatefmt>";
+	top.pivotyear = "<#SYS name=pivotyear>";
+	top.webPlusFlag = "<#SYS name=theusertype>";
+	if (top.webPlusFlag == "eViewer") {
+		top.wF = "eViewer";
+	}
+	top.multicurrency = "<#SYS name=multicurrency>";
+	cookie.setCookie(top.helpPath,"helppath")
+	cookie.setCookie(top.scriptsPath,"scriptspath")
+	cookie.setCookie(top.pivotyear,"pivotyear")
+	cookie.setCookie(top.timeFmt,"serverFmt")
+
+    var GM = top.GM;
+	GM.GMUrl = "<#SYS name=asppath>/SLXGroupManager.aspx?action=";
+	GM.IBUrl = "<#SYS name=asppath>/SLXInfoBroker.aspx?info=";
+	GM.baseUrl = "<#SYS name=asppath>";
+
+	GM.CurrentUserID = "<#SYS name=theuserid>";
+	GM.TimeZone = "<#SYS name=timezone>";
+	GM.Init();
+	GM.UserName = "<#SYS name=theusername>";
+	GM.ShortDateFormat = getClientDateFormat();
+	GM.svrdatefmt = "<#SYS name=svrdatefmt>";
+	GM.DateSeparator = getClientDateSeparator();
+	GM.TimeSeparator = getClientTimeSeparator();
+	GM.htmlpath = "<#SYS name=htmlpath>";
+	GM.swcpath = "<#SYS name=swcpath>";
+	GM.ReportServer = "<#SYS name=reportpath>";
+
+	if (document.location.href.indexOf("https:") > -1) {
+		GM.SSL = 1;
+	}
+}
+
+-->
+</script>
+
+</head>
+<body onload='init()'>
+</body>
+</html>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\NavGroups\navService\NavItems\navActivityManager.navitem.xml" timeStamp="2009-11-19T20:11:06.4830" />
+  <exportedFile url="\Portal\SlxClient\NavGroups\navService\NavItems\navActivityManager.navitem.xml.resx" timeStamp="2009-11-19T20:11:06.6070" />
+  <exportedFile url="\Portal\SlxClient\NavGroups\navService\NavItems\navCalendar.navitem.xml" timeStamp="2009-11-19T20:11:06.4830" />
+  <exportedFile url="\Portal\SlxClient\NavGroups\navService\NavItems\navCalendar.navitem.xml.resx" timeStamp="2009-11-19T20:11:06.6070" />
+  <exportedFile url="\Portal\SlxClient\NavGroups\navService\NavItems\navEntitiesContact.navitem.xml" timeStamp="2009-11-19T20:11:06.5770" />
+  <exportedFile url="\Portal\SlxClient\NavGroups\navService\NavItems\navEntitiesContact.navitem.xml.resx" timeStamp="2009-11-19T20:11:06.7330" />
+  <exportedFile url="\Portal\SlxClient\NavGroups\navService\NavItems\navEntitiesContract.navitem.xml" timeStamp="2009-11-19T20:11:06.6070" />
+  <exportedFile url="\Portal\SlxClient\NavGroups\navService\NavItems\navEntitiesContract.navitem.xml.resx" timeStamp="2009-11-19T20:11:06.7330" />
+  <exportedFile url="\Portal\SlxClient\NavGroups\navService\NavItems\navEntitiesReturn.navitem.xml" timeStamp="2009-11-19T20:11:06.5770" />
+  <exportedFile url="\Portal\SlxClient\NavGroups\navService\NavItems\navEntitiesReturn.navitem.xml.resx" timeStamp="2009-11-19T20:11:06.7330" />
+  <exportedFile url="\Portal\SlxClient\NavGroups\navService\NavItems\navEntitiesTicket.navitem.xml" timeStamp="2009-11-19T20:11:06.7170" />
+  <exportedFile url="\Portal\SlxClient\NavGroups\navService\NavItems\navEntitiesTicket.navitem.xml.resx" timeStamp="2009-11-19T20:11:06.8570" />
+  <exportedFile url="\Portal\SlxClient\NavGroups\navService\NavItems\navEntitiesWhatsNew.navitem.xml" timeStamp="2009-11-19T20:11:06.7170" />
+  <exportedFile url="\Portal\SlxClient\NavGroups\navService\NavItems\navEntitiesWhatsNew.navitem.xml.resx" timeStamp="2009-11-19T20:11:06.7970" />
+  <exportedFile url="\Portal\SlxClient\NavGroups\navService\NavItems\navReports.navitem.xml" timeStamp="2009-11-19T20:11:06.7970" />
+  <exportedFile url="\Portal\SlxClient\NavGroups\navService\NavItems\navReports.navitem.xml.resx" timeStamp="2009-11-19T20:11:06.8570" />
+  <exportedFile url="\Portal\SlxClient\NavGroups\navService\NavItems\navWelcome.navitem.xml" timeStamp="2009-11-19T20:11:06.7970" />
+  <exportedFile url="\Portal\SlxClient\NavGroups\navService\NavItems\navWelcome.navitem.xml.resx" timeStamp="2009-11-19T20:11:06.8570" />
+</exportedFiles>

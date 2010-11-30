@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="0935a88a-43ac-4fb8-a791-7e72ec6e96e4" lastModifiedUtc="2007-11-27T18:28:15.4174572Z" name="GetBudgetResults" returnType="object" methodType="Rule" actionType="None" returnMode="Object" isInstance="true">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter />
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="9bf37366-e1b6-4792-ab7b-bf28c0e1ae25" lastModifiedUtc="2007-11-27T18:32:52.1728597Z" targetType="Sage.SalesLogix.Campaign.Rules, Sage.SalesLogix.BusinessRules" targetMethod="GetBudgetResults" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

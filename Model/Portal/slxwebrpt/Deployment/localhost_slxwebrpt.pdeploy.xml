@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<DeploymentTarget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="c74ab758-b3c5-417c-8c5f-e75f8879c8d2">
+  <VirtualDirectoryName>slxwebrpt</VirtualDirectoryName>
+  <ServerName>localhost</ServerName>
+  <DeploymentPath>C:\inetpub\wwwroot\slxwebrpt</DeploymentPath>
+  <Precompile>false</Precompile>
+  <PrecompileFlags>OverwriteTarget Clean</PrecompileFlags>
+  <UseInPlaceCompile>true</UseInPlaceCompile>
+  <StrongNameIsFile>false</StrongNameIsFile>
+  <IsActive>true</IsActive>
+</DeploymentTarget>

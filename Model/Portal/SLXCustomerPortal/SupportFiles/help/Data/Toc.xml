@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc Version="1">
+    <!-- saved from url=(0014)about:internet -->
+    <TocEntry Title="Introducing SalesLogix" Link="/Content/Common/slxoverview.htm" ComputedResetPageLayout="true" ComputedFirstTopic="true">
+        <TocEntry Title="Introducing Sage SalesLogix" Link="/Content/Common/slxoverview.htm" ComputedResetPageLayout="true" ComputedFirstTopic="true" />
+        <TocEntry Title="Third Party Software, Trademarks and Registered Trademarks" Link="/Content/Common/slxthirdparty.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Contacting Sage Software" Link="/Content/Common/slxcontactsage.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Using the Help" Link="/Content/Common/slxusehelp.htm" ComputedFirstTopic="false">
+            <TocEntry Title="Using the Help System" Link="/Content/Common/slxusehelp.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="Assumptions and Conventions" Link="/Content/Common/slxconventions.htm" ComputedFirstTopic="false" />
+            <TocEntry Title="New User Tips" Link="/Content/Common/slxusertips.htm" ComputedFirstTopic="false" />
+        </TocEntry>
+    </TocEntry>
+    <TocEntry Title="Getting Started" ComputedFirstTopic="false">
+        <TocEntry Title="Logging in" Link="/Content/Getting Started/slxlogin.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Sage SalesLogix Web Workspace " Link="/Content/Getting Started/webbuttons.htm" ComputedFirstTopic="false" />
+    </TocEntry>
+    <TocEntry Title="Customer Portal" conditions="Output.Customer Portal" Link="/Content/Customer Portal/custaddticket.htm" ComputedFirstTopic="false">
+        <TocEntry Title="Adding a Ticket in Customer Portal" Link="/Content/Customer Portal/custaddticket.htm" conditions="Output.Customer Portal" ComputedFirstTopic="false" />
+        <TocEntry Title="Using the Ticket Detail View" Link="/Content/Customer Portal/custticketinfo.htm" conditions="Output.Customer Portal" ComputedFirstTopic="false" />
+        <TocEntry Title="Using the Ticket List View" Link="/Content/Customer Portal/custticktick.htm" conditions="Output.Customer Portal" ComputedFirstTopic="false" />
+    </TocEntry>
+    <TocEntry Title="SpeedSearch" Link="/Content/SpeedSearch/speedsearchoverview.htm" ComputedFirstTopic="false">
+        <TocEntry Title="Speedsearch Overview" Link="/Content/SpeedSearch/speedsearchoverview.htm" ComputedFirstTopic="false" />
+        <TocEntry Title="Searching for Information" Link="/Content/SpeedSearch/speedsearch.htm" ComputedFirstTopic="false" />
+    </TocEntry>
+</CatapultToc>

@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cmdSave.Caption" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="cmdSave.ToolTip" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="cmdDelete.Caption" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="cmdDelete.ToolTip" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="cmdDelete.ActionConfirmationMessage" xml:space="preserve">
+    <value>You are about to permanently delete this record.</value>
+  </data>
+  <data name="txtDescription.Caption" xml:space="preserve">
+    <value>Opportunity:</value>
+  </data>
+  <data name="txtNotes.Caption" xml:space="preserve">
+    <value>Comments:</value>
+  </data>
+  <data name="chkAddToForecast.Caption" xml:space="preserve">
+    <value>Add To Forecast:</value>
+  </data>
+  <data name="dtpEstimatedClose.Caption" xml:space="preserve">
+    <value>Est. Close:</value>
+  </data>
+  <data name="lueAccount.Caption" xml:space="preserve">
+    <value>Account:</value>
+  </data>
+  <data name="lueAccount.LookupProperties.AccountName.PropertyHeader" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="lueAccount.LookupProperties.MainPhone.PropertyHeader" xml:space="preserve">
+    <value>Main Phone</value>
+  </data>
+  <data name="lueAccount.LookupProperties.Type.PropertyHeader" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lueAccount.LookupProperties.SubType.PropertyHeader" xml:space="preserve">
+    <value>Sub-Type</value>
+  </data>
+  <data name="lueAccount.LookupProperties.Status.PropertyHeader" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lueReseller.Caption" xml:space="preserve">
+    <value>Reseller:</value>
+  </data>
+  <data name="lueReseller.LookupProperties.AccountName.PropertyHeader" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="lueReseller.LookupProperties.Address.City.PropertyHeader" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="lueReseller.LookupProperties.Address.State.PropertyHeader" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="lueReseller.LookupProperties.MainPhone.PropertyHeader" xml:space="preserve">
+    <value>Main Phone</value>
+  </data>
+  <data name="lueReseller.LookupProperties.Type.PropertyHeader" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lueReseller.LookupProperties.Status.PropertyHeader" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lueReseller.LookupProperties.AccountManager.UserName.PropertyHeader" xml:space="preserve">
+    <value>Acct Manager</value>
+  </data>
+  <data name="lueReseller.LookupProperties.Owner.CreateUser.PropertyHeader" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="pklCloseProbability.Caption" xml:space="preserve">
+    <value>Close Probability:</value>
+  </data>
+  <data name="pklStatus.Caption" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="usrUser.Caption" xml:space="preserve">
+    <value>Acct. Mgr.:</value>
+  </data>
+  <data name="cmdReset.Caption" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="cmdReset.ToolTip" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="Reseller_rsc" xml:space="preserve">
+    <value>Reseller</value>
+  </data>
+  <data name="lueAccount.LookupProperties.Address.City.PropertyHeader" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="lueAccount.LookupProperties.Address.State.PropertyHeader" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="lueAccount.LookupProperties.AccountManager.UserName.PropertyHeader" xml:space="preserve">
+    <value>AcctManager</value>
+  </data>
+  <data name="lueAccount.LookupProperties.Owner.OwnerDescription.PropertyHeader" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="lueReseller.LookupProperties.SubType.PropertyHeader" xml:space="preserve">
+    <value>Sub-Type</value>
+  </data>
+  <data name="lueReseller.LookupProperties.AccountManager.UserInfo.UserName.PropertyHeader" xml:space="preserve">
+    <value>Acct Manager</value>
+  </data>
+  <data name="lueReseller.LookupProperties.Owner.Description.PropertyHeader" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="lueAccount.LookupProperties.AccountManager.UserInfo.UserName.PropertyHeader" xml:space="preserve">
+    <value>Acct Manager</value>
+  </data>
+  <data name="lueReseller.LookupProperties.Owner.OwnerDescription.PropertyHeader" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="lueReseller.LUPF.SubType" xml:space="preserve">
+    <value>Reseller</value>
+  </data>
+  <data name="lueAccount.ButtonToolTip" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="usrUser.ButtonToolTip" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="lueReseller.ButtonToolTip" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="dtpEstimatedClose.ButtonToolTip" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+  <data name="txtComments.Caption" xml:space="preserve">
+    <value>Comments:</value>
+  </data>
+</root>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="8a5a11fa-5279-4fd7-b628-2ea1bbe380d2">CampaignDetails.smartpart.xml</Item>
+  <Item Id="5c06f985-54db-4778-83d9-23614d2867ed">CampaignOpportunities.smartpart.xml</Item>
+  <Item Id="dc917786-babd-4d46-a7b9-d3f95218daec">CampaignBudgetResults.smartpart.xml</Item>
+  <Item Id="6ec5bd66-e4f8-4cf1-93af-76cfe4878f78">StagesAndTasks.smartpart.xml</Item>
+  <Item Id="26d2a594-59b2-4ee8-a04d-b55b8b1a88dc">AddEditStage.smartpart.xml</Item>
+  <Item Id="08a722ab-fa5a-477b-944f-711d654391ca">AddEditTask.smartpart.xml</Item>
+  <Item Id="1cee9fe7-489c-43e6-b905-5955e13d982f">ManageTargets.smartpart.xml</Item>
+  <Item Id="72158a3a-db4d-4ed4-a25e-3201fe85c301">CampaignTargets.smartpart.xml</Item>
+  <Item Id="37f30dfe-78d0-4781-b1c3-3a1f7ad6d666">TargetResponses.smartpart.xml</Item>
+  <Item Id="032e7546-0eb6-4d1e-82ff-8027d8e96e76">UpdateTargets.smartpart.xml</Item>
+  <Item Id="b4b66985-0088-4309-9c2c-df7b512610f9">CampaignProducts.smartpart.xml</Item>
+  <Item Id="7342b927-c9c4-4ef0-9f8f-ecb36469ceee">CampaignTargetCreateGroup.smartpart.xml</Item>
+  <Item Id="edc1ac7d-487f-43a6-9536-95592e17d5ec">AddCampaignLeadSources.smartpart.xml</Item>
+  <Item Id="1d6c48ce-1c35-4238-b3b0-5e21e89504b1">AddEditTargetResponse.smartpart.xml</Item>
+  <Item Id="34fc271b-9bea-4cb2-b656-89f25b8bdb9d">LiveGroupViewer.smartpart.xml</Item>
+</ModelItems>

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="b858febe-8781-471b-816f-ca8fa4ba48c7">ConfigureQualifications.smartpart.xml</Item>
+  <Item Id="e844bc37-b3e5-4698-9c88-04440d03252d">AddEditQualificationCategory.smartpart.xml</Item>
+</ModelItems>

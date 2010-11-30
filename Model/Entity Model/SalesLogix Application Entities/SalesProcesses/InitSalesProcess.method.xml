@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="88815cda-e226-446a-9815-20e6a715fe16" name="InitSalesProcess" returnType="void" methodType="Rule" actionType="None" returnMode="None" isInstance="true">
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="77ac6198-bdeb-48fc-97f1-0b0914fbb846" paramName="pluginId" sequence="0" paramType="string" />
+    <OrmEntityMethodParam id="2a890fdf-3177-4159-9cf9-08a34fe9d61a" paramName="entityId" sequence="0" paramType="string" />
+  </parameter>
+  <methodTargets>
+    <methodTarget id="44530965-0cd8-4977-8b05-812616fa5c3c" targetType="Sage.SalesLogix.SalesProcess.Rules, Sage.SalesLogix.BusinessRules" sequence="0" targetMethod="InitSalesProcess" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+</method>

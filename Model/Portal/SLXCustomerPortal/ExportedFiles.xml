@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SLXCustomerPortal\ContextMenuItems.order.xml" timeStamp="2009-11-19T20:11:19.1500" />
+  <exportedFile url="\Portal\SLXCustomerPortal\MenuItems.order.xml" timeStamp="2009-11-19T20:11:19.1500" />
+  <exportedFile url="\Portal\SLXCustomerPortal\Modules.order.xml" timeStamp="2009-11-19T20:11:19.1630" />
+  <exportedFile url="\Portal\SLXCustomerPortal\NavigationGroups.order.xml" timeStamp="2009-11-19T20:11:19.1630" />
+  <exportedFile url="\Portal\SLXCustomerPortal\Services.order.xml" timeStamp="2009-11-19T20:11:19.1800" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SLXCustomerPortal.portal.xml" timeStamp="2009-11-19T20:11:19.1800" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SLXCustomerPortal.portal.xml.resx" timeStamp="2009-11-19T20:11:19.3530" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles.def.xml" timeStamp="2010-01-19T23:08:58.0430" />
+  <exportedFile url="\Portal\SLXCustomerPortal\ChildPages\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\Deployment\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\MenuItems\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\Modules\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\NavGroups\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\Services\" />
+  <exportedFile url="\Portal\SLXCustomerPortal\SupportFiles\" />
+</exportedFiles>

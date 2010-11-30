@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="nmeLeadName.Caption" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="pklTitle.Caption" xml:space="preserve">
+    <value>Title:</value>
+  </data>
+  <data name="txtCompany.Caption" xml:space="preserve">
+    <value>Company:</value>
+  </data>
+  <data name="adrAddress.Caption" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="urlWeb.Caption" xml:space="preserve">
+    <value>Web:</value>
+  </data>
+  <data name="pklIndustry.Caption" xml:space="preserve">
+    <value>Industry:</value>
+  </data>
+  <data name="txtSICCode.Caption" xml:space="preserve">
+    <value>SIC Code:</value>
+  </data>
+  <data name="emlEmail.Caption" xml:space="preserve">
+    <value>E-mail:</value>
+  </data>
+  <data name="phnWorkPhone.Caption" xml:space="preserve">
+    <value>Phone:</value>
+  </data>
+  <data name="phnTollFree.Caption" xml:space="preserve">
+    <value>Toll Free:</value>
+  </data>
+  <data name="txtBusinessDescription.Caption" xml:space="preserve">
+    <value>Business Description:</value>
+  </data>
+  <data name="lueLeadSource.Caption" xml:space="preserve">
+    <value>Lead Source:</value>
+  </data>
+  <data name="lueLeadSource.LookupProperties.Type.PropertyHeader" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="lueLeadSource.LookupProperties.Description.PropertyHeader" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="lueLeadSource.LookupProperties.AbbrevDescription.PropertyHeader" xml:space="preserve">
+    <value>Source Code</value>
+  </data>
+  <data name="lueLeadSource.LookupProperties..PropertyHeader" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lueLeadSource.LookupProperties.SourceDate.PropertyHeader" xml:space="preserve">
+    <value>Source Date</value>
+  </data>
+  <data name="txtInterests.Caption" xml:space="preserve">
+    <value>Interested in:</value>
+  </data>
+  <data name="cmdConvertLead.Caption" xml:space="preserve">
+    <value>Convert Qualified Lead</value>
+  </data>
+  <data name="txtComments.Caption" xml:space="preserve">
+    <value>Comments:</value>
+  </data>
+  <data name="chkDoNotSolicit.Caption" xml:space="preserve">
+    <value>Do not Solicit</value>
+  </data>
+  <data name="chkDoNotEmail.Caption" xml:space="preserve">
+    <value>Do not E-mail</value>
+  </data>
+  <data name="chkDoNotCall.Caption" xml:space="preserve">
+    <value>Do not Call</value>
+  </data>
+  <data name="chkDoNotMail.Caption" xml:space="preserve">
+    <value>Do not Mail</value>
+  </data>
+  <data name="chkDoNotFax.Caption" xml:space="preserve">
+    <value>Do not Fax</value>
+  </data>
+  <data name="cmdUpdateLead.Caption" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="cmdUpdateLead.ToolTip" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="cmdDeleteLead.Caption" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="cmdDeleteLead.ToolTip" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="QFButton2.ActionConfirmationMessage" xml:space="preserve">
+    <value>You are about to permanently delete this record.</value>
+  </data>
+  <data name="cmdConvertLead.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="db9a6317-7f1e-4220-bac0-681479bab985.Title" xml:space="preserve">
+    <value>SalesLogix</value>
+  </data>
+  <data name="db9a6317-7f1e-4220-bac0-681479bab985.Message" xml:space="preserve">
+    <value>You must first specify a Company name before converting a Lead.</value>
+  </data>
+  <data name="817595f0-8b8a-42cb-9d7a-4462e0bbcfad.DialogTitleOverride" xml:space="preserve">
+    <value>Convert Lead</value>
+  </data>
+  <data name="emlEmail.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lueLeadSource.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lueLeadSource.LUPF.Status" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="emlEmail.ButtonToolTip" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="lueLeadSource.ButtonToolTip" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="adrAddress.AddressToolTip" xml:space="preserve">
+    <value>MapQuest</value>
+  </data>
+  <data name="adrAddress.ButtonToolTip" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="urlWeb.ButtonToolTip" xml:space="preserve">
+    <value>WWW</value>
+  </data>
+  <data name="nmeLeadName.ButtonToolTip" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+</root>

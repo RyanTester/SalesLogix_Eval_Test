@@ -1,0 +1,16 @@
+# Files created from merge tools
+*.BACKUP*
+*.BASE*
+*.LOCAL*
+*.REMOTE*
+*.orig
+
+
+# Model files that are auto-generated
+[Mm]odel[Ii]ndex.xml
+
+
+# Standard deployment files
+[Mm]odel/[Dd]eployment
+
+

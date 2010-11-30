@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="4fca5a0c-292b-4ed0-931a-82a9d9974613" name="UnCompleteStep" returnType="void" methodType="Rule" actionType="None" returnMode="None" isInstance="true">
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="0aa8ff0e-1f2b-4289-a188-ffed1758acb7" paramName="stepId" sequence="0" paramType="string" />
+  </parameter>
+  <methodTargets>
+    <methodTarget id="222a16e0-dcaa-47d5-b6f0-f5a31e367f58" targetType="Sage.SalesLogix.SalesProcess.Rules, Sage.SalesLogix.BusinessRules" sequence="0" targetMethod="UnCompleteStep" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+</method>

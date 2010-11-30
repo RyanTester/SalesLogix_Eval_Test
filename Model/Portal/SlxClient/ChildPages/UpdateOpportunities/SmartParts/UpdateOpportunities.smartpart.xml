@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="e4b621a8-7112-4a5f-beb2-7628a6231ce2">
+  <SmartPartId>UpdateOpportunities</SmartPartId>
+  <SmartPart>SmartParts\Opportunity\UpdateOpportunities.ascx</SmartPart>
+  <TargetWorkspace>MainContent</TargetWorkspace>
+  <ShowInMode>List</ShowInMode>
+  <Properties />
+</SmartPartMapping>

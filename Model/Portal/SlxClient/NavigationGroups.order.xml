@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="f8df3395-8f19-4d02-a081-da84c5dd5255">navSales.navgroup.xml</Item>
+  <Item Id="614f4942-dc1d-494d-84f5-11ebb5b634fd">navMarketing.navgroup.xml</Item>
+  <Item Id="204709c3-b8cc-422e-a25a-9890e2d0bc2b">navService.navgroup.xml</Item>
+  <Item Id="f4bdd0c2-64d2-4060-aaad-8cb0b0ce90cc">navSupport.navgroup.xml</Item>
+</ModelItems>

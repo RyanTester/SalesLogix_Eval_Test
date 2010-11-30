@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<NavigationItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="d83735df-a7ff-4ab4-b698-3b23bd23ac2f">
+  <ItemId>navEntitiesAccount</ItemId>
+  <NavUrl>Account.aspx</NavUrl>
+  <LargeImageUrl>[Localization.Global_Images:Companies_3D_32x32]</LargeImageUrl>
+  <SmallImageUrl>[Localization!Global_Images:Companies_24x24]</SmallImageUrl>
+  <ContextMenuId>contextAccount</ContextMenuId>
+  <Target />
+</NavigationItem>

@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="5a1c3aee-67f3-4ffe-9707-e4baa8180ecf">Sage.SalesLogix.Client.GroupBuilder.Modules.GroupViewerModule.module.xml</Item>
+  <Item Id="39bed2ed-3054-4137-8172-c807a6e4f1bc">Sage.SalesLogix.Client.Opportunity.Modules.OpportunityModule.module.xml</Item>
+</ModelItems>

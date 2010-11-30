@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="9f7f33cb-0e6d-4115-8d02-cca2d9d428ba">InsertCampaign.smartpart.xml</Item>
+  <Item Id="d7fc34a0-11d8-4158-98df-ca208b886e30">AddCampaignLeadSources.smartpart.xml</Item>
+</ModelItems>

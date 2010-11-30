@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Lookup name="DefaultFollowupActivity">
+    <LookupValue id="None" text="None" default="true"></LookupValue>
+    <LookupValue id="Phone Call" text="PhoneCall" default="false"></LookupValue>
+    <LookupValue id="Meeting" text="Meeting" default="false"></LookupValue>
+    <LookupValue id="To-Do" text="ToDo" default="false"></LookupValue>
+</Lookup>
+

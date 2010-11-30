@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="10b268b5-e437-4c42-930a-b6e848838b14" lastModifiedUtc="2007-12-14T18:13:45.9445156Z" cardinality="1:M" parentEntityId="03da3a53-eab7-4bb2-bd1b-9c0c988b66d2" childEntityId="2d4939b6-3500-4e99-8e21-f3a545f26841">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="1125f47f-00ac-4a1e-ba31-37489c580ff5" lastModifiedUtc="0001-01-01T00:00:00" name="Opportunities" audited="false" displayCategory="Intermediate" isNullable="true" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="ec9e1fdc-6c72-43c1-832f-3a099e84e03e" lastModifiedUtc="2007-12-14T18:13:45.9445156Z" name="Product" audited="false" displayCategory="Intermediate" isNullable="false" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="d4cb4610-ffb2-4d5f-90b1-53cb9c8ac522" parentPropertyId="1bc2d817-6cc8-42b8-b7d1-aac17aa4146f" childPropertyId="5d4d3bfd-2849-4083-8d72-cd553b7a305b" ordinal="0" />
+  </column>
+</relationship>

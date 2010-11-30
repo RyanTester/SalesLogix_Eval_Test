@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="62585761-2c34-44dd-bab9-0924564abb6a" lastModifiedUtc="2007-12-14T18:16:26.053378Z" cardinality="1:M" parentEntityId="3521b9b3-7701-4714-b257-197697f94f85" childEntityId="e7a70408-03cb-4667-890b-39de33fb739b">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="05d5c83d-fb64-4dab-a9c6-b1c3125dce76" lastModifiedUtc="0001-01-01T00:00:00" name="Tickets" audited="false" displayCategory="Intermediate" isNullable="true" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="c67acc1c-2bdf-4eab-846b-a17af9577488" lastModifiedUtc="2007-12-14T18:16:26.053378Z" name="Contract" audited="false" displayCategory="Intermediate" isNullable="true" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="870c475b-432d-4845-a8bc-6fdb4e4f20f3" parentPropertyId="f4eec6b3-71fb-4a4f-a8e1-301cd708403d" childPropertyId="b44da63a-dd56-4d36-a581-37b3889e962c" ordinal="0" />
+  </column>
+</relationship>

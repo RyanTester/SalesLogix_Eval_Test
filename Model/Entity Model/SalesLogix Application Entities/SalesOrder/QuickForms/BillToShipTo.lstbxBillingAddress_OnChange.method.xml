@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmOtherMethod" id="640a4a02-8334-4654-a8bf-419d8da938d2" lastModifiedUtc="2009-08-26T17:45:43.5945664Z" name="lstbxBillingAddress_OnChange" methodType="Other" actionType="None" returnMode="None" isInstance="false">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmOtherMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="d0824eca-bb72-4dce-a73b-822b81d33554" paramName="form" sequence="0" paramType="IBillToShipTo" />
+    <OrmEntityMethodParam id="fe4ee422-21c3-4fb3-8924-42e21add1e4d" paramName="args" sequence="0" paramType="EventArgs" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget xsi:type="OrmMethodTargetSnippet" id="4bcd0749-f029-49c1-8026-92d466b28429" lastModifiedUtc="2009-08-26T17:45:19.5805664Z" targetType="Sage.BusinessRules.CodeSnippets.BillToShipToEventHandlers, Sage.SnippetLibrary.CSharp" targetMethod="lstbxBillingAddress_OnChange" active="true" codeSnippetId="5d1e2c90-426a-49a8-9553-d42c94664968">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="d8239243-4cc2-4176-875e-3be52b27eeb1">
+  <ItemId>sched_event</ItemId>
+  <NavUrl>ScheduleEvent.aspx?modeid=Insert</NavUrl>
+  <LargeImageUrl>[Localization!Global_Images:Schedule_Event_24x24]</LargeImageUrl>
+  <SmallImageUrl>[Localization!Global_Images:Schedule_Event_16x16]</SmallImageUrl>
+  <ContextMenuId />
+  <Target />
+</MenuDropDownItem>

@@ -1,0 +1,88 @@
+/* r.a.d.upload Windows Vista skin */
+
+.RadUploadTable
+{
+	padding: 0px;
+}
+
+.RadUploadButtonArea
+{
+	background: transparent;
+}
+
+.RadUploadButton,
+.radUploadButtonMedium
+{
+	background: transparent url('Img/radUploadBtnMedium.gif') no-repeat;
+	border: 0px;
+	height: 23px;
+	width: 114px;
+	font: normal 11px Arial, Verdana, Sans-serif;
+	color: black;
+}
+
+.RadUploadButtonDisabled
+{
+	background: transparent url('Img/radUploadBtnMedium.gif') no-repeat;
+	border: 0px;
+	height: 23px;
+	width: 114px;
+	font: normal 11px Arial, Verdana, Sans-serif;
+	color: black;
+	filter: alpha(opacity=30);
+	-moz-opacity:0.5;
+	opacity: 0.5;
+}
+
+.RadUploadFileSelector
+{
+	/* checkbox */
+}
+
+.RadUploadInputField
+{
+	width: 280px;
+	border: 1px solid #A8A9BE;
+	height: 15px;
+	padding-left : 5px;
+}
+
+input.RealFileInput
+{
+	z-index: 2;
+	position: relative;
+	-moz-opacity: 0;
+	filter: alpha(opacity: 0);
+	opacity: 0;
+}
+
+.RadUploadSelectButton
+{
+	/*font-weight: normal;
+	font-size : 85%;
+	color: #000000;
+	border : solid 1px #7E9CB8;
+	background-color: #E1E1DC;
+	cursor : pointer;
+	margin-left: 5px;*/
+
+	font-weight: normal;
+	font-size : 85%;
+	color: #000000;
+	border : solid 1px #7E9CB8;
+	background-color: #E1E1DC;
+	cursor : pointer;
+    	text-align: center;
+    	display: inline-block;
+    	white-space: nowrap;
+    	padding-left: 6px;
+   	padding-right: 6px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	margin: 3px;
+}
+
+input.NoSkinnedFileUnput
+{
+	border: solid 1px #1a43b0;
+}

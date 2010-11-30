@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="d956ca61-ece5-45c5-af1c-b67691f076d7" lastModifiedUtc="2008-06-18T21:00:11.5522792Z" name="OnProductShippedChanged" methodType="Rule" actionType="None" returnMode="None">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter />
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="c8089db0-cabc-4b68-9778-933cb0f60910" lastModifiedUtc="2008-06-18T21:06:01.0388909Z" targetType="Sage.SalesLogix.ReturnShippedProduct.Rules, Sage.SalesLogix.BusinessRules" targetMethod="OnProductShippedChanged" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

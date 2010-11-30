@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Lookup name="AlarmDefaultLead">
+    <LookupValue id="Minutes" text="Minutes" default="true"></LookupValue>
+    <LookupValue id="Hours" text="Hours" default="false"></LookupValue>
+    <LookupValue id="Days" text="Days" default="false"></LookupValue>
+</Lookup>
+

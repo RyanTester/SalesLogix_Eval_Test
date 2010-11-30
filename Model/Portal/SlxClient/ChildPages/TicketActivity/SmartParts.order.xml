@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="e7168f22-7bb4-43fb-86b8-7ecd85b81d18">AddEditTicketActivity.smartpart.xml</Item>
+  <Item Id="ae13cfa3-d8ca-4512-a9cf-d3997d435dd6">AddEditTicketActivityItem.smartpart.xml</Item>
+  <Item Id="ea0b4505-01fd-4d58-a944-55159ecb1ee1">TicketActivityItems.smartpart.xml</Item>
+</ModelItems>

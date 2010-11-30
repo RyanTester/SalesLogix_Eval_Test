@@ -1,0 +1,1252 @@
+﻿body 
+{
+	font-family: Tahoma,"Arial Unicode MS",Arial,Helvetica,Sans-Serif; 	
+	color: #000000;
+	background:  url(../images/blue/BodyBackground.gif) repeat top left;
+	height: 100%;
+}
+
+select, 
+input, 
+textarea 
+{
+	font-family: Tahoma,"Arial Unicode MS",Arial,Helvetica,Sans-Serif; /* prevent YUI from overriding */
+}
+
+.MainHeader {
+	float: left;
+	width: 100%;
+	min-width: 800px;
+	background:  url(../images/blue/MainHeaderBackground.gif) repeat-x top left;
+	color: #2a405b;
+	font-size: 100%;
+	padding : 0em;
+	margin : 0em;
+}
+.MainHeaderLeft {
+	float: left;
+	text-align: left;
+	padding : .3em;
+	font-style : italic;
+}
+.MainHeaderRight {
+	float: right;
+	padding : .5em .8em;
+}
+.Clear {
+	clear: both;
+}
+/* toolbar - in header*/
+.MainHeaderToolBar {
+	float: left;
+	width: 100%;
+	height: 28px; 
+	padding-top : 4px;
+	background:  url(../images/blue/MainHeaderToolbarBackgr.gif) repeat-x top left;
+}
+.ssdropdown 
+{
+	display : inline;
+	border-color : #A8A9BE;
+	border-style : solid;
+	border-width: 1px 1px 1px 0px;
+	background-image : url(../images/blue/searchBg.gif);
+	background-repeat : repeat;
+	margin-right: .5em;
+	margin-left : 0px;
+	margin-top : 1px;
+	padding : 1px 4px 0px 4px;
+	float : right;
+}
+.ssdropdownhighlite 
+{
+	display : inline;
+	border-color : #A8A9BE;
+	border-style : solid;
+	border-width: 1px 1px 1px 0px;
+	background-image : url(../images/blue/searchBgOrange.gif);
+	background-repeat : repeat;
+	margin-right: .5em;
+	margin-left : 0px;
+	margin-top : 1px;
+	padding : 1px 4px 0px 4px;
+	float : right;
+}
+.ssbutton 
+{
+	display : inline;
+	border-color : #A8A9BE;
+	border-style : solid;
+	border-width: 1px 1px 1px 0px;
+	background-image : url(../images/blue/searchBg.gif);
+	background-repeat : repeat;
+	margin-left : 0px;
+	margin-top : 1px;
+	padding : 1px 2px 0px 2px;
+	float : right;
+}
+.ssbuttonhighlite 
+{
+	display : inline;
+	border-color : #A8A9BE;
+	border-style : solid;
+	border-width: 1px 1px 1px 0px;
+	background-image : url(../images/blue/searchBgOrange.gif);
+	background-repeat : repeat;
+	margin-left : 0px;
+	margin-top : 1px;
+	padding : 1px 2px 0px 2px;
+	float : right;
+}
+#MainWorkArea 
+{
+	width : 99.5%;
+	margin : .2em .2em 0em .2em;
+}
+
+#MainContent 
+{
+	margin-bottom:.2em;
+}
+
+.mainContentContent 
+{
+	border: solid 1px #b5cbe0;
+	width : 100%;
+	background : url(../images/blue/BodyBackground.gif);
+	background-color : White;
+	margin : 0px;
+	margin-bottom : 4px;
+}  
+.mainContentHeader 
+{
+	border: solid 1px #b5cbe0;
+	border-bottom-width: 0px;
+	margin : 0px;
+	width: 100%;
+}
+
+.mainContentHeader IMG 
+{
+	padding-right : 4px;
+	padding-left : 4px; 
+	vertical-align : middle;
+}
+.mainContentHeader INPUT 
+{
+	padding-right : 4px;
+	padding-left : 0px;
+	vertical-align : middle;
+}
+/* this is the 'header' that shows up in the middle of some forms
+it is a horizontal division that is set to be styled like a header */
+.mainContentContent .mainContentHeader, .dialogContentArea .mainContentHeader, .tws-tab-view .mainContentHeader
+{
+	border-top: solid 1px #b5cbe0;
+	border-bottom: solid 1px #b5cbe0;
+	border-left-width : 0px;
+	border-right-width : 0px;
+	height: 20px;
+	font-family: "Arial Unicode MS", Arial, Helvetica, sans-serif;
+	background: url(../images/blue/PaneHeader.gif) repeat-x;
+	color: #2a405b;
+	font-size: 110%;
+	font-weight : normal;
+}
+.mainContentHeaderTable
+{
+	width: 100%;
+	height: 26px;
+	background: url(../Libraries/Ext/resources/images/default/toolbar/bg.gif) repeat-x;
+	color: #2a405b;
+	font-size: 110%;
+	font-weight : normal;
+} 
+.mainContentHeaderTable TD 
+{
+	white-space : nowrap;
+	padding : 0em .5em 0em 6px;
+	vertical-align : middle;
+}
+
+.mainContentHeaderToolsLeft 
+{
+}
+.mainContentHeaderToolsCenter 
+{
+	text-align : center;
+}
+.mainContentHeaderToolsRight 
+{
+}
+A 
+{
+	color : #0000cc;
+	text-decoration : none;
+}
+
+A:hover 
+{
+	text-decoration : underline;
+}
+A:active 
+{
+	color : #0000cc;
+	text-decoration : none;
+}
+
+.datagrid 
+{
+	border-collapse : collapse;
+	border-width : 0px;
+}
+
+.datagrid TD 
+{
+	padding : 1px .25em;
+	border : solid 0px #aaaaaa;
+	font-size : 90%;
+	font-weight : normal;
+}
+.datagrid TH 
+{
+	font-weight : bold;
+	text-align : left;
+	border-width : 0px;
+	font-size : 90%;
+	background-color : #eeeeee;
+	color: #000000;
+	padding: .25em;
+	border-right : solid 1px #dddddd;
+}
+
+.rowlt 
+{
+	background-color : #ffffff;
+}
+
+.rowdk 
+{
+	background-color : #f7f7f8;
+}
+
+.rowSelected 
+{
+	background-color : #fbf3c8;
+}
+
+
+.gridPager TD
+{
+	padding-top : 1px;
+	font-size : 100%;
+	font-weight : bold;
+}
+
+.gridPager A 
+{
+	font-weight : normal;
+}
+
+.formtable .yui-panel .hd 
+{
+	background-image:url(../images/blue/PaneHeader.gif);
+	color: #2a405b;
+	font-size: 110%;
+	font-weight : normal;
+}
+
+.formtable .yui-panel 
+{
+	background-image : url(../images/blue/BodyBackground.gif);
+	background-repeat : repeat;
+}
+
+
+/* this is a textbox that has the "label" as the text. When the mouse enters it, this class is removed.  */ 
+.tboxinfo
+{
+	font-style : italic;
+	color : #444444;
+	font-size : 90%;
+}
+
+.dirtyDataMessage 
+{
+	display : none; 
+	position : absolute; 
+	padding : 2px 4px; 
+	color:#666666;
+}
+
+
+/*** existing content fixes ***/
+#MainWorkArea
+{
+    margin: 0; 
+    padding: 0;
+    /* fix for IE h-scrolling when v-scrollbar appears */
+	width: auto;
+	
+	/* need to give this layout in IE */
+	min-height: 0px;
+	_height: 1%;
+} 
+#MainContent
+{
+	/* need to give this layout in IE */
+	min-height: 0px;
+	_height: 1%;
+}
+* > #MainWorkArea
+{
+    width: auto;
+}      
+.mainContentContent
+{
+    width: auto;
+}
+.mainContentHeader
+{
+    width: auto;
+}       
+.mainContentHeaderTable
+{
+    width: auto;
+}   
+
+/*** panel & layout styling ***/
+#center_panel,
+#center_panel_north,
+#center_panel_east,
+#center_panel_center
+{
+    position: absolute;
+} 
+#center_panel
+{
+    background: #ffffff;
+}  
+#center_panel_center 
+{
+    border-left: solid 1px #99BBE8; 
+    border-bottom: solid 1px #99BBE8;
+}   
+#center_panel_east
+{
+    border-right: solid 1px #99BBE8; 
+    border-bottom: solid 1px #99BBE8;
+    background: #ffffff;
+}  
+#center_panel_east.x-panel-collapsed
+{
+    border-left: solid 1px #99BBE8;
+    border-right: none 0px #99BBE8; 
+    border-bottom: solid 1px #99BBE8;
+}         
+#center_panel_north
+{            
+    border-bottom: solid 1px #99BBE8;
+}
+.south_panel
+{
+    line-height: 24px;
+    background: #BCDAF9 url(../images/blue/MainHeaderBackground.gif);
+    border-top: solid 1px #99BBE8;   
+    color:#587190;        
+}           
+#west_panel
+{
+    background: url(../images/blue/NavBarBackgr.gif) repeat;
+}              
+#west_panel.x-panel-collapsed
+{
+    border-right: solid 1px #99BBE8;
+}          
+/*** ext overrides ***/     
+.x-border-layout-ct 
+{
+    background-color: transparent;
+}
+.x-panel-body
+{
+    background-color: transparent;
+}        
+.x-layout-collapsed
+{
+    border: none 0px black;
+}   
+/*** should be a better place to put these ***/
+.x-layout-collapsed-west
+{
+    border-right: solid 1px #99BBE8;
+}
+.x-layout-collapsed-east
+{
+    border-left: solid 1px #99BBE8;
+    border-right: solid 1px #99BBE8;
+    border-bottom: solid 1px #99BBE8;
+}         
+.x-splitbar-h
+{
+    background: #BCDAF9;
+    border-left: solid 1px #99BBE8;               
+    border-right: solid 1px #99BBE8;
+}  
+.x-splitbar-v
+{
+	background: #BCDAF9;
+    border-top: solid 1px #99BBE8;               
+    border-bottom: solid 1px #99BBE8;
+}
+.x-layout-collapsed-south
+{
+	background: #BCDAF9;
+	border-top: solid 1px #99BBE8;         
+}   
+/* .ext-strict .ext-ie6 .x-layout-split{background-color: transparent;} */
+/* fix for IE6 split bar drag (above may work) */
+.ext-strict .ext-ie6 .x-layout-split{background-color: #BCDAF9;}
+.nobackground {
+    background: transparent;
+    background-image: none;
+    border-bottom-width :0px;
+}
+.toolbarIE6 {
+    width: 150px; /*if don't spec a width IE6 goes across the page*/
+}
+.floatleft { float:left;}
+.floatright { float:right;}
+.GroupButton { 
+    float:right;
+    margin-top:5px;
+    margin-right:10px;
+    width:70px; /*if don't spec a width IE6 goes across the page*/
+}
+.alerttext {
+    color: #2B4159;
+}
+#PageTitle {
+    font-size: x-large;
+}
+div.NavBarItem
+{
+	width: auto;
+	margin: 2px 0px;
+	color : #000000;
+	text-align : left;	
+	white-space: nowrap;
+}
+.NavBarItem:hover {
+    background-color : #e5f3f6;
+}
+.NavBarItem A 
+{
+	color : #000000;
+	text-decoration : none;
+	font-size : 85%;
+	font-weight : 500;
+}
+.ActiveNavBarItem 
+{
+    background-color:#FFFFFF;
+	border-bottom:1px solid #9CB4CC;
+	border-top:1px solid #9CB4CC;
+}
+      
+#center_panel_center .mainContentHeader,
+#center_panel_center .mainContentContent,
+#center_panel_center .tws-middle-section .tws-tab-element,
+#center_panel_center .tws-main-tab-content
+{
+	border-left: none 0px black;
+	border-right: none 0px black;
+}    
+#center_panel_center .tws-main-tab-content
+{
+	border-bottom: none 0px black;
+}        
+
+.x-btn-text-icon .x-btn-center .x-btn-text
+{	
+	padding-left:20px; /* larger gap between image and text */
+} 
+#GroupTabs .x-tab-panel-header, #GroupTabs .x-tab-strip-top
+{
+    border-width: 0px;
+    background-color: transparent;
+    background-image:none;
+    padding: 0px;
+}
+#GroupTabs .x-tab-scroller-left
+{
+    border-left : 1px solid #8DB2E3;
+    border-bottom : 0px solid #8DB2E3;
+}
+#GroupTabs .x-tab-scroller-right
+{
+    border-right : 1px solid #8DB2E3;
+    border-bottom : 0px solid #8DB2E3;
+}
+#GroupTabs .x-tab-panel-body 
+{  
+    height:0px;
+}
+#GroupTabs 
+{
+    float:left;
+    position:absolute;
+    bottom:0;
+}
+
+#lookupBtn
+{
+    float:left;
+    position:absolute;
+    bottom:0;
+}
+
+.NavBarItem A img
+{
+    padding-left: 4px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+#lclCurrentDate 
+{
+	float:right;
+	margin-right:6px;
+}
+#copyright
+{
+	float:left;
+	margin-left:4px;
+}
+#OptionsMenu
+{
+	margin-right: 3px;
+	float: right;
+}
+#asyncpostbackindicator
+{ 
+	visibility:hidden;
+	margin-top:4px;
+	float:right;
+}
+.ReminderAlert
+{
+	margin-top: 4px;
+	margin-left: 3px;
+	text-align: left;
+	width: 220px;
+	padding-left: 14px;
+	height: 18px;
+	background-repeat: no-repeat;
+	background-image: url(../images/icons/Reminder_alert_16x16.gif);	
+}
+.ReminderAlert a, .ReminderNoAlert a
+{
+	font-size:11px;
+	font-family : Tahoma, Verdana, helvetical;
+	color:Black;
+	position: relative;
+	left: 4px;
+}
+.ReminderNoAlert
+{
+	margin-top: 4px;
+	margin-left: 3px;
+	text-align: left;
+	width: 220px;
+	padding-left: 14px;
+	height: 18px;
+	background-repeat: no-repeat;
+	background-image: url(../images/icons/Reminder_16x16.gif);	
+}
+
+/*** Lookup Dialog ***/
+.lookup-dialog .lookup-query
+{
+	
+}
+
+.lookup-dialog .lookup-properties,
+.lookup-dialog .lookup-operators,
+.lookup-dialog .lookup-values,
+.lookup-dialog .lookup-search
+{
+	float: left;
+	margin: 0.25em;
+}
+.lookup-dialog .clear-both
+{
+	clear: both;
+}
+
+.lookup-properties select,
+.lookup-operators select,
+.lookup-values select,
+.lookup-values input
+{
+}
+
+.lookup-values 
+{
+	/* overflow: auto; */ /* fix for FF disappearing caret, breaks IE */
+}
+
+.lookup-values input
+{
+	padding: 1px;
+}
+
+.lookup-label
+{
+	float: left;
+	font-weight: bold;
+	margin: 0.25em;
+}
+
+.lookup-values input
+{
+	position: relative !ie;
+	_position: relative;
+	top: -1px !ie;
+	_top: -1px;
+}
+
+.ListOfLinksFooterDiv
+{
+	margin-top: 9px;
+}
+.timeline-container
+{
+	font-family: Arial, Tahoma, helvetica, Sans-Serif;
+	font-size: 11px;
+}
+
+/* dialog workspace */
+.dialog-workspace .x-window-body
+{
+	background: #ffffff url(../images/blue/BodyBackground.gif) repeat scroll left top !important;	
+}
+
+.dialog-workspace .dialog-workspace-content-panel
+{
+	/* width: 100%; */
+}	
+
+.dialog-workspace .dialog-workspace-content
+{
+	/* ensure layout */
+	min-height: 0;
+	_height: 1%;
+}
+
+.dialog-workspace .dialog-workspace-content-panel .x-panel-body,
+.dialog-workspace .dialog-workspace-content-panel .x-panel-bwrap
+{
+	overflow: visible;
+}
+
+
+/* dialog resize handle fixes */
+.dialog-workspace .x-resizable-handle-north,
+.dialog-workspace .x-resizable-handle-south
+{
+	background: none; /* fix for IE7 */
+	_background: url(../images/default/sizer/s-handle.gif); /* fix for IE6 */
+}
+
+.x-window .x-window-tc,
+.x-panel-ghost .x-window-tc
+{
+	background: transparent url(../libraries/ext/resources/images/default/window/top-bottom-expanded.png) repeat-x 0 0;
+}
+
+.x-window .x-window-bc,
+.x-panel-ghost .x-window-bc
+{
+	background: transparent url(../libraries/ext/resources/images/default/window/top-bottom-expanded.png) repeat-x 0 bottom;
+}
+
+.x-shadow div.xsmc
+{
+	background: transparent url(../libraries/ext/resources/images/default/shadow-c-expanded.png);
+}
+
+div.x-item-disabled
+{
+	opacity: 1.0;
+	filter: none;
+	-moz-opacity: 1.0;
+}
+
+.x-window .x-window-mc
+{
+	font-family: inherit;
+	font-size: 13px; /* inherit does not correctly apply in IE */
+}
+
+.x-layout-cmini-west, .x-layout-cmini-east
+{
+	background: #BCDAF9;
+}
+
+.x-layout-mini
+{
+	opacity:1;
+    -moz-opacity:1;
+    filter:none;
+}
+
+.x-layout-split-west .x-layout-mini,
+.x-layout-cmini-east .x-layout-mini
+{
+	background-image: url("../images/dragger_left_transparent.gif");
+}
+
+.x-layout-split-east .x-layout-mini,
+.x-layout-cmini-west .x-layout-mini
+{
+	background-image: url("../images/dragger_right_transparent.gif");
+}
+
+.x-layout-split-south .x-layout-mini
+{
+	background-image: url("../images/dragger_bottom_transparent.gif");
+}
+
+.x-layout-cmini-south .x-layout-mini
+{
+	background-image: url("../images/dragger_top_transparent.gif");
+}
+
+.x-tab-scroller-left {
+    background: transparent url(../Libraries/Ext/resources/images/default/tabs/scroll-left.gif) no-repeat -18px -1px;   
+}
+.x-tab-scroller-right {
+    background: transparent url(../Libraries/Ext/resources/images/default/tabs/scroll-right.gif) no-repeat 0 -1px;
+}
+
+div.task-pane-header 
+{
+	height: 25px;
+	line-height: 25px;
+	background: url(../Libraries/Ext/resources/images/default/toolbar/bg.gif) repeat-x;
+}
+
+#center_panel_center .mainContentHeader
+{
+	border-top: none 0px black;
+	border-bottom: 1px solid #99BBE8;
+}
+
+#center_panel_center .mainContentHeaderTable
+{
+	height: 25px;
+}
+
+#center_panel_center .mainContentContent
+{
+	border-top: none 0px black;
+}
+
+.tws .tws-tab-element div.tws-tab-view-header
+{
+	background: url(../Libraries/Ext/resources/images/default/toolbar/bg.gif) repeat-x;
+	height: 25px;
+	line-height: 25px;
+	border-bottom: 1px solid #99BBE8;
+}
+
+.tws .tws-more-tab-element div.tws-more-tab-buttons-title
+{
+	background: transparent url(../Libraries/Ext/resources/images/default/toolbar/bg-grey.gif) repeat-x scroll 0% 0%;
+	height: 25px;
+	line-height: 25px;
+	font-weight: normal;
+}
+
+table.datagrid th
+{
+	border-left: solid 1px #d0d0d0;
+	border-top: solid 1px #D0D0D0;
+	border-right: solid 1px #D0D0D0;
+	border-bottom: solid 1px #FFFFFF;
+	background: inherit;
+	padding: 4px 3px 4px 5px;
+	line-height: 15px;	
+}
+
+table.datagrid th,
+table.datagrid td
+{
+	font-size: 11px;
+	font-weight: normal;
+}
+
+.datagrid td
+{
+	padding: 2px 3px 1px 5px;
+	line-height: 13px;
+}
+
+.gridPager
+{
+	background: #ffffff url(../Libraries/Ext/resources/images/default/toolbar/bg.gif) repeat-x;
+	height: 25px;
+	line-height: 25px;
+	border-bottom: 1px solid #99BBE8;
+	border-left: 1px solid #99BBE8;
+	border-right: 1px solid #99BBE8;
+	border-top: 1px solid #99BBE8;
+}
+
+.gridPager span
+{
+	font-weight: normal;
+	color: #000000;
+}
+
+.gridPager td
+{
+	border-bottom: 1px solid #99BBE8;
+	border-left: 1px solid #99BBE8;
+	border-right: 1px solid #99BBE8;
+	border-top: 1px solid #99BBE8;
+	padding: 0px 4px 0px 4px;
+	line-height: 25px;
+}
+
+.gridPager table td
+{
+	border: 0px none #ffffff;	
+	padding: 3px 5px 3px 5px;	
+	line-height: inherit;
+}
+
+.gridPager table td a,
+.gridPager table td span
+{
+	font-weight: bold;
+}
+
+.gridPager table td span
+{
+	color: #a0a0a0;
+}
+
+tr.rowhead
+{
+	background: #f9f9f9 url(../Libraries/Ext/resources/images/default/grid/grid3-hrow.gif) repeat-x left bottom;
+	border-left: 1px solid #99BBE8;
+	border-right: 1px solid #99BBE8;
+	padding: 0px;
+	font-size: 1em;
+}
+
+th div.headercontents
+{
+	height: auto;
+	text-indent: 0;
+	width: auto;
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+table.datagrid th.slx-grid-cell-first
+{
+	border-left: 1px solid #99BBE8;
+}
+
+table.datagrid th.slx-grid-cell-last
+{
+	border-right: 1px solid #99BBE8;
+}
+
+.headercontents a
+{
+	font-weight: normal;
+	color: #000000;
+}
+
+.datagrid
+{
+	border-left:1px solid #99BBE8;
+    border-right:1px solid #99BBE8;
+    border-bottom:1px solid #99BBE8;
+}
+
+.rowlt,
+.rowdk
+{
+	border-left: 1px solid #99BBE8;
+	border-right: 1px solid #99BBE8;
+    border-top:1px solid #ffffff;
+    border-bottom:1px solid #ededed;
+}
+
+.rowlt td,
+.rowdk td
+{
+	border-top:1px solid #ffffff;
+    border-bottom:1px solid #ededed;
+}
+
+.rowdk
+{
+	background-color: #fafafa;
+}
+
+.slx-grid-row-last td
+{
+	border-bottom: 1px solid #99BBE8;
+}
+
+.slx-grid
+{
+	min-height: 0px;
+	_height: 1%;
+}
+
+.slx-grid-container
+{
+	width: 100%;
+	overflow: auto;	
+}
+
+.slx-grid-wrapper
+{
+	border: solid 1px #ffffff;
+}
+
+.slx-grid-no-data table.datagrid th,
+.slx-grid-no-paging table.datagrid th
+{
+	border-top: 1px solid #99BBE8;
+}
+
+.slx-grid-no-data table.datagrid td
+{
+	border-bottom: 1px solid #99BBE8;
+}
+
+#center_panel_center table.formtable tr.mainContentHeader
+{
+	border: none 0px #ffffff;
+}
+
+/* Owner Lookup */
+/* team node icons */
+.owner-type-team .x-tree-node-icon 
+{
+	background: url(../images/icons/Groups_16x16.gif) no-repeat;
+}
+
+/* user node icons */
+.owner-type-user .x-tree-node-icon
+{
+	background: url(../images/icons/Contacts_16x16.gif) no-repeat;
+}
+
+/* system node icons */
+.owner-type-system .x-tree-node-icon
+{
+	display: none;
+}
+
+/* User Lookup */
+/* all icons */
+.user-lookup-dialog .x-tree-node-ct .x-tree-node-leaf .x-tree-node-icon
+{
+	background: url(../images/icons/Contacts_16x16.gif) no-repeat;
+}
+
+/* Address Dialog */
+body.x-body-masked .address-dialog .x-window-mc,
+.address-dialog .x-window-mc 
+{
+	background: #ffffff;
+}
+
+.address-dialog label
+{
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+.address-dialog .x-form-field-wrap .x-form-trigger
+{
+	background: #ffffff url(../images/picklist.gif) no-repeat scroll 50% 50%;
+	border-bottom: none 0px #000000;
+}
+
+/* FF3 fix for grid */
+.x-grid3-cell-inner, .x-grid3-hd-inner 
+{	
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+}
+
+.x-grid3 table 
+{
+    table-layout:fixed;
+}
+
+/* dialog workspace toolbar */
+.dialog-workspace .dialog-toolbar
+{
+	background: url(../Libraries/Ext/resources/images/default/toolbar/bg.gif) repeat-x;
+	height: 25px;
+	line-height: 25px;
+	border-bottom: 1px solid #99BBE8;
+}
+
+.dialog-workspace .dialog-toolbar > *
+{
+	line-height: 25px;
+}
+
+.dialog-workspace .dialog-toolbar table
+{
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	border: none 0px black;
+}
+
+.dialog-workspace .dialog-toolbar table tr
+{
+	height: 25px;
+}
+
+.dialog-workspace .dialog-toolbar table td
+{
+	vertical-align: middle;
+	padding: 0;
+	margin: 0;
+	white-space: nowrap;
+}
+
+.dialog-workspace .dialog-toolbar col.dialog-tools-middle
+{
+	width: 99%;	
+}
+
+.dialog-workspace .dialog-toolbar td.dialog-tools-middle
+{
+	text-align: center;	
+}
+
+.dialog-workspace .dialog-toolbar td.dialog-tools-left,
+.dialog-workspace .dialog-toolbar td.dialog-tools-middle,
+.dialog-workspace .dialog-toolbar td.dialog-tools-right
+{
+	padding: 0 4px 0 4px;
+}
+
+.dialog-workspace .dialog-toolbar td.dialog-tools-left *,
+.dialog-workspace .dialog-toolbar td.dialog-tools-middle *,
+.dialog-workspace .dialog-toolbar td.dialog-tools-right *
+{
+	cursor: auto;
+}
+
+.portlet_description
+{
+	display: none;
+}
+
+#AddSalesOrderProduct_tree .x-tree-node-icon,
+#AddOpportunityProduct_tree .x-tree-node-icon,
+#DefaultOpportunityProduct_tree .x-tree-node-icon
+{
+	display: none;
+}
+
+.titlebar
+{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	float: left;
+}
+
+.address-dialog .x-panel-body,
+.address-dialog .x-plain-body,
+.address-dialog .x-form,
+.address-dialog .x-form-item,
+.address-dialog .x-form-element,
+.address-dialog .x-form-field-wrap
+{
+	_zoom: 1;	
+}
+
+.list-detail .x-toolbar
+{
+	border-width: 0 0 1px 0;
+	border-bottom: 1px solid #99BBE8;
+}
+
+.list-view-summary .x-grid3-header 
+{
+    display: none;
+}
+
+.list-view-summary .x-grid3-row,
+.list-view-summary .x-grid3-row-over, 
+.list-view-summary .x-grid3-row-selected
+{
+    background-color:#ffffff !important;
+    border-color: #FFFFFF rgb(237, 237, 237) rgb(237, 237, 237);
+    background-image: none;
+}
+
+.list-view-summary .list-view-summary-item
+{
+	min-height: 110px;
+}
+
+.list-panel .x-paging-info {
+	left:4px;
+	right: auto;
+}
+
+.x-btn-icon-only .x-btn-center .x-btn-text
+{
+	padding-left: 14px;
+}
+
+/**  LOGIN / LOGOFF **/
+
+#splashimg 
+{
+    border: 1px solid #cccccc;
+    background-image : url(../images/icons/base_splash_screen.png);
+    background-repeat:no-repeat;
+    width:600px;
+    height:400px;
+    z-index:0;
+    margin-left: auto;
+    margin-right : auto;
+    margin-top : 50px;
+}
+#LoginForm 
+{
+    position:relative;
+    top: 110px;
+    left: 42px;
+    width: 85%;
+    z-index: 2;
+    font: arial, verdana, sans-sarif;
+    color: #000000;
+}
+#LoginLeftCol
+{
+    text-align: right;
+    float: left;
+    width: 15%;
+    min-width: 110px;
+    padding-right: 2px;
+}
+#LoginLeftCol div
+{
+    height: 24px;
+    padding-top: 2px;
+}
+#LoginRightCol
+{
+    float: left;
+    width: 75%;
+}
+#ForgotPassword
+{
+    font-size: 85%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+#RememberMe
+{
+    margin-left: -4px;
+    font-size: 85%;
+}
+#LoginForm input
+{
+    position: relative;
+    top: 2px;
+}
+#ExtFeatures 
+{
+    position:relative;
+    font-size:85%;
+}
+
+#ExtFeatures .settings 
+{
+    margin-left:10px;
+}
+#VersionSection
+{
+    position:relative;
+    top: 10px;
+    font-size:85%;
+}
+#VersionSection .info
+{
+    top: 4px;
+    position:relative;
+}
+.loginmsg 
+{
+    display: block;
+    color:red;
+    text-align:left;
+    height: 40px;
+    vertical-align: top;
+    padding-top: 2px;
+}     
+.slxlogin 
+{
+    margin : 0 auto;
+}
+#LogoffForm
+{
+    position: relative;
+    top: 116px;
+    left: 42px;
+    width: 85%;
+}
+#LogoffTitle
+{
+    font: arial, verdana, sans-sarif;
+    font-size: 16pt;
+    color: #024731;
+    padding-bottom: 25px;
+}
+#LogoffMessage
+{
+    font-size: 90%;
+}
+#LogoffFormButtonPanel
+{
+    padding-top: 25px;
+    text-align: center;
+}
+#LogoffFormButtonPanel input
+{
+    width: 120px;
+}
+/* copied from ~/Libraries/Ext/resources/css/paging-tree-loader.css     */
+.x-tree-paging-toolbar .x-btn-left{background:none;height:18px;}
+.x-tree-paging-toolbar .x-btn-right{background:none;height:18px;}
+.x-tree-paging-toolbar .x-btn-center{background:none;padding:0;height:18px;}
+.x-tree-paging-btn-icon .x-btn-center .x-btn-text{background-position:center;background-repeat:no-repeat;height:13px;width:15px;cursor:pointer;white-space:nowrap;padding:0;}
+.x-tree-paging-nowrap {white-space:nowrap;}
+.x-tree-paging-float  {float:left;white-space:nowrap;}
+.x-tree-paging-inline {display: inline;white-space:nowrap;}
+.x-tbar-page-number {height: 16px !important;text-align:center;}
+/* end of ~/Libraries/Ext/resources/css/paging-tree-loader.css     */

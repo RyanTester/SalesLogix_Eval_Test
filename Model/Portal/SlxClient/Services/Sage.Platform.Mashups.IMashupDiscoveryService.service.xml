@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<PortalService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="bc92695a-c3f2-47a6-998c-fb95155a2261">
+  <InstanceId>acf02aa79c7a4bba89200dcc4668a94a</InstanceId>
+  <ServiceType>Sage.Platform.Mashups.Web.WebMashupDiscoveryService, Sage.Platform.Mashups.Web</ServiceType>
+  <RegisterAs>Sage.Platform.Mashups.IMashupDiscoveryService, Sage.Platform.Mashups</RegisterAs>
+  <Properties />
+</PortalService>

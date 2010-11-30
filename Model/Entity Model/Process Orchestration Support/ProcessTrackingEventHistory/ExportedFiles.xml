@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\Process Orchestration Support\ProcessTrackingEventHistory\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:48.3570" />
+  <exportedFile url="\Entity Model\Process Orchestration Support\ProcessTrackingEventHistory\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:48.3430" />
+  <exportedFile url="\Entity Model\Process Orchestration Support\ProcessTrackingEventHistory\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:48.3570" />
+  <exportedFile url="\Entity Model\Process Orchestration Support\ProcessTrackingEventHistory\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:48.3570" />
+  <exportedFile url="\Entity Model\Process Orchestration Support\ProcessTrackingEventHistory\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:48.3730" />
+  <exportedFile url="\Entity Model\Process Orchestration Support\ProcessTrackingEventHistory\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:48.3570" />
+  <exportedFile url="\Entity Model\Process Orchestration Support\ProcessTrackingEventHistory\OnCreate.method.xml" timeStamp="2009-11-19T20:10:48.3730" />
+  <exportedFile url="\Entity Model\Process Orchestration Support\ProcessTrackingEventHistory\ProcessTrackingEventHistory.PROCESSTRACKINGEVTHIST.entity.xml" timeStamp="2009-11-19T20:10:48.4030" />
+</exportedFiles>

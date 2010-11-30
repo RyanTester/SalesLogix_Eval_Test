@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="6a099cd0-3173-49b2-89ab-3cc96d2c100c">
+  <SmartPartId>OwnerAssign</SmartPartId>
+  <SmartPart>SmartParts\GroupBuilder\OwnerAssign.ascx</SmartPart>
+  <TargetWorkspace>MainContent</TargetWorkspace>
+  <ShowInMode />
+  <Properties />
+</SmartPartMapping>

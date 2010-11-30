@@ -1,0 +1,1 @@
+#if(!$IsPrintView)<SalesLogix:GroupNavigator runat="server" ID="${qfcontrol.ControlId}" #if(!$qfcontrol.Visible)Visible="false" #end></SalesLogix:GroupNavigator>#else<a href="javascript:history.go(-1);">Back</a>#end

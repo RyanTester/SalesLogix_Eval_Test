@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cmdSave.Caption" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="cmdSave.ToolTip" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="txtOpenTickets.Caption" xml:space="preserve">
+    <value>Open Tickets:</value>
+  </data>
+  <data name="txtTotalTickets.Caption" xml:space="preserve">
+    <value>Total Tickets:</value>
+  </data>
+  <data name="txtType.Caption" xml:space="preserve">
+    <value>Type:</value>
+  </data>
+  <data name="txtSubType.Caption" xml:space="preserve">
+    <value>Sub-type:</value>
+  </data>
+  <data name="txtStatus.Caption" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="hzsContacts.Caption" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="hzsContracts.Caption" xml:space="preserve">
+    <value>Active Contracts</value>
+  </data>
+  <data name="lueAccountName.Caption" xml:space="preserve">
+    <value>Account:</value>
+  </data>
+  <data name="lueAccountName.LookupProperties.AccountName.PropertyHeader" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="lueAccountName.LookupProperties.MainPhone.PropertyHeader" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="lueAccountName.LookupProperties.Type.PropertyHeader" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="lueAccountName.LookupProperties.SubType.PropertyHeader" xml:space="preserve">
+    <value>Sub-Type</value>
+  </data>
+  <data name="lueAccountName.LookupProperties.Status.PropertyHeader" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="lueAccountName.LookupProperties.AccountManager.PropertyHeader" xml:space="preserve">
+    <value>Acct. Manager</value>
+  </data>
+  <data name="lueAccountName.LookupProperties.Owner.PropertyHeader" xml:space="preserve">
+    <value>Owner</value>
+  </data>
+  <data name="grdContacts.EmptyTableRowText" xml:space="preserve">
+    <value>No records match the selection criteria.</value>
+  </data>
+  <data name="grdContacts.5f88f5e6-28a5-4bc4-a330-f90772a91483.ColumnHeading" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="grdContacts.5f88f5e6-28a5-4bc4-a330-f90772a91483.FormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdContacts.3a137d0f-7a8d-4084-8168-b33a40487bbe.ColumnHeading" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="grdContacts.3a137d0f-7a8d-4084-8168-b33a40487bbe.FormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdContacts.cfa52353-9749-46ad-a5cd-41777eb3a42e.ColumnHeading" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="grdContacts.cfa52353-9749-46ad-a5cd-41777eb3a42e.FormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdContacts.1f1c6693-2c65-4e0b-a48d-ea3d0d39f8c2.ColumnHeading" xml:space="preserve">
+    <value>Authorized</value>
+  </data>
+  <data name="grdContacts.1f1c6693-2c65-4e0b-a48d-ea3d0d39f8c2.FormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdContacts.1cc274d4-49c3-4d7a-b5f2-eaa3c23c7312.ColumnHeading" xml:space="preserve">
+    <value>Work Phone</value>
+  </data>
+  <data name="grdContracts.EmptyTableRowText" xml:space="preserve">
+    <value>No records match the selection criteria.</value>
+  </data>
+  <data name="grdContracts.4b5a1ab4-2601-44d8-9172-2f0879d92bda.ColumnHeading" xml:space="preserve">
+    <value>Remaining</value>
+  </data>
+  <data name="grdContracts.4b5a1ab4-2601-44d8-9172-2f0879d92bda.FormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdContracts.1c025128-ead7-43f4-812a-abe180f29c7f.ColumnHeading" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="grdContracts.1c025128-ead7-43f4-812a-abe180f29c7f.FormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdContracts.bfe5c785-395b-479e-9ef3-0ed44d98977e.ColumnHeading" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="grdContracts.bfe5c785-395b-479e-9ef3-0ed44d98977e.FormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdContracts.3a453f57-f860-47a0-b719-a2c85501a65d.ColumnHeading" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="grdContracts.0651d84a-1b1d-4999-8089-cbe51d737704.ColumnHeading" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="grdContracts.9778cc96-20d3-4c92-bfac-f51cbbeba6e7.ColumnHeading" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="txtComments.Caption" xml:space="preserve">
+    <value>Comments:</value>
+  </data>
+  <data name="grdContracts.541749df-5753-4b47-9223-d2a9fe9f6ab0.ColumnHeading" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="grdContacts.81d821ad-516f-449d-b1b2-e7423c884354.ColumnHeading" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="lueAccountName.ButtonToolTip" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="cmdOK.Caption" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="cmdCancel.Caption" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="grdContacts.f0a3c1d5-e55e-46d9-9949-7f23afbb7d12.ColumnHeading" xml:space="preserve">
+    <value>Authorized</value>
+  </data>
+</root>

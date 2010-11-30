@@ -1,0 +1,41 @@
+#if(${qfcontrol.Caption} != "")
+#if($qfcontrol.ControlLabelPlacement == "left")
+ <div class="#if(${qfcontrol.ColumnSpan} == 2)twocollbl#else lbl#end#if(${qfcontrol.ColumnSpan} > 2) colspan3#end#if(${qfcontrol.CaptionAlignment} == "right") alignright#elseif(${qfcontrol.CaptionAlignment} == "center") aligncenter#else alignleft#end">
+   <asp:Label ID="${qfcontrol.LabelId}" AssociatedControlID="${qfcontrol.ControlId}" runat="server" Text="<%$ resources: ${qfcontrol.ControlId}.Caption %>" #if(!$qfcontrol.Visible)Visible="false" #end></asp:Label>
+ </div>   
+#elseif($qfcontrol.ControlLabelPlacement == "top")
+ <div class="lbltop#if(${qfcontrol.CaptionAlignment} == "right") alignright#elseif(${qfcontrol.CaptionAlignment} == "center") aligncenter#else alignleft#end">
+   <asp:Label ID="${qfcontrol.LabelId}" AssociatedControlID="${qfcontrol.ControlId}" runat="server" Text="<%$ resources: ${qfcontrol.ControlId}.Caption %>" #if(!$qfcontrol.Visible)Visible="false" #end></asp:Label>
+ </div>   
+#end #end
+  <div #if(${qfcontrol.ColumnSpan} > 1 || ${qfcontrol.ControlLabelPlacement} == "top") class="twocoltextcontrol select" #else class="textcontrol select" #end > 
+<asp:ListBox runat="server" ID="${qfcontrol.ControlId}" #if(${qfcontrol.IsReadOnly} || (!$qfcontrol.Enabled))Enabled="false" #end
+#if($qfcontrol.ToolTip != "") ToolTip="<%$ resources: ${qfcontrol.ControlId}.ToolTip %>" #end
+#if($qfcontrol.HotKey != "")AccessKey="$qfcontrol.HotKey" #end
+#if($qfcontrol.MultiSelect)SelectionMode="Multiple" Rows="4" #else SelectionMode="Single" Rows="1" #end
+#if($qfcontrol.TabIndex > 0)TabIndex="$qfcontrol.TabIndex" #end
+#if($qfcontrol.StyleScheme != "")CssClass="$qfcontrol.StyleScheme" #end
+#if($qfcontrol.HasActionCode)AutoPostBack="true" #end
+#if(!$qfcontrol.Visible)Visible="false" #end
+#if((($qfcontrol.TextField != "") || ($qfcontrol.ValueField != "")) && ($qfcontrol.DataSource != ""))
+ #if(($qfcontrol.TextField != "") && ($qfcontrol.ValueField != ""))
+  DataTextField="${qfcontrol.TextField}" DataValueField="${qfcontrol.ValueField}"
+ #elseif(($qfcontrol.TextField == "") && ($qfcontrol.ValueField != ""))
+  DataTextField="${qfcontrol.ValueField}" DataValueField="${qfcontrol.ValueField}"
+ #elseif(($qfcontrol.TextField != "") && ($qfcontrol.ValueField == ""))
+  DataTextField="${qfcontrol.TextField}" DataValueField="${qfcontrol.TextField}"
+ #end
+#end
+ >
+#foreach($itm in $qfcontrol.Items)
+<asp:ListItem #set($idx = $velocityCount - 1) #if($itm.Selected)Selected="true" #end
+Text="<%$ resources: ${qfcontrol.ControlId}_item${idx}.Text %>"
+Value="${itm.Value}" />
+#end
+</asp:ListBox>
+  </div>
+#if((${qfcontrol.Caption} != "") && ($qfcontrol.ControlLabelPlacement == "right"))
+ <div class="lblright#if(${qfcontrol.CaptionAlignment} == "right") alignright#elseif(${qfcontrol.CaptionAlignment} == "center") aligncenter#else alignleft#end">
+   <asp:Label ID="${qfcontrol.LabelId}" AssociatedControlID="${qfcontrol.ControlId}" runat="server" Text="<%$ resources: ${qfcontrol.ControlId}.Caption %>" #if(!$qfcontrol.Visible)Visible="false" #end></asp:Label>
+ </div>   
+#end

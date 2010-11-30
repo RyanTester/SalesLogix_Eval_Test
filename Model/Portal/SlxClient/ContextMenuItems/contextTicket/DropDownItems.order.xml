@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="530f321f-dfb6-486d-9329-4d3e71df75c6">menuItemLookupTicket.contextmenu.xml</Item>
+  <Item Id="277bae43-e991-4c1b-9e61-3e35f95b5a29">menuItemNewTicket.contextmenu.xml</Item>
+  <Item Id="67ae7b7c-7296-4f18-a9bc-47dd18553672">menuItemCreateGroup.contextmenu.xml</Item>
+</ModelItems>

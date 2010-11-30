@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserNotification\Activity.filter.xml" timeStamp="2009-11-19T20:10:50.0100" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserNotification\Date.filter.xml" timeStamp="2009-11-19T20:10:50.0270" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserNotification\From.filter.xml" timeStamp="2009-11-19T20:10:50.0430" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserNotification\Notification.filter.xml" timeStamp="2009-11-19T20:10:50.0570" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserNotification\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:50.0430" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserNotification\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:50.0270" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserNotification\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:50.0570" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserNotification\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:50.0430" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserNotification\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:50.0570" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserNotification\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:50.0570" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserNotification\OnCreate.method.xml" timeStamp="2009-11-19T20:10:50.0570" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserNotification\To.filter.xml" timeStamp="2009-11-19T20:10:50.0900" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\UserNotification\UserNotification.USERNOTIFICATION.entity.xml" timeStamp="2009-11-19T20:10:50.0730" />
+</exportedFiles>

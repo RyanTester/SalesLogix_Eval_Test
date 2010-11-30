@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="3c9e4c5a-124c-46d3-9c57-78df6f5a01db" name="StartStep" returnType="void" methodType="Rule" actionType="None" returnMode="None" isInstance="true">
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="20d4df36-89ad-48a7-85dd-e3346b81d8cc" paramName="stepId" sequence="0" paramType="string" />
+    <OrmEntityMethodParam id="2e78b240-fe1a-43cd-baaa-1520d4ad514e" paramName="startDate" sequence="0" paramType="DateTime" />
+  </parameter>
+  <methodTargets>
+    <methodTarget id="bbe577a4-3728-460b-913d-a212ab5870f5" targetType="Sage.SalesLogix.SalesProcess.Rules, Sage.SalesLogix.BusinessRules" sequence="0" targetMethod="StartStep" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+</method>

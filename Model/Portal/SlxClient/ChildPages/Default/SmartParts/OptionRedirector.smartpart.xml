@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="a4011aeb-d3f4-4be0-b806-ff19b07a4d9c">
+  <SmartPartId>OptionRedirector</SmartPartId>
+  <SmartPart>SmartParts\Options\OptionRedirector.ascx</SmartPart>
+  <TargetWorkspace>MainContent</TargetWorkspace>
+  <ShowInMode />
+  <Properties />
+  <AllowRoles />
+</SmartPartMapping>

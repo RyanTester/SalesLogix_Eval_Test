@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="OpenCount.Caption" xml:space="preserve">
+    <value>Count:</value>
+  </data>
+  <data name="ClosedWonCount.Caption" xml:space="preserve">
+    <value>Count:</value>
+  </data>
+  <data name="ClosedLostCount.Caption" xml:space="preserve">
+    <value>Count:</value>
+  </data>
+  <data name="InactiveCount.Caption" xml:space="preserve">
+    <value>Count:</value>
+  </data>
+  <data name="lblOpen.Text" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="lblClosedWon.Text" xml:space="preserve">
+    <value>Closed - Won</value>
+  </data>
+  <data name="lblClosedLost.Text" xml:space="preserve">
+    <value>Closed - Lost</value>
+  </data>
+  <data name="lblInactive.Text" xml:space="preserve">
+    <value>Inactive</value>
+  </data>
+  <data name="AddOpportunity.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AddOpportunity.ToolTip" xml:space="preserve">
+    <value>Insert New Opportunity</value>
+  </data>
+  <data name="OpenTotal.Caption" xml:space="preserve">
+    <value>Total:</value>
+  </data>
+  <data name="ClosedWonTotal.Caption" xml:space="preserve">
+    <value>Total:</value>
+  </data>
+  <data name="ClosedLostTotal.Caption" xml:space="preserve">
+    <value> Total:</value>
+  </data>
+  <data name="InactiveTotal.Caption" xml:space="preserve">
+    <value>Total:</value>
+  </data>
+  <data name="grdOpportunities.EmptyTableRowText" xml:space="preserve">
+    <value>No records match the selection criteria.</value>
+  </data>
+  <data name="grdOpportunities.0a4d95a3-8da6-4afb-97c7-f38bb5a7284a.ColumnHeading" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="grdOpportunities.0a4d95a3-8da6-4afb-97c7-f38bb5a7284a.FormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdOpportunities.916df2ec-64c5-4369-9b5b-597b665c2e41.ColumnHeading" xml:space="preserve">
+    <value>Probability</value>
+  </data>
+  <data name="grdOpportunities.916df2ec-64c5-4369-9b5b-597b665c2e41.FormatString" xml:space="preserve">
+    <value>{0}%</value>
+  </data>
+  <data name="grdOpportunities.8de3a1e0-1983-498f-ad30-bf2216a8c662.ColumnHeading" xml:space="preserve">
+    <value>Days Open</value>
+  </data>
+  <data name="grdOpportunities.8de3a1e0-1983-498f-ad30-bf2216a8c662.FormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdOpportunities.1d2c1bbe-46d7-486e-b93d-fd884d72f44d.ColumnHeading" xml:space="preserve">
+    <value>Opportunity Name</value>
+  </data>
+  <data name="grdOpportunities.1d2c1bbe-46d7-486e-b93d-fd884d72f44d.FormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdOpportunities.1d2c1bbe-46d7-486e-b93d-fd884d72f44d.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdOpportunities.1d2c1bbe-46d7-486e-b93d-fd884d72f44d.DestinationFormatString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="grdOpportunities.d0e7dfdd-9cac-4dc8-bf4b-ffdfa181f4ff.ColumnHeading" xml:space="preserve">
+    <value>Potential</value>
+  </data>
+</root>

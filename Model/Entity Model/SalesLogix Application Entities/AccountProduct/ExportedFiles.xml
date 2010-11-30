@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\AccountProduct\AccountProduct.ACCOUNTPRODUCT.entity.xml" timeStamp="2009-11-19T20:10:50.5900" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\AccountProduct\AddAssetCommentsTimeStamp.method.xml" timeStamp="2009-11-19T20:10:50.6200" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\AccountProduct\AssignSerialNumbers.method.xml" timeStamp="2009-11-19T20:10:50.6830" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\AccountProduct\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:50.6030" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\AccountProduct\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:50.6030" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\AccountProduct\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:50.6030" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\AccountProduct\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:50.6030" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\AccountProduct\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:50.6030" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\AccountProduct\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:50.6200" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\AccountProduct\OnCreate.method.xml" timeStamp="2009-11-19T20:10:50.6200" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\AccountProduct\OnProductChange.method.xml" timeStamp="2009-11-19T20:10:50.6200" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\AccountProduct\QuickForms\" />
+</exportedFiles>

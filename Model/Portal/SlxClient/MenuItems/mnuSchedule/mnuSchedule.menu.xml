@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="9e931a6e-f83c-4416-a152-0daeea552f76">
+  <ItemId>mnuSchedule</ItemId>
+  <NavUrl />
+  <LargeImageUrl>[Localization!Global_Images:Alarm_32x32]</LargeImageUrl>
+  <SmallImageUrl>[Localization!Global_Images:Alarm_16x16]</SmallImageUrl>
+  <ContextMenuId />
+  <Target />
+</MenuDropDownItem>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="5fddce10-9627-4737-9e3b-4efadcf2ecbe" lastModifiedUtc="2008-01-18T23:06:10.9488958Z" cardinality="1:M" parentEntityId="aa22326e-6c3b-4a21-9518-0fb886e370d1" childEntityId="113f1bc1-2bc2-4b3f-9aa0-264eb54abb47">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="66097268-bdb6-451f-950c-750ea00f4aa5" lastModifiedUtc="2008-01-18T23:06:10.9488958Z" name="DefectTickets" audited="false" displayCategory="Intermediate" isNullable="true" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="650fe5e3-5c00-4720-8077-2be8c4cf1984" lastModifiedUtc="2007-12-29T00:11:21.0790776Z" name="Defect" audited="false" displayCategory="Intermediate" isNullable="false" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="d927300f-0df3-4fb2-9810-b033c1911908" parentPropertyId="0426ea98-4938-4be0-b767-2f0e499fea5f" childPropertyId="a6ce29ce-cacf-48ab-b6e9-d70327307ffa" ordinal="0" />
+  </column>
+</relationship>

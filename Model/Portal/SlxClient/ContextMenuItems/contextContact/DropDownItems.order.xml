@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="8a38cf1e-df28-4d76-8ee0-f1bd0421208f">menuItemLookupContact.contextmenu.xml</Item>
+  <Item Id="13f7159f-23a4-4546-ac84-43fdf5c257c8">menuItemNewContactAccount.contextmenu.xml</Item>
+  <Item Id="2b70f29f-83ce-47c5-8d77-66d7d03cadac">menuItemCreateNewGroup.contextmenu.xml</Item>
+</ModelItems>

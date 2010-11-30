@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="94ee93a6-37b5-4bb8-a68b-6e2320ad09d3" lastModifiedUtc="2007-12-31T21:32:36.2978166Z" cardinality="1:M" parentEntityId="3172551b-f476-45ea-98de-2bb04ddba687" childEntityId="f6d87855-19c1-4b30-8548-97f1b1b29e2c" cascadeOption="SaveUpdateDelete">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="6b59a925-9d4e-4238-8035-a3ff36ccc830" lastModifiedUtc="2007-12-31T21:32:36.2978166Z" name="Competitors" audited="false" displayCategory="Intermediate" isNullable="true" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="5e0d9ace-0255-4cbe-9e91-2fd3b83bdafe" lastModifiedUtc="2007-12-31T21:31:57.2668164Z" name="Opportunity" audited="false" displayCategory="Intermediate" isNullable="true" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="2e25b793-398d-450a-86c9-0219e59a7487" parentPropertyId="3e3db591-f7de-435b-a421-ef2c5e72aa2b" childPropertyId="99a05324-2343-4ada-9441-ec136d913c78" ordinal="0" />
+  </column>
+</relationship>

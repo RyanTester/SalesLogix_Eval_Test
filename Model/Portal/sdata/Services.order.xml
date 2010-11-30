@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="9b29c64e-a5df-40e4-a5c4-34ab6fd13b9f">Sage.Platform.Security.IUserService.service.xml</Item>
+  <Item Id="247bbce7-de35-4a63-a305-39860be33ff5">Sage.Platform.Data.IDataService.service.xml</Item>
+  <Item Id="75210299-8238-466d-8799-7d364cd562a8">Sage.Platform.Application.Services.IUserOptionsService.service.xml</Item>
+  <Item Id="523de0f7-8a76-4274-beb9-72753611130e">Sage.Platform.Data.IHibernateConfigurationService.service.xml</Item>
+</ModelItems>

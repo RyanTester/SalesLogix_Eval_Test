@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<PortalApplication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="a28bf5c2-a981-45e3-ab60-2a7587c042cd">
+  <PortalAlias>SlxLeadCapture</PortalAlias>
+    <DeploymentActions>
+        <ActionType TypeName="Sage.SalesLogix.Web.AdminModule.SLXLeadCaptureConnectionStringDeploymentAction, Sage.SalesLogix.Web.AdminModule">
+            <Properties />
+        </ActionType>
+        <ActionType TypeName="Sage.Platform.WebPortal.Design.EntityDeploymentAction, Sage.Platform.WebPortal.Design">
+            <Properties />
+        </ActionType>
+    </DeploymentActions>
+  <TemplateUrl>masters\base.master</TemplateUrl>
+  <AuthenticationProvider>Sage.SalesLogix.Web.SLXCustomerAuthenticationProvider, Sage.SalesLogix.Web</AuthenticationProvider>
+</PortalApplication>

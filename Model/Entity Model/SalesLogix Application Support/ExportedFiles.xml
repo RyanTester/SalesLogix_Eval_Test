@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Support\SalesLogix Application Support.F.package.xml" timeStamp="2009-11-19T20:10:56.7330" />
+  <exportedFile url="\Entity Model\SalesLogix Application Support\BranchOptions\" />
+  <exportedFile url="\Entity Model\SalesLogix Application Support\SiteOptions\" />
+  <exportedFile url="\Entity Model\SalesLogix Application Support\SyncServer\" />
+  <exportedFile url="\Entity Model\SalesLogix Application Support\SystemInformation\" />
+</exportedFiles>

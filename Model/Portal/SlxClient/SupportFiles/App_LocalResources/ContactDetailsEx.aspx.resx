@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="nmePersonName.Caption" xml:space="preserve">
+    <value>Contact:</value>
+  </data>
+  <data name="txtAccountName.Caption" xml:space="preserve">
+    <value>Account:</value>
+  </data>
+  <data name="txtTitle.Caption" xml:space="preserve">
+    <value>Title:</value>
+  </data>
+  <data name="txtAssistant.Caption" xml:space="preserve">
+    <value>Asst:</value>
+  </data>
+  <data name="txtSalutation.Caption" xml:space="preserve">
+    <value>Dear:</value>
+  </data>
+  <data name="adrPrimaryAddress.Caption" xml:space="preserve">
+    <value>Address:</value>
+  </data>
+  <data name="phnWork.Caption" xml:space="preserve">
+    <value>Work:</value>
+  </data>
+  <data name="phnWork2.Caption" xml:space="preserve">
+    <value>Fax:</value>
+  </data>
+  <data name="phnWork3.Caption" xml:space="preserve">
+    <value>Mobile:</value>
+  </data>
+  <data name="phnWork4.Caption" xml:space="preserve">
+    <value>Home:</value>
+  </data>
+  <data name="phnOther.Caption" xml:space="preserve">
+    <value>Other:</value>
+  </data>
+  <data name="phnFax.Caption" xml:space="preserve">
+    <value>Fax:</value>
+  </data>
+  <data name="phnMobile.Caption" xml:space="preserve">
+    <value>Mobile:</value>
+  </data>
+  <data name="phnHome.Caption" xml:space="preserve">
+    <value>Home:</value>
+  </data>
+  <data name="urlWeb.Caption" xml:space="preserve">
+    <value>Web URL:</value>
+  </data>
+  <data name="emlEmail.Caption" xml:space="preserve">
+    <value>E-mail:</value>
+  </data>
+  <data name="chkDoNotSolicit.Caption" xml:space="preserve">
+    <value>Do Not Solicit</value>
+  </data>
+  <data name="chkPrimaryContact.Caption" xml:space="preserve">
+    <value>Primary Contact for Acct.</value>
+  </data>
+  <data name="chkPrimaryContact2.Caption" xml:space="preserve">
+    <value>Authorized Service Contact</value>
+  </data>
+  <data name="chkAuthorizedServiceContact.Caption" xml:space="preserve">
+    <value>Authorized Service Contact</value>
+  </data>
+  <data name="ownOwner.Caption" xml:space="preserve">
+    <value>Owner:</value>
+  </data>
+  <data name="usrAccountManager.Caption" xml:space="preserve">
+    <value>Acct. Mgr.</value>
+  </data>
+  <data name="txtContactType.Caption" xml:space="preserve">
+    <value>Cont. Type</value>
+  </data>
+  <data name="txtContactStatus.Caption" xml:space="preserve">
+    <value>Cont. Status</value>
+  </data>
+  <data name="txtAccountType.Caption" xml:space="preserve">
+    <value>Acct. Type</value>
+  </data>
+  <data name="txtAccountStatus.Caption" xml:space="preserve">
+    <value>Acct. Status</value>
+  </data>
+  <data name="txtContactID.Caption" xml:space="preserve">
+    <value>ContactID:</value>
+  </data>
+  <data name="txtPreferredContact.Caption" xml:space="preserve">
+    <value>Preferred Contact:</value>
+  </data>
+  <data name="usrCreateUser.Caption" xml:space="preserve">
+    <value>Create User:</value>
+  </data>
+  <data name="dtpCreateDate.Caption" xml:space="preserve">
+    <value>Create Date:</value>
+  </data>
+  <data name="usrModifyUser.Caption" xml:space="preserve">
+    <value>Modify User:</value>
+  </data>
+  <data name="dtpModifyDate.Caption" xml:space="preserve">
+    <value>Modify Date:</value>
+  </data>
+  <data name="grdHistory.EmptyTableRowText" xml:space="preserve">
+    <value>No records match the selection criteria</value>
+  </data>
+  <data name="grdHistory.60389765-76ab-4b03-884d-c1f06e27453f.ColumnHeading" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="grdHistory.9732eef2-f5cf-444a-b145-17c078ebad09.ColumnHeading" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="grdHistory.968d9707-d01c-4100-932c-fa43d3d831ca.ColumnHeading" xml:space="preserve">
+    <value>Completed Date</value>
+  </data>
+  <data name="grdHistory.2809744b-6079-4d33-9613-536874608032.ColumnHeading" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="grdHistory.21a8240d-c389-4b8a-8d3c-f6e20d29c40b.ColumnHeading" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Contact Details</value>
+  </data>
+  <data name="Close_rsc.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+</root>

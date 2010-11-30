@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="1e25c36c-6ad6-4ada-938d-b52ba3de6f70" lastModifiedUtc="2009-08-24T21:35:42.8563103Z" name="SetOppCompetitorReplacedFlag" methodType="Rule" actionType="None" returnMode="None">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="8ac483f9-3c9a-498e-a269-0d15b569a4f9" paramName="competitor" sequence="0" paramType="ICompetitor" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="20e84b13-2a95-4d2b-bc5f-89eb55186798" lastModifiedUtc="2009-08-24T21:35:03.0262779Z" targetType="Sage.SalesLogix.Opportunity.Rules, Sage.SalesLogix.BusinessRules" targetMethod="SetOppCompetitorReplacedFlag" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="ab131d9c-d49c-49ce-8fb2-1b1b3eae38e1">Filters.tasklet.xml</Item>
+  <Item Id="a7604a1b-273a-4e93-8446-9da62ca1314c">GroupListTasklet.tasklet.xml</Item>
+  <Item Id="11076efc-dbf8-49e4-ac56-3e1337fca33a">CommonTasksTasklet.tasklet.xml</Item>
+  <Item Id="a6de1dd6-72e1-49a0-b834-4cadf22f5a88">ActivityFilters.tasklet.xml</Item>
+</ModelItems>

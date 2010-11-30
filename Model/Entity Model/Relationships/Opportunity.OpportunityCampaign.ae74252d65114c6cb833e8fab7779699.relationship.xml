@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="ae74252d-6511-4c6c-b833-e8fab7779699" lastModifiedUtc="2008-01-08T18:11:26.1940372Z" cardinality="1:M" parentEntityId="3172551b-f476-45ea-98de-2bb04ddba687" childEntityId="3ca20dc7-7da8-4be2-a3dc-e55142488994">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="025fcd8f-4508-4828-8f1c-ed633ab7af36" lastModifiedUtc="2008-01-08T18:11:26.1940372Z" name="Campaigns" audited="false" displayCategory="Intermediate" isNullable="true" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="bfcdcbd2-ab3d-484a-8995-d1e8472622d0" lastModifiedUtc="2008-01-08T18:10:19.7417628Z" name="Opportunity" audited="false" displayCategory="Intermediate" isNullable="false" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="430eb16d-1f26-4baa-9ed1-40439d7ba4af" parentPropertyId="3e3db591-f7de-435b-a421-ef2c5e72aa2b" childPropertyId="aaa030f4-c0e6-4f7d-add6-351022805bb9" ordinal="0" />
+  </column>
+</relationship>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<PortalPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="ed114b78-f639-4048-9fc8-b628734904c2">
+  <PageAlias>CompleteActivity</PageAlias>
+  <LargeImage>[Localization!Global_Images:no_Icon_24x24_x]</LargeImage>
+  <TemplateUrl>Masters\ActivityDialog.master</TemplateUrl>
+  <InheritTemplate>false</InheritTemplate>
+  <InheritsFrom>Sage.SalesLogix.Web.UI.Activity.ActivityPage, Sage.SalesLogix.Web.UI.Activity</InheritsFrom>
+  <Properties>
+    <Property Name="EntityTypeName" TypeConverter="">Sage.Entity.Interfaces.IActivity, Sage.Entity.Interfaces</Property>
+  </Properties>
+  <TemplateProperties>
+    <Property Name="MainContentWorkspace_HideTitleBar" TypeConverter="">True</Property>
+    <Property Name="IncludeMiddlePane" TypeConverter="">False</Property>
+    <Property Name="IncludeMoreTabsTab" TypeConverter="">False</Property>
+  </TemplateProperties>
+  <IsDefaultPage>false</IsDefaultPage>
+  <ExcludedGlobalModules>
+    <guid>3b5adc5c-34a1-4456-b8a1-336d88387d03</guid>
+    <guid>fe19d709-77d0-4fe9-8908-f42d0473f6bb</guid>
+    <guid>bafa046f-b3a7-498c-bccc-5a0f729219b3</guid>
+    <guid>48af0e95-d039-4ee7-aec1-b02cb5fcd73f</guid>
+    <guid>33047215-12d6-4bcf-b69e-f813c78c9a09</guid>
+    <guid>32ee4ef3-ba31-401a-9f5f-8f54487dbace</guid>
+  </ExcludedGlobalModules>
+</PortalPage>

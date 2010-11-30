@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="3b5adc5c-34a1-4456-b8a1-336d88387d03">Sage.SalesLogix.Client.GroupBuilder.Modules.GroupContextModule.module.xml</Item>
+  <Item Id="fe19d709-77d0-4fe9-8908-f42d0473f6bb">Sage.SalesLogix.Web.Modules.WebViewerModule.module.xml</Item>
+  <Item Id="bafa046f-b3a7-498c-bccc-5a0f729219b3">Sage.SalesLogix.Client.ImportHistory.Modules.ImportHistoryModule.module.xml</Item>
+  <Item Id="48af0e95-d039-4ee7-aec1-b02cb5fcd73f">Sage.Platform.WebPortal.ServiceHostsModule.module.xml</Item>
+  <Item Id="33047215-12d6-4bcf-b69e-f813c78c9a09">Sage.SalesLogix.Web.Modules.GlobalDialogModule.module.xml</Item>
+  <Item Id="32ee4ef3-ba31-401a-9f5f-8f54487dbace">Sage.SalesLogix.Web.Modules.WorkSurveyModule.module.xml</Item>
+</ModelItems>

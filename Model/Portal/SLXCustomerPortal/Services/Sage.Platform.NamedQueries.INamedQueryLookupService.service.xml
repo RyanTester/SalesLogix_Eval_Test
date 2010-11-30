@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<PortalService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="19eaade5-5783-4a91-81c4-2ede8fce96c2">
+  <InstanceId>81cdc0fc61f348aaafff1ffc8ce60629</InstanceId>
+  <ServiceType>Sage.Platform.NamedQueries.DictionaryBasedNamedQueryCacheService, Sage.Platform</ServiceType>
+  <RegisterAs>Sage.Platform.NamedQueries.INamedQueryLookupService, Sage.Platform</RegisterAs>
+  <AddOnDemand>false</AddOnDemand>
+  <Properties />
+</PortalService>

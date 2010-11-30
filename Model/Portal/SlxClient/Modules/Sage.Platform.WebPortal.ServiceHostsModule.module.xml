@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<WebModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="48af0e95-d039-4ee7-aec1-b02cb5fcd73f">
+  <InstanceId>e0eab2e8321a4cf49634f3e0b900dfb4</InstanceId>
+  <ModuleTypeName>Sage.Platform.WebPortal.ServiceHostsModule, Sage.Platform.WebPortal</ModuleTypeName>
+  <RunInMode />
+  <AllowRoles />
+</WebModule>

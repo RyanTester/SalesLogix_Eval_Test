@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="d0aa4e52-f5b7-483b-a693-5e600663d496">ImportHistoryDetail.smartpart.xml</Item>
+  <Item Id="18322e34-2694-48a5-ab70-d3d8c4ce58e7">ImportHistoryDuplicates.smartpart.xml</Item>
+  <Item Id="10c0a27c-75ce-42f2-8a7b-47ef9910b0f9">ImportHistoryLog.smartpart.xml</Item>
+  <Item Id="ca5d54e2-ec2c-4010-b5a5-f66bf1fe48b3">LeadSearchAndConvert.smartpart.xml</Item>
+  <Item Id="f6b128a2-6f15-43b9-8214-b076f2e326db">LiveGroupViewer.smartpart.xml</Item>
+</ModelItems>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QuickFormDefinition Id="73f93073-454b-493a-b3b1-e69329946616" name="SalesOrderItems">
+  <Properties>
+    <Property name="EntityTypeName" type="System.String">ISalesOrder</Property>
+    <Property name="DefaultNamespace" type="System.String">Sage.Entity.Interfaces</Property>
+    <Property name="AssemblyName" type="System.String">Sage.Entity.Interfaces</Property>
+    <Property name="UseEntityNameAsTitle" type="System.Boolean">True</Property>
+    <Property name="ImagePath" type="System.String"></Property>
+    <Property name="DefinitionType" type="System.String">Sage.Platform.QuickForms.QuickFormMainDetailViewDefinition, Sage.Platform.QuickForms</Property>
+    <Property name="Columns" type="System.ComponentModel.BindingList`1[[System.Windows.Forms.ColumnStyle, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><ArrayOfColumnStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><ColumnStyle><SizeType>Percent</SizeType><Width>100</Width></ColumnStyle></ArrayOfColumnStyle></Property>
+    <Property name="Rows" type="System.ComponentModel.BindingList`1[[System.Windows.Forms.RowStyle, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><ArrayOfRowStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><RowStyle><SizeType>Absolute</SizeType><Height>35</Height></RowStyle><RowStyle><SizeType>Absolute</SizeType><Height>35</Height></RowStyle></ArrayOfRowStyle></Property>
+    <Property name="GeneratePrintView" type="System.Boolean">False</Property>
+    <Property name="Description" type="System.String"></Property>
+    <Property name="ActiveControl" type="System.String"></Property>
+  </Properties>
+  <LoadActions>
+    <ActionDefinition>
+      <ResourceKey>dad64987-5ddc-4b13-a4a1-9725f2b9228f</ResourceKey>
+      <RootActionName>CSharpSnippetAction</RootActionName>
+      <Action>
+        <CSharpCodeSnippet><![CDATA[Sage.Entity.Interfaces.ISalesOrder salesOrder = this.BindingSource.Current as Sage.Entity.Interfaces.ISalesOrder;
+if (salesOrder != null)
+{
+	if (Sage.SalesLogix.BusinessRules.BusinessRuleHelper.IsMultiCurrencyEnabled())
+	{
+		grdProducts.Columns[6].Visible = true;
+	}
+	else
+		grdProducts.Columns[6].Visible = false;
+	if (salesOrder.Status.Equals(GetLocalResourceObject("SalesOrderStatus_Closed")))
+	{
+		grdProducts.Enabled = false;
+    	btnAddItem.Visible = false;
+	}
+	else
+	{
+		grdProducts.Enabled = true;
+    	btnAddItem.Visible = true;
+	}
+}]]></CSharpCodeSnippet>
+      </Action>
+      <IsDialogCloseAction>False</IsDialogCloseAction>
+      <RunOnEveryRePaint>True</RunOnEveryRePaint>
+      <DialogActionResult>NoResult</DialogActionResult>
+      <PerformsUpdate>False</PerformsUpdate>
+    </ActionDefinition>
+  </LoadActions>
+  <QuickFormElements>
+    <QuickFormElement>
+      <Properties>
+        <Property name="EntityMappingType" type="System.String">None</Property>
+      </Properties>
+      <ControlDefinition>
+        <Properties>
+          <Property name="Control" type="Sage.SalesLogix.QuickForms.QFControls.QFDataGrid, Sage.SalesLogix.QuickForms.QFControls"><QFDataGrid xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Column>0</Column><Row>0</Row><IsReadOnly>false</IsReadOnly><HotKey>0</HotKey><TabIndex>0</TabIndex><ControlId>grdProducts</ControlId><DataBindings /><ControlLabelPlacement>none</ControlLabelPlacement><CaptionAlignment>left</CaptionAlignment><StyleScheme /><DataSource>dtsProducts</DataSource><EnablePaging>false</EnablePaging><EnableSorting>true</EnableSorting><Columns><QFDataGridCol><StyleScheme /><DataField>Product</DataField><ColumnId>48282616-489c-498c-8566-e5670ff711a1</ColumnId><HorizontalAlignment>left</HorizontalAlignment><HeaderAlignment>left</HeaderAlignment><IsSortable>true</IsSortable><SortField>Product</SortField><MultiCurrencyDependent>false</MultiCurrencyDependent></QFDataGridCol><QFPickListCol><StyleScheme /><DataField>Family</DataField><ColumnId>e6c2e07f-22ee-4e79-8d56-d8bf777ddef6</ColumnId><HorizontalAlignment>left</HorizontalAlignment><HeaderAlignment>left</HeaderAlignment><IsSortable>true</IsSortable><SortField>Family</SortField><MultiCurrencyDependent>false</MultiCurrencyDependent><PickListName>Product Family</PickListName><PickListId /><ValueStoredAsText>true</ValueStoredAsText><AllowMultiples>false</AllowMultiples><AlphaSort>false</AlphaSort><MustExistInList>false</MustExistInList><NoneEditable>false</NoneEditable></QFPickListCol><QFDataGridCol><StyleScheme /><DataField>Program</DataField><ColumnId>b3a37060-4745-445a-8a6f-00cd2ce62148</ColumnId><HorizontalAlignment>left</HorizontalAlignment><HeaderAlignment>left</HeaderAlignment><IsSortable>true</IsSortable><SortField>Program</SortField><MultiCurrencyDependent>false</MultiCurrencyDependent></QFDataGridCol><QFSLXCurrencyCol><StyleScheme /><DataField>Price</DataField><ColumnId>c3755aed-5ccb-4e42-bc58-0a19355c21b3</ColumnId><HorizontalAlignment>right</HorizontalAlignment><HeaderAlignment>left</HeaderAlignment><IsSortable>true</IsSortable><SortField>Price</SortField><MultiCurrencyDependent>false</MultiCurrencyDependent><CurrentCode /><ExchangeRateType>BaseRate</ExchangeRateType><ExchangeRate /></QFSLXCurrencyCol><QFDataGridCol><StyleScheme /><DataField>Discount</DataField><ColumnId>3e5e382b-2a2c-432a-ba4c-b85e9b05ae60</ColumnId><HorizontalAlignment>right</HorizontalAlignment><HeaderAlignment>left</HeaderAlignment><IsSortable>true</IsSortable><SortField>Discount</SortField><MultiCurrencyDependent>false</MultiCurrencyDependent></QFDataGridCol><QFSLXCurrencyCol><StyleScheme /><DataField>CalculatedPrice</DataField><ColumnId>ad6147e8-770a-4ed1-9c51-513560814025</ColumnId><HorizontalAlignment>right</HorizontalAlignment><HeaderAlignment>left</HeaderAlignment><IsSortable>true</IsSortable><SortField>CalculatedPrice</SortField><MultiCurrencyDependent>false</MultiCurrencyDependent><CurrentCode /><ExchangeRateType>BaseRate</ExchangeRateType><ExchangeRate /></QFSLXCurrencyCol><QFSLXCurrencyCol><StyleScheme /><DataField>CalculatedPrice</DataField><ColumnId>aea91882-ef52-445c-9d83-c67254807772</ColumnId><HorizontalAlignment>right</HorizontalAlignment><HeaderAlignment>left</HeaderAlignment><IsSortable>true</IsSortable><SortField>CalculatedPrice</SortField><MultiCurrencyDependent>false</MultiCurrencyDependent><CurrentCode>SalesOrder.CurrencyCode</CurrentCode><ExchangeRateType>SalesOrderRate</ExchangeRateType><ExchangeRate>SalesOrder.ExchangeRate</ExchangeRate></QFSLXCurrencyCol><QFDataGridCol><StyleScheme /><DataField>Quantity</DataField><ColumnId>77cf4baf-95d8-4977-bccd-240ad733e497</ColumnId><HorizontalAlignment>left</HorizontalAlignment><HeaderAlignment>left</HeaderAlignment><IsSortable>true</IsSortable><SortField>Quantity</SortField><MultiCurrencyDependent>false</MultiCurrencyDependent></QFDataGridCol><QFSLXCurrencyCol><StyleScheme /><DataField>ExtendedPrice</DataField><ColumnId>81925816-0e60-472f-b8a8-bc719ff8dbe5</ColumnId><HorizontalAlignment>right</HorizontalAlignment><HeaderAlignment>left</HeaderAlignment><IsSortable>true</IsSortable><SortField>ExtendedPrice</SortField><MultiCurrencyDependent>false</MultiCurrencyDependent><CurrentCode>SalesOrder.CurrencyCode</CurrentCode><ExchangeRateType>SalesOrderRate</ExchangeRateType><ExchangeRate>SalesOrder.ExchangeRate</ExchangeRate></QFSLXCurrencyCol><QFEditCol><StyleScheme /><DataField /><ColumnId>b70f44c0-38a4-4172-8a76-fc8857ad7d87</ColumnId><HorizontalAlignment>left</HorizontalAlignment><HeaderAlignment>left</HeaderAlignment><IsSortable>false</IsSortable><MultiCurrencyDependent>false</MultiCurrencyDependent><DialogSpecs><SmartPart>EditSalesOrderItem</SmartPart><Height>300</Height><Width>600</Width><Top>200</Top><Left>200</Left><EntityType>SalesOrderItem</EntityType><ResourceKey>a067d1e2-a4ae-458a-8dbe-5d763ca51286</ResourceKey><CenterDialog>True</CenterDialog></DialogSpecs></QFEditCol><QFDeleteCol><StyleScheme /><DataField /><ColumnId>7d5d0c2c-622c-44d0-a9a2-e2ae8494890e</ColumnId><HorizontalAlignment>left</HorizontalAlignment><HeaderAlignment>left</HeaderAlignment><IsSortable>false</IsSortable><MultiCurrencyDependent>false</MultiCurrencyDependent><BusinessRule /><BusinessRuleObjectName /><BusinessRuleParameters /></QFDeleteCol></Columns><RenderVertical>false</RenderVertical><OnRowSelectedAction><ResourceKey>QFDataGrid</ResourceKey><RootActionName>NoActionAction</RootActionName><Action /><IsDialogCloseAction>False</IsDialogCloseAction><RunOnEveryRePaint>False</RunOnEveryRePaint><DialogActionResult>NoResult</DialogActionResult><PerformsUpdate>False</PerformsUpdate></OnRowSelectedAction></QFDataGrid></Property>
+        </Properties>
+      </ControlDefinition>
+    </QuickFormElement>
+    <QuickFormElement>
+      <Properties>
+        <Property name="EntityMappingType" type="System.String">None</Property>
+      </Properties>
+      <ControlDefinition>
+        <Properties>
+          <Property name="Control" type="Sage.Platform.QuickForms.QFControls.QFDataSource, Sage.Platform.QuickForms.QFControls"><QFDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Column>0</Column><Row>1</Row><IsReadOnly>false</IsReadOnly><Visible>false</Visible><HotKey>48</HotKey><TabIndex>0</TabIndex><ControlId>dtsProducts</ControlId><DataBindings /><ControlLabelPlacement>none</ControlLabelPlacement><CaptionAlignment>left</CaptionAlignment><StyleScheme /><EntityTypeName>SalesOrderItem</EntityTypeName><GetByMethod /><GetByProperty>SalesOrderItems</GetByProperty><UseSmartSelection>false</UseSmartSelection></QFDataSource></Property>
+        </Properties>
+      </ControlDefinition>
+    </QuickFormElement>
+  </QuickFormElements>
+  <QuickFormToolElements>
+    <QuickFormElement>
+      <Properties>
+        <Property name="EntityMappingType" type="System.String">None</Property>
+      </Properties>
+      <ControlDefinition>
+        <Properties>
+          <Property name="Control" type="Sage.Platform.QuickForms.Controls.QFElementSpacer, Sage.Platform.QuickForms"><QFElementSpacer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Column>0</Column><Row>0</Row><IsReadOnly>false</IsReadOnly><HotKey>0</HotKey><TabIndex>0</TabIndex><ControlId /><DataBindings /><ControlLabelPlacement>left</ControlLabelPlacement><CaptionAlignment>left</CaptionAlignment><StyleScheme /></QFElementSpacer></Property>
+        </Properties>
+      </ControlDefinition>
+    </QuickFormElement>
+    <QuickFormElement>
+      <Properties>
+        <Property name="EntityMappingType" type="System.String">None</Property>
+      </Properties>
+      <ControlDefinition>
+        <Properties>
+          <Property name="Control" type="Sage.Platform.QuickForms.Controls.QFElementSpacer, Sage.Platform.QuickForms"><QFElementSpacer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Column>0</Column><Row>0</Row><IsReadOnly>false</IsReadOnly><HotKey>0</HotKey><TabIndex>0</TabIndex><ControlId /><DataBindings /><ControlLabelPlacement>left</ControlLabelPlacement><CaptionAlignment>left</CaptionAlignment><StyleScheme /></QFElementSpacer></Property>
+        </Properties>
+      </ControlDefinition>
+    </QuickFormElement>
+    <QuickFormElement>
+      <Properties>
+        <Property name="EntityMappingType" type="System.String">None</Property>
+      </Properties>
+      <ControlDefinition>
+        <Properties>
+          <Property name="Control" type="Sage.Platform.QuickForms.Controls.QFButton, Sage.Platform.QuickForms"><QFButton xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Column>0</Column><Row>0</Row><IsReadOnly>false</IsReadOnly><HotKey>0</HotKey><TabIndex>0</TabIndex><ControlId>btnAddItem</ControlId><DataBindings /><ControlLabelPlacement>none</ControlLabelPlacement><CaptionAlignment>left</CaptionAlignment><StyleScheme /><ButtonType>Icon</ButtonType><Image>[Localization!Global_Images:plus_16x16]</Image><OnClientClick /><OnClickAction><ResourceKey>btnAddItem</ResourceKey><RootActionName>DialogAction</RootActionName><Action><SmartPart>AddSalesOrderProduct</SmartPart><Height>510</Height><Width>925</Width><Top>0</Top><Left>0</Left><EntityType /><ResourceKey>299e526c-8d30-4f52-b186-70a65e273a9a</ResourceKey><CenterDialog>True</CenterDialog></Action><IsDialogCloseAction>False</IsDialogCloseAction><RunOnEveryRePaint>False</RunOnEveryRePaint><DialogActionResult>NoResult</DialogActionResult><PerformsUpdate>False</PerformsUpdate></OnClickAction></QFButton></Property>
+        </Properties>
+      </ControlDefinition>
+    </QuickFormElement>
+  </QuickFormToolElements>
+</QuickFormDefinition>

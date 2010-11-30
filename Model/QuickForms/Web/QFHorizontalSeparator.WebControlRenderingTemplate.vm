@@ -1,0 +1,20 @@
+#if($qfcontrol.Visible)
+#if(${qfcontrol.DisplayAsTitleBar})
+<div class="mainContentHeader"><span id="${qfcontrol.ControlId}" #if($qfcontrol.ToolTip != "") Title='<%$ resources: ${qfcontrol.ControlId}.ToolTip %>'#end >
+<asp:Localize runat="server" #if(${qfcontrol.Caption} != "")Text="<%$ resources: ${qfcontrol.ControlId}.Caption %>" #else Text=""#end  #if(!$qfcontrol.Visible)Visible="false" #end>${qfcontrol.Caption}</asp:Localize></span></div>
+#else
+ #if($qfcontrol.Caption != "")
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<col />
+<col width="100%" />
+<tr>
+<td NoWrap><asp:Label ID="${qfcontrol.ControlId}" runat="server" Text="<%$ resources: ${qfcontrol.ControlId}.Caption %>" #if(!$qfcontrol.Visible)Visible="false" #end></asp:Label></td>
+<td><hr /></td>
+</tr>
+</table> 
+ #else
+ <hr />
+ #end
+#end
+#end
+

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="02784e7a-4780-499f-8bc3-ad794f9ff2b3">sched_call.menu.xml</Item>
+  <Item Id="c92e02a9-ed52-4b7c-b703-1209d949ef85">sched_meet.menu.xml</Item>
+  <Item Id="45764358-b22f-4e55-a80f-4372d6f22ac4">sched_todo.menu.xml</Item>
+  <Item Id="0ede5766-6dad-48f4-b8b7-fca178e6af6f">sched_pers.menu.xml</Item>
+  <Item Id="6a1a2d97-d620-4493-94d7-7a1ca8315007">dacdfeaf.menu.xml</Item>
+  <Item Id="d8239243-4cc2-4176-875e-3be52b27eeb1">sched_event.menu.xml</Item>
+  <Item Id="e073af1f-60f7-412f-ac1d-7807ce5e233a">sched_litreq.menu.xml</Item>
+  <Item Id="a3e4de4c-29a8-4e8c-a7ac-64a24a2f85c3">baededbbde.menu.xml</Item>
+  <Item Id="64194830-01cc-4023-8a93-15260fe2f4c5">sched_compact.menu.xml</Item>
+  <Item Id="6c4c2fd2-7d0d-4bb3-986b-2997fb1582a9">sched_actman.menu.xml</Item>
+</ModelItems>

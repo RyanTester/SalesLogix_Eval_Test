@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Lookup name="DefaultCalendarView">
+    <LookupValue id="0" text="Day" default="true"></LookupValue>
+    <LookupValue id="1" text="Week" default="false"></LookupValue>
+    <LookupValue id="2" text="Month" default="false"></LookupValue>
+</Lookup>
+

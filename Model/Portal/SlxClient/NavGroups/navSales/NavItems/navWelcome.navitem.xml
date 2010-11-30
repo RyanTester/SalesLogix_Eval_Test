@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<NavigationItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="6854cfee-f6b8-453e-a177-b5544f504642">
+  <ItemId>navWelcome</ItemId>
+  <NavUrl>Welcome.aspx</NavUrl>
+  <LargeImageUrl>[Localization!Global_Images:welcome_32x32]</LargeImageUrl>
+  <SmallImageUrl>[Localization!Global_Images:welcome_24x24]</SmallImageUrl>
+  <ContextMenuId />
+  <Target />
+</NavigationItem>

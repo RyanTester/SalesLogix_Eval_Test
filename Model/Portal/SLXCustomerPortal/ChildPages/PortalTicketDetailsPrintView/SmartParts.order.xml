@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="d8e9a6e8-f042-4f2b-9bde-ec949aceb728">PortalUser.smartpart.xml</Item>
+  <Item Id="d9c9353e-3cb6-4d9b-bddf-d5ff2d4b391a">TicketDetails.smartpart.xml</Item>
+  <Item Id="c401db63-3732-4ea6-8afd-18d6be2c1e32">Comments.smartpart.xml</Item>
+</ModelItems>

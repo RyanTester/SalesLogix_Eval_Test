@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="02784e7a-4780-499f-8bc3-ad794f9ff2b3">
+  <ItemId>sched_call</ItemId>
+  <NavUrl>javascript:Link.schedulePhoneCall();</NavUrl>
+  <LargeImageUrl>[Localization!Global_Images:Schedule_Call_24x24]</LargeImageUrl>
+  <SmallImageUrl>[Localization.Global_Images:Schedule_Call_16x16]</SmallImageUrl>
+  <ContextMenuId />
+  <Target />
+</MenuDropDownItem>

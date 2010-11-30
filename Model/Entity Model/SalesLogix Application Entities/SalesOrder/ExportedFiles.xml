@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\Account.filter.xml" timeStamp="2009-11-19T20:10:54.9400" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\AccountManager.filter.xml" timeStamp="2009-11-19T20:10:54.9400" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\CopySalesOrder.method.xml" timeStamp="2009-11-19T20:10:54.9100" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\DateRequested.filter.xml" timeStamp="2009-11-19T20:10:54.9570" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\GrandTotal.filter.xml" timeStamp="2009-11-19T20:10:54.9700" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\IsMultiCurrencyEnabled.method.xml" timeStamp="2009-11-19T20:10:54.9230" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\OnAccountChanged.method.xml" timeStamp="2009-11-19T20:10:54.9700" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:54.9230" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:54.9400" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:54.9570" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:54.9400" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:54.9570" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:55.0030" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\OnBillingContactChanged.method.xml" timeStamp="2009-11-19T20:10:54.9570" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\OnCreate.method.xml" timeStamp="2009-11-19T20:10:54.9570" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\OnOpportunityChanged.method.xml" timeStamp="2009-11-19T20:10:55.0030" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\OnShippingContactChanged.method.xml" timeStamp="2009-11-19T20:10:54.9700" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\OnStatusChanged.method.xml" timeStamp="2009-11-19T20:10:54.9700" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\SalesOrder.SALESORDER.entity.xml" timeStamp="2009-11-19T20:10:55.0200" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\SetDiscountRate.method.xml" timeStamp="2009-11-19T20:10:54.9700" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\SetExchangeRate.method.xml" timeStamp="2009-11-19T20:10:54.9870" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\SetSalesOrderBillingAddress.method.xml" timeStamp="2009-11-19T20:10:55.0030" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\SetSalesOrderShippingAddress.method.xml" timeStamp="2009-11-19T20:10:55.0030" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\SetTaxAmount.method.xml" timeStamp="2009-11-19T20:10:54.9870" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\Status.filter.xml" timeStamp="2009-11-19T20:10:55.0030" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\Type.filter.xml" timeStamp="2009-11-19T20:10:55.0200" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\" />
+</exportedFiles>

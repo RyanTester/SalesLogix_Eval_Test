@@ -1,0 +1,80 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="help.master.cs" Inherits="Masters_help" EnableViewState="true" Debug="true" %>
+<%@ Register Assembly="Sage.Platform.WebPortal" Namespace="Sage.Platform.WebPortal.SmartParts"
+    TagPrefix="smartParts" %>
+<%@ Register Assembly="Sage.Platform.WebPortal" Namespace="Sage.Platform.WebPortal.Workspaces"
+    TagPrefix="workSpace" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Sage SalesLogix Help</title>
+    <link rel="stylesheet" type="text/css" href="~/css/YUI/fonts.css" />
+   
+    <link rel="stylesheet" type="text/css" href="~/css/help.css" />
+    <script type="text/Javascript" src="help/common/js/dropdown.js" ></script>
+	<script type="text/Javascript" src="help/common/js/feedback.js" ></script>	
+	<script pin="pin" type="text/javascript" src="Libraries/jQuery/jquery.js"></script>
+</head>
+<body>
+<form id="form1" runat="server">
+	<div class="MainHeader">
+		<span class="MainHeaderLogo">
+			<asp:HyperLink ID="hlHome" runat="server" BorderStyle="None">
+				<img id="logo" src="~/images/icons/Sage SalesLogix.jpg" runat="server" alt="" style="border-width:0px;"/>
+			</asp:HyperLink>
+		</span>
+		<span class="MainHeaderRight">
+			<asp:Label AssociatedControlID="ddlSupportedCultures" runat="server" Text="<%$ resources: Language %>"></asp:Label>
+			<asp:DropDownList ID="ddlSupportedCultures" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ddlSupportedCultures_SelectedIndexChanged">
+			</asp:DropDownList>
+		</span>
+		<span class="MainHeaderRight">
+			<asp:TextBox ID="txtSearch" runat="server" onkeydown="javascript:HandleEnterKeyEvent(event)"></asp:TextBox>&nbsp;
+            <asp:ImageButton ID="imgSearchIcon" runat="server" AlternateText="<%$ resources: SearchHelp %>" ImageUrl="~/help/Common/images/find.gif"
+                ToolTip="<%$ resources: SearchHelp %>" OnClick="imgSearchIcon_Click" /></span></div>
+	
+	<div class="Clear"></div>
+	<div class="MainHeaderBreadCrumb">
+		<asp:SiteMapPath ID="SiteMapPath1" runat="server"></asp:SiteMapPath>
+	</div>
+	<div class="MainHeaderDivLine">&nbsp;</div>
+	
+		
+	<div class="HelpTOC"> 
+		<asp:TreeView ID="TOC" runat="server" 
+				DataSourceID="helpSiteMapDataSource" 
+				OnTreeNodeDataBound="TOC_DataBound"
+				CollapseImageUrl="~/images/chapteropen.gif"
+				ExpandImageUrl="~/images/chapter.gif"
+				NoExpandImageUrl="~/images/topic.gif"
+				EnableViewState="False">
+			<ParentNodeStyle Font-Bold="False"  /> 
+			<HoverNodeStyle Font-Underline="True" ForeColor="Black" BackColor="#82a0bc" />
+			<SelectedNodeStyle Font-Underline="False" ForeColor="Black" Font-Bold="True" />
+			<NodeStyle Font-Names="Tahoma" Font-Size="10pt" ForeColor="Black" HorizontalPadding="5px"
+				NodeSpacing="0px" VerticalPadding="0px" />
+		</asp:TreeView>
+	</div>
+	
+	<div class="MainContent">
+        <asp:Literal ID="litMainContent" runat="server"></asp:Literal>
+		<workSpace:StandardWorkspace SmartPartInfoStyle-CssClass="mainContentHeader" SmartPartContainerStyle-CssClass="mainContentContent"
+			ID="MainContent" runat="server" />	
+	
+	
+	
+	
+	
+	<div class="copyrightfooter">
+		<asp:Label ID="copyright" runat="server" Text="<%$ resources: HelpCopyrightMsg %>"></asp:Label> 
+	
+</div>
+
+<p> <a href="javascript:sendFeedback()"><asp:Localize runat="server" Text="<%$ resources: FeedbackMsg %>" ></asp:Localize></a> 
+</p>
+	<asp:SiteMapDataSource ID="helpSiteMapDataSource" runat="server" SiteMapProvider="en-usFSSiteMapProvider" />
+	
+
+</div>
+</form>
+</body>
+</html>

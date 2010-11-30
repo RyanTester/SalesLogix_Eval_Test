@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Output.WebClient" MadCap:lastBlockDepth="5" MadCap:lastHeight="654" MadCap:lastWidth="476" class="" MadCap:tocPath="Reports" MadCap:PathToHelpSystem="../../" MadCap:SearchType="Stem">
+    <!-- saved from url=(0014)about:internet -->
+    <head><title>Troubleshooting Reports</title>
+        <link href="../SALESLOGIX.CSS" rel="stylesheet" type="text/css" />
+        <script src="../SkinSupport/MadCapUtilities.js">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor127"></a>Troubleshooting Sage SalesLogix Web Reporting</h1>
+        <p>The following is a list of error messages most prevalent in Sage SalesLogix Web Reporting:</p>
+        <p class="Infinitive">Invalid Report ID</p>
+        <p>You will see this error if the Report Manager requests a report from the server that does not exist in the database. You might also see this error if Group Manager is hitting a different database than the Report Server. If configured correctly, you should never see this error.</p>
+        <p class="Infinitive">Unable to Create Report on Web Server</p>
+        <p>You will see this error if the Report Server is unable to retrieve the report from the database and write it to a temporary file. A number of things could cause this to happen:</p>
+        <ul style="list-style-type: disc;">
+            <li value="1">Anonymous user doesn't have sufficient rights.</li>
+            <li value="2">The identity of the COM+ package user does not have sufficient read/write access.</li>
+            <li value="3">The report plug-in is corrupt.</li>
+            <li value="4">The report file is currently locked by another user (This should be prevented by the COM+ application).</li>
+        </ul>
+        <p class="Infinitive">Specific exception error message. "error: &lt; error msg&gt;</p>
+        <p>It is normal for this error to appear occassionally. This will occur when the report server throws an application outside of the error noted above. The message will be the exact message from the exception in code.</p>
+        <p class="Infinitive">Http Request Failed</p>
+        <p>You will usually get this error when the report server is not running. It is a configuration issue resulting from the Web Host not being able to communicate with the Web server.</p>
+        <p class="Infinitive">Invalid CEReport XML</p>
+        <p>This error appears when a request is made to the report server and an IE error page (i.e. 403 page) displays. This can occur because the Report URL is not correctly defined or the Report Server is not correctly configured.</p>
+        <p class="Infinitive">$ is not a valid integer value</p>
+        <p>The connection string in the Reporting server has not been propagated yet. User will have to open Web Manager and propagate the connection string by applying the ADO connection in the server profile.</p>
+        <p class="Infinitive">The selected group filter contains Unicode data in the condition statement, and cannot be used for reports. To run the report, remove this group from the filter or select a different group.</p>
+        <p class="Topic-Text-Numbered">You will get this message if you are using a group filter and that group contains Unicode data. In order to run the report you must remove the group or select a different group,</p>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="reportoverview.htm" target="_self">Reports Overview</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>
+            </p>
+            <p style="border-top-style: Groove;border-top-color: #c0c0c0;border-top-width: 1px;">&#160;</p>
+            <p><![CDATA[ ]]><a href="../General/feedback.htm" target="_blank">Tell us how we can make the Help better.</a></p>
+        </div>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

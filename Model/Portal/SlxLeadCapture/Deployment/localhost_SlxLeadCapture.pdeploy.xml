@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<DeploymentTarget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="0b55333f-ac3d-44e1-8f87-2015e1f1facb">
+  <VirtualDirectoryName>SlxLeadCapture</VirtualDirectoryName>
+  <ServerName>localhost</ServerName>
+  <DeploymentPath>C:\Inetpub\wwwroot\SlxLeadCapture</DeploymentPath>
+  <IsActive>true</IsActive>
+</DeploymentTarget>

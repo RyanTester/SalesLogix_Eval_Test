@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="98498911-24c3-4b52-bd56-f247432478ed">
+  <ItemId>new_lead</ItemId>
+  <NavUrl>InsertLead.aspx?modeid=Insert</NavUrl>
+  <LargeImageUrl>[Localization!Global_Images:New_Lead_24x24]</LargeImageUrl>
+  <SmallImageUrl>[Localization!Global_Images:New_Leads_16x16]</SmallImageUrl>
+  <ContextMenuId />
+  <Target />
+</MenuDropDownItem>

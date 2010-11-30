@@ -1,0 +1,10 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\Modules\Sage.Platform.WebPortal.ServiceHostsModule.module.xml" timeStamp="2009-11-19T20:11:05.9530" />
+  <exportedFile url="\Portal\SlxClient\Modules\Sage.SalesLogix.Client.GroupBuilder.Modules.GroupContextModule.module.xml" timeStamp="2009-11-19T20:11:05.9700" />
+  <exportedFile url="\Portal\SlxClient\Modules\Sage.SalesLogix.Client.ImportHistory.Modules.ImportHistoryModule.module.xml" timeStamp="2009-11-19T20:11:05.9700" />
+  <exportedFile url="\Portal\SlxClient\Modules\Sage.SalesLogix.Web.Modules.GlobalDialogModule.module.xml" timeStamp="2009-11-19T20:11:06.0170" />
+  <exportedFile url="\Portal\SlxClient\Modules\Sage.SalesLogix.Web.Modules.RemindersToolbarModule.module.xml" timeStamp="2009-11-19T20:11:06.1400" />
+  <exportedFile url="\Portal\SlxClient\Modules\Sage.SalesLogix.Web.Modules.WebViewerModule.module.xml" timeStamp="2009-11-19T20:11:05.9830" />
+  <exportedFile url="\Portal\SlxClient\Modules\Sage.SalesLogix.Web.Modules.WorkSurveyModule.module.xml" timeStamp="2009-11-19T20:11:06.0300" />
+</exportedFiles>

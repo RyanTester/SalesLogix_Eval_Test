@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<codeTemplate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="bceb7051-97ec-4b2d-aaaa-77ac29099ac7" name="Default-Hibernate-Xml" entityType="Entity" templateType="Configuration" templateEngineType="T4">
+  <template><![CDATA[<#@ template language="C#v3.5" #>
+<#@ output extension="xml" #>
+<#@ assembly name="Microsoft.Unity.dll" #>
+<#@ import namespace="System.Collections" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="Microsoft.Practices.Unity" #>
+<#
+var assemblies = (IEnumerable<string>) Context["assemblies"];
+#>
+<?xml version="1.0"?>
+<NHibernate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Dialect>Sage.SalesLogix.NHibernate.SLXDialect, Sage.SalesLogix.NHibernate</Dialect>
+  <ConnectionProvider>Sage.Platform.Data.DataServiceConnectionProvider, Sage.Platform</ConnectionProvider>
+  <ConnectionDriver>NHibernate.Driver.OleDbDriver</ConnectionDriver>
+  <CacheProvider>NHibernate.Caches.SysCache.SysCacheProvider, NHibernate.Caches.SysCache</CacheProvider>
+  <CacheExpiration>120</CacheExpiration>
+
+  <hibernate-configuration xmlns='urn:nhibernate-configuration-2.2'>
+    <session-factory>
+      <property name="cache.use_query_cache">true</property>
+      <property name="query.substitutions">true 'T', false 'F', True 'T', False 'F'</property>
+      <property name="proxyfactory.factory_class">NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle</property>
+
+      <!-- Cache Settings -->
+
+      <!-- AccountSummary -->
+      <class-cache class="Sage.SalesLogix.Entities.AccountSummary, Sage.SalesLogix.Entities" usage="read-write" />
+
+      <!-- Account -->
+      <class-cache class="Sage.SalesLogix.Entities.Account, Sage.SalesLogix.Entities" usage="read-write" />
+
+      <!-- Contact -->
+      <class-cache class="Sage.SalesLogix.Entities.Contact, Sage.SalesLogix.Entities" usage="read-write" />
+
+      <!-- Opportunity -->
+      <class-cache class="Sage.SalesLogix.Entities.Opportunity, Sage.SalesLogix.Entities" usage="read-write" />
+
+      <!-- Ticket -->
+      <class-cache class="Sage.SalesLogix.Entities.Ticket, Sage.SalesLogix.Entities" usage="read-write" />
+      <class-cache class="Sage.SalesLogix.Entities.TicketProblem, Sage.SalesLogix.Entities" usage="read-write" />
+      <class-cache class="Sage.SalesLogix.Entities.TicketSolution, Sage.SalesLogix.Entities" usage="read-write" />
+      <class-cache class="Sage.SalesLogix.Entities.Contract, Sage.SalesLogix.Entities" usage="read-write" />
+      <class-cache class="Sage.SalesLogix.Entities.Urgency, Sage.SalesLogix.Entities" usage="read-write" />
+      <class-cache class="Sage.SalesLogix.Entities.AccountProduct, Sage.SalesLogix.Entities" usage="read-write" />
+
+      <!-- Product -->
+      <class-cache class="Sage.SalesLogix.Entities.Product, Sage.SalesLogix.Entities" usage="read-write" />
+
+      <!-- Address -->
+      <class-cache class="Sage.SalesLogix.Entities.Address, Sage.SalesLogix.Entities" usage="read-write" />
+
+      <!-- LeadSource -->
+      <class-cache class="Sage.SalesLogix.Entities.LeadSource, Sage.SalesLogix.Entities" usage="read-write" />
+
+      <!-- PickList -->
+      <class-cache class="Sage.SalesLogix.PickLists.PickList, Sage.SalesLogix.PickLists" usage="read-write" />
+
+      <!-- Activity -->
+      <class-cache class="Sage.SalesLogix.Activity.Activity, Sage.SalesLogix.Activity" usage="read-write" />
+      <class-cache class="Sage.SalesLogix.Activity.Event, Sage.SalesLogix.Activity" usage="read-write" />
+      <class-cache class="Sage.SalesLogix.Activity.ResourceList, Sage.SalesLogix.Activity" usage="read-write" />
+      <class-cache class="Sage.SalesLogix.Activity.History, Sage.SalesLogix.Activity" usage="read-write" />
+      <class-cache class="Sage.SalesLogix.Activity.UserCalendar, Sage.SalesLogix.Activity" usage="read-write" />
+      <class-cache class="Sage.SalesLogix.Activity.UserNotification, Sage.SalesLogix.Activity" usage="read-write" />
+
+      <!-- UserInfo -->
+      <class-cache class="Sage.SalesLogix.Security.UserInfo, Sage.SalesLogix.Security" usage="read-write" />
+
+      <!-- OwnerRights -->
+      <class-cache class="Sage.SalesLogix.Security.OwnerRights, Sage.SalesLogix.Security" usage="read-write" />
+
+      <!-- Owner -->
+      <class-cache class="Sage.SalesLogix.Security.Owner, Sage.SalesLogix.Security" usage="read-write" />
+
+      <!-- User -->
+      <class-cache class="Sage.SalesLogix.Security.User, Sage.SalesLogix.Security" usage="read-write" />
+
+      <class-cache class="Sage.SalesLogix.Security.UserProfile, Sage.SalesLogix.Security" usage="read-write" />
+
+      <!-- Role -->
+      <class-cache class="Sage.SalesLogix.Security.Role, Sage.SalesLogix.Security" usage="read-write" />
+
+      <!-- Plugin -->
+      <class-cache class="Sage.SalesLogix.Plugins.Plugin, Sage.SalesLogix.Plugins" usage="read-write" />
+
+      <!-- SystemInformation -->
+      <class-cache class="Sage.SalesLogix.SystemInformation, Sage.SalesLogix.System" usage="read-write" />
+
+    </session-factory>
+  </hibernate-configuration>
+
+  <MappingAssemblies>
+      <AssemblyName>Sage.Platform</AssemblyName>
+      <AssemblyName>Sage.SalesLogix.PickLists</AssemblyName>
+      <AssemblyName>Sage.SalesLogix.Plugins</AssemblyName>
+      <AssemblyName>Sage.Saleslogix.System</AssemblyName>
+<# foreach (var asm in assemblies) { #>
+      <AssemblyName><#= asm #></AssemblyName>
+<# } #>
+  </MappingAssemblies>
+</NHibernate>
+<#+
+[Dependency]
+public IDictionary Context { get; set; }
+#>]]></template>
+  <description>Default Hibernate xml configuration template</description>
+</codeTemplate>

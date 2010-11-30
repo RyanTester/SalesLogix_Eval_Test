@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<PortalService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="58354c82-145d-438d-8359-1bb2aac6e618">
+  <InstanceId>c3f3c574ff214d7aba9d3311b61b8b22</InstanceId>
+  <ServiceType>Sage.Platform.Process.WorkflowProcessManagerService, Sage.Platform.Process</ServiceType>
+  <RegisterAs>Sage.Platform.Process.Interfaces.IProcessManagerService, Sage.Platform.Process</RegisterAs>
+  <AddOnDemand>true</AddOnDemand>
+  <Properties />
+</PortalService>

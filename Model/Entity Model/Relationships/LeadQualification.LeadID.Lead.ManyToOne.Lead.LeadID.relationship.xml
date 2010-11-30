@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="da898016-99a7-4bd8-b5d1-984770f488a0" cardinality="M:1" parentEntityId="de080066-74a1-4fb0-bf26-79111871df20" childEntityId="27f9e8e9-34d8-4eaf-8fd7-c70d133e6f90">
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="5d0f67dc-fbc3-4239-b53e-6648812be269" name="Lead" audited="false" displayCategory="Intermediate" isNullable="false" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="d873fd96-9459-4640-adfa-0d69cbb40ca3" name="Property1" audited="false" displayCategory="Intermediate" isNullable="true" include="false">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="1956ce72-774b-42af-9ba1-049bbd071b7c" parentPropertyId="9904cd89-2740-454f-8d7c-182c968e26c6" childPropertyId="2d710a24-63a7-432c-83e8-686987cd0895" ordinal="0" />
+  </column>
+</relationship>

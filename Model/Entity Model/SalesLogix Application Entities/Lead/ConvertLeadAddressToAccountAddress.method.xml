@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="c74e03cd-bfaf-4037-9057-bd8c21a97f51" lastModifiedUtc="2007-08-14T16:39:03.7361544Z" name="ConvertLeadAddressToAccountAddress" returnType="void" methodType="Rule" actionType="None" returnMode="None" isInstance="true">
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="7320d2da-b164-4556-8dab-74ef679c30a1" paramName="account" sequence="0" paramType="IAccount" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="7b259f5c-5dd4-408e-b8f6-5f574e1404bf" lastModifiedUtc="2007-08-14T16:38:53.4499694Z" targetType="Sage.SalesLogix.Lead.Rules, Sage.SalesLogix.BusinessRules" targetMethod="ConvertLeadAddressToAccountAddress" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

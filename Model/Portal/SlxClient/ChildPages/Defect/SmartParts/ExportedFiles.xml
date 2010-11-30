@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\ChildPages\Defect\SmartParts\AddEditDefectTask.smartpart.xml" timeStamp="2009-11-19T20:11:00.1200" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Defect\SmartParts\AddEditDefectTask.smartpart.xml.resx" timeStamp="2009-11-19T20:11:00.1500" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Defect\SmartParts\AttachmentList.smartpart.xml" timeStamp="2009-11-19T20:11:00.1500" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Defect\SmartParts\AttachmentList.smartpart.xml.resx" timeStamp="2009-11-19T20:11:00.1330" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Defect\SmartParts\DefectComments.smartpart.xml" timeStamp="2009-11-19T20:11:00.1500" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Defect\SmartParts\DefectComments.smartpart.xml.resx" timeStamp="2009-11-19T20:11:00.1330" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Defect\SmartParts\DefectDetails.smartpart.xml" timeStamp="2009-11-19T20:11:00.1500" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Defect\SmartParts\DefectDetails.smartpart.xml.resx" timeStamp="2009-11-19T20:11:00.1670" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Defect\SmartParts\DefectExtendedDetails.smartpart.xml" timeStamp="2009-11-19T20:11:00.1500" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Defect\SmartParts\DefectExtendedDetails.smartpart.xml.resx" timeStamp="2009-11-19T20:11:00.1670" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Defect\SmartParts\DefectHistory.smartpart.xml" timeStamp="2009-11-19T20:11:00.1500" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Defect\SmartParts\DefectHistory.smartpart.xml.resx" timeStamp="2009-11-19T20:11:00.1670" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Defect\SmartParts\DefectProducts.smartpart.xml" timeStamp="2009-11-19T20:11:00.1670" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Defect\SmartParts\DefectProducts.smartpart.xml.resx" timeStamp="2009-11-19T20:11:00.1800" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Defect\SmartParts\DefectReturns.smartpart.xml" timeStamp="2009-11-19T20:11:00.1670" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Defect\SmartParts\DefectReturns.smartpart.xml.resx" timeStamp="2009-11-19T20:11:00.1970" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Defect\SmartParts\DefectTasks.smartpart.xml" timeStamp="2009-11-19T20:11:00.1800" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Defect\SmartParts\DefectTasks.smartpart.xml.resx" timeStamp="2009-11-19T20:11:00.2130" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Defect\SmartParts\DefectTickets.smartpart.xml" timeStamp="2009-11-19T20:11:00.1970" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Defect\SmartParts\DefectTickets.smartpart.xml.resx" timeStamp="2009-11-19T20:11:00.1970" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Defect\SmartParts\InsertDefect.smartpart.xml" timeStamp="2009-11-19T20:11:00.1970" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Defect\SmartParts\InsertDefect.smartpart.xml.resx" timeStamp="2009-11-19T20:11:00.2130" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Defect\SmartParts\LiveGroupViewer.smartpart.xml" timeStamp="2009-11-19T20:11:00.1970" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Defect\SmartParts\LiveGroupViewer.smartpart.xml.resx" timeStamp="2009-11-19T20:11:00.1970" />
+</exportedFiles>

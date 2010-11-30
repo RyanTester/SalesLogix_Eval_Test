@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\AccountManager.filter.xml" timeStamp="2009-11-19T20:10:50.8830" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\Campaign.CAMPAIGN.entity.xml" timeStamp="2009-11-19T20:10:50.8700" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\Code.filter.xml" timeStamp="2009-11-19T20:10:50.9300" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\CopyCampaign.method.xml" timeStamp="2009-11-19T20:10:50.8830" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\EndDate.filter.xml" timeStamp="2009-11-19T20:10:50.9000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\GetBudgetResults.method.xml" timeStamp="2009-11-19T20:10:50.8700" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\LaunchCampaign.method.xml" timeStamp="2009-11-19T20:10:50.8830" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\Name.filter.xml" timeStamp="2009-11-19T20:10:50.9300" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:50.9000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:50.8830" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:50.9000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:50.9300" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:50.9000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:50.9000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\OnCreate.method.xml" timeStamp="2009-11-19T20:10:50.9000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\Owner.filter.xml" timeStamp="2009-11-19T20:10:50.9170" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\StartDate.filter.xml" timeStamp="2009-11-19T20:10:50.9170" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Campaign\QuickForms\" />
+</exportedFiles>

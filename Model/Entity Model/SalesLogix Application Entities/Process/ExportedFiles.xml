@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Process\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:54.3800" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Process\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:54.3800" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Process\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:54.3930" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Process\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:54.3930" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Process\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:54.3930" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Process\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:54.3930" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Process\OnCreate.method.xml" timeStamp="2009-11-19T20:10:54.4400" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Process\Process.PROCESS.entity.xml" timeStamp="2009-11-19T20:10:54.4570" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Process\UpdateStatus.method.xml" timeStamp="2009-11-19T20:10:54.4270" />
+</exportedFiles>

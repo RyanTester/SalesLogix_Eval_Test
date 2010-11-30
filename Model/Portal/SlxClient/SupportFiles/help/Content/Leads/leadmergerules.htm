@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="454" MadCap:lastWidth="526" MadCap:conditions="Output.WebClient" MadCap:tocPath="" MadCap:PathToHelpSystem="../../" MadCap:SearchType="Stem">
+    <!-- saved from url=(0014)about:internet -->
+    <head><title>Rules for Automatically Merging Records During Import</title>
+        <link href="../SALESLOGIX.CSS" rel="stylesheet" type="text/css" />
+        <script src="../SkinSupport/MadCapUtilities.js">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor375"></a>Rules for Automatically Merging Records During Import</h1>
+        <p>&#160;</p>
+        <p>During a lead import you have the option to automatically merge duplicate records that are found using the <a href="leadimportdupe.htm">match filters</a> you select. A duplicate lead may be merged with an existing contact or lead. The records are merged according to the following rules:</p>
+        <ul style="list-style-type: disc;">
+            <li class="Bullets" value="1">If the Conflicts option is set to Existing Record Wins:</li>
+            <li class="Topic-Text-Bulleted-2" value="2">The records are merged and none of the imported lead information is used. This also applies to account fields.</li>
+            <li class="Topic-Text-Bulleted-2" value="3">If the imported record has data in a field, and the existing record does not, the field in the existing record will remain empty.</li>
+            <li class="Bullets" value="4">If the Conflicts option is set to Imported Record Wins:</li>
+            <li class="Topic-Text-Bulleted-2" value="5">The imported lead information will replace the target (lead, contact or account) record information.</li>
+            <li class="Topic-Text-Bulleted-2" value="6">If a field in the imported lead record is empty , but the field in the existing record contains information, then the existing record information is saved. This also applies to account fields.</li>
+            <li class="Topic-Text-Bulleted-2" value="7">When merging to another lead, the address information for the lead being imported will replace the existing lead's address information. A note containing the existing record's address will be created and added to the notes history for that lead.</li>
+            <li class="Topic-Text-Bulleted-2" value="8">The address record for the lead being imported will never replace an address for a contact or account. A new address will be created using the imported lead's address information. The new address will not be the primary address for the account or contact and the primary and mailing addresses for the account and contact will not be changed.</li>
+        </ul>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="leadimport.htm">Importing Leads</a>
+        </p>
+        <p><a href="leadoverview.htm">Leads Overview</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>
+            </p>
+            <p style="border-top-style: Groove;border-top-color: #c0c0c0;border-top-width: 1px;">&#160;</p>
+            <p><![CDATA[ ]]><a href="../General/feedback.htm" target="_blank">Tell us how we can make the Help better.</a></p>
+        </div>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

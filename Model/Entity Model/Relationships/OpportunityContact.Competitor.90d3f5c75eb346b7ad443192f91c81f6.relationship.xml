@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="90d3f5c7-5eb3-46b7-ad44-3192f91c81f6" lastModifiedUtc="2008-12-30T19:05:56.1358509Z" cardinality="M:1" parentEntityId="482a6173-5ea2-4bae-8779-b3009c0d2cff" childEntityId="5338ff92-de58-46e1-b222-6501d77e6d02">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="880cdfc9-1ed0-4f92-a398-06eba74bd6da" lastModifiedUtc="2008-12-30T19:06:25.3908509Z" name="Competitors" audited="false">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="173e4d30-f90f-42da-b092-68dec38b3cc7" lastModifiedUtc="2008-12-30T19:05:35.9288509Z" name="OpportunityContact" audited="false" include="false">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="1c4be1a6-e634-4e7d-bfaa-28285ab1ff6f" parentPropertyId="224463fb-afef-4fe1-ab9e-7e42dbde6db5" childPropertyId="8106762b-ea10-4c41-ac21-f1b0ba716016" ordinal="0" />
+  </column>
+</relationship>

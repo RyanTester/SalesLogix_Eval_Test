@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="421c546f-aa17-4b4b-9904-b6de2b1fae03">
+  <ItemId>menuItemActivityReminders</ItemId>
+  <NavUrl>ActivityReminders.aspx</NavUrl>
+  <LargeImageUrl />
+  <SmallImageUrl />
+  <ContextMenuId />
+  <Target />
+</MenuDropDownItem>

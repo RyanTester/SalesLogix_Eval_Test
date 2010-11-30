@@ -1,0 +1,16 @@
+if (DialogService != null)
+{
+	// InsertChildDialogActionItem
+#if(${action.CenterDialog} == true) 
+	DialogService.SetSpecs(${action.Height}, ${action.Width}, "${action.SmartPart}",#if($action.TitleOverride != "") GetLocalResourceObject("${action.ResourceKey}.DialogTitleOverride").ToString() #else string.Empty #end);
+#else
+	DialogService.SetSpecs(${action.Top}, ${action.Left}, ${action.Height}, ${action.Width}, "${action.SmartPart}",#if($action.TitleOverride != "") GetLocalResourceObject("${action.ResourceKey}.DialogTitleOverride").ToString() #else string.Empty #end, "false");
+#end
+  DialogService.EntityType = typeof(${action.GetQualifiedEntityType}); 
+  DialogService.SetChildIsertInfo(
+    typeof(${action.GetQualifiedEntityType}),
+    typeof(${entitytypename}),
+    typeof(${action.GetQualifiedEntityType}).GetProperty("${action.ParentRelationshipPropertyName}"),
+    typeof(${entitytypename}).GetProperty("${action.ParentsCollectionPropertyName}"));
+  DialogService.ShowDialog();
+}

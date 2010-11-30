@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="aff7804e-10d5-4aaf-a0a1-124aa88bea3a" name="CompleteStage" returnType="void" methodType="Rule" actionType="None" returnMode="None" isInstance="true">
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="02a4836a-327e-41f6-921d-4c01e49aa1e4" paramName="stageId" sequence="0" paramType="string" />
+    <OrmEntityMethodParam id="3e97635d-a455-41cb-9ba9-b5524de485f0" paramName="completeDate" sequence="0" paramType="DateTime" />
+  </parameter>
+  <methodTargets>
+    <methodTarget id="7822f519-0f50-438a-9738-66b11735a168" targetType="Sage.SalesLogix.SalesProcess.Rules, Sage.SalesLogix.BusinessRules" sequence="0" targetMethod="CompleteStage" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+</method>

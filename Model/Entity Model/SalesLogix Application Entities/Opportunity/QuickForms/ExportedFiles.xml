@@ -1,0 +1,35 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\QuickForms\InsertOpportunity.main.quickform.xml" timeStamp="2009-11-19T20:10:53.6470" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\QuickForms\InsertOpportunity.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:53.6600" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\QuickForms\OpportunityCampaigns.main.quickform.xml" timeStamp="2009-11-19T20:10:53.6600" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\QuickForms\OpportunityCampaigns.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:53.6770" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\QuickForms\OpportunityClosedLost.cmdCancel_OnClick.method.xml" timeStamp="2009-11-19T20:10:53.7400" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\QuickForms\OpportunityClosedLost.lueCompetitorLoss_OnChange.method.xml" timeStamp="2009-11-19T20:10:53.7700" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\QuickForms\OpportunityClosedLost.main.quickform.xml" timeStamp="2009-11-19T20:10:53.8170" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\QuickForms\OpportunityClosedLost.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:53.8330" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\QuickForms\OpportunityClosedWon.cmdCancel_OnClick.method.xml" timeStamp="2009-11-19T20:10:53.7870" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\QuickForms\OpportunityClosedWon.lueCompetitorReplaced_OnChange.method.xml" timeStamp="2009-11-19T20:10:53.8500" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\QuickForms\OpportunityClosedWon.main.quickform.xml" timeStamp="2009-11-19T20:10:53.8630" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\QuickForms\OpportunityClosedWon.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:53.8800" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\QuickForms\OpportunityCompetitors.LoadAction1.method.xml" timeStamp="2009-11-19T20:10:53.8170" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\QuickForms\OpportunityCompetitors.lueAssociateCompetitor_OnChange.method.xml" timeStamp="2009-11-19T20:10:53.8500" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\QuickForms\OpportunityCompetitors.main.quickform.xml" timeStamp="2009-11-19T20:10:53.9430" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\QuickForms\OpportunityCompetitors.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:53.9430" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\QuickForms\OpportunityContacts.main.quickform.xml" timeStamp="2009-11-19T20:10:53.9100" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\QuickForms\OpportunityContacts.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:53.9100" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\QuickForms\OpportunityContacts.SetDefaultOppContactInfo.method.xml" timeStamp="2009-11-19T20:10:53.9570" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\QuickForms\OpportunityDetails.main.quickform.xml" timeStamp="2009-11-19T20:10:53.9900" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\QuickForms\OpportunityDetails.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:54.0030" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\QuickForms\OpportunitySummary.main.quickform.xml" timeStamp="2009-11-19T20:10:54.0370" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\QuickForms\OpportunitySummary.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:53.9570" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\QuickForms\Sage.SnippetLibrary.CSharp.@.1bcea2dc-e2a6-4691-a150-0295d58bdd07.codesnippet.cs" timeStamp="2009-11-19T20:10:54.0670" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\QuickForms\Sage.SnippetLibrary.CSharp.@.50a29bf4-0a49-4cf6-9848-1b93209c6040.codesnippet.cs" timeStamp="2009-11-19T20:10:54.0200" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\QuickForms\Sage.SnippetLibrary.CSharp.@.5fc66ecc-305b-4b51-b311-59fa7479c5e0.codesnippet.cs" timeStamp="2009-11-19T20:10:54.0500" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\QuickForms\Sage.SnippetLibrary.CSharp.@.7f9797e6-7ecf-4a7b-9c5a-5d50940f802e.codesnippet.cs" timeStamp="2009-11-19T20:10:54.0830" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\QuickForms\Sage.SnippetLibrary.CSharp.@.b1d5a2cb-3338-4d6a-a5e9-861db9fe7b9d.codesnippet.cs" timeStamp="2009-11-19T20:10:54.0830" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\QuickForms\Sage.SnippetLibrary.CSharp.@.d44aa26d-ea57-49a7-a1c5-fc400d1ab404.codesnippet.cs" timeStamp="2009-11-19T20:10:54.0970" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\QuickForms\Sage.SnippetLibrary.CSharp.@.d91d83f3-efe1-45c0-913c-d94ecbceef36.codesnippet.cs" timeStamp="2009-11-19T20:10:54.0970" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\QuickForms\SalesOrders.main.quickform.xml" timeStamp="2009-11-19T20:10:54.1130" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\QuickForms\SalesOrders.main.quickform.xml.resx" timeStamp="2009-11-19T20:10:54.2070" />
+</exportedFiles>

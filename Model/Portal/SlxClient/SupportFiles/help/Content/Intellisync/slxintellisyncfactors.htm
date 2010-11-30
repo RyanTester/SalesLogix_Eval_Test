@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="GroupWise;SyncSalesLogix;SalesLogix;Intellisync" MadCap:check_list="First Draft,Ran Smart Index" MadCap:conditions="Output.WebClient" MadCap:lastBlockDepth="5" MadCap:lastHeight="460" MadCap:lastWidth="511" MadCap:tocPath="" MadCap:PathToHelpSystem="../../" MadCap:SearchType="Stem">
+    <!-- saved from url=(0014)about:internet -->
+    <head><title>Understanding Factors Affecting Synchronization</title>
+        <meta name="copyright" value="Copyright © 2001 Puma Technology, Inc. (dba, PUMATECH, inc.)" />
+        <link rel="StyleSheet" href="../SALESLOGIX.CSS" />
+        <script src="../SkinSupport/MadCapUtilities.js">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js">
+        </script>
+    </head>
+    <body>
+        <h1>Understanding Factors Affecting Synchronization</h1>
+        <p>The time it takes to synchronize data between Sage SalesLogix and  Microsoft 
+ Outlook <span MadCap:conditions="Primary.Lotus_Notes">or Lotus Notes </span>depends 
+ on several factors. The most important factor is the volume of data being 
+ passed between the systems. You can improve performance by controlling 
+ the volume of data transferred through Intellisync for SalesLogix. There 
+ are several ways to do this. </p>
+        <h6>Last Synchronization Date</h6>
+        <p>When data exchange occurs, the date is recorded in a <a name="kanchor345"></a><a href="slxintellisynclogfile.htm" target="_self">log file</a>. 
+ Subsequent synchronizations use this date to check for modifications since 
+ the last sync date and only transfer data that has changed since that 
+ date. By synchronizing regularly, you can reduce the volume of data that 
+ needs to be transferred during any given cycle. &#160;</p>
+        <h6>Security</h6>
+        <p>Synchronization is affected by the built-in data security associated 
+ with the user who is logged on to Sage SalesLogix. The amount of data 
+ available to transfer is limited by the security rights of the user logged 
+ in. </p>
+        <h6>Un-mapping Fields</h6>
+        <p>Intellisync for SalesLogix allows a user to define how the data is mapped 
+ between applications. By removing mapping from a field, the translator 
+ ends data transfer in that field. Additionally, mapping a previously un-mapped 
+ field starts synchronizing the data in that field between applications. 
+ See <a href="slxintellisyncfieldmap.htm" target="_self">Understanding Intellisync for SalesLogix Field Mapping</a> for additional information.</p>
+        <p>&#160;</p>
+        <p style="font-weight: bold;">Related Topics</p>
+        <p style="font-weight: bold;"><span style="font-weight: normal;"><a href="slxintellisyncadvanced.htm" target="_self">Configuring Advanced Settings</a></span>
+        </p>
+        <p style="font-weight: bold;"><a href="slxintellisync.htm" target="_self">Intellisync for SalesLogix</a>
+        </p>
+        <p><a href="slxintellisyncdataexchange.htm" target="_self">Understanding Data Exchange</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>
+            </p>
+            <p style="border-top-style: Groove;border-top-color: #c0c0c0;border-top-width: 1px;">&#160;</p>
+            <p><![CDATA[ ]]><a href="../General/feedback.htm" target="_blank">Tell us how we can make the Help better.</a></p>
+        </div>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

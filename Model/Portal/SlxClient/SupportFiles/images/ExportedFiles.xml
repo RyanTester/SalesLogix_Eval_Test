@@ -1,0 +1,51 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\activetab.gif" timeStamp="2009-11-19T20:11:57.2400" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\add.gif" timeStamp="2009-11-19T20:11:07.6830" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\blue_dot.gif" timeStamp="2009-11-19T20:11:07.6830" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\chapter.gif" timeStamp="2009-11-19T20:13:11.7530" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\chapteropen.gif" timeStamp="2009-11-19T20:13:11.7530" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\clear.gif" timeStamp="2009-11-19T20:13:11.5830" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\collapsedark.gif" timeStamp="2009-11-19T20:11:07.6830" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\delete.gif" timeStamp="2009-11-19T20:11:07.7470" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\dragger_bottom_transparent.gif" timeStamp="2009-11-19T20:13:11.6600" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\dragger_left_transparent.gif" timeStamp="2009-11-19T20:13:11.6600" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\dragger_right_transparent.gif" timeStamp="2009-11-19T20:13:11.6000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\dragger_top_transparent.gif" timeStamp="2009-11-19T20:13:11.6600" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\email.gif" timeStamp="2009-11-19T20:11:07.6830" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\expanddark.gif" timeStamp="2009-11-19T20:11:07.7000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\fax_16.gif" timeStamp="2009-11-19T20:11:07.7000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\ft_blob.gif" timeStamp="2009-11-19T20:11:07.7630" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\ft_calc.gif" timeStamp="2009-11-19T20:11:07.7630" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\ft_curr.gif" timeStamp="2009-11-19T20:11:07.7770" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\ft_date.gif" timeStamp="2009-11-19T20:11:07.7770" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\ft_float.gif" timeStamp="2009-11-19T20:11:07.7770" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\ft_int.gif" timeStamp="2009-11-19T20:11:07.7770" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\ft_string.gif" timeStamp="2009-11-19T20:11:07.7770" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\ft_table.gif" timeStamp="2009-11-19T20:11:07.7930" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\greendot.gif" timeStamp="2009-11-19T20:11:07.7630" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\inactivetab.gif" timeStamp="2009-11-19T20:11:57.2270" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\loading_animation_liferay.gif" timeStamp="2009-11-19T20:13:11.6770" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\mail_16.gif" timeStamp="2009-11-19T20:11:07.7630" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\meeting.gif" timeStamp="2009-11-19T20:11:07.7770" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\note_16.gif" timeStamp="2009-11-19T20:11:07.7770" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\opportunity.gif" timeStamp="2009-11-19T20:11:07.8100" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\phone.gif" timeStamp="2009-11-19T20:11:07.7930" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\picklist.gif" timeStamp="2009-11-19T20:13:11.6930" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\reddot.gif" timeStamp="2009-11-19T20:11:07.7930" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\saleslogix.gif" timeStamp="2009-11-19T20:13:11.8000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\SmartPartBack.gif" timeStamp="2009-11-19T20:11:57.2270" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\ticket.gif" timeStamp="2009-11-19T20:11:07.7930" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\TOC.gif" timeStamp="2009-11-19T20:13:11.8000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\todo.gif" timeStamp="2009-11-19T20:11:07.8230" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\topic.gif" timeStamp="2009-11-19T20:13:11.8000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\wizard_step_active.gif" timeStamp="2009-11-19T20:11:07.8100" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\wizard_step_notvisited.gif" timeStamp="2009-11-19T20:11:07.8100" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\wizard_step_visited.gif" timeStamp="2009-11-19T20:11:07.8570" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\yellowdot.gif" timeStamp="2009-11-19T20:11:07.8100" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\blue\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\calendar\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\GroupBuilder\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\icons\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\images\YUI\" />
+</exportedFiles>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<entityFilter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmRangeEntityFilter" id="97862064-99ed-4b2c-92b5-38974e511004" lastModifiedUtc="2009-01-01T00:26:39.2581493Z" filterName="ActivityType" propertyName="Type" characters="0">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRangeEntityFilter" />
+  </ExtendedPropertiesCollection>
+  <ranges id="922734b1-c443-442e-a07f-9b4ca3590cb7" rangeName="Meeting" lower="atAppointment" upper="atAppointment" />
+  <ranges id="4467def1-f0e2-41e4-9d3e-ec7e6e95940d" rangeName="Personal" lower="atPersonal" upper="atPersonal" />
+  <ranges id="10d1ac67-837b-4065-950e-4e3418220a72" rangeName="Phone" lower="atPhoneCall" upper="atPhoneCall" />
+  <ranges id="d5fe8bee-23d7-444c-9568-68f2efdff529" rangeName="ToDo" lower="atToDo" upper="atToDo" />
+</entityFilter>

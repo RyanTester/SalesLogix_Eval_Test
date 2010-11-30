@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTargetIndex Count="41">
+    <!-- saved from url=(0014)about:internet -->
+    <IndexEntry>
+        <Entries>
+            <IndexEntry Term="Active Mail">
+                <Entries>
+                    <IndexEntry Term="options">
+                        <Entries />
+                        <Links>
+                            <IndexLink Title="Logging in" Link="/Content/Getting Started/slxlogin.htm#kanchor8" UsedConditions="" />
+                        </Links>
+                    </IndexEntry>
+                </Entries>
+                <Links />
+            </IndexEntry>
+            <IndexEntry Term="ActiveX">
+                <Entries />
+                <Links>
+                    <IndexLink Title="Logging in" Link="/Content/Getting Started/slxlogin.htm#kanchor8" UsedConditions="" />
+                </Links>
+            </IndexEntry>
+            <IndexEntry Term="Assumptions">
+                <Entries />
+                <Links>
+                    <IndexLink Title="Assumptions and Conventions" Link="/Content/Common/slxconventions.htm#kanchor6" UsedConditions="" />
+                </Links>
+            </IndexEntry>
+            <IndexEntry Term="Attachments">
+                <Entries>
+                    <IndexEntry Term="adding">
+                        <Entries />
+                        <Links>
+                            <IndexLink Title="Adding an Attachment" Link="/Content/Common Tabs/addattachment.htm#kanchor16" UsedConditions="" />
+                        </Links>
+                    </IndexEntry>
+                    <IndexEntry Term="deleting">
+                        <Entries />
+                        <Links>
+                            <IndexLink Title="Deleting an Attachment" Link="/Content/Common Tabs/deleteattach.htm#kanchor19" UsedConditions="" />
+                        </Links>
+                    </IndexEntry>
+                    <IndexEntry Term="editing">
+                        <Entries />
+                        <Links>
+                            <IndexLink Title="Adding an Attachment" Link="/Content/Common Tabs/addattachment.htm#kanchor16" UsedConditions="" />
+                            <IndexLink Title="Editing Attachment Information" Link="/Content/Common Tabs/editattach.htm#kanchor21" UsedConditions="" />
+                        </Links>
+                    </IndexEntry>
+                    <IndexEntry Term="tab">
+                        <Entries />
+                        <Links>
+                            <IndexLink Title="Attachments Tab" Link="/Content/Common Tabs/attachmentstab.htm#kanchor17" UsedConditions="" />
+                        </Links>
+                    </IndexEntry>
+                </Entries>
+                <Links />
+            </IndexEntry>
+            <IndexEntry Term="Contact Sage Software">
+                <Entries />
+                <Links>
+                    <IndexLink Title="Contacting Sage" Link="/Content/Common/slxcontactsage.htm#kanchor3" UsedConditions="" />
+                </Links>
+            </IndexEntry>
+            <IndexEntry Term="Conventions">
+                <Entries />
+                <Links>
+                    <IndexLink Title="Assumptions and Conventions" Link="/Content/Common/slxconventions.htm#kanchor6" UsedConditions="" />
+                </Links>
+            </IndexEntry>
+            <IndexEntry Term="drag and drop">
+                <Entries />
+                <Links>
+                    <IndexLink Title="Dragging and Dropping" Link="/Content/Common Tabs/dragdrop.htm#kanchor20" UsedConditions="" />
+                </Links>
+            </IndexEntry>
+            <IndexEntry Term="Help">
+                <Entries />
+                <Links>
+                    <IndexLink Title="Using the Help System" Link="/Content/Common/slxusehelp.htm#kanchor5" UsedConditions="" />
+                </Links>
+            </IndexEntry>
+            <IndexEntry Term="List view">
+                <Entries>
+                    <IndexEntry Term="grids">
+                        <Entries />
+                        <Links>
+                            <IndexLink Title="Working with Grids in List Views and Tabs" Link="/Content/General/gridfeatures.htm#kanchor24" UsedConditions="" />
+                        </Links>
+                    </IndexEntry>
+                </Entries>
+                <Links />
+            </IndexEntry>
+            <IndexEntry Term="Logging on">
+                <Entries />
+                <Links>
+                    <IndexLink Title="Logging in" Link="/Content/Getting Started/slxlogin.htm#kanchor8" UsedConditions="" />
+                </Links>
+            </IndexEntry>
+            <IndexEntry Term="Menu Bar">
+                <Entries />
+                <Links>
+                    <IndexLink Title="Understanding Your Workspace" Link="/Content/Getting Started/webbuttons.htm#kanchor9" UsedConditions="" />
+                </Links>
+            </IndexEntry>
+            <IndexEntry Term="Navigation Bar">
+                <Entries />
+                <Links>
+                    <IndexLink Title="Understanding Your Workspace" Link="/Content/Getting Started/webbuttons.htm#kanchor9" UsedConditions="" />
+                </Links>
+            </IndexEntry>
+            <IndexEntry Term="Overview">
+                <Entries />
+                <Links>
+                    <IndexLink Title="Introducing Sage SalesLogix" Link="/Content/Common/slxoverview.htm#kanchor1" UsedConditions="" />
+                </Links>
+            </IndexEntry>
+            <IndexEntry Term="Preview">
+                <Entries>
+                    <IndexEntry Term="SpeesSearch results">
+                        <Entries />
+                        <Links>
+                            <IndexLink Title="Previewing SpeedSearch Results" Link="/Content/SpeedSearch/speedsearchpreview.htm#kanchor26" UsedConditions="" />
+                        </Links>
+                    </IndexEntry>
+                </Entries>
+                <Links />
+            </IndexEntry>
+            <IndexEntry Term="Recently Viewed">
+                <Entries />
+                <Links>
+                    <IndexLink Title="Recently Viewed" Link="/Content/Common/recentlyviewed.htm#kanchor15" UsedConditions="" />
+                </Links>
+            </IndexEntry>
+            <IndexEntry Term="Sage SalesLogix">
+                <Entries />
+                <Links>
+                    <IndexLink Title="Introducing Sage SalesLogix" Link="/Content/Common/slxoverview.htm#kanchor1" UsedConditions="" />
+                </Links>
+            </IndexEntry>
+            <IndexEntry Term="SpeedSearch">
+                <Entries>
+                    <IndexEntry Term="filters">
+                        <Entries />
+                        <Links>
+                            <IndexLink Title="Using SpeedSearch Filter By Options" Link="/Content/SpeedSearch/speedsearchfilterby.htm#kanchor25" UsedConditions="" />
+                        </Links>
+                    </IndexEntry>
+                    <IndexEntry Term="overview">
+                        <Entries />
+                        <Links>
+                            <IndexLink Title="SpeedSearch" Link="/Content/SpeedSearch/speedsearchoverview.htm#kanchor13" UsedConditions="" />
+                        </Links>
+                    </IndexEntry>
+                    <IndexEntry Term="preview">
+                        <Entries />
+                        <Links>
+                            <IndexLink Title="Previewing SpeedSearch Results" Link="/Content/SpeedSearch/speedsearchpreview.htm#kanchor26" UsedConditions="" />
+                        </Links>
+                    </IndexEntry>
+                    <IndexEntry Term="results">
+                        <Entries />
+                        <Links>
+                            <IndexLink Title="Viewing SpeedSearch Results" Link="/Content/SpeedSearch/SpeedsearchResults.htm#kanchor27" UsedConditions="" />
+                        </Links>
+                    </IndexEntry>
+                    <IndexEntry Term="searching for information">
+                        <Entries />
+                        <Links>
+                            <IndexLink Title="Searching for Information" Link="/Content/SpeedSearch/speedsearch.htm#kanchor14" UsedConditions="" />
+                        </Links>
+                    </IndexEntry>
+                </Entries>
+                <Links />
+            </IndexEntry>
+            <IndexEntry Term="Support">
+                <Entries />
+                <Links>
+                    <IndexLink Title="Contacting Sage" Link="/Content/Common/slxcontactsage.htm#kanchor4" UsedConditions="" />
+                </Links>
+            </IndexEntry>
+            <IndexEntry Term="Tabs">
+                <Entries>
+                    <IndexEntry Term="grids">
+                        <Entries />
+                        <Links>
+                            <IndexLink Title="Working with Grids in List Views and Tabs" Link="/Content/General/gridfeatures.htm#kanchor24" UsedConditions="" />
+                        </Links>
+                    </IndexEntry>
+                </Entries>
+                <Links />
+            </IndexEntry>
+            <IndexEntry Term="Tickets">
+                <Entries>
+                    <IndexEntry Term="adding">
+                        <Entries />
+                        <Links>
+                            <IndexLink Title="Adding a Ticket" Link="/Content/Customer Portal/custaddticket.htm#kanchor10" UsedConditions="" />
+                        </Links>
+                    </IndexEntry>
+                    <IndexEntry Term="detail view">
+                        <Entries>
+                            <IndexEntry Term="tabs">
+                                <Entries />
+                                <Links>
+                                    <IndexLink Title="Attachments Tab" Link="/Content/Common Tabs/attachmentstab.htm#kanchor18" UsedConditions="" />
+                                    <IndexLink Title="Comments Tab" Link="/Content/Customer Portal/custtickactframes.htm#kanchor23" UsedConditions="" />
+                                </Links>
+                            </IndexEntry>
+                        </Entries>
+                        <Links>
+                            <IndexLink Title="Using the Ticket Detail View" Link="/Content/Customer Portal/custticketinfo.htm#kanchor11" UsedConditions="" />
+                        </Links>
+                    </IndexEntry>
+                    <IndexEntry Term="list view">
+                        <Entries />
+                        <Links>
+                            <IndexLink Title="Using the Ticket List View" Link="/Content/Customer Portal/custticktick.htm#kanchor12" UsedConditions="" />
+                        </Links>
+                    </IndexEntry>
+                    <IndexEntry Term="print preview">
+                        <Entries />
+                        <Links>
+                            <IndexLink Title="Viewing Ticket Details Before Printing" Link="/Content/Customer Portal/csrticketprint.htm#kanchor22" UsedConditions="" />
+                        </Links>
+                    </IndexEntry>
+                </Entries>
+                <Links />
+            </IndexEntry>
+            <IndexEntry Term="Trademarks">
+                <Entries />
+                <Links>
+                    <IndexLink Title="Third Party Software, Trademarks and Registered Trademarks" Link="/Content/Common/slxthirdparty.htm#kanchor2" UsedConditions="" />
+                </Links>
+            </IndexEntry>
+            <IndexEntry Term="User Tips">
+                <Entries />
+                <Links>
+                    <IndexLink Title="New User Tips" Link="/Content/Common/slxusertips.htm#kanchor7" UsedConditions="" />
+                </Links>
+            </IndexEntry>
+            <IndexEntry Term="Workspace">
+                <Entries />
+                <Links>
+                    <IndexLink Title="Understanding Your Workspace" Link="/Content/Getting Started/webbuttons.htm#kanchor9" UsedConditions="" />
+                </Links>
+            </IndexEntry>
+        </Entries>
+        <Links />
+    </IndexEntry>
+</CatapultTargetIndex>

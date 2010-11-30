@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="fb3b371c-8fc8-4f59-903a-e54a2b783f30">ActivityDetails.smartpart.xml</Item>
+  <Item Id="ab60224e-7b15-4aba-bf17-4b2bc9bb355c">AddMembers.smartpart.xml</Item>
+  <Item Id="5b6cd5fa-83f2-4c15-80ca-0290c9745364">AddResources.smartpart.xml</Item>
+  <Item Id="b1e5b051-1838-4853-8cc8-77430fc2da4f">AttachmentList.smartpart.xml</Item>
+  <Item Id="02d044ca-95eb-4d55-9de3-a03e8b16a270">CompleteActivityCommandController.smartpart.xml</Item>
+</ModelItems>

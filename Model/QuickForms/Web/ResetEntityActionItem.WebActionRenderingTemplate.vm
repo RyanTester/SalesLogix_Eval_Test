@@ -1,0 +1,1 @@
+#if($qfcontrol != "") $pagegenerator.addToFormLoadCode("if (ClientBindingMgr != null) { ClientBindingMgr.RegisterResetButton(${qfcontrol.ControlId}); }") #end

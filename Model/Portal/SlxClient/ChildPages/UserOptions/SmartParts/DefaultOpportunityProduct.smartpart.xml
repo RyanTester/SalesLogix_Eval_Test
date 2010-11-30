@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="e1bcfa9b-b20d-477b-a629-dcfe88ffc445">
+  <SmartPartId>DefaultOpportunityProduct</SmartPartId>
+  <SmartPart>SmartParts\Options\DefaultOpportunityProduct.ascx</SmartPart>
+  <TargetWorkspace>DialogWorkspace</TargetWorkspace>
+  <ShowInMode />
+  <Properties />
+  <AllowRoles />
+</SmartPartMapping>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="b2586a70-39eb-4c46-b025-12b3f7abb6c6">
+  <ItemId>new_ticket</ItemId>
+  <NavUrl>InsertTicket.aspx?modeid=Insert</NavUrl>
+  <LargeImageUrl>[Localization!Global_Images:New_Ticket_24x24]</LargeImageUrl>
+  <SmallImageUrl>[Localization.Global_Images:New_Ticket_16x16]</SmallImageUrl>
+  <ContextMenuId />
+  <Target />
+</MenuDropDownItem>

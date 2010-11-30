@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LeadImportMap\GetImportTemplates.method.xml" timeStamp="2009-11-19T20:10:53.0230" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LeadImportMap\LeadImportMap.LEAD_IMPORTMAP.entity.xml" timeStamp="2009-11-19T20:10:53.0230" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LeadImportMap\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:53.0230" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LeadImportMap\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:53.0230" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LeadImportMap\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:53.0530" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LeadImportMap\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:53.0830" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LeadImportMap\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:53.0830" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LeadImportMap\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:53.0530" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LeadImportMap\OnCreate.method.xml" timeStamp="2009-11-19T20:10:53.0700" />
+</exportedFiles>

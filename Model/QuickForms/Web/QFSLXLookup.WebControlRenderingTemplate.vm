@@ -1,0 +1,64 @@
+#if(${qfcontrol.Caption} != "")
+#if($qfcontrol.ControlLabelPlacement == "left")
+ <div class="#if(${qfcontrol.ColumnSpan} == 2)twocollbl#else lbl#end#if(${qfcontrol.ColumnSpan} > 2) colspan3#end#if(${qfcontrol.CaptionAlignment} == "right") alignright#elseif(${qfcontrol.CaptionAlignment} == "center") aligncenter#else alignleft#end">
+   <asp:Label ID="${qfcontrol.LabelId}" AssociatedControlID="${qfcontrol.ControlId}" runat="server" Text="<%$ resources: ${qfcontrol.ControlId}.Caption %>" #if(!$qfcontrol.Visible)Visible="false" #end></asp:Label>
+ </div>   
+#elseif($qfcontrol.ControlLabelPlacement == "top")
+ <div class="lbltop#if(${qfcontrol.CaptionAlignment} == "right") alignright#elseif(${qfcontrol.CaptionAlignment} == "center") aligncenter#else alignleft#end">
+   <asp:Label ID="${qfcontrol.LabelId}" AssociatedControlID="${qfcontrol.ControlId}" runat="server" Text="<%$ resources: ${qfcontrol.ControlId}.Caption %>" #if(!$qfcontrol.Visible)Visible="false" #end></asp:Label>
+ </div>   
+#end #end
+#if($qfcontrol.LookupDisplayMode != "ButtonOnly")
+ <div #if(${qfcontrol.ColumnSpan} > 1 || ${qfcontrol.ControlLabelPlacement} == "top") class="twocoltextcontrol lookup" #else class="textcontrol lookup" #end >
+#end
+<SalesLogix:LookupControl runat="server" ID="${qfcontrol.ControlId}" #if($qfcontrol.HotKey != "")AccessKey="$qfcontrol.HotKey" #end
+#if($qfcontrol.ToolTip != "") ToolTip="<%$ resources: ${qfcontrol.ControlId}.ToolTip %>" #end
+#if($qfcontrol.ButtonToolTip != "")ButtonToolTip="<%$ resources: ${qfcontrol.ControlId}.ButtonToolTip %>" #end
+#if($qfcontrol.IsReadOnly)ReadOnly="true" #end
+#if(!$qfcontrol.Enabled)Enabled="false" #end
+#if($qfcontrol.IsReadOnly)EnableLookup="false" #end
+#if($qfcontrol.LookupEntityName != "")LookupEntityName="$qfcontrol.LookupEntityName" #end
+#if($qfcontrol.LookupEntityTypeName != "")LookupEntityTypeName="$qfcontrol.LookupEntityTypeName" #end
+#if($IsPrintView)LookupDisplayMode="Text" #elseif($qfcontrol.LookupDisplayMode != "Dialog")LookupDisplayMode="$qfcontrol.LookupDisplayMode" #end
+#if($qfcontrol.LookupBindingMode != "Object")LookupBindingMode="$qfcontrol.LookupBindingMode" #end
+#if($qfcontrol.SeedProperty != "")SeedProperty="$qfcontrol.SeedProperty" #end
+#if($qfcontrol.DropDownDisplayProperty != "")DropDownDisplayProperty="$qfcontrol.DropDownDisplayProperty" #end
+#if(!$qfcontrol.ReturnPrimaryKey)ReturnPrimaryKey="false" #end
+#if($qfcontrol.EnableHyperLinking)EnableHyperLinking="true" #end
+#if($qfcontrol.InitializeLookup)InitializeLookup="true" #end
+#if($qfcontrol.HasActionCode || $qfcontrol.AutoPostBack)AutoPostBack="true" #end
+#if($qfcontrol.Required)Required="true" #end
+#if($qfcontrol.TabIndex > 0)TabIndex="$qfcontrol.TabIndex" #end
+#if(!$qfcontrol.AddEmptyListItem)AddEmptyListItem="false" #end
+#if($qfcontrol.AllowClearingResult)AllowClearingResult="true" #end
+#if($qfcontrol.StyleScheme != "")CssClass="$qfcontrol.StyleScheme" #end 
+#if(!$qfcontrol.Visible)Visible="false" #end 
+#if($qfcontrol.LookupDialogHeight)DialogHeight="$qfcontrol.LookupDialogHeight" #end 
+#if($qfcontrol.LookupDialogWidth)DialogWidth="$qfcontrol.LookupDialogWidth" #end 
+#if($qfcontrol.OverrideSeedOnSearch)OverrideSeedOnSearch="true" #end
+#if(${qfcontrol.LookupImage} != "")LookupImageURL="$generator.getImageResourceURL( ${qfcontrol.LookupImage} )" #end >
+<LookupProperties>
+#foreach($lprop in $qfcontrol.LookupProperties)
+<SalesLogix:LookupProperty PropertyHeader="$qfcontrol.GetHeader($lprop.PropertyName)" PropertyName="$lprop.PropertyName" PropertyType="$lprop.PropertyType" PropertyFormat="$lprop.PropertyFormat"  UseAsResult="$lprop.UseAsResult" ExcludeFromFilters="$lprop.ExcludeFromFilters"></SalesLogix:LookupProperty>
+#end
+</LookupProperties>
+<LookupPreFilters>
+#foreach($lprop in $qfcontrol.LookupPreFilters)
+<SalesLogix:LookupPreFilter PropertyName="$lprop.PropertyName" PropertyType="${lprop.PropertyType}" OperatorCode="$lprop.OperatorCode"
+#if($lprop.TranslateFilterValue) FilterValue="<%$ resources: ${qfcontrol.ControlId}.LUPF.${lprop.PropertyName} %>"
+#else FilterValue="$lprop.FilterValue"
+#end ></SalesLogix:LookupPreFilter>
+#end
+</LookupPreFilters>
+</SalesLogix:LookupControl>
+#if($qfcontrol.LookupDisplayMode != "ButtonOnly")
+  </div>
+#end
+#if((${qfcontrol.Caption} != "") && ($qfcontrol.ControlLabelPlacement == "right"))
+ <div class="lblright#if(${qfcontrol.CaptionAlignment} == "right") alignright#elseif(${qfcontrol.CaptionAlignment} == "center") aligncenter#else alignleft#end">
+   <asp:Label ID="${qfcontrol.LabelId}" AssociatedControlID="${qfcontrol.ControlId}" runat="server" Text="<%$ resources: ${qfcontrol.ControlId}.Caption %>" #if(!$qfcontrol.Visible)Visible="false" #end></asp:Label>
+ </div>   
+#end
+#if($qfcontrol.DataBindings.Count == 0)
+ $generator.addFormLoadCode("ClientBindingMgr.RegisterBoundControl(${qfcontrol.ControlID});")                
+#end

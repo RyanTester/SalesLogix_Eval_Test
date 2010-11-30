@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<NavigationItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="f37f7d5d-c75b-49fa-8f8f-d3faa9f43e3a">
+  <ItemId>navCalendar</ItemId>
+  <NavUrl>Calendar.aspx</NavUrl>
+  <LargeImageUrl>[Localization.Global_Images:Calendar_32x32]</LargeImageUrl>
+  <SmallImageUrl>[Localization.Global_Images:Calendar_24x24]</SmallImageUrl>
+  <ContextMenuId>contextCalendar</ContextMenuId>
+  <Target />
+</NavigationItem>

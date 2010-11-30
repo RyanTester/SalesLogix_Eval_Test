@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmPropertyMethod" id="23dbe5d1-d3f4-40ea-8753-28799c664bb2" lastModifiedUtc="2008-02-12T19:24:10.8757107Z" name="GetDefaultPrice" returnType="System.Decimal" methodType="PropertyAccessor" actionType="None" returnMode="Object" isInstance="true">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmPropertyMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter />
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="c721337a-64ad-43cb-a2ec-b772550a69f2" lastModifiedUtc="2008-02-12T19:23:42.1883943Z" targetType="Sage.SalesLogix.Product.Rules, Sage.SalesLogix.BusinessRules" targetMethod="GetDefaultPrice" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="b67acfca-de43-4e6f-ab18-34b872f95801" lastModifiedUtc="2008-01-21T16:48:55.9331133Z" cardinality="1:M" parentEntityId="a450e01b-fe42-4ab0-bb06-292caa98f528" childEntityId="8d7c19c8-d278-48d1-9771-b71528157efc">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="fd50c188-cd7f-4caa-b01d-5262d4fdbc56" lastModifiedUtc="2008-01-21T16:48:55.9331133Z" name="ReturnShippedProducts" audited="false" displayCategory="Intermediate" isNullable="true" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="c64fa1f6-6039-4c5d-95f2-0534f9e09d04" lastModifiedUtc="2008-01-18T22:26:59.6718557Z" name="Return" audited="false" displayCategory="Intermediate" isNullable="true" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="17c45967-6014-4aea-9919-19698bd4b6c5" parentPropertyId="840e2e2e-ed19-4f68-a73b-165028f476b8" childPropertyId="a580cc98-4b0a-4ab2-8eba-4b3c7e17e45e" ordinal="0" />
+  </column>
+</relationship>

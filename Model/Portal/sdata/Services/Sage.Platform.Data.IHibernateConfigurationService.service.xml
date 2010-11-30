@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<PortalService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="B106B9CC-0F1C-4adb-BBF1-4C1EA1C11350">
+  <InstanceId>50aee28ef9d5445085310fab78bae875</InstanceId>
+  <ServiceType>Sage.Platform.WebPortal.Services.WebHibernateConfigurationService, Sage.Platform.WebPortal</ServiceType>
+  <RegisterAs>Sage.Platform.Data.IHibernateConfigurationService, Sage.Platform</RegisterAs>
+  <Properties />
+</PortalService>

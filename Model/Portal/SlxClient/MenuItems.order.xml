@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="20192b8b-5b49-4cde-919d-8e7c96ceb7d1">mnuNew.menu.xml</Item>
+  <Item Id="9e931a6e-f83c-4416-a152-0daeea552f76">mnuSchedule.menu.xml</Item>
+  <Item Id="cb86c4af-0dc9-4a7e-8ba6-7fa0d9112e8d">mnuTools.menu.xml</Item>
+</ModelItems>

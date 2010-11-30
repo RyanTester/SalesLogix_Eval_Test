@@ -1,0 +1,20 @@
+#if(!$IsPrintView)
+#if(${qfcontrol.ButtonType} == "Icon") <asp:ImageButton #elseif(${qfcontrol.ButtonType} == "Link") <asp:LinkButton #else <asp:Button #end
+runat="server" ID="${qfcontrol.ControlId}"
+#if(${qfcontrol.Caption} != "")#if($qfcontrol.ButtonType != "Icon") Text=#else AlternateText=#end"<%$ resources: ${qfcontrol.ControlId}.Caption %>" #end
+#if($qfcontrol.ToolTip != "") ToolTip="<%$ resources: ${qfcontrol.ControlId}.ToolTip %>" #end
+#if($qfcontrol.TabIndex > 0)TabIndex="$qfcontrol.TabIndex" #end
+#if(${qfcontrol.HotKey} != "")AccessKey="${qfcontrol.HotKey}" #end
+#if($qfcontrol.StyleScheme != "")CssClass="$qfcontrol.StyleScheme" #end
+#if(!$qfcontrol.Visible)Visible="false" #end
+#if(${qfcontrol.Image} != "")ImageUrl="$generator.getImageResourceURL( ${qfcontrol.Image} )" #end
+#if(${qfcontrol.OnClientClick} != "") OnClientClick="${qfcontrol.ControlId}_ClientClick(); " 
+  #if(!${qfcontrol.HasActionCode}) UseSubmitBehavior="false" #end
+#end
+#if(${qfcontrol.IsReadOnly} || (!$qfcontrol.Enabled))Enabled="false" #end
+#if(${qfcontrol.OnClickAction.ConfirmationMessage} != "")
+$generator.addFormLoadCode( "${qfcontrol.ControlId}.OnClientClick = string.Format(&quot;return confirm('{0}');&quot;, Sage.Platform.WebPortal.PortalUtil.JavaScriptEncode(GetLocalResourceObject(&quot;${qfcontrol.OnClickAction.ResourceKey}.ActionConfirmationMessage&quot;).ToString()));" )
+#end
+ />
+ #if($qfcontrol.OnClickAction.PerformsUpdate()) $generator.addFormLoadCode("ClientBindingMgr.RegisterSaveButton(${qfcontrol.ControlId});") #end
+#end

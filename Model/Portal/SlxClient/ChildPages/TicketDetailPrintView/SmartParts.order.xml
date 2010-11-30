@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="1e59f671-1316-40fa-acfb-05146d0b67f8">TicketDetails.smartpart.xml</Item>
+  <Item Id="ddb2631d-f6f4-4af2-af7e-0d4b462ed1c5">ExtendedDetails.smartpart.xml</Item>
+  <Item Id="8d791b29-25b9-48ea-a48b-788306399fbb">TicketActivities.smartpart.xml</Item>
+  <Item Id="708e9400-836e-407e-81f7-07d6a350afdd">TicketComments.smartpart.xml</Item>
+  <Item Id="19e51694-62b9-4482-aa46-f866918e55cf">CalendarActivities.smartpart.xml</Item>
+</ModelItems>

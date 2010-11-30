@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<mashup id="93d00795-f976-4208-b702-461761a2c1bd" name="TicketTimeline">
+  <processors>
+    <processor type="Sage.Platform.Mashups.Processors.SnippetProcessor, Sage.Platform.Mashups">
+      <snippetProcessor name="ActivitySnippet" location="40, 40" expanded="True" width="240" continueOnError="False" methodName="Activity.GetActivitiesForMashup">
+        <parameters>
+          <parameter id="55cdff16-191f-4437-a9af-23c537acf1c8" name="EntityId" expression="EntityId" />
+        </parameters>
+      </snippetProcessor>
+    </processor>
+    <processor type="Sage.Platform.Mashups.Processors.SelectProcessor, Sage.Platform.Mashups">
+      <selectProcessor name="ActivityPreSelect" location="40, 260" expanded="True" width="240" continueOnError="False" type="Append">
+        <properties>
+          <property id="a434f6ff-4776-4871-a0ba-a4e64ef87f77" expression="IIF(Timeless, TimelessStart(StartDate), StartDate)" alias="Start" />
+          <property id="b6f5c523-cabf-48ad-aca1-af3a36449e98" expression="IIF(Timeless, TimelessEnd(StartDate), EndDate)" alias="End" />
+        </properties>
+      </selectProcessor>
+    </processor>
+    <processor type="Sage.Platform.Mashups.Processors.TimelineSelectProcessor, Sage.Platform.Mashups">
+      <selectProcessor name="ActivitySelect" location="40, 420" expanded="True" width="240" continueOnError="False" type="Replace">
+        <properties>
+          <property id="dcdaffa0-7c09-4218-9eae-296529f17ce1" expression="ToString" alias="Title" />
+          <property id="e9275d04-4a2e-44a0-86c7-a4d1939ed4d0" expression="Start" alias="Start" />
+          <property id="26210eb6-3285-4528-90c5-ea592283c9ba" expression="End" alias="End" />
+          <property id="ad3eb776-84e1-43f2-bb89-34c3e3dac360" expression="SubString(Notes, 0, 255)" alias="Description" />
+          <property id="0c1f7688-a9b2-41bd-8790-6c29330318ad" expression="'#990000'" alias="Color" />
+          <property id="27383e6e-110a-429c-8902-2c152b8a9999" expression="IIF(Type = 262146, 'images/phone.gif', IIF(Type = 262145, 'images/meeting.gif', IIF(Type = 262147, 'images/todo.gif', IIF(Type = 262162, 'images/icons/Personal_16x16.gif', ''))))" alias="Icon" />
+          <property id="f60e0008-f36f-46d7-a9fe-769ea285e2f4" expression="IIF(Recurring, Concat('javascript:Link.editActivityOccurrence(''', Coalesce(Id, ActivityId), ''', ''', ToInvariantCulture(StartDate), ''')'), Concat('javascript:Link.editActivity(''', Coalesce(Id, ActivityId), ''')'))" alias="Link" />
+          <property id="80891e81-2f3e-4896-b298-81e45dd9d195" expression="End - Start &gt;= 1" alias="IsDuration" />
+          <property id="d52556ce-89f0-4e76-88b6-2e0f5a05f233" expression="'Notes'" alias="Thumbnail" />
+        </properties>
+      </selectProcessor>
+    </processor>
+    <processor type="Sage.Platform.Mashups.Processors.QueryProcessor, Sage.Platform.Mashups">
+      <queryProcessor name="TicketActivityQuery" location="320, 40" expanded="True" width="240" continueOnError="False" query="select CompletedDate, DateDue, AssignedDate, ModifyDate, ShortDescription, ActivityDescription, Id&#xD;&#xA;from TicketActivity a&#xD;&#xA;where a.Ticket.Id = :TicketId&#xD;&#xA;and (ActivityTypeCode != 'k6UJ9A000033') and (a.ShortDescription is not null&#xD;&#xA;or a.ActivityDescription is not null)&#xD;&#xA;order by a.CreateDate Desc" maximumResults="800">
+        <parameters>
+          <parameter id="e954cd6b-22ab-4a45-b9fe-e6a97ae6139f" name="TicketId" expression="EntityId" />
+        </parameters>
+      </queryProcessor>
+    </processor>
+    <processor type="Sage.Platform.Mashups.Processors.SelectProcessor, Sage.Platform.Mashups">
+      <selectProcessor name="TicketActivityPreSelect" location="320, 260" expanded="True" width="240" continueOnError="False" type="Append">
+        <properties>
+          <property id="33786dcb-e62c-4b2d-925f-9c5a5f0abdad" expression="TimelessStart(Coalesce(CompletedDate, DateDue, AssignedDate, ModifyDate))" alias="Start" />
+          <property id="01b0ab75-0103-4e62-a46f-0f3eedc83461" expression="TimelessEnd(Coalesce(CompletedDate, DateDue, AssignedDate, ModifyDate))" alias="End" />
+        </properties>
+      </selectProcessor>
+    </processor>
+    <processor type="Sage.Platform.Mashups.Processors.TimelineSelectProcessor, Sage.Platform.Mashups">
+      <selectProcessor name="TicketActivitySelect" location="320, 420" expanded="True" width="240" continueOnError="False" type="Replace">
+        <properties>
+          <property id="a0942de1-3386-4268-ace3-b658256ecdb7" expression="Coalesce(ShortDescription, IIF(Len(ActivityDescription) &gt; 28, Concat(SubString(ActivityDescription, 0, 25), '...'), ActivityDescription))" alias="Title" />
+          <property id="9f8c613d-9f45-4ef9-8252-58d83c3b9381" expression="Start" alias="Start" />
+          <property id="4343fe32-6a3d-4246-a730-f2c91b9e3158" expression="End" alias="End" />
+          <property id="a6ae31e3-ab3a-4481-9f6f-a5c57d798a2e" expression="ActivityDescription" alias="Description" />
+          <property id="92ddc574-70d7-455d-bb58-249bee3b614b" expression="'#996666'" alias="Color" />
+          <property id="27383e6e-110a-429c-8902-2c152b8a8888" expression="'images/icons/Schedule_Ticket_Activity_16x16.gif'" alias="Icon" />
+          <property id="bd4a8172-a0ff-43f4-bd8b-6cc6efb81bc7" expression="Concat('TicketActivity.aspx?entityid=', Id)" alias="Link" />
+          <property id="80891e81-2f3e-4896-b298-81e45dd9d195" expression="End - Start &gt;= 1" alias="IsDuration" />
+          <property id="d52556ce-89f0-4e76-88b6-2e0f5a05f233" expression="'Notes'" alias="Thumbnail" />
+        </properties>
+      </selectProcessor>
+    </processor>
+    <processor type="Sage.Platform.Mashups.Processors.QueryProcessor, Sage.Platform.Mashups">
+      <queryProcessor name="HistoryQuery" location="600, 40" expanded="True" width="240" continueOnError="False" query="from History h&#xD;&#xA;where h.TicketId = :TicketId&#xD;&#xA;order by h.CompletedDate Desc" maximumResults="800">
+        <parameters>
+          <parameter id="82b5ca7b-7b55-4a6e-8ef3-e907445fbeb2" name="TicketId" expression="EntityId" />
+        </parameters>
+      </queryProcessor>
+    </processor>
+    <processor type="Sage.Platform.Mashups.Processors.SelectProcessor, Sage.Platform.Mashups">
+      <selectProcessor name="HistoryPreSelect" location="600, 260" expanded="True" width="240" continueOnError="False" type="Append">
+        <properties>
+          <property id="221f9758-7fea-42a2-9bfd-950080214774" expression="IIF(Timeless, TimelessStart(CompletedDate), AddMinutes(CompletedDate, -1*Duration))" alias="Start" />
+          <property id="fe3b6137-c301-42cb-8d25-d05b934baf60" expression="IIF(Timeless, TimelessEnd(CompletedDate), CompletedDate)" alias="End" />
+        </properties>
+      </selectProcessor>
+    </processor>
+    <processor type="Sage.Platform.Mashups.Processors.TimelineSelectProcessor, Sage.Platform.Mashups">
+      <selectProcessor name="HistorySelect" location="600, 420" expanded="True" width="240" continueOnError="False" type="Replace">
+        <properties>
+          <property id="c80c4f74-c3a9-4cee-a255-7294cffea0f3" expression="ToString" alias="Title" />
+          <property id="6e3a310e-fbd8-4e14-afb9-a9d3ec16b6ad" expression="Start" alias="Start" />
+          <property id="bdcea4c8-e183-47f5-832e-b75d16d2c30f" expression="End" alias="End" />
+          <property id="c16c5436-5297-45de-8010-ea6b1a2a0592" expression="SubString(Notes, 0, 255)" alias="Description" />
+          <property id="36ee2e3b-fa9a-457e-9ee5-86b746026718" expression="'#996666'" alias="Color" />
+          <property id="27383e6e-110a-429c-8902-2c152b8afffa" expression="IIF(Type = 262146, 'images/phone.gif', IIF(Type = 262145, 'images/meeting.gif', IIF(Type = 262147, 'images/todo.gif', IIF(Type = 262154, 'images/email.gif', IIF(Type = 262154, 'images/mail_16.gif', IIF(Type = 262155, 'images/fax_16.gif', IIF(Type = 262162, 'images/icons/Personal_16x16.gif', 'images/note_16.gif')))))))" alias="Icon" />
+          <property id="167e966c-3de8-440e-9d4e-68323a132dee" expression="Concat('javascript:Link.editHistory(''', Id, ''')')" alias="Link" />
+          <property id="80891e81-2f3e-4896-b298-81e45dd9d195" expression="End - Start &gt;= 1" alias="IsDuration" />
+          <property id="d52556ce-89f0-4e76-88b6-2e0f5a05f233" expression="'Notes'" alias="Thumbnail" />
+        </properties>
+      </selectProcessor>
+    </processor>
+    <processor type="Sage.Platform.Mashups.Processors.SelectProcessor, Sage.Platform.Mashups">
+      <selectProcessor name="AllResults" location="320, 660" expanded="True" width="240" continueOnError="False" type="Append">
+        <properties />
+      </selectProcessor>
+    </processor>
+  </processors>
+  <parameters>
+    <parameter id="763c6fb3-3558-464b-ae01-093e577e56cf" name="EntityId" expression="'tDEMOA00000B'" />
+  </parameters>
+  <links>
+    <link source="ActivitySnippet" target="ActivityPreSelect" />
+    <link source="ActivityPreSelect" target="ActivitySelect" />
+    <link source="TicketActivityQuery" target="TicketActivityPreSelect" />
+    <link source="TicketActivityPreSelect" target="TicketActivitySelect" />
+    <link source="HistoryQuery" target="HistoryPreSelect" />
+    <link source="HistoryPreSelect" target="HistorySelect" />
+    <link source="ActivitySelect" target="AllResults" />
+    <link source="HistorySelect" target="AllResults" />
+    <link source="TicketActivitySelect" target="AllResults" />
+  </links>
+</mashup>

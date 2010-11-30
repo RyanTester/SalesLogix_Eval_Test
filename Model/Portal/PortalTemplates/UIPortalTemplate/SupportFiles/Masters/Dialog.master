@@ -1,0 +1,40 @@
+<%@ Master Language="C#" %>
+<%@ Register Assembly="Sage.Platform.WebPortal" Namespace="Sage.Platform.WebPortal.SmartParts" TagPrefix="smartParts" %>
+<%@ Register Assembly="Sage.Platform.WebPortal" Namespace="Sage.Platform.WebPortal.Workspaces" TagPrefix="workSpace" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<script type="text/C#" runat="server">
+	public void Page_Load(object sender, EventArgs e)
+	{
+		Page.Title = GetLocalResourceObject("DialogPageTitle").ToString();
+	}
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+	<title>Sage SalesLogix</title>
+    <link rel="stylesheet" type="text/css" href="~/css/SlxBase.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/quickform.css" />
+	<link rel="stylesheet" type="text/css" href="~/css/YUI/fonts.css" />
+	<link rel="stylesheet" type="text/css" href="~/css/YUI/reset.css" /> 
+	<link type="text/css" href="~/css/SlxBase.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="~/css/yui/container.css" /> 
+    
+     <script type="text/javascript">
+        function ScheduleActivity(ActivityType) {
+            var vURL = 'activity.aspx?modeid=Insert&type=' + ActivityType;
+            window.open(vURL, 'EditActivity','resizable=yes,centerscreen=yes,width=950,height=425,status=no,toolbar=no,scrollbars=yes');
+        }  
+    </script>
+    
+</head>
+<body>
+	<form id="mainform" runat="server" method="post" action="javascript:void(0);">
+		<div class="ContentArea">
+			<!-- all page content goes here  -->
+            <workSpace:MainContentWorkspace ID="MainContent" runat="server" SmartPartInfoStyle-CssClass="mainContentHeader" SmartPartContainerStyle-CssClass="mainContentContent" />
+<%--			<workSpace:StandardWorkspace ID="MainContent" runat="server" />
+--%>		</div>
+	</form>
+</body>
+</html>

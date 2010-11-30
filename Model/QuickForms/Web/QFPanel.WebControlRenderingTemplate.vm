@@ -1,0 +1,40 @@
+<SalesLogix:TabPanel ID="${qfcontrol.ControlId}" runat="server" #if(!$qfcontrol.Enabled)Enabled="false" #end
+ #if(${qfcontrol.Caption} != "")TabCaption="<%$ resources: ${qfcontrol.ControlId}.Caption %>" #end
+ #if(!$qfcontrol.Visible)Visible="false" #end
+#if($qfcontrol.StyleScheme != "") CssClass="$qfcontrol.StyleScheme" #end
+>
+#if($qfcontrol.Controls.Count == 1)
+  #foreach($elem in ${qfcontrol.Controls})$pagegenerator.parseControl($elem.Control)#end
+#elseif($qfcontrol.Controls.Count > 1)
+ #makestarttable
+ #foreach($rowindex in [1..${qfcontrol.Rows.Count}])
+  <tr>
+   #foreach($colindex in [1..${qfcontrol.Columns.Count}])
+    #set($realRowIndex = $rowindex - 1) 
+    #set($realColIndex = $colindex - 1)
+    #set($control = ${qfcontrol.getControlByCell($realColIndex, $realRowIndex)})
+    #if($control.ControlId == "IsEmpty")
+      <td></td>
+    #elseif($control.ControlId != "IsSpan")
+      <td #if($control.RowSpan > 1)rowspan="${control.RowSpan}" #end #if($control.ColumnSpan > 1)colspan="${control.ColumnSpan}" #end>
+       $pagegenerator.parseControl($control)
+      </td>
+    #end
+   #end
+  </tr>
+ #end
+ </table>
+#end
+               
+</SalesLogix:TabPanel>
+#macro(makestarttable)<table border="0" cellpadding="1" cellspacing="0" class="slx-tab-panel">
+ #foreach($columnDef in $qfcontrol.Columns)
+  #if($columnDef.SizeType == "Absolute")
+   <col width="${pagegenerator.GetColumnWidthString($columnDef)}px" />
+  #elseif($columnDef.SizeType == "Percent")
+   <col width="${pagegenerator.GetColumnWidthString($columnDef)}%" />
+  #else
+   <col />
+  #end
+ #end 
+#end

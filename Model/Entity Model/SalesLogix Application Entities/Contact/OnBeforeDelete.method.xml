@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="11e41f9b-d01c-4a9d-9b6f-e3c582d44dc5" lastModifiedUtc="2009-11-09T22:32:22.4083065Z" name="OnBeforeDelete" methodType="CrudEvent" actionType="None" returnMode="None">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter />
+  <preExecuteTargets>
+    <methodTarget id="5260e3f9-3e91-4a0c-89a3-fe6fe6f2a105" lastModifiedUtc="2009-11-12T17:49:23.6375291Z" targetType="Sage.SalesLogix.Contact.Rules, Sage.SalesLogix.BusinessRules" targetMethod="ValidateBeforeContactDeletion" active="true" description="Validates contact is not related to a ticket or sales order. If so an exception is raised, else the primary step is executed to delete the contact.">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </preExecuteTargets>
+  <methodTargets>
+    <methodTarget id="dd5574c6-a709-4344-b577-1eba909b980d" lastModifiedUtc="0001-01-01T00:00:00" targetType="Sage.SalesLogix.Contact.Rules, Sage.SalesLogix.BusinessRules" targetMethod="OnBeforeDelete" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

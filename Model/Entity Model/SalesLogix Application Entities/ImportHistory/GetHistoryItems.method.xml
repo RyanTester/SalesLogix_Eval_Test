@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="cc7b1685-a78e-4c89-bd46-4a09cd0988d3" lastModifiedUtc="2007-08-22T17:33:19.639861Z" name="GetHistoryItems" returnType="object" methodType="Rule" actionType="None" returnMode="Object" isInstance="true">
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter />
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="9f72adf4-3eeb-4425-b498-d38d379584e5" lastModifiedUtc="2007-08-22T17:36:21.6406054Z" targetType="Sage.SalesLogix.ImportHistory.Rules, Sage.SalesLogix.BusinessRules" targetMethod="GetHistoryItems" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

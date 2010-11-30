@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ContractItem\ContractItem.CONTRACTITEM.entity.xml" timeStamp="2009-11-19T20:10:51.8530" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ContractItem\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:51.7900" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ContractItem\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:51.7900" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ContractItem\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:51.7900" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ContractItem\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:51.8070" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ContractItem\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:51.8070" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ContractItem\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:51.8070" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ContractItem\OnCreate.method.xml" timeStamp="2009-11-19T20:10:51.8070" />
+</exportedFiles>

@@ -1,0 +1,77 @@
+#if($qfcontrol.ControlId != "MainEntity")
+#if($qfcontrol.IsCollection)
+private Sage.Platform.WebPortal.Binding.WebEntityListBindingSource _${qfcontrol.ControlId};
+public Sage.Platform.WebPortal.Binding.WebEntityListBindingSource ${qfcontrol.ControlId}
+#else
+private Sage.Platform.WebPortal.Binding.WebEntityBindingSource _${qfcontrol.ControlId};
+public Sage.Platform.WebPortal.Binding.WebEntityBindingSource ${qfcontrol.ControlId}
+#end
+{ 
+  get 
+  {
+    if (_${qfcontrol.ControlId} == null)
+    {
+      #if($qfcontrol.IsCollection)
+       _${qfcontrol.ControlId} = new Sage.Platform.WebPortal.Binding.WebEntityListBindingSource(typeof(${qfcontrol.getFullBoundEntityTypeName()}), 
+	   #if($qfcontrol.getFullSourceTypeName() == $entitytype) EntityType #else typeof( ${qfcontrol.getFullSourceTypeName()} ) #end
+      #else
+       _${qfcontrol.ControlId} = new Sage.Platform.WebPortal.Binding.WebEntityBindingSource(typeof(${qfcontrol.getFullBoundEntityTypeName()}),
+	   #if($qfcontrol.getFullSourceTypeName() == $entitytype) EntityType #else typeof( ${qfcontrol.getFullSourceTypeName()} ) #end
+      #end
+      #if(${qfcontrol.HasRealGetByMethod()})
+        ,"${qfcontrol.GetByMethod}", System.Reflection.MemberTypes.Method);
+      #elseif($qfcontrol.GetByProperty != "") ,"${qfcontrol.GetByProperty}", System.Reflection.MemberTypes.Property);
+      #else ); #end
+      #if(($qfcontrol.IsCollection) && ($qfcontrol.GetByProperty != "") && ($qfcontrol.UseSmartSelection) && (!${qfcontrol.HasRealGetByMethod()}))
+       _${qfcontrol.ControlId}.UseSmartQuery = true;
+      #end
+ 	}
+ 	return _${qfcontrol.ControlId};
+  }
+}
+
+void ${qfcontrol.ControlId}_OnCurrentEntitySet(object sender, EventArgs e) 
+{
+#if($qfcontrol.GetByMethod == "<create>")
+    string changeKey = GetChangeStateKey(typeof(${qfcontrol.getFullBoundEntityTypeName()}), Sage.Platform.Orm.Entities.EntityViewMode.Insert);
+    object current = Sage.Platform.EntityFactory.Create<${qfcontrol.getFullBoundEntityTypeName()}>();
+    RestoreEntityChanges(changeKey, current);
+    ${qfcontrol.ControlId}.Current = current;
+#elseif($qfcontrol.GetByMethod == "<getParent>")
+    Sage.Entity.Interfaces.I${qfcontrol.EntityTypeName} _entity = GetParentEntity() as Sage.Entity.Interfaces.I${qfcontrol.EntityTypeName};
+    if (_entity != null) {
+        ${qfcontrol.ControlId}.Current = _entity;
+    }
+#else
+  #if($qfcontrol.GetByMethod == "<useCurrentContext>")
+    ${qfcontrol.ControlId}.Current = BindingSource.Current;
+  #end
+    if (Visible)
+    { $generator.addFormLoadCode("if (${qfcontrol.ControlId}.SourceObject == null) { ${qfcontrol.ControlId}.SourceObject = BindingSource.Current; }")
+      $generator.addFormLoadCode("if (${qfcontrol.ControlId}.SourceObject == null) { RegisterBindingsWithClient(${qfcontrol.ControlId}); }")
+        ${qfcontrol.ControlId}.SourceObject = BindingSource.Current;
+   #if($qfcontrol.IsSourceForListControl)  $generator.addFormLoadCode("if (${qfcontrol.ControlId}.SourceObject == null) { ${qfcontrol.ControlId}.Bind(); }")
+        ${qfcontrol.ControlId}.Bind();
+   #end
+    }
+#end
+   if (Visible)
+   {   
+      RegisterBindingsWithClient(${qfcontrol.ControlId});
+   }
+}
+
+#if(!$qfcontrol.IsSourceForListControl)
+ $generator.addFormLoadCode("${qfcontrol.ControlId}.Bind(#if(${qfcontrol.hasMultipleBindings()}) true #end);")
+#end
+
+#if(${qfcontrol.GetByMethod} == "<create>")
+protected override void OnUnload(EventArgs e)
+{
+    base.OnUnload(e);
+    string changeKey = GetChangeStateKey(typeof(${qfcontrol.getFullBoundEntityTypeName()}), Sage.Platform.Orm.Entities.EntityViewMode.Insert);
+    SaveEntityChanges(changeKey, ${qfcontrol.ControlId}.Current);
+}
+#end
+
+#end

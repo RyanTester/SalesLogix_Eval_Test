@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\PortalTemplates\UIPortalTemplate\SupportFiles\connection.config" timeStamp="2009-11-19T20:10:57.6400" />
+  <exportedFile url="\Portal\PortalTemplates\UIPortalTemplate\SupportFiles\Default.aspx" timeStamp="2009-11-19T20:10:57.6400" />
+  <exportedFile url="\Portal\PortalTemplates\UIPortalTemplate\SupportFiles\Default.aspx.cs" timeStamp="2009-11-19T20:10:57.6400" />
+  <exportedFile url="\Portal\PortalTemplates\UIPortalTemplate\SupportFiles\deployables.manifest.xml" timeStamp="2009-11-19T20:10:57.6700" />
+  <exportedFile url="\Portal\PortalTemplates\UIPortalTemplate\SupportFiles\dynamicmethods.xml" timeStamp="2009-11-19T20:10:57.7470" />
+  <exportedFile url="\Portal\PortalTemplates\UIPortalTemplate\SupportFiles\Global.asax" timeStamp="2009-11-19T20:10:57.6870" />
+  <exportedFile url="\Portal\PortalTemplates\UIPortalTemplate\SupportFiles\log4net.config" timeStamp="2009-11-19T20:10:57.7000" />
+  <exportedFile url="\Portal\PortalTemplates\UIPortalTemplate\SupportFiles\Web.config" timeStamp="2009-11-19T20:10:57.7000" />
+  <exportedFile url="\Portal\PortalTemplates\UIPortalTemplate\SupportFiles\bin\" />
+  <exportedFile url="\Portal\PortalTemplates\UIPortalTemplate\SupportFiles\Masters\" />
+</exportedFiles>

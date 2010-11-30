@@ -1,0 +1,293 @@
+<%@ Import namespace="Sage.SalesLogix.Client.GroupBuilder"%>
+<%@ Import namespace="Sage.Platform.Application.UI.Web"%>
+<%@ Import namespace="Sage.Platform.Application.UI"%>
+<%@ Import namespace="Sage.SalesLogix"%>
+<%@ Import namespace="Sage.Platform.Application"%>
+<%@ Import namespace="Sage.Platform.Security"%>
+<%@ Master Language="C#" %>
+<%@ Register Assembly="Sage.SalesLogix.Client.GroupBuilder" Namespace="Sage.SalesLogix.Client.GroupBuilder.Controls" TagPrefix="SalesLogix" %>
+<%@ Register Assembly="Sage.Platform.WebPortal" Namespace="Sage.Platform.WebPortal.SmartParts" TagPrefix="smartParts" %>
+<%@ Register Assembly="Sage.Platform.WebPortal" Namespace="Sage.Platform.WebPortal.Workspaces" TagPrefix="workSpace" %>
+<%@ Register Assembly="Sage.Platform.WebPortal" Namespace="Sage.Platform.WebPortal.Services" TagPrefix="Services" %>
+<%@ Register Assembly="Sage.SalesLogix.Web.Controls" Namespace="Sage.SalesLogix.Web.Controls.PickList" TagPrefix="SalesLogix" %>
+<%@ Register Assembly="Sage.SalesLogix.Web.Controls" Namespace="Sage.SalesLogix.Web.Controls" TagPrefix="SalesLogix" %>
+<%@ Register Assembly="Sage.SalesLogix.Web.Controls" Namespace="Sage.SalesLogix.Web.Controls.Lookup" TagPrefix="SalesLogix" %>
+<%@ Register Assembly="Sage.SalesLogix.Web.Controls" Namespace="Sage.SalesLogix.Web.Controls.ScriptResourceProvider" TagPrefix="Saleslogix" %>
+<%@ Register Assembly="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Namespace="System.Web.UI" TagPrefix="asp" %>
+<%@ Register Assembly="Sage.Platform.WebPortal" Namespace="Sage.Platform.WebPortal.Workspaces.Tab" TagPrefix="tws" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<script runat="server">
+
+    public bool IncludeMiddlePane
+    {
+        get { return TabControl.IncludeMiddlePane; }
+        set { TabControl.IncludeMiddlePane = value; }
+    }
+
+    public bool IncludeMoreTabsTab
+    {
+        get { return TabControl.IncludeMoreTabsTab; }
+        set { TabControl.IncludeMoreTabsTab = value; }
+    }
+
+    public int DefaultVisibleTabCount
+    {
+        get { return TabControl.DefaultVisibleTabCount; }
+        set { TabControl.DefaultVisibleTabCount = value; }
+    }
+
+    [System.ComponentModel.Editor("Sage.Platform.WebPortal.Design.UITypeEditors.SmartPartTypeEditor, Sage.Platform.WebPortal.Design", typeof(System.Drawing.Design.UITypeEditor))]
+    public string OverrideActiveTab
+    {
+        get { return TabControl.OverrideActiveTab; }
+        set { TabControl.OverrideActiveTab = value; }
+    }
+
+    private bool _includeCollapseBtn = true;
+    public bool MainContentWorkspace_IncludeCollapseButton
+    {
+        get { return _includeCollapseBtn; }
+        set { _includeCollapseBtn = value; }
+    }
+
+    public bool IncludeTaskPane
+    {
+        get { return TaskPane.Visible; }
+        set { TaskPane.Visible = value; }
+    }
+
+    [System.ComponentModel.Browsable(false)]
+    public override string ID
+    {
+        get { return base.ID; }
+        set { base.ID = value; }
+    }
+
+    [System.ComponentModel.Browsable(false)]
+    public override bool Visible
+    {
+        get { return base.Visible; }
+        set { base.Visible = value; }
+    }
+
+    [System.ComponentModel.Browsable(false)]
+    public new string MasterPageFile
+    {
+        get { return base.MasterPageFile; }
+        set { base.MasterPageFile = value; }
+    }
+
+    protected void LoginName_Load(object sender, EventArgs e)
+    {
+        Sage.SalesLogix.Security.SLXUserService userService = Sage.Platform.Application.ApplicationContext.Current.Services.Get<Sage.Platform.Security.IUserService>() as Sage.SalesLogix.Security.SLXUserService;
+        if (userService != null)
+        {
+            Sage.SalesLogix.Web.WebPortalUserService user = (Sage.SalesLogix.Web.WebPortalUserService) userService;
+            Sage.SalesLogix.Security.PortalUser portalUser = user.GetPortalUser();
+            LoginName.Text = String.Format(GetLocalResourceObject("UserWelcomeText").ToString(), portalUser.Contact.FirstName, portalUser.Contact.LastName);
+        }
+    }
+
+    public void Page_Load(object sender, EventArgs e)
+    {
+        System.Globalization.CultureInfo currentCulture = System.Globalization.CultureInfo.CurrentUICulture;
+        string extCultureScript = @"<script pin=""pin"" type=""text/javascript"" src=""libraries/ext/locale/ext-lang-{0}.js""><" + @"/script>";
+        string extCulturePath = "~/Libraries/Ext/locale/ext-lang-{0}.js";
+        if (System.IO.File.Exists(Server.MapPath(String.Format(extCulturePath, currentCulture.Name.Replace("-", "_")))))
+            Page.Header.Controls.Add(new LiteralControl(String.Format(extCultureScript, currentCulture.Name.Replace("-", "_"))));
+        else if (currentCulture.Parent != null && System.IO.File.Exists(Server.MapPath(String.Format(extCulturePath, currentCulture.Parent.Name))))
+            Page.Header.Controls.Add(new LiteralControl(String.Format(extCultureScript, currentCulture.Parent.Name)));
+
+        // hide the task pane on all pages
+        IncludeTaskPane = false;
+
+        Page.Title = GetLocalResourceObject("BasePageTitle").ToString();
+        ClientGroupContextService clientGroupContext = new ClientGroupContextService();
+        Page.Form.Controls.Add(clientGroupContext);
+    }
+    public string HelpLink
+    {
+        get
+        {
+            string cacheKey = "HelpLink";
+            if (Cache[cacheKey] == null)
+            {
+                PageLink pageLink = new PageLink();
+                pageLink.LinkType = enumPageLinkType.HelpFileName;
+                pageLink.NavigateUrl = "Help";
+                pageLink.Target = "MCWebHelp";
+
+                Cache.Insert(cacheKey, pageLink.GetWebHelpLink().Url);
+            }
+
+            return Cache[cacheKey].ToString();
+        }
+    }
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+	<title>Sage SalesLogix Customer Portal</title>
+	<link rel="stylesheet" type="text/css" href="~/css/YUI/fonts.css" />
+	<link rel="stylesheet" type="text/css" href="~/css/YUI/reset.css" /> 
+    <link rel="stylesheet" type="text/css" href="~/Libraries/Ext/resources/css/ext-all.css" />
+    <link rel="stylesheet" type="text/css" href="~/Libraries/Ext/ux/resources/css/ext-ux-livegrid.css" />         
+	<link rel="stylesheet" type="text/css" href="~/css/YUI/container.css" />
+          
+    <script pin="pin" type="text/javascript" src="Libraries/jQuery/jquery.js"></script>
+    <script pin="pin" type="text/javascript" src="Libraries/jQuery/jquery.selectboxes.js"></script>
+    <script pin="pin" type="text/javascript" src="Libraries/jQuery/jquery-ui.js"></script>
+    <script pin="pin" type="text/javascript" src="Libraries/Ext/adapter/jquery/ext-jquery-adapter.js"></script>
+    <script pin="pin" type="text/javascript" src="Libraries/Ext/ext-all.js"></script>
+    <script pin="pin" type="text/javascript" src="Libraries/Ext/ext-overrides.js"></script>
+    <script pin="pin" type="text/javascript" src="Libraries/Ext/ux/ext-ux-livegrid-combined-min.js"></script>
+    <script pin="pin" type="text/javascript" src="jscript/YUI/yui-combined-min.js"></script>     
+    <script pin="pin" type="text/javascript" src="jscript/sage-platform/sage-platform.js"></script>
+    <script pin="pin" type="text/javascript" src="jscript/sage-controls/sage-controls.js"></script>
+    <script pin="pin" type="text/javascript" src="jscript/sage-common/sage-common.js"></script>
+    
+
+
+    
+    
+    <link rel="stylesheet" type="text/css" href="~/css/sage-styles.css" />      
+    
+</head>
+<body>
+    <script pin="pin" type="text/javascript">
+    Ext.BLANK_IMAGE_URL = 'libraries/ext/resources/images/default/s.gif';   
+    <% if (TaskPane.Visible) { %>
+    var __includeTaskPane = true;    
+    <% } else { %>
+    var __includeTaskPane = false;
+    <% } %>
+    var localTitleTagId = '<%= localTitle.ClientID %>';
+    </script>
+	<form id="mainform" runat="server" style="width:100%; height:100%;">
+		<div id="asyncpostbackindicator" style="visibility:hidden;position:absolute;top:3em;right:0.5em;"><asp:Image ID="LoadingImage" ImageUrl="~/images/loading_animation_liferay.gif"  AlternateText="<%$ resources: Loading %>" runat="server" /></div>
+
+        <SalesLogix:ScriptResourceProvider ID="MasterPageLinks" runat="server">
+            <Keys>
+                <SalesLogix:ResourceKeyName Key="Options" />
+                <SalesLogix:ResourceKeyName Key="LogOff" />
+                <SalesLogix:ResourceKeyName Key="Help" />
+                <SalesLogix:ResourceKeyName Key="Groups" />
+                <SalesLogix:ResourceKeyName Key="IdleMessage" />
+                <SalesLogix:ResourceKeyName Key="LogoffMessage" />
+                <SalesLogix:ResourceKeyName Key="WebClientHelp" />
+                <SalesLogix:ResourceKeyName Key="GettingStartedGuide" />
+                <SalesLogix:ResourceKeyName Key="Lookup" />
+                <SalesLogix:ResourceKeyName Key="LookupBtnWidth" />
+                <SalesLogix:ResourceKeyName Key="LookupSaveAsGroup" />
+                <SalesLogix:ResourceKeyName Key="SaveLookupAsGroupNamePrompt" />
+                <SalesLogix:ResourceKeyName Key="SaveLookupAsGroupNameDlgTitle" />
+                <SalesLogix:ResourceKeyName Key="AdHocDialog_NoneSelectedNewGroup" />
+                <SalesLogix:ResourceKeyName Key="AdHocDialog_NoneSelectedTitle" />      
+                <SalesLogix:ResourceKeyName Key="AdHocDialog_NewGroupNamePrompt" />      
+                <SalesLogix:ResourceKeyName Key="AdHocDialog_NewGroupTitle" />      
+                <SalesLogix:ResourceKeyName Key="AdHocDialog_NewGroupRePrompt" />      
+                <SalesLogix:ResourceKeyName Key="AdHocDialog_NoData" />  
+                <SalesLogix:ResourceKeyName Key="AdHocDialog_NoneSelectedRemove" />  
+                <SalesLogix:ResourceKeyName Key="AdHocDialog_NoneSelectedAddToGroup" />  
+                <SalesLogix:ResourceKeyName Key="AdHocDialog_NoEmail" />  
+                <SalesLogix:ResourceKeyName Key="AdHocDialog_NoneSelectedExcel" />
+                <SalesLogix:ResourceKeyName Key="ActivitiesDialog_DeleteActivity" />
+                <SalesLogix:ResourceKeyName Key="ActivitiesDialog_DeleteActivityTitle" />
+                <SalesLogix:ResourceKeyName Key="MissingElementsErrorMgs" />
+                <SalesLogix:ResourceKeyName Key="TooManyGroupsTipText" />
+                <SalesLogix:ResourceKeyName Key="TooManyGroupsTipLinkText" />
+            </Keys>
+        </SalesLogix:ScriptResourceProvider>
+        <div id="west_panel_content" class="x-hide-display">
+            <div id="NavBarArea" class="NavBar" style="visibility:hidden;">
+                <workSpace:NavWorkspace ID="NavBar" runat="server" ImagePosition="left"></workSpace:NavWorkspace>
+            </div>
+            <div id="ExtNavBar"></div>
+        </div>
+        <div id="south_panel_content" class="x-hide-display south_panel">
+            <span id="copyright" style="float:left"><asp:Localize ID="copyrightMessage" EnableViewState="false" runat="server" Text="<%$ Resources: SalesLogixPortal, Copyright %>"/></span>
+            <span id="lclCurrentDate" style="float:right"><smartParts:CurrentDate ID="CurrentDate1" runat="server" DateFormat="dd MMMM yyyy" /></span>
+            <span id="statusMessage" class="floatright"></span>
+        </div>
+        <div id="MainWorkArea" class="x-hide-display">                                
+            <asp:Panel ID="content" runat="server">
+                <asp:UpdatePanel runat="server" ID="mainformUpdatePanel" ChildrenAsTriggers="true" UpdateMode="conditional">
+                    <ContentTemplate>
+                <workSpace:MainContentWorkspace ID="MainContent" runat="server" SmartPartInfoStyle-CssClass="mainContentHeader" SmartPartContainerStyle-CssClass="mainContentContent" />
+                    </ContentTemplate>
+                </asp:UpdatePanel>
+                                    
+                <tws:TabWorkspace runat="server" ID="TabControl" UseUIStateService="true">
+                    <MoreTabListTools>
+                        <SalesLogix:PageLink ID="moreTabsHelp" runat="server" LinkType="HelpFileName" ToolTip="<%$ resources: Portal, Help_ToolTip %>" Target="MCWebHelp" NavigateUrl="moretabs.aspx" ImageUrl="~/ImageResource.axd?scope=global&type=Global_Images&key=Help_16x16"></SalesLogix:PageLink>
+                    </MoreTabListTools>
+                </tws:TabWorkspace>
+            </asp:Panel>
+        </div>
+                    
+        <div id="center_panel_north_content" class="x-hide-display">
+            <asp:UpdatePanel runat="server" ID="localTitleUpdatePanel">
+                <ContentTemplate>
+                    <div runat="server" id="localTitle" class="titlebar"></div>
+                </ContentTemplate>
+            </asp:UpdatePanel>
+            <div id="GroupMenuSpace" class="GroupButton"></div>
+            <div class="Clear"></div>
+            <span id="lookupBtn"></span>
+            <span id="GroupTabs"></span>
+            <div id="GroupMenuOptions" style="visibility:hidden">
+                <asp:ContentPlaceHolder runat="server" ID="GroupButtonPlaceHolder">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>                            
+                
+        <div id="center_panel_east_content" class="x-hide-display">
+            <workSpace:TaskPaneWorkspace runat="server" ID="TaskPane">
+                <Tools>
+                    <SalesLogix:PageLink ID="taskPaneHelp" runat="server" LinkType="HelpFileName" ToolTip="<%$ resources: Portal, Help_ToolTip %>" Target="MCWebHelp" NavigateUrl="taskpane.aspx" ImageUrl="~/ImageResource.axd?scope=global&type=Global_Images&key=Help_16x16"></SalesLogix:PageLink>
+                </Tools>
+            </workSpace:TaskPaneWorkspace>
+        </div>  
+                     
+        <div id="north_panel_content" class="x-hide-display">
+            <div class="MainHeader">
+                <div class="MainHeaderLeft" style="padding: .5em;">
+                    <asp:Label ID="LoginName" runat="server" OnLoad="LoginName_Load" />
+                </div>           
+                <!-- added some height here to allow the header to reach the top of the left nav -->
+	            <div class="MainHeaderRight" style="padding: .5em; height: 18px;"><a href="Shutdown.axd"><asp:Localize ID="Localize1" runat="server" Text="<%$ resources: LogOff %>">Log Off</asp:Localize></a></div>
+            	
+	            <div class="MainHeaderToolBar">
+		            <workSpace:ToolbarWorkspace runat="server" ID="ToolBar" ></workSpace:ToolbarWorkspace>
+	            </div>
+            </div>
+        </div>     
+
+        <workSpace:DialogWorkspace runat="server" ID="DialogWorkspace" ></workSpace:DialogWorkspace>
+
+		<div id="defaultErrorMessage" style="display:none; visibility:hidden"><asp:Localize ID="Localize3" runat="server" Text="<%$ resources: UnspecifiedError %>"></asp:Localize></div>
+
+        <Services:WebClientMessageService ID="SageSLXMessage" runat="server" />
+    </form>
+ 
+    <script pin="pin" type="text/javascript">
+        //Ext.onReady(function(){
+            setUpPanels();
+            ScriptQueue.run.dom();
+            populateGroupTabs();
+            populateTitleBar();
+            createMainToolbar();
+            populateNavBar();
+        //});    
+    </script>
+    
+    <script type="text/javascript">
+    Sys.WebForms.PageRequestManager.getInstance().add_initializeRequest(showRequestIndicator);
+    Sys.WebForms.PageRequestManager.getInstance().add_endRequest(hideRequestIndicator);
+
+    </script>
+    <input type="hidden" id="hidHelpLink" value='<%= HelpLink %>' />
+</body>
+</html>

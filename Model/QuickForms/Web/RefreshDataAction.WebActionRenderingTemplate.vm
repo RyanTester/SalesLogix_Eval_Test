@@ -1,0 +1,7 @@
+Sage.Platform.WebPortal.Services.IPanelRefreshService refresher = PageWorkItem.Services.Get<Sage.Platform.WebPortal.Services.IPanelRefreshService>();
+if (refresher != null) {
+  refresher.RefreshAll();
+}
+else {  
+  Response.Redirect(Request.Url.ToString());
+}

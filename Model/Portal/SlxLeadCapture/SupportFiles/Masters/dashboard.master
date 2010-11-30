@@ -1,0 +1,298 @@
+﻿<%@ Import namespace="Sage.Platform.Application.UI.Web"%>
+<%@ Import namespace="Sage.Platform.Application.UI"%>
+<%@ Import namespace="Sage.SalesLogix"%>
+<%@ Import namespace="Sage.Platform.Application"%>
+<%@ Import namespace="Sage.Platform.Application.Services"%>
+<%@ Import namespace="Sage.Platform.Security"%>
+<%@ Master Language="C#" %>
+<%@ Register Assembly="Sage.SalesLogix.Client.GroupBuilder" Namespace="Sage.SalesLogix.Client.GroupBuilder.Controls" TagPrefix="SalesLogix" %>
+<%@ Register Assembly="Sage.SalesLogix.Client.GroupBuilder" Namespace="Sage.SalesLogix.Client.GroupBuilder" TagPrefix="SalesLogix" %>
+<%@ Register Assembly="Sage.Platform.WebPortal" Namespace="Sage.Platform.WebPortal.SmartParts" TagPrefix="smartParts" %>
+<%@ Register Assembly="Sage.Platform.WebPortal" Namespace="Sage.Platform.WebPortal.Workspaces" TagPrefix="workSpace" %>
+<%@ Register Assembly="Sage.Platform.WebPortal" Namespace="Sage.Platform.WebPortal.Services" TagPrefix="Services" %>
+<%@ Register Assembly="Sage.Platform.WebPortal" Namespace="Sage.Platform.WebPortal.Workspaces.Tab" TagPrefix="tws" %>
+<%@ Register Assembly="Sage.SalesLogix.Web.Controls" Namespace="Sage.SalesLogix.Web.Controls.PickList" TagPrefix="SalesLogix" %>
+<%@ Register Assembly="Sage.SalesLogix.Web.Controls" Namespace="Sage.SalesLogix.Web.Controls" TagPrefix="SalesLogix" %>
+<%@ Register Assembly="Sage.SalesLogix.Web.Controls" Namespace="Sage.SalesLogix.Web.Controls.Lookup" TagPrefix="SalesLogix" %>
+<%@ Register Assembly="Sage.SalesLogix.Web.Controls" Namespace="Sage.SalesLogix.Web.Controls.ScriptResourceProvider" TagPrefix="SalesLogix" %>
+<%@ Register Assembly="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Namespace="System.Web.UI"
+    TagPrefix="asp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<script runat="server">
+    private bool _UseAutoLogoff = true;
+    private int _AutoLogoffDuration = 30;
+
+	protected void Page_Load(object sender, EventArgs e)
+    {
+        Sage.SalesLogix.WebUserOptions.GeneralSearchOptions options = Sage.SalesLogix.WebUserOptions.GeneralSearchOptions.Load(Server.MapPath(@"App_Data\LookupValues"));
+        if (UseActiveMail(options.UseActiveMail))
+        {
+            const string ObjectScript = @"<object id='SEN' codebase='SLXActiveMail.cab#version=-1,-1,-1,-1' height='0' width='0' classid='clsid:A2CBD67A-F77D-45DF-9621-5F563DAE18FF'></object>
+                <object id='slmn' classid='clsid:185AE03D-FC11-4C08-B491-9AB2A3092682' width='0' height='0'></object>
+                <object id='EventHook' classid='CLSID:1DDEDE48-9F6B-4F4B-9947-C0DEF12DADF3' width='0' height='0'></object>
+                <object id='MailMergeGUI' classid='clsid:C7719EB7-B4E1-47EF-8DA8-FAFBFF0613B7' height='0' width='0'></object>
+                <object id='AddressLabels' classid='clsid:7BD5B880-F863-40BA-AB7D-9AE101F94C17' height='0' width='0'></object>
+                <object id='MailMerge' classid='clsid:E1416546-DF90-420E-A259-44E0B2FE6B77' height='0' width='0'></object>
+                <object id='TemplateEditor' classid='clsid:5FD7FB2C-B9C4-463F-ACE8-D1CA8EB6BDB8' height='0' width='0'></object>
+                <object id='ProgressDlg' classid='clsid:4849E2F3-176C-4692-964B-14DB18D7F75F' height='0' width='0'></object>";
+            const string VbScript = "<script type='text/vbscript' src='jscript/MailMerge.vbs'><" + "/script>";
+            const string JsScript = "<script type='text/javascript' src='jscript/MailMerge.js'><" + "/script>";
+            const string XmlSupport = "<script type='text/javascript' src='jscript/XmlSupport.js'><" + "/script>";
+            Page.Header.Controls.Add(new Sage.SalesLogix.Client.MailMerge.MailMergeInitControl());
+            Page.Header.Controls.Add(new LiteralControl(ObjectScript));
+            Page.Header.Controls.Add(new LiteralControl(VbScript));
+            Page.Header.Controls.Add(new LiteralControl(XmlSupport));
+            Page.Form.Controls.Add(new LiteralControl(JsScript));
+            //Page.ClientScript.RegisterStartupScript(this.GetType(), "initEmailNotification", "<script type=\"text/javascript\">initEmailNotification();<" + "/script>");
+            //Page.ClientScript.RegisterStartupScript(this.GetType(), "initEmailNotification", "<script type='text/javascript' src='jscript/MailMerge.js'><" + "/script>");
+        }
+        _UseAutoLogoff = options.AutoLogoff;
+        _AutoLogoffDuration = options.LogoffDuration;
+   
+    }
+    protected void LoginName_Load(object sender, EventArgs e)
+    {
+        if ((ScriptManager.GetCurrent(Page) == null) || (!ScriptManager.GetCurrent(Page).IsInAsyncPostBack))
+        {
+            Sage.SalesLogix.Security.SLXUserService userService = Sage.Platform.Application.ApplicationContext.Current.Services.Get<IUserService>() as Sage.SalesLogix.Security.SLXUserService;
+            if (userService != null)
+            {
+                Sage.SalesLogix.Security.User user = userService.GetUser();
+                LoginName.Text = String.Format(GetLocalResourceObject("UserWelcomeText").ToString(), user.UserInfo.FirstName, user.UserInfo.LastName);
+            }
+
+			Page.Title = GetLocalResourceObject("PageTitle").ToString();
+        }
+    }
+
+	private bool UseActiveMail(bool ActiveMailOption)
+    {
+        IContextService context = Sage.Platform.Application.ApplicationContext.Current.Services.Get<IContextService>(true);
+        if (context != null)
+        {
+            if (context.GetContext("ActiveMail") != null)
+            {
+                return (bool)context.GetContext("ActiveMail");
+            }
+            else if (Request.Cookies["SlxActiveMail"] != null)
+            {
+                bool useActiveMail = (Request.Cookies["SlxActiveMail"].Value == "T");
+                context.SetContext("ActiveMail", useActiveMail);
+                return useActiveMail;
+            }
+            else
+            {
+                context.SetContext("ActiveMail", ActiveMailOption);
+                return ActiveMailOption;
+            }
+        }
+        return false;
+    }
+    
+    protected void Search1_Click(object sender, ImageClickEventArgs e)
+    {
+        if (SearchText.Text != GetLocalResourceObject("SpeedSearch").ToString())
+        {
+            IContextService context =
+                Sage.Platform.Application.ApplicationContext.Current.Services.Get<IContextService>(true);
+            context.SetContext("SearchRequestText", SearchText.Text);
+        }
+        Response.Redirect("SpeedSearch.aspx");
+    }
+
+    protected override void OnPreRender(EventArgs e)
+    {
+        base.OnPreRender(e);
+        const string defaultDashboard =
+            "{defportal: 0, items: [{name: \"Dashboard\", isHidden: false, layout: [1], cells: [[\"IntroText\"]]}]}";
+        string dashboardOptions = "";
+        IUserOptionsService userOpts = ApplicationContext.Current.Services.Get<IUserOptionsService>();
+        if (userOpts != null)
+        {
+            dashboardOptions = userOpts.GetCommonOption("Layout", "Dashboard", false, defaultDashboard, "DefaultDashboard");
+        }
+        if (dashboardOptions == "")
+        {
+            dashboardOptions = defaultDashboard;
+        }
+        string script = String.Format("var userDashboardOptions = {0};", dashboardOptions);
+        ScriptManager.RegisterClientScriptBlock(Page, GetType(), ClientID, script, true);
+    }
+
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+	<title>Sage SalesLogix</title>
+    <link rel="stylesheet" type="text/css" href="~/css/YUI/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/YUI/reset.css" />
+    <link rel="stylesheet" type="text/css" href="~/Libraries/Ext/resources/css/ext-all.css" />    
+    <link rel="stylesheet" type="text/css" href="~/css/SlxBase.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/quickform.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/menus.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/YUI/container.css" />
+    <link rel="stylesheet" type="text/css" href="~/css/YUI/calendar.css" />
+    
+    <script type="text/javascript" src="jscript/YUI/yahoo.js"></script>
+    <script type="text/javascript" src="jscript/YUI/utilities.js"></script>
+    
+    <script pin="pin" type="text/javascript" src="Libraries/jQuery/jquery.js"></script>
+    <script pin="pin" type="text/javascript" src="Libraries/jQuery/jquery.selectboxes.js"></script>
+    <script pin="pin" type="text/javascript" src="Libraries/jQuery/jquery-ui.js"></script>
+    <script pin="pin" type="text/javascript" src="Libraries/Ext/adapter/jquery/ext-jquery-adapter.js"></script>
+    <script pin="pin" type="text/javascript" src="Libraries/Ext/ext-all.js"></script>
+    <script pin="pin" type="text/javascript" src="Libraries/Ext/ext-overrides.js"></script>
+    <script pin="pin" type="text/javascript" src="Libraries/Ext/ext-tablegrid.js"></script>      
+    <script pin="pin" type="text/javascript" src="Libraries/Ext/ux/ext-ux-livegrid-combined-min.js"></script>    
+    <script pin="pin" type="text/javascript" src="jscript/sage-common/sage-common.js"></script>
+    <script pin="pin" type="text/javascript" src="jscript/YUI/yui-combined-min.js"></script>     
+    <script pin="pin" type="text/javascript" src="jscript/sage-platform/sage-platform.js"></script>
+    <script pin="pin" type="text/javascript" src="jscript/sage-controls/sage-controls.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="~/jscript/sage-controls/css/sage-controls.css" />
+    <link rel="stylesheet" type="text/css" href="~/jscript/sage-platform/css/sage-platform.css" />
+    
+    
+    <script pin="pin" type="text/javascript">   
+    Ext._stringFormat = String.format;
+    </script> 
+</head>
+<body>
+
+    <form id="mainform" runat="server" style="width:100%; height:100%;">
+
+        <div id="north_panel_content">
+            <div class="MainHeader">
+                <div class="MainHeaderLeft">
+                    <asp:Image runat="server" ID="imgLogo" ImageAlign="Middle" ImageUrl="~/images/saleslogix.gif" AlternateText="" />
+                </div>
+                 
+                    <div id="OptionsMenu"></div>
+                    <div id="asyncpostbackindicator" ><asp:Image ID="Image1" ImageUrl="~/images/loading_animation_liferay.gif" AlternateText="<%$ resources: Loading %>" runat="server" /></div>
+                 
+                <div class="MainHeaderToolBar">
+                    <workSpace:ToolbarWorkspace runat="server" ID="ToolBar" CssClass="floatleft"></workSpace:ToolbarWorkspace>
+                    <div id="ReminderDiv" style="width:100px;white-space:nowrap; float:left;visibility:hidden"><SalesLogix:ActivityReminder runat="server" ID="ActivityReminders" /></div>
+                    <div id="ssDrowdown" class="ssdropdown" onmouseover="this.className='ssdropdownhighlite'" onmouseout="javascript:MenuBtnLeave(this)" onclick="javascript:ShowMenuItem()">
+				            <asp:ImageButton ID="ImageButton1"  runat="server" Width="5" Height="3" ImageUrl="~/images/blue/menuDropDown.gif" ImageAlign="Middle" AlternateText="<%$ resources: Search %>"  />
+                        </div>
+                    <div id="SSButtons" class="ssbutton" onmouseover="this.className='ssbuttonhighlite'" onmouseout="this.className='ssbutton'">
+				            <asp:ImageButton ID="Search1"  runat="server" Width="12" Height="12" ImageUrl="~/images/icons/Speed_Search_16x16.gif" ImageAlign="Middle" OnClick="Search1_Click" AlternateText="<%$ resources: Search %>"  />
+                        </div>
+                    <div id="ssTextDiv" style="float:right;">
+                        <asp:TextBox ID="SearchText" runat="server" style="width:150px;height:16px;padding-left:3px;" Text="<%$ resources: SpeedSearch %>" CssClass="tboxinfo" onfocus="checkSSText(this)" onkeydown="javascript:HandleEnterKeyMaster(event, this.id)"></asp:TextBox></div>
+                </div>
+                <div class="Clear">
+                </div>
+            </div>        
+            <div class="Clear">
+            </div>
+        </div>
+
+        <div id="lclLoginName" style="visibility:hidden"><asp:Label ID="LoginName" runat="server" OnLoad="LoginName_Load" /></div>
+            <SalesLogix:ScriptResourceProvider ID="MasterPageLinks" runat="server">
+            <Keys>
+                <SalesLogix:ResourceKeyName Key="Options" />
+                <SalesLogix:ResourceKeyName Key="LogOff" />
+                <SalesLogix:ResourceKeyName Key="Help" />
+                <SalesLogix:ResourceKeyName Key="Groups" />
+                <SalesLogix:ResourceKeyName Key="IdleMessage" />
+                <SalesLogix:ResourceKeyName Key="LogoffMessage" />
+                <SalesLogix:ResourceKeyName Key="WebClientHelp" />
+                <SalesLogix:ResourceKeyName Key="GettingStartedGuide" />
+                <SalesLogix:ResourceKeyName Key="About" />
+            </Keys>
+         </SalesLogix:ScriptResourceProvider>
+         
+         <div id="west_panel_content" class="x-hide-display">
+            <div id="NavBarArea" class="NavBar" style="visibility:hidden;">
+                <workSpace:NavWorkspace ID="NavBar" runat="server" ImagePosition="left">
+                </workSpace:NavWorkspace>
+            </div>
+            <div id="ExtNavBar"></div>
+         </div>
+         <div id="south_panel_content" class="x-hide-display">
+            <span id="copyright"><asp:Localize ID="copyrightMessage" EnableViewState="false" runat="server" Text="<%$ Resources: SalesLogix, Copyright %>"/></span>
+            <span id="autoLogoff" class="floatright"> </span>
+            <span id="lclCurrentDate"><smartParts:CurrentDate ID="CurrentDate" runat="server" DateFormat="dd MMMM yyyy" /></span>
+            <span id="statusMessage" class="floatright"></span>
+        </div>
+         <div id="center_panel" class="x-panel x-border-panel x-panel-noborder">
+            <div id="center_panel_bwrap" class="x-panel-bwrap">
+                <div id="center_panel_body" class="x-panel-body x-panel-body-noborder">
+                    
+                    <div id="center_panel_center" class="x-panel x-border-panel" >        
+                        <div id="center_panel_center_bwrap" class="x-panel-bwrap">
+                            <div id="center_panel_center_body" class="x-panel-body x-panel-body-noheader x-panel-body-noborder">
+                                <asp:Panel ID="content" runat="server">
+                                    <asp:UpdatePanel runat="server" ID="mainformUpdatePanel" ChildrenAsTriggers="true" UpdateMode="conditional">
+                                        <ContentTemplate>
+                                            <div style="display:none">
+                                                <workspace:DashboardWorkspace ID="DashboardWorkspace" runat="server" />
+                                            </div>
+                                          <div id="MainWorkArea">                                
+                                          </div>
+                                        </ContentTemplate>
+                                    </asp:UpdatePanel>
+                                </asp:Panel>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="center_panel_north" class="x-panel x-border-panel">        
+                    </div>
+                
+                    <div id="center_panel_east" class="x-panel x-border-panel">        
+                    </div>                                       
+                        
+                </div>
+            </div>
+        </div>
+                    <div id="ssMenuItemDiv" class="ssbutton" style="display:none;position:absolute; width:182px; height:17px; margin-left:2px" onmouseout="ssTimerId=window.setTimeout('HideSSDropDown()',1000)" onmouseover="clearTimeout(ssTimerId)">
+                        <a href="SpeedSearch.aspx" onmouseover="clearTimeout(ssTimerId)" >
+                            <asp:Literal ID="Literal1" runat="server" Text="<%$ resources: ssMenuItem_Advanced%>" /></a></div>
+            
+                    <workSpace:DialogWorkspace runat="server" ID="DialogWorkspace"></workSpace:DialogWorkspace>
+            <asp:UpdateProgress ID="mainformUpdateProgress" runat="server" AssociatedUpdatePanelID="mainformUpdatePanel">
+                <ProgressTemplate>
+                    <div class="updateProgress">
+						<asp:Image ID="Image2" ImageUrl="~/images/loading_animation_liferay.gif" AlternateText="<%$ resources: Updating %>" runat="server" /><br />
+                        <asp:Localize runat="server" ID="lclzPleaseWait" Text="<%$ resources: PleaseWait %>">Please Wait...</asp:Localize>
+                    </div>
+                </ProgressTemplate>
+            </asp:UpdateProgress>
+            <smartParts:UpdateProgressOverlayExtender ID="mainformUpdateProgressExtender" runat="server" ControlToOverlayID="content"
+              TargetControlID="mainformUpdateProgress" OverlayType="control" CssClass="updateProgress" />
+       <Services:WebClientMessageService ID="SageSLXMessage" runat="server" />
+	<div id="defaultErrorMessage" style="display:none; visibility:hidden"><asp:Localize ID="lclzUnspecifiedError" runat="server" Text="<%$ resources: UnspecifiedError %>"></asp:Localize></div>
+   </form>
+<script type="text/javascript">
+Sys.WebForms.PageRequestManager.getInstance().add_initializeRequest(showRequestIndicator);
+Sys.WebForms.PageRequestManager.getInstance().add_initializeRequest(AutoLogout.resetTimer);
+Sys.WebForms.PageRequestManager.getInstance().add_endRequest(hideRequestIndicator);
+Ext.onReady(function(){
+    createOptionsMenu();
+    createMainToolbar();
+    setUpDashboardPanels();
+    Ext.get("south_panel").addClass("south_panel");
+    populateNavBar();
+    setNavState();     
+    window.setTimeout('AutoLogout.process(1)',AutoLogout.OneMinute);
+    <% if (!_UseAutoLogoff) { %>
+    AutoLogout.Enabled = false;
+    <% } %>
+    AutoLogout.LogoutDuration = <%= _AutoLogoffDuration %>;
+});    
+$(document).click(function() {
+    AutoLogout.resetTimer();
+});
+</script>
+    <!-- turn this on to get staic ids on anchor tags
+    <script type="text/javascript" src="jscript/testcomplete.js"></script>
+    -->
+    <script type="text/javascript">   
+    String.format = Ext._stringFormat;
+    </script>    
+</body>
+</html>

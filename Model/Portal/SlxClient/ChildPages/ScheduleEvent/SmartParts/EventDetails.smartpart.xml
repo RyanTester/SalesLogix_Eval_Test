@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="091d8ea8-7809-4c20-b193-5ca1aa5cdf06">
+  <SmartPartId>EventDetails</SmartPartId>
+  <ReferencedModelId>b2741b79-02a2-4f4c-81cd-c204f82cf41c</ReferencedModelId>
+  <SmartPart>\Entity Model\SalesLogix Activity Support\Event\QuickForms\EventDetails.main.quickform.xml</SmartPart>
+  <TargetWorkspace>MainContent</TargetWorkspace>
+  <ShowInMode>Insert</ShowInMode>
+  <Properties />
+  <AllowRoles />
+</SmartPartMapping>

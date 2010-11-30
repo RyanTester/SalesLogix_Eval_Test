@@ -1,0 +1,12 @@
+#if($qfcontrol.StyleScheme == "")
+ #if(${qfcontrol.CaptionAlignment} == "center")<div class="lbl aligncenter">
+ #elseif(${qfcontrol.CaptionAlignment} == "right")<div class="lbl alignright">
+ #else<div class="slxlabel">#end
+#end
+<asp:Label runat="server" ID="${qfcontrol.ControlId}" #if($qfcontrol.HotKey != "")AccessKey="$qfcontrol.HotKey" #end
+#if($qfcontrol.Text != "")Text="<%$ resources: ${qfcontrol.ControlId}.Text %>" #end
+#if($qfcontrol.ToolTip != "") ToolTip="<%$ resources: ${qfcontrol.ControlId}.ToolTip %>" #end
+#if($qfcontrol.StyleScheme != "") CssClass="$qfcontrol.StyleScheme" #end
+#if(!$qfcontrol.Visible) Visible="false" #end
+#if($qfcontrol.AssociatedControlID != "") AssociatedControlID="${qfcontrol.AssociatedControlID}" #end />
+#if($qfcontrol.StyleScheme == "")</div>#end

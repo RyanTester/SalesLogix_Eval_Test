@@ -1,0 +1,9 @@
+﻿<?xml version="1.0"?>
+<entityFilter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmRangeEntityFilter" id="049f0734-50ff-4c01-a66d-cf86d2fe8606" lastModifiedUtc="2009-07-10T19:39:38.1052327Z" filterName="Attachment" propertyName="AttachmentCount" characters="0">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRangeEntityFilter" />
+  </ExtendedPropertiesCollection>
+  <ranges id="0f2d2cc7-4f91-4df7-9fb3-b2634025463f" rangeName="True" lower="1" upper="999" />
+  <ranges id="01f56af0-8e06-42a7-9a61-40c871379370" rangeName="False" lower="" upper="" />
+</entityFilter>

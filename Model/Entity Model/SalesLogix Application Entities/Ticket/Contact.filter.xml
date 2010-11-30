@@ -1,0 +1,34 @@
+﻿<?xml version="1.0"?>
+<entityFilter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmRangeEntityFilter" id="12478e5e-16ce-493d-a5e6-84f67624e851" lastModifiedUtc="2008-11-21T23:07:39.0040738Z" filterName="Contact" propertyName="Contact.NameLF" characters="1">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRangeEntityFilter" />
+  </ExtendedPropertiesCollection>
+  <ranges id="e2a0c02f-c27c-4723-9b7d-9edde4edc401" rangeName="0-9" lower="0" upper="9" />
+  <ranges id="591d6a5c-32e4-4ab9-91f7-f9696f85a2d7" rangeName="A" lower="A" upper="A" />
+  <ranges id="38d8ee3a-f283-49c8-a2e7-ce4b123c22c6" rangeName="B" lower="B" upper="B" />
+  <ranges id="62d886a3-479c-4b2f-8af0-d2503c4c6f4c" rangeName="C" lower="C" upper="C" />
+  <ranges id="7ba24cd5-510f-4a46-87c6-3e00f619dfda" rangeName="D" lower="D" upper="D" />
+  <ranges id="4f3f7a89-f0e8-4f9a-a4ad-842ca32daf75" rangeName="E" lower="E" upper="E" />
+  <ranges id="e10a0cd5-607e-4420-90e5-a1256a6cb3a2" rangeName="F" lower="F" upper="F" />
+  <ranges id="8d02b7da-860b-4e16-baf1-a5a37c605d27" rangeName="G" lower="G" upper="G" />
+  <ranges id="b986bb2e-1416-4d65-9872-a5258895dcc1" rangeName="H" lower="H" upper="H" />
+  <ranges id="75ce7bac-8ac2-4afb-ba60-4cbf62c86fd6" rangeName="I" lower="I" upper="I" />
+  <ranges id="1b5ac6cc-837d-4798-a629-340ee012a11b" rangeName="J" lower="J" upper="J" />
+  <ranges id="688632b5-e50f-44a7-b56f-591c97d366fe" rangeName="K" lower="K" upper="K" />
+  <ranges id="1914d59d-73c9-4adf-8465-6f8c17f9358d" rangeName="L" lower="L" upper="L" />
+  <ranges id="0724df73-08ab-461b-b229-34804beb6078" rangeName="M" lower="M" upper="M" />
+  <ranges id="4e4a0a91-6b4f-4173-98b4-5b34e13d85b5" rangeName="N" lower="N" upper="N" />
+  <ranges id="d8976c7e-cc1d-4ec1-992f-b02b33ce6ab0" rangeName="O" lower="O" upper="O" />
+  <ranges id="1b7f8762-d3ae-4c6b-8688-42596c566804" rangeName="P" lower="P" upper="P" />
+  <ranges id="e5effcb4-26c6-4522-bd0d-e560958c679e" rangeName="Q" lower="Q" upper="Q" />
+  <ranges id="fb1469a1-fa99-4e43-a85c-f5985d5380e0" rangeName="R" lower="R" upper="R" />
+  <ranges id="5b16c3c7-3eb2-4539-9ebb-282fb5dc4cc2" rangeName="S" lower="S" upper="S" />
+  <ranges id="c19a6b35-6286-40ba-9364-e33ba451aa6e" rangeName="T" lower="T" upper="T" />
+  <ranges id="35743956-0103-42fe-b530-7b9601ed9ebf" rangeName="U" lower="U" upper="U" />
+  <ranges id="d7bf2017-2902-44cc-80b9-cbf36053c280" rangeName="V" lower="V" upper="V" />
+  <ranges id="1dd89087-77cf-4f18-b79a-035ffa904932" rangeName="W" lower="W" upper="W" />
+  <ranges id="945df065-8536-4c97-bb7c-a1471aadfe4d" rangeName="X" lower="X" upper="X" />
+  <ranges id="ae9b6bf0-a8c1-431a-8f46-79a4618ad6aa" rangeName="Y" lower="Y" upper="Y" />
+  <ranges id="ff03b632-e20f-4629-b717-ec4f47ebc07c" rangeName="Z" lower="Z" upper="Z" />
+</entityFilter>

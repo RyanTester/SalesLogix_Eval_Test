@@ -1,0 +1,48 @@
+#if(${qfcontrol.Caption} != "")
+#if($qfcontrol.ControlLabelPlacement == "left")
+ <div class="#if(${qfcontrol.ColumnSpan} == 2)twocollbl#else lbl#end#if(${qfcontrol.ColumnSpan} > 2) colspan3#end#if(${qfcontrol.CaptionAlignment} == "right") alignright#elseif(${qfcontrol.CaptionAlignment} == "center") aligncenter#else alignleft#end">
+   <asp:Label ID="${qfcontrol.LabelId}" AssociatedControlID="${qfcontrol.ControlId}" runat="server" Text="<%$ resources: ${qfcontrol.ControlId}.Caption %>" #if(!$qfcontrol.Visible)Visible="false" #end></asp:Label>
+ </div>   
+#elseif($qfcontrol.ControlLabelPlacement == "top")
+ <div class="lbltop#if(${qfcontrol.CaptionAlignment} == "right") alignright#elseif(${qfcontrol.CaptionAlignment} == "center") aligncenter#else alignleft#end">
+   <asp:Label ID="${qfcontrol.LabelId}" AssociatedControlID="${qfcontrol.ControlId}" runat="server" Text="<%$ resources: ${qfcontrol.ControlId}.Caption %>" #if(!$qfcontrol.Visible)Visible="false" #end></asp:Label>
+ </div>   
+#end #end
+#if($qfcontrol.DisplayMode == "AsControl")<table class="slxlinkcontrol #if(${qfcontrol.ColumnSpan} > 1 || ${qfcontrol.ControlLabelPlacement} == "top")slxtwocollinkcontrol#end"><tr><td>#end
+#if($qfcontrol.PageName != "")
+ <SalesLogix:PageLink runat="server" ID="${qfcontrol.ControlId}" LinkType="PageAlias" NavigateUrl="${qfcontrol.PageName}" 
+ #if($qfcontrol.Image != "") ImageUrl="$generator.getImageResourceURL( ${qfcontrol.Image} )" #end
+ #if($qfcontrol.EntityId != "")EntityId="${qfcontrol.EntityId}" #end
+ #if($qfcontrol.Text != "")Text="<%$ resources: ${qfcontrol.ControlId}.Text %>" #end
+ #if($qfcontrol.ToolTip != "") ToolTip="<%$ resources: ${qfcontrol.ControlId}.ToolTip %>" #end
+ #if($qfcontrol.TabIndex > 0)TabIndex="$qfcontrol.TabIndex" #end
+ #if(!$qfcontrol.Visible)Visible="false" #end
+ #if($qfcontrol.StyleScheme != "")CssClass="$qfcontrol.StyleScheme" #end
+#if($qfcontrol.Target != "") Target="${qfcontrol.Target}"#end ></SalesLogix:PageLink>
+#elseif($qfcontrol.EntityTypeName != "")
+ <SalesLogix:PageLink runat="server" ID="${qfcontrol.ControlId}" NavigateUrl="${qfcontrol.EntityTypeName}" #if($qfcontrol.HotKey != "")AccessKey="$qfcontrol.HotKey" #end
+ #if($qfcontrol.Image != "") ImageUrl="$generator.getImageResourceURL( ${qfcontrol.Image} )" #end
+ #if($qfcontrol.EntityId != "")EntityId="${qfcontrol.EntityId}" #end
+ #if($qfcontrol.Text != "")Text="<%$ resources: ${qfcontrol.ControlId}.Text %>" #end
+ #if($qfcontrol.ToolTip != "") ToolTip="<%$ resources: ${qfcontrol.ControlId}.ToolTip %>" #end
+ #if($qfcontrol.TabIndex > 0)TabIndex="$qfcontrol.TabIndex" #end
+ #if($qfcontrol.StyleScheme != "")CssClass="$qfcontrol.StyleScheme" #end
+ #if(!$qfcontrol.Visible)Visible="false" #end
+#if($qfcontrol.Target != "") Target="${qfcontrol.Target}" #end LinkType="EntityAlias"></SalesLogix:PageLink>
+#elseif($qfcontrol.Destination != "")
+ <asp:HyperLink runat="server" ID="${qfcontrol.ControlId}" #if($qfcontrol.HotKey != "")AccessKey="$qfcontrol.HotKey" #end
+ #if($qfcontrol.Image != "") ImageUrl="$generator.getImageResourceURL( ${qfcontrol.Image} )" #end
+ #if($qfcontrol.Text != "")Text="<%$ resources: ${qfcontrol.ControlId}.Text %>" #end
+ #if($qfcontrol.ToolTip != "") ToolTip="<%$ resources: ${qfcontrol.ControlId}.ToolTip %>" #end
+ #if($qfcontrol.TabIndex > 0)TabIndex="$qfcontrol.TabIndex" #end
+ #if($qfcontrol.Destination != "") NavigateUrl="$qfcontrol.Destination" #end
+ #if(!$qfcontrol.Visible)Visible="false" #end
+ #if($qfcontrol.StyleScheme != "")CssClass="$qfcontrol.StyleScheme" #end
+ #if($qfcontrol.Target != "") Target="${qfcontrol.Target}"#end />
+#end
+#if($qfcontrol.DisplayMode == "AsControl")</td></tr></table>#end
+#if((${qfcontrol.Caption} != "") && ($qfcontrol.ControlLabelPlacement == "right"))
+ <div class="lblright#if(${qfcontrol.CaptionAlignment} == "right") alignright#elseif(${qfcontrol.CaptionAlignment} == "center") aligncenter#else alignleft#end">
+   <asp:Label ID="${qfcontrol.LabelId}" AssociatedControlID="${qfcontrol.ControlId}" runat="server" Text="<%$ resources: ${qfcontrol.ControlId}.Caption %>" #if(!$qfcontrol.Visible)Visible="false" #end></asp:Label>
+ </div>   
+#end

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="9a96f045-43f8-457c-8a0e-60f6586538f3">
+  <ItemId>new_note</ItemId>
+  <NavUrl>javascript:Link.newNote();</NavUrl>
+  <LargeImageUrl>[Localization!Global_Images:New_Note_24x24]</LargeImageUrl>
+  <SmallImageUrl>[Localization.Global_Images:New_Note_16x16]</SmallImageUrl>
+  <ContextMenuId />
+  <Target />
+</MenuDropDownItem>

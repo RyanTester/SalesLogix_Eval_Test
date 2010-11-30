@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\MenuItems\mnuNew\MenuItems\new_account\" />
+  <exportedFile url="\Portal\SlxClient\MenuItems\mnuNew\MenuItems\new_campaign\" />
+  <exportedFile url="\Portal\SlxClient\MenuItems\mnuNew\MenuItems\new_contact\" />
+  <exportedFile url="\Portal\SlxClient\MenuItems\mnuNew\MenuItems\new_Contract\" />
+  <exportedFile url="\Portal\SlxClient\MenuItems\mnuNew\MenuItems\new_Defect\" />
+  <exportedFile url="\Portal\SlxClient\MenuItems\mnuNew\MenuItems\new_lead\" />
+  <exportedFile url="\Portal\SlxClient\MenuItems\mnuNew\MenuItems\new_note\" />
+  <exportedFile url="\Portal\SlxClient\MenuItems\mnuNew\MenuItems\new_opp\" />
+  <exportedFile url="\Portal\SlxClient\MenuItems\mnuNew\MenuItems\new_Return\" />
+  <exportedFile url="\Portal\SlxClient\MenuItems\mnuNew\MenuItems\new_salesOrder\" />
+  <exportedFile url="\Portal\SlxClient\MenuItems\mnuNew\MenuItems\new_Spacer\" />
+  <exportedFile url="\Portal\SlxClient\MenuItems\mnuNew\MenuItems\new_ticket\" />
+</exportedFiles>

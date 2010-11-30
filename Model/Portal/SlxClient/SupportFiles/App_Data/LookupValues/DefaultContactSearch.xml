@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Lookup name="DefaultContactSearch">
+    <LookupValue id="0" text="Standard Lookup" default="true"></LookupValue>
+    <LookupValue id="1" text="Advanced Lookup" default="false"></LookupValue>
+</Lookup>
+

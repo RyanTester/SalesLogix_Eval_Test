@@ -1,0 +1,24 @@
+#if(${qfcontrol.Caption} != "")
+#if($qfcontrol.ControlLabelPlacement == "left")
+ <div class="#if(${qfcontrol.ColumnSpan} == 2)twocollbl#else lbl#end#if(${qfcontrol.ColumnSpan} > 2) colspan3#end#if(${qfcontrol.CaptionAlignment} == "right") alignright#elseif(${qfcontrol.CaptionAlignment} == "center") aligncenter#else alignleft#end">
+   <asp:Label ID="${qfcontrol.LabelId}" AssociatedControlID="${qfcontrol.ControlId}" runat="server" Text="<%$ resources: ${qfcontrol.ControlId}.Caption %>" #if(!$qfcontrol.Visible)Visible="false" #end></asp:Label>
+ </div>   
+#elseif($qfcontrol.ControlLabelPlacement == "top")
+ <div class="lbltop#if(${qfcontrol.CaptionAlignment} == "right") alignright#elseif(${qfcontrol.CaptionAlignment} == "center") aligncenter#else alignleft#end">
+   <asp:Label ID="${qfcontrol.LabelId}" AssociatedControlID="${qfcontrol.ControlId}" runat="server" Text="<%$ resources: ${qfcontrol.ControlId}.Caption %>" #if(!$qfcontrol.Visible)Visible="false" #end></asp:Label>
+ </div>   
+#end #end
+  <div class="duration"> 
+<SalesLogix:DurationPicker runat="server" ID="${qfcontrol.ControlId}" #if(($qfcontrol.IsReadOnly) || (!$qfcontrol.Enabled))Enabled="false" #end
+#if($qfcontrol.Width != "")Width="${qfcontrol.Width}" #else Width="55%" #end
+#if($qfcontrol.ToolTip != "")ToolTip="<%$ resources: ${qfcontrol.ControlId}.ToolTip %>" #end
+#if($qfcontrol.TabIndex > 0)TabIndex="$qfcontrol.TabIndex" #end
+#if($qfcontrol.StyleScheme != "")CssClass="$qfcontrol.StyleScheme" #end
+#if(!$qfcontrol.Visible)Visible="false" #end
+#if($qfcontrol.HotKey != "")AccessKey="$qfcontrol.HotKey" #end />
+  </div>
+#if((${qfcontrol.Caption} != "") && ($qfcontrol.ControlLabelPlacement == "right"))
+ <div class="lblright#if(${qfcontrol.CaptionAlignment} == "right") alignright#elseif(${qfcontrol.CaptionAlignment} == "center") aligncenter#else alignleft#end">
+   <asp:Label ID="${qfcontrol.LabelId}" AssociatedControlID="${qfcontrol.ControlId}" runat="server" Text="<%$ resources: ${qfcontrol.ControlId}.Caption %>" #if(!$qfcontrol.Visible)Visible="false" #end></asp:Label>
+ </div>   
+#end

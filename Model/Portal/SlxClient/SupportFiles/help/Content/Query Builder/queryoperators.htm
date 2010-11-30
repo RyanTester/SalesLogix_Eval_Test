@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:comment="KC 4/16/02: Merged versions from all Help systems. Del bitmap because it's not necessary. Minor edits.&#xD;&#xA;JM 11/15/00: Minor edits." MadCap:timeEstimate="0" MadCap:priority="0" MadCap:check_list="First Draft" MadCap:status="In Progress" MadCap:ignoredWords="Gainey;decompilation;Admin;N;AccountID;USERINFO;AccountManagerID;UserID;USERPROFILE;t;OPPORTUNITYID;USER_ACTIVITY;CreateUser;CreateDate;ModifyUser;ModifyDate;Opportunity.Salespotential;Opportunity.Closeprobability;Opportunity.Status;Opportunity.Account." MadCap:conditions="Output.WebClient" MadCap:lastBlockDepth="5" MadCap:lastHeight="337" MadCap:lastWidth="476" MadCap:tocPath="" MadCap:PathToHelpSystem="../../" MadCap:SearchType="Stem">
+    <!-- saved from url=(0014)about:internet -->
+    <head><title>Operators</title>
+        <link rel="StyleSheet" href="../SALESLOGIX.CSS" />
+        <script src="../SkinSupport/MadCapUtilities.js">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor436"></a>Operators</h1>
+        <p>There are four mathematical operators in calculated fields: add, subtract, 
+ multiply, and divide. Use brackets to group parts of your calculations. 
+ Only numeric fields (such as integer fields) can be used in numeric calculations. 
+ If an operator is used in a string-calculated field, it will act as just 
+ another character. Operators in string calculated fields will not perform 
+ any operations.</p>
+        <p>Examples:</p>
+        <ul>
+            <li class="kadov-p-CTopic-Text-Bulleted" value="1">
+                <p class="Topic-Text-Bulleted">Numeric 
+ calculation: Opportunity.Salespotential * Opportunity.Closeprobability 
+ / 100. The resulting weighted sales figure would be 100, if Sales Potential 
+ is 200 and Close Probability is 50% (stored as 50, not as 0.5).</p>
+            </li>
+            <li class="kadov-p-CTopic-Text-Bulleted" value="2">
+                <p class="Topic-Text-Bulleted">Numeric 
+ calculation with brackets: (Opportunity.Salespotential * Opportunity.Closeprobability 
+ / 100) + 5. The resulting figure would be 105, if Sales Potential is 200 
+ and Close Probability is 50% (stored as 50, not as 0.5).</p>
+            </li>
+            <li class="kadov-p-CTopic-Text-Bulleted" value="3">
+                <p class="Topic-Text-Bulleted" style="margin-bottom: 0;">String 
+ Calculation: Opportunity.Status + Opportunity.Account. The result is Won 
+ + Big Account if the status is Won and the Account is Big Account. </p>
+            </li>
+        </ul>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="querybuilderoverview.htm" target="_self">Query Builder Overview</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>
+            </p>
+            <p style="border-top-style: Groove;border-top-color: #c0c0c0;border-top-width: 1px;">&#160;</p>
+            <p><![CDATA[ ]]><a href="../General/feedback.htm" target="_blank">Tell us how we can make the Help better.</a></p>
+        </div>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

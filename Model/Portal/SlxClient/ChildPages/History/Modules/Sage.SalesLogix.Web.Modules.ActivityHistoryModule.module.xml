@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<WebModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="47cb0251-9e82-4007-9516-e084e7a5d454">
+  <InstanceId>298a213a3c49489f9aea85e8249c8e40</InstanceId>
+  <ModuleTypeName>Sage.SalesLogix.Web.Modules.ActivityHistoryModule, Sage.SalesLogix.Web.Modules</ModuleTypeName>
+  <RunInMode>Detail</RunInMode>
+  <AllowRoles />
+</WebModule>

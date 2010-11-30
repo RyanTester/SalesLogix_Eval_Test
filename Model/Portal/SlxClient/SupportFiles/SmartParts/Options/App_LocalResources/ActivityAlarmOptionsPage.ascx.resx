@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="_alarmDefaultLeadResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="_alarmDefaultLeadValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="_alarmDefaultLeadValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="_alarmScanIntervalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="_alarmScanIntervalValueResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="_alarmScanIntervalValueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="_alarmSoundEventResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="_carryOverAttachmentsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="_carryOverNotesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="_defaultFollowupActivityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="_defaultViewResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="_enableAlarmsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="_saveResource1.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="_saveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="_showActivitiesForResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="_ShowAlarmsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="_ShowConfirmsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="_ShowPastDueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="_ShowRemindersResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="_timeFrameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ActAlarmHelpLinkResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ActAlarmHelpLinkResource1.ToolTip" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="ActAlarmHelpLinkResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnSaveResource1.ToolTip" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="lblActivityOptionsResource1.Text" xml:space="preserve">
+    <value>Activity Options</value>
+  </data>
+  <data name="lblActivityOptionsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAlarmLeadResource1.Text" xml:space="preserve">
+    <value>Alarm Default Lead:</value>
+  </data>
+  <data name="lblAlarmLeadResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAlarmOptsResource1.Text" xml:space="preserve">
+    <value>Alarm Options</value>
+  </data>
+  <data name="lblAlarmOptsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAlarmScanResource1.Text" xml:space="preserve">
+    <value>Alarm Scan Interval:</value>
+  </data>
+  <data name="lblAlarmScanResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAlarmSoundResource1.Text" xml:space="preserve">
+    <value>Alarm Sound Event:</value>
+  </data>
+  <data name="lblAlarmSoundResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCarryOverAttachmentsResource1.Text" xml:space="preserve">
+    <value>Carry Over Attachments:</value>
+  </data>
+  <data name="lblCarryOverResource1.Text" xml:space="preserve">
+    <value>Carry Over Notes:</value>
+  </data>
+  <data name="lblCarryOverResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDefaultViewResource1.Text" xml:space="preserve">
+    <value>Default View:</value>
+  </data>
+  <data name="lblDefaultViewResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDefFollowActivResource1.Text" xml:space="preserve">
+    <value>Default Follow-up Activity:</value>
+  </data>
+  <data name="lblDefFollowActivResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDisplayRemindersResource1.Text" xml:space="preserve">
+    <value>Display Activity Reminders:</value>
+  </data>
+  <data name="lblDisplayRemindersResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEnableAlarmsResource1.Text" xml:space="preserve">
+    <value>Enable Alarms:</value>
+  </data>
+  <data name="lblEnableAlarmsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReminderOptsResource1.Text" xml:space="preserve">
+    <value>Reminders Options</value>
+  </data>
+  <data name="lblReminderOptsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblShowActivitiesForResource1.Text" xml:space="preserve">
+    <value>Show Activities for:</value>
+  </data>
+  <data name="lblShowActivitiesForResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblShowAlarmsResource1.Text" xml:space="preserve">
+    <value>Display Alarms:</value>
+  </data>
+  <data name="lblShowAlarmsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblShowConfirmsResource1.Text" xml:space="preserve">
+    <value>Display Unconfirmed:</value>
+  </data>
+  <data name="lblShowConfirmsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblShowPastDueResource1.Text" xml:space="preserve">
+    <value>Display Past Due:</value>
+  </data>
+  <data name="lblShowPastDueResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTimeFrameResource1.Text" xml:space="preserve">
+    <value>Time Frame:</value>
+  </data>
+  <data name="lblTimeFrameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemResource6.Value" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemResource7.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ListItemResource7.Value" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="ListItemResource8.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ListItemResource8.Value" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="LitRequest_RToolsResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LitRequest_RToolsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageDescription.Text" xml:space="preserve">
+    <value>Activity/Alarms</value>
+  </data>
+  <data name="PageDescription.Title" xml:space="preserve">
+    <value>Activity/Alarms</value>
+  </data>
+</root>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:comment="10/02/02 KC: Edited to match UI. KC 4/16/02 Used version from Admin Help (language more consistent with other join topics)." MadCap:timeEstimate="0" MadCap:priority="0" MadCap:check_list="First Draft" MadCap:status="In Progress" MadCap:lastBlockDepth="5" MadCap:lastHeight="411" MadCap:lastWidth="476" MadCap:conditions="Output.WebClient" MadCap:tocPath="" MadCap:PathToHelpSystem="../../" MadCap:SearchType="Stem">
+    <!-- saved from url=(0014)about:internet -->
+    <head><title>Left joins</title>
+        <link rel="StyleSheet" href="../SALESLOGIX.CSS" />
+        <script src="../SkinSupport/MadCapUtilities.js">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor433"></a>Left Joins</h1>
+        <p>A left join is the default type for global joins. Use a left join to include  all the records in the Parent table that meet the selection criteria and only  those records in the Child table where the values in the fields you are joining  are equal.</p>
+        <p>Example: You want a list of all opportunities whether or not they have  associated activities. If the opportunity is associated with an activity, select  it as well. The records shown in the Join Results column are returned by this  query. The specific opportunity associated with an activity is indicated in  parentheses to the right of the activity.</p>
+        <p>&#160;</p>
+        <table style="border-spacing: 0px 0px;border-collapse: collapse;caption-side: top;margin-left: 0;margin-right: auto;width: 100%;">
+            <col />
+            <col style="width: 47px;" />
+            <col />
+            <col />
+            <thead>
+                <tr>
+                    <th class="Tabletop" style="text-align: left;">Source</th>
+                    <th class="Tabletop" style="text-align: left;" colspan="2">Selected</th>
+                    <th class="Tabletop" style="text-align: left;">Join Results</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="Table">OPPORTUNITY table</td>
+                    <td class="Table" colspan="2">ACTIVITY table</td>
+                    <td class="Table">Opportunity1</td>
+                </tr>
+                <tr>
+                    <td class="Table">Opportunity1</td>
+                    <td class="Table">Activity 1</td>
+                    <td class="Table">&#160;</td>
+                    <td class="Table">Opportunity2</td>
+                </tr>
+                <tr>
+                    <td class="Table">Opportunity2</td>
+                    <td class="Table">Activity 2</td>
+                    <td class="Table">&#160;</td>
+                    <td class="Table">Opportunity3</td>
+                </tr>
+                <tr>
+                    <td class="Table">Opportunity3</td>
+                    <td class="Table">Activity 3</td>
+                    <td class="Table">(Opportunity1)</td>
+                    <td class="Table">Opportunity4</td>
+                </tr>
+                <tr>
+                    <td class="Table">Opportunity4</td>
+                    <td class="Table">Activity 4</td>
+                    <td class="Table">(Opportunity4)</td>
+                    <td class="Table">Opportunity5</td>
+                </tr>
+                <tr>
+                    <td class="Table">Opportunity5</td>
+                    <td class="Table">Activity 5</td>
+                    <td class="Table">&#160;</td>
+                    <td class="Table">Activity 3</td>
+                </tr>
+                <tr>
+                    <td class="Table">&#160;</td>
+                    <td class="Table">Activity 6</td>
+                    <td class="Table">(Opportunity5)</td>
+                    <td class="Table">Activity 4</td>
+                </tr>
+                <tr>
+                    <td class="Table">&#160;</td>
+                    <td class="Table">Activity 7</td>
+                    <td class="Table">(Opportunity1)</td>
+                    <td class="Table">Activity 6</td>
+                </tr>
+                <tr>
+                    <td class="Table">&#160;</td>
+                    <td class="Table">&#160;</td>
+                    <td class="Table">&#160;</td>
+                    <td class="Table">Activity 7</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="queryjoinexample.htm">Join Example</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>
+            </p>
+            <p style="border-top-style: Groove;border-top-color: #c0c0c0;border-top-width: 1px;">&#160;</p>
+            <p><![CDATA[ ]]><a href="../General/feedback.htm" target="_blank">Tell us how we can make the Help better.</a></p>
+        </div>
+        <p>&#160;</p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

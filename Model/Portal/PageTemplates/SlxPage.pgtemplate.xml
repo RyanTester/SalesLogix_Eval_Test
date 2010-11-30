@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<PageTemplate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="b6d96b6a-3f12-4296-aba6-473933a6fccc">
+  <TemplateName>SlxPage</TemplateName>
+  <BasePageType TypeName="Sage.Platform.WebPortal.EntityPage, Sage.Platform.WebPortal">
+    <Properties />
+  </BasePageType>
+  <Modules>
+    <WebModule id="e717c1d1-da08-4e49-89f1-304c777f765d">
+      <InstanceId>e6d7421dba4d498894a7b78563b50f3c</InstanceId>
+      <ModuleTypeName>Sage.SalesLogix.Client.GroupBuilder.Modules.GroupViewerModule, Sage.SalesLogix.Client.GroupBuilder.Modules</ModuleTypeName>
+      <RunInMode />
+      <AllowRoles />
+    </WebModule>
+  </Modules>
+  <Mappings>
+    <SmartPartMapping id="878398c9-8b06-4c1f-a074-2fb1469ab1ed">
+      <SmartPartId>LiveGroupViewer</SmartPartId>
+      <ReferencedModelId>00000000-0000-0000-0000-000000000000</ReferencedModelId>
+      <SmartPart>SmartParts\GroupBuilder\LiveGroupViewer.ascx</SmartPart>
+      <TargetWorkspace>MainContent</TargetWorkspace>
+      <ShowInMode>List</ShowInMode>
+      <Properties>
+        <Property Name="SummaryConfigFile" TypeConverter="">AccountSummaryView</Property>
+      </Properties>
+      <AllowRoles />
+    </SmartPartMapping>
+  </Mappings>
+</PageTemplate>

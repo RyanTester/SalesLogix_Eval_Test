@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\MarketingServiceClick\MarketingServiceClick.MKTGSVC_CLICK.entity.xml" timeStamp="2009-11-19T20:10:53.2700" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\MarketingServiceClick\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:53.2870" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\MarketingServiceClick\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:53.2870" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\MarketingServiceClick\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:53.2870" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\MarketingServiceClick\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:53.3030" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\MarketingServiceClick\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:53.3170" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\MarketingServiceClick\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:53.3170" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\MarketingServiceClick\OnCreate.method.xml" timeStamp="2009-11-19T20:10:53.3170" />
+</exportedFiles>

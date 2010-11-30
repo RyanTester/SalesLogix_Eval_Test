@@ -1,0 +1,152 @@
+﻿<%@ Master Language="C#" %>
+<%@ Register Assembly="Sage.Platform.WebPortal" Namespace="Sage.Platform.WebPortal.SmartParts" TagPrefix="smartParts" %>
+<%@ Register Assembly="Sage.Platform.WebPortal" Namespace="Sage.Platform.WebPortal.Workspaces" TagPrefix="workSpace" %>
+<%@ Register Assembly="Sage.Platform.WebPortal" Namespace="Sage.Platform.WebPortal.Workspaces.Tab" TagPrefix="tws" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<script runat="server">    
+    private bool _hideTitleBar;
+    public bool MainContentWorkspace_HideTitleBar
+    {
+        get { return _hideTitleBar; }
+        set { _hideTitleBar = value; }
+    }
+
+    public bool IncludeMiddlePane
+    {
+        get { return TabControl.IncludeMiddlePane; }
+        set { TabControl.IncludeMiddlePane = value; }
+    }
+
+    public bool IncludeMoreTabsTab
+    {
+        get { return TabControl.IncludeMoreTabsTab; }
+        set { TabControl.IncludeMoreTabsTab = value; }
+    }
+
+    public int DefaultVisibleTabCount
+    {
+        get { return TabControl.DefaultVisibleTabCount; }
+        set { TabControl.DefaultVisibleTabCount = value; }
+    }
+
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        System.Globalization.CultureInfo currentCulture = System.Globalization.CultureInfo.CurrentUICulture;
+        string extCultureScript = @"<script pin=""pin"" type=""text/javascript"" src=""libraries/ext/locale/ext-lang-{0}.js""><" + @"/script>";
+        string extCulturePath = "~/Libraries/Ext/locale/ext-lang-{0}.js";
+        if (System.IO.File.Exists(Server.MapPath(String.Format(extCulturePath, currentCulture.Name.Replace("-", "_")))))
+            Page.Header.Controls.Add(new LiteralControl(String.Format(extCultureScript, currentCulture.Name.Replace("-", "_"))));
+        else if (currentCulture.Parent != null && System.IO.File.Exists(Server.MapPath(String.Format(extCulturePath, currentCulture.Parent.Name))))
+            Page.Header.Controls.Add(new LiteralControl(String.Format(extCultureScript, currentCulture.Parent.Name)));
+    }
+        
+</script>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Sage SalesLogix</title>
+	<link rel="stylesheet" type="text/css" href="~/css/YUI/fonts.css" />
+	<link rel="stylesheet" type="text/css" href="~/css/YUI/reset.css" /> 
+    <link rel="stylesheet" type="text/css" href="~/Libraries/Ext/resources/css/ext-all.css" />    
+    <link rel="stylesheet" type="text/css" href="~/Libraries/Ext/ux/resources/css/ext-ux-livegrid.css" />          
+    <link rel="stylesheet" type="text/css" href="~/css/yui/container.css" /> 
+
+    <script pin="pin" type="text/javascript" src="Libraries/jQuery/jquery.js"></script>
+    <script pin="pin" type="text/javascript" src="Libraries/jQuery/jquery.selectboxes.js"></script>
+    <script pin="pin" type="text/javascript" src="Libraries/jQuery/jquery-ui.js"></script>
+    <script pin="pin" type="text/javascript" src="Libraries/Ext/adapter/jquery/ext-jquery-adapter.js"></script>
+    <script pin="pin" type="text/javascript" src="Libraries/Ext/ext-all.js"></script>
+    <script pin="pin" type="text/javascript" src="Libraries/Ext/ext-overrides.js"></script>
+    <script pin="pin" type="text/javascript" src="Libraries/Ext/ext-tablegrid.js"></script>
+    <script pin="pin" type="text/javascript" src="Libraries/Ext/ux/ext-ux-livegrid-combined-min.js"></script>
+
+    <script pin="pin" type="text/javascript" src="jscript/YUI/yui-combined-min.js"></script>     
+
+    <script pin="pin" type="text/javascript" src="jscript/sage-platform/sage-platform.js"></script>
+    <script pin="pin" type="text/javascript" src="jscript/sage-controls/sage-controls.js"></script>
+    <script pin="pin" type="text/javascript" src="jscript/sage-common/sage-common.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="~/css/sage-styles.css" />      
+<style type="text/css">
+
+/* overrides SlxBase.css */
+#PageTitle 
+{
+    font-size: 110%;
+    font-weight: bold;
+}
+#PageTitle img
+{
+    margin: 4px;
+}
+
+</style>
+
+</head>
+<body>
+
+    <script pin="pin" type="text/javascript"> 
+    Ext.BLANK_IMAGE_URL = 'libraries/ext/resources/images/default/s.gif';      
+    Ext._stringFormat = String.format;
+    </script> 
+    
+	<form id="mainform" runat="server" method="post" >
+        <div runat="server" id="localTitle" class="titlebar"></div>
+    	<div class="ContentArea" style="clear:both;">
+			<!-- all page content goes here  -->
+            <tws:TabWorkspace runat="server" ID="TabControl" 
+                UseUIStateService="true" 
+            />
+            <asp:UpdatePanel runat="server" ID="mainformUpdatePanel" 
+                ChildrenAsTriggers="true" 
+                UpdateMode="conditional">
+                <ContentTemplate>
+                    <workSpace:MainContentWorkspace ID="MainContent" runat="server" 
+                        SmartPartInfoStyle-CssClass="mainContentHeader" 
+                        SmartPartContainerStyle-CssClass="mainContentContent" />
+                </ContentTemplate>
+            </asp:UpdatePanel>
+		</div>
+       <%-- <workSpace:DialogWorkspace runat="server" ID="DialogWorkspace"></workSpace:DialogWorkspace>--%>
+	</form>
+
+	<script type="text/javascript">
+	    window.setTimeout(function() {
+	        Sys.WebForms.PageRequestManager.getInstance().add_initializeRequest(function(sender, args) {
+	            var element = args.get_postBackElement();
+	            if (parent.window.Sage.DialogWorkspace) {
+	                if (element) {
+	                    for (var id in parent.window.Sage.DialogWorkspace.__instances) {
+	                        var instance = parent.window.Sage.DialogWorkspace.__instances[id];
+	                        if (instance._context) {
+	                            instance.disable();
+	                        }
+	                    }
+	                    if (parent.ensureScreenEnabled)
+	                        parent.window.setTimeout(parent.ensureScreenEnabled, 6000);
+	                }
+	            }
+	        });
+	        Sys.WebForms.PageRequestManager.getInstance().add_endRequest(function(sender, args) { ensureParentScreenEnabled(); });
+	    }, 1);
+      
+        function ensureParentScreenEnabled() {
+            if (parent.window.Sage.DialogWorkspace) {
+                for (var id in parent.window.Sage.DialogWorkspace.__instances) {
+                    var instance = parent.window.Sage.DialogWorkspace.__instances[id];
+                    instance.enable(); /* enable all instances */
+                }
+            }            
+        }   
+        
+        window.setTimeout(ensureParentScreenEnabled, 1);
+    </script>
+	
+	<script type="text/javascript">   
+    String.format = Ext._stringFormat;
+    </script>
+    
+</body>
+</html>

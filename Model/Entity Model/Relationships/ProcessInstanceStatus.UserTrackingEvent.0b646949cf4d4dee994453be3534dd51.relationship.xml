@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="0b646949-cf4d-4dee-9944-53be3534dd51" lastModifiedUtc="2008-02-22T23:07:15.6101288Z" cardinality="1:M" parentEntityId="bf113863-d964-49a8-8945-aae2fc2f55df" childEntityId="e62b726e-2a37-4e31-b939-7f2f45abc6ee" cascadeOption="SaveUpdateDelete">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="ec6cb3d2-2441-4355-9d0e-f4e35df3c8f1" lastModifiedUtc="2008-02-22T23:06:40.8768838Z" name="UserTrackingEvents" audited="false" displayCategory="Intermediate" isNullable="true" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="2d9a5fec-b5b1-4616-a7e3-00e0d79714d5" lastModifiedUtc="2008-02-22T23:06:56.4856594Z" name="ProcessInstanceStatus" audited="false" displayCategory="Intermediate" isNullable="true" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="588acea1-4e71-4dc2-8152-210de81243c0" parentPropertyId="0cb4a2e9-9d7d-4c3e-a910-efe37fed3e1e" childPropertyId="0a64ff60-d178-4110-9486-47cafe06bb8a" ordinal="0" />
+  </column>
+</relationship>

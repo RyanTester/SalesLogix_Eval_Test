@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmOtherMethod" id="8a1cbd70-4864-4033-a143-d1f1c25b9cf5" lastModifiedUtc="2009-08-26T21:16:52.8167664Z" name="SetDefaultOppContactInfo" methodType="Other" actionType="None" returnMode="None" isInstance="false">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmOtherMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="e1e46ff9-f81c-4926-877a-4616f91565c4" paramName="form" sequence="0" paramType="IOpportunityContacts" />
+    <OrmEntityMethodParam id="af6507b6-080d-4955-8cdd-a8902213fd76" paramName="args" sequence="0" paramType="EventArgs" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget xsi:type="OrmMethodTargetSnippet" id="7fb59513-d501-42b2-9d5c-d0e222be795a" lastModifiedUtc="2009-08-26T21:14:16.9727664Z" targetType="Sage.BusinessRules.CodeSnippets.OpportunityContactsEventHandlers, Sage.SnippetLibrary.CSharp" targetMethod="SetDefaultOppContactInfo" active="true" codeSnippetId="7f9797e6-7ecf-4a7b-9c5a-5d50940f802e">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

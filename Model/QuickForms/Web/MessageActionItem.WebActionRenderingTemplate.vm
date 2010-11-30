@@ -1,0 +1,10 @@
+#if(${action.MessageText} == "")
+  Sage.Platform.WebPortal.SmartParts.WebActionEventArgs args = e as Sage.Platform.WebPortal.SmartParts.WebActionEventArgs;
+  if (args != null && !string.IsNullOrEmpty(args.PassThroughObject.ToString()) && DialogService != null) {
+    DialogService.ShowMessage(args.PassThroughObject.ToString());
+  } 
+#else
+  if (DialogService != null) {
+    DialogService.ShowMessage(base.GetLocalResourceObject("${action.ResourceKey}.Message").ToString()#if($action.Title != ""), base.GetLocalResourceObject("${action.ResourceKey}.Title").ToString()#end);
+  }
+#end

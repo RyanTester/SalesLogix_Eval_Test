@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="c92e02a9-ed52-4b7c-b703-1209d949ef85">
+  <ItemId>sched_meet</ItemId>
+  <NavUrl>javascript:Link.scheduleMeeting();</NavUrl>
+  <LargeImageUrl>[Localization!Global_Images:Schedule_Meeting_24x24]</LargeImageUrl>
+  <SmallImageUrl>[Localization.Global_Images:Schedule_Meeting_16x16]</SmallImageUrl>
+  <ContextMenuId />
+  <Target />
+</MenuDropDownItem>

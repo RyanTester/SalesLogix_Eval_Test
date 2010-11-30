@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="af414729-aedb-4a2c-82de-dc0414653fd9">InsertContact.smartpart.xml</Item>
+  <Item Id="90fd0bdc-ff17-4795-88b4-da256d1e570c">SelectAccountAddress.smartpart.xml</Item>
+  <Item Id="203fb4fc-ff86-4d9f-b01c-59905d3b4cc8">ContactSearchForDuplicates.smartpart.xml</Item>
+</ModelItems>

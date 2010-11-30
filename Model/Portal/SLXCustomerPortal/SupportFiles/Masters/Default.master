@@ -1,0 +1,40 @@
+<%@ Master Language="C#" %>
+<%@ Register Assembly="Sage.Platform.WebPortal" Namespace="Sage.Platform.WebPortal.SmartParts" TagPrefix="smartParts" %>
+<%@ Register Assembly="Sage.Platform.WebPortal" Namespace="Sage.Platform.WebPortal.Workspaces" TagPrefix="workSpace" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+	<title>Portal</title>
+<style type="text/css">
+.msg 
+{
+	font-family : Arial, Tahoma, MS San Serif;
+	font-size : 1.5em;
+	font-weight : bold;
+	color : #777777;
+	width : 100%;
+	text-align : center;
+	padding : 40px 0px;
+
+}
+.footerText
+{
+	clear : both;
+	font-size:8pt;
+	color:Gray;
+	position : absolute;
+	width:100%;
+	text-align:center;
+	bottom:0px;
+}
+</style>
+</head>
+<body>
+	<form id="mainform" runat="server" method="get" action="javascript:void(0);">
+		<div class="msg">Welcome to your web portal</div>
+	
+		<div class="footerText">© 2006 Sage Software, Inc. All rights reserved.</div>   
+	</form>
+</body>
+</html>

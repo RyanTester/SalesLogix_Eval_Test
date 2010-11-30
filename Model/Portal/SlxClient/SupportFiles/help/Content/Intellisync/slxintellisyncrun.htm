@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="GroupWise;SyncSalesLogix;SalesLogix;Intellisync" MadCap:status="Ready for Review" MadCap:check_list="First Draft,Ran Smart Index" MadCap:conditions="Output.WebClient" MadCap:lastBlockDepth="4" MadCap:lastHeight="499" MadCap:lastWidth="551" MadCap:tocPath="" MadCap:PathToHelpSystem="../../" MadCap:SearchType="Stem">
+    <!-- saved from url=(0014)about:internet -->
+    <head><title>Running Contacts and Activities Synchronization</title>
+        <meta name="copyright" value="Copyright © 2001 Puma Technology, Inc. (dba, PUMATECH, inc.)" />
+        <link rel="StyleSheet" href="../SALESLOGIX.CSS" />
+        <script language="JavaScript" title="BSSC Special Effects" src="../ehlpdhtm.js">
+        </script>
+        <script src="../SkinSupport/MadCapUtilities.js">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor347"></a>Running Contacts and Activities Synchronization</h1>
+        <p>When the Intellisync for SalesLogix configuration 
+ is complete in the Sage SalesLogix Web Client (as explained in "<a href="slxintellisyncconfigure.htm" target="_self">Configuring Intellisync for SalesLogix</a>"), changes to contacts and activities are synchronized between 
+ Sage SalesLogix and Microsoft Outlook <span MadCap:conditions="Primary.Lotus_Notes">or 
+ Lotus Notes </span>according to the in the Sage SalesLogix Web Client (as explained in "Configuring Intellisync for SalesLogix "). </p>
+        <p>During a synchronization cycle, Intellisync compares records in Sage 
+ SalesLogix to those in Microsoft Outlook<span MadCap:conditions="Primary.Lotus_Notes"> 
+ or Lotus Notes</span>, and makes changes to ensure both systems contain 
+ the same information. For example, if a record has been added to one system 
+ and not to the other, that record is added to the incomplete system. </p>
+        <p>Intellisync maintains a log file which includes the number of records 
+ changed, added, deleted, or in conflict in Sage SalesLogix and Microsoft 
+ Outlook<span MadCap:conditions="Primary.Lotus_Notes"> or Lotus Notes</span>. 
+ The first time a particular set of data is synchronized, there is no log 
+ file. Data from the two systems is simply merged, and any data conflicts 
+ between the two systems are resolved using the conflict 
+ resolution rules established when configuring Intellisync.</p>
+        <p>The log file is only generated for automatic synchronizations. To view 
+ the log, right-click the Intellisync icon in the System Tray section of 
+ the Windows Taskbar and select <span style="font-weight: bold;">Show Push 
+ Sync Log</span>.</p>
+        <p>Subsequent synchronizations only include changed, added, or deleted 
+ records. &#160;You 
+ can initiate a full synchronization by changing the synchronization settings, 
+ or selecting <span style="font-weight: bold;">Sync Now</span> from the 
+ Intellisync main screen or the icon right-click menu.</p>
+        <p>During a manual synchronization, a confirmation dialog box appears with 
+ details about conflicts and/or changes to be made to the data in Sage 
+ SalesLogix and Microsoft Outlook<span MadCap:conditions="Primary.Lotus_Notes"> 
+ or Lotus Notes</span>. </p>
+        <p>&#160;</p>
+        <table style="width: 546px;margin-left: 4.15pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="546">
+            <tr valign="top">
+                <td style="width: 11.72%;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="11.72%">
+                    <p class="Tip-Note-Text" style="text-align: justify;">
+                        <img src="../image/caution.gif" />
+                    </p>
+                </td>
+                <td style="width: 88.28%;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="88.28%">
+                    <p>Simultaneously synchronizing the Remote Client to the main office database 
+ and Microsoft Outlook<span MadCap:conditions="Primary.Lotus_Notes"> or Lotus 
+ Notes</span>, is not recommended. Doing so significantly reduces synchronization 
+ speed and causes memory problems. Sage SalesLogix recommends that you 
+ synchronize with the Outlook<span MadCap:conditions="Primary.Lotus_Notes"> or 
+ Lotus Notes</span> application before or after synchronizing your remote 
+ database.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="slxintellisync.htm" target="_self">Intellisync for SalesLogix</a>
+        </p>
+        <p><a href="slxintellisyncdataexchange.htm" target="_self">Understanding Data Exchange</a>
+        </p>
+        <p><a href="slxintellisyncfactors.htm" target="_self">Understanding Factors Affecting Synchronization</a>
+        </p>
+        <div placeholder="" id="footer" style="width: 100%;position: relative;">
+            <p style="border-top-style: Groove;border-top-color: #c0c0c0;border-top-width: 1px;">&#160;  <![CDATA[ ]]><a href="../General/feedback.htm" target="_blank">Tell us how we can make the Help better.</a></p>
+        </div>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\App_LocalResources\ActivityCommandController.ascx.resx" timeStamp="2009-11-19T20:11:08.9470" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\App_LocalResources\ActivityDetails.ascx.resx" timeStamp="2009-11-19T20:11:08.9800" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\App_LocalResources\ActivityDetailsManager.ascx.resx" timeStamp="2009-11-19T20:11:08.9630" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\App_LocalResources\ActivityList.ascx.resx" timeStamp="2009-11-19T20:11:08.9470" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\App_LocalResources\ActivityManager.ascx.resx" timeStamp="2009-11-19T20:11:08.9470" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\App_LocalResources\ActivityManagerActivityList.ascx.resx" timeStamp="2009-11-19T20:11:08.9930" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\App_LocalResources\ActivityManagerConfirmList.ascx.resx" timeStamp="2009-11-19T20:11:08.9930" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\App_LocalResources\ActivityManagerEventList.ascx.resx" timeStamp="2009-11-19T20:11:08.9930" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\App_LocalResources\ActivityManagerLitList.ascx.resx" timeStamp="2009-11-19T20:11:08.9930" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\App_LocalResources\ActivityQueue.ascx.resx" timeStamp="2009-11-19T20:11:08.9930" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\App_LocalResources\ActivityReminders.ascx.resx" timeStamp="2009-11-19T20:11:08.9800" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\App_LocalResources\ActivityViewer.ascx.resx" timeStamp="2009-11-19T20:11:09.0270" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\App_LocalResources\AddMembers.ascx.resx" timeStamp="2009-11-19T20:11:09.0570" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\App_LocalResources\AddResources.ascx.resx" timeStamp="2009-11-19T20:11:09.0570" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\App_LocalResources\CompleteActivity.ascx.resx" timeStamp="2009-11-19T20:11:09.0570" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\App_LocalResources\CompleteActivityCommandController.ascx.resx" timeStamp="2009-11-19T20:11:09.0730" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\App_LocalResources\CompleteActivityManager.ascx.resx" timeStamp="2009-11-19T20:11:09.1030" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\App_LocalResources\CompleteRecurrence.ascx.resx" timeStamp="2009-11-19T20:11:09.1200" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\App_LocalResources\ConfirmActivity.ascx.resx" timeStamp="2009-11-19T20:11:09.1030" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\App_LocalResources\DeleteConfirmation.ascx.resx" timeStamp="2009-11-19T20:11:09.1200" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\App_LocalResources\DeleteRecurrence.ascx.resx" timeStamp="2009-11-19T20:11:09.1330" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\App_LocalResources\EditRecurrence.ascx.resx" timeStamp="2009-11-19T20:11:09.1670" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\App_LocalResources\RecurringActivity.ascx.resx" timeStamp="2009-11-19T20:11:09.1330" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\App_LocalResources\RecurringActivity_ClientScript.js" timeStamp="2009-11-19T20:11:09.1200" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\App_LocalResources\RemoveDeletedConfirmation.ascx.resx" timeStamp="2009-11-19T20:11:09.1670" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\App_LocalResources\ScheduleCompleteActivity.ascx.resx" timeStamp="2009-11-19T20:11:09.1830" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\App_LocalResources\timezonecalc.ascx.resx" timeStamp="2009-11-19T20:11:09.1500" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\App_LocalResources\timezonecalc_clientscript.js" timeStamp="2009-11-19T20:11:09.1500" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Activity\App_LocalResources\timezonecalc_style.css" timeStamp="2009-11-19T20:11:09.1500" />
+</exportedFiles>

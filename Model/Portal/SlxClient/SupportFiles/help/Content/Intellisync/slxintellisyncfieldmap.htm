@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:check_list="First Draft,Ran Smart Index" MadCap:conditions="Output.WebClient" MadCap:lastBlockDepth="5" MadCap:lastHeight="586" MadCap:lastWidth="511" MadCap:tocPath="" MadCap:PathToHelpSystem="../../" MadCap:SearchType="Stem">
+    <!-- saved from url=(0014)about:internet -->
+    <head><title>Understanding Intellisync for SalesLogix Field Mapping</title>
+        <meta name="copyright" value="Copyright © 2001 Puma Technology, Inc. (dba, PUMATECH, inc.)" />
+        <link rel="StyleSheet" href="../SALESLOGIX.CSS" />
+        <script language="JavaScript" title="BSSC Special Effects" src="../ehlpdhtm.js">
+        </script>
+        <script src="../SkinSupport/MadCapUtilities.js">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor346"></a>Understanding Intellisync for SalesLogix Field Mapping</h1>
+        <p>Intellisync for SalesLogix works by moving data between connectors (or 
+ sometimes a connector and translator) and does not directly connect one 
+ database to another. For example, when you export data from Sage SalesLogix 
+ to Microsoft Outlook <span MadCap:conditions="Primary.Lotus_Notes">or Lotus 
+ Notes</span>, Intellisync uses both the Sage SalesLogix and the Outlook 
+ <span MadCap:conditions="Primary.Lotus_Notes">or Lotus Notes </span>connectors. 
+ The Sage SalesLogix connector reads the data in the Ad Hoc group you specified 
+ during configuration; the Outlook <span MadCap:conditions="Primary.Lotus_Notes">or 
+ Lotus Notes </span>connector reads the data in the SyncSalesLogix category 
+ in Outlook <span MadCap:conditions="Primary.Lotus_Notes">or Lotus Notes</span>. 
+ </p>
+        <p>During a manual synchronization, Intellisync compares the data in both 
+ connectors and presents you with confirmation screens where you can look 
+ at the changes and either accept or reject them. During an automatic synchronization, 
+ the process is the same however, there are no confirmation screens. Intellisync 
+ relies on the configuration 
+ settings to resolve any conflicts.</p>
+        <p>Synchronization only transfers data between fields that are mapped; 
+ unmapped fields are ignored. A standard set of mapped fields is provided 
+ with Intellisync for SalesLogix. Tables detailing the default field maps 
+ are available in the <span style="font-style: italic;">Sage SalesLogix 
+ Administrator Help</span>. You can view and redefine current field maps, 
+ map additional fields, or remove field maps to meet your business requirements. 
+ Field maps are specific to the translator or connector version installed 
+ and the type of action requested. </p>
+        <p>Creating a new map between previously unmapped fields enables synchronization 
+ of the data between applications. Removing a map ends synchronization 
+ of the data previously mapped. For information about changing how data 
+ is mapped, see the help topics available through the Intellisync for SalesLogix 
+ Application Setup Wizard. </p>
+        <p style="margin-top: 0;margin-bottom: 0;">&#160;</p>
+        <table style="margin-left: 4.15pt;width: 94%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="94%">
+            <col style="width: 15%;" />
+            <col style="width: 84px;" />
+            <tr valign="top">
+                <td style="width: 15%;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" width="15%">
+                    <p class="Tip-Note-Text" style="text-align: center;" align="center">
+                        <img src="../image/caution.gif" style="border: none;width: 39px;height: 38px;float: none;border-style: none;border-style: none;" width="39" height="38" border="0" />
+                    </p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;">
+                    <ul>
+                        <li style="font-size: 8pt;" class="kadov-p-CTip-Note-Text-Bulleted" value="1">
+                            <p class="Tip-Note-Text-Bulleted">It 
+ is important to remember that changing field maps can produce unexpected 
+ results. Therefore, before customizing mapped fields, be sure to back 
+ up your data before synchronizing. It is also advisable to create test 
+ files to see how your changes affect critical data.</p>
+                        </li>
+                        <li style="font-size: 8pt;" class="kadov-p-CTip-Note-Text-Bulleted" value="2">
+                            <p class="Tip-Note-Text-Bulleted">If 
+ you change mapped fields for data that has already been synchronized, 
+ the next synchronization that occurs is, in effect, a first synchronization 
+ run. For this reason, you should run Intellisync for SalesLogix synchronization 
+ before making changes to mapped fields.</p>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="slxintellisync.htm" target="_self">Intellisync for SalesLogix</a>
+        </p>
+        <p><a href="slxintellisyncdataexchange.htm" target="_self">Understanding Data Exchange</a>
+        </p>
+        <p><a href="slxintellisyncfactors.htm" target="_self">Understanding Factors Affecting Synchronization</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>
+            </p>
+            <p style="border-top-style: Groove;border-top-color: #c0c0c0;border-top-width: 1px;">&#160;</p>
+            <p><![CDATA[ ]]><a href="../General/feedback.htm" target="_blank">Tell us how we can make the Help better.</a></p>
+        </div>
+        <p>&#160;</p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

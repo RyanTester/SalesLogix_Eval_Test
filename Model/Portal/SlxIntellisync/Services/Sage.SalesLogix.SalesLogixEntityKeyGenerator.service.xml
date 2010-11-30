@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<PortalService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="628bbb07-cdfa-4601-a91b-c7adadd1dfa8">
+  <InstanceId>be9f1bac7625430ba3f56c7c7e97a0c7</InstanceId>
+  <ServiceType>Sage.SalesLogix.SalesLogixEntityKeyGenerator, Sage.SalesLogix</ServiceType>
+  <RegisterAs>Sage.SalesLogix.SalesLogixEntityKeyGenerator, Sage.SalesLogix</RegisterAs>
+  <AddOnDemand>true</AddOnDemand>
+  <Properties />
+</PortalService>

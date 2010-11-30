@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<entityFilter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmRangeEntityFilter" id="dbefcf9c-1c0c-4907-8634-5aa5c4ccad15" lastModifiedUtc="2009-11-03T18:07:27.1496045Z" filterName="Leader" propertyName="UserId" characters="0">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRangeEntityFilter" />
+  </ExtendedPropertiesCollection>
+  <ranges id="e2e2fa83-99e8-4115-a90a-e86938414c0b" rangeName="SlxCalendarUsers" lower="" upper="" />
+</entityFilter>

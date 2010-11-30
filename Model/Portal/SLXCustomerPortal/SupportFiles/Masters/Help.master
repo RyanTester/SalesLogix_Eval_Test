@@ -1,0 +1,47 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="help.master.cs" Inherits="Masters_help" EnableViewState="true" Debug="true" %>
+<%@ Register Assembly="Sage.Platform.WebPortal" Namespace="Sage.Platform.WebPortal.SmartParts"
+    TagPrefix="smartParts" %>
+<%@ Register Assembly="Sage.Platform.WebPortal" Namespace="Sage.Platform.WebPortal.Workspaces"
+    TagPrefix="workSpace" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Sage SalesLogix Help</title>
+    <link rel="stylesheet" type="text/css" href="~/css/YUI/fonts.css" />
+   
+    <link rel="stylesheet" type="text/css" href="~/css/help.css" />
+    <script type="text/Javascript" src="help/common/js/dropdown.js" ></script>
+	<script type="text/Javascript" src="help/common/js/feedback.js" ></script>	
+	<script pin="pin" type="text/javascript" src="Libraries/jQuery/jquery.js"></script>
+</head>
+<body>
+<form id="form1" runat="server">
+	<div class="MainHeader">
+		<span class="MainHeaderLogo">
+			<asp:HyperLink ID="hlHome" runat="server" BorderStyle="None">
+				<img id="logo" src="~/images/saleslogix.gif" runat="server" alt="" style="border-width:0px;"/>
+			</asp:HyperLink>
+		</span>
+		<span class="MainHeaderRight">
+			</asp:DropDownList>
+		</span>
+		<span class="MainHeaderRight">
+        </span></div>
+	
+	<div class="Clear"></div>
+	<div class="MainHeaderDivLine">&nbsp;</div>
+	
+	<div class="MainContent">
+		<workSpace:StandardWorkspace SmartPartInfoStyle-CssClass="mainContentHeader" SmartPartContainerStyle-CssClass="mainContentContent"
+			ID="MainContent" runat="server" />	
+	
+	<div class="copyrightfooter">
+		<asp:Label ID="copyright" runat="server" Text="<%$ resources: HelpCopyrightMessage %>"></asp:Label> 
+	
+</div>
+
+
+</div>
+</form>
+</body>
+</html>

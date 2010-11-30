@@ -1,0 +1,25 @@
+<fieldset class="slxlabel radio" #if(${qfcontrol.ColumnSpan} > 1 || ${qfcontrol.ControlLabelPlacement} == "top")style="width: 75%;" #else style="width: 53%;" #end>
+<asp:RadioButtonList runat="server" ID="${qfcontrol.ControlId}" RepeatDirection="${qfcontrol.RepeatDirection}" #if(${qfcontrol.IsReadOnly} || (!$qfcontrol.Enabled))Enabled="false" #end
+#if($qfcontrol.ToolTip != "") ToolTip="<%$ resources: ${qfcontrol.ControlId}.ToolTip %>" #end
+#if($qfcontrol.HotKey != "")AccessKey="$qfcontrol.HotKey" #end
+#if($qfcontrol.TabIndex > 0)TabIndex="$qfcontrol.TabIndex" #end
+#if($qfcontrol.StyleScheme != "")CssClass="$qfcontrol.StyleScheme" #end
+#if(!$qfcontrol.Visible)Visible="false" #end
+#if($qfcontrol.HasActionCode)AutoPostBack="true" #end
+#if((($qfcontrol.TextField != "") || ($qfcontrol.ValueField != "")) && ($qfcontrol.DataSource != ""))
+ #if(($qfcontrol.TextField != "") && ($qfcontrol.ValueField != ""))
+  DataTextField="${qfcontrol.TextField}" DataValueField="${qfcontrol.ValueField}"
+ #elseif(($qfcontrol.TextField == "") && ($qfcontrol.ValueField != ""))
+  DataTextField="${qfcontrol.ValueField}" DataValueField="${qfcontrol.ValueField}"
+ #elseif(($qfcontrol.TextField != "") && ($qfcontrol.ValueField == ""))
+  DataTextField="${qfcontrol.TextField}" DataValueField="${qfcontrol.TextField}"
+ #end
+#end
+ >
+#foreach($itm in $qfcontrol.Items)#set($idx = $velocityCount - 1)
+<asp:ListItem Text="<%$ resources: ${qfcontrol.ControlId}_item${idx}.Text %>"
+Value="${itm.Value}"
+#if($qfcontrol.StyleScheme != "")class="$qfcontrol.StyleScheme" #end />
+#end
+</asp:RadioButtonList>
+</fieldset>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<entityFilter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmRangeEntityFilter" id="84b0242d-3af4-48ac-aff8-2f2dd62e3eb3" lastModifiedUtc="2008-11-21T23:05:49.5831328Z" filterName="Potential" propertyName="SalesPotential" characters="1">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRangeEntityFilter" />
+  </ExtendedPropertiesCollection>
+  <ranges id="c404a91c-82fd-4d47-b601-030e18f40c65" rangeName="$0 to $999" upper="999" />
+  <ranges id="e855d6c8-31a4-4e31-a58e-c87d507fd550" rangeName="$1000 to $9999" lower="1000" upper="9999" />
+  <ranges id="cb70d664-44f7-44dd-b766-3aca41c721b3" rangeName="$10,000 to $99,999" lower="10000" upper="99999" />
+  <ranges id="e1e79cb7-3222-48d4-ac25-4e4113c4b16a" rangeName="$100,000 to $499,999" lower="100000" upper="499999" />
+  <ranges id="7e4f32d9-41fa-489a-96ce-3a11248e1654" rangeName="$500,000 to $999,999" lower="500000" upper="999999" />
+  <ranges id="aae8c054-9d85-41b0-9a47-964b9955bb95" rangeName="$1,000,000 and higher" lower="1000000" />
+</entityFilter>

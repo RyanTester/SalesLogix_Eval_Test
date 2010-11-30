@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<PortalTemplate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="e58be7bd-b3c6-4a4b-a809-148fe6ec251e">
+  <TemplateName>SvcPortalTemplate</TemplateName>
+  <TemplateDescription>Template for a service based entity portal</TemplateDescription>
+  <Services>
+  <PortalService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="DA22C1BF-9FF8-4ab4-B8E1-4ACCBF167CDB">
+    <InstanceId>60b8c60d1f4a4ad78c5062ea340d3046</InstanceId>
+    <ServiceType>Sage.SalesLogix.Web.EntityStateService, Sage.SalesLogix.Web</ServiceType>
+    <RegisterAs>Sage.Platform.WebPortal.Services.IEntityStateService, Sage.Platform.WebPortal</RegisterAs>
+    <AddOnDemand>false</AddOnDemand>
+  </PortalService>
+  <PortalService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="45b2fad2-6dc4-43b2-aa76-c166381749ab">
+    <InstanceId>a9c9f1d9d63541f89dd4959ddd2a5a93</InstanceId>
+    <ServiceType>Sage.SalesLogix.Web.WebPortalUserService, Sage.SalesLogix.Web</ServiceType>
+    <RegisterAs>Sage.Platform.Security.IUserService, Sage.Platform</RegisterAs>
+    <AddOnDemand>false</AddOnDemand>
+  </PortalService>
+  <PortalService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="bc402b35-3290-4bce-8b11-edb6c986f3d1">
+    <InstanceId>88eb019deb694378a44516a68c51b359</InstanceId>
+    <ServiceType>Sage.SalesLogix.SLXDataService, Sage.SalesLogix</ServiceType>
+    <RegisterAs>Sage.Platform.Data.IDataService, Sage.Platform</RegisterAs>
+    <AddOnDemand>false</AddOnDemand>
+  </PortalService>
+  <PortalService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="df277190-25b5-43c0-8159-9975735220fe">
+    <InstanceId>338f42033883431598b9aeda35fd6bd2</InstanceId>
+    <ServiceType>Sage.Platform.WebPortal.Services.TransactionManagerService, Sage.Platform.WebPortal</ServiceType>
+    <RegisterAs>Sage.Platform.Application.Services.ITransactionManagerService, Sage.Platform.Application</RegisterAs>
+    <AddOnDemand>false</AddOnDemand>
+  </PortalService>
+  <PortalService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="628bbb07-cdfa-4601-a91b-c7adadd1dfa8">
+    <InstanceId>be9f1bac7625430ba3f56c7c7e97a0c7</InstanceId>
+    <ServiceType>Sage.SalesLogix.SalesLogixEntityKeyGenerator, Sage.SalesLogix</ServiceType>
+    <RegisterAs>Sage.SalesLogix.SalesLogixEntityKeyGenerator, Sage.SalesLogix</RegisterAs>
+    <AddOnDemand>true</AddOnDemand>
+    <Properties />
+  </PortalService>
+  <PortalService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="cbc90542-ea28-4db4-8af2-fa31c897120f">
+    <InstanceId>056b9ea2457a4605b0c49fa9188e64bc</InstanceId>
+    <ServiceType>Sage.SalesLogix.Web.WebUserOptionsService, Sage.SalesLogix.Web</ServiceType>
+    <RegisterAs>Sage.SalesLogix.IUserOptionsService, Sage.SalesLogix</RegisterAs>
+    <AddOnDemand>true</AddOnDemand>
+  </PortalService>
+  </Services>
+  <Modules />
+  <DeploymentActions>
+      <ActionType TypeName="Sage.SalesLogix.Web.AdminModule.SLXClientConnectionStringDeploymentAction, Sage.SalesLogix.Web.AdminModule">
+        <Properties />
+      </ActionType>
+      <ActionType TypeName="Sage.Platform.WebPortal.Design.EntityDeploymentAction, Sage.Platform.WebPortal.Design">
+        <Properties />
+      </ActionType>
+  </DeploymentActions>
+  <TemplateUrl>Masters\default.master</TemplateUrl>
+  <AuthenticationProvider>Sage.SalesLogix.Web.SLXWebAuthenticationProvider, Sage.SalesLogix.Web</AuthenticationProvider>
+  <LinkedFolderDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SupportFiles" Source="\Portal\PortalTemplates\SvcPortalTemplate\SupportFiles">
+    <Filters />
+    <Files />
+  </LinkedFolderDefinition>
+</PortalTemplate>

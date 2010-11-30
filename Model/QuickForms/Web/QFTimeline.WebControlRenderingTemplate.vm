@@ -1,0 +1,20 @@
+<SalesLogix:TimelineControl
+    ID="${qfcontrol.ControlId}"
+    ParentElementID="${qfcontrol.ControlId}Parent"
+    MashupName="${qfcontrol.DataSource.MashupName}"
+    ResultName="${qfcontrol.DataSource.ResultName}"
+    Width="100%"
+    Height="300"
+    runat="Server">
+  <Bands>
+#foreach($band in $qfcontrol.Bands)
+    <SalesLogix:StandardBand
+        Width="${band.Width}"
+        TimelineDateTime="${band.TimelineDateTime}"
+        IntervalPixels="${band.IntervalPixels}"
+        Highlight="${band.Highlight}"
+        SyncWith="${band.SyncWith}"
+        Overview="${band.Overview}"/>
+#end
+  </Bands>
+</SalesLogix:TimelineControl>

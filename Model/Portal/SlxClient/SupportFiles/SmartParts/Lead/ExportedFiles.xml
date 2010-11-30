@@ -1,0 +1,47 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\AssignLeads.ascx.cs" timeStamp="2009-11-19T20:11:11.2270" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\ImportActionAddNote.ascx" timeStamp="2009-11-19T20:11:11.2570" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\ImportActionAddNote.ascx.cs" timeStamp="2009-11-19T20:11:11.2730" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\ImportActionAddResponse.ascx" timeStamp="2009-11-19T20:11:11.3500" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\ImportActionAddResponse.ascx.cs" timeStamp="2009-11-19T20:11:11.4270" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\ImportActionAddTarget.ascx" timeStamp="2009-11-19T20:11:11.4130" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\ImportActionAddTarget.ascx.cs" timeStamp="2009-11-19T20:11:11.3330" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\ImportActionScheduleActivity.ascx" timeStamp="2009-11-19T20:11:11.5530" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\ImportActionScheduleActivity.ascx.cs" timeStamp="2009-11-19T20:11:11.6000" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\ImportLeadsWizard.ascx" timeStamp="2009-11-19T20:11:11.3970" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\ImportLeadsWizard.ascx.cs" timeStamp="2009-11-19T20:11:11.5700" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\ImportRunTest.ascx" timeStamp="2009-11-19T20:11:11.7400" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\ImportRunTest.ascx.cs" timeStamp="2009-11-19T20:11:11.5700" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\LeadImportDetail.ascx" timeStamp="2009-11-19T20:11:11.7700" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\LeadImportDetail.ascx.cs" timeStamp="2009-11-19T20:11:11.6300" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\LeadMarketing.ascx" timeStamp="2009-11-19T20:11:11.8330" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\LeadMarketing.ascx.cs" timeStamp="2009-11-19T20:11:11.7230" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\LeadQualifications.ascx" timeStamp="2009-11-19T20:11:11.7400" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\LeadQualifications.ascx.cs" timeStamp="2009-11-19T20:11:11.7570" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\LeadResponses.ascx" timeStamp="2009-11-19T20:11:11.9900" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\LeadResponses.ascx.cs" timeStamp="2009-11-19T20:11:11.8030" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\LeadSearchAndConvert.ascx" timeStamp="2009-11-19T20:11:11.8800" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\LeadSearchAndConvert.ascx.cs" timeStamp="2009-11-19T20:11:11.9100" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\LeadSearchForDuplicates.ascx" timeStamp="2009-11-19T20:11:11.9270" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\LeadSearchForDuplicates.ascx.cs" timeStamp="2009-11-19T20:11:12.0830" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\MatchingLeadRecords.ascx" timeStamp="2009-11-19T20:11:12.1130" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\MatchingLeadRecords.ascx.cs" timeStamp="2009-11-19T20:11:12.0200" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\MatchOptions.ascx" timeStamp="2009-11-19T20:11:12.1300" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\MatchOptions.ascx.cs" timeStamp="2009-11-19T20:11:12.0670" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\StepDefineDelimiter.ascx" timeStamp="2009-11-19T20:11:12.1470" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\StepDefineDelimiter.ascx.cs" timeStamp="2009-11-19T20:11:12.1470" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\StepGroupActions.ascx" timeStamp="2009-11-19T20:11:12.2530" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\StepGroupActions.ascx.cs" timeStamp="2009-11-19T20:11:12.5030" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\StepManageDuplicates.ascx" timeStamp="2009-11-19T20:11:12.3330" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\StepManageDuplicates.ascx.cs" timeStamp="2009-11-19T20:11:12.3170" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\StepMapFields.ascx" timeStamp="2009-11-19T20:11:12.2400" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\StepMapFields.ascx.cs" timeStamp="2009-11-19T20:11:12.2700" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\StepProcessRequest.ascx" timeStamp="2009-11-19T20:11:12.4900" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\StepProcessRequest.ascx.cs" timeStamp="2009-11-19T20:11:12.3470" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\StepReview.ascx" timeStamp="2009-11-19T20:11:12.5670" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\StepReview.ascx.cs" timeStamp="2009-11-19T20:11:12.7700" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\StepSelectFile.ascx" timeStamp="2009-11-19T20:11:12.6770" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\StepSelectFile.ascx.cs" timeStamp="2009-11-19T20:11:12.6900" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\App_LocalResources\" />
+</exportedFiles>

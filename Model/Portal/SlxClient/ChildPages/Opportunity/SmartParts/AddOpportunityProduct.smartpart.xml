@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="c92e15ac-7411-4bc0-9762-2f369a3b800f">
+  <SmartPartId>AddOpportunityProduct</SmartPartId>
+  <SmartPart>SmartParts\Opportunity\AddOpportunityProduct.ascx</SmartPart>
+  <TargetWorkspace>DialogWorkspace</TargetWorkspace>
+  <ShowInMode>Detail</ShowInMode>
+  <Properties />
+</SmartPartMapping>

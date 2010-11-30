@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmOtherMethod" id="ed43b47f-3703-4a38-8792-5f43a8c93146" lastModifiedUtc="2009-08-24T21:35:58.9500909Z" name="lueCompetitorLoss_OnChange" methodType="Other" actionType="None" returnMode="None" isInstance="false">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmOtherMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="51338e99-8548-4428-8441-028de4da9ee2" paramName="form" sequence="0" paramType="IOpportunityClosedLost" />
+    <OrmEntityMethodParam id="3b1d8692-b47a-4914-88f2-4d767c41a685" paramName="args" sequence="0" paramType="EventArgs" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget xsi:type="OrmMethodTargetSnippet" id="c682ef18-d1b1-447e-9259-52405a8e0fc9" lastModifiedUtc="2009-08-24T21:36:25.8347129Z" targetType="Sage.BusinessRules.CodeSnippets.OpportunityClosedLostEventHandlers, Sage.SnippetLibrary.CSharp" targetMethod="lueCompetitorLoss_OnChange" active="true" codeSnippetId="d44aa26d-ea57-49a7-a1c5-fc400d1ab404">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

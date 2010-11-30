@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="24900472-0e6c-4057-b666-b30b3b53d749">menuItemLookupContract.contextmenu.xml</Item>
+  <Item Id="da56e526-40ac-4229-b57e-ad448b162f53">menuItemNewContract.contextmenu.xml</Item>
+  <Item Id="627e400e-8fee-4522-a32b-55e7f77ccd23">menuItemCreateNewContractGroup.contextmenu.xml</Item>
+</ModelItems>

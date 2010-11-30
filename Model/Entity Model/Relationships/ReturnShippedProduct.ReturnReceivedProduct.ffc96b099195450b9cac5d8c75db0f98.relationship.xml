@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="ffc96b09-9195-450b-9cac-5d8c75db0f98" lastModifiedUtc="2008-01-22T23:25:52.3807617Z" cardinality="M:1" parentEntityId="8d7c19c8-d278-48d1-9771-b71528157efc" childEntityId="32045fed-af25-4533-9819-43a9f3a7786e">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="a34358c3-ada3-4847-90db-c1d916265594" lastModifiedUtc="2008-01-18T22:28:45.0792974Z" name="ReturnedReceivedProduct" audited="false" displayCategory="Intermediate" isNullable="true" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="2bd4d786-033d-4720-9ae8-4cd1ebe1233c" lastModifiedUtc="2008-01-18T22:28:15.2322989Z" name="Property" audited="false" displayCategory="Intermediate" isNullable="true" include="false">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="60b0e191-d96c-4574-81a6-97b1675cbeb4" parentPropertyId="492c6530-92af-46a0-b18b-070b20cfe37d" childPropertyId="458d0801-09d0-449f-b382-e724fb273575" ordinal="0" />
+  </column>
+</relationship>

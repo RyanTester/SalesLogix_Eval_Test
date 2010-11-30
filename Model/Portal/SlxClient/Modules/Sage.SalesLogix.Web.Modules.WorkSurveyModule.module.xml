@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<WebModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="32ee4ef3-ba31-401a-9f5f-8f54487dbace">
+  <InstanceId>f6adf97b10864c7eb416774129270128</InstanceId>
+  <ModuleTypeName>Sage.SalesLogix.Web.Modules.WorkSurveyModule, Sage.SalesLogix.Web.Modules</ModuleTypeName>
+  <RunInMode />
+  <AllowRoles />
+</WebModule>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="eb4de006-4000-4f7f-a825-b04db9848a7a" lastModifiedUtc="2007-09-05T17:20:11.5243901Z" name="AddTicketActivity" returnType="void" methodType="Rule" actionType="None" returnMode="None" isInstance="true">
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="67900786-8009-48dc-a15e-a3a40eee50ce" paramName="ticket" sequence="0" paramType="ITicketActivity" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="16d0fb50-ead7-4ec7-8bc2-f855cf880427" lastModifiedUtc="0001-01-01T00:00:00" targetType="Sage.SalesLogix.TicketActivity.Rules, Sage.SalesLogix.BusinessRules" targetMethod="AddTicketActivity" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

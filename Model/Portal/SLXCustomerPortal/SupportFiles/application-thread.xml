@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<WebApplication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ApplicationId="SlxClient" xmlns="urn:sage-schemas-com:WebApplication">
+  <RootWorkItem TypeName="Sage.Platform.Application.UI.Web.WebUIWorkItem, Sage.Platform.Application.UI.Web, Version=7.5.2.1910, Culture=neutral, PublicKeyToken=null" xmlns="urn:sage-schemas-com:Application">
+    <Properties />
+  </RootWorkItem>
+  <AuthenticationProvider TypeName="Sage.Platform.Application.WindowsAuthenticationProvider, Sage.Platform.Application" xmlns="urn:sage-schemas-com:Application">
+    <Properties />
+  </AuthenticationProvider>
+  <Localization xmlns="urn:sage-schemas-com:Application" />
+  <CoreServices xmlns="urn:sage-schemas-com:Application" />
+  <Services xmlns="urn:sage-schemas-com:Application">
+    <Service TypeName="Sage.SalesLogix.Security.SLXUserService, Sage.SalesLogix.Security" RegisterAs="Sage.Platform.Security.IUserService, Sage.Platform" AddOnDemand="false">
+      <Properties />
+    </Service>
+    <Service TypeName="Sage.SalesLogix.Web.WebUserOptionsService, Sage.SalesLogix.Web" RegisterAs="Sage.Platform.Application.Services.IUserOptionsService, Sage.Platform.Application">
+      <Properties />
+    </Service>
+    <Service TypeName="Sage.SalesLogix.Security.FieldLevelSecurityService, Sage.SalesLogix.Security" RegisterAs="Sage.Platform.Security.IFieldLevelSecurityService, Sage.Platform">
+      <Properties />
+    </Service>
+    <Service TypeName="Sage.Platform.WebPortal.Services.WebHibernateConfigurationService, Sage.Platform.WebPortal" RegisterAs="Sage.Platform.Data.IHibernateConfigurationService, Sage.Platform">
+      <Properties />
+    </Service>
+    <!--
+    <Service TypeName="Sage.SalesLogix.Client.GroupBuilder.GroupContextService, Sage.SalesLogix.Client.GroupBuilder" RegisterAs="Sage.SalesLogix.Client.GroupBuilder.IGroupContextService, Sage.SalesLogix.Client.GroupBuilder" AddOnDemand="false">
+      <Properties />
+    </Service>
+    <Service TypeName="Sage.SalesLogix.Client.GroupBuilder.GroupContextService, Sage.SalesLogix.Client.GroupBuilder" RegisterAs="Sage.SalesLogix.Client.GroupBuilder.IGroupContextService, Sage.SalesLogix.Client.GroupBuilder" AddOnDemand="false">
+      <Properties />
+    </Service>
+    <Service TypeName="Sage.Platform.WebPortal.Services.TransactionManagerService, Sage.Platform.WebPortal" RegisterAs="Sage.Platform.Application.Services.ITransactionManagerService, Sage.Platform.Application" AddOnDemand="false">
+      <Properties />
+    </Service>
+    <Service TypeName="Sage.Platform.NamedQueries.DictionaryBasedNamedQueryCacheService, Sage.Platform" RegisterAs="Sage.Platform.NamedQueries.INamedQueryCacheService, Sage.Platform" AddOnDemand="false">
+      <Properties />
+    </Service>
+    <Service TypeName="Sage.Platform.NamedQueries.DictionaryBasedNamedQueryCacheService, Sage.Platform" RegisterAs="Sage.Platform.NamedQueries.INamedQueryLookupService, Sage.Platform" AddOnDemand="false">
+      <Properties />
+    </Service>
+    <Service TypeName="Sage.Platform.Mashups.Web.WebMashupDiscoveryService, Sage.Platform.Mashups.Web" RegisterAs="Sage.Platform.Mashups.IMashupDiscoveryService, Sage.Platform.Mashups">
+      <Properties />
+    </Service>
+    -->
+  </Services>
+  <CoreModules xmlns="urn:sage-schemas-com:Application" />
+  <Modules xmlns="urn:sage-schemas-com:Application" />
+  <Configuration xmlns="urn:sage-schemas-com:Application" />
+  <BuilderStrategies xmlns="urn:sage-schemas-com:Application" />
+  <msgList xmlns="urn:sage-schemas-com:Application" />
+</WebApplication>

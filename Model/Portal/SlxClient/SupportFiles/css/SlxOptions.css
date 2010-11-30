@@ -1,0 +1,32 @@
+﻿.optionsLabelCell 
+{
+	/* width:220px; */
+}
+
+.optionsValueCell 
+{
+	/* width:200px; */
+}
+
+.highlightedCell
+{
+	background-color : #F0F0F0;
+	padding : 2px 0px;
+	font-weight : bold;
+}
+
+.optionsInputClass
+{
+	/* width:153px; */
+}
+.indent
+{
+	left:12px;
+	position:relative;
+}
+
+.optionsImageClass
+{
+	margin-left : -4px;
+	cursor : pointer;
+}

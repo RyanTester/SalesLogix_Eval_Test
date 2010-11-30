@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<PortalApplication xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="861ac5fe-b571-4015-a55d-bf63e400e1e7">
+  <PortalAlias>SlxClient</PortalAlias>
+  <PortalReferences>
+    <PortalReference>
+      <ModelId>73d4e7d0-a7fa-40ae-8b45-1ad7ed954154</ModelId>
+      <ItemTypeName>Sage.Platform.WebPortal.Design.PortalApplication, Sage.Platform.WebPortal.Design, Version=7.5.0.1138, Culture=neutral, PublicKeyToken=null</ItemTypeName>
+      <ItemId>0fa2d760-ccdc-4f7a-a07b-467d9fad8269</ItemId>
+    </PortalReference>
+  </PortalReferences>
+  <DeploymentActions>
+    <ActionType TypeName="Sage.SalesLogix.Web.AdminModule.SLXClientConnectionStringDeploymentAction, Sage.SalesLogix.Web.AdminModule">
+      <Properties />
+    </ActionType>
+    <ActionType TypeName="Sage.Platform.WebPortal.Design.EntityDeploymentAction, Sage.Platform.WebPortal.Design">
+      <Properties />
+    </ActionType>
+    <ActionType TypeName="Sage.Platform.WebPortal.Design.ServiceHostReferenceProvider, Sage.Platform.WebPortal.Design">
+      <Properties />
+    </ActionType>
+    <ActionType TypeName="Sage.Platform.WebPortal.Design.SummaryViewConfigDeploymentAction, Sage.Platform.WebPortal.Design">
+      <Properties />
+    </ActionType>
+    <ActionType TypeName="Sage.Platform.Mashups.AdminModule.MashupDeploymentAction, Sage.Platform.Mashups.AdminModule">
+      <Properties />
+    </ActionType>
+    <ActionType TypeName="Sage.Platform.WebPortal.Design.EntityFilterDeploymentAction, Sage.Platform.WebPortal.Design">
+      <Properties />
+    </ActionType>
+  </DeploymentActions>
+  <TemplateUrl>Masters\base.master</TemplateUrl>
+  <AuthenticationProvider>Sage.SalesLogix.Web.SLXWebAuthenticationProvider, Sage.SalesLogix.Web</AuthenticationProvider>
+</PortalApplication>

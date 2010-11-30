@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="8c7401c1-a5b8-4955-8432-9060cf9c0f41">
+  <SmartPartId>ActivityViewer</SmartPartId>
+  <ReferencedModelId>00000000-0000-0000-0000-000000000000</ReferencedModelId>
+  <SmartPart>SmartParts\Activity\ActivityViewer.ascx</SmartPart>
+  <TargetWorkspace>MainContent</TargetWorkspace>
+  <ShowInMode />
+  <Properties>
+    <Property Name="SummaryConfigFile" TypeConverter="">ActivityContactSummary</Property>
+    <Property Name="SummaryListConfigFile" TypeConverter="">ActivitySummaryList</Property>
+  </Properties>
+  <AllowRoles />
+</SmartPartMapping>

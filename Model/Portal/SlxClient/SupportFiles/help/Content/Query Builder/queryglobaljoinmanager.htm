@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="Gainey;decompilation;Admin;N" MadCap:priority="1" MadCap:comment="12/30/02 KC Conv. buttons to links (Multiple Comments)" MadCap:timeEstimate="0" MadCap:check_list="First Draft" MadCap:status="In Progress" MadCap:lastBlockDepth="5" MadCap:lastHeight="696" MadCap:lastWidth="607" MadCap:conditions="Output.WebClient" MadCap:tocPath="Using Query Builder|Using Joins" MadCap:PathToHelpSystem="../../" MadCap:SearchType="Stem">
+    <!-- saved from url=(0014)about:internet -->
+    <head><title>Global Join Manager</title>
+        <link rel="StyleSheet" href="../SALESLOGIX.CSS" />
+        <style>
+td ol,
+td ul
+{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+</style>
+        <script src="../SkinSupport/MadCapUtilities.js">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor148"></a>Global Join Manager</h1>
+        <table wrapperparagraphselector="P" style="width: 246px;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="246">
+            <tr>
+                <td style="width: 43px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="43px">
+                    <p style="margin-bottom: 0;">
+                        <img src="../image/adminonly.gif" alt="image\adminonly.gif" style="width: 27px;height: 39px;margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;border-style: none;border-style: none;" width="27" height="39" border="0" />
+                    </p>
+                </td>
+                <td style="width: 215px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="middle" width="215px">
+                    <p style="margin-top: 0.0;margin-bottom: 0;font-weight: normal;"><span class="SLXBold">&#160;System Administrator 
+ Only</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0">
+            <col />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/caution.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;width: 39px;height: 38px;float: none;border-style: none;border-style: none;" width="39" height="38" border="0" />
+                    </p>
+                </td>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <ul>
+                        <li class="kadov-p-CTip-Note-Text-Bulleted" value="1">
+                            <p class="Tip-Note-Text-Bulleted">Use 
+ extreme care when creating global joins, as it is possible to create a 
+ global join that can cause system performance problems.</p>
+                        </li>
+                        <li class="kadov-p-CTip-Note-Text-Bulleted" value="2">
+                            <p class="Tip-Note-Text-Bulleted" style="margin-bottom: 0;">By 
+ default, the ADDRESS table is joined to the ACCOUNT table via an Inner 
+ join. Do not change the properties of this join.</p>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <p>The Global Join Manager displays all global joins in your Sage SalesLogix 
+ database, and permits the system administrator or administrative user 
+ to add, edit, and delete global joins as necessary. A global join is permanent 
+ and exists from session to session in the Query Builder data tree structure.</p>
+        <p>Sage SalesLogix contains a series of predefined global joins (called 
+ system joins), which cannot be deleted.Anyone can use these predefined global joins by selecting a field in the Query  Builder and clicking the Global Join button. The Global Join Manager dialog  appears, displaying existing global joins and giving you the option to edit or  delete existing global joins, or to add new ones.</p>
+        <p>The Global Join Manager is only available if you are logged in as an  administrator.</p>
+        <p class="Infinitive">To open the Global Join Manager</p>
+        <ol>
+            <li class="kadov-p-CTopic-Text-Numbered" value="1">
+                <p class="Topic-Text-Numbered">Open 
+ <a href="openquerybuilder.htm">Query Builder</a>.</p>
+            </li>
+            <li class="kadov-p-CTopic-Text-Numbered" value="2">
+                <p class="Topic-Text-Numbered">Click <b>Global</b><span class="SLXBold"> Joins</span>.</p>
+            </li>
+        </ol>
+        <p>The Global Join Manager displays the following fields:</p>
+        <table wrapperparagraphselector="P" style="margin-left: 9.00pt;margin-top: 14pt;border-spacing: 0px;left: 0px;top: 389px;width: 511px;height: 171px;border-spacing: 0px;" cellspacing="0" height="171" width="511">
+            <col style="width: 94px;" />
+            <col style="width: 285px;" />
+            <tr>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" class="Tabletop">
+                    <p class="Tabletop"><span style="font-weight: bold;">Field</span>
+                    </p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" class="Tabletop">
+                    <p class="Tabletop"><span style="font-weight: bold;">Description</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;font-weight: bold;" valign="top" class="Table">
+                    <p class="Table"><span class="SLXBold" style="font-weight: normal;">Sys</span>
+                    </p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" class="Table">
+                    <p class="Table">A system join that cannot be deleted.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;font-weight: bold;" valign="top" class="Table">
+                    <p class="Table" style="font-weight: normal;"><span class="SLXBold" style="font-weight: normal;">1:1</span>
+                    </p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" class="Table">
+                    <p class="Table">Indicates a one-to-one relationship.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;font-weight: bold;" valign="top" class="Table">
+                    <p class="Table"><span class="SLXBold" style="font-weight: normal;">Parent Table, Parent Field</span>
+                    </p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" class="Table">
+                    <p class="Table">The main table and field in the join relationship.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;font-weight: bold;" valign="top" class="Table">
+                    <p class="Table"><span class="SLXBold" style="font-weight: normal;">Child Table, Child Field</span>
+                    </p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" class="Table">
+                    <p class="Table">The table and field joined to the Parent Table and Parent 
+ Field.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" class="Table">
+                    <p class="Table" style="font-weight: normal;"><span class="SLXBold" style="font-weight: normal;">Type</span>
+                    </p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" class="Table">
+                    <p class="Table">The type of join, such as <a href="queryinnerjoins.htm" target="_self">Inner</a>, <a href="queryleftjoin.htm" target="_self">Left</a>, or <a href="queryrightjoin.htm" target="_self">Right</a>.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" class="Table">
+                    <p class="Table" style="font-weight: normal;"><a href="querycascadeoptions.htm" style="font-weight: normal;"><span class="SLXBold" style="font-weight: normal;">Cascade</span></a>
+                    </p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" class="Table">
+                    <p class="Table">How records are deleted through the join.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" class="Table">
+                    <p class="Table" style="font-weight: normal;"><a href="queryvisibility.htm" style="font-weight: normal;"><span class="SLXBold" style="font-weight: normal;">Visibility</span></a>
+                    </p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" class="Table">
+                    <p class="Table">How the join displays in Query Builder.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="RelatedTopics">Related Topics  <![CDATA[ ]]></p>
+        <p><a href="querybuilderoverview.htm" target="_self">Query Builder Overview</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>
+            </p>
+            <p style="border-top-style: Groove;border-top-color: #c0c0c0;border-top-width: 1px;">&#160;</p>
+            <p><![CDATA[ ]]><a href="../General/feedback.htm" target="_blank">Tell us how we can make the Help better.</a></p>
+        </div>
+        <p>&#160;</p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

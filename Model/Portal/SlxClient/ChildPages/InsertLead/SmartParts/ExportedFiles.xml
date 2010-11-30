@@ -1,0 +1,9 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\ChildPages\InsertLead\SmartParts\InsertLead.smartpart.xml" timeStamp="2009-11-19T20:11:00.7430" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\InsertLead\SmartParts\InsertLead.smartpart.xml.resx" timeStamp="2009-11-19T20:11:00.7730" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\InsertLead\SmartParts\LeadSearchForDuplicates.smartpart.xml" timeStamp="2009-11-19T20:11:00.7730" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\InsertLead\SmartParts\LeadSearchForDuplicates.smartpart.xml.resx" timeStamp="2009-11-19T20:11:00.7900" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\InsertLead\SmartParts\MatchingLeadRecords.smartpart.xml" timeStamp="2009-11-19T20:11:00.7900" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\InsertLead\SmartParts\MatchingLeadRecords.smartpart.xml.resx" timeStamp="2009-11-19T20:11:00.7900" />
+</exportedFiles>

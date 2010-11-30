@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="5f2a8d8e-ce55-43b3-b5a9-c56bc2c7fa3b" lastModifiedUtc="2007-12-27T23:29:08.5332049Z" name="AddDefectActivityNotesTimeStamp" returnType="void" methodType="Rule" actionType="None" returnMode="None" isInstance="true">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter />
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="d4751513-37c2-4773-8bec-f9e5a64aa497" lastModifiedUtc="2007-12-27T23:29:06.4707313Z" targetType="Sage.SalesLogix.DefectActivity.Rules, Sage.SalesLogix.BusinessRules" targetMethod="AddDefectActivityNotesTimeStamp" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

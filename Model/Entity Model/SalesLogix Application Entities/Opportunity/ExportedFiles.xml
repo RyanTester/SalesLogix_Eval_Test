@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\Account.filter.xml" timeStamp="2009-11-19T20:10:53.5530" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\AccountManager.filter.xml" timeStamp="2009-11-19T20:10:53.4270" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\CheckOppAccount.method.xml" timeStamp="2009-11-19T20:10:53.4270" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\Description.filter.xml" timeStamp="2009-11-19T20:10:53.5670" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\EstimatedClose.filter.xml" timeStamp="2009-11-19T20:10:53.5200" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\GetClosedWonLostOppCompetitors.method.xml" timeStamp="2009-11-19T20:10:53.5200" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\MoveOppProductsToAssets.method.xml" timeStamp="2009-11-19T20:10:53.5200" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:53.4600" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:53.5370" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:53.4730" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\OnBeforeAccountChanged.method.xml" timeStamp="2009-11-19T20:10:53.4900" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:53.4900" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:53.4900" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\OnBeforeStatusChanged.method.xml" timeStamp="2009-11-19T20:10:53.5070" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:53.5070" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\OnCreate.method.xml" timeStamp="2009-11-19T20:10:53.5070" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\Opportunity.OPPORTUNITY.entity.xml" timeStamp="2009-11-19T20:10:53.6000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\Owner.filter.xml" timeStamp="2009-11-19T20:10:53.6000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\Potential.filter.xml" timeStamp="2009-11-19T20:10:53.6600" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\Probability.filter.xml" timeStamp="2009-11-19T20:10:53.6000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\SetOppCompetitorReplacedFlag.method.xml" timeStamp="2009-11-19T20:10:53.6600" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\Stage.filter.xml" timeStamp="2009-11-19T20:10:53.6300" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\Status.filter.xml" timeStamp="2009-11-19T20:10:53.6470" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\StatusChangeLost.method.xml" timeStamp="2009-11-19T20:10:53.5670" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\StatusChangeWon.method.xml" timeStamp="2009-11-19T20:10:53.5830" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\UpdateOppRecord.method.xml" timeStamp="2009-11-19T20:10:53.5830" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\ValidateOpportunity.method.xml" timeStamp="2009-11-19T20:10:53.6470" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\Opportunity\QuickForms\" />
+</exportedFiles>

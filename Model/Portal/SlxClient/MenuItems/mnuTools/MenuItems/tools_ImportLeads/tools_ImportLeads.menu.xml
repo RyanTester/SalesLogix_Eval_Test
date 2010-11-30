@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="db10bcd1-3d2c-4b4f-b854-6f71a52dbe19">
+  <ItemId>tools_ImportLeads</ItemId>
+  <NavUrl>ImportLead.aspx</NavUrl>
+  <LargeImageUrl>[Localization!Global_Images:Import_Leads_24x24]</LargeImageUrl>
+  <SmallImageUrl>[Localization!Global_Images:Import_Leads_16x16]</SmallImageUrl>
+  <ContextMenuId />
+  <Target />
+</MenuDropDownItem>

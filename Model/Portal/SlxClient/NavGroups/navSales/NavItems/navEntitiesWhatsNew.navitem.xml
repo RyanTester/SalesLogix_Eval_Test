@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<NavigationItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="b2eb3ca8-d7e5-4ba3-8d61-9f344bf960aa">
+  <ItemId>navEntitiesWhatsNew</ItemId>
+  <NavUrl>WhatsNew.aspx</NavUrl>
+  <LargeImageUrl>[Localization.Global_Images:Whats_New_3D_Files_32x32]</LargeImageUrl>
+  <SmallImageUrl>[Localization!Global_Images:Whats_New_3D_Files_24x24]</SmallImageUrl>
+  <ContextMenuId />
+  <Target />
+</NavigationItem>

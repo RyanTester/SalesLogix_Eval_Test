@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="e33e682b-2bd5-429c-8c31-9039660d0f64" lastModifiedUtc="2008-06-20T23:00:24.0625Z" name="GetActivitiesForMashup" returnType="Object" methodType="Rule" actionType="None" returnMode="Object">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="765cc61a-db64-452e-acfb-c29875f555f0" paramName="EntityId" sequence="0" paramType="string" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="3b55c9a4-4c41-4041-80fe-662c1cbe863d" lastModifiedUtc="2008-06-20T22:53:33.25Z" targetType="Sage.SalesLogix.Activity.Activity, Sage.SalesLogix.Activity" targetMethod="GetMashupActivities" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

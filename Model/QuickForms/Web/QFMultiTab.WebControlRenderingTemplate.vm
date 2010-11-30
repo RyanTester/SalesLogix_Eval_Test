@@ -1,0 +1,12 @@
+#macro(computewidth)
+#set($mply = $qfcontrol.ColumnSpan)#foreach($panel in $qfcontrol.Tabs)#if($panel.Columns.Count > $mply)#set($mply = $panel.Columns.Count)#end#end
+#set($wdth = $mply * 300)Width="${wdth}px"
+#end
+<SalesLogix:TabControl  id="${qfcontrol.ControlId}" runat="server" #if(!$qfcontrol.Enabled)Enabled="false" #end
+ #if(!$qfcontrol.Visible)Visible="false" #end
+#if($qfcontrol.StyleScheme != "") CssClass="$qfcontrol.StyleScheme" #end
+ #computewidth() >
+  <Panels>
+    #foreach($panel in $qfcontrol.Tabs)$pagegenerator.parseControl($panel)#end
+  </Panels>
+</SalesLogix:TabControl>

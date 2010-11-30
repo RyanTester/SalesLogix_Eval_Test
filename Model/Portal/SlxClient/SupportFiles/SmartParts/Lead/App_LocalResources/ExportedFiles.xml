@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\App_LocalResources\ImportActionAddNote.ascx.resx" timeStamp="2009-11-19T20:11:13.3470" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\App_LocalResources\ImportActionAddResponse.ascx.resx" timeStamp="2009-11-19T20:11:12.7070" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\App_LocalResources\ImportActionAddTarget.ascx.resx" timeStamp="2009-11-19T20:11:12.9100" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\App_LocalResources\ImportActionScheduleActivity.ascx.resx" timeStamp="2009-11-19T20:11:12.8330" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\App_LocalResources\ImportLead_ClientScript.js" timeStamp="2009-11-19T20:11:12.9400" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\App_LocalResources\ImportLeadProgress_ClientScript.js" timeStamp="2009-11-19T20:11:12.8800" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\App_LocalResources\ImportLeadsWizard.ascx.resx" timeStamp="2009-11-19T20:11:13.0330" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\App_LocalResources\ImportRunTest.ascx.resx" timeStamp="2009-11-19T20:11:13.0500" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\App_LocalResources\ImportRunTest_ClientScript.js" timeStamp="2009-11-19T20:11:13.1900" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\App_LocalResources\LeadConversion.ascx.resx" timeStamp="2009-11-19T20:11:13.0800" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\App_LocalResources\LeadImportDetail.ascx.resx" timeStamp="2009-11-19T20:11:13.0800" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\App_LocalResources\LeadImportHistory.ascx.resx" timeStamp="2009-11-19T20:11:13.1770" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\App_LocalResources\LeadMarketing.ascx.resx" timeStamp="2009-11-19T20:11:13.1900" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\App_LocalResources\LeadQualifications.ascx.resx" timeStamp="2009-11-19T20:11:13.1900" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\App_LocalResources\LeadResponses.ascx.resx" timeStamp="2009-11-19T20:11:13.3300" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\App_LocalResources\LeadSearchAndConvert.ascx.resx" timeStamp="2009-11-19T20:11:13.6730" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\App_LocalResources\LeadSearchAndConvert_ClientScript.js" timeStamp="2009-11-19T20:11:13.3470" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\App_LocalResources\LeadSearchForDuplicates.ascx.resx" timeStamp="2009-11-19T20:11:13.3300" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\App_LocalResources\LeadSearchForDuplicates_ClientScript.js" timeStamp="2009-11-19T20:11:13.3170" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\App_LocalResources\MatchingLeadRecords.ascx.resx" timeStamp="2009-11-19T20:11:13.4700" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\App_LocalResources\MatchOptions.ascx.resx" timeStamp="2009-11-19T20:11:13.3930" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\App_LocalResources\MatchOptions_ClientScript.js" timeStamp="2009-11-19T20:11:13.3470" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\App_LocalResources\StepDefineDelimiter.ascx.resx" timeStamp="2009-11-19T20:11:13.5800" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\App_LocalResources\StepGroupActions.ascx.resx" timeStamp="2009-11-19T20:11:13.5800" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\App_LocalResources\StepManageDuplicates.ascx.resx" timeStamp="2009-11-19T20:11:13.4700" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\App_LocalResources\StepMapFields.ascx.resx" timeStamp="2009-11-19T20:11:13.5800" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\App_LocalResources\StepProcessRequest.ascx.resx" timeStamp="2009-11-19T20:11:13.6130" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\App_LocalResources\StepReview.ascx.resx" timeStamp="2009-11-19T20:11:13.7830" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\SmartParts\Lead\App_LocalResources\StepSelectFile.ascx.resx" timeStamp="2009-11-19T20:11:14.2370" />
+</exportedFiles>

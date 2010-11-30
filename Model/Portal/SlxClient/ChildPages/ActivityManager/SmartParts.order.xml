@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="61ae2034-adce-4c6a-8ec0-4a7cc4e7faae">EditRecurrence.smartpart.xml</Item>
+  <Item Id="364da3e2-81a6-4135-b429-88235d511987">CompleteRecurrence.smartpart.xml</Item>
+  <Item Id="8c7401c1-a5b8-4955-8432-9060cf9c0f41">ActivityViewer.smartpart.xml</Item>
+</ModelItems>

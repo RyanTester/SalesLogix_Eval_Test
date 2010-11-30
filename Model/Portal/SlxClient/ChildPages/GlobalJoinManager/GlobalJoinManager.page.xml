@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<PortalPage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="92baa9f5-14a1-49d8-8c5c-53851509a456">
+  <PageAlias>GlobalJoinManager</PageAlias>
+  <TemplateUrl>Masters\Dialog.master</TemplateUrl>
+  <InheritTemplate>false</InheritTemplate>
+  <InheritsFrom>Sage.Platform.WebPortal.WebPortalPage, Sage.Platform.WebPortal</InheritsFrom>
+  <Properties />
+  <TemplateProperties />
+</PortalPage>

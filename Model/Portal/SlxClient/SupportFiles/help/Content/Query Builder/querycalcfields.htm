@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:priority="1" MadCap:comment="12/30/02 KC Conv. buttons to links. (Multiple Comments)" MadCap:timeEstimate="0" MadCap:check_list="First Draft" MadCap:status="In Progress" MadCap:lastBlockDepth="5" MadCap:lastHeight="400" MadCap:lastWidth="607" MadCap:conditions="Output.WebClient" class="" MadCap:tocPath="Using Query Builder|Using Calculated Fields" MadCap:PathToHelpSystem="../../" MadCap:SearchType="Stem">
+    <!-- saved from url=(0014)about:internet -->
+    <head><title>Using Calculated Fields</title>
+        <link rel="StyleSheet" href="../SALESLOGIX.CSS" />
+        <script src="../SkinSupport/MadCapUtilities.js">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor149"></a>Using Calculated Fields</h1>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0">
+            <col />
+            <col />
+            <tr>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top">
+                    <p style="margin-bottom: 0;">
+                        <img src="../image/adminonly.gif" alt="image\adminonly.gif" style="width: 27px;height: 39px;margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;border-style: none;border-style: none;" width="27" height="39" border="0" />
+                    </p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="middle">
+                    <p style="margin-top: 0.0;margin-bottom: 0;">&#160;<span class="SLXBold">System 
+ Administrator Only</span></p>
+                </td>
+            </tr>
+        </table>
+        <p class="Tip-Note-Text" style="margin-top: 0.0;margin-bottom: 0.0;">A calculated field is 
+ dynamic and consists of two or more fields from the database. The fields 
+ used to create a calculated field can come from one table or from several 
+ <a href="queryjointables.htm">joined</a> tables. The values that appear 
+ for a calculated field are updated after changes are made to the fields 
+ comprising it. Sage SalesLogix includes a set of predefined calculated fields and you can  create new calculated fields.</p>
+        <p class="Tip-Note-Text" style="margin-top: 0.0; margin-bottom: 0.0;">&#160;</p>
+        <p class="Tip-Note-Text" style="margin-top: 0.0; margin-bottom: 0.0;">A calculated field can perform mathematical operations 
+ or concatenate strings, depending on the <a href="querycalcfieldtypes.htm" target="_self">type 
+ of calculation</a>.</p>
+        <p class="Infinitive">Examples</p>
+        <ul>
+            <li value="1">
+                <p>Numeric calculation: Opportunity.Salespotential *  Opportunity.Closeprobability / 100. The resulting weighted sales figure would be  100, if Sales potential is 200 and Close Probability is 50%. (The Close  Probability field reflects a whole number, not a percentage; therefore, Close  Probability would have to be divided by 100.)</p>
+            </li>
+            <li value="2">
+                <p>String calculation: Contact.Lastname, Contact.Firstname. A contact named Pat  Smith would result in the calculated field value of Smith, Pat.</p>
+            </li>
+        </ul>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="queryaddeditcalcfields.htm">Adding or Editing Calculated Fields</a>
+        </p>
+        <p><a href="querydeletecalcfields.htm">Deleting Calculated Fields</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>
+            </p>
+            <p style="border-top-style: Groove;border-top-color: #c0c0c0;border-top-width: 1px;">&#160;</p>
+            <p><![CDATA[ ]]><a href="../General/feedback.htm" target="_blank">Tell us how we can make the Help better.</a></p>
+        </div>
+        <p>&#160;</p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

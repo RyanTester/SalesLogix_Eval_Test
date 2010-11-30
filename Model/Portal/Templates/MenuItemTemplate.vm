@@ -1,0 +1,14 @@
+#macro ( addItem $newItem )
+    <sp:NavItem ID="$newItem.ItemId" meta:resourcekey="$newItem.ItemId" NavURL="$tools.ToAppRelative($newItem.NavUrl)" IsSpacer="$newItem.IsSpacer" LargeImageURL="$tools.ResolveImageUrl($newItem.LargeImageUrl)" SmallImageURL="$tools.ResolveImageUrl($newItem.SmallImageUrl)" Target="$newItem.Target">
+#foreach( $childItem in $newItem.DropDownItems)
+        #addItem( $childItem )
+#end
+    </sp:NavItem>
+#end
+<%@ Control language="C#" %>
+<%@ Register tagprefix="sp" namespace="Sage.Platform.WebPortal.SmartParts" assembly="Sage.Platform.WebPortal" %>
+<sp:NavItemCollection runat="server" id="$menuItem.ItemId" meta:resourcekey="$menuItem.ItemId" NavURL="$menuItem.NavUrl" Target="$menuItem.Target">
+#foreach( $item in $menuItem.DropDownItems)
+    #addItem( $item )
+#end
+</sp:NavItemCollection>

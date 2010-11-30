@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<activitiesViewConfiguration>
+  <groups>
+    <!-- All Open -->
+    <group name="all" type="Sage.Entity.Interfaces.IActivity, Sage.Entity.Interfaces">
+      <query sparse="true" count="true" cacheable="true">
+        <fields>
+          <field name="id" path="a.ActivityId" key="true">a.id</field>
+          <field name="activity_id">a.id</field>
+          <field name="type">a.Type</field>
+          <field name="typeDisplay">''</field>
+          <field name="attachmentCount">a.AttachmentCount</field>
+          <field name="attachment">a.Attachment</field>
+          <field name="recurring">a.Recurring</field>
+          <field name="alarm">a.Alarm</field>
+          <field name="startDate">a.StartDate</field>
+          <field name="timeless">a.Timeless</field>
+          <field name="description">a.Description</field>
+          <field name="contactName">a.ContactName</field>
+          <field name="accountName">a.AccountName</field>
+          <field name="duration">a.Duration</field>
+          <field name="contactId">a.ContactId</field>
+          <field name="leadId">a.LeadId</field>
+          <field name="leadName">a.LeadName</field>
+          <field name="accountId">a.AccountId</field>
+          <field name="ticketId">a.TicketId</field>
+          <field name="opportunityId">a.OpportunityId</field>
+          <field name="notes">a.Notes</field>
+          <field name="priority">a.Priority</field>
+          <field name="lastName">au.UserInfo.LastName</field>
+          <field name="firstName">au.UserInfo.FirstName</field>
+          <field name="recurIterations">a.Recuriterations</field>
+          <field name="recurPeriod">a.Recurperiod</field>
+          <field name="recurPeriodSpec">a.Recurperiodspec</field>
+          <field name="recurSkip">a.Recurskip</field>
+          <field name="userid">a.UserId</field>
+          <field name="ticketNumber">a.TicketNumber</field>
+          <field name="opportunityName">a.OpportunityName</field>
+          <field name="contactLead">coalesce(a.ContactId, a.LeadId)</field>
+        </fields>
+        <entities>
+          <entity type="Sage.Entity.Interfaces.IActivity, Sage.Entity.Interfaces" alias="a">Activity as a</entity>
+          <entity type="Sage.Entity.Interfaces.IUser, Sage.Entity.Interfaces" alias="au">,User as au</entity>
+        </entities>
+        <conditions>
+          <!-- join to User -->
+          <condition>a.UserId = au.id</condition>
+          <!-- select only meeting, phone, todo and personal activities... -->
+          <condition>a.Type in (262145, 262146, 262147, 262162)</condition>
+          <!-- ...that user has calendar access to with at least one attendee confirmed -->
+          <condition>
+            <![CDATA[
+            a.id in (
+                select 
+                    ua.ActivityId 
+                from 
+                    UserActivity ua
+                where 
+                    ua.Status = 'T'
+                    and ua.UserId in (
+                  select 
+                      uc.CalUserId 
+                  from 
+                      UserCalendar uc
+                      , User u 
+                  where 
+                      uc.CalUserId = u.Id 
+                      and uc.UserId = :userId 
+                      and u.Type not in ('R', 'P') 
+  					          and ((u.Type <> 'W') or (:userId = 'ADMIN'))
+              )
+            )
+            ]]>
+          </condition>
+        </conditions>
+        <ordering>
+        </ordering>
+        <grouping>
+        </grouping>
+        <parameters>
+          <parameter name="userId" />
+        </parameters>
+      </query>
+      <layout>
+        <items>
+          <item dataIndex="id" width="55" header="ActivityColumn_Complete" sortable="false">
+            <![CDATA[ <a href="{[getCompleteActivityLink(values)]}">{[SR.ActivityColumn_Complete]}</a> ]]>
+          </item>
+          <item dataIndex="attachmentCount" header="ActivityColumn_Attachment" width="40" sortable="true">
+            <![CDATA[ <img src="images/icons/attach_to_16.png" 
+              {[values.value ? "" : "class=x-hide-display"]} /> ]]>
+          </item>
+          <item dataIndex="recurring" header="ActivityColumn_Recur" width="40" sortable="true">
+            <![CDATA[ <img src="images/icons/Recurring_16x16.gif" 
+              {[values.value ? "" : "class=x-hide-display"]} /> ]]>
+          </item>
+          <item dataIndex="alarm" header="ActivityColumn_Alarm" width="40" sortable="true">
+            <![CDATA[ <img src="images/icons/Alarm_16x16.gif" 
+              {[values.value ? "" : "class=x-hide-display"]} /> ]]>
+          </item>
+          <item dataIndex="typeDisplay" width="110" header="ActivityColumn_ActivityType">
+            <![CDATA[ <a href="{[getEditActivityLink(values)]}" >
+              <img src="{[getActivityTypeImageSmall(values.row.data.type)]}" />&nbsp;
+              {[values.row.data.typeDisplay]}</a> ]]>
+          </item>
+          <item dataIndex="startDate" width="110" header="ActivityColumn_DateTime">
+            <![CDATA[ {[formatDateTime(values.value, values.row.data.timeless)]} ]]>
+          </item>
+          <item dataIndex="duration" width="60" header="ActivityColumn_Duration">
+            <![CDATA[ <div align="right">
+              {[!values.row.data.timeless ? formatDuration(values.value) : ""]}</div> ]]>
+          </item>
+          <item dataIndex="contactId" width="55" header="ActivityColumn_Type">
+            <![CDATA[ {[getContactType(values.row.data)]} ]]>
+          </item>
+          <item dataIndex="contactName" width="auto" header="ActivityColumn_Name">
+            <![CDATA[ {[getContactLink(values.row.data)]} ]]>
+          </item>
+          <item dataIndex="accountName" width="auto" header="ActivityColumn_AccountCompany">
+            <![CDATA[ {[getAccountLink(values.row.data)]} ]]>
+          </item>
+          <item dataIndex="description" width="100" header="ActivityColumn_Regarding">
+            <![CDATA[ {[values.value ? values.value : ""]} ]]>
+          </item>
+          <item dataIndex="priority" width="60" header="ActivityColumn_Priority">
+            <![CDATA[ {[values.value ? values.value : ""]} ]]>
+          </item>
+          <item dataIndex="lastName" width="100" header="ActivityColumn_ScheduledFor">
+            <![CDATA[ {[values.row.data.firstName ? [values.row.data.lastName,", ", values.row.data.firstName].join("") : values.row.data.lastName]} ]]>
+          </item>
+        </items>
+      </layout>
+    </group>
+    <!-- All Open Summary ? -->
+    <group name="all-summary" type="Sage.Entity.Interfaces.IActivity, Sage.Entity.Interfaces">
+      <!-- this should match (except for layout/items) the "all" query so expansion of occurrence and filters work -->
+      <query sparse="true" count="true" cacheable="true">
+        <fields>
+          <field name="id" path="a.ActivityId" key="true">a.id</field>
+          <field name="activity_id">a.id</field>
+          <field name="type">a.Type</field>
+          <field name="typeDisplay">''</field>
+          <field name="attachmentCount">a.AttachmentCount</field>
+          <field name="attachment">a.Attachment</field>
+          <field name="recurring">a.Recurring</field>
+          <field name="alarm">a.Alarm</field>
+          <field name="startDate">a.StartDate</field>
+          <field name="timeless">a.Timeless</field>
+          <field name="description">a.Description</field>
+          <field name="contactName">a.ContactName</field>
+          <field name="accountName">a.AccountName</field>
+          <field name="duration">a.Duration</field>
+          <field name="contactId">a.ContactId</field>
+          <field name="leadId">a.LeadId</field>
+          <field name="leadName">a.LeadName</field>
+          <field name="accountId">a.AccountId</field>
+          <field name="ticketId">a.TicketId</field>
+          <field name="opportunityId">a.OpportunityId</field>
+          <field name="notes">a.Notes</field>
+          <field name="priority">a.Priority</field>
+          <field name="lastName">au.UserInfo.LastName</field>
+          <field name="firstName">au.UserInfo.FirstName</field>
+          <field name="recurIterations">a.Recuriterations</field>
+          <field name="recurPeriod">a.Recurperiod</field>
+          <field name="recurPeriodSpec">a.Recurperiodspec</field>
+          <field name="recurSkip">a.Recurskip</field>
+          <field name="userid">a.UserId</field>
+          <field name="ticketNumber">a.TicketNumber</field>
+          <field name="opportunityName">a.OpportunityName</field>
+          <field name="contactLead">coalesce(a.ContactId, a.LeadId)</field>
+        </fields>
+        <entities>
+          <entity type="Sage.Entity.Interfaces.IActivity, Sage.Entity.Interfaces" alias="a">Activity as a</entity>
+          <entity type="Sage.Entity.Interfaces.IUser, Sage.Entity.Interfaces" alias="au">,User as au</entity>
+        </entities>
+        <conditions>
+          <!-- join to User -->
+          <condition>a.UserId = au.id</condition>
+          <!-- select only meeting, phone, todo and personal activities... -->
+          <condition>a.Type in (262145, 262146, 262147, 262162)</condition>
+          <!-- ...that user has calendar access to with at least one attendee confirmed -->
+          <condition>
+            <![CDATA[
+            a.id in (
+                select 
+                    ua.ActivityId 
+                from 
+                    UserActivity ua
+                where 
+                    ua.Status = 'T'
+                    and ua.UserId in (
+                  select 
+                      uc.CalUserId 
+                  from 
+                      UserCalendar uc
+                      , User u 
+                  where 
+                      uc.CalUserId = u.Id 
+                      and uc.UserId = :userId 
+                      and u.Type not in ('R', 'P') 
+  					          and ((u.Type <> 'W') or (:userId = 'ADMIN'))
+              )
+            )
+            ]]>
+          </condition>
+        </conditions>
+        <ordering>
+        </ordering>
+        <grouping>
+        </grouping>
+        <parameters>
+          <parameter name="userId" />
+        </parameters>
+      </query>
+      <layout>
+        <items>
+          <item dataIndex="id" />
+        </items>
+      </layout>
+    </group>
+    <!-- Literature -->
+    <group name="all" type="Sage.Entity.Interfaces.ILitRequest, Sage.Entity.Interfaces">
+      <query sparse="true">
+        <fields>
+          <field name="id" path="a.LitReqId" key="true">l.id</field>
+          <field name="sendDate">l.SendDate</field>
+          <field name="scheduled">l.RequestDate</field>
+          <field name="contactId">l.Contact.id</field>
+          <field name="contactName">l.ContactName</field>
+          <field name="description">l.Description</field>
+          <field name="sendVia">l.SendVia</field>
+          <field name="priority">l.Priority</field>
+        </fields>
+        <entities>
+          <entity type="Sage.Entity.Interfaces.ILitRequest, Sage.Entity.Interfaces" alias="l">LitRequest as l</entity>
+        </entities>
+        <conditions>
+          <condition>
+            <![CDATA[l.CreateUser in ( select uc.CalUserId
+                from   UserCalendar uc
+                       inner join uc.CalUser u  
+                       inner join u.UserInfo ui
+                       inner join u.UserProfile
+                where  uc.UserId = :userId 
+                   and not (u.Type in (:userTypesList)) 
+                   and not (u.Type = :adminType and :userId != 'ADMIN')
+                
+)]]>
+          </condition>
+        </conditions>
+        <ordering />
+        <grouping />
+        <parameters>
+          <parameter name="userId" />
+          <parameter name="adminType" />
+          <parameter name="userTypesList" />
+        </parameters>
+      </query>
+      <layout>
+        <items>
+          <item dataIndex="sendDate" width="100" header="LitColumn_SendDate">
+            <![CDATA[ <a href="LitRequest.aspx?entityid={[values.row.data.id]}">{[formatDate(values.value)]}</a> ]]>
+          </item>
+          <!-- need a better way to handle time -->
+          <item format="DateFormat" dataIndex="scheduled" width="100" header="LitColumn_Scheduled"></item>
+          <item dataIndex="contactName" width="100" header="LitColumn_Contact">
+            <![CDATA[ <a href="Contact.aspx?entityid={[values.row.data.contactId]}">{value}</a> ]]>
+          </item>
+          <item dataIndex="description" width="100" header="LitColumn_Description" />
+          <item dataIndex="sendVia" width="100" header="LitColumn_SendVia" />
+          <item dataIndex="priority" width="100" header="LitColumn_Priority" />
+        </items>
+      </layout>
+    </group>
+    <!-- Events -->
+    <group name="all" type="Sage.Entity.Interfaces.IEvent, Sage.Entity.Interfaces">
+      <query sparse="true">
+        <fields>
+          <field name="id" path="e.EventId" key="true">e.id</field>
+          <field name="description">e.Description</field>
+          <field name="startDate">e.StartDate</field>
+          <field name="endDate">e.EndDate</field>
+          <field name="firstName">u.UserInfo.FirstName</field>
+          <field name="lastName">u.UserInfo.LastName</field>
+          <field name="type">e.Type</field>
+        </fields>
+        <entities>
+          <entity type="Sage.Entity.Interfaces.IEvent, Sage.Entity.Interfaces" alias="e">Event as e</entity>
+          <entity type="Sage.Entity.Interfaces.IUser, Sage.Entity.Interfaces" alias="u">,User as u</entity>
+        </entities>
+        <conditions>
+          <condition>e.UserId = u.id</condition>
+          <condition>
+            <![CDATA[e.UserId in ( select uc.CalUserId
+                from   UserCalendar uc
+                       inner join uc.CalUser u  
+                       inner join u.UserInfo ui
+                       inner join u.UserProfile
+                where  uc.UserId = :userId 
+                   and not (u.Type in (:userTypesList)) 
+                   and not (u.Type = :adminType and :userId != 'ADMIN')
+                
+)]]>
+          </condition>
+        </conditions>
+        <ordering />
+        <grouping />
+        <parameters>
+          <parameter name="userId" />
+          <parameter name="adminType" />
+          <parameter name="userTypesList" />
+        </parameters>
+      </query>
+      <layout>
+        <items>
+          <item dataIndex="type" width="100" header="EventColumn_Type" />
+          <item dataIndex="description" width="100" header="EventColumn_Description" />
+          <item dataIndex="startDate" width="100" header="EventColumn_StartDate">
+            <![CDATA[ <a href="Event.aspx?entityid={[values.row.data.id]}">{[formatDate(values.value)]}</a> ]]>
+          </item>
+          <item dataIndex="endDate" format="DateFormat" width="100" header="EventColumn_EndDate"></item>
+          <item dataIndex="lastName" width="100" header="EventColumn_User">
+            <![CDATA[ {values.row.data.lastName}, {values.row.data.firstName} ]]>
+          </item>
+        </items>
+      </layout>
+    </group>
+    <!-- Confirmations -->
+    <group name="all" type="Sage.Entity.Interfaces.IUserNotification, Sage.Entity.Interfaces">
+      <query sparse="true">
+        <fields>
+          <field name="id" path="n.NotifyId" key="true">n.id</field>
+          <field name="type">n.Type</field>
+          <field name="toUserId">n.ToUserId</field>
+          <field name="activityId">a.id</field>
+          <field name="description">a.Description</field>
+          <field name="startDate">a.StartDate</field>
+          <field name="timeless">a.Timeless</field>
+          <field name="duration">a.Duration</field>
+          <field name="activityType">a.Type</field>
+          <field name="fromFirstName">n.FromUser.UserInfo.FirstName</field>
+          <field name="fromLastName">n.FromUser.UserInfo.LastName</field>
+          <field name="toFirstName">n.ToUser.UserInfo.FirstName</field>
+          <field name="toLastName">n.ToUser.UserInfo.LastName</field>
+        </fields>
+        <entities>
+          <entity type="Sage.Entity.Interfaces.IUserNotification, Sage.Entity.Interfaces" alias="n">UserNotification as n</entity>
+          <entity type="Sage.Entity.Interfaces.IActivity, Sage.Entity.Interfaces" alias="a">left join n.Activity as a</entity>
+        </entities>
+        <conditions>
+          <condition>a.Type != 262163</condition>
+          <condition>
+            <![CDATA[n.ToUserId in ( select uc.CalUserId
+                from   UserCalendar uc
+                       inner join uc.CalUser u  
+                       inner join u.UserInfo ui
+                       inner join u.UserProfile
+                where  uc.UserId = :userId 
+                   and not (u.Type in (:userTypesList)) 
+                   and not (u.Type = :adminType and :userId != 'ADMIN')
+                
+)]]>
+          </condition>
+        </conditions>
+        <ordering />
+        <grouping />
+        <parameters>
+          <parameter name="userId" />
+          <parameter name="adminType" />
+          <parameter name="userTypesList" />
+        </parameters>
+      </query>
+      <layout>
+        <items>
+          <item dataIndex="type" width="50" header="ConfColumn_Notification">
+            <![CDATA[ <a href="{[getNotificationLink(values.row.data)]}">{value}</a> ]]>
+          </item>
+          <item dataIndex="startDate" width="100" header="ConfColumn_DateTime">
+            <![CDATA[ {[formatDateTime(values.value, values.row.data.timeless)]} ]]>
+          </item>
+          <item dataIndex="activityType" width="60" header="ConfColumn_Activity">
+            <![CDATA[ {[getActivityType(values.value)]} ]]>
+          </item>
+          <item dataIndex="duration" width="40" header="ConfColumn_Duration">
+            <![CDATA[ <div align="right">
+              {[!values.row.data.timeless ? formatDuration(values.value) : ""]}</div> ]]>
+          </item>
+          <item dataIndex="fromLastName" width="100" header="ConfColumn_From">
+            <![CDATA[ {[formatName(values.row.data.fromFirstName, values.row.data.fromLastName)]} ]]>
+          </item>
+          <item dataIndex="description" width="100" header="ConfColumn_Regarding" />
+          <item dataIndex="toLastName" width="100" header="ConfColumn_To">
+            <![CDATA[ {[formatName(values.row.data.toFirstName, values.row.data.toLastName)]} ]]>
+          </item>
+        </items>
+      </layout>
+    </group>
+  </groups>
+</activitiesViewConfiguration>

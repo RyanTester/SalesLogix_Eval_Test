@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<WebModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="15b1f437-1fb8-42c0-adf5-034f4562ba6f">
+  <InstanceId>aedcdd82dca24c9b9533009b5ef0c3df</InstanceId>
+  <ModuleTypeName>Sage.SalesLogix.Web.Modules.CustomerPortalSecurityModule, Sage.SalesLogix.Web.Modules</ModuleTypeName>
+  <RunInMode>Detail</RunInMode>
+  <AllowRoles />
+</WebModule>

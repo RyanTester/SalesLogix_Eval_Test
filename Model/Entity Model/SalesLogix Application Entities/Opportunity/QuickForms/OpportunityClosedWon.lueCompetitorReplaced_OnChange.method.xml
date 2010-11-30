@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmOtherMethod" id="da8e6de2-a18d-4034-a34b-23b98f094d3f" lastModifiedUtc="2009-08-24T21:44:39.1851911Z" name="lueCompetitorReplaced_OnChange" methodType="Other" actionType="None" returnMode="None" isInstance="false">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmOtherMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="24ab1c78-25e8-477a-bca2-6f875fb738e6" paramName="form" sequence="0" paramType="IOpportunityClosedWon" />
+    <OrmEntityMethodParam id="d5fd8fc6-38d9-42a0-8c80-d27088c041ad" paramName="args" sequence="0" paramType="EventArgs" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget xsi:type="OrmMethodTargetSnippet" id="c528df8d-1d24-4dba-8ce7-436c865d8788" lastModifiedUtc="2009-08-24T21:44:31.2021911Z" targetType="Sage.BusinessRules.CodeSnippets.OpportunityClosedWonEventHandlers, Sage.SnippetLibrary.CSharp" targetMethod="lueCompetitorReplaced_OnChange" active="true" codeSnippetId="d91d83f3-efe1-45c0-913c-d94ecbceef36">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

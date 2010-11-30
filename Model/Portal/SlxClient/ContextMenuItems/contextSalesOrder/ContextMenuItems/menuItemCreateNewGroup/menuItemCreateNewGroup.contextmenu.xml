@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="c13a7e84-abae-493e-8222-c3f6082169f8">
+  <ItemId>menuItemCreateNewGroup</ItemId>
+  <NavUrl>javascript:groupManager.CreateGroup('SALESORDER');</NavUrl>
+  <LargeImageUrl />
+  <SmallImageUrl />
+  <ContextMenuId />
+  <Target />
+</MenuDropDownItem>

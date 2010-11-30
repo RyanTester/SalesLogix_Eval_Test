@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="36da853c-5baa-409f-a67f-00d0c021c846" lastModifiedUtc="2007-12-27T23:28:17.7682297Z" name="DoDefectActivityCalculations" returnType="void" methodType="Rule" actionType="None" returnMode="None" isInstance="true">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter />
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="33f4dc48-3fb4-4969-9904-4189d9933922" lastModifiedUtc="2007-12-27T23:28:14.5182713Z" targetType="Sage.SalesLogix.DefectActivity.Rules, Sage.SalesLogix.BusinessRules" targetMethod="DoDefectActivityCalculations" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

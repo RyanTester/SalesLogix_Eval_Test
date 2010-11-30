@@ -1,0 +1,23 @@
+#if($action.MainViewEntityName != "")
+  #if($action.EntityViewMode == "Detail")
+    Response.Redirect(string.Format("${action.MainViewEntityName}.aspx?entityId={0}", (this.BindingSource.Current as Sage.Platform.ComponentModel.IComponentReference).Id));
+  #elseif($action.EntityViewMode == "List")
+    Response.Redirect("${action.MainViewEntityName}.aspx");
+  #elseif($action.EntityViewMode == "Insert")
+    #if($action.UseCurrentIdInLink)
+      Response.Redirect(string.Format("${action.MainViewEntityName}.aspx?modeid=insert&entityId={0}", (this.BindingSource.Current as Sage.Platform.ComponentModel.IComponentReference).Id));
+    #else
+      Response.Redirect("${action.MainViewEntityName}.aspx?modeid=insert");
+    #end
+  #end
+#elseif($action.RawURL != "")
+ #if($action.UseCurrentIdInLink)
+  #if($action.RawURL.IndexOf("?") > 0)
+   Response.Redirect(string.Format("${action.RawURL}&entityId={0}", (BindingSource.Current as Sage.Platform.ComponentModel.IComponentReference).Id));
+  #else
+   Response.Redirect(string.Format("${action.RawURL}?entityId={0}", (BindingSource.Current as Sage.Platform.ComponentModel.IComponentReference).Id));
+  #end
+ #else
+  Response.Redirect("${action.RawURL}");
+ #end
+#end

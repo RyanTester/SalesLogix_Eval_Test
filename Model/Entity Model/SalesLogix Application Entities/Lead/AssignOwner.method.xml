@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="48fdf9e1-d13e-453c-b7d6-748b54801e62" lastModifiedUtc="2008-10-30T16:39:37.6242162Z" name="AssignOwner" returnType="String" methodType="Rule" actionType="None" returnMode="Object">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="81cf0b2a-87ab-451a-82cc-1843a85efc57" paramName="leadIds" sequence="0" paramType="IList">
+      <description>List of Lead Ids</description>
+    </OrmEntityMethodParam>
+    <OrmEntityMethodParam id="30a43326-6ddf-46f9-8851-f4fdf721923c" paramName="assignOwnerId" sequence="0" paramType="String">
+      <description>Owner Id for which the Lead will be assigned</description>
+    </OrmEntityMethodParam>
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="20959f71-114b-40ac-829b-460c292999f5" lastModifiedUtc="2008-10-27T22:48:37.7218287Z" targetType="Sage.SalesLogix.Lead.Rules, Sage.SalesLogix.BusinessRules" targetMethod="AssignOwner" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

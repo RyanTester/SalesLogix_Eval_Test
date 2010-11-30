@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\UserSubscription\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:56.7330" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\UserSubscription\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:56.7330" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\UserSubscription\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:56.7030" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\UserSubscription\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:56.7030" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\UserSubscription\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:56.6870" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\UserSubscription\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:56.7030" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\UserSubscription\OnCreate.method.xml" timeStamp="2009-11-19T20:10:56.7330" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\UserSubscription\UserSubscription.USERSUBSCRIPTION.entity.xml" timeStamp="2009-11-19T20:10:56.7500" />
+</exportedFiles>

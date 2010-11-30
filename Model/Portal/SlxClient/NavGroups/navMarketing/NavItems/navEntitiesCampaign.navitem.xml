@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<NavigationItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="eff77cda-6b18-4bb9-990e-86f44f7d583e">
+  <ItemId>navEntitiesCampaign</ItemId>
+  <NavUrl>Campaign.aspx</NavUrl>
+  <LargeImageUrl>[Localization!Global_Images:campaigns_navbar_32x32]</LargeImageUrl>
+  <SmallImageUrl>[Localization!Global_Images:campaigns_navbar_24x24]</SmallImageUrl>
+  <ContextMenuId>contextCampaign</ContextMenuId>
+  <Target />
+</NavigationItem>

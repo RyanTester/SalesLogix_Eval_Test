@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Tasklet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="a7604a1b-273a-4e93-8446-9da62ca1314c">
+  <SmartPart>SmartParts\TaskPane\GroupList\GroupListTasklet.ascx</SmartPart>
+  <DisplayMode>Detail</DisplayMode>
+  <Entities />
+  <UseCustomRendering>false</UseCustomRendering>
+</Tasklet>

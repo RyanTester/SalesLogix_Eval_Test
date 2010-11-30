@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="3f911445-1f7e-49e8-8b7d-19f2177d84b2">
+  <SmartPartId>addCalcField</SmartPartId>
+  <SmartPart>SmartParts\GroupBuilder\addCalcField.ascx</SmartPart>
+  <TargetWorkspace>MainContent</TargetWorkspace>
+  <ShowInMode />
+  <Properties />
+</SmartPartMapping>

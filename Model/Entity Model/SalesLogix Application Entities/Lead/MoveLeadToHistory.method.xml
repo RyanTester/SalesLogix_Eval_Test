@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="f39b08ea-d11a-42eb-a3fa-911c81a34bb4" name="MoveLeadToHistory" returnType="void" methodType="Rule" actionType="None" returnMode="None" isInstance="true">
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="93b23afe-c911-47c6-9720-2dd462ca30df" paramName="leadHistory" sequence="0" paramType="ILeadHistory" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="c9df5dc4-3f9d-4fc2-946a-e0a0fea4b589" targetType="Sage.SalesLogix.Lead.Rules, Sage.SalesLogix.BusinessRules" targetMethod="MoveLeadToHistory" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

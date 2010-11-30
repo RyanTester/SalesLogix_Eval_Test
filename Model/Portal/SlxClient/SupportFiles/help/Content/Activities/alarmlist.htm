@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:check_list="Ran Smart Index" MadCap:status="Complete" MadCap:priority="1" MadCap:timeEstimate="0" MadCap:conditions="Output.WebClient" MadCap:lastBlockDepth="8" MadCap:lastHeight="2273" MadCap:lastWidth="567" class="" MadCap:tocPath="Activities, Events and Calendar|Working with Activities" MadCap:PathToHelpSystem="../../" MadCap:SearchType="Stem">
+    <!-- saved from url=(0014)about:internet -->
+    <head><title>Activity Reminders</title>
+        <meta name="copyright" />
+        <meta name="window-type" content="(w95sec)" />
+        <link rel="StyleSheet" href="../SALESLOGIX.CSS" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" type="text/css" />
+        <script src="../SkinSupport/MadCapUtilities.js">
+        </script>
+        <script src="../SkinSupport/MadCapEffects.js">
+        </script>
+        <script src="../SkinSupport/MadCapEffectsMenu.js">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js">
+        </script>
+    </head>
+    <body>
+        <h1 value="SalesLogix Sales Help (03/19/2002) for v6.2 © 1997-2004 Best Software, Inc. and Sage Technologies Limited"><a name="kanchor84"></a>Activity Reminders</h1>
+        <p>Activity reminders help you keep track of activities with past due reminders and unconfirmed activities.  Activity reminders are based on the <a href="prefsactivity.htm" target="_self">activity and alarm options</a> selected in your user options. When you have active reminders the Reminders button on the menu bar is highlighted.</p>
+        <p>The top part of the view is a list of activities with past due reminders and unconfirmed activities. The list includes information such as activity type, reminder type, start time, and name. Unconfirmed activities appear with bold text. You can <a href="completemultiactivities.htm" target="_self">complete</a>, delete or <a href="rescheduleactivity.htm" target="_self">reschedule</a> activities, or snooze and dismiss activity reminders. You can also view a selected activity in greater detail in the lower part of the view. From the detail pane, you can accept or decline unconfirmed activities.</p>
+        <p class="Infinitive">Understanding Past Due and Unconfirmed Activities</p>
+        <p>An activity is considered past due when the scheduled start time has expired.If an activity is past due and has an alarm it displays in the Activity Reminders list as an "Alarm" until the alarm is dismissed. Once the past due activity alarm is dismissed, the activity displays as Past Due until it is completed, deleted or rescheduled for a future date and time. Past Due activities only appear in the list if the Display All Past Due check box is selected.</p>
+        <p>An unconfirmed activity is an activity notification that you need to confirm or decline. Unconfirmed activities do not appear on your calendar and you are not reminded when an unconfirmed activity is about to start.</p>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;width: 98%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="98%">
+            <col style="width: 43px;" />
+            <col style="width: 410px;" />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note1.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;border-style: none;width: 20px;height: 31px;float: none;" width="20" height="31" border="0" />
+                    </p>
+                </td>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p class="Tip-Note-Text" style="margin-bottom: 0;">A maximum of 200 records  can display at one time. If there are more than 200 records, additional records will display as they are snoozed or dismissed. </p>
+                </td>
+            </tr>
+        </table>
+        <p>The following table explains which options are available for each reminder type.</p>
+        <table style="border-spacing: 0px;caption-side: top;margin-left: auto;margin-right: auto;" cellspacing="0">
+            <col style="width: 172px;" />
+            <col style="width: 51px;" />
+            <col style="width: 49px;" />
+            <col style="width: 64px;" />
+            <col style="width: 44px;" />
+            <col style="width: 45px;" />
+            <col style="width: 40px;" />
+            <col style="width: 47px;" />
+            <col style="width: 47px;" />
+            <tr valign="top">
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Tabletop">
+                    <p class="Tabletop">Reminder Type</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Tabletop">Complete</td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Tabletop">Delete</td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Tabletop">Reschedule</td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Tabletop">Snooze</td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Tabletop">Snooze All</td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Tabletop">Dismiss</td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Tabletop">Accept</td>
+                <td class="Tabletop">Decline</td>
+            </tr>
+            <tr valign="top">
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">Activities with Alarms</td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                    <p class="Table">
+                        <img src="../image/checkmark.GIF" /> <![CDATA[ ]]></p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                    <p class="Table">
+                        <img src="../image/checkmark.GIF">
+                        </img>
+                    </p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                    <p class="Table">
+                        <img src="../image/checkmark.GIF">
+                        </img>
+                    </p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                    <p class="Table">
+                        <img src="../image/checkmark.GIF">
+                        </img>
+                    </p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                    <p class="Table">
+                        <img src="../image/checkmark.GIF">
+                        </img>
+                    </p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                    <p class="Table">
+                        <img src="../image/checkmark.GIF">
+                        </img>
+                    </p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                    <p class="Table">&#160;</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                    <p class="Table">&#160;</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">Past Due Activities without an alarm</td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                    <p class="Table">
+                        <img src="../image/checkmark.GIF">
+                        </img>
+                    </p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                    <p class="Table">
+                        <img src="../image/checkmark.GIF">
+                        </img>
+                    </p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                    <p class="Table">
+                        <img src="../image/checkmark.GIF">
+                        </img>
+                    </p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                    <p class="Table">&#160;</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                    <p class="Table">&#160;</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                    <p class="Table">&#160;</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                    <p class="Table">&#160;</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                    <p class="Table">&#160;</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">Unconfirmed Activities</td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                    <p class="Table">&#160;</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                    <p class="Table">&#160;</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                    <p class="Table">&#160;</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                    <p class="Table">&#160;</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                    <p class="Table">&#160;</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                    <p class="Table">&#160;</p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                    <p class="Table">
+                        <img src="../image/checkmark.GIF">
+                        </img>
+                    </p>
+                </td>
+                <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                    <p class="Table">
+                        <img src="../image/checkmark.GIF">
+                        </img>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p class="RelatedTopics">How Do I?</p>
+        <div class="MCDropDown">
+            <div class="MCDropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot" id="MCDropDownHotSpot_406209285_0" onclick="FMCDropDown( this ); return false;">Open Activity Reminders</a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_406209285_0" style="display: none;">
+                <ul style="list-style-type: disc;">
+                    <li class="Bullets" value="1">Do one of the following:</li>
+                    <li class="Topic-Text-Bulleted-2" value="2">From the <span class="SLXBold">Schedule</span> menu, click <span class="SLXBold">Activity Reminder</span>.</li>
+                    <li class="Topic-Text-Bulleted-2" value="3">In the Menu Bar, click <span class="SLXBold">Reminders</span>.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="MCDropDown">
+            <div class="MCDropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot" id="MCDropDownHotSpot_406209285_1" onclick="FMCDropDown( this ); return false;">Display Past Due Activities</a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_406209285_1" style="display: none;">
+                <ul style="list-style-type: disc;">
+                    <li class="Bullets" value="1">Select the <span class="SLXBold">Display All Past Due</span> check box.</li>
+                </ul>
+                <p class="Topic-Text-Indent">The Display All Past Due check box is selected by default when you first log on. If you clear the check box, it remains cleared the next time you log on.</p>
+            </div>
+        </div>
+        <div class="MCDropDown">
+            <div class="MCDropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot" id="MCDropDownHotSpot_406209285_2" onclick="FMCDropDown( this ); return false;">View Activity Details</a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_406209285_2" style="display: none;">
+                <ol>
+                    <li class="Topic-Text-Numbered" value="1">In the grid, click the activity that you want to display in the detail pane. </li>
+                </ol>
+                <p class="Topic-Text-Indent">Make sure you do not click any of the blue "link" text as these links will open another view, such as the activity, contact, lead or account detail view.</p>
+                <ol>
+                    <li value="2" class="Topic-Text-Numbered">Do any of the following:</li>
+                </ol>
+                <ul>
+                    <li class="Topic-Text-Bulleted-2" value="1">View activity detail information</li>
+                    <li class="Topic-Text-Bulleted-2" value="2">Click <span class="SLXBold">Complete</span> to complete the activity</li>
+                    <li class="Topic-Text-Bulleted-2" value="3">Click <span class="SLXBold">Reschedule</span> to reschedule the activity</li>
+                </ul>
+            </div>
+        </div>
+        <div class="MCDropDown">
+            <div class="MCDropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot" id="MCDropDownHotSpot_406209285_3" onclick="FMCDropDown( this ); return false;">Hide and Show Activity Details</a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_406209285_3" style="display: none;">
+                <ul>
+                    <li value="1">To hide the Details pane, click <span class="SLXBold">Hide Detail</span>.</li>
+                    <li value="2">To show the Details pane, click <span class="SLXBold">Show Detail</span>.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="MCDropDown">
+            <div class="MCDropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot" id="MCDropDownHotSpot_406209285_4" onclick="FMCDropDown( this ); return false;">Go to the Activity Detail view</a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_406209285_4" style="display: none;">
+                <ul style="list-style-type: disc;">
+                    <li class="Bullets" value="1">Do one of the following:</li>
+                    <li class="Topic-Text-Bulleted-2" value="2">In the <span class="SLXBold">Activity Reminders</span> list, click the <span class="SLXBold">Activity Type</span> column link.</li>
+                    <li class="Topic-Text-Bulleted-2" value="3">In the <span class="SLXBold">Activity Reminders</span> detail pane, click the <span class="SLXBold">Regarding</span> column link.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="MCDropDown">
+            <div class="MCDropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot" id="MCDropDownHotSpot_406209285_5" onclick="FMCDropDown( this ); return false;">Complete Activities</a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_406209285_5" style="display: none;">
+                <ol>
+                    <li class="Topic-Text-Numbered" value="1">Select the check box for each activity you want to complete. </li>
+                    <p class="Topic-Text-Numbered"> <![CDATA[ ]]>To select all records in the list, click the Select All check box at the top of the column. To clear all check boxes, clear the Select All check box at the top of the column.</p>
+                    <li class="Topic-Text-Numbered" value="2">Click the <span class="MCExpanding"><a href="javascript:void(0);" class="MCExpandingHead" onclick="FMCExpand( this ); return false;">Complete Selected Activities</a><span class="MCExpandingBody" style="display: none;"> <![CDATA[ ]]><img src="../image/complete.gif" /></span></span> button in the top part of the view.</li>
+                    <li class="Topic-Text-Numbered" value="3">If you selected an unconfirmed activity, you will see the warning "This action can only be performed on confirmed activities. Unconfirmed activities will be ignored." Click <span class="SLXBold">OK</span>.</li>
+                    <p>If you want Sage SalesLogix to remember your selection and you do not want to be prompted again, select Remember my selection and do not ask again.abc</p>
+                    <li class="Topic-Text-Numbered" value="4">Follow the remaining steps for <a href="completemultiactivities.htm" target="_self">completing multiple activities</a>.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="MCDropDown">
+            <div class="MCDropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot" id="MCDropDownHotSpot_406209285_6" onclick="FMCDropDown( this ); return false;">Delete Activities</a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_406209285_6" style="display: none;">
+                <ol>
+                    <li class="Topic-Text-Numbered" value="1">Select the check box for each activity you want to delete.</li>
+                    <p class="Topic-Text-Numbered"> <![CDATA[ ]]>To select all records in the list, click the Select All check box at the top of the column. To clear all check boxes, clear the Select All check box at the top of the column.</p>
+                    <li class="Topic-Text-Numbered" value="2">Click the <span class="MCExpanding"><a href="javascript:void(0);" class="MCExpandingHead" onclick="FMCExpand( this ); return false;">Delete Selected Activities</a><span class="MCExpandingBody" style="display: none;"><img src="../image/delete.gif" /></span></span> button in the top part of the view.</li>
+                    <li value="3">Click <span class="SLXBold">OK</span> to confirm the deletions.</li>
+                    <li class="Topic-Text-Numbered" value="4">If you selected an unconfirmed activity, you will see the warning "This action can only be performed on confirmed activities. Unconfirmed activities will be ignored." Click <span class="SLXBold">OK</span>.</li>
+                    <p>
+                        <p>If you want Sage SalesLogix to remember your selection and you do not want to be prompted again, select Remember my selection and do not ask again.</p>
+                    </p>
+                </ol>
+            </div>
+        </div>
+        <div class="MCDropDown">
+            <div class="MCDropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot" id="MCDropDownHotSpot_406209285_7" onclick="FMCDropDown( this ); return false;">Reschedule Activities</a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_406209285_7" style="display: none;">
+                <ol>
+                    <li class="Topic-Text-Numbered" value="1">Select the check box for each activity you want to reschedule.</li>
+                    <p class="Topic-Text-Numbered"> <![CDATA[ ]]>To select all records in the list, click the Select All check box at the top of the column. To clear all check boxes, clear the Select All check box at the top of the column.</p>
+                    <li class="Topic-Text-Numbered" value="2">Click the <span class="MCExpanding"><a href="javascript:void(0);" class="MCExpandingHead" onclick="FMCExpand( this ); return false;">Reschedule Selected Activities</a><span class="MCExpandingBody" style="display: none;"><img src="../image/rescheduleactivity.gif"></img></span></span> button in the top part of the view.</li>
+                    <li class="Topic-Text-Numbered" value="3">If you selected an unconfirmed activity, you will see the warning "This action can only be performed on confirmed activities. Unconfirmed activities will be ignored." Click <span class="SLXBold">OK</span>.</li>
+                    <p>
+                        <p>If you want Sage SalesLogix to remember your selection and you do not want to be prompted again, select Remember my selection and do not ask again.</p>
+                    </p>
+                    <li class="Topic-Text-Numbered" value="4">Complete the steps for <a href="rescheduleactivity.htm" target="_self">rescheduling an activity</a>.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="MCDropDown">
+            <div class="MCDropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot" id="MCDropDownHotSpot_406209285_8" onclick="FMCDropDown( this ); return false;">Dismiss Alarms</a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_406209285_8" style="display: none;">
+                <ol>
+                    <li class="Topic-Text-Numbered" value="1">Select the check box for each activity alarm you want to dismiss.</li>
+                    <p class="Topic-Text-Numbered"> <![CDATA[ ]]>To select all records in the list, click the Select All check box at the top of the column. To clear all check boxes, clear the Select All check box at the top of the column.</p>
+                    <li class="Topic-Text-Numbered" value="2">Click <span class="SLXBold">Dismiss</span>.</li>
+                    <table wrapperparagraphselector="P" style="margin-top: 14pt;width: 98%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="98%">
+                        <col style="width: 43px;" />
+                        <col style="width: 410px;" />
+                        <tr>
+                            <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                                <p style="text-align: center;margin-bottom: 0;" align="center">
+                                    <img src="../image/note1.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;border-style: none;width: 20px;height: 31px;float: none;" width="20" height="31" border="0" />
+                                </p>
+                            </td>
+                            <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                                <p class="Tip-Note-Text" style="margin-bottom: 0;">Dismissing a past due activity only dismisses the alarm. Past due activities will continue to display in the list until they are rescheduled, completed or deleted.</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <li class="Topic-Text-Numbered" value="3">
+                        <p>If you selected an unconfirmed or past due activity, you will see the warning "This action can only be performed on Alarm reminders.
+Past Due and Unconfirmed reminders will be ignored." Click <span class="SLXBold">OK</span>.</p>
+                    </li>
+                    <p>
+                        <p>If you want Sage SalesLogix to remember your selection and you do not want to be prompted again, select Remember my selection and do not ask again.</p>
+                    </p>
+                </ol>
+            </div>
+        </div>
+        <div class="MCDropDown">
+            <div class="MCDropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot" id="MCDropDownHotSpot_406209285_9" onclick="FMCDropDown( this ); return false;">Snooze Alarms</a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_406209285_9" style="display: none;">
+                <ol>
+                    <li value="1">Select the check box for each activity alarm you want to snooze.</li>
+                    <p class="Topic-Text-Numbered"> <![CDATA[ ]]>To select all records in the list, click the Select All check box at the top of the column. To clear all check boxes, clear the Select All check box at the top of the column.</p>
+                    <li class="Topic-Text-Numbered" value="2">Select a time increment in the <span class="SLXBold">Snooze by</span> box, then </li>
+                    <ul>
+                        <li class="Bullets" value="1">Click <span class="SLXBold">Snooze</span> to snooze any selected activity alarms.</li>
+                        <li class="Bullets" value="2"><span class="SLXBold"></span>Click<span class="SLXBold"> Snooze All</span> to snooze all of the activity alarms, even if they are not selected.</li>
+                    </ul>
+                    <li value="3">
+                        <p>If you selected an unconfirmed or past due activity, you will see the warning "This action can only be performed on Alarm reminders.
+Past Due and Unconfirmed reminders will be ignored." Click <span class="SLXBold">OK</span>.</p>
+                    </li>
+                    <p>
+                        <p>If you want Sage SalesLogix to remember your selection and you do not want to be prompted again, select Remember my selection and do not ask again.</p>
+                    </p>
+                </ol>
+            </div>
+        </div>
+        <div class="MCDropDown">
+            <div class="MCDropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot" id="MCDropDownHotSpot_406209285_10" onclick="FMCDropDown( this ); return false;">Accept or Decline an Unconfirmed Activity</a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_406209285_10" style="display: none;">
+                <ol>
+                    <li class="Topic-Text-Numbered" value="1">In the grid, click the unconfirmed activity that you want to display in the detail pane. </li>
+                </ol>
+                <p class="Topic-Text-Indent">Make sure you do not click any of the blue "link" text as these links will open another view, such as the activity, contact, lead or account detail view.</p>
+                <ol>
+                    <li value="2" class="Topic-Text-Numbered">Do one of the following:</li>
+                </ol>
+                <ul>
+                    <li class="Topic-Text-Bulleted-2" value="1">Click <span class="SLXBold">Accept</span> to confirm that you will attend a phone call or meeting.</li>
+                    <li class="Topic-Text-Bulleted-2" value="2">Click <span class="SLXBold">Decline</span> to confirm that you will not attend a phone call or meeting.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="MCDropDown">
+            <div class="MCDropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot" id="MCDropDownHotSpot_406209285_11" onclick="FMCDropDown( this ); return false;">Display the Calendar</a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_406209285_11" style="display: none;">
+                <ul>
+                    <li value="1">Click the <span class="SLXBold">Show Calendar </span> link at the bottom of the view.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="MCDropDown">
+            <div class="MCDropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot" id="MCDropDownHotSpot_406209285_12" onclick="FMCDropDown( this ); return false;">Display Confirmations on the Activity view</a>
+            </div>
+            <div class="MCDropDownBody" id="MCDropDownBody_406209285_12" style="display: none;">
+                <ul>
+                    <li value="1">Click the <span class="SLXBold">Show Confirmations</span> link at the bottom of the view. </li>
+                </ul>
+            </div>
+        </div>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="prefsactivity.htm" target="_self">Setting Activity Reminders options</a>
+        </p>
+        <p><a href="activityoverview.htm" target="_self">Activities Overview</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>
+            </p>
+            <p style="border-top-style: Groove;border-top-color: #c0c0c0;border-top-width: 1px;">&#160;</p>
+            <p><![CDATA[ ]]><a href="../General/feedback.htm" target="_blank">Tell us how we can make the Help better.</a></p>
+        </div>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

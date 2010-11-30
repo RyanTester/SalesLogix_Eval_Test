@@ -1,0 +1,810 @@
+<?xml version="1.0"?>
+<BundleManifest id="89a8c689-0bcf-4800-aa8c-b440b5edebbf">
+  <bundleProperties>
+    <name>Sage SalesLogix v7.5.2 HF01 VFS Upgrade</name>
+    <description><![CDATA[Sage SalesLogix v7.5.2 HF01 VFS Upgrade (2255)]]></description>
+    <address><![CDATA[8800 N. Gainey Center Drive,
+Suite 200 Scottsdale, AZ 85258]]></address>
+    <company>Sage Software, Inc.</company>
+    <copyright><![CDATA[(c)1997-2009 Sage Software, Inc.]]></copyright>
+    <majorVersion>0</majorVersion>
+    <minorVersion>0</minorVersion>
+    <revision>0</revision>
+    <build>1</build>
+    <autoIncrement>false</autoIncrement>
+    <installDate>2010-01-20T00:08:59.4636069Z</installDate>
+    <installPassword />
+  </bundleProperties>
+  <bundleItemHierarchy>
+    <bundleItem modelId="af988c91-97c8-4527-b072-e021c9e2cb1a" itemTypeName="Sage.Platform.BundleModel.BundleManifestItem, Sage.Platform.BundleModel">
+      <BundleManifestItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <ItemId>89a8c689-0bcf-4800-aa8c-b440b5edebbf</ItemId>
+        <Url>\</Url>
+        <BundleItemType>Container</BundleItemType>
+        <Caption>Sage SalesLogix v7.5.2 HF01 VFS Upgrade</Caption>
+      </BundleManifestItem>
+      <children>
+        <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.ManagerBundleItem, Sage.Platform.WebPortal.Design">
+          <ManagerBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+            <ItemId>\Portal</ItemId>
+            <Url>\Portal</Url>
+            <BundleItemType>Container</BundleItemType>
+            <Caption>Portals</Caption>
+          </ManagerBundleItem>
+          <children>
+            <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.ModelItemBundleItem, Sage.Platform.WebPortal.Design">
+              <ModelItemBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <ItemId>af7942e3-7496-4296-b77f-b408457464f6</ItemId>
+                <Url>\Portal\slxwebrpt\slxwebrpt.portal.xml</Url>
+                <BundleItemType>Context</BundleItemType>
+                <Caption>Web Reporting Portal</Caption>
+              </ModelItemBundleItem>
+              <children>
+                <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFolderBundleItem, Sage.Platform.WebPortal.Design">
+                  <LinkedFolderBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ItemId>\Portal\slxwebrpt\slxwebrpt.portal.xml\SupportFiles</ItemId>
+                    <Url>\Portal\slxwebrpt\slxwebrpt.portal.xml\SupportFiles</Url>
+                    <BundleItemType>Context</BundleItemType>
+                    <Caption>SupportFiles</Caption>
+                    <InstallOptions>SkipItemAndChildren</InstallOptions>
+                  </LinkedFolderBundleItem>
+                  <children>
+                    <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFolderBundleItem, Sage.Platform.WebPortal.Design">
+                      <LinkedFolderBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                        <ItemId>\Portal\slxwebrpt\slxwebrpt.portal.xml\SupportFiles\bin</ItemId>
+                        <Url>\Portal\slxwebrpt\slxwebrpt.portal.xml\SupportFiles\bin</Url>
+                        <BundleItemType>Context</BundleItemType>
+                        <Caption>bin</Caption>
+                        <InstallOptions>SkipItemAndChildren</InstallOptions>
+                      </LinkedFolderBundleItem>
+                      <children>
+                        <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                          <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                            <ItemId>\Portal\slxwebrpt\SupportFiles\bin\Sage.SalesLogix.BusinessRules.dll</ItemId>
+                            <Url>\Portal\slxwebrpt\SupportFiles\bin\Sage.SalesLogix.BusinessRules.dll</Url>
+                            <BundleItemType>Other</BundleItemType>
+                            <Caption>Sage.SalesLogix.BusinessRules.dll</Caption>
+                            <InstallOptions>SkipItemAndChildren</InstallOptions>
+                            <IsLinkedFile>false</IsLinkedFile>
+                            <SourcePath>D:\Model752\Model\Portal\slxwebrpt\SupportFiles\bin\Sage.SalesLogix.BusinessRules.dll</SourcePath>
+                            <ParentModelItemUrl>\Portal\slxwebrpt\slxwebrpt.portal.xml</ParentModelItemUrl>
+                            <ProjectPath>SupportFiles\bin\Sage.SalesLogix.BusinessRules.dll</ProjectPath>
+                          </LinkedFileBundleItem>
+                        </bundleItem>
+                        <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                          <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                            <ItemId>\Portal\slxwebrpt\SupportFiles\bin\Sage.SalesLogix.Client.GroupBuilder.dll</ItemId>
+                            <Url>\Portal\slxwebrpt\SupportFiles\bin\Sage.SalesLogix.Client.GroupBuilder.dll</Url>
+                            <BundleItemType>Other</BundleItemType>
+                            <Caption>Sage.SalesLogix.Client.GroupBuilder.dll</Caption>
+                            <InstallOptions>SkipItemAndChildren</InstallOptions>
+                            <IsLinkedFile>false</IsLinkedFile>
+                            <SourcePath>D:\Model752\Model\Portal\slxwebrpt\SupportFiles\bin\Sage.SalesLogix.Client.GroupBuilder.dll</SourcePath>
+                            <ParentModelItemUrl>\Portal\slxwebrpt\slxwebrpt.portal.xml</ParentModelItemUrl>
+                            <ProjectPath>SupportFiles\bin\Sage.SalesLogix.Client.GroupBuilder.dll</ProjectPath>
+                          </LinkedFileBundleItem>
+                        </bundleItem>
+                        <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                          <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                            <ItemId>\Portal\slxwebrpt\SupportFiles\bin\Sage.SalesLogix.Web.Controls.dll</ItemId>
+                            <Url>\Portal\slxwebrpt\SupportFiles\bin\Sage.SalesLogix.Web.Controls.dll</Url>
+                            <BundleItemType>Other</BundleItemType>
+                            <Caption>Sage.SalesLogix.Web.Controls.dll</Caption>
+                            <InstallOptions>SkipItemAndChildren</InstallOptions>
+                            <IsLinkedFile>false</IsLinkedFile>
+                            <SourcePath>D:\Model752\Model\Portal\slxwebrpt\SupportFiles\bin\Sage.SalesLogix.Web.Controls.dll</SourcePath>
+                            <ParentModelItemUrl>\Portal\slxwebrpt\slxwebrpt.portal.xml</ParentModelItemUrl>
+                            <ProjectPath>SupportFiles\bin\Sage.SalesLogix.Web.Controls.dll</ProjectPath>
+                          </LinkedFileBundleItem>
+                        </bundleItem>
+                        <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                          <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                            <ItemId>\Portal\slxwebrpt\SupportFiles\bin\Sage.SalesLogix.Web.dll</ItemId>
+                            <Url>\Portal\slxwebrpt\SupportFiles\bin\Sage.SalesLogix.Web.dll</Url>
+                            <BundleItemType>Other</BundleItemType>
+                            <Caption>Sage.SalesLogix.Web.dll</Caption>
+                            <InstallOptions>SkipItemAndChildren</InstallOptions>
+                            <IsLinkedFile>false</IsLinkedFile>
+                            <SourcePath>D:\Model752\Model\Portal\slxwebrpt\SupportFiles\bin\Sage.SalesLogix.Web.dll</SourcePath>
+                            <ParentModelItemUrl>\Portal\slxwebrpt\slxwebrpt.portal.xml</ParentModelItemUrl>
+                            <ProjectPath>SupportFiles\bin\Sage.SalesLogix.Web.dll</ProjectPath>
+                          </LinkedFileBundleItem>
+                        </bundleItem>
+                      </children>
+                    </bundleItem>
+                  </children>
+                </bundleItem>
+              </children>
+            </bundleItem>
+            <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.ModelItemBundleItem, Sage.Platform.WebPortal.Design">
+              <ModelItemBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <ItemId>a28bf5c2-a981-45e3-ab60-2a7587c042cd</ItemId>
+                <Url>\Portal\SlxLeadCapture\SlxLeadCapture.portal.xml</Url>
+                <BundleItemType>Context</BundleItemType>
+                <Caption>SalesLogix Lead Capture</Caption>
+              </ModelItemBundleItem>
+              <children>
+                <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFolderBundleItem, Sage.Platform.WebPortal.Design">
+                  <LinkedFolderBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ItemId>\Portal\SlxLeadCapture\SlxLeadCapture.portal.xml\SupportFiles</ItemId>
+                    <Url>\Portal\SlxLeadCapture\SlxLeadCapture.portal.xml\SupportFiles</Url>
+                    <BundleItemType>Context</BundleItemType>
+                    <Caption>SupportFiles</Caption>
+                    <InstallOptions>SkipItemAndChildren</InstallOptions>
+                  </LinkedFolderBundleItem>
+                  <children>
+                    <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFolderBundleItem, Sage.Platform.WebPortal.Design">
+                      <LinkedFolderBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                        <ItemId>\Portal\SlxLeadCapture\SlxLeadCapture.portal.xml\SupportFiles\bin</ItemId>
+                        <Url>\Portal\SlxLeadCapture\SlxLeadCapture.portal.xml\SupportFiles\bin</Url>
+                        <BundleItemType>Context</BundleItemType>
+                        <Caption>bin</Caption>
+                        <InstallOptions>SkipItemAndChildren</InstallOptions>
+                      </LinkedFolderBundleItem>
+                      <children>
+                        <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                          <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                            <ItemId>\Portal\SlxLeadCapture\SupportFiles\bin\Sage.SalesLogix.BusinessRules.dll</ItemId>
+                            <Url>\Portal\SlxLeadCapture\SupportFiles\bin\Sage.SalesLogix.BusinessRules.dll</Url>
+                            <BundleItemType>Other</BundleItemType>
+                            <Caption>Sage.SalesLogix.BusinessRules.dll</Caption>
+                            <InstallOptions>SkipItemAndChildren</InstallOptions>
+                            <IsLinkedFile>false</IsLinkedFile>
+                            <SourcePath>D:\Model752\Model\Portal\SlxLeadCapture\SupportFiles\bin\Sage.SalesLogix.BusinessRules.dll</SourcePath>
+                            <ParentModelItemUrl>\Portal\SlxLeadCapture\SlxLeadCapture.portal.xml</ParentModelItemUrl>
+                            <ProjectPath>SupportFiles\bin\Sage.SalesLogix.BusinessRules.dll</ProjectPath>
+                          </LinkedFileBundleItem>
+                        </bundleItem>
+                        <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                          <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                            <ItemId>\Portal\SlxLeadCapture\SupportFiles\bin\Sage.SalesLogix.Client.GroupBuilder.dll</ItemId>
+                            <Url>\Portal\SlxLeadCapture\SupportFiles\bin\Sage.SalesLogix.Client.GroupBuilder.dll</Url>
+                            <BundleItemType>Other</BundleItemType>
+                            <Caption>Sage.SalesLogix.Client.GroupBuilder.dll</Caption>
+                            <InstallOptions>SkipItemAndChildren</InstallOptions>
+                            <IsLinkedFile>false</IsLinkedFile>
+                            <SourcePath>D:\Model752\Model\Portal\SlxLeadCapture\SupportFiles\bin\Sage.SalesLogix.Client.GroupBuilder.dll</SourcePath>
+                            <ParentModelItemUrl>\Portal\SlxLeadCapture\SlxLeadCapture.portal.xml</ParentModelItemUrl>
+                            <ProjectPath>SupportFiles\bin\Sage.SalesLogix.Client.GroupBuilder.dll</ProjectPath>
+                          </LinkedFileBundleItem>
+                        </bundleItem>
+                        <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                          <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                            <ItemId>\Portal\SlxLeadCapture\SupportFiles\bin\Sage.SalesLogix.Web.Controls.dll</ItemId>
+                            <Url>\Portal\SlxLeadCapture\SupportFiles\bin\Sage.SalesLogix.Web.Controls.dll</Url>
+                            <BundleItemType>Other</BundleItemType>
+                            <Caption>Sage.SalesLogix.Web.Controls.dll</Caption>
+                            <InstallOptions>SkipItemAndChildren</InstallOptions>
+                            <IsLinkedFile>false</IsLinkedFile>
+                            <SourcePath>D:\Model752\Model\Portal\SlxLeadCapture\SupportFiles\bin\Sage.SalesLogix.Web.Controls.dll</SourcePath>
+                            <ParentModelItemUrl>\Portal\SlxLeadCapture\SlxLeadCapture.portal.xml</ParentModelItemUrl>
+                            <ProjectPath>SupportFiles\bin\Sage.SalesLogix.Web.Controls.dll</ProjectPath>
+                          </LinkedFileBundleItem>
+                        </bundleItem>
+                        <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                          <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                            <ItemId>\Portal\SlxLeadCapture\SupportFiles\bin\Sage.SalesLogix.Web.dll</ItemId>
+                            <Url>\Portal\SlxLeadCapture\SupportFiles\bin\Sage.SalesLogix.Web.dll</Url>
+                            <BundleItemType>Other</BundleItemType>
+                            <Caption>Sage.SalesLogix.Web.dll</Caption>
+                            <InstallOptions>SkipItemAndChildren</InstallOptions>
+                            <IsLinkedFile>false</IsLinkedFile>
+                            <SourcePath>D:\Model752\Model\Portal\SlxLeadCapture\SupportFiles\bin\Sage.SalesLogix.Web.dll</SourcePath>
+                            <ParentModelItemUrl>\Portal\SlxLeadCapture\SlxLeadCapture.portal.xml</ParentModelItemUrl>
+                            <ProjectPath>SupportFiles\bin\Sage.SalesLogix.Web.dll</ProjectPath>
+                          </LinkedFileBundleItem>
+                        </bundleItem>
+                      </children>
+                    </bundleItem>
+                  </children>
+                </bundleItem>
+              </children>
+            </bundleItem>
+            <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.ModelItemBundleItem, Sage.Platform.WebPortal.Design">
+              <ModelItemBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <ItemId>5525430a-60f9-481b-b4b5-cc89045cf9e9</ItemId>
+                <Url>\Portal\SlxIntellisync\SlxIntellisync.portal.xml</Url>
+                <BundleItemType>Context</BundleItemType>
+                <Caption>Intellisync For SalesLogix</Caption>
+              </ModelItemBundleItem>
+              <children>
+                <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFolderBundleItem, Sage.Platform.WebPortal.Design">
+                  <LinkedFolderBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ItemId>\Portal\SlxIntellisync\SlxIntellisync.portal.xml\SupportFiles</ItemId>
+                    <Url>\Portal\SlxIntellisync\SlxIntellisync.portal.xml\SupportFiles</Url>
+                    <BundleItemType>Context</BundleItemType>
+                    <Caption>SupportFiles</Caption>
+                    <InstallOptions>SkipItemAndChildren</InstallOptions>
+                  </LinkedFolderBundleItem>
+                  <children>
+                    <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFolderBundleItem, Sage.Platform.WebPortal.Design">
+                      <LinkedFolderBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                        <ItemId>\Portal\SlxIntellisync\SlxIntellisync.portal.xml\SupportFiles\Bin</ItemId>
+                        <Url>\Portal\SlxIntellisync\SlxIntellisync.portal.xml\SupportFiles\Bin</Url>
+                        <BundleItemType>Context</BundleItemType>
+                        <Caption>Bin</Caption>
+                        <InstallOptions>SkipItemAndChildren</InstallOptions>
+                      </LinkedFolderBundleItem>
+                      <children>
+                        <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                          <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                            <ItemId>\Portal\SlxIntellisync\SupportFiles\Bin\Sage.SalesLogix.BusinessRules.dll</ItemId>
+                            <Url>\Portal\SlxIntellisync\SupportFiles\Bin\Sage.SalesLogix.BusinessRules.dll</Url>
+                            <BundleItemType>Other</BundleItemType>
+                            <Caption>Sage.SalesLogix.BusinessRules.dll</Caption>
+                            <InstallOptions>SkipItemAndChildren</InstallOptions>
+                            <IsLinkedFile>false</IsLinkedFile>
+                            <SourcePath>D:\Model752\Model\Portal\SlxIntellisync\SupportFiles\Bin\Sage.SalesLogix.BusinessRules.dll</SourcePath>
+                            <ParentModelItemUrl>\Portal\SlxIntellisync\SlxIntellisync.portal.xml</ParentModelItemUrl>
+                            <ProjectPath>SupportFiles\Bin\Sage.SalesLogix.BusinessRules.dll</ProjectPath>
+                          </LinkedFileBundleItem>
+                        </bundleItem>
+                        <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                          <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                            <ItemId>\Portal\SlxIntellisync\SupportFiles\Bin\Sage.SalesLogix.Client.GroupBuilder.dll</ItemId>
+                            <Url>\Portal\SlxIntellisync\SupportFiles\Bin\Sage.SalesLogix.Client.GroupBuilder.dll</Url>
+                            <BundleItemType>Other</BundleItemType>
+                            <Caption>Sage.SalesLogix.Client.GroupBuilder.dll</Caption>
+                            <InstallOptions>SkipItemAndChildren</InstallOptions>
+                            <IsLinkedFile>false</IsLinkedFile>
+                            <SourcePath>D:\Model752\Model\Portal\SlxIntellisync\SupportFiles\Bin\Sage.SalesLogix.Client.GroupBuilder.dll</SourcePath>
+                            <ParentModelItemUrl>\Portal\SlxIntellisync\SlxIntellisync.portal.xml</ParentModelItemUrl>
+                            <ProjectPath>SupportFiles\Bin\Sage.SalesLogix.Client.GroupBuilder.dll</ProjectPath>
+                          </LinkedFileBundleItem>
+                        </bundleItem>
+                        <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                          <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                            <ItemId>\Portal\SlxIntellisync\SupportFiles\Bin\Sage.SalesLogix.Web.Controls.dll</ItemId>
+                            <Url>\Portal\SlxIntellisync\SupportFiles\Bin\Sage.SalesLogix.Web.Controls.dll</Url>
+                            <BundleItemType>Other</BundleItemType>
+                            <Caption>Sage.SalesLogix.Web.Controls.dll</Caption>
+                            <InstallOptions>SkipItemAndChildren</InstallOptions>
+                            <IsLinkedFile>false</IsLinkedFile>
+                            <SourcePath>D:\Model752\Model\Portal\SlxIntellisync\SupportFiles\Bin\Sage.SalesLogix.Web.Controls.dll</SourcePath>
+                            <ParentModelItemUrl>\Portal\SlxIntellisync\SlxIntellisync.portal.xml</ParentModelItemUrl>
+                            <ProjectPath>SupportFiles\Bin\Sage.SalesLogix.Web.Controls.dll</ProjectPath>
+                          </LinkedFileBundleItem>
+                        </bundleItem>
+                        <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                          <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                            <ItemId>\Portal\SlxIntellisync\SupportFiles\Bin\Sage.SalesLogix.Web.dll</ItemId>
+                            <Url>\Portal\SlxIntellisync\SupportFiles\Bin\Sage.SalesLogix.Web.dll</Url>
+                            <BundleItemType>Other</BundleItemType>
+                            <Caption>Sage.SalesLogix.Web.dll</Caption>
+                            <InstallOptions>SkipItemAndChildren</InstallOptions>
+                            <IsLinkedFile>false</IsLinkedFile>
+                            <SourcePath>D:\Model752\Model\Portal\SlxIntellisync\SupportFiles\Bin\Sage.SalesLogix.Web.dll</SourcePath>
+                            <ParentModelItemUrl>\Portal\SlxIntellisync\SlxIntellisync.portal.xml</ParentModelItemUrl>
+                            <ProjectPath>SupportFiles\Bin\Sage.SalesLogix.Web.dll</ProjectPath>
+                          </LinkedFileBundleItem>
+                        </bundleItem>
+                      </children>
+                    </bundleItem>
+                  </children>
+                </bundleItem>
+              </children>
+            </bundleItem>
+            <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.ModelItemBundleItem, Sage.Platform.WebPortal.Design">
+              <ModelItemBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <ItemId>826ae928-70e1-4df3-b337-c8c0702d7248</ItemId>
+                <Url>\Portal\SLXCustomerPortal\SLXCustomerPortal.portal.xml</Url>
+                <BundleItemType>Context</BundleItemType>
+                <Caption>Sage SalesLogix Customer Portal</Caption>
+              </ModelItemBundleItem>
+              <children>
+                <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFolderBundleItem, Sage.Platform.WebPortal.Design">
+                  <LinkedFolderBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ItemId>\Portal\SLXCustomerPortal\SLXCustomerPortal.portal.xml\SupportFiles</ItemId>
+                    <Url>\Portal\SLXCustomerPortal\SLXCustomerPortal.portal.xml\SupportFiles</Url>
+                    <BundleItemType>Context</BundleItemType>
+                    <Caption>SupportFiles</Caption>
+                    <InstallOptions>SkipItemAndChildren</InstallOptions>
+                  </LinkedFolderBundleItem>
+                  <children>
+                    <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFolderBundleItem, Sage.Platform.WebPortal.Design">
+                      <LinkedFolderBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                        <ItemId>\Portal\SLXCustomerPortal\SLXCustomerPortal.portal.xml\SupportFiles\bin</ItemId>
+                        <Url>\Portal\SLXCustomerPortal\SLXCustomerPortal.portal.xml\SupportFiles\bin</Url>
+                        <BundleItemType>Context</BundleItemType>
+                        <Caption>bin</Caption>
+                        <InstallOptions>SkipItemAndChildren</InstallOptions>
+                      </LinkedFolderBundleItem>
+                      <children>
+                        <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                          <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                            <ItemId>\Portal\SLXCustomerPortal\SupportFiles\bin\Sage.SalesLogix.BusinessRules.dll</ItemId>
+                            <Url>\Portal\SLXCustomerPortal\SupportFiles\bin\Sage.SalesLogix.BusinessRules.dll</Url>
+                            <BundleItemType>Other</BundleItemType>
+                            <Caption>Sage.SalesLogix.BusinessRules.dll</Caption>
+                            <InstallOptions>SkipItemAndChildren</InstallOptions>
+                            <IsLinkedFile>false</IsLinkedFile>
+                            <SourcePath>D:\Model752\Model\Portal\SLXCustomerPortal\SupportFiles\bin\Sage.SalesLogix.BusinessRules.dll</SourcePath>
+                            <ParentModelItemUrl>\Portal\SLXCustomerPortal\SLXCustomerPortal.portal.xml</ParentModelItemUrl>
+                            <ProjectPath>SupportFiles\bin\Sage.SalesLogix.BusinessRules.dll</ProjectPath>
+                          </LinkedFileBundleItem>
+                        </bundleItem>
+                        <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                          <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                            <ItemId>\Portal\SLXCustomerPortal\SupportFiles\bin\Sage.SalesLogix.Client.GroupBuilder.dll</ItemId>
+                            <Url>\Portal\SLXCustomerPortal\SupportFiles\bin\Sage.SalesLogix.Client.GroupBuilder.dll</Url>
+                            <BundleItemType>Other</BundleItemType>
+                            <Caption>Sage.SalesLogix.Client.GroupBuilder.dll</Caption>
+                            <InstallOptions>SkipItemAndChildren</InstallOptions>
+                            <IsLinkedFile>false</IsLinkedFile>
+                            <SourcePath>D:\Model752\Model\Portal\SLXCustomerPortal\SupportFiles\bin\Sage.SalesLogix.Client.GroupBuilder.dll</SourcePath>
+                            <ParentModelItemUrl>\Portal\SLXCustomerPortal\SLXCustomerPortal.portal.xml</ParentModelItemUrl>
+                            <ProjectPath>SupportFiles\bin\Sage.SalesLogix.Client.GroupBuilder.dll</ProjectPath>
+                          </LinkedFileBundleItem>
+                        </bundleItem>
+                        <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                          <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                            <ItemId>\Portal\SLXCustomerPortal\SupportFiles\bin\Sage.SalesLogix.Web.Controls.dll</ItemId>
+                            <Url>\Portal\SLXCustomerPortal\SupportFiles\bin\Sage.SalesLogix.Web.Controls.dll</Url>
+                            <BundleItemType>Other</BundleItemType>
+                            <Caption>Sage.SalesLogix.Web.Controls.dll</Caption>
+                            <InstallOptions>SkipItemAndChildren</InstallOptions>
+                            <IsLinkedFile>false</IsLinkedFile>
+                            <SourcePath>D:\Model752\Model\Portal\SLXCustomerPortal\SupportFiles\bin\Sage.SalesLogix.Web.Controls.dll</SourcePath>
+                            <ParentModelItemUrl>\Portal\SLXCustomerPortal\SLXCustomerPortal.portal.xml</ParentModelItemUrl>
+                            <ProjectPath>SupportFiles\bin\Sage.SalesLogix.Web.Controls.dll</ProjectPath>
+                          </LinkedFileBundleItem>
+                        </bundleItem>
+                        <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                          <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                            <ItemId>\Portal\SLXCustomerPortal\SupportFiles\bin\Sage.SalesLogix.Web.dll</ItemId>
+                            <Url>\Portal\SLXCustomerPortal\SupportFiles\bin\Sage.SalesLogix.Web.dll</Url>
+                            <BundleItemType>Other</BundleItemType>
+                            <Caption>Sage.SalesLogix.Web.dll</Caption>
+                            <InstallOptions>SkipItemAndChildren</InstallOptions>
+                            <IsLinkedFile>false</IsLinkedFile>
+                            <SourcePath>D:\Model752\Model\Portal\SLXCustomerPortal\SupportFiles\bin\Sage.SalesLogix.Web.dll</SourcePath>
+                            <ParentModelItemUrl>\Portal\SLXCustomerPortal\SLXCustomerPortal.portal.xml</ParentModelItemUrl>
+                            <ProjectPath>SupportFiles\bin\Sage.SalesLogix.Web.dll</ProjectPath>
+                          </LinkedFileBundleItem>
+                        </bundleItem>
+                      </children>
+                    </bundleItem>
+                    <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFolderBundleItem, Sage.Platform.WebPortal.Design">
+                      <LinkedFolderBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                        <ItemId>\Portal\SLXCustomerPortal\SLXCustomerPortal.portal.xml\SupportFiles\jscript</ItemId>
+                        <Url>\Portal\SLXCustomerPortal\SLXCustomerPortal.portal.xml\SupportFiles\jscript</Url>
+                        <BundleItemType>Context</BundleItemType>
+                        <Caption>jscript</Caption>
+                        <InstallOptions>SkipItemAndChildren</InstallOptions>
+                      </LinkedFolderBundleItem>
+                      <children>
+                        <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFolderBundleItem, Sage.Platform.WebPortal.Design">
+                          <LinkedFolderBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                            <ItemId>\Portal\SLXCustomerPortal\SLXCustomerPortal.portal.xml\SupportFiles\jscript\sage-controls</ItemId>
+                            <Url>\Portal\SLXCustomerPortal\SLXCustomerPortal.portal.xml\SupportFiles\jscript\sage-controls</Url>
+                            <BundleItemType>Context</BundleItemType>
+                            <Caption>sage-controls</Caption>
+                            <InstallOptions>SkipItemAndChildren</InstallOptions>
+                          </LinkedFolderBundleItem>
+                          <children>
+                            <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                              <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                                <ItemId>\Portal\SLXCustomerPortal\SupportFiles\jscript\sage-controls\sage-controls.js</ItemId>
+                                <Url>\Portal\SLXCustomerPortal\SupportFiles\jscript\sage-controls\sage-controls.js</Url>
+                                <BundleItemType>Other</BundleItemType>
+                                <Caption>sage-controls.js</Caption>
+                                <InstallOptions>SkipItemAndChildren</InstallOptions>
+                                <IsLinkedFile>false</IsLinkedFile>
+                                <SourcePath>D:\Model752\Model\Portal\SLXCustomerPortal\SupportFiles\jscript\sage-controls\sage-controls.js</SourcePath>
+                                <ParentModelItemUrl>\Portal\SLXCustomerPortal\SLXCustomerPortal.portal.xml</ParentModelItemUrl>
+                                <ProjectPath>SupportFiles\jscript\sage-controls\sage-controls.js</ProjectPath>
+                              </LinkedFileBundleItem>
+                            </bundleItem>
+                            <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                              <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                                <ItemId>\Portal\SLXCustomerPortal\SupportFiles\jscript\sage-controls\sage-controls-debug.js</ItemId>
+                                <Url>\Portal\SLXCustomerPortal\SupportFiles\jscript\sage-controls\sage-controls-debug.js</Url>
+                                <BundleItemType>Other</BundleItemType>
+                                <Caption>sage-controls-debug.js</Caption>
+                                <InstallOptions>SkipItemAndChildren</InstallOptions>
+                                <IsLinkedFile>false</IsLinkedFile>
+                                <SourcePath>D:\Model752\Model\Portal\SLXCustomerPortal\SupportFiles\jscript\sage-controls\sage-controls-debug.js</SourcePath>
+                                <ParentModelItemUrl>\Portal\SLXCustomerPortal\SLXCustomerPortal.portal.xml</ParentModelItemUrl>
+                                <ProjectPath>SupportFiles\jscript\sage-controls\sage-controls-debug.js</ProjectPath>
+                              </LinkedFileBundleItem>
+                            </bundleItem>
+                            <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                              <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                                <ItemId>\Portal\SLXCustomerPortal\SupportFiles\jscript\sage-controls\sage-controls-dependencylookup.js</ItemId>
+                                <Url>\Portal\SLXCustomerPortal\SupportFiles\jscript\sage-controls\sage-controls-dependencylookup.js</Url>
+                                <BundleItemType>Other</BundleItemType>
+                                <Caption>sage-controls-dependencylookup.js</Caption>
+                                <InstallOptions>SkipItemAndChildren</InstallOptions>
+                                <IsLinkedFile>false</IsLinkedFile>
+                                <SourcePath>D:\Model752\Model\Portal\SLXCustomerPortal\SupportFiles\jscript\sage-controls\sage-controls-dependencylookup.js</SourcePath>
+                                <ParentModelItemUrl>\Portal\SLXCustomerPortal\SLXCustomerPortal.portal.xml</ParentModelItemUrl>
+                                <ProjectPath>SupportFiles\jscript\sage-controls\sage-controls-dependencylookup.js</ProjectPath>
+                              </LinkedFileBundleItem>
+                            </bundleItem>
+                          </children>
+                        </bundleItem>
+                      </children>
+                    </bundleItem>
+                  </children>
+                </bundleItem>
+              </children>
+            </bundleItem>
+            <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.ModelItemBundleItem, Sage.Platform.WebPortal.Design">
+              <ModelItemBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <ItemId>861ac5fe-b571-4015-a55d-bf63e400e1e7</ItemId>
+                <Url>\Portal\SlxClient\SlxClient.portal.xml</Url>
+                <BundleItemType>Context</BundleItemType>
+                <Caption>Sage SalesLogix</Caption>
+              </ModelItemBundleItem>
+              <children>
+                <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFolderBundleItem, Sage.Platform.WebPortal.Design">
+                  <LinkedFolderBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ItemId>\Portal\SlxClient\SlxClient.portal.xml\SupportFiles</ItemId>
+                    <Url>\Portal\SlxClient\SlxClient.portal.xml\SupportFiles</Url>
+                    <BundleItemType>Context</BundleItemType>
+                    <Caption>SupportFiles</Caption>
+                    <InstallOptions>SkipItemAndChildren</InstallOptions>
+                  </LinkedFolderBundleItem>
+                  <children>
+                    <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFolderBundleItem, Sage.Platform.WebPortal.Design">
+                      <LinkedFolderBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                        <ItemId>\Portal\SlxClient\SlxClient.portal.xml\SupportFiles\Bin</ItemId>
+                        <Url>\Portal\SlxClient\SlxClient.portal.xml\SupportFiles\Bin</Url>
+                        <BundleItemType>Context</BundleItemType>
+                        <Caption>Bin</Caption>
+                        <InstallOptions>SkipItemAndChildren</InstallOptions>
+                      </LinkedFolderBundleItem>
+                      <children>
+                        <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                          <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                            <ItemId>\Portal\SlxClient\SupportFiles\Bin\Sage.SalesLogix.BusinessRules.dll</ItemId>
+                            <Url>\Portal\SlxClient\SupportFiles\Bin\Sage.SalesLogix.BusinessRules.dll</Url>
+                            <BundleItemType>Other</BundleItemType>
+                            <Caption>Sage.SalesLogix.BusinessRules.dll</Caption>
+                            <InstallOptions>SkipItemAndChildren</InstallOptions>
+                            <IsLinkedFile>false</IsLinkedFile>
+                            <SourcePath>D:\Model752\Model\Portal\SlxClient\SupportFiles\Bin\Sage.SalesLogix.BusinessRules.dll</SourcePath>
+                            <ParentModelItemUrl>\Portal\SlxClient\SlxClient.portal.xml</ParentModelItemUrl>
+                            <ProjectPath>SupportFiles\Bin\Sage.SalesLogix.BusinessRules.dll</ProjectPath>
+                          </LinkedFileBundleItem>
+                        </bundleItem>
+                        <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                          <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                            <ItemId>\Portal\SlxClient\SupportFiles\Bin\Sage.SalesLogix.Client.GroupBuilder.dll</ItemId>
+                            <Url>\Portal\SlxClient\SupportFiles\Bin\Sage.SalesLogix.Client.GroupBuilder.dll</Url>
+                            <BundleItemType>Other</BundleItemType>
+                            <Caption>Sage.SalesLogix.Client.GroupBuilder.dll</Caption>
+                            <InstallOptions>SkipItemAndChildren</InstallOptions>
+                            <IsLinkedFile>false</IsLinkedFile>
+                            <SourcePath>D:\Model752\Model\Portal\SlxClient\SupportFiles\Bin\Sage.SalesLogix.Client.GroupBuilder.dll</SourcePath>
+                            <ParentModelItemUrl>\Portal\SlxClient\SlxClient.portal.xml</ParentModelItemUrl>
+                            <ProjectPath>SupportFiles\Bin\Sage.SalesLogix.Client.GroupBuilder.dll</ProjectPath>
+                          </LinkedFileBundleItem>
+                        </bundleItem>
+                        <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                          <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                            <ItemId>\Portal\SlxClient\SupportFiles\Bin\Sage.SalesLogix.Web.Controls.dll</ItemId>
+                            <Url>\Portal\SlxClient\SupportFiles\Bin\Sage.SalesLogix.Web.Controls.dll</Url>
+                            <BundleItemType>Other</BundleItemType>
+                            <Caption>Sage.SalesLogix.Web.Controls.dll</Caption>
+                            <InstallOptions>SkipItemAndChildren</InstallOptions>
+                            <IsLinkedFile>false</IsLinkedFile>
+                            <SourcePath>D:\Model752\Model\Portal\SlxClient\SupportFiles\Bin\Sage.SalesLogix.Web.Controls.dll</SourcePath>
+                            <ParentModelItemUrl>\Portal\SlxClient\SlxClient.portal.xml</ParentModelItemUrl>
+                            <ProjectPath>SupportFiles\Bin\Sage.SalesLogix.Web.Controls.dll</ProjectPath>
+                          </LinkedFileBundleItem>
+                        </bundleItem>
+                        <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                          <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                            <ItemId>\Portal\SlxClient\SupportFiles\Bin\Sage.SalesLogix.Web.dll</ItemId>
+                            <Url>\Portal\SlxClient\SupportFiles\Bin\Sage.SalesLogix.Web.dll</Url>
+                            <BundleItemType>Other</BundleItemType>
+                            <Caption>Sage.SalesLogix.Web.dll</Caption>
+                            <InstallOptions>SkipItemAndChildren</InstallOptions>
+                            <IsLinkedFile>false</IsLinkedFile>
+                            <SourcePath>D:\Model752\Model\Portal\SlxClient\SupportFiles\Bin\Sage.SalesLogix.Web.dll</SourcePath>
+                            <ParentModelItemUrl>\Portal\SlxClient\SlxClient.portal.xml</ParentModelItemUrl>
+                            <ProjectPath>SupportFiles\Bin\Sage.SalesLogix.Web.dll</ProjectPath>
+                          </LinkedFileBundleItem>
+                        </bundleItem>
+                      </children>
+                    </bundleItem>
+                    <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFolderBundleItem, Sage.Platform.WebPortal.Design">
+                      <LinkedFolderBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                        <ItemId>\Portal\SlxClient\SlxClient.portal.xml\SupportFiles\jscript</ItemId>
+                        <Url>\Portal\SlxClient\SlxClient.portal.xml\SupportFiles\jscript</Url>
+                        <BundleItemType>Context</BundleItemType>
+                        <Caption>jscript</Caption>
+                        <InstallOptions>SkipItemAndChildren</InstallOptions>
+                      </LinkedFolderBundleItem>
+                      <children>
+                        <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFolderBundleItem, Sage.Platform.WebPortal.Design">
+                          <LinkedFolderBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                            <ItemId>\Portal\SlxClient\SlxClient.portal.xml\SupportFiles\jscript\sage-controls</ItemId>
+                            <Url>\Portal\SlxClient\SlxClient.portal.xml\SupportFiles\jscript\sage-controls</Url>
+                            <BundleItemType>Context</BundleItemType>
+                            <Caption>sage-controls</Caption>
+                            <InstallOptions>SkipItemAndChildren</InstallOptions>
+                          </LinkedFolderBundleItem>
+                          <children>
+                            <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                              <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                                <ItemId>\Portal\SlxClient\SupportFiles\jscript\sage-controls\sage-controls.js</ItemId>
+                                <Url>\Portal\SlxClient\SupportFiles\jscript\sage-controls\sage-controls.js</Url>
+                                <BundleItemType>Other</BundleItemType>
+                                <Caption>sage-controls.js</Caption>
+                                <InstallOptions>SkipItemAndChildren</InstallOptions>
+                                <IsLinkedFile>false</IsLinkedFile>
+                                <SourcePath>D:\Model752\Model\Portal\SlxClient\SupportFiles\jscript\sage-controls\sage-controls.js</SourcePath>
+                                <ParentModelItemUrl>\Portal\SlxClient\SlxClient.portal.xml</ParentModelItemUrl>
+                                <ProjectPath>SupportFiles\jscript\sage-controls\sage-controls.js</ProjectPath>
+                              </LinkedFileBundleItem>
+                            </bundleItem>
+                            <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                              <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                                <ItemId>\Portal\SlxClient\SupportFiles\jscript\sage-controls\sage-controls-debug.js</ItemId>
+                                <Url>\Portal\SlxClient\SupportFiles\jscript\sage-controls\sage-controls-debug.js</Url>
+                                <BundleItemType>Other</BundleItemType>
+                                <Caption>sage-controls-debug.js</Caption>
+                                <InstallOptions>SkipItemAndChildren</InstallOptions>
+                                <IsLinkedFile>false</IsLinkedFile>
+                                <SourcePath>D:\Model752\Model\Portal\SlxClient\SupportFiles\jscript\sage-controls\sage-controls-debug.js</SourcePath>
+                                <ParentModelItemUrl>\Portal\SlxClient\SlxClient.portal.xml</ParentModelItemUrl>
+                                <ProjectPath>SupportFiles\jscript\sage-controls\sage-controls-debug.js</ProjectPath>
+                              </LinkedFileBundleItem>
+                            </bundleItem>
+                            <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                              <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                                <ItemId>\Portal\SlxClient\SupportFiles\jscript\sage-controls\sage-controls-dependencylookup.js</ItemId>
+                                <Url>\Portal\SlxClient\SupportFiles\jscript\sage-controls\sage-controls-dependencylookup.js</Url>
+                                <BundleItemType>Other</BundleItemType>
+                                <Caption>sage-controls-dependencylookup.js</Caption>
+                                <InstallOptions>SkipItemAndChildren</InstallOptions>
+                                <IsLinkedFile>false</IsLinkedFile>
+                                <SourcePath>D:\Model752\Model\Portal\SlxClient\SupportFiles\jscript\sage-controls\sage-controls-dependencylookup.js</SourcePath>
+                                <ParentModelItemUrl>\Portal\SlxClient\SlxClient.portal.xml</ParentModelItemUrl>
+                                <ProjectPath>SupportFiles\jscript\sage-controls\sage-controls-dependencylookup.js</ProjectPath>
+                              </LinkedFileBundleItem>
+                            </bundleItem>
+                          </children>
+                        </bundleItem>
+                      </children>
+                    </bundleItem>
+                    <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFolderBundleItem, Sage.Platform.WebPortal.Design">
+                      <LinkedFolderBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                        <ItemId>\Portal\SlxClient\SlxClient.portal.xml\SupportFiles\SmartParts</ItemId>
+                        <Url>\Portal\SlxClient\SlxClient.portal.xml\SupportFiles\SmartParts</Url>
+                        <BundleItemType>Context</BundleItemType>
+                        <Caption>SmartParts</Caption>
+                        <InstallOptions>SkipItemAndChildren</InstallOptions>
+                      </LinkedFolderBundleItem>
+                      <children>
+                        <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFolderBundleItem, Sage.Platform.WebPortal.Design">
+                          <LinkedFolderBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                            <ItemId>\Portal\SlxClient\SlxClient.portal.xml\SupportFiles\SmartParts\Activity</ItemId>
+                            <Url>\Portal\SlxClient\SlxClient.portal.xml\SupportFiles\SmartParts\Activity</Url>
+                            <BundleItemType>Context</BundleItemType>
+                            <Caption>Activity</Caption>
+                            <InstallOptions>SkipItemAndChildren</InstallOptions>
+                          </LinkedFolderBundleItem>
+                          <children>
+                            <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                              <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                                <ItemId>\Portal\SlxClient\SupportFiles\SmartParts\Activity\ActivityDetails.ascx.cs</ItemId>
+                                <Url>\Portal\SlxClient\SupportFiles\SmartParts\Activity\ActivityDetails.ascx.cs</Url>
+                                <BundleItemType>Other</BundleItemType>
+                                <Caption>ActivityDetails.ascx.cs</Caption>
+                                <InstallOptions>SkipItemAndChildren</InstallOptions>
+                                <IsLinkedFile>false</IsLinkedFile>
+                                <SourcePath>D:\Model752\Model\Portal\SlxClient\SupportFiles\SmartParts\Activity\ActivityDetails.ascx.cs</SourcePath>
+                                <ParentModelItemUrl>\Portal\SlxClient\SlxClient.portal.xml</ParentModelItemUrl>
+                                <ProjectPath>SupportFiles\SmartParts\Activity\ActivityDetails.ascx.cs</ProjectPath>
+                              </LinkedFileBundleItem>
+                            </bundleItem>
+                            <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                              <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                                <ItemId>\Portal\SlxClient\SupportFiles\SmartParts\Activity\CompleteActivity.ascx.cs</ItemId>
+                                <Url>\Portal\SlxClient\SupportFiles\SmartParts\Activity\CompleteActivity.ascx.cs</Url>
+                                <BundleItemType>Other</BundleItemType>
+                                <Caption>CompleteActivity.ascx.cs</Caption>
+                                <InstallOptions>SkipItemAndChildren</InstallOptions>
+                                <IsLinkedFile>false</IsLinkedFile>
+                                <SourcePath>D:\Model752\Model\Portal\SlxClient\SupportFiles\SmartParts\Activity\CompleteActivity.ascx.cs</SourcePath>
+                                <ParentModelItemUrl>\Portal\SlxClient\SlxClient.portal.xml</ParentModelItemUrl>
+                                <ProjectPath>SupportFiles\SmartParts\Activity\CompleteActivity.ascx.cs</ProjectPath>
+                              </LinkedFileBundleItem>
+                            </bundleItem>
+                          </children>
+                        </bundleItem>
+                      </children>
+                    </bundleItem>
+                  </children>
+                </bundleItem>
+              </children>
+            </bundleItem>
+            <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.ModelItemBundleItem, Sage.Platform.WebPortal.Design">
+              <ModelItemBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <ItemId>73c2d444-e18c-43b0-9543-4022b8632e3a</ItemId>
+                <Url>\Portal\sdata\sdata.portal.xml</Url>
+                <BundleItemType>Context</BundleItemType>
+                <Caption>SData Integration Host</Caption>
+              </ModelItemBundleItem>
+              <children>
+                <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFolderBundleItem, Sage.Platform.WebPortal.Design">
+                  <LinkedFolderBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ItemId>\Portal\sdata\sdata.portal.xml\SupportFiles</ItemId>
+                    <Url>\Portal\sdata\sdata.portal.xml\SupportFiles</Url>
+                    <BundleItemType>Context</BundleItemType>
+                    <Caption>SupportFiles</Caption>
+                    <InstallOptions>SkipItemAndChildren</InstallOptions>
+                  </LinkedFolderBundleItem>
+                  <children>
+                    <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFolderBundleItem, Sage.Platform.WebPortal.Design">
+                      <LinkedFolderBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                        <ItemId>\Portal\sdata\sdata.portal.xml\SupportFiles\bin</ItemId>
+                        <Url>\Portal\sdata\sdata.portal.xml\SupportFiles\bin</Url>
+                        <BundleItemType>Context</BundleItemType>
+                        <Caption>bin</Caption>
+                        <InstallOptions>SkipItemAndChildren</InstallOptions>
+                      </LinkedFolderBundleItem>
+                      <children>
+                        <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                          <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                            <ItemId>\Portal\sdata\SupportFiles\bin\Sage.SalesLogix.BusinessRules.dll</ItemId>
+                            <Url>\Portal\sdata\SupportFiles\bin\Sage.SalesLogix.BusinessRules.dll</Url>
+                            <BundleItemType>Other</BundleItemType>
+                            <Caption>Sage.SalesLogix.BusinessRules.dll</Caption>
+                            <InstallOptions>SkipItemAndChildren</InstallOptions>
+                            <IsLinkedFile>false</IsLinkedFile>
+                            <SourcePath>D:\Model752\Model\Portal\sdata\SupportFiles\bin\Sage.SalesLogix.BusinessRules.dll</SourcePath>
+                            <ParentModelItemUrl>\Portal\sdata\sdata.portal.xml</ParentModelItemUrl>
+                            <ProjectPath>SupportFiles\bin\Sage.SalesLogix.BusinessRules.dll</ProjectPath>
+                          </LinkedFileBundleItem>
+                        </bundleItem>
+                        <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                          <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                            <ItemId>\Portal\sdata\SupportFiles\bin\Sage.SalesLogix.Client.GroupBuilder.dll</ItemId>
+                            <Url>\Portal\sdata\SupportFiles\bin\Sage.SalesLogix.Client.GroupBuilder.dll</Url>
+                            <BundleItemType>Other</BundleItemType>
+                            <Caption>Sage.SalesLogix.Client.GroupBuilder.dll</Caption>
+                            <InstallOptions>SkipItemAndChildren</InstallOptions>
+                            <IsLinkedFile>false</IsLinkedFile>
+                            <SourcePath>D:\Model752\Model\Portal\sdata\SupportFiles\bin\Sage.SalesLogix.Client.GroupBuilder.dll</SourcePath>
+                            <ParentModelItemUrl>\Portal\sdata\sdata.portal.xml</ParentModelItemUrl>
+                            <ProjectPath>SupportFiles\bin\Sage.SalesLogix.Client.GroupBuilder.dll</ProjectPath>
+                          </LinkedFileBundleItem>
+                        </bundleItem>
+                        <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                          <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                            <ItemId>\Portal\sdata\SupportFiles\bin\Sage.SalesLogix.Web.Controls.dll</ItemId>
+                            <Url>\Portal\sdata\SupportFiles\bin\Sage.SalesLogix.Web.Controls.dll</Url>
+                            <BundleItemType>Other</BundleItemType>
+                            <Caption>Sage.SalesLogix.Web.Controls.dll</Caption>
+                            <InstallOptions>SkipItemAndChildren</InstallOptions>
+                            <IsLinkedFile>false</IsLinkedFile>
+                            <SourcePath>D:\Model752\Model\Portal\sdata\SupportFiles\bin\Sage.SalesLogix.Web.Controls.dll</SourcePath>
+                            <ParentModelItemUrl>\Portal\sdata\sdata.portal.xml</ParentModelItemUrl>
+                            <ProjectPath>SupportFiles\bin\Sage.SalesLogix.Web.Controls.dll</ProjectPath>
+                          </LinkedFileBundleItem>
+                        </bundleItem>
+                        <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                          <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                            <ItemId>\Portal\sdata\SupportFiles\bin\Sage.SalesLogix.Web.dll</ItemId>
+                            <Url>\Portal\sdata\SupportFiles\bin\Sage.SalesLogix.Web.dll</Url>
+                            <BundleItemType>Other</BundleItemType>
+                            <Caption>Sage.SalesLogix.Web.dll</Caption>
+                            <InstallOptions>SkipItemAndChildren</InstallOptions>
+                            <IsLinkedFile>false</IsLinkedFile>
+                            <SourcePath>D:\Model752\Model\Portal\sdata\SupportFiles\bin\Sage.SalesLogix.Web.dll</SourcePath>
+                            <ParentModelItemUrl>\Portal\sdata\sdata.portal.xml</ParentModelItemUrl>
+                            <ProjectPath>SupportFiles\bin\Sage.SalesLogix.Web.dll</ProjectPath>
+                          </LinkedFileBundleItem>
+                        </bundleItem>
+                      </children>
+                    </bundleItem>
+                  </children>
+                </bundleItem>
+              </children>
+            </bundleItem>
+            <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.ModelItemBundleItem, Sage.Platform.WebPortal.Design">
+              <ModelItemBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                <ItemId>0fa2d760-ccdc-4f7a-a07b-467d9fad8269</ItemId>
+                <Url>\Portal\ProcessHost\ProcessHost.portal.xml</Url>
+                <BundleItemType>Context</BundleItemType>
+                <Caption>Process Host Portal</Caption>
+              </ModelItemBundleItem>
+              <children>
+                <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFolderBundleItem, Sage.Platform.WebPortal.Design">
+                  <LinkedFolderBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                    <ItemId>\Portal\ProcessHost\ProcessHost.portal.xml\SupportFiles</ItemId>
+                    <Url>\Portal\ProcessHost\ProcessHost.portal.xml\SupportFiles</Url>
+                    <BundleItemType>Context</BundleItemType>
+                    <Caption>SupportFiles</Caption>
+                    <InstallOptions>SkipItemAndChildren</InstallOptions>
+                  </LinkedFolderBundleItem>
+                  <children>
+                    <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFolderBundleItem, Sage.Platform.WebPortal.Design">
+                      <LinkedFolderBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                        <ItemId>\Portal\ProcessHost\ProcessHost.portal.xml\SupportFiles\bin</ItemId>
+                        <Url>\Portal\ProcessHost\ProcessHost.portal.xml\SupportFiles\bin</Url>
+                        <BundleItemType>Context</BundleItemType>
+                        <Caption>bin</Caption>
+                        <InstallOptions>SkipItemAndChildren</InstallOptions>
+                      </LinkedFolderBundleItem>
+                      <children>
+                        <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                          <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                            <ItemId>\Portal\ProcessHost\SupportFiles\bin\Sage.SalesLogix.BusinessRules.dll</ItemId>
+                            <Url>\Portal\ProcessHost\SupportFiles\bin\Sage.SalesLogix.BusinessRules.dll</Url>
+                            <BundleItemType>Other</BundleItemType>
+                            <Caption>Sage.SalesLogix.BusinessRules.dll</Caption>
+                            <InstallOptions>SkipItemAndChildren</InstallOptions>
+                            <IsLinkedFile>false</IsLinkedFile>
+                            <SourcePath>D:\Model752\Model\Portal\ProcessHost\SupportFiles\bin\Sage.SalesLogix.BusinessRules.dll</SourcePath>
+                            <ParentModelItemUrl>\Portal\ProcessHost\ProcessHost.portal.xml</ParentModelItemUrl>
+                            <ProjectPath>SupportFiles\bin\Sage.SalesLogix.BusinessRules.dll</ProjectPath>
+                          </LinkedFileBundleItem>
+                        </bundleItem>
+                        <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                          <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                            <ItemId>\Portal\ProcessHost\SupportFiles\bin\Sage.SalesLogix.Client.GroupBuilder.dll</ItemId>
+                            <Url>\Portal\ProcessHost\SupportFiles\bin\Sage.SalesLogix.Client.GroupBuilder.dll</Url>
+                            <BundleItemType>Other</BundleItemType>
+                            <Caption>Sage.SalesLogix.Client.GroupBuilder.dll</Caption>
+                            <InstallOptions>SkipItemAndChildren</InstallOptions>
+                            <IsLinkedFile>false</IsLinkedFile>
+                            <SourcePath>D:\Model752\Model\Portal\ProcessHost\SupportFiles\bin\Sage.SalesLogix.Client.GroupBuilder.dll</SourcePath>
+                            <ParentModelItemUrl>\Portal\ProcessHost\ProcessHost.portal.xml</ParentModelItemUrl>
+                            <ProjectPath>SupportFiles\bin\Sage.SalesLogix.Client.GroupBuilder.dll</ProjectPath>
+                          </LinkedFileBundleItem>
+                        </bundleItem>
+                        <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                          <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                            <ItemId>\Portal\ProcessHost\SupportFiles\bin\Sage.SalesLogix.Web.Controls.dll</ItemId>
+                            <Url>\Portal\ProcessHost\SupportFiles\bin\Sage.SalesLogix.Web.Controls.dll</Url>
+                            <BundleItemType>Other</BundleItemType>
+                            <Caption>Sage.SalesLogix.Web.Controls.dll</Caption>
+                            <InstallOptions>SkipItemAndChildren</InstallOptions>
+                            <IsLinkedFile>false</IsLinkedFile>
+                            <SourcePath>D:\Model752\Model\Portal\ProcessHost\SupportFiles\bin\Sage.SalesLogix.Web.Controls.dll</SourcePath>
+                            <ParentModelItemUrl>\Portal\ProcessHost\ProcessHost.portal.xml</ParentModelItemUrl>
+                            <ProjectPath>SupportFiles\bin\Sage.SalesLogix.Web.Controls.dll</ProjectPath>
+                          </LinkedFileBundleItem>
+                        </bundleItem>
+                        <bundleItem modelId="73d4e7d0-a7fa-40ae-8b45-1ad7ed954154" itemTypeName="Sage.Platform.WebPortal.Design.BundleSupport.LinkedFileBundleItem, Sage.Platform.WebPortal.Design">
+                          <LinkedFileBundleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+                            <ItemId>\Portal\ProcessHost\SupportFiles\bin\Sage.SalesLogix.Web.dll</ItemId>
+                            <Url>\Portal\ProcessHost\SupportFiles\bin\Sage.SalesLogix.Web.dll</Url>
+                            <BundleItemType>Other</BundleItemType>
+                            <Caption>Sage.SalesLogix.Web.dll</Caption>
+                            <InstallOptions>SkipItemAndChildren</InstallOptions>
+                            <IsLinkedFile>false</IsLinkedFile>
+                            <SourcePath>D:\Model752\Model\Portal\ProcessHost\SupportFiles\bin\Sage.SalesLogix.Web.dll</SourcePath>
+                            <ParentModelItemUrl>\Portal\ProcessHost\ProcessHost.portal.xml</ParentModelItemUrl>
+                            <ProjectPath>SupportFiles\bin\Sage.SalesLogix.Web.dll</ProjectPath>
+                          </LinkedFileBundleItem>
+                        </bundleItem>
+                      </children>
+                    </bundleItem>
+                  </children>
+                </bundleItem>
+              </children>
+            </bundleItem>
+          </children>
+        </bundleItem>
+      </children>
+    </bundleItem>
+  </bundleItemHierarchy>
+  <bundleActionHierarchy>
+    <bundleItem modelId="af988c91-97c8-4527-b072-e021c9e2cb1a" itemTypeName="Sage.Platform.BundleModel.RootBundleAction, Sage.Platform.BundleModel">
+      <RootBundleAction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <ItemId>\Actions</ItemId>
+        <Url>\Actions</Url>
+        <BundleItemType>Container</BundleItemType>
+        <Caption>Bundle Actions</Caption>
+      </RootBundleAction>
+    </bundleItem>
+  </bundleActionHierarchy>
+  <itemsToDelete />
+  <globalResources />
+</BundleManifest>

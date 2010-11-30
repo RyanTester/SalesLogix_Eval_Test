@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QuickFormDefinition Id="78295815-d82c-4102-b2f1-796aea6b341b" name="ReturnComments">
+  <Properties>
+    <Property name="FormTypeId" type="System.String"></Property>
+    <Property name="EntityTypeName" type="System.String">IReturn</Property>
+    <Property name="DefaultNamespace" type="System.String">Sage.Entity.Interfaces</Property>
+    <Property name="AssemblyName" type="System.String">Sage.Entity.Interfaces</Property>
+    <Property name="UseEntityNameAsTitle" type="System.Boolean">True</Property>
+    <Property name="ImagePath" type="System.String"></Property>
+    <Property name="DefinitionType" type="System.String">Sage.Platform.QuickForms.QuickFormMainDetailViewDefinition, Sage.Platform.QuickForms, Version=7.5.0.1854, Culture=neutral, PublicKeyToken=null</Property>
+    <Property name="Columns" type="System.ComponentModel.BindingList`1[[System.Windows.Forms.ColumnStyle, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><ArrayOfColumnStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><ColumnStyle><SizeType>Percent</SizeType><Width>90</Width></ColumnStyle><ColumnStyle><SizeType>Percent</SizeType><Width>10</Width></ColumnStyle></ArrayOfColumnStyle></Property>
+    <Property name="Rows" type="System.ComponentModel.BindingList`1[[System.Windows.Forms.RowStyle, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><ArrayOfRowStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><RowStyle><SizeType>Absolute</SizeType><Height>35</Height></RowStyle></ArrayOfRowStyle></Property>
+    <Property name="GeneratePrintView" type="System.Boolean">False</Property>
+    <Property name="Description" type="System.String">Return Comments</Property>
+    <Property name="ActiveControl" type="System.String"></Property>
+  </Properties>
+  <LoadActions />
+  <QuickFormElements>
+    <QuickFormElement>
+      <Properties>
+        <Property name="EntityMappingType" type="System.String">None</Property>
+        <Property name="ElementSourceType" type="System.String">Sage.Platform.QuickForms.Elements.QuickFormNotMappedElement</Property>
+        <Property name="EntityTypeName" type="System.String"></Property>
+        <Property name="EntityNamespace" type="System.String"></Property>
+        <Property name="EntityAssemblyName" type="System.String"></Property>
+        <Property name="DefaultNamespace" type="System.String"></Property>
+        <Property name="AssemblyName" type="System.String"></Property>
+        <Property name="EntityReferenceName" type="System.String"></Property>
+        <Property name="ValueMember" type="System.String">--- Custom Element ---</Property>
+      </Properties>
+      <LabelDefinition>
+        <Properties />
+      </LabelDefinition>
+      <ControlDefinition>
+        <Properties>
+          <Property name="Control" type="Sage.Platform.QuickForms.QFControls.QFControlsList, Sage.Platform.QuickForms.QFControls"><QFControlsList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><ColumnSpan>1</ColumnSpan><RowSpan>1</RowSpan><Column>0</Column><Row>0</Row><IsReadOnly>false</IsReadOnly><Enabled>true</Enabled><Visible>true</Visible><HotKey>0</HotKey><TabIndex>0</TabIndex><ControlId>QFControlsList</ControlId><DataBindings /><ControlLabelPlacement>left</ControlLabelPlacement><CaptionAlignment>left</CaptionAlignment><StyleScheme /><Caption /><Controls><ControlsCollection><Control TypeName="Sage.Platform.QuickForms.Controls.QFTextBox, Sage.Platform.QuickForms"><QFTextBox><ColumnSpan>1</ColumnSpan><RowSpan>1</RowSpan><Column>0</Column><Row>0</Row><IsReadOnly>false</IsReadOnly><Enabled>true</Enabled><Visible>true</Visible><HotKey>0</HotKey><TabIndex>0</TabIndex><ControlId>txtComments</ControlId><DataBindings><QuickFormPropertyDataBindingDefinition><DataSourceID>MainEntity</DataSourceID><DataItemName>Notes</DataItemName><ControlItemName>Text</ControlItemName><FormatString /><NullValueString /></QuickFormPropertyDataBindingDefinition></DataBindings><ControlLabelPlacement>top</ControlLabelPlacement><CaptionAlignment>left</CaptionAlignment><StyleScheme /><MaxLength>-1</MaxLength><Multiline>true</Multiline><OnChangeAction><ResourceKey>txtComments</ResourceKey><RootActionName>NoActionAction</RootActionName><Action /><IsDialogCloseAction>False</IsDialogCloseAction><RunOnEveryRePaint>False</RunOnEveryRePaint></OnChangeAction></QFTextBox></Control><Control TypeName="Sage.Platform.QuickForms.Controls.QFButton, Sage.Platform.QuickForms"><QFButton><ColumnSpan>1</ColumnSpan><RowSpan>1</RowSpan><Column>0</Column><Row>0</Row><IsReadOnly>false</IsReadOnly><Enabled>true</Enabled><Visible>true</Visible><HotKey>0</HotKey><TabIndex>0</TabIndex><ControlId>btnUserTimeStamp</ControlId><DataBindings /><ControlLabelPlacement>none</ControlLabelPlacement><CaptionAlignment>left</CaptionAlignment><StyleScheme /><ButtonType>Icon</ButtonType><Image>[Localization!Global_Images:User_Date_Stamp_16x16]</Image><OnClientClick /><OnClickAction><ResourceKey>btnUserTimeStamp</ResourceKey><RootActionName>BusinessRuleAction</RootActionName><Action><BusinessRule>OnSetCommentsDateTimeStamp</BusinessRule><Object>Return</Object><Parameters /><PassResultsToNextAction>False</PassResultsToNextAction><OnCompleteActionName>NoActionAction</OnCompleteActionName><OnComplete /></Action><IsDialogCloseAction>False</IsDialogCloseAction><RunOnEveryRePaint>False</RunOnEveryRePaint></OnClickAction></QFButton></Control></ControlsCollection></Controls></QFControlsList></Property>
+          <Property name="ControlId" type="System.String">QFControlsList</Property>
+        </Properties>
+        <EventHandlers />
+      </ControlDefinition>
+    </QuickFormElement>
+  </QuickFormElements>
+  <QuickFormToolElements>
+    <QuickFormElement>
+      <Properties>
+        <Property name="EntityMappingType" type="System.String">None</Property>
+        <Property name="ElementSourceType" type="System.String">Sage.Platform.QuickForms.Elements.QuickFormNotMappedElement</Property>
+        <Property name="EntityTypeName" type="System.String"></Property>
+        <Property name="EntityNamespace" type="System.String"></Property>
+        <Property name="EntityAssemblyName" type="System.String"></Property>
+        <Property name="DefaultNamespace" type="System.String"></Property>
+        <Property name="AssemblyName" type="System.String"></Property>
+        <Property name="EntityReferenceName" type="System.String"></Property>
+        <Property name="ValueMember" type="System.String">--- Custom Element ---</Property>
+      </Properties>
+      <LabelDefinition>
+        <Properties />
+      </LabelDefinition>
+      <ControlDefinition>
+        <Properties>
+          <Property name="Control" type="Sage.Platform.QuickForms.Controls.QFElementSpacer, Sage.Platform.QuickForms"><QFElementSpacer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><ColumnSpan>1</ColumnSpan><RowSpan>1</RowSpan><Column>0</Column><Row>0</Row><IsReadOnly>false</IsReadOnly><Enabled>true</Enabled><Visible>true</Visible><HotKey>0</HotKey><TabIndex>0</TabIndex><ControlId /><DataBindings /><ControlLabelPlacement>left</ControlLabelPlacement><CaptionAlignment>left</CaptionAlignment><StyleScheme /></QFElementSpacer></Property>
+          <Property name="ControlId" type="System.String"></Property>
+        </Properties>
+        <EventHandlers />
+      </ControlDefinition>
+    </QuickFormElement>
+    <QuickFormElement>
+      <Properties>
+        <Property name="EntityMappingType" type="System.String">None</Property>
+        <Property name="ElementSourceType" type="System.String">Sage.Platform.QuickForms.Elements.QuickFormNotMappedElement</Property>
+        <Property name="EntityTypeName" type="System.String"></Property>
+        <Property name="EntityNamespace" type="System.String"></Property>
+        <Property name="EntityAssemblyName" type="System.String"></Property>
+        <Property name="DefaultNamespace" type="System.String"></Property>
+        <Property name="AssemblyName" type="System.String"></Property>
+        <Property name="EntityReferenceName" type="System.String"></Property>
+        <Property name="ValueMember" type="System.String">--- Custom Element ---</Property>
+      </Properties>
+      <LabelDefinition>
+        <Properties />
+      </LabelDefinition>
+      <ControlDefinition>
+        <Properties>
+          <Property name="Control" type="Sage.Platform.QuickForms.Controls.QFElementSpacer, Sage.Platform.QuickForms"><QFElementSpacer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><ColumnSpan>1</ColumnSpan><RowSpan>1</RowSpan><Column>0</Column><Row>0</Row><IsReadOnly>false</IsReadOnly><Enabled>true</Enabled><Visible>true</Visible><HotKey>0</HotKey><TabIndex>0</TabIndex><ControlId /><DataBindings /><ControlLabelPlacement>left</ControlLabelPlacement><CaptionAlignment>left</CaptionAlignment><StyleScheme /></QFElementSpacer></Property>
+          <Property name="ControlId" type="System.String"></Property>
+        </Properties>
+        <EventHandlers />
+      </ControlDefinition>
+    </QuickFormElement>
+    <QuickFormElement>
+      <Properties>
+        <Property name="EntityMappingType" type="System.String">None</Property>
+        <Property name="ElementSourceType" type="System.String">Sage.Platform.QuickForms.Elements.QuickFormNotMappedElement</Property>
+        <Property name="EntityTypeName" type="System.String"></Property>
+        <Property name="EntityNamespace" type="System.String"></Property>
+        <Property name="EntityAssemblyName" type="System.String"></Property>
+        <Property name="DefaultNamespace" type="System.String"></Property>
+        <Property name="AssemblyName" type="System.String"></Property>
+        <Property name="EntityReferenceName" type="System.String"></Property>
+        <Property name="ValueMember" type="System.String">--- Custom Element ---</Property>
+      </Properties>
+      <LabelDefinition>
+        <Properties />
+      </LabelDefinition>
+      <ControlDefinition>
+        <Properties>
+          <Property name="Control" type="Sage.Platform.QuickForms.Controls.QFButton, Sage.Platform.QuickForms"><QFButton xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><ColumnSpan>1</ColumnSpan><RowSpan>1</RowSpan><Column>0</Column><Row>0</Row><IsReadOnly>false</IsReadOnly><Enabled>true</Enabled><Visible>true</Visible><HotKey>0</HotKey><TabIndex>0</TabIndex><ControlId>btnSave</ControlId><DataBindings /><ControlLabelPlacement>none</ControlLabelPlacement><CaptionAlignment>left</CaptionAlignment><StyleScheme /><ButtonType>Icon</ButtonType><Image>[Localization!Global_Images:Save_16x16]</Image><OnClientClick /><OnClickAction><ResourceKey>btnSave</ResourceKey><RootActionName>BusinessRuleAction</RootActionName><Action><BusinessRule>Save</BusinessRule><Object>Return</Object><Parameters /><PassResultsToNextAction>False</PassResultsToNextAction><OnCompleteActionName>NoActionAction</OnCompleteActionName><OnComplete /></Action><IsDialogCloseAction>False</IsDialogCloseAction><RunOnEveryRePaint>False</RunOnEveryRePaint></OnClickAction></QFButton></Property>
+          <Property name="ControlId" type="System.String">btnSave</Property>
+        </Properties>
+        <EventHandlers />
+      </ControlDefinition>
+    </QuickFormElement>
+  </QuickFormToolElements>
+</QuickFormDefinition>

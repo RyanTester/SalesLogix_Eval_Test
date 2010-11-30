@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="beae4352-b6f2-4c50-826c-6977930aa0ff">LeadHistoryDetails.smartpart.xml</Item>
+  <Item Id="a4f58698-611b-4954-a023-5ee04aede762">GroupViewer.smartpart.xml</Item>
+</ModelItems>

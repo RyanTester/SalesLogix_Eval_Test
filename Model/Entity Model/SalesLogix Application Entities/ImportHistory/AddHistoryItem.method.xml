@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="69d3871b-1722-4790-8d04-8f3d0ad5e227" lastModifiedUtc="2007-08-17T19:58:11.2239539Z" name="AddHistoryItem" returnType="void" methodType="Rule" actionType="None" returnMode="None" isInstance="true">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="23976c17-6d7b-4ded-930b-e4a691659e74" paramName="itemType" sequence="0" paramType="string" />
+    <OrmEntityMethodParam id="af528964-7d62-4176-b8a8-e5b58b1ab3ca" paramName="note" sequence="0" paramType="String" />
+    <OrmEntityMethodParam id="820617a4-3363-45bf-8ca8-6e931ff1e064" paramName="description" sequence="0" paramType="string" />
+    <OrmEntityMethodParam id="3b80be8f-95fe-4683-9c80-a3efad946f34" paramName="rawData" sequence="0" paramType="string" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="17c71ca9-47bb-409f-b5d3-6ad5335806f8" lastModifiedUtc="2008-04-03T22:27:14.1145394Z" targetType="Sage.SalesLogix.ImportHistory.Rules, Sage.SalesLogix.BusinessRules" targetMethod="AddHistoryItem" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

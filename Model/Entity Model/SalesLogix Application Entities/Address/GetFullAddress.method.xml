@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmPropertyMethod" id="1ee4922c-f49b-451e-beda-cf144b831065" lastModifiedUtc="2008-01-11T16:33:26.2438372Z" name="GetFullAddress" returnType="System.String" methodType="PropertyAccessor" actionType="None" returnMode="Object" isInstance="true">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmPropertyMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter />
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget xsi:type="OrmMethodTargetSnippet" id="71ab7dd2-b5f2-463e-88cf-3f7f7b9a3915" lastModifiedUtc="2008-01-11T16:39:11.6642658Z" targetType="Sage.BusinessRules.CodeSnippets.AddressBusinessRules, Sage.SnippetLibrary.CSharp" targetMethod="GetFullAddressStep1" active="true" description="Custom Property to display the full address formatted by country." codeSnippetId="71ab7dd2-b5f2-463e-88cf-3f7f7b9a3915">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

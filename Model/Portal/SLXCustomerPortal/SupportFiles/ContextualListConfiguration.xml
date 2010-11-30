@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ContextualListConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TargetPages>
+    <TargetConfigInfo>
+      <TargetPage>TICKET</TargetPage>
+      <ReferingPages>
+        <ContextConditionInfo>
+          <ReferringPage>Default</ReferringPage>
+          <DataPath>TICKET:TICKETID</DataPath>
+          <ConditionValue>CurrentId</ConditionValue>
+        </ContextConditionInfo>
+      </ReferingPages>
+    </TargetConfigInfo>
+  </TargetPages>
+</ContextualListConfiguration>

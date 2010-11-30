@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="9c9af012-5a27-4b96-b407-732eaaa347c2" lastModifiedUtc="2008-01-24T20:10:11.9871295Z" name="AssociateExistingAccountProduct" returnType="void" methodType="Rule" actionType="None" returnMode="None" isInstance="true">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter />
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="431186d3-6b99-4767-9b6b-e8513f4d7dcc" lastModifiedUtc="2008-01-24T20:09:44.3276515Z" targetType="Sage.SalesLogix.ReturnShippedProduct.Rules, Sage.SalesLogix.BusinessRules" targetMethod="AssociateExistingAccountProduct" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

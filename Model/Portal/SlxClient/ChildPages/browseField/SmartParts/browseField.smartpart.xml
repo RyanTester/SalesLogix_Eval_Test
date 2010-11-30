@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="cd6a10f7-beee-4b7c-86cd-1c2abf55c5b4">
+  <SmartPartId>browseField</SmartPartId>
+  <SmartPart>SmartParts\GroupBuilder\browseField.ascx</SmartPart>
+  <TargetWorkspace>MainContent</TargetWorkspace>
+  <ShowInMode />
+  <Properties />
+</SmartPartMapping>

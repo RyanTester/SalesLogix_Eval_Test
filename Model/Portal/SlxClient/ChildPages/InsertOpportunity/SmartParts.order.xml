@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="cfa0711a-4e5f-4bc7-b526-21cf8660eb98">InsertOpportunity.smartpart.xml</Item>
+  <Item Id="c8342fcd-c68a-4289-aa9c-7162f884e27a">OpportunityProductEX.smartpart.xml</Item>
+  <Item Id="ae7972d9-9ed3-46d8-8845-6541918f8b62">EditOpportunityProduct.smartpart.xml</Item>
+  <Item Id="5b3baf79-b6ca-485c-8c21-069b6653a3c2">AddOpportunityProduct.smartpart.xml</Item>
+  <Item Id="cc861680-6349-4ae3-8bd2-a2059e4b77b0">OpportunityCompetitors.smartpart.xml</Item>
+  <Item Id="500299bd-c75e-486c-846d-3dacd523dfaf">EditOpportunityCompetitor.smartpart.xml</Item>
+  <Item Id="722288e2-bb23-409a-9814-986ed8fe2ecd">OpportunityContacts.smartpart.xml</Item>
+  <Item Id="dbc1b0eb-6d5c-47d7-8cd2-a60aaade4bc5">EditOpportunityContact.smartpart.xml</Item>
+</ModelItems>

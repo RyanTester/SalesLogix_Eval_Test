@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="Gainey;decompilation;Admin;N;AccountID;USERINFO;AccountManagerID;UserID;USERPROFILE;t;OPPORTUNITYID;USER_ACTIVITY" MadCap:comment="12/30/02 KC Conv. buttons to links (Multiple Comments)" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:check_list="First Draft" MadCap:status="In Progress" MadCap:lastBlockDepth="5" MadCap:lastHeight="1047" MadCap:lastWidth="476" MadCap:conditions="Output.WebClient" class="" MadCap:tocPath="" MadCap:PathToHelpSystem="../../" MadCap:SearchType="Stem">
+    <!-- saved from url=(0014)about:internet -->
+    <head><title>Table Relationship Types</title>
+        <link rel="StyleSheet" href="../SALESLOGIX.CSS" />
+        <script src="../SkinSupport/MadCapUtilities.js">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor442"></a>Table Relationship Types</h1>
+        <table wrapperparagraphselector="P" style="margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0">
+            <col />
+            <col />
+            <tr>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <p style="text-align: center;margin-bottom: 0;" align="center">
+                        <img src="../image/note.gif" style="margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;width: 20px;height: 31px;float: none;border-style: none;border-style: none;" width="20" height="31" border="0" />
+                    </p>
+                </td>
+                <td style="padding-left: 6px;padding-top: 6px;padding-right: 6px;padding-bottom: 6px;" valign="top">
+                    <ul style="list-style: disc;" type="disc">
+                        <li class="kadov-p-CBullets" value="1">The parent table determines the table relationship. For  example, when the CONTACT table is the parent table, it has a One to One  relationship with the Account table. However, when the ACCOUNT table is the  parent table, the relationship is One to Many. In the Example column, parent  table names are in italics.</li>
+                        <li class="SLXNote" value="2">You cannot work with tables that have a Many to Many  relationship directly. You must use a link table, an intermediary table whose  purpose is to resolve Many to Many relationships by creating a link between the  tables. If you need information from the USERINFO and ACTIVITY tables, use the  USER_ACTIVITY table to access these tables. The USER_ACTIVITY table is a link  table.</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <p style="font-weight: normal;">To express the types of relationships between 
+ tables, use these terms:</p>
+        <table style="width: 100%;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="100%">
+            <col style="width: 20.118%;" />
+            <col style="width: 18.939%;" />
+            <col style="width: 32.416%;" />
+            <col style="width: 28.527%;" />
+            <tr valign="top">
+                <td style="width: 20.118%;padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;border-left-style: None;border-top-style: None;" width="20.118%" class="Tabletop">
+                    <p class="Tabletop">Term</p>
+                </td>
+                <td style="width: 18.939%;padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;border-top-style: None;" width="18.939%" class="Tabletop">
+                    <p class="Tabletop">Symbol</p>
+                </td>
+                <td style="width: 32.416%;padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;border-top-style: None;" width="32.416%" class="Tabletop">
+                    <p class="Tabletop">Description</p>
+                </td>
+                <td style="width: 28.527%;padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-top-style: None;border-right-style: None;" width="28.527%" class="Tabletop">
+                    <p class="Tabletop">Example</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td style="width: 20.118%;padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;border-left-style: None;" width="20.118%" class="Table">
+                    <p class="Table">One to One</p>
+                </td>
+                <td style="width: 18.939%;padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;" width="18.939%" class="Table">
+                    <p>
+                        <img src="../image/ONETOONE.GIF" alt="image\onetoone.gif" style="width: 78px;height: 13px;margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;border-style: none;border-style: none;" width="78" height="13" border="0" />
+                    </p>
+                </td>
+                <td style="width: 32.416%;padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;" width="32.416%" class="Table">
+                    <p class="Table">For a single record in one table there is one and only one related record in  another table.</p>
+                </td>
+                <td style="width: 28.527%;padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;" width="28.527%" class="Table">
+                    <p class="Table">A contact is related to only one account; therefore, the relationship between  the CONTACT and ACCOUNT tables is One to One.</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 20.118%;padding-right: 10px;padding-left: 10px;border-right-style: None;border-left-style: None;border-bottom-style: None;" width="20.118%" class="Table">
+                    <p class="Table">Zero to One</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 18.939%;padding-right: 10px;padding-left: 10px;border-right-style: None;border-bottom-style: None;" width="18.939%" class="Table">
+                    <p>
+                        <img src="../image/ZEROTOONE.GIF" alt="image\zerotoone.gif" style="width: 76px;height: 13px;margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;border-style: none;border-style: none;" width="76" height="13" border="0" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 32.416%;padding-right: 10px;padding-left: 10px;border-right-style: None;border-bottom-style: None;" width="32.416%" class="Table">
+                    <p class="Table">For a single record in one table there is none or one related record in another  table. A Zero to One relationship will occur after a table has been set up with  a One to One relationship to another table that does not have any records.</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 28.527%;padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;" width="28.527%" class="Table">
+                    <p class="Table">An activity might not be related to any opportunities. If it is related to an  opportunity it is only related to one opportunity; therefore, the relationship  between the ACTIVITY and OPPORTUNITY tables is Zero to One.</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 20.118%;padding-right: 10px;padding-left: 10px;border-right-style: None;border-left-style: None;border-bottom-style: None;" width="20.118%" class="Table">
+                    <p class="Table">One to Many</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 18.939%;padding-right: 10px;padding-left: 10px;border-right-style: None;border-bottom-style: None;" width="18.939%" class="Table">
+                    <p>
+                        <img src="../image/ONETOMANY.GIF" alt="image\onetomany.gif" style="width: 77px;height: 15px;margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;border-style: none;border-style: none;" width="77" height="15" border="0" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 32.416%;padding-right: 10px;padding-left: 10px;border-right-style: None;border-bottom-style: None;" width="32.416%" class="Table">
+                    <p class="Table">For a single record in one table there is one or more related records in another  table. </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 28.527%;padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;" width="28.527%" class="Table">
+                    <p class="Table">More than one contact can be associated with an account, but at least one  account is always associated with a contact; therefore, the relationship between  the ACCOUNT and CONTACT tables is One to Many.</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 20.118%;padding-right: 10px;padding-left: 10px;border-right-style: None;border-left-style: None;border-bottom-style: None;" width="20.118%" class="Table">
+                    <p class="Table">Zero to Many</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 18.939%;padding-right: 10px;padding-left: 10px;border-right-style: None;border-bottom-style: None;" width="18.939%" class="Table">
+                    <p>
+                        <img src="../image/ZEROTOMANY.GIF" alt="image\zerotomany.gif" style="width: 76px;height: 14px;margin-top: 0px;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;border-style: none;float: none;border-style: none;" width="76" height="14" border="0" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 32.416%;padding-right: 10px;padding-left: 10px;border-right-style: None;border-bottom-style: None;" width="32.416%" class="Table">
+                    <p class="Table">For a single record in one table, there may be zero or many records in another  table. A Zero to Many relationship will occur after a table has been set up with  a One to Many relationship to another table that does not have any records.</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 28.527%;padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;" width="28.527%" class="Table">
+                    <p class="Table">A contact may have zero or many activities; therefore, the relationship between  the CONTACT and ACTIVITY tables is Zero to Many.</p>
+                </td>
+            </tr>
+            <tr valign="top">
+                <td colspan="1" rowspan="1" style="width: 20.118%;padding-right: 10px;padding-left: 10px;border-right-style: None;border-left-style: None;border-bottom-style: None;" width="20.118%" class="Table">
+                    <p class="Table">Many to Many</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 18.939%;padding-right: 10px;padding-left: 10px;border-right-style: None;border-bottom-style: None;" width="18.939%" class="Table">
+                    <p>
+                        <img src="../image/Manytomany.gif" />
+                    </p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 32.416%;padding-right: 10px;padding-left: 10px;border-right-style: None;border-bottom-style: None;" width="32.416%" class="Table">
+                    <p class="Table">There are many records in one table that relate to many records in another table.</p>
+                </td>
+                <td colspan="1" rowspan="1" style="width: 28.527%;padding-right: 10px;padding-left: 10px;border-bottom-style: None;border-right-style: None;" width="28.527%" class="Table">
+                    <p class="Table">A user can have many activities and an activity can have many users; therefore,  the relationship between the USERINFO and ACTIVITY tables is Many to Many.         <![CDATA[ ]]></p>
+                </td>
+            </tr>
+        </table>
+        <p class="Infinitive" style="margin-bottom: 0;">Related Topics   <![CDATA[ ]]></p>
+        <p class="Topic-Text-Numbered"><a href="queryjointables.htm">Joining Tables</a>
+        </p>
+        <p class="Topic-Text-Numbered"><a href="queryjoinexample.htm">Join Example</a>
+        </p>
+        <p class="Topic-Text-Numbered"><a href="queryidfields.htm">ID Fields 
+ in Tables</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>
+            </p>
+            <p style="border-top-style: Groove;border-top-color: #c0c0c0;border-top-width: 1px;">&#160;</p>
+            <p><![CDATA[ ]]><a href="../General/feedback.htm" target="_blank">Tell us how we can make the Help better.</a></p>
+        </div>
+        <p class="Topic-Text-Numbered">&#160;</p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

@@ -1,0 +1,76 @@
+<%@ Master Language="C#" %>
+<%@ Register Assembly="Sage.Platform.WebPortal" Namespace="Sage.Platform.WebPortal.SmartParts" TagPrefix="smartParts" %>
+<%@ Register Assembly="Sage.Platform.WebPortal" Namespace="Sage.Platform.WebPortal.Workspaces" TagPrefix="workSpace" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<script type="text/C#" runat="server">
+
+    private bool _hideTitleBar;
+    public bool MainContentWorkspace_HideTitleBar
+    {
+        get { return _hideTitleBar; }
+        set { _hideTitleBar = value; }
+    }
+    
+	public void Page_Load(object sender, EventArgs e)
+	{
+		Page.Title = GetLocalResourceObject("DialogPageTitle").ToString();
+	}
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+	<title>Sage SalesLogix</title>
+	<link rel="stylesheet" type="text/css" href="~/css/YUI/fonts.css" />
+	<link rel="stylesheet" type="text/css" href="~/css/YUI/reset.css" /> 
+    <link rel="stylesheet" type="text/css" href="~/Libraries/Ext/resources/css/ext-all.css" />    
+    <link rel="stylesheet" type="text/css" href="~/Libraries/Ext/ux/resources/css/ext-ux-livegrid.css" />          
+    <link rel="stylesheet" type="text/css" href="~/css/yui/container.css" /> 
+
+    <script pin="pin" type="text/javascript" src="Libraries/jQuery/jquery.js"></script>
+    <script pin="pin" type="text/javascript" src="Libraries/jQuery/jquery.selectboxes.js"></script>
+    <script pin="pin" type="text/javascript" src="Libraries/jQuery/jquery-ui.js"></script>
+    <script pin="pin" type="text/javascript" src="Libraries/Ext/adapter/jquery/ext-jquery-adapter.js"></script>
+    <script pin="pin" type="text/javascript" src="Libraries/Ext/ext-all.js"></script>
+    <script pin="pin" type="text/javascript" src="Libraries/Ext/ext-overrides.js"></script>
+    <script pin="pin" type="text/javascript" src="Libraries/Ext/ext-tablegrid.js"></script>
+    <script pin="pin" type="text/javascript" src="Libraries/Ext/ux/ext-ux-livegrid-combined-min.js"></script>
+
+    <script pin="pin" type="text/javascript" src="jscript/YUI/yui-combined-min.js"></script>     
+    <script pin="pin" type="text/javascript" src="jscript/sage-platform/sage-platform.js"></script>
+    <script pin="pin" type="text/javascript" src="jscript/sage-controls/sage-controls.js"></script>
+    <script pin="pin" type="text/javascript" src="jscript/sage-common/sage-common.js"></script>        
+    <link rel="stylesheet" type="text/css" href="~/css/sage-styles.css" />      
+    
+
+     <script type="text/javascript">
+        function ScheduleActivity(ActivityType) {
+            var vURL = 'activity.aspx?modeid=Insert&type=' + ActivityType;
+            window.open(vURL, 'EditActivity','resizable=yes,centerscreen=yes,width=950,height=425,status=no,toolbar=no,scrollbars=yes');
+        }  
+    </script>
+    
+</head>
+<body>
+    <script pin="pin" type="text/javascript">       
+    Ext.BLANK_IMAGE_URL = 'libraries/ext/resources/images/default/s.gif';
+    Ext._stringFormat = String.format;
+    </script> 
+    
+	<form id="mainform" runat="server" method="post" >
+		<div class="ContentArea">
+			<!-- all page content goes here  -->
+			<asp:UpdatePanel runat="server" ID="mainformUpdatePanel" ChildrenAsTriggers="true" UpdateMode="conditional">
+                <ContentTemplate>
+                    <workSpace:MainContentWorkspace ID="MainContent" runat="server" SmartPartInfoStyle-CssClass="mainContentHeader" SmartPartContainerStyle-CssClass="mainContentContent" />
+                </ContentTemplate>
+            </asp:UpdatePanel>
+		</div>
+	</form>
+	
+	<script type="text/javascript">   
+    String.format = Ext._stringFormat;
+    </script>
+    
+</body>
+</html>

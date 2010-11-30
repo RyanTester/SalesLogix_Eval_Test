@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmOtherMethod" id="8411e274-4f13-4a34-9cbb-6307b3e09c3e" lastModifiedUtc="2009-11-09T17:50:27.2286996Z" name="curMCCalcPrice_OnChange" methodType="Other" actionType="None" returnMode="None" isInstance="false" containerName="EditOpportunityProduct">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmOtherMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="558889d9-20f5-4565-acd1-39254d1a4e3d" paramName="form" sequence="0" paramType="IEditOpportunityProduct" />
+    <OrmEntityMethodParam id="606a236b-e12d-45ae-a440-0129c97f3bd6" paramName="args" sequence="0" paramType="EventArgs" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget xsi:type="OrmMethodTargetSnippet" id="dac3796d-87b2-43d2-afb6-ca596820188c" lastModifiedUtc="2009-11-12T22:25:06.684435Z" targetType="Sage.BusinessRules.CodeSnippets.EditOpportunityProductEventHandlers, Sage.SnippetLibrary.CSharp" targetMethod="curMCCalcPrice_OnChangeStep" active="true" codeSnippetId="12c4dbb2-e601-4f95-8261-5b3c6b4ef215">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

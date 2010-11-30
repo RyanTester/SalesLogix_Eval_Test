@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="1019ce3a-6845-408a-a641-8a519027dd90" lastModifiedUtc="2007-12-31T19:02:08.1055974Z" cardinality="1:M" parentEntityId="52552175-fd52-442f-a204-8257a8c52383" childEntityId="0f7b1686-d913-4e61-9a9f-f19482c57d11" cascadeOption="SaveUpdateDelete">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="c3254dfc-8c70-4bdb-85ed-a08e447cbbce" lastModifiedUtc="2007-12-31T19:02:24.9492396Z" name="MarketingServiceRecipients" audited="false" displayCategory="Intermediate" isNullable="true" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="b005e118-22bc-4822-8be0-aae8f167d67e" lastModifiedUtc="2007-12-31T19:03:57.3548982Z" name="MarketingServiceCampaign" audited="false" displayCategory="Intermediate" isNullable="true" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="f4ab4ceb-2faa-4d6e-921b-6e3cb8963515" parentPropertyId="71800010-3449-462d-868d-e780b2017d1b" childPropertyId="4c008563-6538-41fb-9ca0-e65c715cdce5" ordinal="0" />
+  </column>
+</relationship>

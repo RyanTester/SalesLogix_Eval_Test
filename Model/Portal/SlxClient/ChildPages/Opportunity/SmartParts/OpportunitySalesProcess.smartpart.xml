@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="2c6625f1-e616-40fe-ad8f-ed30e89a0bb5">
+  <SmartPartId>OpportunitySalesProcess</SmartPartId>
+  <SmartPart>SmartParts\OpportunitySalesProcess\OpportunitySalesProcess.ascx</SmartPart>
+  <TargetWorkspace>TabControl</TargetWorkspace>
+  <ShowInMode>Detail</ShowInMode>
+  <Properties />
+</SmartPartMapping>

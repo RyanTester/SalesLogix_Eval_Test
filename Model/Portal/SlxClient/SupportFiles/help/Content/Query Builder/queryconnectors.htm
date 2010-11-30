@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="Gainey;decompilation;Admin;N;AccountID;USERINFO;AccountManagerID;UserID;USERPROFILE;t;OPPORTUNITYID;USER_ACTIVITY;CreateUser;CreateDate;ModifyUser;ModifyDate;Opportunity.Salespotential;Opportunity.Closeprobability;Opportunity.Status;Opportunity.Account.;Contact.Lastname;Contact.Firstname.;d.ddd...E+ddd;E;f;ddd.ddd...;g;n;d;ddd;acc_acc;con_con;opp_opp;conlname;Truevalue;FormatType;ftBoolean;FormatString;T;c;ShortDateFormat;LongTimeFormat;DateTime;ShortDayNames;dddd;LongDayNames;ddddd;dddddd;LongDateFormat;m;hh;mmm;Jan-Dec;ShortMonthNames;mmmm;LongMonthNames;yy;yyyy;nn;ss;ShortTimeFormat;tt;pm;ampm;TimeAMString;TimePMString;ftCurrency;USERID;SECCODE;F;PickList;ASC;Z;DESC;field(s;WebTicket;DataGrid;Bldr;Account.Address.Postalcode;Accountmangerid;Account.Accountmanagerid;Userid;Sens;Contact.Status;Contact.Account.Revenue" MadCap:comment="061002 JM: Table style.KC 4/17/02: Merged versions from all Help systems. Reformatted examples to use drop-down DHTML.&#xD;&#xA;JM 11/06/00: Removed graphics and rewrote text." MadCap:timeEstimate="0" MadCap:priority="0" MadCap:check_list="First Draft" MadCap:status="In Progress" MadCap:lastBlockDepth="5" MadCap:lastHeight="1008" MadCap:lastWidth="607" MadCap:conditions="Output.WebClient" class="" MadCap:tocPath="" MadCap:PathToHelpSystem="../../" MadCap:SearchType="Stem">
+    <!-- saved from url=(0014)about:internet -->
+    <head><title>Query Builder Statement Connectors</title>
+        <link rel="StyleSheet" href="../SALESLOGIX.CSS" />
+        <link href="../SkinSupport/MadCap.css" rel="stylesheet" type="text/css" />
+        <script src="../SkinSupport/MadCapUtilities.js">
+        </script>
+        <script src="../SkinSupport/MadCapEffects.js">
+        </script>
+        <script src="../SkinSupport/MadCapEffectsMenu.js">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor416"></a>Query Builder Statement Connectors</h1>
+        <p>Use connectors to indicate the end of the final conditional statement and to  specify interpretation of multiple conditional statements.</p>
+        <table wrapperparagraphselector="P" style="width: 372px;margin-left: 0.35pt;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="372">
+            <tr>
+                <td style="width: 104px;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" width="104px" class="Tabletop">
+                    <p class="Tabletop" style="text-indent: -5.75pt;margin-bottom: 0;"><span style="font-weight: bold;x-text-overline: off;x-text-line-through: off;text-decoration: none none none;">&#160; 
+ </span><span><span style="font-weight: bold;x-text-overline: off;x-text-line-through: off;text-decoration: none none none;">Connector</span></span>
+                    </p>
+                </td>
+                <td style="width: 268px;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" width="268px" class="Tabletop">
+                    <p class="Tabletop" style="text-indent: -5.75pt;margin-bottom: 0;"><span style="font-weight: bold;x-text-overline: off;x-text-line-through: off;text-decoration: none none none;">&#160; 
+ </span><span><span style="font-weight: bold;x-text-overline: off;x-text-line-through: off;text-decoration: none none none;">Use</span></span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 104px;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" width="104px" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">&#160; END</p>
+                </td>
+                <td style="width: 268px;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" width="268px" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">At the end of the last conditional statement.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 104px;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" width="104px" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">&#160; AND</p>
+                </td>
+                <td style="width: 268px;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" width="268px" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">When you have more than one conditional statement 
+ and you want to select the record only if it meets the conditions in both 
+ statements.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 104px;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" width="104px" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">&#160; OR</p>
+                </td>
+                <td style="width: 268px;padding-left: 2px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;" valign="top" width="268px" class="Table">
+                    <p class="Table" style="margin-bottom: 0;">When you have more than one statement and 
+ you want to select the record if it meets either condition in either statement.</p>
+                </td>
+            </tr>
+        </table>
+        <p>When you add the first conditional statement to the grid, Query Builder 
+ automatically inserts END as the connector. As you add conditional statements, 
+ AND is inserted in the previous statement and END is moved to the last 
+ statement. To change the connector, click the drop-down arrow and select an option from the list. The last  conditional statement must have END as the connector.</p>
+        <p><a href="javascript:void(0);" class="MCToggler" onclick="FMCToggler( this ); return false;" MadCap:targets="t4">Example 1: Using "AND" as your statement connector</a>
+        </p>
+        <div MadCap:targetName="t4" style="display: none;">
+            <p>Query Builder would select the record if the contact’s status is active 
+ <span class="SLXBold" style="font-weight: normal;">AND</span> the account’s revenues were greater than 
+ or equal to $10000.</p>
+            <p class="Tip-Note-Text">This is how the grid on the Conditions tab will 
+ appear for this example:</p>
+            <table style="width: 74.957%; margin-left: 0; margin-right: auto;">
+                <thead>
+                    <tr>
+                        <th class="Tabletop" style="text-align: left;">Not</th>
+                        <th class="Tabletop" style="text-align: left;">(</th>
+                        <th class="Tabletop" style="text-align: left;">Field</th>
+                        <th class="Tabletop" style="text-align: left;">Operator</th>
+                        <th class="Tabletop" style="text-align: left;">Value</th>
+                        <th class="Tabletop" style="text-align: left;">Case Sens</th>
+                        <th class="Tabletop" style="text-align: left;">)</th>
+                        <th class="Tabletop" style="text-align: left;">And/Or</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="Table">&#160;</td>
+                        <td class="Table">&#160;</td>
+                        <td class="Table">Contact.Status</td>
+                        <td class="Table">equal to</td>
+                        <td class="Table">active</td>
+                        <td class="Table">False</td>
+                        <td class="Table">&#160;</td>
+                        <td class="Table">AND</td>
+                    </tr>
+                    <tr>
+                        <td class="Table">&#160;</td>
+                        <td class="Table">&#160;</td>
+                        <td class="Table">Contact.Account.Revenue</td>
+                        <td class="Table">equal or greater than</td>
+                        <td class="Table">10000</td>
+                        <td class="Table">True</td>
+                        <td class="Table">&#160;</td>
+                        <td class="Table">END</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p><a href="javascript:void(0);" class="MCToggler" onclick="FMCToggler( this ); return false;" MadCap:targets="t3">Example 2: Using "OR" as your statement connector</a>
+        </p>
+        <div MadCap:targetName="t3" style="display: none;">
+            <p>Query Builder would select the record if the contact’s status is active 
+ <span class="SLXBold" style="font-weight: normal;">OR</span> the account’s revenues are greater than 
+ or equal to $10000.</p>
+            <p class="Tip-Note-Text">This is how the grid on the Conditions tab will 
+ appear for this example:</p>
+            <table style="width: 74.957%; margin-left: 0; margin-right: auto;">
+                <thead>
+                    <tr>
+                        <th class="Tabletop" style="text-align: left;">Not</th>
+                        <th class="Tabletop" style="text-align: left;">(</th>
+                        <th class="Tabletop" style="text-align: left;">Field</th>
+                        <th class="Tabletop" style="text-align: left;">Operator</th>
+                        <th class="Tabletop" style="text-align: left;">Value</th>
+                        <th class="Tabletop" style="text-align: left;">Case Sens</th>
+                        <th class="Tabletop" style="text-align: left;">)</th>
+                        <th class="Tabletop" style="text-align: left;">And/Or</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="Table">&#160;</td>
+                        <td>&#160;</td>
+                        <td class="Table">Contact.Status</td>
+                        <td class="Table">equal to</td>
+                        <td class="Table">active</td>
+                        <td class="Table">False</td>
+                        <td>&#160;</td>
+                        <td class="Table">OR</td>
+                    </tr>
+                    <tr>
+                        <td>&#160;</td>
+                        <td>&#160;</td>
+                        <td class="Table">Contact.Account.Revenue</td>
+                        <td class="Table">equal or greater than</td>
+                        <td class="Table">10000</td>
+                        <td class="Table">True</td>
+                        <td>&#160;</td>
+                        <td class="Table">END</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="Tip-Note-Text">&#160;</p>
+        </div>
+        <p><a href="javascript:void(0);" class="MCToggler" onclick="FMCToggler( this ); return false;" MadCap:targets="t2">Example 3: Using multiple conditional statements within parentheses</a>
+        </p>
+        <div MadCap:targetName="t2" style="display: none;">
+            <p>Query Builder would select the record if the contact’s status is active 
+ <span class="SLXBold" style="font-weight: normal;">AND</span> the account’s revenues are greater than 
+ or equal to $10000. The record would <span class="SLXBold" style="font-weight: normal;">also</span> be 
+ selected if the contact’s status is active <span class="SLXBold" style="font-weight: normal;">AND</span> 
+ the revenue is less than or equal to $500.</p>
+            <p class="Tip-Note-Text">This is how the grid on the Conditions tab will 
+ appear for this example:</p>
+            <table style="width: 74.957%; margin-left: 0; margin-right: auto;">
+                <thead>
+                    <tr>
+                        <th class="Tabletop" style="text-align: left;">Not</th>
+                        <th class="Tabletop" style="text-align: left;">(</th>
+                        <th class="Tabletop" style="text-align: left;">Field</th>
+                        <th class="Tabletop" style="text-align: left;">Operator</th>
+                        <th class="Tabletop" style="text-align: left;">Value</th>
+                        <th class="Tabletop" style="text-align: left;">Case Sens</th>
+                        <th class="Tabletop" style="text-align: left;">)</th>
+                        <th class="Tabletop" style="text-align: left;">And/Or</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="Table">&#160;</td>
+                        <td class="Table">&#160;</td>
+                        <td class="Table">Contact.Status</td>
+                        <td class="Table">equal to</td>
+                        <td class="Table">active</td>
+                        <td class="Table">False</td>
+                        <td class="Table">&#160;</td>
+                        <td class="Table">AND</td>
+                    </tr>
+                    <tr>
+                        <td class="Table">&#160;</td>
+                        <td class="Table">(</td>
+                        <td class="Table">Contact.Account.Revenue</td>
+                        <td class="Table">equal or greater than</td>
+                        <td class="Table">10000</td>
+                        <td class="Table">True</td>
+                        <td class="Table">&#160;</td>
+                        <td class="Table">OR</td>
+                    </tr>
+                    <tr>
+                        <td class="Table">&#160;</td>
+                        <td class="Table">&#160;</td>
+                        <td class="Table">Contact.Account.Revenue</td>
+                        <td class="Table">equal or less than</td>
+                        <td class="Table">500</td>
+                        <td class="Table">True</td>
+                        <td class="Table">)</td>
+                        <td class="Table">END</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p><a href="javascript:void(0);" class="MCToggler" onclick="FMCToggler( this ); return false;" MadCap:targets="t1">Example 4: Using multiple conditional statements including 
+ "NOT"</a>
+        </p>
+        <div MadCap:targetName="t1" style="display: none;">
+            <p>Query Builder would select the record if the contact’s status is <span class="SLXBold" style="font-weight: normal;">NOT</span> inactive <span class="SLXBold" style="font-weight: normal;">AND</span> the account’s 
+ revenues are greater than or equal to $10000. The record would <span class="SLXBold" style="font-weight: normal;">also</span> 
+ be selected if the contact’s status is <span class="SLXBold" style="font-weight: normal;">NOT</span> 
+ inactive <span class="SLXBold" style="font-weight: normal;">AND</span> the revenue is less than or equal 
+ to $500.</p>
+            <p>This is how the grid on the Conditions tab will appear for this example:</p>
+            <table style="width: 74.957%; margin-left: 0; margin-right: auto;">
+                <thead>
+                    <tr>
+                        <th class="Tabletop" style="text-align: left;">Not</th>
+                        <th class="Tabletop" style="text-align: left;">(</th>
+                        <th class="Tabletop" style="text-align: left;">Field</th>
+                        <th class="Tabletop" style="text-align: left;">Operator</th>
+                        <th class="Tabletop" style="text-align: left;">Value</th>
+                        <th class="Tabletop" style="text-align: left;">Case Sens</th>
+                        <th class="Tabletop" style="text-align: left;">)</th>
+                        <th class="Tabletop" style="text-align: left;">And/Or</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="Table">NOT</td>
+                        <td class="Table">&#160;</td>
+                        <td class="Table">Contact.Status</td>
+                        <td class="Table">equal to</td>
+                        <td class="Table">inactive</td>
+                        <td class="Table">False</td>
+                        <td class="Table">&#160;</td>
+                        <td class="Table">AND</td>
+                    </tr>
+                    <tr>
+                        <td class="Table">&#160;</td>
+                        <td class="Table">(</td>
+                        <td class="Table">Contact.Account.Revenue</td>
+                        <td class="Table">equal or greater than</td>
+                        <td class="Table">10000</td>
+                        <td class="Table">True</td>
+                        <td class="Table">&#160;</td>
+                        <td class="Table">OR</td>
+                    </tr>
+                    <tr>
+                        <td class="Table">&#160;</td>
+                        <td class="Table">&#160;</td>
+                        <td class="Table">Contact.Account.Revenue</td>
+                        <td class="Table">equal or less than</td>
+                        <td class="Table">500</td>
+                        <td class="Table">True</td>
+                        <td class="Table">)</td>
+                        <td class="Table">END</td>
+                    </tr>
+                </tbody>
+            </table>&#160;</div>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="querybuilderconditions.htm" target="_self">Adding and Editing Conditions</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>
+            </p>
+            <p style="border-top-style: Groove;border-top-color: #c0c0c0;border-top-width: 1px;">&#160;</p>
+            <p><![CDATA[ ]]><a href="../General/feedback.htm" target="_blank">Tell us how we can make the Help better.</a></p>
+        </div>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Support\SyncServer\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:56.8730" />
+  <exportedFile url="\Entity Model\SalesLogix Application Support\SyncServer\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:56.8730" />
+  <exportedFile url="\Entity Model\SalesLogix Application Support\SyncServer\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:56.8900" />
+  <exportedFile url="\Entity Model\SalesLogix Application Support\SyncServer\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:56.9070" />
+  <exportedFile url="\Entity Model\SalesLogix Application Support\SyncServer\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:56.8900" />
+  <exportedFile url="\Entity Model\SalesLogix Application Support\SyncServer\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:56.9070" />
+  <exportedFile url="\Entity Model\SalesLogix Application Support\SyncServer\OnCreate.method.xml" timeStamp="2009-11-19T20:10:56.9070" />
+  <exportedFile url="\Entity Model\SalesLogix Application Support\SyncServer\SyncServer.SYNCSERVER.entity.xml" timeStamp="2009-11-19T20:10:56.8900" />
+</exportedFiles>

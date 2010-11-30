@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="ab446702-7ac0-4b81-a0c1-e38d70084ba2">menuItemLookupDefect.contextmenu.xml</Item>
+  <Item Id="6a8a12df-173d-4340-b533-2dc8e81177c1">menuItemNewDefect.contextmenu.xml</Item>
+  <Item Id="c0509458-5518-48d1-8a3e-76be56dae532">menuItemCreateNewDefectGroup.contextmenu.xml</Item>
+</ModelItems>

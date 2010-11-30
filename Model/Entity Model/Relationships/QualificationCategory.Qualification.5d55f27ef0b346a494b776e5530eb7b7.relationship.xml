@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="5d55f27e-f0b3-46a4-94b7-76e5530eb7b7" lastModifiedUtc="2007-12-14T18:14:42.4931367Z" cardinality="1:M" parentEntityId="df595eb4-8ba8-4a2d-98c0-295b32424fe5" childEntityId="4bcd0fa5-784c-4973-a442-6d0a7f43988a" cascadeOption="SaveUpdateDelete">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="0ac167ba-af0a-44b4-b489-73edacc60a06" lastModifiedUtc="0001-01-01T00:00:00" name="Qualifications" audited="false" displayCategory="Intermediate" isNullable="true" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="f3178679-9802-4780-b864-786a2225ee79" lastModifiedUtc="2007-12-14T18:14:42.4774766Z" name="QualificationCategory" audited="false" displayCategory="Intermediate" isNullable="false" include="true">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="5a2ca4ef-cd9f-4a0e-83b2-495e6d2335a2" parentPropertyId="95aed561-bd97-4ef9-9157-7f9c15ca9c31" childPropertyId="68b0328e-d815-46e0-a93e-4e5a33bc9b0b" ordinal="0" />
+  </column>
+</relationship>

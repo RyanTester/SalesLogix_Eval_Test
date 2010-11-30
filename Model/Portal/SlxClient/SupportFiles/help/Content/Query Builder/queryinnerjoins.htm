@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:comment="10/02/02 KC: Edited to match UI. KC 4/12/02: Verified topic is the same in all Help systems." MadCap:timeEstimate="0" MadCap:priority="0" MadCap:check_list="First Draft" MadCap:status="In Progress" MadCap:lastBlockDepth="5" MadCap:lastHeight="484" MadCap:lastWidth="476" MadCap:conditions="Output.WebClient" MadCap:tocPath="" MadCap:PathToHelpSystem="../../" MadCap:SearchType="Stem">
+    <!-- saved from url=(0014)about:internet -->
+    <head><title>Inner joins</title>
+        <link rel="StyleSheet" href="../SALESLOGIX.CSS" />
+        <script src="../SkinSupport/MadCapUtilities.js">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor429"></a>Inner Joins</h1>
+        <p>An inner join is the default type for <a href="queryjointables.htm">local 
+ joins</a>. Use an inner join to include only records where the values 
+ in the fields you are joining are the same in both the Parent and Child 
+ tables. </p>
+        <p>Example: You want to review any opportunities with associated activities,  leaving out any opportunities without activities. The records shown in the Join  Results column would be returned by this query. The specific opportunity  associated with an activity is indicated in parentheses to the right of the  activity.</p>
+        <p>&#160;</p>
+        <table style="border-spacing: 0px;left: 0px;top: 116px;width: 100%;border-spacing: 0px;" cellspacing="0" width="100%">
+            <col style="width: 322px;" />
+            <tr style="height: 211px;" valign="top">
+                <td style="padding-right: 10px;padding-left: 10px;border-right-style: none;border-top-style: none;border-bottom-style: none;">
+                    <table style="margin-left: 0.35pt;border-spacing: 0px;caption-side: top;width: 100%;" cellspacing="0">
+                        <col />
+                        <col />
+                        <col />
+                        <col />
+                        <col />
+                        <tr style="height: 21px;" valign="top">
+                            <td class="Tabletop">Source</td>
+                            <td colspan="2" style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Tabletop">
+                                <p class="Tabletop"><span style="font-weight: bold;">Selected</span>
+                                </p>
+                            </td>
+                            <td class="Tabletop">Join Results</td>
+                            <td />
+                        </tr>
+                        <tr style="height: 21px;" valign="top">
+                            <td class="Table">OPPORTUNITY table</td>
+                            <td colspan="2" style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                                <p class="Table">ACTIVITY table</p>
+                            </td>
+                            <td class="Table">Opportunity1</td>
+                            <td />
+                        </tr>
+                        <tr style="height: 18px;" valign="top">
+                            <td class="Table">Opportunity1</td>
+                            <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                                <p class="Table">Activity 1</p>
+                            </td>
+                            <td colspan="1" rowspan="1" style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                                <p>&#160;</p>
+                            </td>
+                            <td class="Table">Opportunity4</td>
+                        </tr>
+                        <tr style="height: 21px;" valign="top">
+                            <td class="Table">Opportunity2</td>
+                            <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                                <p class="Table">Activity 2</p>
+                            </td>
+                            <td colspan="1" rowspan="1" style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                                <p>&#160;</p>
+                            </td>
+                            <td class="Table">Opportunity5</td>
+                        </tr>
+                        <tr style="height: 21px;" valign="top">
+                            <td class="Table">Opportunity3</td>
+                            <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                                <p class="Table">Activity 3</p>
+                            </td>
+                            <td colspan="1" rowspan="1" style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                                <p class="Table">(Opportunity1)</p>
+                            </td>
+                            <td class="Table">Activity 3</td>
+                        </tr>
+                        <tr style="height: 21px;" valign="top">
+                            <td class="Table">Opportunity4</td>
+                            <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                                <p class="Table">Activity 4</p>
+                            </td>
+                            <td colspan="1" rowspan="1" style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                                <p class="Table">(Opportunity4)</p>
+                            </td>
+                            <td class="Table">Activity 4</td>
+                        </tr>
+                        <tr style="height: 21px;" valign="top">
+                            <td class="Table">Opportunity5</td>
+                            <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                                <p class="Table">Activity 5</p>
+                            </td>
+                            <td colspan="1" rowspan="1" style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                                <p>&#160;</p>
+                            </td>
+                            <td class="Table">Activity 6</td>
+                        </tr>
+                        <tr style="height: 21px;" valign="top">
+                            <td class="Table">&#160;</td>
+                            <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                                <p class="Table">Activity 6</p>
+                            </td>
+                            <td colspan="1" rowspan="1" style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                                <p class="Table">(Opportunity5)</p>
+                            </td>
+                            <td class="Table">Activity 7</td>
+                        </tr>
+                        <tr style="height: 21px;" valign="top">
+                            <td class="Table">&#160;</td>
+                            <td style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                                <p class="Table">Activity 7</p>
+                            </td>
+                            <td colspan="1" rowspan="1" style="padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" class="Table">
+                                <p class="Table">(Opportunity1)</p>
+                            </td>
+                            <td class="Table">&#160;</td>
+                        </tr>
+                    </table>
+                    <p>&#160;</p>
+                </td>
+            </tr>
+        </table>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="queryjoinexample.htm">Join Example</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>
+            </p>
+            <p style="border-top-style: Groove;border-top-color: #c0c0c0;border-top-width: 1px;">&#160;</p>
+            <p><![CDATA[ ]]><a href="../General/feedback.htm" target="_blank">Tell us how we can make the Help better.</a></p>
+        </div>
+        <p>&#160;</p>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="b29ecdd7-3e3e-44ca-b610-4eab54444518">LeadDetails.smartpart.xml</Item>
+  <Item Id="51efbcb3-a302-45b3-ba02-f0b2ad55237c">LeadExtendedDetails.smartpart.xml</Item>
+  <Item Id="29cfc935-8fd7-4897-9e72-b61252bdbeca">NotesList.smartpart.xml</Item>
+  <Item Id="eb7e69d6-b1e3-4c5c-80b6-f33f27f4a03a">HistoryList.smartpart.xml</Item>
+  <Item Id="45cd822d-6d3f-4e91-8f2e-cb3b09ed147e">ActivityList.smartpart.xml</Item>
+  <Item Id="8707b15c-814e-4334-8bcd-1dde4b423598">AttachmentList.smartpart.xml</Item>
+  <Item Id="baefd6e2-33ff-4463-9c36-cab9d8c25cba">LeadMarketing.smartpart.xml</Item>
+  <Item Id="38ccb68a-3024-44e9-9970-26f4bae5d821">LeadResponses.smartpart.xml</Item>
+  <Item Id="ce74b1c4-b12c-4928-872c-e0213854b6f8">AddEditTargetResponse.smartpart.xml</Item>
+  <Item Id="6502af80-0a75-4040-8d59-80f43aeed61f">LiveGroupViewer.smartpart.xml</Item>
+  <Item Id="ff703a28-98b7-4a6d-9fcd-a7908b05f3b1">LeadSearchAndConvert.smartpart.xml</Item>
+  <Item Id="f38808d0-4916-46eb-9b3e-165e1f674a51">EditRecurrence.smartpart.xml</Item>
+  <Item Id="9f463269-d0f6-4c2f-8bbc-32b891003a44">CompleteRecurrence.smartpart.xml</Item>
+  <Item Id="9b67074b-e1af-4920-bc94-6c666de6da88">AssignLeads.smartpart.xml</Item>
+</ModelItems>

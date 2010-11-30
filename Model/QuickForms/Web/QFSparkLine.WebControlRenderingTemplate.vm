@@ -1,0 +1,44 @@
+#if(${qfcontrol.Caption} != "")
+#if($qfcontrol.ControlLabelPlacement == "left")
+ <div class="#if(${qfcontrol.ColumnSpan} == 2)twocollbl#else lbl#end#if(${qfcontrol.ColumnSpan} > 2) colspan3#end#if(${qfcontrol.CaptionAlignment} == "right") alignright#elseif(${qfcontrol.CaptionAlignment} == "center") aligncenter#else alignleft#end">
+   <asp:Label ID="${qfcontrol.LabelId}" runat="server" Text="<%$ resources: ${qfcontrol.ControlId}.Caption %>" #if(!$qfcontrol.Visible)Visible="false" #end></asp:Label>
+ </div>   
+#elseif($qfcontrol.ControlLabelPlacement == "top")
+ <div class="lbltop#if(${qfcontrol.CaptionAlignment} == "right") alignright#elseif(${qfcontrol.CaptionAlignment} == "center") aligncenter#else alignleft#end">
+   <asp:Label ID="${qfcontrol.LabelId}" runat="server" Text="<%$ resources: ${qfcontrol.ControlId}.Caption %>" #if(!$qfcontrol.Visible)Visible="false" #end></asp:Label>
+ </div>   
+#end #end
+<div class="textcontrol">
+    <div id="${qfcontrol.QuickFormDefinition.Name}_${qfcontrol.ControlID}"></div>
+</div>
+#if((${qfcontrol.Caption} != "") && ($qfcontrol.ControlLabelPlacement == "right"))
+ <div class="lblright#if(${qfcontrol.CaptionAlignment} == "right") alignright#elseif(${qfcontrol.CaptionAlignment} == "center") aligncenter#else alignleft#end">
+   <asp:Label ID="${qfcontrol.LabelId}" runat="server" Text="<%$ resources: ${qfcontrol.ControlId}.Caption %>" #if(!${qfcontrol.Visible})Visible="false" #end></asp:Label>
+ </div>   
+#end
+
+<div runat="server" id="${qfcontrol.ControlID}" style="display:none" >
+$(document).ready(setup${qfcontrol.QuickFormDefinition.Name}_${qfcontrol.ControlID}spark);
+function setup${qfcontrol.QuickFormDefinition.Name}_${qfcontrol.ControlID}spark(){
+    run${qfcontrol.QuickFormDefinition.Name}_${qfcontrol.ControlID}spark();
+    if (Sys) { Sys.WebForms.PageRequestManager.getInstance().add_pageLoaded(run${qfcontrol.QuickFormDefinition.Name}_${qfcontrol.ControlID}spark); }
+}
+function run${qfcontrol.QuickFormDefinition.Name}_${qfcontrol.ControlID}spark() {
+    GetCurrentEntity();
+    var id = strEntityId;
+    var datasource = {
+        'type':'mashup',
+        'datavaluename':'result',
+        'params':{'mashup':'${qfcontrol.DataSource.MashupName}','result':'${qfcontrol.DataSource.ResultName}','EntityId':strEntityId}
+    };
+
+    var config = {
+        'renderTo':'${qfcontrol.QuickFormDefinition.Name}_${qfcontrol.ControlID}',
+        'data':datasource,
+        'paramdataname':#if(${qfcontrol.Definition.SparkLineType} == 'bullet') 'value',#else 'd',#end
+        'params':${qfcontrol.Definition.ToJson}
+    }
+    var spark = new SparkLine(config);
+}
+</div>
+$generator.addFormLoadCode("ScriptManager.RegisterClientScriptBlock(this, GetType(), &quot;${qfcontrol.ControlID}_script&quot;, ${qfcontrol.ControlID}.InnerText, true);")

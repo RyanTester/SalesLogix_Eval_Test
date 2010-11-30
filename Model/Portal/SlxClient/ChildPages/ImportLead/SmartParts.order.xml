@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="df5f4218-c5fd-4992-83d5-64ec34b64f7f">ImportLeadsWizard.smartpart.xml</Item>
+  <Item Id="0f7a2b06-bb3a-4b88-b074-4a2a45dcef65">ImportLeadTemplates.smartpart.xml</Item>
+  <Item Id="8d3bab49-fc2e-4a21-9d7c-e7f5dc66fb9e">MatchOptions.smartpart.xml</Item>
+  <Item Id="724aa9b4-aadc-422b-ad72-c8e85e6e1d7e">ImportRunTest.smartpart.xml</Item>
+  <Item Id="2cb690a5-c767-4135-8a0c-f7664019fe1a">ImportActionAddNote.smartpart.xml</Item>
+  <Item Id="e78d9492-287f-4ef9-977f-17b49dcdf24a">ImportActionAddResponse.smartpart.xml</Item>
+  <Item Id="3c84682e-17a2-4acf-bd50-012614f3d890">ImportActionScheduleActivity.smartpart.xml</Item>
+  <Item Id="04fd430e-d6e6-44a5-ac4c-583b8a218961">ImportActionAddTarget.smartpart.xml</Item>
+</ModelItems>

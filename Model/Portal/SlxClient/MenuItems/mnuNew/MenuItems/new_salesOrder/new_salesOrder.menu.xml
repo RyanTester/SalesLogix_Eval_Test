@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="4bd1f473-0b96-497b-85b3-0adf49c560e0">
+  <ItemId>new_salesOrder</ItemId>
+  <NavUrl>InsertSalesOrder.aspx?modeid=Insert</NavUrl>
+  <LargeImageUrl>[Localization!Global_Images:Sales_Order_24x24]</LargeImageUrl>
+  <SmallImageUrl>[Localization!Global_Images:Sales_Order_16x16]</SmallImageUrl>
+  <ContextMenuId />
+  <Target />
+</MenuDropDownItem>

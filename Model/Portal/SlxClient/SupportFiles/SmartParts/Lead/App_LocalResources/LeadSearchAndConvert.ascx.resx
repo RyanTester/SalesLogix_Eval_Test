@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LeadSearchAndConvert_ClientScript" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>LeadSearchAndConvert_ClientScript.js;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="cmdCancel.Caption" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="cmdConvert.Caption" xml:space="preserve">
+    <value>Convert</value>
+  </data>
+  <data name="cmdMerge.Caption" xml:space="preserve">
+    <value>Merge</value>
+  </data>
+  <data name="cmdSearchOptions.Caption" xml:space="preserve">
+    <value>Advanced Options</value>
+  </data>
+  <data name="cmdUpdateMatches.Caption" xml:space="preserve">
+    <value>Update Potential Matches</value>
+  </data>
+  <data name="ddlAccountConflicts_Item_AccountWins" xml:space="preserve">
+    <value>Account Wins</value>
+  </data>
+  <data name="ddlAccountConflicts_Item_LeadWins" xml:space="preserve">
+    <value>Lead Wins</value>
+  </data>
+  <data name="grdAccount.AddContact.ColumnHeading" xml:space="preserve">
+    <value>Add Contact</value>
+  </data>
+  <data name="grdAccountMatches.Account.ColumnHeading" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="grdAccountMatches.Industry.ColumnHeading" xml:space="preserve">
+    <value>Industry</value>
+  </data>
+  <data name="grdAccountMatches.MainPhone.ColumnHeading" xml:space="preserve">
+    <value>Main Phone</value>
+  </data>
+  <data name="grdAccountMatches.Type.ColumnHeading" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="grdAccountMatches.WebAddress.ColumnHeading" xml:space="preserve">
+    <value>Web Address</value>
+  </data>
+  <data name="grdLead.Company.ColumnHeading" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="grdLead.EmptyTableRowText" xml:space="preserve">
+    <value>An error occured loading the source record.</value>
+  </data>
+  <data name="grdMatches.CityStateZip.ColumnHeading" xml:space="preserve">
+    <value>City/State/Postal Code</value>
+  </data>
+  <data name="grdMatches.Company.ColumnHeading" xml:space="preserve">
+    <value>Account/Company</value>
+  </data>
+  <data name="grdMatches.Email.ColumnHeading" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="grdMatches.EmptyTableRowText" xml:space="preserve">
+    <value>No records match the selection criteria.</value>
+  </data>
+  <data name="grdMatches.FirstName.ColumnHeading" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="grdMatches.Industry.ColumnHeading" xml:space="preserve">
+    <value>Industry</value>
+  </data>
+  <data name="grdMatches.LastName.ColumnHeading" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="grdMatches.Merge.ColumnHeading" xml:space="preserve">
+    <value>Merge</value>
+  </data>
+  <data name="grdMatches.Score.ColumnHeading" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="grdMatches.Select.ColumnHeading" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="grdMatches.Title.ColumnHeading" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="grdMatches.Type.ColumnHeading" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="grdMatches.Web.ColumnHeading" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="grdMatches.WorkPhone.ColumnHeading" xml:space="preserve">
+    <value>Work Phone</value>
+  </data>
+  <data name="lblAccountConflicts.Caption" xml:space="preserve">
+    <value>Conflicts:</value>
+  </data>
+  <data name="lblAccountMatches.Caption" xml:space="preserve">
+    <value>Matched Account Records (Top ten matches displayed)</value>
+  </data>
+  <data name="lblCompany.Caption" xml:space="preserve">
+    <value>Company:</value>
+  </data>
+  <data name="lblContacts.Caption" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="lblCreateOpportunity.Caption" xml:space="preserve">
+    <value>Create Opportunity after Lead conversion or merge</value>
+  </data>
+  <data name="lblEmail.Caption" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="lblFilterDesc.Caption" xml:space="preserve">
+    <value>(Must match all values selected)</value>
+  </data>
+  <data name="lblLeads.Caption" xml:space="preserve">
+    <value>Lead</value>
+  </data>
+  <data name="lblMatchesFound.Caption" xml:space="preserve">
+    <value>Matched Contact/Lead Records (Top ten matches displayed)</value>
+  </data>
+  <data name="lblMatchFilters.Caption" xml:space="preserve">
+    <value>Match Filters</value>
+  </data>
+  <data name="lblMatchTypes.Caption" xml:space="preserve">
+    <value>Type:</value>
+  </data>
+  <data name="lblMergeText.Text" xml:space="preserve">
+    <value>Select the record that you want to remain as the primary, then make adjustments for the fields in the other record that should be preserved.</value>
+  </data>
+  <data name="lblOptions.Caption" xml:space="preserve">
+    <value>Options:</value>
+  </data>
+  <data name="lblTitle.Caption" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="lblWeb.Caption" xml:space="preserve">
+    <value>Web:</value>
+  </data>
+  <data name="rdgLeads_Item.Text" xml:space="preserve">
+    <value>Leads only</value>
+  </data>
+  <data name="rdgMatchAll_Item.Text" xml:space="preserve">
+    <value>Match all selected filters</value>
+  </data>
+  <data name="rdgMatchAny_Item.Text" xml:space="preserve">
+    <value>Match any of the selected filters</value>
+  </data>
+  <data name="cmdInsert.Caption" xml:space="preserve">
+    <value>Insert Lead</value>
+  </data>
+  <data name="grdAccountMatches.Score.ColumnHeading" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="LoadErrorMSG" xml:space="preserve">
+    <value>Lead convert view is not available please contact the system administrator: {0}</value>
+  </data>
+  <data name="Resolved.InsertedNewLead" xml:space="preserve">
+    <value>Inserted New Lead:{0}</value>
+  </data>
+  <data name="Resolved.MergedWithContact" xml:space="preserve">
+    <value>Merged With Contact:{0}</value>
+  </data>
+  <data name="Resolved.MergedWithLead" xml:space="preserve">
+    <value>Merged With Lead:{0}</value>
+  </data>
+  <data name="Error_MergingRecords" xml:space="preserve">
+    <value>Error merging records: {0}</value>
+  </data>
+  <data name="Opportunity_Description" xml:space="preserve">
+    <value>Opportunity for {0}</value>
+  </data>
+  <data name="Filter.Address.City" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="Filter.Address.PostalCode" xml:space="preserve">
+    <value>Postal Code/Zip</value>
+  </data>
+  <data name="Filter.Address.State" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="Filter.Company" xml:space="preserve">
+    <value>Account/Company</value>
+  </data>
+  <data name="Filter.EMail" xml:space="preserve">
+    <value>E-Mail</value>
+  </data>
+  <data name="Filter.FirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Filter.Industry" xml:space="preserve">
+    <value>Industry</value>
+  </data>
+  <data name="Filter.LastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Filter.Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Filter.TollFree" xml:space="preserve">
+    <value>Toll Free</value>
+  </data>
+  <data name="Filter.WebAddress" xml:space="preserve">
+    <value>Web Address</value>
+  </data>
+  <data name="Filter.WorkPhone" xml:space="preserve">
+    <value>Work Phone</value>
+  </data>
+</root>

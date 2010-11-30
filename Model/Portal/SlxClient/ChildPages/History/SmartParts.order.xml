@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="5ee3ab47-bad0-4e98-a64b-dee0a5872796">HistoryDetails.smartpart.xml</Item>
+  <Item Id="e8b4a373-60f9-4f28-ab50-03dc7c6e441e">AttachmentList.smartpart.xml</Item>
+  <Item Id="994fdd48-0091-4fb8-82b2-695f63281d65">HistoryCommandController.smartpart.xml</Item>
+</ModelItems>

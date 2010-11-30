@@ -1,0 +1,60 @@
+﻿body 
+{
+	font-family : Verdana, Tahoma, Times New Roman;
+	font-size : 12px;
+}
+select{
+	width:600px;
+}
+.title
+{
+	font-family: Times New Roman;
+	font-size : 20px;
+	font-weight : bold;
+	color : Navy;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.linkHeader
+{
+	background-color : #ECECEC;
+	border-bottom : solid 1px navy;
+	padding : 5px;
+}
+.renderedObject
+{
+	border : solid 1px navy;
+}
+.objLabel
+{
+	font-weight: bold;
+	font-size: 10px;
+	padding-right : 10px;
+	width: 100px;
+}
+.objSet
+{
+	padding : 3px;
+}
+.objValue
+{
+	font-size: 10px;
+}
+.notFound{
+	font-family: Times New Roman;
+	font-size : 14px;
+	font-weight : bold;
+	color : Red;
+	padding-left:14px;
+}
+.postMessagePanel{
+	margin-top : 10px;
+	border : solid 1px navy;
+}
+.resultsDiv{
+	width: 100%;
+	height: 300px;
+	overflow : auto;
+	border: 1px solid navy;
+}
+

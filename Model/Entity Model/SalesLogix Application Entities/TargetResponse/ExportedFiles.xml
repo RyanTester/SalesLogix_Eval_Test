@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TargetResponse\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:55.5170" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TargetResponse\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:55.5170" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TargetResponse\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:55.5500" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TargetResponse\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:55.5500" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TargetResponse\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:55.5330" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TargetResponse\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:55.5500" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TargetResponse\OnCreate.method.xml" timeStamp="2009-11-19T20:10:55.5500" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\TargetResponse\TargetResponse.TARGETRESPONSE.entity.xml" timeStamp="2009-11-19T20:10:55.5500" />
+</exportedFiles>

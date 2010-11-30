@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="2a850d1b-845a-4752-9cc3-8c2003cec854">
+  <SmartPartId>ManageStages</SmartPartId>
+  <SmartPart>SmartParts\OpportunitySalesProcess\ManageStages.ascx</SmartPart>
+  <TargetWorkspace>DialogWorkspace</TargetWorkspace>
+  <ShowInMode>Detail</ShowInMode>
+  <Properties />
+</SmartPartMapping>

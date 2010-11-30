@@ -1,0 +1,26 @@
+<div class="dependency">
+<SalesLogix:DependencyLookupControl runat="server" ID="${qfcontrol.ControlId}" #if($qfcontrol.HotKey != "")AccessKey="$qfcontrol.HotKey" #end
+#if($qfcontrol.ToolTip != "") ToolTip="<%$ resources: ${qfcontrol.ControlId}.ToolTip %>" #end
+#if($qfcontrol.IsReadOnly)ReadOnly="true" #end
+#if(!$qfcontrol.Enabled)Enabled="false" #end LabelCssClass=#if(${qfcontrol.ControlLabelPlacement} == "top")"lbltop" #elseif(${qfcontrol.ControlLabelPlacement} == "right")"lblright" #else"lbl" #end
+#if($qfcontrol.TabIndex > 0)TabIndex="$qfcontrol.TabIndex" #end
+#if($qfcontrol.StyleScheme != "")CssClass="$qfcontrol.StyleScheme" #end
+#if(!$qfcontrol.Visible)Visible="false" #end
+#if($qfcontrol.ButtonToolTip != "")ButtonToolTip="<%$ resources: ${qfcontrol.ControlId}.ButtonToolTip %>" #end
+#if(($qfcontrol.AutoPostBack) || ($qfcontrol.HasActionCode))AutoPostBack="true" #end >
+<LookupResultsHeaderStyle BackColor="ActiveCaption" Font-Bold="True" ForeColor="White" />
+<LookupDialogStyle BackColor="ButtonFace" />
+<LookupResultsStyle CellPadding="4" ForeColor="Black" />
+<DependentLookups>
+#foreach($lookup in $qfcontrol.DependentLookups)
+ <SalesLogix:DependentLookup LookupEntityName="${lookup.LookupEntityName}" LookupEntityTypeName="${lookup.LookupEntityTypeName}" DropDownDisplayProperty="${lookup.DropDownDisplayProperty}" ParentProperty="${lookup.ParentProperty}" PropertyDisplay="$qfcontrol.GetDisplay(${lookup.DropDownDisplayProperty})" BindingPropertyName="${lookup.BindingPropertyName}">
+  </SalesLogix:DependentLookup>
+#end
+  </DependentLookups>
+  <LookupPreFilters>
+    #foreach($lprop in $qfcontrol.LookupPreFilters)
+    <SalesLogix:LookupPreFilter PropertyName="$lprop.PropertyName" PropertyType="$lprop.PropertyType" OperatorCode="$lprop.OperatorCode"   FilterValue="$lprop.FilterValue"></SalesLogix:LookupPreFilter>
+    #end
+  </LookupPreFilters>
+</SalesLogix:DependencyLookupControl>
+</div>

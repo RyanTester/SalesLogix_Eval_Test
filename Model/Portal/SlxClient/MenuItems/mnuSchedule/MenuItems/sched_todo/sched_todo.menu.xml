@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<MenuDropDownItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="45764358-b22f-4e55-a80f-4372d6f22ac4">
+  <ItemId>sched_todo</ItemId>
+  <NavUrl>javascript:Link.scheduleToDo();</NavUrl>
+  <LargeImageUrl>[Localization!Global_Images:Schdedule_To_Do_24x24]</LargeImageUrl>
+  <SmallImageUrl>[Localization.Global_Images:Schdedule_To_Do_16x16]</SmallImageUrl>
+  <ContextMenuId />
+  <Target />
+</MenuDropDownItem>

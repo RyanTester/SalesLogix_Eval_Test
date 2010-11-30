@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="1ee79ffc-66aa-4d2f-aa35-524b897bd217" lastModifiedUtc="2008-01-14T20:04:50.097975Z" name="CopyContract" returnType="void" methodType="Rule" actionType="None" returnMode="None" isInstance="true">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="238c2e0c-8612-40e1-a490-988a9920c944" paramName="newContract" sequence="0" paramType="IContract" />
+    <OrmEntityMethodParam id="633ac9a3-561f-4986-8999-da569ba781fd" paramName="requestID" sequence="0" paramType="String" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="80b793eb-f81c-43a0-b886-f1b62a136e91" lastModifiedUtc="2008-01-14T20:06:38.70735Z" targetType="Sage.SalesLogix.Contract.Rules, Sage.SalesLogix.BusinessRules" targetMethod="CopyContract" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

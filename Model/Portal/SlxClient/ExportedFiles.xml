@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems.order.xml" timeStamp="2009-11-19T20:10:57.9200" />
+  <exportedFile url="\Portal\SlxClient\MenuItems.order.xml" timeStamp="2009-11-19T20:10:57.9200" />
+  <exportedFile url="\Portal\SlxClient\Modules.order.xml" timeStamp="2009-11-19T20:10:57.9200" />
+  <exportedFile url="\Portal\SlxClient\NavigationGroups.order.xml" timeStamp="2009-11-19T20:10:57.9500" />
+  <exportedFile url="\Portal\SlxClient\Services.order.xml" timeStamp="2009-11-19T20:10:57.9500" />
+  <exportedFile url="\Portal\SlxClient\SlxClient.portal.xml" timeStamp="2009-11-19T20:10:57.9200" />
+  <exportedFile url="\Portal\SlxClient\SlxClient.portal.xml.resx" timeStamp="2009-11-19T20:10:57.9970" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles.def.xml" timeStamp="2010-01-19T23:08:58.2770" />
+  <exportedFile url="\Portal\SlxClient\Tasklets.order.xml" timeStamp="2009-11-19T20:10:57.9830" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\" />
+  <exportedFile url="\Portal\SlxClient\ContextMenuItems\" />
+  <exportedFile url="\Portal\SlxClient\Deployment\" />
+  <exportedFile url="\Portal\SlxClient\MenuItems\" />
+  <exportedFile url="\Portal\SlxClient\Modules\" />
+  <exportedFile url="\Portal\SlxClient\NavGroups\" />
+  <exportedFile url="\Portal\SlxClient\Services\" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\" />
+  <exportedFile url="\Portal\SlxClient\Tasklets\" />
+</exportedFiles>

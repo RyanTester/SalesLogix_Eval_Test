@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:ignoredWords="Gainey;decompilation;Admin;N;AccountID;USERINFO;AccountManagerID;UserID;USERPROFILE;t" MadCap:comment="071102JM: Table style.KC 4/9/02: Merged versions from all Help files." MadCap:timeEstimate="0" MadCap:priority="0" MadCap:check_list="First Draft" MadCap:status="In Progress" MadCap:lastBlockDepth="5" MadCap:lastHeight="480" MadCap:lastWidth="607" MadCap:conditions="Output.WebClient" MadCap:tocPath="" MadCap:PathToHelpSystem="../../" MadCap:SearchType="Stem">
+    <!-- saved from url=(0014)about:internet -->
+    <head><title>Cascade Options</title>
+        <link rel="StyleSheet" href="../SALESLOGIX.CSS" />
+        <script src="../SkinSupport/MadCapUtilities.js">
+        </script>
+        <script src="../SkinSupport/MadCapBody.js">
+        </script>
+        <script src="../SkinSupport/MadCapHighlighter.js">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor414"></a>Cascade Options</h1>
+        <table wrapperparagraphselector="P" style="width: 396px;margin-left: 4.50pt;margin-top: 14pt;border-spacing: 0px;border-spacing: 0px;" cellspacing="0" width="396">
+            <tr>
+                <td style="width: 131px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="131px" class="Tabletop">
+                    <p class="Tabletop">Select</p>
+                </td>
+                <td style="width: 265px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="265px" class="Tabletop">
+                    <p class="Tabletop">To</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 131px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="131px" class="Table">
+                    <p class="Table">Delete</p>
+                </td>
+                <td style="width: 265px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="265px" class="Table">
+                    <p class="Table">Delete the selected record and any dependent records. </p>
+                    <p class="Table">For example, if a user is  deleted from the USERINFO table, the associated records in the USERPROFILE table  will also be deleted.        <![CDATA[ ]]></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 131px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="131px" class="Table">
+                    <p class="Table">Clear</p>
+                </td>
+                <td style="width: 265px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="265px" class="Table">
+                    <p class="Table">The key field linking the record in the secondary table is cleared out, but not  the entire record in the secondary table. <br /></p>
+                    <p class="Table">For example, if you delete a  CONTACT record, the HISTORY records associated with that contact are not  deleted, just the link to that particular contact.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 131px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="131px" class="Table">
+                    <p class="Table">Replace</p>
+                </td>
+                <td style="width: 265px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="265px" class="Table">
+                    <p class="Table">When deleting a record, clear out the key field linking the record in a  secondary table, but not the record itself. Replace the key field with another  ID. </p>
+                    <p class="Table">For example, if a user is deleted from the USERINFO table, replace might be  used to assign that person’s accounts to someone else.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 131px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="131px" class="Table">
+                    <p class="Table">Delete (Stop cascade)</p>
+                </td>
+                <td style="width: 265px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="265px" class="Table">
+                    <p class="Table">Delete the selected record, but do not delete any dependent 
+ records. </p>
+                    <p class="Table">For example, if a user is deleted from the USERINFO table, 
+ the associated HISTORY records do not change at all.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 117px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="117px" class="Table">
+                    <p class="Table">Ignore (Don’t use in cascade)</p>
+                </td>
+                <td style="width: 278px;padding-left: 1px;padding-top: 1px;padding-right: 1px;padding-bottom: 1px;" valign="top" width="278px" class="Table">
+                    <p class="Table">When deleting a record, skip this table as if it did not 
+ exist.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="RelatedTopics">Related Topics</p>
+        <p><a href="querybuilderoverview.htm" target="_self">Query Builder Overview</a>
+        </p>
+        <div style="width: 100%;position: relative;">
+            <p>
+            </p>
+            <p style="border-top-style: Groove;border-top-color: #c0c0c0;border-top-width: 1px;">&#160;</p>
+            <p><![CDATA[ ]]><a href="../General/feedback.htm" target="_blank">Tell us how we can make the Help better.</a></p>
+        </div>
+        <script type="text/javascript" src="../SkinSupport/MadCapBodyEnd.js">
+        </script>
+    </body>
+</html>

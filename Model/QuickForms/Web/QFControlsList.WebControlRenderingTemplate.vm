@@ -1,0 +1,9 @@
+<asp:Panel runat="server" ID="${qfcontrol.ControlId}" CssClass="controlslist #if($qfcontrol.StyleScheme != "")${qfcontrol.StyleScheme}#end"
+#if(${qfcontrol.IsReadOnly} || (!$qfcontrol.Enabled))Enabled="false" #end
+#if($qfcontrol.ToolTip != "")ToolTip="<%$ resources: ${qfcontrol.ControlId}.ToolTip %>" #end
+#if(!$qfcontrol.Visible)Visible="false" #end
+>
+#foreach($control in ${qfcontrol.Controls})
+  $pagegenerator.parseControl($control)
+#end
+</asp:Panel>$pagegenerator.addToFormLoadCode('ScriptManager.RegisterStartupScript(Page, GetType(), "cleanupcontainer", "jQuery(\".controlslist > div:empty\").remove();", true);')

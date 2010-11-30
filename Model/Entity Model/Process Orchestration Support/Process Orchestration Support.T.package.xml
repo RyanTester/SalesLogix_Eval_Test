@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="f4ce988e-1387-4ae3-9ab9-e85b425097f7" lastModifiedUtc="2008-02-21T23:28:31.4954858Z" name="Process Orchestration Support" include="true">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmPackage">
+      <extender guid="77e6083e-e756-4ab9-a116-8db03cdc593f">
+        <OrmPackageMetadataExtension>
+          <DefaultNamespace>Sage.ProcessOrchestration</DefaultNamespace>
+          <AssemblyName>Sage.ProcessOrchestration</AssemblyName>
+          <GenerateAssembly>true</GenerateAssembly>
+          <GenerateInterfaces>true</GenerateInterfaces>
+          <InterfaceProjectGuid>3ac6f0aa-f233-4471-8ec1-20c6544bc924</InterfaceProjectGuid>
+          <PersistenceProjectGuid>34bf386e-123c-48b2-9963-d2582f91e525</PersistenceProjectGuid>
+        </OrmPackageMetadataExtension>
+      </extender>
+    </extendee>
+  </ExtendedPropertiesCollection>
+  <defaultInterfaceTemplateId>5e8b7df7-0ec3-46b3-b8f4-f7bde7d5a6a3</defaultInterfaceTemplateId>
+  <defaultClassTemplateId>4040a9aa-f9bf-4204-83d8-d5eb4da3e475</defaultClassTemplateId>
+  <defaultMappingTemplateId>b9ab7051-97ec-4b2d-9932-77ac29099ac7</defaultMappingTemplateId>
+  <defaultResxTemplateId>99be1b14-a8f6-4b61-8d33-b5f7592b011b</defaultResxTemplateId>
+  <defaultResxClassTemplateId>7067c649-cd9a-4498-9e87-c5851ae8a8b3</defaultResxClassTemplateId>
+</package>

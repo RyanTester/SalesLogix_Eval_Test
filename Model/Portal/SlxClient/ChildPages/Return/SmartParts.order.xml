@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="d01ea23e-25ed-42a1-b145-d5cf03044cbf">AttachmentList.smartpart.xml</Item>
+  <Item Id="1c812a47-191e-4815-ac87-adb4f160efb1">ReturnDetails.smartpart.xml</Item>
+  <Item Id="7b7e3faa-8398-4c47-bd37-8eef381b9327">ReturnShipToDetail.smartpart.xml</Item>
+  <Item Id="b7be09cc-d80d-4be4-adf1-aee950c303b6">ReturnExtendedDetails.smartpart.xml</Item>
+  <Item Id="9ee28c9b-7c51-43d2-ac52-407f03f41dd9">ReturnDefects.smartpart.xml</Item>
+  <Item Id="3442ec26-88f2-4518-9229-bb61c9e64825">ReturnComments.smartpart.xml</Item>
+  <Item Id="814a0657-a29d-49ae-9193-291f6be7aaa9">AddEditReturnShippedProduct.smartpart.xml</Item>
+  <Item Id="ec8c50ff-ca5b-446e-85dd-27c9832bde41">LiveGroupViewer.smartpart.xml</Item>
+</ModelItems>

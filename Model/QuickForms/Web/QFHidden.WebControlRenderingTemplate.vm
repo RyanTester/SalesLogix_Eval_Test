@@ -1,0 +1,1 @@
+<asp:HiddenField ID="${qfcontrol.ControlId}" Value="#if($qfcontrol.Value != "")<%$ resources: ${qfcontrol.ControlId}.Value %>#end" runat="server" />

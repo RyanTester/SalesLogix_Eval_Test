@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxIntellisync\SupportFiles\Default.aspx" timeStamp="2009-11-19T20:11:22.4100" />
+  <exportedFile url="\Portal\SlxIntellisync\SupportFiles\Default.aspx.cs" timeStamp="2009-11-19T20:11:22.4570" />
+  <exportedFile url="\Portal\SlxIntellisync\SupportFiles\deployables.manifest.xml" timeStamp="2009-11-19T20:13:16.2000" />
+  <exportedFile url="\Portal\SlxIntellisync\SupportFiles\Diagnostics.aspx" timeStamp="2009-11-19T20:11:22.5500" />
+  <exportedFile url="\Portal\SlxIntellisync\SupportFiles\Diagnostics.aspx.cs" timeStamp="2009-11-19T20:11:22.4730" />
+  <exportedFile url="\Portal\SlxIntellisync\SupportFiles\dynamicmethods.xml" timeStamp="2009-11-19T20:13:16.2000" />
+  <exportedFile url="\Portal\SlxIntellisync\SupportFiles\Global.asax" timeStamp="2009-11-19T20:13:16.1700" />
+  <exportedFile url="\Portal\SlxIntellisync\SupportFiles\log4net.config" timeStamp="2009-11-19T20:13:16.1700" />
+  <exportedFile url="\Portal\SlxIntellisync\SupportFiles\Web.config" timeStamp="2009-11-19T20:13:16.2300" />
+  <exportedFile url="\Portal\SlxIntellisync\SupportFiles\App_LocalResources\" />
+  <exportedFile url="\Portal\SlxIntellisync\SupportFiles\Bin\" />
+  <exportedFile url="\Portal\SlxIntellisync\SupportFiles\css\" />
+  <exportedFile url="\Portal\SlxIntellisync\SupportFiles\Images\" />
+  <exportedFile url="\Portal\SlxIntellisync\SupportFiles\Masters\" />
+</exportedFiles>

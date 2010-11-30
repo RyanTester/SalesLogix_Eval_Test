@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LitRequest\Contact.filter.xml" timeStamp="2009-11-19T20:10:53.2100" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LitRequest\LitRequest.LITREQUEST.entity.xml" timeStamp="2009-11-19T20:10:53.2700" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LitRequest\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:53.2400" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LitRequest\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:53.2400" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LitRequest\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:53.2400" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LitRequest\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:53.2400" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LitRequest\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:53.2400" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LitRequest\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:53.2400" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LitRequest\OnCreate.method.xml" timeStamp="2009-11-19T20:10:53.2400" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LitRequest\Priority.filter.xml" timeStamp="2009-11-19T20:10:53.2570" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\LitRequest\SendVia.filter.xml" timeStamp="2009-11-19T20:10:53.2700" />
+</exportedFiles>

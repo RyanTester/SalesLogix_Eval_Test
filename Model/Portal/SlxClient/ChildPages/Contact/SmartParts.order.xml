@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<ModelItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Item Id="d430291f-cf1e-478a-921c-55f4ad5ea66d">ContactDetails.smartpart.xml</Item>
+  <Item Id="ec0b5b9f-3c55-4116-a641-1647f3852c16">ContactExtendedDetails.smartpart.xml</Item>
+  <Item Id="a465c5dd-bada-4500-ba30-a9daee6c2497">ContactOpportunities.smartpart.xml</Item>
+  <Item Id="0dca39dc-9228-4e43-acac-345783625c84">NotesList.smartpart.xml</Item>
+  <Item Id="5646a1bb-ae8e-4217-a854-013c4bc3538e">HistoryList.smartpart.xml</Item>
+  <Item Id="48f83005-6e12-4717-9438-e8082b907ca5">ActivityList.smartpart.xml</Item>
+  <Item Id="4a40248f-fcc3-491e-ad74-a6b19c624ed5">ContactTickets.smartpart.xml</Item>
+  <Item Id="127fcb2e-7b73-45e2-9444-cac48c9ebf44">ContactProcesses.smartpart.xml</Item>
+  <Item Id="cc794c4a-7ee1-4d29-87bb-3ab981ede2c4">ContactAssociations.smartpart.xml</Item>
+  <Item Id="142cbe99-0bba-4f4f-93be-3b22cc9992a6">ContactAddresses.smartpart.xml</Item>
+  <Item Id="1487fead-3234-4e38-ab09-fe2ea248d2f8">AttachmentList.smartpart.xml</Item>
+  <Item Id="310f1ee6-1286-4331-82d7-2f8fdeedaae1">ContactLeadSources.smartpart.xml</Item>
+  <Item Id="594f86ed-92a5-416b-bb50-54811ec3d372">ContactLiteratureRequests.smartpart.xml</Item>
+  <Item Id="2cd73904-c564-4811-a96c-c2e75f70bd29">ContactMarketing.smartpart.xml</Item>
+  <Item Id="7fb55e09-dd92-4ab7-953b-737a73065c41">ContactResponses.smartpart.xml</Item>
+  <Item Id="77a45207-dfc6-4048-ac61-b40f3bd210e6">WebAccess.smartpart.xml</Item>
+  <Item Id="f818fee7-e32e-4b93-8bb5-732beacfc284">AddEditContactAssociation.smartpart.xml</Item>
+  <Item Id="9ec2d81b-1a5d-47f5-b14a-08543bdebcf6">ScheduleProcess.smartpart.xml</Item>
+  <Item Id="23686003-f082-4315-8a6a-e3319eff1a29">UpdateContactOptions.smartpart.xml</Item>
+  <Item Id="d0061813-5a73-4015-9c23-0fa0ac4ebc2c">MoveContact.smartpart.xml</Item>
+  <Item Id="b6af47e0-5fbf-429d-b404-2c99a5d69e92">AddEditContactLeadSource.smartpart.xml</Item>
+  <Item Id="d82ea0b0-9a00-4a20-8cb8-af98b7bc545f">EditRecurrence.smartpart.xml</Item>
+  <Item Id="80589091-aa51-407f-9b6f-161fb576a340">AddEditAddress.smartpart.xml</Item>
+  <Item Id="784121a8-12cc-40c1-b995-04036f9c0a0c">CompleteRecurrence.smartpart.xml</Item>
+  <Item Id="4d0b4359-6266-42f8-9124-438f82a15ad5">AddEditTargetResponse.smartpart.xml</Item>
+  <Item Id="b19a1a30-ba90-4406-aa5d-1eaae448dbcf">LiveGroupViewer.smartpart.xml</Item>
+</ModelItems>

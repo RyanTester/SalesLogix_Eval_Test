@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="9461c5e1-561f-469a-995d-72bb75593ada">
+  <SmartPartId>viewSQL</SmartPartId>
+  <SmartPart>SmartParts\GroupBuilder\viewSQL.ascx</SmartPart>
+  <TargetWorkspace>MainContent</TargetWorkspace>
+  <ShowInMode />
+  <Properties />
+</SmartPartMapping>

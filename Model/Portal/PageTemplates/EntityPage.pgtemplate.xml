@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<PageTemplate xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="64d0ab0e-dc39-4a77-95be-828df65089b6">
+  <TemplateName>EntityPage</TemplateName>
+  <BasePageType TypeName="Sage.Platform.WebPortal.EntityPage, Sage.Platform.WebPortal">
+    <Properties />
+  </BasePageType>
+  <Modules />
+  <Mappings />
+</PageTemplate>

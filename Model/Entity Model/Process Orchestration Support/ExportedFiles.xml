@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\Process Orchestration Support\Process Orchestration Support.T.package.xml" timeStamp="2009-11-19T20:10:48.1230" />
+  <exportedFile url="\Entity Model\Process Orchestration Support\ActivityTrackingEvent\" />
+  <exportedFile url="\Entity Model\Process Orchestration Support\ActivityTrackingEventExtract\" />
+  <exportedFile url="\Entity Model\Process Orchestration Support\ActivityTrackingEventHistory\" />
+  <exportedFile url="\Entity Model\Process Orchestration Support\ActivityTrackingEvtAntn\" />
+  <exportedFile url="\Entity Model\Process Orchestration Support\ProcessInstanceState\" />
+  <exportedFile url="\Entity Model\Process Orchestration Support\ProcessInstanceStatus\" />
+  <exportedFile url="\Entity Model\Process Orchestration Support\ProcessTrackingEvent\" />
+  <exportedFile url="\Entity Model\Process Orchestration Support\ProcessTrackingEventAnnotation\" />
+  <exportedFile url="\Entity Model\Process Orchestration Support\ProcessTrackingEventHistory\" />
+  <exportedFile url="\Entity Model\Process Orchestration Support\ProcessTypeCategory\" />
+  <exportedFile url="\Entity Model\Process Orchestration Support\ProcessTypeInformation\" />
+  <exportedFile url="\Entity Model\Process Orchestration Support\UserTrackingEvent\" />
+  <exportedFile url="\Entity Model\Process Orchestration Support\UserTrackingEventAnnotation\" />
+  <exportedFile url="\Entity Model\Process Orchestration Support\UserTrackingEvtExt\" />
+</exportedFiles>

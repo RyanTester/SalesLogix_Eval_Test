@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\History\History.HISTORY.entity.xml" timeStamp="2009-11-19T20:10:49.8700" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\History\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:49.8400" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\History\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:49.8400" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\History\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:49.8400" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\History\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:49.8400" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\History\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:49.8570" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\History\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:49.8570" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\History\OnCreate.method.xml" timeStamp="2009-11-19T20:10:49.8570" />
+  <exportedFile url="\Entity Model\SalesLogix Activity Support\History\QuickForms\" />
+</exportedFiles>

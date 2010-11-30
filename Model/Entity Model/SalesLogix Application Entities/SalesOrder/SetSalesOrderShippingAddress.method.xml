@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="fd85be94-1083-4c7e-945a-4cdae0977ef2" lastModifiedUtc="2009-04-16T21:48:49.3283371Z" name="SetSalesOrderShippingAddress" returnType="ISalesOrderAddress" methodType="Rule" actionType="None" returnMode="Object">
+  <extendedMetaData />
+  <metadata>
+    <dict />
+  </metadata>
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="1dcdf608-76fb-4752-b989-feb4d356bd2c" paramName="address" sequence="0" paramType="IAddress">
+      <description>Contact's shipping address.</description>
+    </OrmEntityMethodParam>
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="13754adb-fdbf-4569-9d87-774551c2d2a8" lastModifiedUtc="2009-04-13T15:47:07.9083017Z" targetType="Sage.SalesLogix.SalesOrder.SalesOrder, Sage.SalesLogix.BusinessRules" targetMethod="SetSalesOrderShippingAddress" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

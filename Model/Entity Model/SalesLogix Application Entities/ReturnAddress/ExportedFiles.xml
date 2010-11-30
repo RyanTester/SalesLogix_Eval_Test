@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ReturnAddress\FormatFullReturnAddress.method.xml" timeStamp="2009-11-19T20:10:54.7830" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ReturnAddress\GetFullAddress.method.xml" timeStamp="2009-11-19T20:10:54.7830" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ReturnAddress\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:54.8000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ReturnAddress\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:54.8000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ReturnAddress\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:54.8000" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ReturnAddress\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:54.8170" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ReturnAddress\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:54.8170" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ReturnAddress\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:54.8170" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ReturnAddress\OnCreate.method.xml" timeStamp="2009-11-19T20:10:54.8300" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ReturnAddress\ReturnAddress.RMAADDRESS.entity.xml" timeStamp="2009-11-19T20:10:54.8630" />
+  <exportedFile url="\Entity Model\SalesLogix Application Entities\ReturnAddress\Sage.SnippetLibrary.CSharp.@.aa6acd1e-9bf2-4bdd-8fdf-72366be412ca.codesnippet.cs" timeStamp="2009-11-19T20:10:54.8770" />
+</exportedFiles>

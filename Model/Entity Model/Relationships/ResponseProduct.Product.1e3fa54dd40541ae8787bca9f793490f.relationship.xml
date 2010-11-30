@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="1e3fa54d-d405-41ae-8787-bca9f793490f" lastModifiedUtc="2008-04-16T22:08:46.666076Z" cardinality="M:1" parentEntityId="5266b978-0645-46cb-953c-f4e5280fbf65" childEntityId="03da3a53-eab7-4bb2-bd1b-9c0c988b66d2">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="48d3620f-6dac-447b-bfb0-851c2c530b98" lastModifiedUtc="2008-04-16T22:11:10.6794184Z" name="Product" audited="false" isNullable="false">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="91b2863c-92db-4dfb-9829-a22fae7684a7" lastModifiedUtc="2008-04-16T22:11:57.957601Z" name="ResponseProducts" audited="false">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty" />
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="9ef402e8-412b-4805-b0fd-556fe146f6bf" parentPropertyId="9c80f757-8fc0-4054-821d-df0bff1cd7c0" childPropertyId="1bc2d817-6cc8-42b8-b7d1-aac17aa4146f" ordinal="0" />
+  </column>
+</relationship>

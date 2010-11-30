@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_Data\LookupValues\AlarmDefaultLead.xml" timeStamp="2009-11-19T20:11:07.3730" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_Data\LookupValues\CarryOverAttachments.xml" timeStamp="2009-11-19T20:11:07.4670" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_Data\LookupValues\CarryOverNotes.xml" timeStamp="2009-11-19T20:11:07.4670" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_Data\LookupValues\DayEnd.xml" timeStamp="2009-11-19T20:11:07.4030" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_Data\LookupValues\DayStart.xml" timeStamp="2009-11-19T20:11:07.4670" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_Data\LookupValues\DefaultAccountSearch.xml" timeStamp="2009-11-19T20:11:07.4670" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_Data\LookupValues\DefaultCalendarView.xml" timeStamp="2009-11-19T20:11:07.4670" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_Data\LookupValues\DefaultContactSearch.xml" timeStamp="2009-11-19T20:11:07.4200" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_Data\LookupValues\DefaultFollowupActivity.xml" timeStamp="2009-11-19T20:11:07.4670" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_Data\LookupValues\DefaultInterval.xml" timeStamp="2009-11-19T20:11:07.4670" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_Data\LookupValues\DefaultOpportunitySearch.xml" timeStamp="2009-11-19T20:11:07.4800" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_Data\LookupValues\DefaultView.xml" timeStamp="2009-11-19T20:11:07.4800" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_Data\LookupValues\LogToHistory.xml" timeStamp="2009-11-19T20:11:07.4800" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_Data\LookupValues\ShowHistoryOnDayView.xml" timeStamp="2009-11-19T20:11:07.4800" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_Data\LookupValues\ShowHistoryOnMonthView.xml" timeStamp="2009-11-19T20:11:07.4800" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_Data\LookupValues\ShowHistoryOnWeekView.xml" timeStamp="2009-11-19T20:11:07.4970" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_Data\LookupValues\ShowOnActivities.xml" timeStamp="2009-11-19T20:11:07.4970" />
+  <exportedFile url="\Portal\SlxClient\SupportFiles\App_Data\LookupValues\TimeFrame.xml" timeStamp="2009-11-19T20:11:07.4970" />
+</exportedFiles>

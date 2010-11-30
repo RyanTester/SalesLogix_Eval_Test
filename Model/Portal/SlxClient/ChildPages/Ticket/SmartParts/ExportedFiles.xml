@@ -1,0 +1,40 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\AccountServiceInfo.smartpart.xml" timeStamp="2009-11-19T20:11:02.7700" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\AccountServiceInfo.smartpart.xml.resx" timeStamp="2009-11-19T20:11:02.8030" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\ActivityList.smartpart.xml" timeStamp="2009-11-19T20:11:02.8030" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\ActivityList.smartpart.xml.resx" timeStamp="2009-11-19T20:11:02.8170" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\AddEditTicketActivityItem.smartpart.xml" timeStamp="2009-11-19T20:11:02.8030" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\AddEditTicketActivityItem.smartpart.xml.resx" timeStamp="2009-11-19T20:11:02.8330" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\AttachmentList.smartpart.xml" timeStamp="2009-11-19T20:11:02.8030" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\AttachmentList.smartpart.xml.resx" timeStamp="2009-11-19T20:11:02.8170" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\CompleteRecurrence.smartpart.xml" timeStamp="2009-11-19T20:11:02.8170" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\CompleteRecurrence.smartpart.xml.resx" timeStamp="2009-11-19T20:11:02.8500" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\EditRecurrence.smartpart.xml" timeStamp="2009-11-19T20:11:02.8170" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\EditRecurrence.smartpart.xml.resx" timeStamp="2009-11-19T20:11:02.8630" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\LiveGroupViewer.smartpart.xml" timeStamp="2009-11-19T20:11:02.9730" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\LiveGroupViewer.smartpart.xml.resx" timeStamp="2009-11-19T20:11:02.9730" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\SendTicketEmail.smartpart.xml" timeStamp="2009-11-19T20:11:02.9730" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\SendTicketEmail.smartpart.xml.resx" timeStamp="2009-11-19T20:11:02.9730" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\SpeedSearch.smartpart.xml" timeStamp="2009-11-19T20:11:02.9730" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\TicketActivities.smartpart.xml" timeStamp="2009-11-19T20:11:02.8500" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\TicketActivities.smartpart.xml.resx" timeStamp="2009-11-19T20:11:02.9900" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\TicketActivityParts.smartpart.xml" timeStamp="2009-11-19T20:11:02.9730" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\TicketActivityParts.smartpart.xml.resx" timeStamp="2009-11-19T20:11:03.0030" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\TicketAssets.smartpart.xml" timeStamp="2009-11-19T20:11:03.0030" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\TicketAssets.smartpart.xml.resx" timeStamp="2009-11-19T20:11:03.0200" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\TicketComments.smartpart.xml" timeStamp="2009-11-19T20:11:03.0830" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\TicketComments.smartpart.xml.resx" timeStamp="2009-11-19T20:11:03.0030" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\TicketDefects.smartpart.xml" timeStamp="2009-11-19T20:11:03.0030" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\TicketDefects.smartpart.xml.resx" timeStamp="2009-11-19T20:11:03.0370" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\TicketDetails.smartpart.xml" timeStamp="2009-11-19T20:11:03.0370" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\TicketDetails.smartpart.xml.resx" timeStamp="2009-11-19T20:11:03.0670" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\TicketExtendedDetails.smartpart.xml" timeStamp="2009-11-19T20:11:03.0370" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\TicketExtendedDetails.smartpart.xml.resx" timeStamp="2009-11-19T20:11:03.0370" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\TicketHistory.smartpart.xml" timeStamp="2009-11-19T20:11:03.0370" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\TicketHistory.smartpart.xml.resx" timeStamp="2009-11-19T20:11:03.0670" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\TicketReturns.smartpart.xml" timeStamp="2009-11-19T20:11:03.0830" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\TicketReturns.smartpart.xml.resx" timeStamp="2009-11-19T20:11:03.1000" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\TicketTimeline.smartpart.xml" timeStamp="2009-11-19T20:11:03.0830" />
+  <exportedFile url="\Portal\SlxClient\ChildPages\Ticket\SmartParts\TicketTimeline.smartpart.xml.resx" timeStamp="2009-11-19T20:11:03.1000" />
+</exportedFiles>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<exportedFiles>
+  <exportedFile url="\Entity Model\Process Orchestration Support\UserTrackingEventAnnotation\OnAfterDelete.method.xml" timeStamp="2009-11-19T20:10:48.4670" />
+  <exportedFile url="\Entity Model\Process Orchestration Support\UserTrackingEventAnnotation\OnAfterInsert.method.xml" timeStamp="2009-11-19T20:10:48.4670" />
+  <exportedFile url="\Entity Model\Process Orchestration Support\UserTrackingEventAnnotation\OnAfterUpdate.method.xml" timeStamp="2009-11-19T20:10:48.4670" />
+  <exportedFile url="\Entity Model\Process Orchestration Support\UserTrackingEventAnnotation\OnBeforeDelete.method.xml" timeStamp="2009-11-19T20:10:48.4670" />
+  <exportedFile url="\Entity Model\Process Orchestration Support\UserTrackingEventAnnotation\OnBeforeInsert.method.xml" timeStamp="2009-11-19T20:10:48.4670" />
+  <exportedFile url="\Entity Model\Process Orchestration Support\UserTrackingEventAnnotation\OnBeforeUpdate.method.xml" timeStamp="2009-11-19T20:10:48.4830" />
+  <exportedFile url="\Entity Model\Process Orchestration Support\UserTrackingEventAnnotation\OnCreate.method.xml" timeStamp="2009-11-19T20:10:48.4970" />
+  <exportedFile url="\Entity Model\Process Orchestration Support\UserTrackingEventAnnotation\UserTrackingEventAnnotation.USERTRAKNGEVTANTN.entity.xml" timeStamp="2009-11-19T20:10:48.5300" />
+</exportedFiles>

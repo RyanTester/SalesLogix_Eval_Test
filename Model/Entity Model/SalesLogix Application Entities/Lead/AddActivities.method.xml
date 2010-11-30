@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="35e44df1-3456-4e48-9d51-6ed3df10d2b1" lastModifiedUtc="2008-01-22T21:54:48.9631747Z" name="AddActivities" methodType="Rule" actionType="None" returnMode="None">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="cdcf5127-aaed-46e8-a3f7-4ed1161e7ab4" paramName="contact" sequence="0" paramType="IContact" />
+    <OrmEntityMethodParam id="8789e152-91ba-457d-b92f-78d995bf30a1" paramName="account" sequence="0" paramType="IAccount" />
+    <OrmEntityMethodParam id="43747e63-3bdf-4c93-a09c-a6f90f689cd3" paramName="opportunity" sequence="0" paramType="IOpportunity" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="d5b638d7-c8c2-4789-b88b-ed0db2e1e2c7" lastModifiedUtc="2008-06-07T22:55:46.8980354Z" targetType="Sage.SalesLogix.Lead.Rules, Sage.SalesLogix.BusinessRules" targetMethod="AddActivities" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

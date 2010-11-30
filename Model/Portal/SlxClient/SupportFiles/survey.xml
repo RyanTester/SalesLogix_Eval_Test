@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EmbeddedWorkSurvey enabled="true">
+  <Comment>The 60 and 180 offerDelayDays entries cannot be edited or deleted; they will be automatically re-generated.  Also, there can only be one unique entry per version and offerDelayDays. You can, however, add a new survey element with an existing version, like 7.5.1, and an offerDelayDays other than 60 or 180 (e.g., 90).</Comment>
+  <Surveys>
+    <Survey version="7.5.2" offerDelayDays="60" isActive="true" isRequired="false" maxAllowedDelays="4">
+      <SurveyOfferPage surveyUrl="http://www.slxsurvey.com?ver=7.5.2&amp;per=60&amp;lang=en-US" privacyUrl="http://sagesoftware.com/company/privacy.cfm" imagePath="~/SmartParts/WorkSurvey/images/SurveyOfferImage.jpg" imageAltText="Sage Software" offerDescription="We would like to invite you to participate in a brief online survey to let us know how we may be able to better serve you.  Your responses to our survey questions will be held with utmost confidence.  We appreciate the opportunity to hear from you." laterOptionText="Remind me in" yesOptionText="I want to make a difference and take the survey!" noOptionText="No thanks" okButtonText="OK" privacyLinkText="Privacy Policy" offerPageTitle="Tell Us What You Think" postponeDaysOptions="1,2,3,4,5,6,7" />
+    </Survey>
+    <Survey version="7.5.2" offerDelayDays="180" isActive="true" isRequired="false" maxAllowedDelays="4">
+      <SurveyOfferPage surveyUrl="http://www.slxsurvey.com?ver=7.5.2&amp;per=180&amp;lang=en-US" privacyUrl="http://sagesoftware.com/company/privacy.cfm" imagePath="~/SmartParts/WorkSurvey/images/SurveyOfferImage.jpg" imageAltText="Sage Software" offerDescription="We would like to invite you to participate in a brief online survey to let us know how we may be able to better serve you.  Your responses to our survey questions will be held with utmost confidence.  We appreciate the opportunity to hear from you." laterOptionText="Remind me in" yesOptionText="I want to make a difference and take the survey!" noOptionText="No thanks" okButtonText="OK" privacyLinkText="Privacy Policy" offerPageTitle="Tell Us What You Think" postponeDaysOptions="1,2,3,4,5,6,7" />
+    </Survey>    
+  </Surveys>
+</EmbeddedWorkSurvey>

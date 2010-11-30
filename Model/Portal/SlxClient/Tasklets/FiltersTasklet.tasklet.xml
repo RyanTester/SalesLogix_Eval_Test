@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Tasklet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="ab131d9c-d49c-49ce-8fb2-1b1b3eae38e1">
+  <SmartPart>SmartParts\TaskPane\Filters\Filters.ascx</SmartPart>
+  <DisplayMode>List</DisplayMode>
+  <Entities />
+  <UseCustomRendering>false</UseCustomRendering>
+</Tasklet>

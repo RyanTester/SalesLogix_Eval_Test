@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmOtherMethod" id="14c75d73-a4e1-4d55-958d-2762cf655eb7" lastModifiedUtc="2009-08-26T17:55:46.0485664Z" name="lueNameShipping_OnChange" methodType="Other" actionType="None" returnMode="None" isInstance="false">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmOtherMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="ecdd9ad8-2828-44b4-8b0a-d70f6432946d" paramName="form" sequence="0" paramType="IBillToShipTo" />
+    <OrmEntityMethodParam id="5bddec1f-073b-4f9f-a2fa-33f37dddd4a1" paramName="args" sequence="0" paramType="EventArgs" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget xsi:type="OrmMethodTargetSnippet" id="a94707a1-b8d7-411f-901a-43c552ed85d4" lastModifiedUtc="2009-08-26T17:55:30.9085664Z" targetType="Sage.BusinessRules.CodeSnippets.BillToShipToEventHandlers, Sage.SnippetLibrary.CSharp" targetMethod="lueNameShipping_OnChange" active="true" codeSnippetId="5cef2b4c-eea5-4e47-ba23-613f63e5fde0">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTargetSnippet" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets />
+  <postFlushTargets />
+</method>

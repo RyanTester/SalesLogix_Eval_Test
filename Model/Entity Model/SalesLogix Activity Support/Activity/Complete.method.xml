@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<method xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="12528ef8-5441-49cc-9810-0c957789a87c" lastModifiedUtc="2007-10-26T23:28:51.339301Z" name="Complete" returnType="IHistory" methodType="Rule" actionType="None" returnMode="Object" isInstance="true">
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmEntityMethod" />
+  </ExtendedPropertiesCollection>
+  <parameter>
+    <OrmEntityMethodParam id="8dff02d7-c960-4a3a-81d8-8d4130bbea06" paramName="userId" sequence="0" paramType="string" />
+    <OrmEntityMethodParam id="15cf27c1-b94e-4c2a-96a4-9c0eb966ea3a" paramName="result" sequence="0" paramType="string" />
+    <OrmEntityMethodParam id="d7c037d8-dfd5-413d-a2de-cedfa719e00a" paramName="resultCode" sequence="0" paramType="string" />
+    <OrmEntityMethodParam id="e766a1a8-6e52-4c53-a2c4-2ac8e0637fcf" paramName="completeDate" sequence="0" paramType="DateTime" />
+  </parameter>
+  <preExecuteTargets />
+  <methodTargets>
+    <methodTarget id="c4de2850-c8a6-4b93-9db8-385529c42d06" lastModifiedUtc="0001-01-01T00:00:00" targetType="Sage.SalesLogix.Activity.Activity, Sage.SalesLogix.Activity" targetMethod="CompleteActivity" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </methodTargets>
+  <postExecuteTargets>
+    <methodTarget id="f877f27d-0ff4-47e0-9ce0-9ea77b95ce90" lastModifiedUtc="0001-01-01T00:00:00" targetType="Sage.SalesLogix.TicketActivity.Rules, Sage.SalesLogix.BusinessRules" targetMethod="AddTicketActivityFromCompletedActivity" active="true">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmMethodTarget" />
+      </ExtendedPropertiesCollection>
+    </methodTarget>
+  </postExecuteTargets>
+  <postFlushTargets />
+</method>
